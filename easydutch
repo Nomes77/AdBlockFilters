@@ -1,0 +1,127 @@
+! [Adblock Plus 2.0]
+! Title: EasyDutch
+! Description: My own Dutch supplement for the Easylist filters
+! Last modified: 2021-03-06
+! Expires: 4 days (update frequency)
+!
+! Alleen voor advertenties op Nederlandstalige sites!
+! Rapporteer gevonden advertenties of fouten hier:
+! https://github.com/BPower0036/EasyDutch/issues
+!
+!--------Algemene blokkeerregels--------!
+-reclameplaatjes/
+/adbron.
+/adtwee/*
+/adv_tekstlinks.
+/adverteerders/*
+/advertentie-banner-
+/advertentie.*
+/advertentie/*
+/advertentie1.
+/advertentie2/*
+/advertentie_head.
+/advertentieblokje120x20.
+/advertentieblokje300x20.
+/advertenties.
+/advertenties/*$domain=~oldtimernederland.nl
+/bannerlookup.
+/big_reclames/*
+/bolcom-partnerprogramma-wordpress-plugin/*
+/img/recl/*
+/nmc/adv/*
+/pebble-adhese.
+/prikbordAdvertentie_
+/reclame-extra.
+/reclame-nieuws.$domain=~browserleaks.com
+/reclame.*=banner&
+/reclame2.
+/reclamebanners/*
+/scripts/edoris/edoris.dll?tem=ln_banner_view&
+/scripts/edoris/shared/*$object
+/small_reclames/*
+/topadvertentie.
+://promotie.$third-party
+_advertentie300x250_
+_advertentieleaderboardhome.
+!--------Specifieke blokkeerregels--------!
+||banner.klikklik.nl^
+||banners.toeto.com^
+||banners.utilo.nl^
+||ganaar.gertibaldi.com^
+||mooieplaatjes.bierdopje.com^
+.nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
+||adconfigproxy.azurewebsites.net^$third-party
+||ad-prod.ster.nl^$third-party
+||affiliatepartners.com^$third-party
+||asp.unitedconsumers.com^$third-party
+||bd.313.nl^$third-party
+||cd.tnet.nl^$script,third-party
+||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
+||cdn.ster.nl/banners^
+||csmcampagne.consumind.nl^$third-party
+||digitalaudience.io/bakery/pix/p/$image,third-party
+||ds1.nl^$third-party
+||euroclix.nl^$third-party,domain=~panelclix.com|~panelclix.nl
+||online-banners.nl^$third-party
+||partnerprogramma.bol.com^$third-party
+||schoorsteen.geenstijl.nl^$third-party
+||static.pexi.nl$third-party,script
+||static-cdn.spott.ai$third-party
+!--------Algemene verbergregels--------!
+###adRechts
+###adsense_artikel_4
+###advertentie
+###advertentieblokjeid
+###cycloneslider-advertentie2-2
+###cycloneslider-advertenties-1
+###gesponsordelink
+###middenAd2_footer
+###middenAd3_footer
+###middenAd4_footer
+###prog-sponsorlinks
+###reclame2
+###reclame_rechts
+###reclamebanner
+###reclamediv
+###rightbanner_adbest
+###semilo-lrectangle
+###sidereclame
+###vipAdmarktBannerBlock
+###vs_a2s_tag_fullsize
+##.ad_list_row_normal1
+##.ad_list_row_normal1_no_border
+##.ad_list_row_normal2
+##.ad_list_row_normal2_no_border
+##.admarkt_bottom_list_header
+##.admarkt_gallery_info
+##.adstekst
+##.advertentie
+##.advertenties
+##.advertorial_koersen_home_top
+##.aw_url_admarkt_bottom
+##.banner_advert6blok
+##.banner_advertentie_footer
+##.bericht_adv1
+##.bovenadvertentiediv
+##.category-advertentie
+##.content-rechts-ad
+##.gesponsordelink
+##.justLease_ad
+##.mp-adsense-header-top
+##.ontwerp_ads
+##.reclame
+##.reclameIndex
+##.reclamekop
+##.reclamelogos
+##.sponsorbalk
+!--------Specifieke verbergregels--------!
+%include easydutch/hide_specific.txt%
+!--------Uitzonderingen (verbergregels)--------!
+! Uitzonderingen voor EasyList
+dekrantvantoen.nl#@##headerAdv
+zeelandnet.nl#@#.ad-card
+!--------Anti-Adblock regels--------!
+@@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,domain=girlscene.nl
+@@||prerollads.nl^
+@@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
+nu.nl##+js(set, is_adblocker_in_use, false)
