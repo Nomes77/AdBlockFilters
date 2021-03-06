@@ -10,6 +10,6 @@ My own update version of EasyList Dutch
 I made this filter because the EasyList Dutch filter isn't maintained often.
 So I made this to provide you a better service!!
 
-it is recommended to use this filter list with the default filterlists in [uBlock Origin](https://github.com/uBlockOrigin/uAssets) and with the above mentioned rules for blocking 3p-frames.
+It is recommended to use this filter list with the default filterlists in [uBlock Origin](https://github.com/uBlockOrigin/uAssets) and with the above mentioned rules for blocking 3p-frames.
 
 If you see ads on dutch websites please report it to me.
