@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 2021-03-06
+! Last modified: 2021-03-08
 ! Expires: 4 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -62,6 +62,7 @@ _advertentieleaderboardhome.
 ||digitalaudience.io/bakery/pix/p/$image,third-party
 ||ds1.nl^$third-party
 ||euroclix.nl^$third-party,domain=~panelclix.com|~panelclix.nl
+||media.prdn.nl/retailtrends/images/*.gif
 ||online-banners.nl^$third-party
 ||partnerprogramma.bol.com^$third-party
 ||schoorsteen.geenstijl.nl^$third-party
@@ -115,7 +116,77 @@ _advertentieleaderboardhome.
 ##.reclamelogos
 ##.sponsorbalk
 !--------Specifieke verbergregels--------!
-%include easydutch/hide_specific.txt%
+112achterhoek-nieuws.nl###sidebar
+2dehands.be##.sticky.vip-banner-top-sticky-container
+afkortingen.nu###banner_right
+afkortingen.nu###banner_top
+afkortingen.nu###link_unit
+afkortingen.nu##.banner
+androidplanet.nl###featured-header[data-campaign]
+androidplanet.nl##.dynamic-content[data-nosnippet]
+appletips.nl##a[href^="/adverteren-"]
+appletips.nl##.padnoshow > div.mobnoshow > .padnoshow
+autoweek.nl##.for-screen.advertise
+beursgorilla.nl##.js--billboard.ut--billboard
+beursgorilla.nl##.js--rect.ut--rectangle
+buienradar.be###adholderContainerHeader
+buienradar.nl###adholderContainerHeader
+chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
+classic.nl##div.brievenbus
+dwtonline.com###banner1
+eindexamens.nu###leaderboard
+etf.edu##.alert-warning.toolbar-cookie
+forum.fok.nl##+js(set-constant, DAB, noopFunc)
+gfcnieuws.com##.c-4-12.sidebar
+gfcnieuws.com#@##s
+gic.nl##.banners
+gic.nl##.btn-adverteren
+handbalstartpunt.nl##aside.widget-banner.widget--sidebar.card.widget
+hardware.info##.sidebar_right_top
+historiek.net##div.ai-viewport-1
+hln.be##.advertising-container-top
+iphoned.nl##.mt-8.lg\:flex.hidden.wrap
+jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
+koopplein.nl###skyscraper
+meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
+meteovista.be,weeronline.nl##.wol-banner-module__bannerContainer___QMBCE.wol-banner-module__bannerHeader___sjbIC
+marktplaats.nl##.mp-adsense-header
+marktplaats.nl##.vip-banner-top-sticky-container
+marktplaats.nl#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(> .mp-Listings__admarktTitle)
+marktplaats.nl#?#ul.mp-Listings > li.mp-Listing:has(> .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:contains(/^Topadvertentie$/))
+nederland.fm###xbtm > .shadow
+nederland.fm###xttm > .shadow
+nnieuws.be##.region-banner-diamond.region
+nnieuws.be##.view-vw-banners.view
+nos.nl##.ster-banner
+nu.nl###header > .zone
+oops.nl###dropinboxv2cover
+openingstijden.com##.adsense
+opwindend.net##.popup
+scholieren.com##.min-h-90
+speeleiland.nl##.banner-sky
+speeleiland.nl##.leader-below-game
+spel.nl##.game-page-sidebar
+spele.nl##.brioche.skyscraper.banner
+spele.nl##.broa.leaderboard.banner
+spelle.nl##.right
+spelle.nl##.left
+startbewijs.nl##.banner
+synoniemen.net##.promoblok
+techzine.nl###lead
+telegraaf.nl##.ArticleBodyBlocks__bannerWrapper
+telegraaf.nl##.ArticlePageWrapper__banner
+telegraaf.nl##.SectionPage__bannerWrapper
+telegraaf.nl##.TextArticlePage__bannerWrapper
+telegraaf.nl##.VideoArticlePage__banner
+tijd.be##.c-sitenavPlaceholder__ad
+tripadvisor.nl##.ad
+tvgids.nl##.section-home-news__ad
+tvgids.tv##.col-left
+tvgids.tv##.col-right
+voetbalkrant.com##.text-center.imu
+voetbalkrant.com##.text-center.leaderboard
+zeelandnet.nl##.g_banner
 !--------Uitzonderingen (verbergregels)--------!
 ! Uitzonderingen voor EasyList
 dekrantvantoen.nl#@##headerAdv
