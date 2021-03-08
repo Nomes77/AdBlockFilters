@@ -129,16 +129,15 @@ appletips.nl##.padnoshow > div.mobnoshow > .padnoshow
 autoweek.nl##.for-screen.advertise
 beursgorilla.nl##.js--billboard.ut--billboard
 beursgorilla.nl##.js--rect.ut--rectangle
-buienradar.be###adholderContainerHeader
-buienradar.nl###adholderContainerHeader
+buienradar.be,buienradar.nl###adholderContainerHeader
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 classic.nl##div.brievenbus
 dwtonline.com###banner1
 eindexamens.nu###leaderboard
 etf.edu##.alert-warning.toolbar-cookie
 forum.fok.nl##+js(set-constant, DAB, noopFunc)
-gfcnieuws.com##.c-4-12.sidebar
-gfcnieuws.com#@##s
+gfcnieuws.com##.n2-section-smartslider
+gfcnieuws.com##.widget_media_image.widget.extendedwopts-mobile.extendedwopts-tablet.extendedwopts-hide
 gic.nl##.banners
 gic.nl##.btn-adverteren
 handbalstartpunt.nl##aside.widget-banner.widget--sidebar.card.widget
