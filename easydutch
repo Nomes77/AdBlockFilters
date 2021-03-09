@@ -1,7 +1,7 @@
-! [Adblock Plus 2.0]
+![Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 2021-03-08
+! Last modified: 09-03-2021UTC06:23
 ! Expires: 4 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -117,7 +117,6 @@ _advertentieleaderboardhome.
 ##.sponsorbalk
 !--------Specifieke verbergregels--------!
 112achterhoek-nieuws.nl###sidebar
-2dehands.be##.sticky.vip-banner-top-sticky-container
 afkortingen.nu###banner_right
 afkortingen.nu###banner_top
 afkortingen.nu###link_unit
@@ -150,7 +149,7 @@ koopplein.nl###skyscraper
 meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
 meteovista.be,weeronline.nl##.wol-banner-module__bannerContainer___QMBCE.wol-banner-module__bannerHeader___sjbIC
 marktplaats.nl##.mp-adsense-header
-marktplaats.nl##.vip-banner-top-sticky-container
+marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 marktplaats.nl#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(> .mp-Listings__admarktTitle)
 marktplaats.nl#?#ul.mp-Listings > li.mp-Listing:has(> .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:contains(/^Topadvertentie$/))
 nederland.fm###xbtm > .shadow
@@ -168,8 +167,6 @@ speeleiland.nl##.leader-below-game
 spel.nl##.game-page-sidebar
 spele.nl##.brioche.skyscraper.banner
 spele.nl##.broa.leaderboard.banner
-spelle.nl##.right
-spelle.nl##.left
 startbewijs.nl##.banner
 synoniemen.net##.promoblok
 techzine.nl###lead
