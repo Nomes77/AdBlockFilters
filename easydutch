@@ -20,8 +20,6 @@
 /advertentie1.
 /advertentie2/*
 /advertentie_head.
-/advertentieblokje120x20.
-/advertentieblokje300x20.
 /advertenties.
 /advertenties/*$domain=~oldtimernederland.nl
 /bannerlookup.
@@ -41,8 +39,6 @@
 /small_reclames/*
 /topadvertentie.
 ://promotie.$third-party
-_advertentie300x250_
-_advertentieleaderboardhome.
 !--------Specifieke blokkeerregels--------!
 ||banner.klikklik.nl^
 ||banners.toeto.com^
@@ -82,7 +78,6 @@ _advertentieleaderboardhome.
 ###prog-sponsorlinks
 ###reclame2
 ###reclame_rechts
-###reclamebanner
 ###reclamediv
 ###rightbanner_adbest
 ###semilo-lrectangle
@@ -109,7 +104,6 @@ _advertentieleaderboardhome.
 ##.gesponsordelink
 ##.justLease_ad
 ##.mp-adsense-header-top
-##.ontwerp_ads
 ##.reclame
 ##.reclameIndex
 ##.reclamekop
