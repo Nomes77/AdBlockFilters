@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 10-03-2021UTC08:39
+! Last modified: 11-03-2021UTC15:33
 ! Expires: 4 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -29,7 +29,7 @@
 /nmc/adv/*
 /pebble-adhese.
 /prikbordAdvertentie_
-/reclame-extra.
+/reclame-extra.$domain=~browserleaks.com
 /reclame-nieuws.$domain=~browserleaks.com
 /reclame.*=banner&
 /reclame2.
