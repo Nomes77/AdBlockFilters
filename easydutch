@@ -61,8 +61,8 @@
 ||media.prdn.nl/retailtrends/images/*.gif
 ||online-banners.nl^$third-party
 ||partnerprogramma.bol.com^$third-party
+||pexi.nl$third-party
 ||schoorsteen.geenstijl.nl^$third-party
-||static.pexi.nl$third-party,script
 ||static-cdn.spott.ai$third-party
 !--------Algemene verbergregels--------!
 ###adRechts
