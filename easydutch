@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 22-03-2021UTC13:22
+! Last modified: 22-03-2021UTC13:42
 ! Expires: 4 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -156,8 +156,6 @@
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
 @@||te-les-koop.nl/advertenties.php
-@@||zeelandnet.nl/prikbord/assets/*/advertentie.js
-@@||zeelandnet.nl/prikbord/assets/*/advertenties.js
 !--------Algemene verbergregels--------!
 ###adRechts
 ###advertentie
