@@ -1,8 +1,8 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 23-03-2021UTC08:09
-! Expires: 4 days (update frequency)
+! Last modified: 23-03-2021UTC16:35
+! Expires: 2 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
 ! Rapporteer gevonden advertenties of fouten hier:
@@ -64,7 +64,6 @@
 ||123video.nl/alternate
 ||123video.nl/img/banners/
 ||123video.nl^*/nathan.js
-||agfstorage.blob.core.windows.net/banners
 ||am-forum.nl/kbc-logo.swf
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
@@ -139,10 +138,12 @@
 ||totaalwijzer.nl/widget/$third-party
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 ||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
+||agfstorage.blob.core.windows.net/banners$domain=agf.nl
 ||api.skyscanner.net/api.ashx?$domain=viva.nl
 ||booking.com/?aid=$domain=puuropreis.nl
 ||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
 ||cd.tnet.nl/ads/ads.js$script,important,domain=www.metronieuws.nl|www.telegraaf.nl
+||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
