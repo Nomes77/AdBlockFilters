@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 22-03-2021UTC14:42
+! Last modified: 23-03-2021UTC07:54
 ! Expires: 4 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -52,6 +52,7 @@
 ||asp.unitedconsumers.com^$third-party
 ||bd.313.nl^$third-party
 ||cd.tnet.nl^$script,third-party
+||csmcampagne.consumind.nl^$third-party
 ||ds1.nl^$third-party
 ||online-banners.nl^$third-party
 ||partnerprogramma.bol.com^$third-party
@@ -60,11 +61,9 @@
 ||static-cdn.spott.ai$third-party
 ||webvertising-img.bencom.net^$third-party
 !--------Specifieke blokkeerregels--------!
-.nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 ||123video.nl/alternate
 ||123video.nl/img/banners/
 ||123video.nl^*/nathan.js
-||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
 ||agfstorage.blob.core.windows.net/banners
 ||am-forum.nl/kbc-logo.swf
 ||am-forum.nl/upload/logo_elektrodump.png
@@ -73,35 +72,23 @@
 ||ans-online.nl/wp-content/themes/mimbo/images/Banner-
 ||antilliaansdagblad.com/images/banners/
 ||api.skyscanner.net/api.ashx?$domain=viva.nl
-||autoblog.nl/javascript/ABGalleryShowAdDFP.js
 ||autoedizione.nl/wp-content/uploads/*/ae-sponsor
-||blablacar.nl/widget-driver/$third-party
 ||bodemvondstenwereld.nl/images/banners/
 ||bol.com/nl/upload/banners/
 ||booking.com/?aid=$domain=puuropreis.nl
-||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
 ||buienalarm.nl^*300x250.
-||cd.tnet.nl/ads/ads.js$script,important,domain=www.metronieuws.nl|www.telegraaf.nl
-||cdn.media.zylom.com/images/site/zylom/promo/$third-party
-||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||cdn.ster.nl/banners^
 ||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
 ||chatgirl.nl^*/dlf468.
 ||chatmetvreemden.be/static/html/
 ||chatmetvreemden.nl/static/html/
-||csmcampagne.consumind.nl^$third-party
-||digitalaudience.io/bakery/pix/p/$image,third-party
 ||dutchcowboys.nl/images/*-takeover.png
-||dutchleader.nl/php/banex/$third-party
 ||dutchleader.nl/php/popex/
 ||duurzaam-actueel.nl^*banner
 ||easylist.nl/125x125.swf
-||enviedeplus.be^*_banner_$third-party
-||euroclix.nl^$third-party,domain=~panelclix.com|~panelclix.nl
 ||flirtfair.de^*/dppop.js
 ||flirtmee.nl/chat/banner_
 ||forum.spaarinformatie.nl/si-info.html
-||gemius.pl/gstream.js$script,important,domain=www.destentor.nl|www.telegraaf.nl
 ||genemuidenactueel.nl^*banner
 ||giveawayoftheday.com/ticker/
 ||htforum.nl/yabbse/*-banner2.gif
@@ -129,7 +116,6 @@
 ||paypro.nl/payproads/
 ||pdd-nos.nl/footer.html
 ||popinstituut.nl/wp-content/uploads/2014/02/Huren.nl
-||powerconnect.be^*/poweractie.jpg$third-party
 ||recreatief.nl/kerstarrangementen.gif
 ||relatieplanet.be/2linkbe/iframesearch.asp
 ||resellers.viboshop.nl/promoimages/
@@ -138,16 +124,29 @@
 ||startpagina.nl^*/dochters/*/banners/
 ||te-les-koop.nl/images/B_
 ||thisislive.com/promo/
-||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
-||totaalwijzer.nl/widget/$third-party
-||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||tweakers.net/i/nice-offer-indeed_*=/1280x400/filters:max_bytes(102400):strip_icc()/i/*.jpeg
 ||uu.nl/proton/*/akzonobel_masters_
 ||vdab.be/indekijker/
 ||wanttoknow.nl^*Banner
 ||weertdegekste.nl^*banner
 ||whatismyip.nl/images/vista_sky2.gif
-!--------Uitzonderingen specifieke blokkeerregels--------!
+!--------Specifieke blokkeerregels (derden)--------!
+||blablacar.nl/widget-driver/$third-party
+||cdn.media.zylom.com/images/site/zylom/promo/$third-party
+||digitalaudience.io/bakery/pix/p/$image,third-party
+||dutchleader.nl/php/banex/$third-party
+||enviedeplus.be^*_banner_$third-party
+||euroclix.nl^$third-party,domain=~panelclix.com|~panelclix.nl
+||powerconnect.be^*/poweractie.jpg$third-party
+||totaalwijzer.nl/widget/$third-party
+.nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
+||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
+||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
+||cd.tnet.nl/ads/ads.js$script,important,domain=www.metronieuws.nl|www.telegraaf.nl
+||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
+||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
+||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
+!--------Uitzonderingen Specifieke blokkeerregels--------!
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||koopplein.nl^*/advertenties/upload
 @@||sexjobs.nl/advertentie/
@@ -200,6 +199,7 @@
 ##.sponsorbalk
 !--------Specifieke verbergregels--------!
 112achterhoek-nieuws.nl###sidebar
+ad.nl##.advertising-container-top
 afkortingen.nu###banner_right
 afkortingen.nu###banner_top
 afkortingen.nu###link_unit
@@ -267,44 +267,29 @@ voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
 zeelandnet.nl##.g_banner
 !--------Uitzonderingen (verbergregels)--------!
-autodealers.nl,speurders.nl,xxxplaza.nl#@##advertentie
+autodealers.nl,speurders.nl#@##advertentie
 blikopnieuws.nl,computeridee.nl#@#.reclame
 drenthemobiel.nl,flevolandmobiel.nl,gelderlandmobiel.nl,groningenmobiel.nl,limburgmobiel.nl,marktplaza.nl,moorslede.be,nederlandmobiel.nl,noord-brabantmobiel.nl,noord-hollandmobiel.nl,overijsselmobiel.nl,paginamarkt.nl,sexjobs.nl,utrechtmobiel.nl,zeelandmobiel.nl,zuid-hollandmobiel.nl#@#.advertentie
 ! Uitzonderingen voor EasyList
-ad.nl#@#.ad_bg
-ad.nl#@#.nav_ad
 archiefleeuwardercourant.nl,dekrantvantoen.nl#@##headerAdv
 autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@##ad_wrap
 autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@#.ad_background
 autodealers.nl#@#.ad-btn
-bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,pzc.nl,radiozenders.fm,tubantia.nl#@#.ad-spacer
+bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,pzc.nl,tubantia.nl#@#.ad-spacer
 bokt.nl#@#.ad-body
 bokt.nl#@#.node-ad
 comedycentral.nl#@##bannerad
 digitekst.com#@#.adTitle
 emarketingexperts.nl#@#.adwords
 forum.fok.nl#@#.adfieldbg
-hotcontact.nl,xxxplaza.nl#@#.adlink
-innerlijk-besef.nl#@##ad-main
-innerlijk-besef.nl#@#.ad-button
-innerlijk-besef.nl#@#.ad-footer
-innerlijk-besef.nl#@#.ad-header
-innerlijk-besef.nl,landleven.nl#@#.ad-block
 kamernet.nl#@#.topAdd
 kinderspelletjes.nl#@##adframe:not(frameset)
-landleven.nl#@#.post-ad
 marktplaats.nl#@#.adSummary
-schaatsen.nl#@#.advertisement-header
-schaatsen.nl#@#.HeaderAd
-spele.nl#@#.afs_ads
 speurders.nl#@#.ad_header
 tweakers.net#@#a[href^="http://pubads.g.doubleclick.net/"]
 vakantieplaats.nl#@#.feed-ad
 vakantieplaats.nl#@#.topAds
-voetbalnieuws.be#@#a[href^="http://adserving.unibet.com/"]
-wereldklokken#@#.adsbygoogle
-xxxplaza.nl#@##ad_right
-xxxplaza.nl#@##adcontainer
+wereldklokken.nl#@#.adsbygoogle
 zeelandnet.nl#@#.ad-card
 !--------Anti-Adblock regels--------!
 @@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,domain=girlscene.nl
@@ -315,4 +300,5 @@ nu.nl##+js(set, is_adblocker_in_use, false)
 !--------Annoyances--------!
 nl.shein.com##.welocme-modal
 nl.y8.com###policy-validation
+schaatsen.nl##.c-cookie-bar
 www.dagelijksestandaard.nl##.default.dgd_stb_box
