@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 23-03-2021UTC07:54
+! Last modified: 23-03-2021UTC08:09
 ! Expires: 4 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -71,11 +71,9 @@
 ||androidplanet.nl/wp-content/plugins/scroll-triggered-boxes/
 ||ans-online.nl/wp-content/themes/mimbo/images/Banner-
 ||antilliaansdagblad.com/images/banners/
-||api.skyscanner.net/api.ashx?$domain=viva.nl
 ||autoedizione.nl/wp-content/uploads/*/ae-sponsor
 ||bodemvondstenwereld.nl/images/banners/
 ||bol.com/nl/upload/banners/
-||booking.com/?aid=$domain=puuropreis.nl
 ||buienalarm.nl^*300x250.
 ||cdn.ster.nl/banners^
 ||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
@@ -141,6 +139,8 @@
 ||totaalwijzer.nl/widget/$third-party
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 ||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
+||api.skyscanner.net/api.ashx?$domain=viva.nl
+||booking.com/?aid=$domain=puuropreis.nl
 ||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
 ||cd.tnet.nl/ads/ads.js$script,important,domain=www.metronieuws.nl|www.telegraaf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
