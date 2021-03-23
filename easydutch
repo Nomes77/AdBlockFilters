@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 23-03-2021UTC16:35
+! Last modified: 23-03-2021UTC17:17
 ! Expires: 2 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -126,7 +126,6 @@
 ||vdab.be/indekijker/
 ||wanttoknow.nl^*Banner
 ||weertdegekste.nl^*banner
-||whatismyip.nl/images/vista_sky2.gif
 !--------Specifieke blokkeerregels (derden)--------!
 ||blablacar.nl/widget-driver/$third-party
 ||cdn.media.zylom.com/images/site/zylom/promo/$third-party
