@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 23-03-2021UTC17:17
+! Last modified: 25-03-2021UTC11:30
 ! Expires: 2 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -296,9 +296,11 @@ zeelandnet.nl#@#.ad-card
 @@||prerollads.nl^
 @@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
 @@||www.veedi.com/v2/js/ads/advert.js$script,domain=www.veedi.com
+lazyadmin.nl##+js(aopw, adsBlocked)
 nu.nl##+js(set, is_adblocker_in_use, false)
 !--------Annoyances--------!
-nl.shein.com##.welocme-modal
-nl.y8.com###policy-validation
+calorielijst.nl##+js(aopw, clickIE)
+shein.com##.welocme-modal
 schaatsen.nl##.c-cookie-bar
 www.dagelijksestandaard.nl##.default.dgd_stb_box
+y8.com###policy-validation
