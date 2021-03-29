@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 26-03-2021UTC07:33
+! Last modified: 29-03-2021UTC11:58
 ! Expires: 2 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -79,11 +79,8 @@
 ||chatgirl.nl^*/dlf468.
 ||chatmetvreemden.be/static/html/
 ||chatmetvreemden.nl/static/html/
-||dutchcowboys.nl/images/*-takeover.png
 ||dutchleader.nl/php/popex/
 ||duurzaam-actueel.nl^*banner
-||easylist.nl/125x125.swf
-||flirtfair.de^*/dppop.js
 ||flirtmee.nl/chat/banner_
 ||forum.spaarinformatie.nl/si-info.html
 ||genemuidenactueel.nl^*banner
