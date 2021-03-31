@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 30-03-2021UTC16:00
+! Last modified: 31-03-2021UTC15:40
 ! Expires: 2 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -73,6 +73,7 @@
 ||autoedizione.nl/wp-content/uploads/*/ae-sponsor
 ||bodemvondstenwereld.nl/images/banners/
 ||bol.com/nl/upload/banners/
+||bol.com/nl/upload/partnerprogramma/*.jpg
 ||buienalarm.nl^*300x250.
 ||cdn.ster.nl/banners^
 ||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
@@ -194,6 +195,8 @@
 ##.reclamekop
 ##.reclamelogos
 ##.sponsorbalk
+##[href^="https://partner.bol.com/click/click"]
+##[href="https://shop.spreadshirt.nl/buttkicken/all"]
 !--------Specifieke verbergregels--------!
 112achterhoek-nieuws.nl###sidebar
 ad.nl##.advertising-container-top
