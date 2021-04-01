@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 31-03-2021UTC15:40
+! Last modified: 01-04-2021UTC09:00
 ! Expires: 2 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -166,10 +166,8 @@
 ###reclame_rechts
 ###reclamediv
 ###rightbanner_adbest
-###semilo-lrectangle
 ###sidereclame
 ###vipAdmarktBannerBlock
-###vs_a2s_tag_fullsize
 ##.ad_list_row_normal1
 ##.ad_list_row_normal1_no_border
 ##.ad_list_row_normal2
@@ -216,7 +214,6 @@ chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 classic.nl##div.brievenbus
 dwtonline.com###banner1
 eindexamens.nu###leaderboard
-etf.edu##.alert-warning.toolbar-cookie
 forum.fok.nl##+js(set-constant, DAB, noopFunc)
 gfcnieuws.com##.n2-section-smartslider
 gfcnieuws.com##.widget_media_image.widget.extendedwopts-mobile.extendedwopts-tablet.extendedwopts-hide
@@ -301,5 +298,6 @@ lazyadmin.nl##+js(aopw, adsBlocked)
 nu.nl##+js(set, is_adblocker_in_use, false)
 !--------Annoyances--------!
 calorielijst.nl##+js(aopw, clickIE)
+etf.edu##.alert-warning.toolbar-cookie
 schaatsen.nl##.c-cookie-bar
 www.dagelijksestandaard.nl##.default.dgd_stb_box
