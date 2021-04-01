@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 01-04-2021UTC09:00
+! Last modified: 01-04-2021UTC11:00
 ! Expires: 2 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -137,13 +137,15 @@
 ||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
 ||agfstorage.blob.core.windows.net/banners$domain=agf.nl
 ||api.skyscanner.net/api.ashx?$domain=viva.nl
-||booking.com/?aid=$domain=puuropreis.nl
+||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
 ||cd.tnet.nl/ads/ads.js$script,important,domain=www.metronieuws.nl|www.telegraaf.nl
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
+||widget.vpnnederland.nl/VPNNederland-widget.js$domain=www.nzbserver.com
+||www.affilaxy.com/promos/*$domain=hillysex.nl
 !--------Uitzonderingen Specifieke blokkeerregels--------!
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||koopplein.nl^*/advertenties/upload
@@ -193,7 +195,6 @@
 ##.reclamekop
 ##.reclamelogos
 ##.sponsorbalk
-##[href^="https://partner.bol.com/click/click"]
 ##[href="https://shop.spreadshirt.nl/buttkicken/all"]
 !--------Specifieke verbergregels--------!
 112achterhoek-nieuws.nl###sidebar
@@ -214,7 +215,6 @@ chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 classic.nl##div.brievenbus
 dwtonline.com###banner1
 eindexamens.nu###leaderboard
-forum.fok.nl##+js(set-constant, DAB, noopFunc)
 gfcnieuws.com##.n2-section-smartslider
 gfcnieuws.com##.widget_media_image.widget.extendedwopts-mobile.extendedwopts-tablet.extendedwopts-hide
 gic.nl##.banners
@@ -223,6 +223,8 @@ handbalstartpunt.nl##aside.widget-banner.widget--sidebar.card.widget
 hardware.info##.sidebar_right_top
 historiek.net##div.ai-viewport-1
 hln.be##.advertising-container-top
+indeleiderstrui.nl##.mt-3.ads
+indeleiderstrui.nl##.mt-3.container > div.row > .col
 iphoned.nl##.mt-8.lg\:flex.hidden.wrap
 jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
 koopplein.nl###skyscraper
@@ -290,10 +292,12 @@ vakantieplaats.nl#@#.topAds
 wereldklokken.nl#@#.adsbygoogle
 zeelandnet.nl#@#.ad-card
 !--------Anti-Adblock regels--------!
+||goplay.be/js/sourcepoint/msg?v=
 @@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,domain=girlscene.nl
 @@||prerollads.nl^
 @@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
 @@||www.veedi.com/v2/js/ads/advert.js$script,domain=www.veedi.com
+forum.fok.nl##+js(set-constant, DAB, noopFunc)
 lazyadmin.nl##+js(aopw, adsBlocked)
 nu.nl##+js(set, is_adblocker_in_use, false)
 !--------Annoyances--------!
