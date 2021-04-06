@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
-! Description: My own Dutch supplement for the Easylist filters
-! Last modified: 05-04-2021UTC14:45
+! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
+! Last modified: 06-04-2021UTC07:55
 ! Expires: 4 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -106,19 +106,15 @@
 ||onestat.com/app/banneriframe.aspx?
 ||onestat.com/banners/adone-
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
-||openingsurengids.be/includes/js/checkblock.js
 ||opwindend.net/Promotie*.php?$subdocument
 ||paypro.nl/payproads/
 ||pdd-nos.nl/footer.html
 ||popinstituut.nl/wp-content/uploads/2014/02/Huren.nl
 ||recreatief.nl/kerstarrangementen.gif
 ||relatieplanet.be/2linkbe/iframesearch.asp
-||resellers.viboshop.nl/promoimages/
-||search-result.com^*/klokad2.js
 ||sexamateurtjes.nl/banners/
 ||startpagina.nl^*/dochters/*/banners/
 ||te-les-koop.nl/images/B_
-||thisislive.com/promo/
 ||tweakers.net/i/nice-offer-indeed_*=/1280x400/filters:max_bytes(102400):strip_icc()/i/*.jpeg
 ||uu.nl/proton/*/akzonobel_masters_
 ||vdab.be/indekijker/
@@ -154,6 +150,7 @@
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
 @@||te-les-koop.nl/advertenties.php
+@@||index4sex.com/global/asset/image/partner/livejasmin.*.jpg$image,domain=omejoop.be
 !--------Algemene verbergregels--------!
 ###adRechts
 ###advertentie
@@ -180,7 +177,6 @@
 ##.adstekst
 ##.advertentie
 ##.advertenties
-##.advertorial_koersen_home_top
 ##.aw_url_admarkt_bottom
 ##.banner_advert6blok
 ##.banner_advertentie_footer
@@ -231,19 +227,21 @@ jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
 koopplein.nl###skyscraper
 meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
 meteovista.be,weeronline.nl##.wol-banner-module__bannerContainer___QMBCE.wol-banner-module__bannerHeader___sjbIC
-marktplaats.nl##.mp-adsense-header
-marktplaats.nl##.premium-content
+marktplaats.nl,2dehands.be##.mp-adsense-header
+marktplaats.nl,2dehands.be##.premium-content
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
-marktplaats.nl#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(> .mp-Listings__admarktTitle)
-marktplaats.nl#?#ul.mp-Listings > li.mp-Listing:has(> .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:contains(/^Topadvertentie$/))
+marktplaats.nl,2dehands.be#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(> .mp-Listings__admarktTitle)
+marktplaats.nl,2dehands.be#?#ul.mp-Listings > li.mp-Listing:has(> .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:contains(/^Topadvertentie$/))
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
+nieuwsuitnijmegen.nl##.banner-box-1
 nnieuws.be##.region-banner-diamond.region
 nnieuws.be##.view-vw-banners.view
 nos.nl##.ster-banner
 nu.nl###header > .zone
 oops.nl###dropinboxv2cover
 openingstijden.com##.adsense
+openingsurengids.be##.promSB
 opwindend.net##.popup
 scholieren.com##.min-h-90
 speeleiland.nl##.banner-sky
@@ -302,11 +300,11 @@ zeelandnet.nl#@#.ad-card
 @@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,domain=girlscene.nl
 @@||prerollads.nl^
 @@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
-@@||www.veedi.com/v2/js/ads/advert.js$script,domain=www.veedi.com
 lazyadmin.nl##+js(aopw, adsBlocked)
 nu.nl##+js(set, is_adblocker_in_use, false)
 !--------Annoyances--------!
 calorielijst.nl##+js(aopw, clickIE)
 etf.edu##.alert-warning.toolbar-cookie
+marktplaats.nl,2dehands.be##.mp-LoginNudge
 schaatsen.nl##.c-cookie-bar
 www.dagelijksestandaard.nl##.default.dgd_stb_box
