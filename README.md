@@ -2,7 +2,7 @@
 My adblock filters made for [uBlock Origin](https://github.com/uBlockOrigin/uAssets)
 
 ## [Dynamic Rules](https://github.com/BPower0036/AdBlockFilters/blob/main/dynamic%20rules)
-A whitelist for medium mode of uBlock Origin when only blocking 3p-frames. (Blocks also most Facebook things, except Instagram)
+A whitelist for medium mode of uBlock Origin when only blocking 3p-frames
 
 ## [EasyDutch](https://github.com/BPower0036/AdBlockFilters/blob/main/easydutch)
 My own update version of EasyList Dutch
