@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 07-04-2021UTC10:15
+! Last modified: 07-04-2021UTC11:05
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -65,6 +65,8 @@
 ||123video.nl/alternate
 ||123video.nl/img/banners/
 ||123video.nl^*/nathan.js
+||402automotive.com/files/*/files/images/banners/*.gif
+||402automotive.com/files/images/website/banners/*.jpg
 ||am-forum.nl/kbc-logo.swf
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
@@ -79,8 +81,6 @@
 ||cdn.ster.nl/banners^
 ||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
 ||chatgirl.nl^*/dlf468.
-||chatmetvreemden.be/static/html/
-||chatmetvreemden.nl/static/html/
 ||dutchleader.nl/php/popex/
 ||duurzaam-actueel.nl^*banner
 ||flirtmee.nl/chat/banner_
@@ -115,8 +115,6 @@
 ||sexamateurtjes.nl/banners/
 ||startpagina.nl^*/dochters/*/banners/
 ||te-les-koop.nl/images/B_
-||tweakers.net/i/nice-offer-indeed_*=/1280x400/filters:max_bytes(102400):strip_icc()/i/*.jpeg
-||uu.nl/proton/*/akzonobel_masters_
 ||vdab.be/indekijker/
 ||wanttoknow.nl^*Banner
 ||weertdegekste.nl^*banner
@@ -249,6 +247,7 @@ spel.nl##.game-page-sidebar
 spele.nl##.brioche.skyscraper.banner
 spele.nl##.broa.leaderboard.banner
 startbewijs.nl##.banner
+startpagina.nl##.top-banner.horizontal-position
 synoniemen.net##.promoblok
 techzine.nl###lead
 telegraaf.nl##.ArticleBodyBlocks__bannerWrapper
@@ -270,6 +269,7 @@ vagina.nl##[href^="https://xltube.nl/click/mad/"]
 voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
 wanttoknow.nl###right-sidebar > div.mb-3
+wanttoknow.nl##.d-lg-block
 zeelandnet.nl##.g_banner
 !--------Uitzonderingen verbergregels--------!
 paginamarkt.nl,sexjobs.nl#@#.advertentie
