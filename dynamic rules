@@ -1,6 +1,6 @@
 ! Title: uBlock Dynamic Rules for 3p-frames
 ! Description: A whitelist for medium mode of uBlock Origin when only blocking 3p-frames.
-! TimeUpdated: 2021-03-26
+! TimeUpdated: 2021-04-07
 no-csp-reports: * true
 * * 3p-frame block
 * embed.acast.com * noop
@@ -10,6 +10,7 @@ no-csp-reports: * true
 * akamaihd.net * noop
 * akamaized.net * noop
 * embed.music.apple.com * noop
+* archive.org * noop
 * api.banned.video * noop
 * behind-the-scene * block
 * www.bitchute.com * noop
@@ -29,7 +30,7 @@ no-csp-reports: * true
 * shared.global.fastly.net * noop
 * freetls.fastly.net * noop
 * api.funcaptcha.com * noop
-* tv.gab.com * noop
+* gab.com * noop
 * html5.gamedistribution.com * noop
 * gfycat.com * noop
 * global.ssl.fastly.net * noop
@@ -48,6 +49,7 @@ no-csp-reports: * true
 * player.megaphone.fm * noop
 * start-player.npo.nl * noop
 * octocaptcha.com * noop
+* odysee.com * noop
 * player.ooyala.com * noop
 * openload.co * noop
 * www.paypalobjects.com * noop
@@ -56,6 +58,7 @@ no-csp-reports: * true
 * cdn-1294.privacy-mgmt.com * noop
 * player.qualifio.com * noop
 * www.recaptcha.net * noop
+* www.roxytube.com * noop
 * rumble.com * noop
 * embed.scribblelive.com * noop
 * sendvid.com * noop
@@ -80,18 +83,16 @@ no-csp-reports: * true
 * youtube.googleapis.com * noop
 * player.zdf.de * noop
 www.autoblog.nl bbvms.com * noop
-earlychurchtexts.com archive.org * noop
 geenstijl.nl gdpr-consent-tool.privacymanager.io * noop
 drive.google.com content.googleapis.com * noop
 sites.google.com content.googleapis.com * noop
 translate.google.com translate.goog * noop
-www.instagram.com instagram.c10r.facebook.com * noop
-www.instagram.com fbcdn.net * noop
 www.kpn.com reload.alphacomm.network * noop
 nu.nl cloud.onenet.nl * noop
 www.reddit.com redditmedia.com * noop
 y8.com html5.gamemonetize.com * noop
 y8.com hwcdn.net * noop
+* https://www.facebook.com/plugins/video.php sub_frame noop
 * https://www.google.com/recaptcha/ sub_frame noop
 * https://www.google.com/maps/embed/ sub_frame noop
 * https://www.gstatic.com/atari/embeds/ sub_frame noop
