@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 07-04-2021UTC07:25
+! Last modified: 07-04-2021UTC10:15
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -40,6 +40,7 @@
 /topadvertentie.
 ://promotie.$third-party
 !--------Advertentiedomeinen--------!
+||adverteren.rd.nl^
 ||banner.klikklik.nl^
 ||banners.toeto.com^
 ||banners.utilo.nl^
@@ -122,7 +123,7 @@
 !--------Specifieke blokkeerregels (derden)--------!
 ||blablacar.nl/widget-driver/$third-party
 ||cdn.media.zylom.com/images/site/zylom/promo/$third-party
-||digitalaudience.io/bakery/pix/p/$image,third-party
+||digitalaudience.io/bakery/pix/$image,third-party
 ||dutchleader.nl/php/banex/$third-party
 ||enviedeplus.be^*_banner_$third-party
 ||euroclix.nl^$third-party,domain=~panelclix.com|~panelclix.nl
@@ -138,11 +139,8 @@
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
-||adverteren.rd.nl$domain=rd.nl
-||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||widget.vpnnederland.nl/VPNNederland-widget.js$domain=www.nzbserver.com
-||www.affilaxy.com/promos/*$domain=hillysex.nl
 !--------Uitzonderingen Specifieke blokkeerregels--------!
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||koopplein.nl^*/advertenties/upload
@@ -151,45 +149,46 @@
 @@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
 @@||te-les-koop.nl/advertenties.php
 !--------Algemene verbergregels--------!
-###adRechts
-###advertentie
-###advertentieblokjeid
-###cycloneslider-advertentie2-2
-###cycloneslider-advertenties-1
-###gesponsordelink
-###middenAd2_footer
-###middenAd3_footer
-###middenAd4_footer
-###prog-sponsorlinks
-###reclame2
-###reclame_rechts
-###reclamediv
-###rightbanner_adbest
-###sidereclame
-###vipAdmarktBannerBlock
-##.ad_list_row_normal1
-##.ad_list_row_normal1_no_border
-##.ad_list_row_normal2
-##.ad_list_row_normal2_no_border
-##.admarkt_bottom_list_header
-##.admarkt_gallery_info
-##.adstekst
-##.advertentie
-##.advertenties
-##.banner_advert6blok
-##.banner_advertentie_footer
-##.bericht_adv1
-##.bovenadvertentiediv
-##.category-advertentie
-##.content-rechts-ad
-##.gesponsordelink
-##.justLease_ad
-##.mp-adsense-header-top
-##.reclame
-##.reclameIndex
-##.reclamekop
-##.reclamelogos
-##.sponsorbalk
+! Ben aan het kijken of het weglaten van deze algemene regels voor problemen zorgt. Weet niet hoe vaak deze filterregels nog voorkomen.
+! ###adRechts
+! ###advertentie
+! ###advertentieblokjeid
+! ###cycloneslider-advertentie2-2
+! ###cycloneslider-advertenties-1
+! ###gesponsordelink
+! ###middenAd2_footer
+! ###middenAd3_footer
+! ###middenAd4_footer
+! ###prog-sponsorlinks
+! ###reclame2
+! ###reclame_rechts
+! ###reclamediv
+! ###rightbanner_adbest
+! ###sidereclame
+! ###vipAdmarktBannerBlock
+! ##.ad_list_row_normal1
+! ##.ad_list_row_normal1_no_border
+! ##.ad_list_row_normal2
+! ##.ad_list_row_normal2_no_border
+! ##.admarkt_bottom_list_header
+! ##.admarkt_gallery_info
+! ##.adstekst
+! ##.advertentie
+! ##.advertenties
+! ##.banner_advert6blok
+! ##.banner_advertentie_footer
+! ##.bericht_adv1
+! ##.bovenadvertentiediv
+! ##.category-advertentie
+! ##.content-rechts-ad
+! ##.gesponsordelink
+! ##.justLease_ad
+! ##.mp-adsense-header-top
+! ##.reclame
+! ##.reclameIndex
+! ##.reclamekop
+! ##.reclamelogos
+! ##.sponsorbalk
 !--------Specifieke verbergregels--------!
 112achterhoek-nieuws.nl###sidebar
 ad.nl##.advertising-container-top
@@ -272,7 +271,7 @@ voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
 wanttoknow.nl###right-sidebar > div.mb-3
 zeelandnet.nl##.g_banner
-!--------Uitzonderingen (verbergregels)--------!
+!--------Uitzonderingen verbergregels--------!
 paginamarkt.nl,sexjobs.nl#@#.advertentie
 ! Uitzonderingen voor EasyList
 archiefleeuwardercourant.nl,dekrantvantoen.nl#@##headerAdv
