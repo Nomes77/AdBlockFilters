@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 07-04-2021UTC11:55
+! Last modified: 08-04-2021UTC07:55
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -132,7 +132,6 @@
 ||api.skyscanner.net/api.ashx?$domain=viva.nl
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
-||cd.tnet.nl/ads/ads.js$script,important,domain=www.metronieuws.nl|www.telegraaf.nl
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
@@ -201,6 +200,7 @@ autoweek.nl##.for-screen.advertise
 beursgorilla.nl##.js--billboard.ut--billboard
 beursgorilla.nl##.js--rect.ut--rectangle
 blikopnieuws.nl##.ligatus-sidebar-block
+bokt.nl###frontpage_mediumrect
 buienradar.be,buienradar.nl###adholderContainerHeader
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 classic.nl##div.brievenbus
@@ -219,7 +219,11 @@ indeleiderstrui.nl##.mt-3.ads
 indeleiderstrui.nl##.mt-3.container > div.row > .col
 iphoned.nl##.mt-8.lg\:flex.hidden.wrap
 jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
+kinderspelletjes.nl###adBoven
+kinderspelletjes.nl###adRechts2
 koopplein.nl###skyscraper
+lc.nl##.main__ad
+lc.nl##.top__ad
 meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
 meteovista.be,weeronline.nl##.wol-banner-module__bannerContainer___QMBCE.wol-banner-module__bannerHeader___sjbIC
 marktplaats.nl,2dehands.be##.mp-adsense-header
@@ -273,24 +277,13 @@ wanttoknow.nl##.d-lg-block
 zeelandnet.nl##.g_banner
 !--------Uitzonderingen verbergregels--------!
 paginamarkt.nl,sexjobs.nl#@#.advertentie
-startpagina.nl#@#a[href^="https://www.iyalc.com/"]
 ! Uitzonderingen voor EasyList
-archiefleeuwardercourant.nl,dekrantvantoen.nl#@##headerAdv
-autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@##ad_wrap
-autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@#.ad_background
+autodealers.nl#@##ad_wrap
+autodealers.nl#@#.ad_background
 autodealers.nl#@#.ad-btn
-bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,pzc.nl,tubantia.nl#@#.ad-spacer
-bokt.nl#@#.ad-body
-bokt.nl#@#.node-ad
-comedycentral.nl#@##bannerad
-digitekst.com#@#.adTitle
+dekrantvantoen.nl#@##headerAdv
 emarketingexperts.nl#@#.adwords
-kamernet.nl#@#.topAdd
-kinderspelletjes.nl#@##adframe:not(frameset)
-speurders.nl#@#.ad_header
-tweakers.net#@#a[href^="http://pubads.g.doubleclick.net/"]
-vakantieplaats.nl#@#.feed-ad
-vakantieplaats.nl#@#.topAds
+startpagina.nl#@#a[href^="https://www.iyalc.com/"]
 wereldklokken.nl#@#.adsbygoogle
 zeelandnet.nl#@#.ad-card
 !--------Anti-Adblock regels--------!
@@ -302,7 +295,7 @@ lazyadmin.nl##+js(aopw, adsBlocked)
 nu.nl##+js(set, is_adblocker_in_use, false)
 !--------Annoyances--------!
 calorielijst.nl##+js(aopw, clickIE)
+dagelijksestandaard.nl##.default.dgd_stb_box
 etf.edu##.alert-warning.toolbar-cookie
 marktplaats.nl,2dehands.be##.mp-LoginNudge
 schaatsen.nl##.c-cookie-bar
-www.dagelijksestandaard.nl##.default.dgd_stb_box
