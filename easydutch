@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 12-04-2021UTC14:10
+! Last modified: 12-04-2021UTC15:31
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -84,6 +84,7 @@
 ||buienalarm.nl^*300x250.
 ||cdn.ster.nl/banners^
 ||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
+||deoudrotterdammer.nl/wp-content/uploads/*/banner*.jpg
 ||dutchleader.nl/php/popex/
 ||duurzaam-actueel.nl^*banner
 ||flirtmee.nl/chat/banner_
@@ -176,7 +177,7 @@
 ! ##.admarkt_bottom_list_header
 ! ##.admarkt_gallery_info
 ! ##.adstekst
-! ##.advertentie
+##.advertentie
 ! ##.advertenties
 ! ##.banner_advert6blok
 ! ##.banner_advertentie_footer
