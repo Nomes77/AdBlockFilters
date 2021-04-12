@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 12-04-2021UTC10:00
+! Last modified: 12-04-2021UTC14:10
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -146,6 +146,7 @@
 !--------Uitzonderingen Specifieke blokkeerregels--------!
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||koopplein.nl^*/advertenties/upload
+@@||googletagmanager.com/gtm.js$script,domain=sdok.nl
 @@||sexjobs.nl/advertentie/
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
