@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 14-04-2021UTC08:22
+! Last modified: 14-04-2021UTC08:55
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -209,6 +209,7 @@ afkortingen.nu###link_unit
 afkortingen.nu,erotracks.nl,startbewijs.nl##.banner
 androidplanet.nl###featured-header[data-campaign]
 androidplanet.nl##.dynamic-content[data-nosnippet]
+androidplanet.nl##.dynamic-content-native
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##.padnoshow > div.mobnoshow > .padnoshow
 autoweek.nl##.advertise
