@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 13-04-2021UTC15:40
+! Last modified: 14-04-2021UTC08:22
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -70,8 +70,9 @@
 ||123video.nl/customs/*/assets/images/*.gif
 ||123video.nl/img/banners/
 ||123video.nl^*/nathan.js
-||402automotive.com/files/*/files/images/banners/*.gif
-||402automotive.com/files/images/website/banners/*.jpg
+||402automotive.com/files/*/files/images/banners/*.$image
+||402automotive.com/files/*/files/images/*/banners/*.$image
+||402automotive.com/files/images/website/banners/*.$image
 ||am-forum.nl/kbc-logo.swf
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
@@ -142,13 +143,16 @@
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
-||static-dscn.net/13146/1686020/$domain=almere-nieuws.nl
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||widget.vpnnederland.nl/VPNNederland-widget.js$domain=www.nzbserver.com
 !--------Uitzonderingen Specifieke blokkeerregels--------!
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||koopplein.nl^*/advertenties/upload
 @@||googletagmanager.com/gtm.js$script,domain=sdok.nl
+!#if ext_ublock
+@@||googletagmanager.com/gtm.js$script,domain=sdok.nl,badfilter
+@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
+!#endif
 @@||sexjobs.nl/advertentie/
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
@@ -196,6 +200,7 @@
 ! ##.sponsorbalk
 !--------Specifieke verbergregels--------!
 112achterhoek-nieuws.nl###sidebar
+402automotive.com##.bannerpro_container
 ad.nl##.advertising-container-top
 ad.nl,destentor.nl,ed.nl##.ankeiler--advertisement.ankeiler
 afkortingen.nu###banner_right
@@ -206,7 +211,7 @@ androidplanet.nl###featured-header[data-campaign]
 androidplanet.nl##.dynamic-content[data-nosnippet]
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##.padnoshow > div.mobnoshow > .padnoshow
-autoweek.nl##.for-screen.advertise
+autoweek.nl##.advertise
 beursgorilla.nl##.js--billboard.ut--billboard
 beursgorilla.nl##.js--rect.ut--rectangle
 blikopnieuws.nl##.ligatus-sidebar-block
@@ -225,7 +230,7 @@ handbalstartpunt.nl##aside.widget-banner.widget--sidebar.card.widget
 hardware.info##.sidebar_right_top
 historiek.net##div.ai-viewport-1
 hln.be##.advertising-container-top
-indeleiderstrui.nl##.mt-3.ads
+indeleiderstrui.nl##.ads
 indeleiderstrui.nl##.mt-3.container > div.row > .col
 iphoned.nl##.mt-8.lg\:flex.hidden.wrap
 jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
@@ -263,7 +268,7 @@ speeleiland.nl##.leader-below-game
 spel.nl##.game-page-sidebar
 spele.nl##.brioche.skyscraper.banner
 spele.nl##.broa.leaderboard.banner
-startpagina.nl##.top-banner.horizontal-position
+startpagina.nl##.top-banner
 synoniemen.net##.promoblok
 techzine.nl###lead
 telegraaf.nl##.ArticleBodyBlocks__bannerWrapper
