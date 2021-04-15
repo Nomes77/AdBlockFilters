@@ -2,9 +2,10 @@
 
 <!-- Check the appropriate boxes before you submit your issue -->
 
-- [ ] This is a **Dutch** website, so no general websites with Dutch subdomains (e.g. nl.y8.com) / Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. nl.y8.com)
-- [ ] I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen duplicaten!!
-    - Your issue may already be reported.
+- [ ] This is a **Dutch** website, so no general websites with Dutch subdomains (e.g. nl.y8.com) / 
+      Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. nl.y8.com)
+- [ ] I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
+    - Your issue may already be reported. / Uw probleem kan al gemeld zijn.
 - [ ] I tried to reproduce the issue when...
     - [ ] uBlock Origin with default lists
     - [ ] or with EasyList and EasyPrivacy
@@ -13,12 +14,12 @@
     - Privacy staff should be reported at uBlock Origin or EasyPrivacy / Privacy dingen moet u melden aan uBlock of EasyPrivacy
     - No annoyances 
 
-### URL(s) where the issue occurs
+### URL(s) where the issue occurs / Websites waar het probleem voorkomt
 
 <!-- [At least one URL for a web page where the clearly described issue occurs is **mandatory**. The backticks surrounding the URLs is important, it prevents the URL from being clickable. Warn with "NSFW" where applicable.] -->
 <!-- [Geef de link van de website. Waarschuw met "NSFW" als dat nodig is.] -->
 
-### Describe the issue
+### Describe the issue / Beschrijf het probleem
 
 <!-- [Be as clear as possible: nobody can read mind, and nobody is looking at your issue over your shoulder.] --> 
 <!-- [Wees zo duidelijk mogelijk: niemand kan je gedachten lezen en niemand kijkt over je schouder mee.] --> 
