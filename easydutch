@@ -487,7 +487,6 @@ girlscene.nl##+js(set, adblock, 0)
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=motorsport.tv,badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=motorsport.tv
 *$script,redirect-rule=noopjs,domain=motorsport.tv
-@@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl,badfilter
 lazyadmin.nl##+js(aopw, adsBlocked)
 @@||www.veedi.com/v2/js/ads/advert.js$script,domain=www.veedi.com,badfilter
 veedi.com##+js(set, adBlocker, false)
