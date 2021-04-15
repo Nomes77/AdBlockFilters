@@ -29,8 +29,8 @@
 /nmc/adv/*
 /pebble-adhese.
 /prikbordAdvertentie_
-/reclame-extra.$domain=~browserleaks.com
-/reclame-nieuws.$domain=~browserleaks.com
+/reclame-extra.
+/reclame-nieuws.
 /reclame.*=banner&
 /reclame2.
 /reclamebanners/*
