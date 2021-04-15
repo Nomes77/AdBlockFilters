@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 15-04-2021UTC16:07
+! Last modified: 15-04-2021UTC16:36
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -115,6 +115,7 @@ _advertentieleaderboardhome.
 ||402automotive.com/files/*/files/images/banners/*.$image
 ||402automotive.com/files/*/files/images/*/banners/*.$image
 ||402automotive.com/files/images/website/banners/*.$image
+||almere-nieuws.nl/banners_*.html
 ||am-forum.nl/kbc-logo.swf
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
@@ -310,8 +311,10 @@ _advertentieleaderboardhome.
 !--------Specifieke verbergregels--------!
 112achterhoek-nieuws.nl###sidebar
 402automotive.com##.bannerpro_container
+538.nl###eCommerce
 ad.nl##.advertising-container-top
-ad.nl,destentor.nl,ed.nl##.ankeiler--advertisement.ankeiler
+ad.nl,destentor.nl,ed.nl##.ankeiler--advertisement
+ad.nl##.dfp-space
 ad.nl##.page-header__section--spacer
 afkortingen.nu###banner_right
 afkortingen.nu###banner_top
@@ -375,7 +378,9 @@ nnieuws.be##.region-banner-diamond.region
 nnieuws.be##.view-vw-banners.view
 nnieuws.be###block-views-vw-banners-block-2
 nos.nl##.ster-banner
+nos.nl##.teletekst__banner
 nu.nl##a[href*="/advertorial-"]
+nu.nl##div.articlelist[data-section="advertorial-belastingdienst-adverteerder"]
 nu.nl###header > .zone
 oisterwijknieuws.nl###left-sidebar
 oisterwijknieuws.nl###right-sidebar
