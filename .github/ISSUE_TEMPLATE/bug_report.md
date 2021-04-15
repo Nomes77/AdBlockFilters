@@ -1,10 +1,6 @@
 ---
-name: bug_report.
+name: bug_report
 about: Create a report to help improve my EasyDutch list
-title: ''
-labels: ''
-assignees: ''
-
 ---
 
 ### Prerequisites
