@@ -244,7 +244,6 @@ _advertentieleaderboardhome.
 @@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=www.radioluisteren.fm
 @@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=www.radioluisteren.fm
 @@||faktor.io^$3p,domain=consent.talpanetwork.com
-@@||geolocation.onetrust.com^$domain=www.nu.nl
 @@||images.marktnet.eu/adimg/
 @@||imasdk.googleapis.com/js/$script,domain=y8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl
@@ -254,63 +253,60 @@ _advertentieleaderboardhome.
 @@||js.spotx.tv/ados/v1/106185.js$script,domain=www.radioluisteren.fm
 @@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
 @@||search.spotxchange.com/js/spotx.js$script,domain=www.radioluisteren.fm
-@@||sheinsz.ltwebstatic.com^*/assets/common.$script,domain=nl.shein.com
-@@||smartinit.webads.nl/bin/smartinit.dll?$script,domain=vi.nl
 @@||sync.search.spotxchange.com/partner?source=easi$image,domain=www.radioluisteren.fm
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
 @@||tools.vpscash.nl/datingv3/docs/plug_and_play/*$subdocument,domain=www.flirtmee.nl
 @@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
-@@||y8.com/games/*.js?referer=$xhr,domain=y8.com
 !--------Algemene verbergregels--------!
 ! Ben aan het kijken of het weglaten van deze algemene regels voor problemen zorgt. Weet niet hoe vaak deze filterregels nog voorkomen.
-###adRechts
-###adsense_artikel_4
+!###adRechts
+!###adsense_artikel_4
 ###advertentie
-###advertentieblokjeid
-###cycloneslider-advertentie2-2
-###cycloneslider-advertenties-1
-###gesponsordelink
-###middenAd2_footer
-###middenAd3_footer
-###middenAd4_footer
-###prog-sponsorlinks
-###reclame2
-###reclame_rechts
+!###advertentieblokjeid
+!###cycloneslider-advertentie2-2
+!###cycloneslider-advertenties-1
+!###gesponsordelink
+!###middenAd2_footer
+!###middenAd3_footer
+!###middenAd4_footer
+!###prog-sponsorlinks
+!###reclame2
+!###reclame_rechts
 ###reclamebanner
-###reclamediv
-###rightbanner_adbest
-###semilo-lrectangle
-###sidereclame
-###vipAdmarktBannerBlock
-###vs_a2s_tag_fullsize
-##.ad_list_row_normal1
-##.ad_list_row_normal1_no_border
-##.ad_list_row_normal2
-##.ad_list_row_normal2_no_border
-##.admarkt_bottom_list_header
-##.admarkt_gallery_info
-##.adstekst
+!###reclamediv
+!###rightbanner_adbest
+!###semilo-lrectangle
+!###sidereclame
+!###vipAdmarktBannerBlock
+!###vs_a2s_tag_fullsize
+!##.ad_list_row_normal1
+!##.ad_list_row_normal1_no_border
+!##.ad_list_row_normal2
+!##.ad_list_row_normal2_no_border
+!##.admarkt_bottom_list_header
+!##.admarkt_gallery_info
+!##.adstekst
 ##.advertentie
-##.advertenties
-##.advertorial_koersen_home_top
-##.aw_url_admarkt_bottom
-##.banner_advert6blok
-##.banner_advertentie_footer
-##.bericht_adv1
-##.bovenadvertentiediv
-##.category-advertentie
-##.content-rechts-ad
-##.gesponsordelink
-##.justLease_ad
-##.mp-adsense-header-top
-##.ontwerp_ads
+!##.advertenties
+!##.advertorial_koersen_home_top
+!##.aw_url_admarkt_bottom
+!##.banner_advert6blok
+!##.banner_advertentie_footer
+!##.bericht_adv1
+!##.bovenadvertentiediv
+!##.category-advertentie
+!##.content-rechts-ad
+!##.gesponsordelink
+!##.justLease_ad
+!##.mp-adsense-header-top
+!##.ontwerp_ads
 ##.reclame
-##.reclameIndex
-##.reclamekop
-##.reclamelogos
-##.sponsorbalk
-##a[href^="http://adserver.webads.nl/adclick/"]
-##a[href^="http://openx.motomedia.nl/live/www/delivery/"]
+!##.reclameIndex
+!##.reclamekop
+!##.reclamelogos
+!##.sponsorbalk
+!##a[href^="http://adserver.webads.nl/adclick/"]
+!##a[href^="http://openx.motomedia.nl/live/www/delivery/"]
 !--------Specifieke verbergregels--------!
 112achterhoek-nieuws.nl###sidebar
 402automotive.com##.bannerpro_container
@@ -337,7 +333,6 @@ buienradar.be,buienradar.nl###adholderContainerHeader
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 classic.nl##div.brievenbus
 digitaalburg.com##.font-bold.font-sans-serif.xs-font-size.rounded-all.s-full.m-half-lm.l-sb-right-split.widget-area
-deoudrotterdammer.nl##.advertentie
 dwtonline.com###banner1
 eindexamens.nu###leaderboard
 fd.nl##.fd-message-home-header
@@ -365,7 +360,7 @@ koopplein.nl##.promobloc-desktop
 lc.nl##.main__ad
 lc.nl##.top__ad
 meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
-meteovista.be,weeronline.nl##.wol-banner-module__bannerContainer___QMBCE.wol-banner-module__bannerHeader___sjbIC
+meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 marktplaats.nl,2dehands.be##.mp-adsense-header
 marktplaats.nl,2dehands.be##.premium-content
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
@@ -384,7 +379,7 @@ nu.nl##a[href*="/advertorial-"]
 nu.nl###header > .zone
 oisterwijknieuws.nl###left-sidebar
 oisterwijknieuws.nl###right-sidebar
-omroepbrabant.nl##div.ad--empty-3l.ad-1C:nth-of-type(3)
+omroepbrabant.nl##div.ad--empty-3l.ad-1C
 omroepwest.nl#$#.adcontainer-Rectangle { position: absolute!important; left: -4000px!important; }
 oops.nl###dropinboxv2cover
 openingstijden.com##.adsense
@@ -398,7 +393,6 @@ pornozot.com##.text-center.mb-20
 rd.nl##.codalt-container
 rd.nl##.rdnl__adds
 refoweb.nl##.bannercontainer
-refoweb.nl##div[id^="div-gpt-ad"]
 rubenweytjens.be##.view-weather-ads-view
 scholieren.com##.min-h-90
 softonic.nl##.sam-slot
@@ -435,7 +429,6 @@ voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
 wanttoknow.nl###right-sidebar > div.mb-3
 wanttoknow.nl##.float-right
-weeronline.nl##section[class*="wol-banner-module__banner"]
 weertdegekste.nl##.infeed-wrap
 welingelichtekringen.nl##[href*="adnxs.com/click?"]
 zeelandnet.nl##.g_banner
@@ -445,20 +438,15 @@ blikopnieuws.nl,computeridee.nl#@#.reclame
 drenthemobiel.nl,flevolandmobiel.nl,gelderlandmobiel.nl,groningenmobiel.nl,limburgmobiel.nl,marktplaza.nl,moorslede.be,nederlandmobiel.nl,noord-brabantmobiel.nl,noord-hollandmobiel.nl,overijsselmobiel.nl,paginamarkt.nl,sexjobs.nl,utrechtmobiel.nl,zeelandmobiel.nl,zuid-hollandmobiel.nl#@#.advertentie
 paginamarkt.nl,sexjobs.nl#@#.advertentie
 ! Uitzonderingen voor EasyList
-ad.nl#@#.ad_bg
-ad.nl#@#.nav_ad
-archiefleeuwardercourant.nl,dekrantvantoen.nl#@##headerAdv
 autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@##ad_wrap
 autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@#.ad_background
 autodealers.nl#@#.ad-btn
-bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,pzc.nl,radiozenders.fm,tubantia.nl#@#.ad-spacer
 bokt.nl#@#.ad-body
 bokt.nl#@#.node-ad
 comedycentral.nl#@##bannerad
 dekrantvantoen.nl#@##headerAdv
 digitekst.com#@#.adTitle
 emarketingexperts.nl#@#.adwords
-forum.fok.nl#@#.adfieldbg
 hotcontact.nl,xxxplaza.nl#@#.adlink
 kamernet.nl#@#.topAdd
 kinderspelletjes.nl#@##adframe:not(frameset)
@@ -478,14 +466,14 @@ xxxplaza.nl#@##adcontainer
 zeelandnet.nl#@#.ad-card
 !--------Anti-Adblock regels--------!
 ||goplay.be/js/sourcepoint/msg?v=
-@@||ah.nl^$ghide
+@@||ah.nl^$generichide
 @@||cdn.cxense.com/cx.cce.js$script,domain=nl.motorsport.com
 @@||gamekings.tv^$generichide
 @@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,domain=girlscene.nl
 @@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
 @@||prerollads.nl^
 @@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
-@@||refoweb.nl^$ghide
+@@||refoweb.nl^$generichide
 refoweb.nl##div[id^="div-gpt-ad"]
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=motorsport.tv
 @@||www.veedi.com/v2/js/ads/advert.js$script,domain=www.veedi.com
@@ -505,7 +493,6 @@ lazyadmin.nl##+js(aopw, adsBlocked)
 veedi.com##+js(set, adBlocker, false)
 @@||imasdk.googleapis.com^$script,domain=veedi.com
 fok.nl##+js(addEventListener-defuser, , DAB)
-forum.fok.nl##+js(set-constant, DAB, noopFunc)
 *$xhr,domain=foxsports.nl,redirect-rule=nooptext
 ||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=foxsports.nl
 foxsports.nl##.dcm-section-advert
@@ -515,22 +502,3 @@ icttipsandtricks.nl##+js(acis, jQuery, ai_adb)
 *$script,redirect-rule=noopjs,domain=notonlyforfans.nl
 nu.nl##+js(set, is_adblocker_in_use, false)
 !#endif
-!--------Annoyances--------!
-calorielijst.nl##+js(aopw, clickIE)
-christenenvoorisrael.nl##.diffuse_cookie-bar__container
-dagelijksestandaard.nl##.default.dgd_stb_box
-etf.edu##.alert-warning.toolbar-cookie
-marktplaats.nl,2dehands.be##.mp-LoginNudge
-marktplaats.nl###inloggenDialog
-marktplaats.nl##.hz-LoginNudge
-nl.shein.com##.welocme-modal
-nl.motorsport.com##.ms-footer-editions-messages > .active.ms-footer-message
-nl.motorsport.com##.ms-footer-messages > .active.ms-footer-message
-nos.nl###ccm_notification_wrapper
-nsinternational.com##.r42CookieBar
-schaatsen.nl##.c-cookie-bar
-speedtest.net##.notification-container > div > .notification
-speedtest.net###_evidon-barrier-wrapper
-tweakers.net##.notificationsContainer
-y8.com###policy-validation
-volkskrant.nl,trouw.nl###LOGIN_BIG_BOTTOM > .tm-body
