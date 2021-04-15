@@ -7,7 +7,7 @@ My own updated version of EasyList Dutch
 I made this filter because the EasyList Dutch filter isn't maintained often.
 So I made this to provide you a better service!!
 
-If you see ads on dutch websites please report it to me.
+If you see ads on dutch websites please [report](https://github.com/BPower0036/AdBlockFilters/issues) it to me.
 
 It can recommended to use this filterlist with the default filterlists in [uBlock Origin](https://github.com/uBlockOrigin/uAssets) and with the below mentioned rules for blocking 3p-frames.
 
