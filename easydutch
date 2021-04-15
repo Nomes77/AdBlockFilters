@@ -440,21 +440,23 @@ weertdegekste.nl##.infeed-wrap
 welingelichtekringen.nl##[href*="adnxs.com/click?"]
 zeelandnet.nl##.g_banner
 !--------Uitzonderingen verbergregels--------!
+autodealers.nl,speurders.nl,xxxplaza.nl#@##advertentie
+blikopnieuws.nl,computeridee.nl#@#.reclame
+drenthemobiel.nl,flevolandmobiel.nl,gelderlandmobiel.nl,groningenmobiel.nl,limburgmobiel.nl,marktplaza.nl,moorslede.be,nederlandmobiel.nl,noord-brabantmobiel.nl,noord-hollandmobiel.nl,overijsselmobiel.nl,paginamarkt.nl,sexjobs.nl,utrechtmobiel.nl,zeelandmobiel.nl,zuid-hollandmobiel.nl#@#.advertentie
+paginamarkt.nl,sexjobs.nl#@#.advertentie
+! Uitzonderingen voor EasyList
 ad.nl#@#.ad_bg
 ad.nl#@#.nav_ad
 archiefleeuwardercourant.nl,dekrantvantoen.nl#@##headerAdv
 autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@##ad_wrap
 autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@#.ad_background
 autodealers.nl#@#.ad-btn
-autodealers.nl,speurders.nl,xxxplaza.nl#@##advertentie
-blikopnieuws.nl,computeridee.nl#@#.reclame
 bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,pzc.nl,radiozenders.fm,tubantia.nl#@#.ad-spacer
 bokt.nl#@#.ad-body
 bokt.nl#@#.node-ad
 comedycentral.nl#@##bannerad
 dekrantvantoen.nl#@##headerAdv
 digitekst.com#@#.adTitle
-drenthemobiel.nl,flevolandmobiel.nl,gelderlandmobiel.nl,groningenmobiel.nl,limburgmobiel.nl,marktplaza.nl,moorslede.be,nederlandmobiel.nl,noord-brabantmobiel.nl,noord-hollandmobiel.nl,overijsselmobiel.nl,paginamarkt.nl,sexjobs.nl,utrechtmobiel.nl,zeelandmobiel.nl,zuid-hollandmobiel.nl#@#.advertentie
 emarketingexperts.nl#@#.adwords
 forum.fok.nl#@#.adfieldbg
 hotcontact.nl,xxxplaza.nl#@#.adlink
@@ -462,7 +464,6 @@ kamernet.nl#@#.topAdd
 kinderspelletjes.nl#@##adframe:not(frameset)
 landleven.nl#@#.post-ad
 marktplaats.nl#@#.adSummary
-paginamarkt.nl,sexjobs.nl#@#.advertentie
 schaatsen.nl#@#.advertisement-header
 schaatsen.nl#@#.HeaderAd
 spele.nl#@#.afs_ads
