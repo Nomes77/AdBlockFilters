@@ -1,4 +1,4 @@
-### Prerequisites
+### Prerequisites / Vereisten
 
 <!-- Check the appropriate boxes before you submit your issue -->
 
