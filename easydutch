@@ -229,20 +229,22 @@ _advertentieleaderboardhome.
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||koopplein.nl^*/advertenties/upload
 @@||googletagmanager.com/gtm.js$script,domain=sdok.nl
+@@||openx.kinepolis.com/delivery/spcjs.php?id=$script,domain=kinepolis.be|kinepolis.com
 @@||sexjobs.nl/advertentie/
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
 @@||te-les-koop.nl/advertenties.php
 @@||zeelandnet.nl/prikbord/assets/*/advertentie.js
 @@||zeelandnet.nl/prikbord/assets/*/advertenties.js
-! Uitzonderingen voor EasyList
-@@||openx.kinepolis.com/delivery/spcjs.php?id=$script,domain=kinepolis.be|kinepolis.com
+!#if ext_ublock
+@@||googletagmanager.com/gtm.js$script,domain=sdok.nl,badfilter
+@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
+!#endif
 !--------Uitzonderingen Specifieke blokkeerregels (derden)--------!
-@@||geolocation.onetrust.com^$domain=www.nu.nl
-! Uitzonderingen voor EasyList
 @@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=www.radioluisteren.fm
 @@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=www.radioluisteren.fm
 @@||faktor.io^$3p,domain=consent.talpanetwork.com
+@@||geolocation.onetrust.com^$domain=www.nu.nl
 @@||images.marktnet.eu/adimg/
 @@||imasdk.googleapis.com/js/$script,domain=y8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl
