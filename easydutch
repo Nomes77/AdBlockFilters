@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 15-04-2021UTC16:36
+! Last modified: 16-04-2021UTC07:22
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -59,7 +59,6 @@ _advertentieleaderboardhome.
 ||asp.unitedconsumers.com^$third-party
 ||assets.nudeal.nl^$third-party
 ||banners.vip.nl^$third-party
-||bd.313.nl^$third-party
 ||bluemango.nl^$third-party
 ||bva-auctions.com^$domain=telegraaf.nl
 ||cd.tnet.nl^$script,third-party
@@ -137,6 +136,7 @@ _advertentieleaderboardhome.
 ||dutchcowboys.nl/images/*-takeover.png
 ||dutchleader.nl/php/popex/
 ||duurzaam-actueel.nl^*banner
+||flirtfair.de^*/dppop.js
 ||flirtmee.nl/chat/banner_
 ||forum.spaarinformatie.nl/si-info.html
 ||genemuidenactueel.nl^*banner
@@ -169,7 +169,10 @@ _advertentieleaderboardhome.
 ||popinstituut.nl/wp-content/uploads/2014/02/Huren.nl
 ||recreatief.nl/kerstarrangementen.gif
 ||relatieplanet.be/2linkbe/iframesearch.asp
+||resellers.viboshop.nl/promoimages/
+||search-result.com^*/klokad2.js
 ||sexamateurtjes.nl/banners/
+||sexverhalen.com/vriendschap/
 ||smetrics.cat-care.nl^
 ||ssc.mtv.nl^
 ||sstats.asadventure.nl^
@@ -183,22 +186,18 @@ _advertentieleaderboardhome.
 ||whatismyip.nl/images/vista_sky2.gif
 !--------Specifieke blokkeerregels (derden)--------!
 ||blablacar.nl/widget-driver/$third-party
-||c.dpgmedia.net^$third-party
 ||cdn.media.zylom.com/images/site/zylom/promo/$third-party
 ||digitalaudience.io/bakery/pix/$image,third-party
 ||dutchleader.nl/php/banex/$third-party
 ||enviedeplus.be^*_banner_$third-party
 ||euroclix.nl^$third-party,domain=~panelclix.com|~panelclix.nl
 ||powerconnect.be^*/poweractie.jpg$third-party
-||sp.dpgmedia.net^$third-party
 ||totaalwijzer.nl/widget/$third-party
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 ||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
 ||agfstorage.blob.core.windows.net/banners$domain=agf.nl
 ||aj1716.online^$image,domain=sexjobs.nl
-||amz01.plzcdn.com/a/
 ||api.skyscanner.net/api.ashx?$domain=viva.nl
-||bol.com/nl/upload/banners/
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
@@ -207,19 +206,8 @@ _advertentieleaderboardhome.
 ||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
 ||config-prod.choice.faktor.io/*/faktor.js$script,domain=consent.talpanetwork.com
 ||dev.visualwebsiteoptimizer.com/j.php$script,important,domain=www.nu.nl
-||dutchleader.nl/php/popex/
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
-||flirtfair.de^*/dppop.js
 ||gemius.pl/gstream.js$script,important,domain=www.destentor.nl|www.telegraaf.nl
-||giveawayoftheday.com/ticker/
-||jobat.be/scripts/jobatscripts.js
-||recreatief.nl/kerstarrangementen.gif
-||relatieplanet.be/2linkbe/iframesearch.asp
-||resellers.viboshop.nl/promoimages/
-||search-result.com^*/klokad2.js
-||sexamateurtjes.nl/banners/
-||sexverhalen.com/vriendschap/
-||startpagina.nl^*/dochters/*/banners/
 ||static-dscn.net/13146/1686020/$domain=almere-nieuws.nl
 ||thisislive.com/promo/
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
@@ -314,7 +302,7 @@ _advertentieleaderboardhome.
 538.nl###eCommerce
 ad.nl##.advertising-container-top
 ad.nl,destentor.nl,ed.nl##.ankeiler--advertisement
-ad.nl##.dfp-space
+ad.nl,7sur7.be##.dfp-space
 ad.nl##.page-header__section--spacer
 afkortingen.nu###banner_right
 afkortingen.nu###banner_top
@@ -472,16 +460,20 @@ zeelandnet.nl#@#.ad-card
 !--------Anti-Adblock regels--------!
 ||goplay.be/js/sourcepoint/msg?v=
 @@||ah.nl^$generichide
-@@||cdn.cxense.com/cx.cce.js$script,domain=nl.motorsport.com
+@@||cdn.vuplay.co.uk/*/comscore.$script,domain=sporza.be,vrt.be
+@@||fwmrm.net/ad/$script,xhr,domain=medialaan.be|medialaancdn.be|q2.be|vtm.be
 @@||gamekings.tv^$generichide
 @@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,domain=girlscene.nl
+girlscene.nl##.ad-container
+||mmcdn.nl^$third-party
+@@||ke1.nl^$generichide
 @@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
 @@||prerollads.nl^
 @@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
+@@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,~third-party
 @@||refoweb.nl^$generichide
 refoweb.nl##div[id^="div-gpt-ad"]
-@@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=motorsport.tv
-@@||www.veedi.com/v2/js/ads/advert.js$script,domain=www.veedi.com
+@@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
 directwonen.nl#@#.adsbox
 fok.nl#@#.advertentie
 forum.fok.nl#@##advertentie
@@ -489,20 +481,10 @@ zeelandnet.nl##.bnr-notice
 !#if ext_ublock
 @@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,domain=girlscene.nl,badfilter
 girlscene.nl##+js(set, adblock, 0)
-@@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=motorsport.tv,badfilter
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=motorsport.tv
-*$script,redirect-rule=noopjs,domain=motorsport.tv
 lazyadmin.nl##+js(aopw, adsBlocked)
-@@||www.veedi.com/v2/js/ads/advert.js$script,domain=www.veedi.com,badfilter
-veedi.com##+js(set, adBlocker, false)
-@@||imasdk.googleapis.com^$script,domain=veedi.com
 fok.nl##+js(addEventListener-defuser, , DAB)
-*$xhr,domain=foxsports.nl,redirect-rule=nooptext
-||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=foxsports.nl
-foxsports.nl##.dcm-section-advert
-foxsports.nl##.fadeInLeft.animated.dcm-main-content.col-md-12
 gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
 icttipsandtricks.nl##+js(acis, jQuery, ai_adb)
-*$script,redirect-rule=noopjs,domain=notonlyforfans.nl
 nu.nl##+js(set, is_adblocker_in_use, false)
+vtm.be##+js(set, __PLAYER_AD__, true)
 !#endif
