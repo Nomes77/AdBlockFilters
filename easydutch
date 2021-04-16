@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 16-04-2021UTC07:22
+! Last modified: 16-04-2021UTC08:05
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -39,7 +39,7 @@
 /small_reclames/*
 /topadvertentie.
 ://promotie.$third-party
-_336x120.$image,domain=~www.dekrantvantoen.nl
+_336x120.$image,domain=~dekrantvantoen.nl
 _advertentie300x250_
 _advertentieleaderboardhome.
 !--------Advertentiedomeinen--------!
@@ -208,7 +208,6 @@ _advertentieleaderboardhome.
 ||dev.visualwebsiteoptimizer.com/j.php$script,important,domain=www.nu.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
 ||gemius.pl/gstream.js$script,important,domain=www.destentor.nl|www.telegraaf.nl
-||static-dscn.net/13146/1686020/$domain=almere-nieuws.nl
 ||thisislive.com/promo/
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||uu.nl/proton/*/akzonobel_masters_
@@ -308,7 +307,8 @@ afkortingen.nu###banner_right
 afkortingen.nu###banner_top
 afkortingen.nu###link_unit
 afkortingen.nu,erotracks.nl,startbewijs.nl##.banner
-almere-nieuws.nl###banner-text2 > .bjqs > li.bjqs-slide > .alert-grey.alert
+almere-nieuws.nl###banner-text2
+almere-nieuws.nl##div[class*="jeg_ad"]
 androidplanet.nl###featured-header[data-campaign]
 androidplanet.nl##.dynamic-content[data-nosnippet]
 androidplanet.nl##.dynamic-content-native
@@ -323,12 +323,13 @@ bokt.nl###frontpage_mediumrect
 buienradar.be,buienradar.nl###adholderContainerHeader
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 classic.nl##div.brievenbus
-digitaalburg.com##.font-bold.font-sans-serif.xs-font-size.rounded-all.s-full.m-half-lm.l-sb-right-split.widget-area
+digitaalburg.com##aside[class^="widget widget_text"]
 dwtonline.com###banner1
 eindexamens.nu###leaderboard
 fd.nl##.fd-message-home-header
 filmtotaal.nl##.ad-centering
 focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
+forum.fok.nl###wa_web_headertofloor
 gfcnieuws.com##.n2-section-smartslider
 gfcnieuws.com##.widget_media_image.widget.extendedwopts-mobile.extendedwopts-tablet.extendedwopts-hide
 gic.nl##.banners
@@ -422,17 +423,15 @@ voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
 wanttoknow.nl###right-sidebar > div.mb-3
 wanttoknow.nl##.float-right
+webwereld.nl##.leaderBoardHolder
 weertdegekste.nl##.infeed-wrap
 welingelichtekringen.nl##[href*="adnxs.com/click?"]
 zeelandnet.nl##.g_banner
 !--------Uitzonderingen verbergregels--------!
 autodealers.nl,speurders.nl,xxxplaza.nl#@##advertentie
 blikopnieuws.nl,computeridee.nl#@#.reclame
-drenthemobiel.nl,flevolandmobiel.nl,gelderlandmobiel.nl,groningenmobiel.nl,limburgmobiel.nl,marktplaza.nl,moorslede.be,nederlandmobiel.nl,noord-brabantmobiel.nl,noord-hollandmobiel.nl,overijsselmobiel.nl,paginamarkt.nl,sexjobs.nl,utrechtmobiel.nl,zeelandmobiel.nl,zuid-hollandmobiel.nl#@#.advertentie
 paginamarkt.nl,sexjobs.nl#@#.advertentie
 ! Uitzonderingen voor EasyList
-autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@##ad_wrap
-autobedrijfscheele.nl,autodealers.nl,autoroden.nl,henkheikamp.nl#@#.ad_background
 autodealers.nl#@#.ad-btn
 bokt.nl#@#.ad-body
 bokt.nl#@#.node-ad
@@ -487,4 +486,5 @@ gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
 icttipsandtricks.nl##+js(acis, jQuery, ai_adb)
 nu.nl##+js(set, is_adblocker_in_use, false)
 vtm.be##+js(set, __PLAYER_AD__, true)
+webwereld.nl##+js(set, adsAreShown, true)
 !#endif
