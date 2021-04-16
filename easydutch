@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 16-04-2021UTC08:05
+! Last modified: 16-04-2021UTC08:16
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -473,6 +473,9 @@ girlscene.nl##.ad-container
 @@||refoweb.nl^$generichide
 refoweb.nl##div[id^="div-gpt-ad"]
 @@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
+@@||videoplaza.tv^$script,domain=7sur7.be
+@@||service.videoplaza.tv/proxy/pulse-sdk-html5/$script,domain=lalibre.be
+@@||vp.videoplaza.tv/resources/pulse-sdk-html5/$script,domain=lalibre.be
 directwonen.nl#@#.adsbox
 fok.nl#@#.advertentie
 forum.fok.nl#@##advertentie
