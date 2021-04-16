@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 16-04-2021UTC17:41
+! Last modified: 16-04-2021UTC17:50
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -423,6 +423,7 @@ vagina.nl###side-fish-hooks
 vagina.nl##[href^="https://xltube.nl/click/mad/"]
 voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
+want.nl##.sticky-banner-container
 wanttoknow.nl###right-sidebar > div.mb-3
 wanttoknow.nl##.float-right
 webwereld.nl##.leaderBoardHolder
