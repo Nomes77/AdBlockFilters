@@ -1,6 +1,10 @@
 ---
 name: EasyDutch
 about: Issue tracker for EasyDutch
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
 ### Prerequisites / Vereisten

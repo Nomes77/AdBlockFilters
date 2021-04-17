@@ -1,7 +1,10 @@
 ---
 name: EasyDutch (NSFW)
 about: Issue tracker for EasyDutch, only NSFW
-label: NSFW
+title: "[NSFW] "
+labels: NSFW
+assignees: ''
+
 ---
 
 ### Prerequisites / Vereisten
