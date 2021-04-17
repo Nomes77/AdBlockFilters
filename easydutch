@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 16-04-2021UTC17:50
+! Last modified: 17-04-2021UTC09:23
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -51,6 +51,10 @@ _advertentieleaderboardhome.
 ||cdn.ster.nl/banners^
 ||ganaar.gertibaldi.com^
 ||mooieplaatjes.bierdopje.com^
+||smetrics.cat-care.nl^
+||ssc.mtv.nl^
+||sstats.asadventure.nl^
+||temptation.ad.nl^
 !--------Advertentiedomeinen (derden)--------!
 ||2mdn.net^$domain=autoweek.nl|l1.nl
 ||adconfigproxy.azurewebsites.net^$third-party
@@ -129,6 +133,7 @@ _advertentieleaderboardhome.
 ||bol.com/nl/upload/partnerprogramma/*.jpg
 ||buienalarm.nl^*300x250.
 ||cdn.ster.nl/banners^
+||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
 ||chatgirl.nl^*/dlf468.
 ||chatmetvreemden.be/static/html/
 ||chatmetvreemden.nl/static/html/
@@ -175,11 +180,7 @@ _advertentieleaderboardhome.
 ||search-result.com^*/klokad2.js
 ||sexamateurtjes.nl/banners/
 ||sexverhalen.com/vriendschap/
-||smetrics.cat-care.nl^
-||ssc.mtv.nl^
-||sstats.asadventure.nl^
 ||te-les-koop.nl/images/B_
-||temptation.ad.nl^
 ||turksemedia.nl/logos/*.
 ||unity.nu/media/*/BANNERS/
 ||vdab.be/indekijker/
@@ -203,13 +204,9 @@ _advertentieleaderboardhome.
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
-||cd.tnet.nl/ads/ads.js$script,important,domain=www.metronieuws.nl|www.telegraaf.nl
+||cd.tnet.nl/ads/ads.js$script,important,domain=metronieuws.nl|telegraaf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
-||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
-||config-prod.choice.faktor.io/*/faktor.js$script,domain=consent.talpanetwork.com
-||dev.visualwebsiteoptimizer.com/j.php$script,important,domain=www.nu.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
-||gemius.pl/gstream.js$script,important,domain=www.destentor.nl|www.telegraaf.nl
 ||thisislive.com/promo/
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||uu.nl/proton/*/akzonobel_masters_
@@ -231,21 +228,19 @@ _advertentieleaderboardhome.
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
 !#endif
 !--------Uitzonderingen Specifieke blokkeerregels (derden)--------!
-@@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=www.radioluisteren.fm
-@@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=www.radioluisteren.fm
-@@||faktor.io^$3p,domain=consent.talpanetwork.com
+@@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=radioluisteren.fm
+@@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=radioluisteren.fm
 @@||images.marktnet.eu/adimg/
-@@||imasdk.googleapis.com/js/$script,domain=y8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl
 @@||imasdk.googleapis.com/js/core/bridge3.*.html#goog_$subdocument,domain=vtm.be
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=www.hbvl.be
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=hbvl.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vtm.be
-@@||js.spotx.tv/ados/v1/106185.js$script,domain=www.radioluisteren.fm
+@@||js.spotx.tv/ados/v1/106185.js$script,domain=radioluisteren.fm
 @@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
-@@||search.spotxchange.com/js/spotx.js$script,domain=www.radioluisteren.fm
-@@||sync.search.spotxchange.com/partner?source=easi$image,domain=www.radioluisteren.fm
+@@||search.spotxchange.com/js/spotx.js$script,domain=radioluisteren.fm
+@@||sync.search.spotxchange.com/partner?source=easi$image,domain=radioluisteren.fm
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
-@@||tools.vpscash.nl/datingv3/docs/plug_and_play/*$subdocument,domain=www.flirtmee.nl
+@@||tools.vpscash.nl/datingv3/docs/plug_and_play/*$subdocument,domain=flirtmee.nl
 @@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
 !--------Algemene verbergregels--------!
 ! Ben aan het kijken of het weglaten van deze algemene regels voor problemen zorgt. Weet niet hoe vaak deze filterregels nog voorkomen.
