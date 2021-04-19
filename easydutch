@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 19-04-2021UTC12:00
+! Last modified: 19-04-2021UTC12:05
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -181,12 +181,15 @@ _advertentieleaderboardhome.
 ||sexamateurtjes.nl/banners/
 ||sexverhalen.com/vriendschap/
 ||te-les-koop.nl/images/B_
+||thisislive.com/promo/
 ||turksemedia.nl/logos/*.
 ||unity.nu/media/*/BANNERS/
+||uu.nl/proton/*/akzonobel_masters_
 ||vdab.be/indekijker/
 ||wanttoknow.nl^*Banner
 ||weertdegekste.nl^*banner
 ||whatismyip.nl/images/vista_sky2.gif
+||xingo.nl/bannermanagement/
 !--------Specifieke blokkeerregels (derden)--------!
 ||blablacar.nl/widget-driver/$third-party
 ||cdn.media.zylom.com/images/site/zylom/promo/$third-party
@@ -207,11 +210,8 @@ _advertentieleaderboardhome.
 ||cd.tnet.nl/ads/ads.js$script,important,domain=metronieuws.nl|telegraaf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
-||thisislive.com/promo/
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
-||uu.nl/proton/*/akzonobel_masters_
 ||widget.vpnnederland.nl/VPNNederland-widget.js$domain=www.nzbserver.com
-||xingo.nl/bannermanagement/
 !--------Uitzonderingen Specifieke blokkeerregels--------!
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||images.marktnet.eu/adimg/
