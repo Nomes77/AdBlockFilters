@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 19-04-2021UTC09:30
+! Last modified: 19-04-2021UTC12:00
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -214,34 +214,35 @@ _advertentieleaderboardhome.
 ||xingo.nl/bannermanagement/
 !--------Uitzonderingen Specifieke blokkeerregels--------!
 @@||2dehandskleertjes.nl/uploads/advertenties/
+@@||images.marktnet.eu/adimg/
 @@||koopplein.nl^*/advertenties/upload
-@@||googletagmanager.com/gtm.js$script,domain=sdok.nl
-@@||openx.kinepolis.com/delivery/spcjs.php?id=$script,domain=kinepolis.be|kinepolis.com
 @@||sexjobs.nl/advertentie/
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
 @@||te-les-koop.nl/advertenties.php
 @@||zeelandnet.nl/prikbord/assets/*/advertentie.js
 @@||zeelandnet.nl/prikbord/assets/*/advertenties.js
-!#if ext_ublock
-@@||googletagmanager.com/gtm.js$script,domain=sdok.nl,badfilter
-@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
-!#endif
 !--------Uitzonderingen Specifieke blokkeerregels (derden)--------!
 @@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=radioluisteren.fm
 @@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=radioluisteren.fm
-@@||images.marktnet.eu/adimg/
+@@||googletagmanager.com/gtm.js$script,domain=sdok.nl
+@@||help.marktplaats.nl/s/sfsites/aura$xmlhttprequest,domain=help.marktplaats.nl
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl
 @@||imasdk.googleapis.com/js/core/bridge3.*.html#goog_$subdocument,domain=vtm.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=hbvl.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vtm.be
 @@||js.spotx.tv/ados/v1/106185.js$script,domain=radioluisteren.fm
 @@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
+@@||openx.kinepolis.com/delivery/spcjs.php?id=$script,domain=kinepolis.be|kinepolis.com
 @@||search.spotxchange.com/js/spotx.js$script,domain=radioluisteren.fm
 @@||sync.search.spotxchange.com/partner?source=easi$image,domain=radioluisteren.fm
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
 @@||tools.vpscash.nl/datingv3/docs/plug_and_play/*$subdocument,domain=flirtmee.nl
 @@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
+!#if ext_ublock
+@@||googletagmanager.com/gtm.js$script,domain=sdok.nl,badfilter
+@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
+!#endif
 !--------Algemene verbergregels--------!
 ! Ben aan het kijken of het weglaten van deze algemene regels voor problemen zorgt. Weet niet hoe vaak deze filterregels nog voorkomen.
 !###adRechts
@@ -351,6 +352,7 @@ koopplein.nl###skyscraper
 koopplein.nl##.promobloc-desktop
 lc.nl##.main__ad
 lc.nl##.top__ad
+mediacourant.nl##.mc-adv
 meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
 meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 marktplaats.nl,2dehands.be##.mp-adsense-header
