@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 20-04-2021UTC07:00
+! Last modified: 20-04-2021UTC07:35
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -297,11 +297,11 @@ _advertentieleaderboardhome.
 112achterhoek-nieuws.nl###sidebar
 402automotive.com##.bannerpro_container
 538.nl###eCommerce
-ad.nl##.advertising-container-top
-ad.nl,destentor.nl,ed.nl##.ankeiler--advertisement
-ad.nl,7sur7.be##.dfp-space
-ad.nl##.page-header__section--spacer
-ad.nl#?#.tile[-ext-has=">.ankeiler--advertisement"]
+ad.nl,hln.be##.advertising-container-top
+ad.nl,destentor.nl,ed.nl,hln.be##.ankeiler--advertisement
+ad.nl,7sur7.be,hln.be##.dfp-space
+ad.nl,hln.be##.page-header__section--spacer
+ad.nl,hln.be#?#.tile[-ext-has=">.ankeiler--advertisement"]
 afkortingen.nu###banner_right
 afkortingen.nu###banner_top
 afkortingen.nu###link_unit
@@ -338,7 +338,6 @@ gic.nl##.btn-adverteren
 handbalstartpunt.nl##aside.widget-banner
 hardware.info##.sidebar_right_top
 historiek.net##div.ai-viewport-1
-hln.be##.advertising-container-top
 indeleiderstrui.nl##.ads
 indeleiderstrui.nl##.mt-3.container > div.row > .col
 iphoned.nl##.main-small > .dynamic-content-native
