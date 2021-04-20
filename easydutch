@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 20-04-2021UTC09:00
+! Last modified: 20-04-2021UTC09:48
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -251,7 +251,7 @@ _advertentieleaderboardhome.
 !###advertentieblokjeid
 !###cycloneslider-advertentie2-2
 !###cycloneslider-advertenties-1
-!###gesponsordelink
+###gesponsordelink
 !###middenAd2_footer
 !###middenAd3_footer
 !###middenAd4_footer
@@ -273,7 +273,7 @@ _advertentieleaderboardhome.
 !##.admarkt_gallery_info
 !##.adstekst
 ##.advertentie
-!##.advertenties
+##.advertenties
 !##.advertorial_koersen_home_top
 !##.aw_url_admarkt_bottom
 !##.banner_advert6blok
@@ -282,13 +282,13 @@ _advertentieleaderboardhome.
 !##.bovenadvertentiediv
 !##.category-advertentie
 !##.content-rechts-ad
-!##.gesponsordelink
+##.gesponsordelink
 !##.justLease_ad
 !##.mp-adsense-header-top
 !##.ontwerp_ads
 ##.reclame
 !##.reclameIndex
-!##.reclamekop
+##.reclamekop
 !##.reclamelogos
 !##.sponsorbalk
 !##a[href^="http://adserver.webads.nl/adclick/"]
@@ -331,8 +331,10 @@ filmtotaal.nl###adf-rectangle
 filmtotaal.nl##.ad-centering
 focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
 forum.fok.nl###wa_web_headertofloor
+gfcnieuws.com###secondary > section.widget:not(.widget_search)
+gfcnieuws.com###home-banners
+gfcnieuws.com##div[id^="meteor-"]
 gfcnieuws.com##.n2-section-smartslider
-gfcnieuws.com##.widget_media_image.widget.extendedwopts-mobile.extendedwopts-tablet.extendedwopts-hide
 gic.nl##.banners
 gic.nl##.btn-adverteren
 handbalstartpunt.nl##aside.widget-banner
