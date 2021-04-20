@@ -1,4 +1,4 @@
-! Title: uBlock Dynamic Rules for 3p-frames
+! Title: uBlock Dynamic Rules for 3p-frames (whitelist)
 ! Description: A whitelist for medium mode of uBlock Origin when only blocking 3p-frames.
 ! TimeUpdated: 2021-04-20
 * * 3p-frame block
