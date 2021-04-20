@@ -1,7 +1,6 @@
 ! Title: uBlock Dynamic Rules for 3p-frames
 ! Description: A whitelist for medium mode of uBlock Origin when only blocking 3p-frames.
-! TimeUpdated: 2021-04-07
-no-csp-reports: * true
+! TimeUpdated: 2021-04-20
 * * 3p-frame block
 * embed.acast.com * noop
 * ajax.googleapis.com * noop
@@ -11,13 +10,13 @@ no-csp-reports: * true
 * akamaized.net * noop
 * embed.music.apple.com * noop
 * archive.org * noop
-* api.banned.video * noop
-* behind-the-scene * block
+* banned.video * noop
 * www.bitchute.com * noop
 * embed.blivenyc.com * noop
 * players.brightcove.net * noop
 * cdn.embed.ly.cdn.cloudflare.net * noop
 * start-player.npo.nl.cdn.cloudflare.net * noop
+* platform.cmmtr.com * noop
 * player-backend.cnevids.com * noop
 * disqus.com * noop
 * edgecastcdn.net * noop
@@ -46,6 +45,7 @@ no-csp-reports: * true
 * embed.kijk.nl * noop
 * map.fastly.net * noop
 * maps.googleapis.com * noop
+* maxx-xs.nl * noop
 * player.megaphone.fm * noop
 * start-player.npo.nl * noop
 * octocaptcha.com * noop
@@ -56,6 +56,7 @@ no-csp-reports: * true
 * player.sequoia.piksel.com * noop
 * podbean.com * noop
 * cdn-1294.privacy-mgmt.com * noop
+* gdpr-consent-tool.privacymanager.io * noop
 * player.qualifio.com * noop
 * www.recaptcha.net * noop
 * www.roxytube.com * noop
@@ -67,23 +68,26 @@ no-csp-reports: * true
 * embed.spotify.com * noop
 * open.spotify.com * noop
 * embed.streamx.me * noop
+* t.me * noop
 * embed.ted.com * noop
 * player.theplatform.com * noop
 * www.tiktok.com * noop
 * translate.googleapis.com * noop
 * trinitymedia.ai * noop
 * consent-pref.trustarc.com * noop
+* player.tubia.com * noop
 * embed.tumblr.com * noop
+* turnpages.nl * noop
 * player.twitch.tv * noop
 * play.vidyard.com * noop
 * player.vimeo.com * noop
+* wixlabs-pdf-dev.appspot.com * noop
 * www.googleapis.com * noop
-* www.youtube-nocookie.com * noop
-* www.youtube.com * noop
+* youtube-nocookie.com * noop
+* youtube.com * noop
 * youtube.googleapis.com * noop
 * player.zdf.de * noop
 www.autoblog.nl bbvms.com * noop
-geenstijl.nl gdpr-consent-tool.privacymanager.io * noop
 drive.google.com content.googleapis.com * noop
 sites.google.com content.googleapis.com * noop
 translate.google.com translate.goog * noop
@@ -93,8 +97,8 @@ www.reddit.com redditmedia.com * noop
 y8.com html5.gamemonetize.com * noop
 y8.com hwcdn.net * noop
 * https://www.facebook.com/plugins/video.php sub_frame noop
+* https://www.google.com/maps/embed sub_frame noop
 * https://www.google.com/recaptcha/ sub_frame noop
-* https://www.google.com/maps/embed/ sub_frame noop
 * https://www.gstatic.com/atari/embeds/ sub_frame noop
 * https://www.skoften.net/video/embed/ sub_frame noop
 * https://platform.twitter.com/embed/ sub_frame noop
@@ -103,3 +107,4 @@ y8.com hwcdn.net * noop
 ehubsoft.net https://content.googleapis.com/static/proxy.html sub_frame noop
 ehubsoft.net https://accounts.google.com sub_frame noop
 ehubsoft.net https://docs.google.com/picker sub_frame noop
+openstreetmap.org http://127.0.0.1:8111 sub_frame noop
