@@ -139,6 +139,7 @@ _advertentieleaderboardhome.
 ||chatmetvreemden.nl/static/html/
 ||deoudrotterdammer.nl/wp-content/uploads/*/banner*.$image
 ||dutchcowboys.nl/images/*-takeover.png
+||dutchitchannel.nl/media/6*/*.jpg
 ||dutchleader.nl/php/popex/
 ||duurzaam-actueel.nl^*banner
 ||flirtfair.de^*/dppop.js
@@ -323,6 +324,7 @@ buienradar.be,buienradar.nl###adholderContainerHeader
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 classic.nl##div.brievenbus
 digitaalburg.com##aside[class^="widget widget_text"]
+dutchitchannel.nl##[href*="/application-pages/380/bannerclick.html"]
 dwtonline.com###banner1
 eindexamens.nu###leaderboard
 eindtijdklok.org##.wpa
