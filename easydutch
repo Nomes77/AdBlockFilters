@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 20-04-2021UTC14:06
+! Last modified: 20-04-2021UTC17:22
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -44,7 +44,9 @@ _336x120.$image,domain=~dekrantvantoen.nl
 _advertentie300x250_
 _advertentieleaderboardhome.
 !--------Advertentiedomeinen--------!
+||adpepper.nl^
 ||adverteren.rd.nl^
+||bannermarkt.nl^
 ||banner.klikklik.nl^
 ||banners.toeto.com^
 ||banners.utilo.nl^
@@ -58,6 +60,7 @@ _advertentieleaderboardhome.
 !--------Advertentiedomeinen (derden)--------!
 ||2mdn.net^$domain=autoweek.nl|l1.nl
 ||adconfigproxy.azurewebsites.net^$third-party
+||adfactor.nl^$third-party
 ||ad-prod.ster.nl^$third-party
 ||affiliatepartners.com^$third-party
 ||asp.unitedconsumers.com^$third-party
@@ -70,6 +73,7 @@ _advertentieleaderboardhome.
 ||conversive.nl^$third-party
 ||coolconcepts.nl^$third-party
 ||csmcampagne.consumind.nl^$third-party
+||daisycon.com^$third-party
 ||ds1.nl^$third-party
 ||dt51.net$third-party
 ||dt61.net$third-party
