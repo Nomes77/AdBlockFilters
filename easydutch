@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 21-04-2021UTC13:35
+! Last modified: 21-04-2021UTC14:20
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -212,7 +212,7 @@ _advertentieleaderboardhome.
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
-||cd.tnet.nl/ads/ads.js$script,important,domain=metronieuws.nl|telegraaf.nl
+||cd.tnet.nl/ads/ads.js$script,domain=metronieuws.nl|telegraaf.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
@@ -232,17 +232,15 @@ _advertentieleaderboardhome.
 @@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=radioluisteren.fm
 @@||googletagmanager.com/gtm.js$script,domain=sdok.nl
 @@||help.marktplaats.nl/s/sfsites/aura$xmlhttprequest,domain=help.marktplaats.nl
-@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl
-@@||imasdk.googleapis.com/js/core/bridge3.*.html#goog_$subdocument,domain=vtm.be
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=hbvl.be
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vtm.be
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl|vtm.be
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hbvl.be|vtm.be
 @@||js.spotx.tv/ados/v1/106185.js$script,domain=radioluisteren.fm
 @@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
 @@||openx.kinepolis.com/delivery/spcjs.php?id=$script,domain=kinepolis.be|kinepolis.com
 @@||search.spotxchange.com/js/spotx.js$script,domain=radioluisteren.fm
 @@||sync.search.spotxchange.com/partner?source=easi$image,domain=radioluisteren.fm
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
-@@||tools.vpscash.nl/datingv3/docs/plug_and_play/*$subdocument,domain=flirtmee.nl
+@@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
 @@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
 !#if ext_ublock
 @@||googletagmanager.com/gtm.js$script,domain=sdok.nl,badfilter
@@ -310,7 +308,7 @@ _advertentieleaderboardhome.
 afkortingen.nu###banner_right
 afkortingen.nu###banner_top
 afkortingen.nu###link_unit
-afkortingen.nu,erotracks.nl,startbewijs.nl##.banner
+afkortingen.nu,dutchitchannel.nl,erotracks.nl,startbewijs.nl##.banner
 almere-nieuws.nl###banner-text2
 almere-nieuws.nl##div[class*="jeg_ad"]
 androidplanet.nl###featured-header[data-campaign]
@@ -426,6 +424,7 @@ tvgids.nl##.section-home-news__ad
 tvgids.tv##.col-left
 tvgids.tv##.col-right
 tvgids.nl##.interstitial_banner
+tweakers.net##img[referrerpolicy="unsafe-url"][src^="/i/"]
 vagina.nl##.video-fish-hook.fish-hook
 vagina.nl###bottom-fish-hooks
 vagina.nl###fish-hook-slidein-1
@@ -507,6 +506,8 @@ fok.nl##+js(aeld, , DAB)
 gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
 icttipsandtricks.nl##+js(acis, jQuery, ai_adb)
 knack.be##+js(nostif, Bait)
+nl.hardware.info##+js(nostif, .call(null), 10)
+nl.hardware.info##+js(aopr, Notification)
 nu.nl##+js(set, is_adblocker_in_use, false)
 vtm.be##+js(set, __PLAYER_AD__, true)
 webwereld.nl##+js(set, adsAreShown, true)
