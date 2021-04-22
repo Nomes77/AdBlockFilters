@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 22-04-2021UTC09:40
+! Last modified: 22-04-2021UTC10:44
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -63,6 +63,7 @@ _advertentieleaderboardhome.
 ||adfactor.nl^$third-party
 ||ad-prod.ster.nl^$third-party
 ||affiliatepartners.com^$third-party
+||aj1716.online^$domain=sexjobs.nl
 ||asp.unitedconsumers.com^$third-party
 ||assets.nudeal.nl^$third-party
 ||banners.vip.nl^$third-party
@@ -208,7 +209,6 @@ _advertentieleaderboardhome.
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 ||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
 ||agfstorage.blob.core.windows.net/banners$domain=agf.nl
-||aj1716.online^$image,domain=sexjobs.nl
 ||api.skyscanner.net/api.ashx?$domain=viva.nl
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
@@ -328,7 +328,7 @@ buienradar.be,buienradar.nl###adholderContainerHeader
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 classic.nl##div.brievenbus
 dvhn.nl,lc.nl##.main__ad
-dvhn.nl,lc.nl##.top__ad
+dvhn.nl,lc.nl,meppelercourant.nl##.top__ad
 digitaalburg.com##aside[class^="widget widget_text"]
 dutchitchannel.nl##[href*="/application-pages/380/bannerclick.html"]
 dwtonline.com###banner1
@@ -370,7 +370,6 @@ marktplaats.nl,2dehands.be##.premium-content
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 marktplaats.nl,2dehands.be#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(> .mp-Listings__admarktTitle)
 marktplaats.nl,2dehands.be#?#ul.mp-Listings > li.mp-Listing:has(> .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:contains(/^Topadvertentie$/))
-meppelercourant.nl##.top__ad
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
 nieuwsuitnijmegen.nl##.banner-box-1
