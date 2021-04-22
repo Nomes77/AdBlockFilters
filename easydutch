@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 22-04-2021UTC09:27
+! Last modified: 22-04-2021UTC09:40
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -360,7 +360,8 @@ kinderspelletjes.nl###adBoven
 kinderspelletjes.nl###adRechts2
 koopplein.nl###skyscraper
 koopplein.nl##.promobloc-desktop
-leiderdorpsweekblad.nl##.plista-advertise
+leiderdorpsweekblad.nl,welingelichtekringen.nl##.plistaFooter
+leiderdorpsweekblad.nl,welingelichtekringen.nl##[href*="adnxs.com/click?"]
 mediacourant.nl##.mc-adv
 meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
 meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
@@ -441,7 +442,6 @@ wanttoknow.nl###right-sidebar > div.mb-3
 wanttoknow.nl##.float-right
 webwereld.nl##.leaderBoardHolder
 weertdegekste.nl##.infeed-wrap
-welingelichtekringen.nl##[href*="adnxs.com/click?"]
 zeelandnet.nl##.article-bnr-first
 zeelandnet.nl##.g_banner
 !--------Uitzonderingen verbergregels--------!
