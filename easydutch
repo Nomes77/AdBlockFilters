@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 22-04-2021UTC08:05
+! Last modified: 22-04-2021UTC08:34
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -405,9 +405,8 @@ softonic.nl##.sam-slot
 speeleiland.nl##.banner-sky
 speeleiland.nl##.leader-below-game
 spel.nl##.game-page-sidebar
-spele.nl##.brioche.skyscraper.banner
-spele.nl##.broa.leaderboard.banner
 spele.nl##.is-billboard.slot-container
+spele.nl##.is-skyscraper.slot-container
 standaard.be##[class^="ad ad"]
 startbewijs.nl##.banner
 startpagina.nl##.top-banner
