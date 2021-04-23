@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 22-04-2021UTC10:44
+! Last modified: 23-04-2021UTC08:30
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -207,18 +207,18 @@ _advertentieleaderboardhome.
 ||powerconnect.be^*/poweractie.jpg$third-party
 ||totaalwijzer.nl/widget/$third-party
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
-||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
-||agfstorage.blob.core.windows.net/banners$domain=agf.nl
-||api.skyscanner.net/api.ashx?$domain=viva.nl
-||booking.com/flexiproduct.html$domain=puuropreis.nl
-||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
 ||cdn4.emesa-static.com/*/300x200/*.jpg$domain=538.nl
+||agfstorage.blob.core.windows.net/banners$domain=agf.nl
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
-||cd.tnet.nl/ads/ads.js$script,domain=metronieuws.nl|telegraaf.nl
+||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
+||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
-||ent-cdn.com/files/bans/*$image,domain=vagina.nl
+||cd.tnet.nl/ads/ads.js$script,domain=metronieuws.nl|telegraaf.nl
+||widget.vpnnederland.nl/VPNNederland-widget.js$domain=nzbserver.com
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
-||widget.vpnnederland.nl/VPNNederland-widget.js$domain=www.nzbserver.com
+||booking.com/flexiproduct.html$domain=puuropreis.nl
+||ent-cdn.com/files/bans/*$image,domain=vagina.nl
+||api.skyscanner.net/api.ashx?$domain=viva.nl
 !--------Uitzonderingen Specifieke blokkeerregels--------!
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||images.marktnet.eu/adimg/
@@ -230,20 +230,20 @@ _advertentieleaderboardhome.
 @@||zeelandnet.nl/prikbord/assets/*/advertentie.js
 @@||zeelandnet.nl/prikbord/assets/*/advertenties.js
 !--------Uitzonderingen Specifieke blokkeerregels (derden)--------!
+@@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
+@@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hbvl.be|vtm.be
+@@||help.marktplaats.nl/s/sfsites/aura$xmlhttprequest,domain=help.marktplaats.nl
+@@||openx.kinepolis.com/delivery/spcjs.php?id=$script,domain=kinepolis.be|kinepolis.com
+@@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl|vtm.be
 @@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=radioluisteren.fm
 @@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=radioluisteren.fm
 @@||js.spotx.tv/ados/v1/106185.js$script,domain=radioluisteren.fm
 @@||search.spotxchange.com/js/spotx.js$script,domain=radioluisteren.fm
 @@||sync.search.spotxchange.com/partner?source=easi$image,domain=radioluisteren.fm
 @@||googletagmanager.com/gtm.js$script,domain=sdok.nl
-@@||help.marktplaats.nl/s/sfsites/aura$xmlhttprequest,domain=help.marktplaats.nl
-@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl|vtm.be
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hbvl.be|vtm.be
-@@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
-@@||openx.kinepolis.com/delivery/spcjs.php?id=$script,domain=kinepolis.be|kinepolis.com
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
-@@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
-@@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
 !#if ext_ublock
 @@||googletagmanager.com/gtm.js$script,domain=sdok.nl,badfilter
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
@@ -373,6 +373,8 @@ marktplaats.nl,2dehands.be#?#ul.mp-Listings > li.mp-Listing:has(> .mp-Listing-co
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
 nieuwsuitnijmegen.nl##.banner-box-1
+ninefornews.nl##.widget-top:contains(/Advertentie/i)
+ninefornews.nl##.widget-top:contains(/Sponsored/i)
 nnieuws.be##.banner-silver
 nnieuws.be##.region-banner-diamond.region
 nnieuws.be##.view-vw-banners.view
@@ -428,16 +430,15 @@ tvgids.tv##.col-left
 tvgids.tv##.col-right
 tvgids.nl##.interstitial_banner
 tweakers.net##img[referrerpolicy="unsafe-url"][src^="/i/"]
-vagina.nl##.video-fish-hook.fish-hook
-vagina.nl###bottom-fish-hooks
-vagina.nl###fish-hook-slidein-1
-vagina.nl###fish-hook-slidein-2
-vagina.nl###side-fish-hooks
+vagina.nl##.fish-hook
 vagina.nl##[href^="https://xltube.nl/click/mad/"]
+vagina.nl##[id^="fish-hook-slidein"]
+vagina.nl##[id$="fish-hooks"]
 voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
 want.nl##.sticky-banner-container
 wanttoknow.nl###right-sidebar > div.mb-3
+wanttoknow.nl##.d-lg-block.d-none > .mb-3:contains(/Advertentie/)
 wanttoknow.nl##.float-right
 webwereld.nl##.leaderBoardHolder
 weertdegekste.nl##.infeed-wrap
@@ -473,28 +474,27 @@ xxxplaza.nl#@##ad_right
 xxxplaza.nl#@##adcontainer
 zeelandnet.nl#@#.ad-card
 !--------Anti-Adblock regels--------!
-||goplay.be/js/sourcepoint/msg?v=
-@@||prerollads.nl^
 @@||ah.nl^$generichide
 @@||gamekings.tv^$generichide
-@@||ke1.nl^$generichide
-@@||refoweb.nl^$generichide
-refoweb.nl##div[id^="div-gpt-ad"]
 @@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,~third-party
 girlscene.nl##.ad-container
 ||mmcdn.nl^$third-party
-@@||improvedigital.com/pbw/headerlift$script,domain=spele.nl
-||spele.nl/images/blocker/blocker-*.png
-spele.nl##.is-blocked
-@@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
+@@||ke1.nl^$generichide
 @@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,~third-party
-@@||cdn.vuplay.co.uk/*/comscore.$script,domain=sporza.be|vrt.be
-@@||fwmrm.net/ad/$script,xhr,domain=vtm.be
-@@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
-@@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
+@@||refoweb.nl^$generichide
+refoweb.nl##div[id^="div-gpt-ad"]
 @@||videoplaza.tv^$script,domain=7sur7.be
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5/$script,domain=lalibre.be
 @@||vp.videoplaza.tv/resources/pulse-sdk-html5/$script,domain=lalibre.be
+@@||improvedigital.com/pbw/headerlift$script,domain=spele.nl
+||spele.nl/images/blocker/blocker-*.png
+spele.nl##.is-blocked
+@@||cdn.vuplay.co.uk/*/comscore.$script,domain=sporza.be|vrt.be
+@@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
+@@||fwmrm.net/ad/$script,xmlhttprequest,domain=vtm.be
+@@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
+@@||videoplayer.persgroep.be/*/ad_smartads_.js$xmlhttprequest,domain=vtm.be
+||goplay.be/js/sourcepoint/msg?v=
 directwonen.nl#@#.adsbox
 fok.nl#@#.advertentie
 forum.fok.nl#@##advertentie
@@ -503,10 +503,10 @@ zeelandnet.nl##.bnr-notice
 !#if ext_ublock
 @@||girlscene.nl/templates/base/js/adbanner-dummy.js?$script,domain=girlscene.nl,badfilter
 girlscene.nl##+js(set, adblock, 0)
-lazyadmin.nl##+js(aopw, adsBlocked)
-leiderdorpsweekblad.nl##+js(aopr,'canRunAds',true)
-filmtotaal.nl##+js(nofab)
-nu.nl##+js(set, is_adblocker_in_use, false)
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,script,redirect=nooptext,domain=zeelandnet.nl
+filmtotaal.nl##+js(nofab)
+lazyadmin.nl##+js(aopw, adsBlocked)
+leiderdorpsweekblad.nl##+js(aopr, canRunAds ,true)
+nu.nl##+js(set, is_adblocker_in_use, false)
 webwereld.nl##+js(set, adsAreShown, true)
 !#endif
