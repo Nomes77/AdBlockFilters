@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 23-04-2021UTC08:30
+! Last modified: 23-04-2021UTC10:35
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -249,8 +249,7 @@ _advertentieleaderboardhome.
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
 !#endif
 !--------Algemene verbergregels--------!
-! Ben aan het kijken of het weglaten van deze algemene regels voor problemen zorgt. Weet niet hoe vaak deze filterregels nog voorkomen.
-!###adRechts
+###adRechts
 !###adsense_artikel_4
 ###advertentie
 !###advertentieblokjeid
@@ -261,7 +260,7 @@ _advertentieleaderboardhome.
 !###middenAd3_footer
 !###middenAd4_footer
 !###prog-sponsorlinks
-!###reclame2
+###reclame2
 !###reclame_rechts
 ###reclamebanner
 !###reclamediv
@@ -374,6 +373,7 @@ nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
 nieuwsuitnijmegen.nl##.banner-box-1
 ninefornews.nl##.widget-top:contains(/Advertentie/i)
+ninefornews.nl##.widget-top:contains(/Gesponsorde/i) 
 ninefornews.nl##.widget-top:contains(/Sponsored/i)
 nnieuws.be##.banner-silver
 nnieuws.be##.region-banner-diamond.region
