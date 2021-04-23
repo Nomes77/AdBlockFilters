@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 23-04-2021UTC15:30
+! Last modified: 23-04-2021UTC15:59
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -305,7 +305,7 @@ _advertentieleaderboardhome.
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.ankeiler--advertisement
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.page-header__section--spacer
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be#?#.tile:has(>.ankeiler--advertisement)
+7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be#?#.tile:has(:scope >.ankeiler--advertisement)
 afkortingen.nu###banner_right
 afkortingen.nu###banner_top
 afkortingen.nu###link_unit
@@ -367,15 +367,15 @@ meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 marktplaats.nl,2dehands.be##.mp-adsense-header
 marktplaats.nl,2dehands.be##.premium-content
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
-marktplaats.nl,2dehands.be#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(> .mp-Listings__admarktTitle)
-marktplaats.nl,2dehands.be#?#ul.mp-Listings > li.mp-Listing:has(> .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
+marktplaats.nl,2dehands.be#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(:scope > .mp-Listings__admarktTitle)
+marktplaats.nl,2dehands.be#?#ul.mp-Listings > li.mp-Listing:has(:scope > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
 nieuwsuitnijmegen.nl##.banner-box-1
 ninefornews.nl#?#.widget-top:has-text(/Advertentie/i)
 ninefornews.nl#?#.widget-top:has-text(/Gesponsorde/i) 
 ninefornews.nl#?#.widget-top:has-text(/Sponsored/i)
-ninefornews.nl#$?#.widget-top:has-text(/Archief/i) { margin-top: -50px!important; }
+ninefornews.nl#?#.widget-top:has-text(/Archief/i):style(margin-top: -50px!important;)
 nnieuws.be##.banner-silver
 nnieuws.be##.region-banner-diamond.region
 nnieuws.be##.view-vw-banners.view
@@ -389,7 +389,7 @@ oisterwijknieuws.nl###left-sidebar
 oisterwijknieuws.nl###right-sidebar
 omroepbrabant.nl##.ad-1C
 omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl##.adcontainer
-omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl#$#.adcontainer-Rectangle { position: absolute!important; left: -4000px!important; }
+omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl#?#.adcontainer-Rectangle:style(position: absolute!important; left: -4000px!important;)
 oops.nl###dropinboxv2cover
 openingstijden.com##.adsense
 openingsurengids.be##.promSB
@@ -439,7 +439,7 @@ vagina.nl##[id$="fish-hooks"]
 voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
 want.nl##.sticky-banner-container
-want.nl#$#.article__content { margin-top: -125px!important; }
+want.nl#?#.article__content:style(margin-top: -125px!important;)
 wanttoknow.nl###right-sidebar > div.mb-3
 wanttoknow.nl#?#.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
 wanttoknow.nl##.float-right
