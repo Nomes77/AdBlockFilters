@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
-! Description: My own Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 23-04-2021UTC16:20
+! Description: Dutch supplement for the Easylist filters, recommended to use with uBlock filters
+! Last modified: 24-04-2021UTC14:10
 ! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -301,11 +301,11 @@ _advertentieleaderboardhome.
 112achterhoek-nieuws.nl###sidebar
 402automotive.com##.bannerpro_container
 538.nl###eCommerce
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.advertising-container-top
+7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl##.advertising-container-top
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.ankeiler--advertisement
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.page-header__section--spacer
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be#?#.tile:has(:scope >.ankeiler--advertisement)
+7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.tile:has(:scope >.ankeiler--advertisement)
 afkortingen.nu###banner_right
 afkortingen.nu###banner_top
 afkortingen.nu###link_unit
@@ -338,7 +338,7 @@ filmtotaal.nl###adf-rectangle
 filmtotaal.nl##.ad-centering
 focus-wtv.be##a[href^="https://ads.focus-wtv.be/"]
 forum.fok.nl###wa_web_headertofloor
-gfcnieuws.com#?##secondary > section.widget:not(.widget_search)
+gfcnieuws.com###secondary > section.widget:not(.widget_search)
 gfcnieuws.com###home-banners
 gfcnieuws.com##div[id^="meteor-"]
 gfcnieuws.com##.n2-section-smartslider
@@ -348,6 +348,7 @@ gooieneemlander.nl,noordhollandsdagblad.nl,leidschdagblad.nl###advertorial-desti
 handbalstartpunt.nl##aside.widget-banner
 hardware.info##.sidebar_right_top
 historiek.net##div.ai-viewport-1
+iculture.nl##div[style="min-height:250px"]
 indeleiderstrui.nl##.ads
 indeleiderstrui.nl##.mt-3.container > div.row > .col
 iphoned.nl##.dynamic-content-sidebar
@@ -361,22 +362,24 @@ koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
 leiderdorpsweekblad.nl,welingelichtekringen.nl##.plistaFooter
 leiderdorpsweekblad.nl,welingelichtekringen.nl##[href*="adnxs.com/click?"]
+made-in.be###leaderboard_row
 mediacourant.nl##.mc-adv
-meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
-meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
-marktplaats.nl.2dehands.be##.BannerRight-root
+marktplaats.nl,2dehands.be##.BannerRight-root
 marktplaats.nl,2dehands.be##.mp-adsense-header
 marktplaats.nl,2dehands.be##.premium-content
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
-marktplaats.nl,2dehands.be#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(:scope > .mp-Listings__admarktTitle)
-marktplaats.nl,2dehands.be#?#ul.mp-Listings > li.mp-Listing:has(:scope > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
+marktplaats.nl,2dehands.be##.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(:scope > .mp-Listings__admarktTitle)
+marktplaats.nl,2dehands.be##ul.mp-Listings > li.mp-Listing:has(:scope > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
+meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
+meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
+metrotime.be##.proper-rss-widget
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
 nieuwsuitnijmegen.nl##.banner-box-1
-ninefornews.nl#?#.widget-top:has-text(/Advertentie/i)
-ninefornews.nl#?#.widget-top:has-text(/Gesponsorde/i) 
-ninefornews.nl#?#.widget-top:has-text(/Sponsored/i)
-ninefornews.nl#?#.widget-top:has-text(/Archief/i):style(margin-top: -50px!important;)
+ninefornews.nl##.widget-top:has-text(/Advertentie/i)
+ninefornews.nl##.widget-top:has-text(/Gesponsorde/i) 
+ninefornews.nl##.widget-top:has-text(/Sponsored/i)
+ninefornews.nl##.widget-top:has-text(/Archief/i):style(margin-top: -50px!important;)
 nnieuws.be##.banner-silver
 nnieuws.be##.region-banner-diamond.region
 nnieuws.be##.view-vw-banners.view
@@ -390,17 +393,17 @@ oisterwijknieuws.nl###left-sidebar
 oisterwijknieuws.nl###right-sidebar
 omroepbrabant.nl##.ad-1C
 omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl##.adcontainer
-omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl#?#.adcontainer-Rectangle:style(position: absolute!important; left: -4000px!important;)
+omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl##.adcontainer-Rectangle:style(position: absolute!important; left: -4000px!important;)
 oops.nl###dropinboxv2cover
 openingstijden.com##.adsense
 openingsurengids.be##.promSB
 opwindend.net##.popup
 parool.nl,trouw.nl##.ad--section
-pcmweb.nl#?#.site__sidebar > .block:has(div.banner)
+pcmweb.nl##.site__sidebar > .block:has(div.banner)
 pcmweb.nl##div.block:nth-of-type(1)
 pcmweb.nl##div.block:nth-of-type(2)
 petities.com###visible_ad_1
-pornozot.com#?#[id$="iframe"]:has-text(/Reclame/i)
+pornozot.com##[id$="iframe"]:has-text(/Reclame/i)
 pornozot.com###video-right
 rd.nl##.codalt-container
 rd.nl##.rdnl__adds
@@ -426,8 +429,9 @@ telegraaf.nl##.VideoArticlePage__banner
 telegraaf.nl##.VideoPage__banner
 telegraaf.nl##.WebpushOptin__main
 tijd.be##.c-sitenavPlaceholder__ad
+tijd.be##.sticky-article-halfpager
 tripadvisor.nl##.ad
-turksemedia.nl#?#div[class="sidebar_item"][style="padding-bottom: 16px;"]:has(> a > img[width="276"]):remove()
+turksemedia.nl##div[class="sidebar_item"][style="padding-bottom: 16px;"]:has(:scope > a > img[width="276"]):remove()
 tvgids.nl##.section-home-news__ad
 tvgids.tv##.col-left
 tvgids.tv##.col-right
@@ -440,9 +444,9 @@ vagina.nl##[id$="fish-hooks"]
 voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
 want.nl##.sticky-banner-container
-want.nl#?#.article__content:style(margin-top: -125px!important;)
+want.nl##.article__content:style(margin-top: -125px!important;)
 wanttoknow.nl###right-sidebar > div.mb-3
-wanttoknow.nl#?#.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
+wanttoknow.nl##.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
 wanttoknow.nl##.float-right
 webwereld.nl##.leaderBoardHolder
 weertdegekste.nl##.infeed-wrap
