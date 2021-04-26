@@ -63,7 +63,7 @@ KNOWNOPTIONS = ("document", "elemhide", "generichide", "genericblock",
                 "font", "image", "match-case", "object", "media", "protobuf", 
                 "popup", "script", "websocket", "other", "+js()",
                 "stylesheet", "subdocument", "third-party", "xmlhttprequest",
-                "mp4", "important")
+                "mp4", "redirect", "redirect-rule", "important")
 
 # List the supported revision control system commands
 REPODEF = collections.namedtuple("repodef",
