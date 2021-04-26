@@ -212,8 +212,9 @@ _advertentieleaderboardhome.
 ||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||cd.tnet.nl/ads/ads.js$script,domain=metronieuws.nl|telegraaf.nl
+||i2.wp.com/www.appletips.nl/wp-content/uploads/nordvpn$image,domain=appletips.nl
+||i3.wp.com/www.appletips.nl/wp-content/uploads/cnmx.*$image,domain=appletips.nl
 ||widget.vpnnederland.nl/VPNNederland-widget.js$domain=nzbserver.com
-||wp.com/www.appletips.nl/wp-content/uploads/*.$image,domain=appletips.nl
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
