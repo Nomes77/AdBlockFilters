@@ -43,11 +43,8 @@ _336x120.$image,domain=~dekrantvantoen.nl
 _advertentie300x250_
 _advertentieleaderboardhome.
 !--------Advertentiedomeinen--------!
-||adpepper.nl^
 ||adverteren.rd.nl^
-||bannermarkt.nl^
 ||banner.klikklik.nl^
-||banners.toeto.com^
 ||banners.utilo.nl^
 ||bnr.agf.nl^
 ||ganaar.gertibaldi.com^
@@ -60,11 +57,14 @@ _advertentieleaderboardhome.
 ||2mdn.net^$domain=autoweek.nl|l1.nl
 ||adconfigproxy.azurewebsites.net^$third-party
 ||adfactor.nl^$third-party
+||adpepper.nl^third-party
 ||ad-prod.ster.nl^$third-party
 ||affiliatepartners.com^$third-party
 ||aj1716.online^$domain=sexjobs.nl
 ||asp.unitedconsumers.com^$third-party
 ||assets.nudeal.nl^$third-party
+||awin.com^third-party
+||bannermarkt.nl^third-party
 ||banners.vip.nl^$third-party
 ||bluemango.nl^$third-party
 ||bva-auctions.com^$domain=telegraaf.nl
@@ -79,7 +79,6 @@ _advertentieleaderboardhome.
 ||dt51.net$third-party
 ||dt61.net$third-party
 ||dt71.net$third-party
-||ehg-advertisementbv.hitbox.com^$third-party
 ||elitedating.nl^$third-party
 ||euroclix.nl^$third-party,domain=~panelclix.com|~panelclix.nl
 ||extremecash.nl^$third-party
