@@ -418,7 +418,9 @@ speeleiland.nl##.leader-below-game
 spel.nl##.game-page-sidebar
 spele.nl##.is-billboard.slot-container
 spele.nl##.is-skyscraper.slot-container
-standaard.be##[class^="ad ad"]
+standaard.be,tripadvisor.nl##.ad
+standaard.be##.ad--button
+standaard.be##.ad--halfpageskyscraper
 startbewijs.nl##.banner
 startpagina.nl##.top-banner
 synoniemen.net##.promoblok
@@ -434,7 +436,6 @@ telegraaf.nl##.withBanners
 tijd.be##.c-sitenavPlaceholder__ad
 tijd.be##.sticky-article-halfpager
 totaaltv.nl##ol:nth-of-type(2)
-tripadvisor.nl##.ad
 turksemedia.nl##div[class="sidebar_item"][style="padding-bottom: 16px;"]:has(:scope > a > img[width="276"]):remove()
 tvgids.nl##.section-home-news__ad
 tvgids.tv##.col-left
