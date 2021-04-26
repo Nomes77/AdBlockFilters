@@ -45,6 +45,7 @@ _advertentieleaderboardhome.
 !--------Advertentiedomeinen--------!
 ||adpepper.nl^
 ||adverteren.rd.nl^
+||b.mt67.net^
 ||bannermarkt.nl^
 ||banner.klikklik.nl^
 ||banners.toeto.com^
@@ -132,6 +133,7 @@ _advertentieleaderboardhome.
 ||autoblog.nl/javascript/ABGalleryShowAdDFP.js
 ||autoedizione.nl/wp-content/uploads/*/ae-sponsor
 ||autozine.nl/promo/banner.jpg
+||bnrs.sdcash.nl/banners/
 ||bodemvondstenwereld.nl/images/banners/
 ||bol.com/nl/upload/banners/
 ||bol.com/nl/upload/partnerprogramma/*.jpg
@@ -179,11 +181,14 @@ _advertentieleaderboardhome.
 ||paypro.nl/payproads/
 ||pdd-nos.nl/footer.html
 ||popinstituut.nl/wp-content/uploads/2014/02/Huren.nl
+||privesexgids.nl/images/webcamsex
 ||recreatief.nl/kerstarrangementen.gif
 ||relatieplanet.be/2linkbe/iframesearch.asp
 ||resellers.viboshop.nl/promoimages/
 ||search-result.com^*/klokad2.js
 ||sexamateurtjes.nl/banners/
+||seksmet.b-cdn.net/wp-content/uploads/*.gif
+||sexervaringendelen.nl/porno/$image
 ||sexverhalen.com/vriendschap/
 ||te-les-koop.nl/images/B_
 ||thisislive.com/promo/
@@ -191,6 +196,7 @@ _advertentieleaderboardhome.
 ||unity.nu/media/*/BANNERS/
 ||uu.nl/proton/*/akzonobel_masters_
 ||vdab.be/indekijker/
+||waarzo.nl/imagestore/banners/
 ||wanttoknow.nl^*Banner
 ||weertdegekste.nl^*banner
 ||whatismyip.nl/images/vista_sky2.gif
@@ -208,14 +214,14 @@ _advertentieleaderboardhome.
 ||cdn4.emesa-static.com/*/300x200/*.jpg$domain=538.nl
 ||agfstorage.blob.core.windows.net/banners$domain=agf.nl
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
-||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
-||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
-||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
-||cd.tnet.nl/ads/ads.js$script,domain=metronieuws.nl|telegraaf.nl
 ||i0.wp.com/www.appletips.nl/wp-content/uploads/incharge$image,domain=appletips.nl
 ||i0.wp.com/www.appletips.nl/wp-content/uploads/luvago$image,domain=appletips.nl
 ||i2.wp.com/www.appletips.nl/wp-content/uploads/nordvpn$image,domain=appletips.nl
 ||i3.wp.com/www.appletips.nl/wp-content/uploads/cnmx.*$image,domain=appletips.nl
+||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
+||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
+||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
+||cd.tnet.nl/ads/ads.js$script,domain=metronieuws.nl|telegraaf.nl
 ||widget.vpnnederland.nl/VPNNederland-widget.js$domain=nzbserver.com
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
@@ -361,6 +367,7 @@ iphoned.nl###featured-header
 jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
 kinderspelletjes.nl###adBoven
 kinderspelletjes.nl###adRechts2
+kinkysexcontactonline.nl,negerinnensexdating.eu##div.nomobile.rand:nth-of-type(6)
 koopplein.nl###skyscraper
 koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
@@ -381,6 +388,7 @@ meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 metrotime.be##.proper-rss-widget
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
+negerinnensexdating.eu,privesexgids.nl###homebanners
 nieuwnieuws.nl##.article-page__bumper
 nieuwsuitnijmegen.nl##.banner-box-1
 ninefornews.nl##.widget-top:has-text(/Advertentie/i)
@@ -421,6 +429,9 @@ rubenweytjens.be##.view-weather-ads-view
 scholieren.com##.blockvertorial
 scholieren.com##.min-h-90
 scholieren.com##.min-h-250
+seksmet.nl###main-header-wrapper
+sexfun.nl##[href^="https://ads.v1d305.com/redirect/"]
+sexfun.nl###recommendBlock
 softonic.nl##.sam-slot
 speeleiland.nl##.banner-sky
 speeleiland.nl##.leader-below-game
@@ -460,6 +471,8 @@ vagina.nl##[id^="fish-hook-slidein"]
 vagina.nl##[id$="fish-hooks"]
 voetbalkrant.com##.text-center.imu
 voetbalkrant.com##.text-center.leaderboard
+waarzo.nl##div.contentbox:nth-of-type(1)
+waarzo.nl###M3_right > div.smallbox:nth-of-type(1)
 want.nl##.sticky-banner-container
 want.nl##.article__content:style(margin-top: -125px!important;)
 wanttoknow.nl###right-sidebar > div.mb-3
