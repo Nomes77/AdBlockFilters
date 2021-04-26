@@ -1,8 +1,8 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 24-04-2021UTC14:27
-! Expires: 3 days (update frequency)
+! Last modified: 26-04-2021UTC07:45
+! Expires: 1 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
 ! Rapporteer gevonden advertenties of fouten hier:
@@ -301,7 +301,7 @@ _advertentieleaderboardhome.
 112achterhoek-nieuws.nl###sidebar
 402automotive.com##.bannerpro_container
 538.nl###eCommerce
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl##.advertising-container-top
+7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.advertising-container-top
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.ankeiler--advertisement
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.page-header__section--spacer
@@ -429,6 +429,7 @@ telegraaf.nl##.TextArticlePage__bannerWrapper
 telegraaf.nl##.VideoArticlePage__banner
 telegraaf.nl##.VideoPage__banner
 telegraaf.nl##.WebpushOptin__main
+telegraaf.nl##.withBanners
 tijd.be##.c-sitenavPlaceholder__ad
 tijd.be##.sticky-article-halfpager
 tripadvisor.nl##.ad
