@@ -300,7 +300,7 @@ _advertentieleaderboardhome.
 112achterhoek-nieuws.nl###sidebar
 402automotive.com##.bannerpro_container
 538.nl###eCommerce
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.advertising-container-top
+7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,totaaltv.nl##.advertising-container-top
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.ankeiler--advertisement
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.page-header__section--spacer
@@ -432,6 +432,7 @@ telegraaf.nl##.WebpushOptin__main
 telegraaf.nl##.withBanners
 tijd.be##.c-sitenavPlaceholder__ad
 tijd.be##.sticky-article-halfpager
+totaaltv.nl##ol:nth-of-type(2)
 tripadvisor.nl##.ad
 turksemedia.nl##div[class="sidebar_item"][style="padding-bottom: 16px;"]:has(:scope > a > img[width="276"]):remove()
 tvgids.nl##.section-home-news__ad
