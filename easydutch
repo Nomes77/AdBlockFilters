@@ -1,7 +1,7 @@
 ! [Adblock Plus 2.0]
 ! Title: EasyDutch
 ! Description: Dutch supplement for the Easylist filters, recommended to use with uBlock filters
-! Last modified: 26-04-2021UTC07:45
+! Last modified: 26-04-2021UTC08:06
 ! Expires: 1 days (update frequency)
 !
 ! Alleen voor advertenties op Nederlandstalige sites!
@@ -362,6 +362,7 @@ koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
 leiderdorpsweekblad.nl,welingelichtekringen.nl##.plistaFooter
 leiderdorpsweekblad.nl,welingelichtekringen.nl##[href*="adnxs.com/click?"]
+m.radioluisteren.fm##p#adsense
 made-in.be###leaderboard_row
 mediacourant.nl##.mc-adv
 marktplaats.nl,2dehands.be##.BannerRight-root
