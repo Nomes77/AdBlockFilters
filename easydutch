@@ -154,7 +154,6 @@ _advertentieleaderboardhome.
 ||htforum.nl/yabbse/*-banner2.gif
 ||htforum.nl/yabbse/banners/
 ||htforum.nl/yabbse/topframe_v3.php
-||i0.wp.com/www.appletips.nl/wp-content/uploads/incharge1.gif
 ||jobat.be/scripts/jobatscripts.js
 ||kavelplatform.nl/assets/uploads/banners/
 ||kilroynews.net^*banner
@@ -214,6 +213,7 @@ _advertentieleaderboardhome.
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||cd.tnet.nl/ads/ads.js$script,domain=metronieuws.nl|telegraaf.nl
 ||widget.vpnnederland.nl/VPNNederland-widget.js$domain=nzbserver.com
+||wp.com/www.appletips.nl/wp-content/uploads/*.$image,domain=appletips.nl
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
@@ -315,7 +315,8 @@ androidplanet.nl###featured-header[data-campaign]
 androidplanet.nl##.dynamic-content[data-nosnippet]
 androidplanet.nl##.dynamic-content-native
 appletips.nl##a[href^="/adverteren-"]
-appletips.nl##.padnoshow > div.mobnoshow > .padnoshow
+appletips.nl##.ph_upgreatest
+appletips.nl##[class^="ph_block"]
 autoweek.nl##.advertise
 berekenhet.nl##.bh-ads
 beursgorilla.nl##.js--billboard.ut--billboard
