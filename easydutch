@@ -213,6 +213,7 @@ _advertentieleaderboardhome.
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||cd.tnet.nl/ads/ads.js$script,domain=metronieuws.nl|telegraaf.nl
 ||i0.wp.com/www.appletips.nl/wp-content/uploads/incharge$image,domain=appletips.nl
+||i0.wp.com/www.appletips.nl/wp-content/uploads/luvago$image,domain=appletips.nl
 ||i2.wp.com/www.appletips.nl/wp-content/uploads/nordvpn$image,domain=appletips.nl
 ||i3.wp.com/www.appletips.nl/wp-content/uploads/cnmx.*$image,domain=appletips.nl
 ||widget.vpnnederland.nl/VPNNederland-widget.js$domain=nzbserver.com
@@ -316,6 +317,7 @@ almere-nieuws.nl##div[class*="jeg_ad"]
 androidplanet.nl###featured-header[data-campaign]
 androidplanet.nl##.dynamic-content[data-nosnippet]
 androidplanet.nl##.dynamic-content-native
+appletips.nl###singleab
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##.ph_upgreatest
 appletips.nl##[class^="ph_block"]
