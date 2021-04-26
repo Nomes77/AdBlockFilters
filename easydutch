@@ -45,7 +45,6 @@ _advertentieleaderboardhome.
 !--------Advertentiedomeinen--------!
 ||adpepper.nl^
 ||adverteren.rd.nl^
-||b.mt67.net^
 ||bannermarkt.nl^
 ||banner.klikklik.nl^
 ||banners.toeto.com^
@@ -75,11 +74,13 @@ _advertentieleaderboardhome.
 ||coolconcepts.nl^$third-party
 ||csmcampagne.consumind.nl^$third-party
 ||daisycon.com^$third-party
+||datingcash.eu^$third-party
 ||ds1.nl^$third-party
 ||dt51.net$third-party
 ||dt61.net$third-party
 ||dt71.net$third-party
 ||ehg-advertisementbv.hitbox.com^$third-party
+||elitedating.nl^$third-party
 ||euroclix.nl^$third-party,domain=~panelclix.com|~panelclix.nl
 ||extremecash.nl^$third-party
 ||kimhollandpartners.nl^$third-party
@@ -89,6 +90,7 @@ _advertentieleaderboardhome.
 ||maakmedia.nl^$third-party
 ||marketing.teasemedia.nl^$third-party
 ||mbs.midhold.nl^$third-party
+||mt67.net^$third-party
 ||netdirect.nl^$third-party
 ||nonstoppartner.net^$third-party
 ||online-banners.nl^$third-party
@@ -101,10 +103,12 @@ _advertentieleaderboardhome.
 ||radiocoupon.nl^$third-party
 ||sallandacties.nl^$third-party
 ||schoorsteen.geenstijl.nl^$third-party
+||sdcash.nl^$third-party
 ||static-cdn.spott.ai$third-party
 ||static-dscn.net$third-party
 ||system.adquick.nl^$third-party
 ||tel.adversitement.nl^$third-party
+||tradetracker.com^$third-party
 ||topzorgverzekeringvergelijken.nl^$third-party
 ||verkoopmenu.nl^$third-party
 ||views.affiliate4you.nl^$third-party
@@ -133,7 +137,6 @@ _advertentieleaderboardhome.
 ||autoblog.nl/javascript/ABGalleryShowAdDFP.js
 ||autoedizione.nl/wp-content/uploads/*/ae-sponsor
 ||autozine.nl/promo/banner.jpg
-||bnrs.sdcash.nl/banners/
 ||bodemvondstenwereld.nl/images/banners/
 ||bol.com/nl/upload/banners/
 ||bol.com/nl/upload/partnerprogramma/*.jpg
@@ -478,6 +481,7 @@ want.nl##.article__content:style(margin-top: -125px!important;)
 wanttoknow.nl###right-sidebar > div.mb-3
 wanttoknow.nl##.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
 wanttoknow.nl##.float-right
+webmastersunited.nl##.clearfix.ads
 webwereld.nl##.leaderBoardHolder
 weertdegekste.nl##.banner-right
 weertdegekste.nl##.infeed-outer
