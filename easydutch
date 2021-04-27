@@ -7,6 +7,7 @@
 ! https://github.com/BPower0036/AdBlockFilters/issues
 !
 !--------Algemene blokkeerregels--------!
+!#include easydutch/Algemene_blokkeerregels.txt
 -reclameplaatjes/
 /adbron.
 /adtwee/*
@@ -42,6 +43,7 @@ _336x120.$image,domain=~dekrantvantoen.nl
 _advertentie300x250_
 _advertentieleaderboardhome.
 !--------Advertentiedomeinen--------!
+!#include easydutch/Advertentiedomeinen.txt
 ||adverteren.rd.nl^
 ||banner.klikklik.nl^
 ||banners.utilo.nl^
@@ -52,6 +54,7 @@ _advertentieleaderboardhome.
 ||ssc.mtv.nl^
 ||sstats.asadventure.nl^
 !--------Advertentiedomeinen (derden)--------!
+!#include easydutch/Advertentiedomeinen_(derden).txt
 ||adconfigproxy.azurewebsites.net^$3p
 ||adfactor.nl^$3p
 ||adpepper.nl^$3p
@@ -117,6 +120,7 @@ _advertentieleaderboardhome.
 ||www2.beekje.nl^$3p
 ||xpartners.nl^$3p
 !--------Specifieke blokkeerregels--------!
+!#include easydutch/Specifieke_blokkeerregels.txt
 ||123video.nl/alternate
 ||123video.nl/customs/*/assets/images/*.gif
 ||123video.nl/img/banners/
@@ -202,6 +206,7 @@ _advertentieleaderboardhome.
 ||whatismyip.nl/images/vista_sky2.gif
 ||xingo.nl/bannermanagement/
 !--------Specifieke blokkeerregels (derden)--------!
+!#include easydutch/Specifieke_blokkeerregels_(derden).txt
 ||blablacar.nl/widget-driver/$3p
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||digitalaudience.io/bakery/pix/$image,3p
@@ -227,6 +232,7 @@ _advertentieleaderboardhome.
 ||ent-cdn.com/files/bans/*$image,domain=vagina.nl
 ||api.skyscanner.net/api.ashx?$domain=viva.nl
 !--------Uitzonderingen Specifieke blokkeerregels--------!
+!#include easydutch/Uitzonderingen_Specifieke_blokkeerregels.txt
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||images.marktnet.eu/adimg/
 @@||koopplein.nl^*/advertenties/upload
@@ -252,6 +258,7 @@ _advertentieleaderboardhome.
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
 !--------Algemene verbergregels--------!
+!#include easydutch/Algemene_verbergregels.txt
 ###adRechts
 !###adsense_artikel_4
 ###advertentie
@@ -301,6 +308,7 @@ _advertentieleaderboardhome.
 !##a[href^="http://adserver.webads.nl/adclick/"]
 !##a[href^="http://openx.motomedia.nl/live/www/delivery/"]
 !--------Specifieke verbergregels--------!
+!#include easydutch/Specifieke_verbergregels.txt
 112achterhoek-nieuws.nl###sidebar
 402automotive.com##.bannerpro_container
 538.nl###eCommerce
@@ -483,6 +491,7 @@ wielerflits.nl##.mm_container
 zeelandnet.nl##.article-bnr-first
 zeelandnet.nl##.g_banner
 !--------Uitzonderingen verbergregels--------!
+!#include easydutch/Uitzonderingen_verbergregels.txt
 autodealers.nl,speurders.nl,xxxplaza.nl#@##advertentie
 blikopnieuws.nl,computeridee.nl#@#.reclame
 paginamarkt.nl,sexjobs.nl#@#.advertentie
@@ -512,6 +521,7 @@ xxxplaza.nl#@##ad_right
 xxxplaza.nl#@##adcontainer
 zeelandnet.nl#@#.ad-card
 !--------Anti-Adblock regels--------!
+!#include easydutch/Anti-Adblock.txt
 ||goplay.be/js/sourcepoint/msg?v=
 ||static.chartbeat.com/js/chartbeat.js$script,redirect=static.chartbeat.com/chartbeat.js,domain=gamer.nl
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,script,redirect=nooptext,domain=zeelandnet.nl
