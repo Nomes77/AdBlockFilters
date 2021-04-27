@@ -318,6 +318,7 @@ almere-nieuws.nl##div[class*="jeg_ad"]
 androidplanet.nl###featured-header[data-campaign]
 androidplanet.nl##.dynamic-content[data-nosnippet]
 androidplanet.nl##.dynamic-content-native
+androidworld.nl,indeleiderstrui.nl##.ads
 appletips.nl###singleab
 appletips.nl##a[href^="/adverteren-"]
 appletips.nl##.ph_upgreatest
@@ -356,7 +357,6 @@ handbalstartpunt.nl##aside.widget-banner
 hardware.info##.sidebar_right_top
 historiek.net##div.ai-viewport-1
 iculture.nl##div[style="min-height:250px"]
-indeleiderstrui.nl##.ads
 iphoned.nl##.dynamic-content-sidebar
 iphoned.nl##.mt-8.lg\:flex.hidden.wrap
 iphoned.nl###featured-header
@@ -397,6 +397,7 @@ nnieuws.be##.view-vw-banners.view
 nnieuws.be###block-views-vw-banners-block-2
 nos.nl##.ster-banner
 nos.nl##.teletekst__banner
+notebookcheck.nl##.a-link-normal
 nu.nl##a[href*="/advertorial-"]
 nu.nl##div.articlelist[data-section="advertorial-belastingdienst-adverteerder"]
 nu.nl###header > .zone
