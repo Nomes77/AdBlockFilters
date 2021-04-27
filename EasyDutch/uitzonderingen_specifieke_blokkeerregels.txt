@@ -1,0 +1,24 @@
+@@||2dehandskleertjes.nl/uploads/advertenties/
+@@||images.marktnet.eu/adimg/
+@@||koopplein.nl^*/advertenties/upload
+@@||sexjobs.nl/advertentie/
+@@||showmodeluitverkoop.nl/upload/advertentie/
+@@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
+@@||te-les-koop.nl/advertenties.php
+@@||zeelandnet.nl/prikbord/assets/*/advertentie.js
+@@||zeelandnet.nl/prikbord/assets/*/advertenties.js
+!--------Uitzonderingen Specifieke blokkeerregels (derden)--------!
+@@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
+@@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hbvl.be|vtm.be
+@@||help.marktplaats.nl/s/sfsites/aura$xmlhttprequest,domain=help.marktplaats.nl
+@@||openx.kinepolis.com/delivery/spcjs.php?id=$script,domain=kinepolis.be|kinepolis.com
+@@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl|vtm.be
+@@||aka.spotxcdn.com/integration/ados/v1/ados.js$script,domain=radioluisteren.fm
+@@||cdn.spotxcdn.com/integration/easi/v1/easi.js$script,domain=radioluisteren.fm
+@@||js.spotx.tv/ados/v1/106185.js$script,domain=radioluisteren.fm
+@@||search.spotxchange.com/js/spotx.js$script,domain=radioluisteren.fm
+@@||sync.search.spotxchange.com/partner?source=easi$image,domain=radioluisteren.fm
+@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
+@@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl

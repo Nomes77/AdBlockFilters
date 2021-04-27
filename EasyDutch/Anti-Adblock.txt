@@ -1,0 +1,37 @@
+||goplay.be/js/sourcepoint/msg?v=
+||static.chartbeat.com/js/chartbeat.js$script,redirect=static.chartbeat.com/chartbeat.js,domain=gamer.nl
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,script,redirect=nooptext,domain=zeelandnet.nl
+zeelandnet.nl##.bnr-notice
+@@||ah.nl^$ghide
+@@||gamekings.tv^$ghide
+@@||ke1.nl^$ghide
+@@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
+@@||refoweb.nl^$ghide
+refoweb.nl##div[id^="div-gpt-ad"]
+@@||videoplaza.tv^$script,domain=7sur7.be
+@@||service.videoplaza.tv/proxy/pulse-sdk-html5/$script,domain=lalibre.be
+@@||vp.videoplaza.tv/resources/pulse-sdk-html5/$script,domain=lalibre.be
+@@||improvedigital.com/pbw/headerlift$script,domain=spele.nl
+||spele.nl/images/blocker/blocker-*.png
+spele.nl##.is-blocked
+@@||cdn.vuplay.co.uk/*/comscore.$script,domain=sporza.be|vrt.be
+@@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
+@@||fwmrm.net/ad/$script,xhr,domain=vtm.be
+@@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
+@@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
+vtm.be##+js(set, __PLAYER_AD__, true)
+directwonen.nl#@#.adsbox
+filmtotaal.nl##+js(nofab)
+fok.nl##+js(aeld, , DAB)
+fok.nl#@#.advertentie
+forum.fok.nl#@##advertentie
+girlscene.nl##+js(set, adblock, 0)
+gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
+icttipsandtricks.nl##+js(acis, jQuery, ai_adb)
+knack.be##+js(nostif, Bait)
+lazyadmin.nl##+js(aopw, adsBlocked)
+leiderdorpsweekblad.nl##+js(aopr, canRunAds ,true)
+leiderdorpsweekblad.nl###blocktekst
+lesoir.be##+js(nostif, adb)
+nu.nl##+js(set, is_adblocker_in_use, false)
+webwereld.nl##+js(set, adsAreShown, true)
