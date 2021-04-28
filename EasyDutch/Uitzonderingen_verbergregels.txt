@@ -1,6 +1,3 @@
-autodealers.nl,speurders.nl,xxxplaza.nl#@##advertentie
-paginamarkt.nl,sexjobs.nl#@#.advertentie
-blikopnieuws.nl,computeridee.nl#@#.reclame
 ! Uitzonderingen voor EasyList
 xxxplaza.nl#@##ad_right
 xxxplaza.nl#@##adcontainer
