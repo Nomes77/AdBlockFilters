@@ -1,4 +1,7 @@
 ! 2021-04-28
+kinderspelletjes.be##adRechts
+kinderspelletjes.be,kinderspelletjes.nl##div[style^="width:336px;height:290px"]:has-text(Reclame)
+kinderspelletjes.be,kinderspelletjes.nl##div[style*="width:970px"]:has-text(Reclame)
 androidplanet.nl,iphoned.nl##.dynamic-content[data-nosnippet]
 androidplanet.nl,iphoned.nl##.dynamic-content-native
 androidplanet.nl,iphoned.nl###featured-header
