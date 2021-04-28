@@ -12,7 +12,7 @@ Old filters which are confirmed to still be required must be moved to the top of
 
 **All** added filters must be associated with a formal issue number or date, example:
 
-    ! https://github.com/uBlockOrigin/uAssets/issues/2
+    ! https://github.com/BPower0036/AdBlockFilters/issues/3
     ||data.inertanceretinallaurel.com^
     ! 2021-04-27
     ||androidplanet.nl,iphoned.nl##.dynamic-content-native
