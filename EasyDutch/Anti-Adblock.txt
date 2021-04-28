@@ -31,5 +31,5 @@ lazyadmin.nl##+js(aopw, adsBlocked)
 leiderdorpsweekblad.nl##+js(aopr, canRunAds ,true)
 leiderdorpsweekblad.nl###blocktekst
 lesoir.be##+js(nostif, adb)
-nu.nl##+js(set, is_adblocker_in_use, false)
+nu.nl##+js(set, isAdBlockEnabled, false)
 webwereld.nl##+js(set, adsAreShown, true)
