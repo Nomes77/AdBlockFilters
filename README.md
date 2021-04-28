@@ -1,7 +1,7 @@
 # AdBlockFilters
 My adblock filters made for [uBlock Origin](https://github.com/uBlockOrigin/uAssets)
 
-## [EasyDutch](https://github.com/BPower0036/AdBlockFilters/blob/main/easydutch)
+## [EasyDutch](https://github.com/BPower0036/AdBlockFilters/tree/main/EasyDutch)
 My own updated version of EasyList Dutch special for uBlock Origin, so I use only the uBlock syntax. 
 
 It's now the standard Dutch list in uBlock Origin, see [this](https://github.com/gorhill/uBlock/commit/1fc3b57ba5dafcf9283eef4274043446207da9df)
