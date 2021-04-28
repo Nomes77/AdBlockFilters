@@ -1,4 +1,7 @@
 ! 2021-04-28
+androidplanet.nl,iphoned.nl##.dynamic-content[data-nosnippet]
+androidplanet.nl,iphoned.nl##.dynamic-content-native
+androidplanet.nl,iphoned.nl###featured-header
 spele.be,spele.nl##.is-billboard.slot-container
 spele.be,spele.nl##.is-skyscraper.slot-container
 deoudrotterdammer.nl##[width="300"][height="600"]
@@ -19,8 +22,6 @@ dwtonline.com###banner1
 nnieuws.be###block-views-vw-banners-block-2
 oops.nl###dropinboxv2cover
 538.nl###eCommerce
-iphoned.nl###featured-header
-androidplanet.nl###featured-header[data-campaign]
 bokt.nl###frontpage_mediumrect
 nu.nl###header > .zone
 gfcnieuws.com###home-banners
@@ -86,9 +87,6 @@ tvgids.tv##.col-left
 tvgids.tv##.col-right
 wanttoknow.nl##.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
-androidplanet.nl##.dynamic-content[data-nosnippet]
-androidplanet.nl##.dynamic-content-native
-iphoned.nl##.dynamic-content-sidebar
 fd.nl##.fd-message-home-header
 vagina.nl##.fish-hook
 wanttoknow.nl##.float-right
@@ -110,7 +108,6 @@ scholieren.com##.min-h-250
 wielerflits.nl##.mm_container
 marktplaats.nl,2dehands.be##.mp-adsense-header
 marktplaats.nl,2dehands.be##.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(:scope > .mp-Listings__admarktTitle)
-iphoned.nl##.mt-8.lg\:flex.hidden.wrap
 gfcnieuws.com##.n2-section-smartslider
 jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.page-header__section--spacer
