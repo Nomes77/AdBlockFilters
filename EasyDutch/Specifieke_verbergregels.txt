@@ -1,4 +1,6 @@
 ! 2021-04-28
+spele.be,spele.nl##.is-billboard.slot-container
+spele.be,spele.nl##.is-skyscraper.slot-container
 deoudrotterdammer.nl##[width="300"][height="600"]
 deoudrotterdammer.nl##.advertentie
 ewmagazine.nl##.banner-leaderboard
@@ -95,8 +97,6 @@ spel.nl##.game-page-sidebar
 weertdegekste.nl##.infeed-outer
 weertdegekste.nl##.infeed-wrap
 tvgids.nl##.interstitial_banner
-spele.nl##.is-billboard.slot-container
-spele.nl##.is-skyscraper.slot-container
 beursgorilla.nl##.js--billboard.ut--billboard
 beursgorilla.nl##.js--rect.ut--rectangle
 marktplaats.nl,2dehands.be##.l-page:style(max-width: 1300px!important;)
