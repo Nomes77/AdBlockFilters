@@ -1,4 +1,6 @@
 ! 2021-04-28
+spel.nl,spelletjes.nl##.advert
+spel.nl,spelletjes.nl##.game-page-sidebar
 slam.nl##.holder-ads
 kinderspelletjes.be##adRechts
 kinderspelletjes.be,kinderspelletjes.nl##div[style^="width:336px;height:290px"]:has-text(Reclame)
@@ -95,7 +97,6 @@ fd.nl##.fd-message-home-header
 vagina.nl##.fish-hook
 wanttoknow.nl##.float-right
 zeelandnet.nl##.g_banner
-spel.nl##.game-page-sidebar
 weertdegekste.nl##.infeed-outer
 weertdegekste.nl##.infeed-wrap
 tvgids.nl##.interstitial_banner
