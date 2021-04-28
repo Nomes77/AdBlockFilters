@@ -9,7 +9,6 @@ nu.nl##+js(set, isAdBlockEnabled, false)
 zeelandnet.nl##.bnr-notice
 @@||ah.nl^$ghide
 @@||gamekings.tv^$ghide
-@@||ke1.nl^$ghide
 @@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
 @@||refoweb.nl^$ghide
 refoweb.nl##div[id^="div-gpt-ad"]
