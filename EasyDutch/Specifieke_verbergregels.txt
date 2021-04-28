@@ -1,3 +1,6 @@
+! 2021-04-28
+ewmagazine.nl##.banner-leaderboard
+! 2021-04-27
 filmtotaal.nl###adf-rectangle
 buienradar.be,buienradar.nl###adholderContainerHeader
 kinderspelletjes.nl###adBoven
