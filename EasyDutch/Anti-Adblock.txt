@@ -1,5 +1,6 @@
 ||goplay.be/js/sourcepoint/msg?v=
 ||static.chartbeat.com/js/chartbeat.js$script,redirect=static.chartbeat.com/chartbeat.js,domain=gamer.nl
+||improvedigital.com/*/headerlift.min.js$script,redirect-rule=noop.js,domain=spele.nl
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,script,redirect=nooptext,domain=zeelandnet.nl
 zeelandnet.nl##.bnr-notice
 @@||ah.nl^$ghide
@@ -11,9 +12,6 @@ refoweb.nl##div[id^="div-gpt-ad"]
 @@||videoplaza.tv^$script,domain=7sur7.be
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5/$script,domain=lalibre.be
 @@||vp.videoplaza.tv/resources/pulse-sdk-html5/$script,domain=lalibre.be
-@@||improvedigital.com/pbw/headerlift$script,domain=spele.nl
-||spele.nl/images/blocker/blocker-*.png
-spele.nl##.is-blocked
 @@||cdn.vuplay.co.uk/*/comscore.$script,domain=sporza.be|vrt.be
 @@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
 @@||fwmrm.net/ad/$script,xhr,domain=vtm.be
