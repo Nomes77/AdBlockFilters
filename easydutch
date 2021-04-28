@@ -11,7 +11,7 @@
 !#include EasyDutch/Advertentiedomeinen_(derden).txt
 !#include EasyDutch/Specifieke_blokkeerregels.txt
 !#include EasyDutch/Specifieke_blokkeerregels_(derden).txt
-!#include EasyDutch/Uitzonderingen_Specifieke_blokkeerregels.txt
+!#include EasyDutch/Uitzonderingen_blokkeerregels.txt
 !#include EasyDutch/Algemene_verbergregels.txt
 !#include EasyDutch/Specifieke_verbergregels.txt
 !#include EasyDutch/Uitzonderingen_verbergregels.txt
