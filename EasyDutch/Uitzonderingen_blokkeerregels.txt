@@ -1,3 +1,6 @@
+! https://github.com/uBlockOrigin/uAssets/issues/8974
+@@||securepubads.g.doubleclick.net/gpt/pubads_$script,domain=allestoringen.*
+! 2021-04-27
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||images.marktnet.eu/adimg/
 @@||koopplein.nl^*/advertenties/upload
