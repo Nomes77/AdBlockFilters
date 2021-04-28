@@ -1,4 +1,5 @@
 ! 2021-04-28
+games.nl##.ad
 spel.nl,spelletjes.nl##.advert
 spel.nl,spelletjes.nl##.game-page-sidebar
 slam.nl##.holder-ads
