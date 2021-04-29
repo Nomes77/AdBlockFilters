@@ -22,4 +22,4 @@ This way this documents why a filter was added, and how to verify whether an old
 ##### Commit message
 
 Keep it simple, use `A:` for adding a site, `C:` for changing and `R:` for removing. Put here after the site url `spele.nl` (no `https://www.`) Put after this the issue number. 
-Example: `A: spele.nl #3` or `C: nu.nl`. The issue itself will contains all the details.
+Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contains all the details.
