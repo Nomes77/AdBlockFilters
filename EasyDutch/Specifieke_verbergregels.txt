@@ -1,3 +1,5 @@
+! https://github.com/AdguardTeam/AdguardFilters/issues/79432
+nu.nl##div[data-type="tealium"]
 ! 2021-04-28
 games.nl##.ad
 spel.nl,spelletjes.nl##.advert
