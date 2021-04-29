@@ -87,7 +87,6 @@
 ||digitalaudience.io/bakery/pix/$image,3p
 ||dutchleader.nl/php/banex/$3p
 ||enviedeplus.be^*_banner_$3p
-||euroclix.nl^$3p,domain=~panelclix.com|~panelclix.nl
 ||powerconnect.be^*/poweractie.jpg$3p
 ||totaalwijzer.nl/widget/$3p
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
