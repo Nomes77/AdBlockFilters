@@ -6,12 +6,11 @@
 ! Rapporteer gevonden advertenties of fouten hier:
 ! https://github.com/BPower0036/AdBlockFilters/issues
 !
-!#include EasyDutch/Algemene_blokkeerregels.txt
+!#include EasyDutch/Algemene_netwerkfilters.txt
 !#include EasyDutch/Advertentiedomeinen.txt
 !#include EasyDutch/Advertentiedomeinen_(derden).txt
-!#include EasyDutch/Specifieke_blokkeerregels.txt
-!#include EasyDutch/Specifieke_blokkeerregels_(derden).txt
-!#include EasyDutch/Uitzonderingen_blokkeerregels.txt
+!#include EasyDutch/Specifieke_netwerkfilters.txt
+!#include EasyDutch/Uitzonderingen_netwerkfilters.txt
 !#include EasyDutch/Algemene_verbergregels.txt
 !#include EasyDutch/Specifieke_verbergregels.txt
 !#include EasyDutch/Uitzonderingen_verbergregels.txt
