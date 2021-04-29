@@ -1,3 +1,6 @@
+! 2021-04-29
+gratisaftehalen.nl##.plistaAllOuter
+refoweb.nl##.plistaFooter
 ! https://github.com/BPower0036/AdBlockFilters/issues/4
 niburu.co##.sponsers
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79432
