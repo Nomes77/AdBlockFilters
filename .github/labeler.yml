@@ -9,17 +9,3 @@ excludeLabels:
   - declined
 # custom configuration to override default behaviour
 # control explicitly what gets added and when
-custom:
-  - location: title
-    keywords:
-      - 'question'
-      - 'QUESTION'
-      - 'VRAAG'
-    labels:
-      - question
-  - location: body
-    keywords:
-      - 'porn'
-      - 'sex'
-    labels:
-      - NSFW
