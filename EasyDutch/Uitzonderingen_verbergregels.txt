@@ -1,4 +1,9 @@
 ! Uitzonderingen voor EasyList
+! 2021-04-30
+!#if env_mobile
+klusidee#@#.header-ad
+!#endif
+! 2021-04-27
 xxxplaza.nl#@##ad_right
 xxxplaza.nl#@##adcontainer
 kinderspelletjes.nl#@##adframe:not(frameset)
