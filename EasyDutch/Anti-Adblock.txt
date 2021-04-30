@@ -4,7 +4,6 @@ nu.nl##+js(set, isAdBlockEnabled, false)
 ||improvedigital.com/*/headerlift.min.js$script,redirect-rule=noop.js,domain=spele.be|spele.nl
 ! 2021-04-27
 ||goplay.be/js/sourcepoint/msg?v=
-||static.chartbeat.com/js/chartbeat.js$script,redirect=static.chartbeat.com/chartbeat.js,domain=gamer.nl
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,script,redirect=nooptext,domain=zeelandnet.nl
 zeelandnet.nl##.bnr-notice
 @@||ah.nl^$ghide
@@ -20,7 +19,6 @@ refoweb.nl##div[id^="div-gpt-ad"]
 @@||fwmrm.net/ad/$script,xhr,domain=vtm.be
 @@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
 @@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
-vtm.be##+js(set, __PLAYER_AD__, true)
 directwonen.nl#@#.adsbox
 filmtotaal.nl##+js(nofab)
 fok.nl##+js(aeld, , DAB)
@@ -30,6 +28,5 @@ girlscene.nl##+js(set, adblock, 0)
 gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
 knack.be##+js(nostif, Bait)
 lazyadmin.nl##+js(aopw, adsBlocked)
-leiderdorpsweekblad.nl##+js(aopr, canRunAds ,true)
 leiderdorpsweekblad.nl###blocktekst
 lesoir.be##+js(nostif, adb)
