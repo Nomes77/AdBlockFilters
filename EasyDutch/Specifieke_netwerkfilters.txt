@@ -1,3 +1,6 @@
+! 2021-04-30
+||dagelijksestandaard.nl/wp-content/uploads/*/PROMO-DDS.$image
+! 2021-04-27
 ||123video.nl/alternate
 ||123video.nl/customs/*/assets/images/*.gif
 ||123video.nl/img/banners/
