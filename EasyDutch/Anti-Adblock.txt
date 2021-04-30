@@ -27,6 +27,5 @@ forum.fok.nl#@##advertentie
 girlscene.nl##+js(set, adblock, 0)
 gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
 knack.be##+js(nostif, Bait)
-lazyadmin.nl##+js(aopw, adsBlocked)
 leiderdorpsweekblad.nl###blocktekst
 lesoir.be##+js(nostif, adb)
