@@ -10,7 +10,6 @@
 @@||te-les-koop.nl/advertenties.php
 @@||zeelandnet.nl/prikbord/assets/*/advertentie.js
 @@||zeelandnet.nl/prikbord/assets/*/advertenties.js
-@@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
 @@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hbvl.be|vtm.be
 @@||help.marktplaats.nl/s/sfsites/aura$xmlhttprequest,domain=help.marktplaats.nl
