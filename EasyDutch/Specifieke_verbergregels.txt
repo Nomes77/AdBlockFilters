@@ -1,3 +1,12 @@
+! 2021-04-30
+oozo.nl##.rcntctr
+online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)
+online-omzetten.nl##.clearfix.entry > small
+watchfaces.be##div.google
+watchfaces.be##[id^="text"]:has(.adsbygoogle)
+!#if env_mobile
+nudevista.be,nudevista.nl##.mob_adv
+!#endif
 ! 2021-04-29
 gratisaftehalen.nl##.plistaAllOuter
 refoweb.nl##.plistaFooter
