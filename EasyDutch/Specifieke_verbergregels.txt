@@ -79,7 +79,6 @@ filmtotaal.nl##.ad-centering
 girlscene.nl##.ad-container
 tvgids24.nl##.adBoxbig
 omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl##.adcontainer
-omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl##.adcontainer-Rectangle:style(position: absolute!important; left: -4000px!important;)
 androidworld.nl,indeleiderstrui.nl,webmastersunited.nl##.ads
 openingstijden.com##.adsense
 autoweek.nl##.advertise
