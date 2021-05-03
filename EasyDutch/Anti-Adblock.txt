@@ -1,6 +1,7 @@
-! 2021-05-02
+! 2021-05-03
+notebookcheck.nl##+js(aopw, ab_ubl)
 ||improvedigital.com/*/headerlift.min.js$script,redirect-rule=noop.js,domain=funnygames.be|funnygames.nl|spele.be|spele.nl
-@@/ads.*.js$domain=notebookcheck.nl
+!@@/ads.*.js$domain=notebookcheck.nl
 ! 2021-04-28
 webwereld.nl##+js(set, adBlockStatus, false)
 nu.nl##+js(set, isAdBlockEnabled, false)
