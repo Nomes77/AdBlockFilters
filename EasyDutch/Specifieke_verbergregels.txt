@@ -1,4 +1,6 @@
 ! 2021-05-03
+hyvesgames.nl##.ad
+hyvesgames.nl##.gamereel_featured-ad
 funnygames.nl##.bannerContainer
 funnygames.nl###katon-slot
 tellows.nl###lb_header
