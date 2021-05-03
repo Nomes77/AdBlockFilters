@@ -1,4 +1,5 @@
 ! 2021-05-03
+tweakers.net##:xpath(//img[contains(@src, '/i/*/1280x400/filters:max_bytes(102400):strip_icc()/i/*.jpeg?f=thumblarge')]/..)
 funnygames.nl##.bannerContainer
 funnygames.nl###katon-slot
 tellows.nl###lb_header
