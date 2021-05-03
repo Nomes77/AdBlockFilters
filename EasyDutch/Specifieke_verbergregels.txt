@@ -1,8 +1,4 @@
 ! 2021-05-03
-tweakers.net##div[class^="D"]:has([src^="/i/"][src$=".jpeg?f=thumblarge"])
-tweakers.net##div[id^="N"]:has([src^="/i/"][src$=".jpeg?f=thumblarge"])
-tweakers.net##div[class^="t"]:has([src^="/i/"][src$=".jpeg?f=thumblarge"])
-tweakers.net##div[id^="T"]:has([src^="/i/"][src$=".jpeg?f=thumblarge"])
 funnygames.nl##.bannerContainer
 funnygames.nl###katon-slot
 tellows.nl###lb_header
