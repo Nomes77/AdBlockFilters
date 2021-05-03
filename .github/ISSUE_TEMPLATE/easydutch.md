@@ -16,9 +16,8 @@ assignees: ''
 - [ ] I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
     - Your issue may already be reported. / Uw probleem kan al gemeld zijn.
 - [ ] I tried to reproduce the issue when...
-    - [ ] uBlock Origin with default lists
-    - [ ] or with EasyList and EasyPrivacy
-    - [ ] using a new, unmodified browser profile
+    - [ ] uBlock Origin with default lists / uBlock Origin met standaard filterlijsten
+    - [ ] uBlock Origin is the only extension / uBlock Origin is de enige extensie
 - [ ] Only ads or anti-adblock / Alleen advertenties of anti-adblock
     - Privacy staff should be reported at uBlock Origin or EasyPrivacy / Privacy dingen moet u melden aan uBlock of EasyPrivacy
     - No annoyances 
@@ -42,7 +41,6 @@ assignees: ''
 
 - Browser/version: [here]
 - uBlock Origin version: [here]
-- AdBlock Plus version: [here]
 
 ### Notes
 
