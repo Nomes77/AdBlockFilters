@@ -1,3 +1,6 @@
+! https://github.com/BPower0036/AdBlockFilters/issues/13
+/css/branding.css$3p
+! 2021-04-27
 -reclameplaatjes/
 /adbron.
 /adtwee/*
@@ -14,7 +17,6 @@
 /bannerlookup.
 /big_reclames/*
 /bolcom-partnerprogramma-wordpress-plugin/*
-/css/branding.css$3p
 /img/recl/*
 /nmc/adv/*
 /pebble-adhese.
