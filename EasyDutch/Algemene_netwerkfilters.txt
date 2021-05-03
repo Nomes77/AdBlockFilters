@@ -14,7 +14,7 @@
 /bannerlookup.
 /big_reclames/*
 /bolcom-partnerprogramma-wordpress-plugin/*
-/css/branding.css
+/css/branding.css$3p
 /img/recl/*
 /nmc/adv/*
 /pebble-adhese.
