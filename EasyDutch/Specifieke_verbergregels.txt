@@ -1,3 +1,8 @@
+! 2021-05-03
+funnygames.nl##.bannerContainer
+funnygames.nl###katon-slot
+tellows.nl###lb_header
+tellows.nl##.entry-content > div
 ! 2021-04-30
 oozo.nl##.rcntctr
 online-omzetten.nl##[style^="margin"]:has(.adsbygoogle)
