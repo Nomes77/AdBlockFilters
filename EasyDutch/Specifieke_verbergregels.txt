@@ -1,4 +1,5 @@
 ! 2021-05-03
+notebookcheck.nl##div.am_el
 hyvesgames.nl##.ad
 hyvesgames.nl##.gamereel_featured-ad
 funnygames.be,funnygames.nl##.bannerContainer
@@ -76,7 +77,6 @@ rtl.be###w-leaderboard
 forum.fok.nl###wa_web_headertofloor
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
-notebookcheck.nl##.a-link-normal
 standaard.be,tripadvisor.nl##.ad
 standaard.be##.ad--button
 standaard.be##.ad--halfpageskyscraper
