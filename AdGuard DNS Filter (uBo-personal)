@@ -1,6 +1,6 @@
 ! Title: AdGuard DNS Filter (uBo-personal)
-! Discription: If you use AdGuard DNS Filter in uBo, this filterlist will have less fals-positives because 3p will be blocked as 3p and not as 1p, which was the case in AdGuard DNS Filter. I have exclude EasyList and EasyPrivacy, 
-!              because those lists are already standard in uBo. And because of being a Western guy, I didn't include the Japanese, Indonesian and Vietnamese filters (+-1050 rules).
+! Discription: If you use AdGuard DNS Filter in uBo, this filterlist will have less fals-positives because 3p will be blocked as 3p and not as 1p, which was the case in AdGuard DNS Filter. I have exclude EasyList and 
+!              EasyPrivacy, because those lists are already standard in uBo. And because of being a Western guy, I didn't include the Japanese, Indonesian and Vietnamese filters (+-1050 rules).
 !              I also didn't include the AdGuard French filter, because it was so short (5 rules).
 !              And because of uBo '!#include' limitations, I didn't include EasyList Italy and EasyList China (is hier een github versie van?) (C=4300,I=120)
 ! Expires: 4 days
