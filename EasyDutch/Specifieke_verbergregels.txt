@@ -1,4 +1,6 @@
 ! 2021-05-03
+tweakers.net##div[class^="t"]:has([src^="/i/"][src*="/1280x400/filters:max_bytes(102400):strip_icc()"][src$=".jpeg?f=thumblarge"])
+tweakers.net##div[id^="T"]:has([src^="/i/"][src*="/1280x400/filters:max_bytes(102400):strip_icc()"][src$=".jpeg?f=thumblarge"])
 tweakers.net##[src^="/i/"][src*="/1280x400/filters:max_bytes(102400):strip_icc()"][src$=".jpeg?f=thumblarge"]
 funnygames.nl##.bannerContainer
 funnygames.nl###katon-slot
