@@ -9,26 +9,10 @@ nu.nl##+js(set, isAdBlockEnabled, false)
 ! 2021-04-27
 ||goplay.be/js/sourcepoint/msg?v=
 zeelandnet.nl##.bnr-notice
-@@||ah.nl^$ghide
-@@||gamekings.tv^$ghide
-@@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
-@@||refoweb.nl^$ghide
-refoweb.nl##div[id^="div-gpt-ad"]
-@@||videoplaza.tv^$script,domain=7sur7.be
-@@||service.videoplaza.tv/proxy/pulse-sdk-html5/$script,domain=lalibre.be
-@@||vp.videoplaza.tv/resources/pulse-sdk-html5/$script,domain=lalibre.be
-@@||cdn.vuplay.co.uk/*/comscore.$script,domain=sporza.be|vrt.be
-@@||quantcast.mgr.consensu.org/*/cmp2.js$domain=vi.nl
-@@||fwmrm.net/ad/$script,xhr,domain=vtm.be
 @@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
-@@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
 directwonen.nl#@#.adsbox
 filmtotaal.nl##+js(nofab)
-fok.nl##+js(aeld, , DAB)
 fok.nl#@#.advertentie
 forum.fok.nl#@##advertentie
 girlscene.nl##+js(set, adblock, 0)
-gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
-knack.be##+js(nostif, Bait)
 leiderdorpsweekblad.nl###blocktekst
-lesoir.be##+js(nostif, adb)
