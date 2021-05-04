@@ -1,3 +1,5 @@
+! 2021-05-04
+tweakers.net##img[src^="/i/"]
 ! 2021-05-03
 notebookcheck.nl##div.am_el
 hyvesgames.nl##.ad
@@ -204,7 +206,6 @@ pcmweb.nl##div.block:nth-of-type(2)
 classic.nl##div.brievenbus
 waarzo.nl##div.contentbox:nth-of-type(1)
 kinkysexcontactonline.nl,negerinnensexdating.eu##div.nomobile.rand:nth-of-type(6)
-tweakers.net##img[referrerpolicy="unsafe-url"][src^="/i/"]
 totaaltv.nl##ol:nth-of-type(2)
 meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 marktplaats.nl,2dehands.be##ul.mp-Listings > li.mp-Listing:has(:scope > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
