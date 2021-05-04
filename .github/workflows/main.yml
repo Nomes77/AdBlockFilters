@@ -12,5 +12,5 @@ jobs:
         uses: lucasbento/auto-close-issues@v1.0.2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-close-message: "@${issue.user.login}: hello! :wave:\n\nThis issue is being automatically closed because it does not follow the issue template. Please make sure you did every step." # optional property
-          closed-issues-label: "invalid" # optional property
+          issue-close-message: "@${issue.user.login}: hello! This issue is being automatically closed because it does not follow the issue template. Please make sure you did every step."
+          closed-issues-label: 'invalid'
