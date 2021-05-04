@@ -78,7 +78,6 @@ koopplein.nl###skyscraper
 pornozot.com###video-right
 petities.com###visible_ad_1
 rtl.be###w-leaderboard
-forum.fok.nl###wa_web_headertofloor
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
 standaard.be,tripadvisor.nl##.ad
@@ -87,7 +86,6 @@ standaard.be##.ad--halfpageskyscraper
 parool.nl,trouw.nl##.ad--section
 omroepbrabant.nl##.ad-1C
 filmtotaal.nl##.ad-centering
-girlscene.nl##.ad-container
 tvgids24.nl##.adBoxbig
 omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl##.adcontainer
 androidworld.nl,indeleiderstrui.nl,webmastersunited.nl##.ads
