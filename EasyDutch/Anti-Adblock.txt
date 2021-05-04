@@ -1,13 +1,11 @@
 ! 2021-05-03
 notebookcheck.nl##+js(aopw, ab_ubl)
 ||improvedigital.com/*/headerlift.min.js$script,redirect-rule=noop.js,domain=funnygames.be|funnygames.nl|spele.be|spele.nl
-!@@/ads.*.js$domain=notebookcheck.nl
 ! 2021-04-28
 webwereld.nl##+js(set, adBlockStatus, false)
 nu.nl##+js(set, isAdBlockEnabled, false)
 ! 2021-04-27
 ||goplay.be/js/sourcepoint/msg?v=
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,script,redirect=nooptext,domain=zeelandnet.nl
 zeelandnet.nl##.bnr-notice
 @@||ah.nl^$ghide
 @@||gamekings.tv^$ghide
