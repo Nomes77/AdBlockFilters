@@ -7,7 +7,7 @@ labels:
       pr:
         body: Thank you @{{ pull_request.user.login }} for suggesting this. Please follow the pull request templates.
         action: close
-    - name: wontfix
+  - name: wontfix
     labeled:
       issue:
         body: This will not be worked on but I appreciate your contribution.
