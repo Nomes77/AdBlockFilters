@@ -1,0 +1,25 @@
+labels:
+  - name: invalid
+    labeled:
+      issue:
+        body: Please follow the issue templates.
+        action: close
+      pr:
+        body: Thank you @{{ pull_request.user.login }} for suggesting this. Please follow the pull request templates.
+        action: close
+    - name: wontfix
+    labeled:
+      issue:
+        body: This will not be worked on but I appreciate your contribution.
+        action: close
+    unlabeled:
+      issue:
+        action: open
+  - name: duplicate
+    labeled:
+      issue:
+        body: This issue already exists.
+        action: close
+    unlabeled:
+      issue:
+        action: open
