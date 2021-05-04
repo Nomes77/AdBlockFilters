@@ -1,4 +1,5 @@
 ! 2021-05-04
+zeelandnet.nl##.hero-banner
 tweakers.net##img[src^="/i/"]
 ! 2021-05-03
 notebookcheck.nl##div.am_el
