@@ -35,7 +35,6 @@
 ||maakmedia.nl^$3p
 ||marketing.teasemedia.nl^$3p
 ||mbs.midhold.nl^$3p
-||mmcdn.nl^$3p
 ||mt67.net^$3p
 ||netdirect.nl^$3p
 ||nonstoppartner.net^$3p
