@@ -8,7 +8,6 @@ xxxplaza.nl#@##ad_right
 xxxplaza.nl#@##adcontainer
 kinderspelletjes.nl#@##adframe:not(frameset)
 comedycentral.nl#@##bannerad
-dekrantvantoen.nl#@##headerAdv
 autodealers.nl#@#.ad-btn
 bokt.nl#@#.ad-body
 zeelandnet.nl#@#.ad-card
