@@ -1,3 +1,5 @@
+! 2021-05-05
+@@||dekrantvantoen.nl/resources/*/images/*_336x120.$image
 ! 2021-05-04
 @@||aka.spotxcdn.com/integration/ados/$script,domain=radioluisteren.fm
 @@||cdn.spotxcdn.com/integration/easi/$script,domain=radioluisteren.fm
