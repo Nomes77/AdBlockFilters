@@ -1,3 +1,6 @@
+https://github.com/BPower0036/AdBlockFilters/issues/16
+||content2.nrc.nl^
+! 2021-04-27
 ||adverteren.rd.nl^
 ||banner.klikklik.nl^
 ||banners.utilo.nl^
