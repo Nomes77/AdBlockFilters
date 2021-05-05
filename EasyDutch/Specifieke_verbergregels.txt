@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/2f6d198593b97a7e78a313b5085dc7f7a46165b2
+bnnvara.nl##.advertisement
 ! https://github.com/BPower0036/AdBlockFilters/issues/16
 nrc.nl##.banner
 ! 2021-05-05
