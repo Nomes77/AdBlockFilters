@@ -1,4 +1,8 @@
 ! 2021-05-05
+||402automotive.com/files/*/files/images/*online-banner-$image
+||402automotive.com/files/*/files/images/*/*/enibanner.$image
+||402automotive.com/files/*/files/images/banners/*.$image
+||402automotive.com/files/images/website/banners/*.$image
 ||poldertube.nl/banners/*/small_banner
 ||gadgetsentrends.nl/imagestore/banners/
 ||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
@@ -13,9 +17,6 @@
 ||123video.nl/customs/*/assets/images/*.gif
 ||123video.nl/img/banners/
 ||123video.nl^*/nathan.js
-||402automotive.com/files/*/files/images/banners/*.$image
-||402automotive.com/files/*/files/images/*/banners/*.$image
-||402automotive.com/files/images/website/banners/*.$image
 ||almere-nieuws.nl/banners_*.html
 ||am-forum.nl/kbc-logo.swf
 ||am-forum.nl/upload/logo_elektrodump.png
