@@ -110,7 +110,7 @@ omroepbrabant.nl##.ad-1C
 filmtotaal.nl##.ad-centering
 tvgids24.nl##.adBoxbig
 omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl##.adcontainer
-androidworld.nl,indeleiderstrui.nl,webmastersunited.nl##.ads
+androidworld.nl,indeleiderstrui.nl##.ads
 openingstijden.com##.adsense
 autoweek.nl##.advertise
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,totaaltv.nl##.advertising-container-top
