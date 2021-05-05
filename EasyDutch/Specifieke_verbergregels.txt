@@ -1,3 +1,6 @@
+! 2021-05-05
+biflatie.nl##div[class*="elementor-widget-button"]:has-text(Advert)
+crimesite.nl##em:has-text(reclame)
 ! https://github.com/easylist/easylistdutch/commit/4b28b8e2fb72c7008bc77fbcfd252c7835c1fcb7
 riskcompliance.nl##.widget_itarget_banners
 ! 2021-05-04
