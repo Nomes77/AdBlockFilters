@@ -7,6 +7,4 @@ https://github.com/BPower0036/AdBlockFilters/issues/16
 ||bnr.agf.nl^
 ||ganaar.gertibaldi.com^
 ||mooieplaatjes.bierdopje.com^
-||smetrics.cat-care.nl^
-||ssc.mtv.nl^
 ||sstats.asadventure.nl^
