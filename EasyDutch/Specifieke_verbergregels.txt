@@ -1,4 +1,6 @@
 ! 2021-05-05
+kinkysexcontactonline.nl,negerinnensexdating.eu##[class="rand nomobile"]:has(img[src^='/images/"]
+negerinnensexdating.eu##[class="rand nomobile"]:has(a[href*="net69.nl/genre"])
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 dagelijksestandaard.nl##hr:nth-of-type(1)
 dagelijksestandaard.nl##hr:nth-of-type(3)
@@ -216,7 +218,6 @@ pcmweb.nl##div.block:nth-of-type(1)
 pcmweb.nl##div.block:nth-of-type(2)
 classic.nl##div.brievenbus
 waarzo.nl##div.contentbox:nth-of-type(1)
-kinkysexcontactonline.nl,negerinnensexdating.eu##div.nomobile.rand:nth-of-type(6)
 totaaltv.nl##ol:nth-of-type(2)
 meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 marktplaats.nl,2dehands.be##ul.mp-Listings > li.mp-Listing:has(:scope > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
