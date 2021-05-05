@@ -1,12 +1,13 @@
 ! https://github.com/BPower0036/AdBlockFilters/issues/16
 nrc.nl##.banner
 ! 2021-05-05
+sexdating-vrouwen.be###aside > :has(iframe[data-src*="affilaxy.com"])
 webmastersunited.com##.ads
 direct-sexdate.be##div.card:has([href*="www.datepartner.be"])
 geil-neuken.nl##.well:has(.bannergroup)
 nederlandsexdate.nl##.card-header:has-text(Advertentie)
-kinkysexcontactonline.nl,negerinnensexdating.eu,privesexgids.nl###homebanners
-kinkysexcontactonline.nl,negerinnensexdating.eu,privesexgids.nl##[class="rand nomobile"]:has(img[src^="/images/"])
+kinkysexcontactonline.nl,negerinnensexdating.eu,privesexgids.nl,stellensexdating.nl###homebanners
+kinkysexcontactonline.nl,negerinnensexdating.eu,privesexgids.nl,stellensexdating.nl##[class="rand nomobile"]:has(img[src^="/images/"])
 negerinnensexdating.eu##[class="rand nomobile"]:has(a[href*="net69.nl/genre"])
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 dagelijksestandaard.nl##hr:nth-of-type(1)
