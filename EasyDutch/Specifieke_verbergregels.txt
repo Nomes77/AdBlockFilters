@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/commit/e9ed7c5c7b41f6da2dbd8c818acdd788070dcd03
+voetbalkrant.com##.imu
+voetbalkrant.com##.leaderboard
 ! https://github.com/easylist/easylistdutch/commit/f926ebb0544c060b792c50ebbdbe12912cd7fd2e
 rtlnieuws.nl###rtln-ad-advertorial
 rtlnieuws.nl##.billboard
@@ -189,8 +192,6 @@ nos.nl##.ster-banner
 tijd.be##.sticky-article-halfpager
 want.nl##.sticky-banner-container
 nos.nl##.teletekst__banner
-voetbalkrant.com##.text-center.imu
-voetbalkrant.com##.text-center.leaderboard
 telegraaf.nl##.TextArticlePage__bannerWrapper
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.tile:has(:scope >.ankeiler--advertisement)
 dvhn.nl,lc.nl,meppelercourant.nl##.top__ad
