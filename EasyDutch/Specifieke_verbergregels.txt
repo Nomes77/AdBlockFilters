@@ -1,6 +1,8 @@
 ! https://github.com/BPower0036/AdBlockFilters/issues/16
 nrc.nl##.banner
 ! 2021-05-05
+waarzo.nl##.contentbox:has-text(Advertentie)
+waarzo.nl##.smallbox:has-text(Advertentie)
 sexdating-vrouwen.be###aside > :has(iframe[data-src*="affilaxy.com"])
 webmastersunited.com##.ads
 direct-sexdate.be##div.card:has([href*="www.datepartner.be"])
@@ -224,7 +226,6 @@ nu.nl##div.articlelist[data-section="advertorial-belastingdienst-adverteerder"]
 pcmweb.nl##div.block:nth-of-type(1)
 pcmweb.nl##div.block:nth-of-type(2)
 classic.nl##div.brievenbus
-waarzo.nl##div.contentbox:nth-of-type(1)
 totaaltv.nl##ol:nth-of-type(2)
 meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 marktplaats.nl,2dehands.be##ul.mp-Listings > li.mp-Listing:has(:scope > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
