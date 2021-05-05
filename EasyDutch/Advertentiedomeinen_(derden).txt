@@ -1,16 +1,19 @@
+! 2021-05-05 Takenout of Pete Lowe Lists
+||bannermarkt.nl^$badfilter
+||bannermarkt.nl^$3p
+||adpepper.nl^$badfilter
+||adpepper.nl^$3p
 ! 2021-05-03
 ||leerlucidedromen.nl^$domain=ninefornews.nl
 ! 2021-04-27
 ||adconfigproxy.azurewebsites.net^$3p
 ||adfactor.nl^$3p
-||adpepper.nl^$3p
 ||ad-prod.ster.nl^$3p
 ||affiliatepartners.com^$3p
 ||aj1716.online^$domain=sexjobs.nl
 ||asp.unitedconsumers.com^$3p
 ||assets.nudeal.nl^$3p
 ||awin.com^$3p
-||bannermarkt.nl^$3p
 ||banners.vip.nl^$3p
 ||bluemango.nl^$3p
 ||bva-auctions.com^$domain=telegraaf.nl
