@@ -1,4 +1,7 @@
 ! 2021-05-05
+dagelijksestandaard.nl##hr:nth-of-type(1)
+dagelijksestandaard.nl##hr:nth-of-type(3)
+dagelijksestandaard.nl##div.wpb_raw_code > .wpb_wrapper:has(div[style="padding:20px;"])
 biflatie.nl##div[class*="elementor-widget-button"]:has-text(Advert)
 crimesite.nl##em:has-text(reclame)
 ! https://github.com/easylist/easylistdutch/commit/4b28b8e2fb72c7008bc77fbcfd252c7835c1fcb7
