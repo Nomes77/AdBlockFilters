@@ -33,6 +33,5 @@
 /small_reclames/*
 /topadvertentie.
 ://promotie.$third-party
-_336x120.$image,domain=~dekrantvantoen.nl
 _advertentie300x250_
 _advertentieleaderboardhome.
