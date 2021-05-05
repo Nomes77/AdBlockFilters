@@ -1,6 +1,7 @@
 ! https://github.com/BPower0036/AdBlockFilters/issues/16
 nrc.nl##.banner
 ! 2021-05-05
+402online.com##.bannerblock
 waarzo.nl##.contentbox:has-text(Advertentie)
 waarzo.nl##.smallbox:has-text(Advertentie)
 sexdating-vrouwen.be###aside > :has(iframe[data-src*="affilaxy.com"])
