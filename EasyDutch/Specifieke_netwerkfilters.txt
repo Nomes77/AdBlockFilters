@@ -1,3 +1,5 @@
+! https://github.com/BPower0036/AdBlockFilters/issues/16
+||content2.nrc.nl/*/lib/*adhese$1p
 ! 2021-05-05
 ||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
 ||2k19.nl/b/$image
