@@ -1,5 +1,6 @@
 ! 2021-05-05
-kinkysexcontactonline.nl,negerinnensexdating.eu##[class="rand nomobile"]:has(img[src^="/images/"])
+kinkysexcontactonline.nl,negerinnensexdating.eu,privesexgids.nl###homebanners
+kinkysexcontactonline.nl,negerinnensexdating.eu,privesexgids.nl##[class="rand nomobile"]:has(img[src^="/images/"])
 negerinnensexdating.eu##[class="rand nomobile"]:has(a[href*="net69.nl/genre"])
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 dagelijksestandaard.nl##hr:nth-of-type(1)
@@ -73,7 +74,6 @@ oops.nl###dropinboxv2cover
 bokt.nl###frontpage_mediumrect
 nu.nl###header > .zone
 gfcnieuws.com###home-banners
-negerinnensexdating.eu,privesexgids.nl###homebanners
 techzine.nl###lead
 eindexamens.nu###leaderboard
 made-in.be###leaderboard_row
