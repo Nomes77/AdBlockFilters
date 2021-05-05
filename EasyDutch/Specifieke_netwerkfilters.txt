@@ -1,4 +1,5 @@
 ! 2021-05-05
+||poldertube.nl/banners/*/small_banner
 ||gadgetsentrends.nl/imagestore/banners/
 ||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
 ||2k19.nl/b/$image
