@@ -1,4 +1,5 @@
 ! 2021-05-05
+nrc.nl##.banner
 webmastersunited.com##.ads
 direct-sexdate.be##div.card:has([href*="www.datepartner.be"])
 geil-neuken.nl##.well:has(.bannergroup)
