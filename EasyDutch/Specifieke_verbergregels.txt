@@ -1,4 +1,7 @@
 ! 2021-05-05
+direct-sexdate.be##div.card:has([href*="www.datepartner.be"])
+geil-neuken.nl##.well:has(.bannergroup)
+nederlandsexdate.nl##.card-header:has-text(Advertentie)
 kinkysexcontactonline.nl,negerinnensexdating.eu,privesexgids.nl###homebanners
 kinkysexcontactonline.nl,negerinnensexdating.eu,privesexgids.nl##[class="rand nomobile"]:has(img[src^="/images/"])
 negerinnensexdating.eu##[class="rand nomobile"]:has(a[href*="net69.nl/genre"])
