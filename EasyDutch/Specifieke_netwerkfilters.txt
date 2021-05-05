@@ -1,3 +1,6 @@
+! 2021-05-05
+||2k19.nl/b/$image
+||neukcontacten.info/images/pikant.$image
 ! 2021-05-03
 ||tweakers.net/i/*/1280x400/filters:max_bytes(102400):strip_icc()/i/*.jpeg?f=thumblarge
 ! 2021-04-30
