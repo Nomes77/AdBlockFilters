@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/e9ed7c5c7b41f6da2dbd8c818acdd788070dcd03
+||voetbalkrant.com/images/pub/
 ! 2021-05-05
 ||402automotive.com/files/*/files/images/*online-banner-$image
 ||402automotive.com/files/*/files/images/*/*/enibanner.$image
