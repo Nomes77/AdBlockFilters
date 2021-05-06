@@ -1,4 +1,5 @@
 ! 2021-05-06
+||ishotmyself.nl/include/*/promo/footer/
 ||islive.nl/splash1/banners/
 ! https://github.com/easylist/easylistdutch/commit/e9ed7c5c7b41f6da2dbd8c818acdd788070dcd03
 ||voetbalkrant.com/images/pub/
@@ -84,7 +85,6 @@
 ||resellers.viboshop.nl/promoimages/
 ||search-result.com^*/klokad2.js
 ||sexamateurtjes.nl/banners/
-||seksmet.b-cdn.net/wp-content/uploads/*.gif
 ||sexervaringendelen.nl/porno/$image
 ||sexverhalen.com/vriendschap/
 ||te-les-koop.nl/images/B_
