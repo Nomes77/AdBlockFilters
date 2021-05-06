@@ -10,7 +10,6 @@ kinderspelletjes.nl#@##adframe:not(frameset)
 comedycentral.nl#@##bannerad
 autodealers.nl#@#.ad-btn
 bokt.nl#@#.ad-body
-zeelandnet.nl#@#.ad-card
 speurders.nl#@#.ad_header
 hotcontact.nl,xxxplaza.nl#@#.adlink
 wereldklokken.nl#@#.adsbygoogle
