@@ -1,5 +1,6 @@
 ! 2021-05-06
-koopplein.nl##.ad-item-container
+pcmweb.nl####div.block:has([id^="div-gpt-ad"])
+koopplein.nl####div.block:has-text(Vacatures)
 zeelandnet.nl##aside:has([id^="div-gpt-ad"])
 zeelandnet.nl##.as__bottom-banner
 ! https://github.com/easylist/easylistdutch/commit/431dbba630602067c94b5c56ef2c1e31928215cd
@@ -235,8 +236,6 @@ gfcnieuws.com##div[id^="meteor-"]
 iculture.nl##div[style="min-height:250px"]
 historiek.net##div.ai-viewport-1
 nu.nl##div.articlelist[data-section="advertorial-belastingdienst-adverteerder"]
-pcmweb.nl##div.block:nth-of-type(1)
-pcmweb.nl##div.block:nth-of-type(2)
 classic.nl##div.brievenbus
 totaaltv.nl##ol:nth-of-type(2)
 meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
