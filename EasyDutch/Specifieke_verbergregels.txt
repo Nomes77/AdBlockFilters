@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/commit/431dbba630602067c94b5c56ef2c1e31928215cd
+sexjobs.nl##.banner-wrapper
+sexjobs.nl##div[id^="banner-"]
 ! https://github.com/easylist/easylistdutch/commit/e9ed7c5c7b41f6da2dbd8c818acdd788070dcd03
 voetbalkrant.com##.imu
 voetbalkrant.com##.leaderboard
