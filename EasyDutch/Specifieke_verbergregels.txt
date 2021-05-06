@@ -1,6 +1,7 @@
 ! 2021-05-06
-pcmweb.nl####div.block:has([id^="div-gpt-ad"])
-koopplein.nl####div.block:has-text(Vacatures)
+pcmweb.nl###div.block:has([id^="div-gpt-ad"])
+pcmweb.nl###div.block:has-text(Vacatures)
+koopplein.nl##.ad-item-container
 zeelandnet.nl##aside:has([id^="div-gpt-ad"])
 zeelandnet.nl##.as__bottom-banner
 ! https://github.com/easylist/easylistdutch/commit/431dbba630602067c94b5c56ef2c1e31928215cd
