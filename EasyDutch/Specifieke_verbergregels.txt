@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/commit/2f052e891c714dcc5faae08677eb9a1695307abd
+prewarcar.nl##.banner-holder
+prewarcar.nl##img[width="160"][height="92"]
 ! 2021-05-06
 seksmet.nl##.et_pb_text:has(div[class] > center > a[href])
 seksmet.nl##[href^="https://dt51.net/"]
