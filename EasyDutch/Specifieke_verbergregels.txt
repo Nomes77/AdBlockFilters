@@ -1,4 +1,6 @@
 ! 2021-05-06
+seksmet.nl##.et_pb_text:has(div[class] > center > a[href])
+seksmet.nl##[href^="https://dt51.net/"]
 nedporno.com##.text-center:has-text(/Reclame/i)
 nedporno.com##.right-player-169
 nedporno.com##.publis-bottom
