@@ -1,4 +1,7 @@
 ! 2021-05-06
+nedporno.com##.text-center:has-text(/Reclame/i)
+nedporno.com##.right-player-169
+nedporno.com##.publis-bottom
 androidplanet.nl,iphoned.nl##.widget_offers
 marktplaats.nl,2dehands.be##.banner-vipbottom
 pcmweb.nl##div.block:has([id^="div-gpt-ad"])
