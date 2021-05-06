@@ -1,4 +1,6 @@
-https://github.com/BPower0036/AdBlockFilters/issues/16
+! https://github.com/easylist/easylistdutch/commit/431dbba630602067c94b5c56ef2c1e31928215cd
+||aj1716.online^
+! https://github.com/BPower0036/AdBlockFilters/issues/16
 ||content2.nrc.nl^
 ! 2021-04-27
 ||adverteren.rd.nl^
