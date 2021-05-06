@@ -100,7 +100,6 @@ eindexamens.nu###leaderboard
 made-in.be###leaderboard_row
 oisterwijknieuws.nl###left-sidebar
 afkortingen.nu###link_unit
-waarzo.nl###M3_right > div.smallbox:nth-of-type(1)
 seksmet.nl###main-header-wrapper
 sexfun.nl###recommendBlock
 oisterwijknieuws.nl###right-sidebar
