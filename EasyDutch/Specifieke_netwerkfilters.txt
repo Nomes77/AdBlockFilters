@@ -1,4 +1,5 @@
 ! 2021-05-06
+||dutchporner.com/wp-content/uploads/*/*Account-Promo$image
 ||ishotmyself.nl/include/*/promo/footer/
 ||islive.nl/splash1/banners/
 ! https://github.com/easylist/easylistdutch/commit/e9ed7c5c7b41f6da2dbd8c818acdd788070dcd03
@@ -11,7 +12,6 @@
 ||poldertube.nl/banners/*/small_banner
 ||gadgetsentrends.nl/imagestore/banners/
 ||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
-||2k19.nl/b/$image
 ||neukcontacten.info/images/pikant.$image
 ! 2021-05-03
 ||tweakers.net/i/*/1280x400/filters:max_bytes(102400):strip_icc()/i/*.jpeg?f=thumblarge
