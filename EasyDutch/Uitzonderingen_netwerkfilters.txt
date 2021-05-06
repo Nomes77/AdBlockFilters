@@ -11,13 +11,8 @@
 ! 2021-04-27
 @@||2dehandskleertjes.nl/uploads/advertenties/
 @@||images.marktnet.eu/adimg/
-@@||koopplein.nl^*/advertenties/upload
-@@||sexjobs.nl/advertentie/
 @@||showmodeluitverkoop.nl/upload/advertentie/
-@@||slimmerkopen.nl/timthumb/timthumb.php?src=/uploads/advertenties/
 @@||te-les-koop.nl/advertenties.php
-@@||zeelandnet.nl/prikbord/assets/*/advertentie.js
-@@||zeelandnet.nl/prikbord/assets/*/advertenties.js
 @@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hbvl.be|vtm.be
 @@||help.marktplaats.nl/s/sfsites/aura$xmlhttprequest,domain=help.marktplaats.nl
