@@ -1,7 +1,7 @@
 ! 2021-05-06
 marktplaats.nl,2dehands.be##.banner-vipbottom
-pcmweb.nl###div.block:has([id^="div-gpt-ad"])
-pcmweb.nl###div.block:has-text(Vacatures)
+pcmweb.nl##div.block:has([id^="div-gpt-ad"])
+pcmweb.nl##div.block:has-text(Vacatures)
 koopplein.nl##.ad-item-container
 zeelandnet.nl##aside:has([id^="div-gpt-ad"])
 zeelandnet.nl##.as__bottom-banner
