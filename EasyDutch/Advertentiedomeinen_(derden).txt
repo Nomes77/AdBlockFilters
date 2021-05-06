@@ -5,8 +5,6 @@
 ||bannermarkt.nl^$3p
 ||adpepper.nl^$badfilter
 ||adpepper.nl^$3p
-! 2021-05-03
-||leerlucidedromen.nl^$domain=ninefornews.nl
 ! 2021-04-27
 ||adconfigproxy.azurewebsites.net^$3p
 ||adfactor.nl^$3p
