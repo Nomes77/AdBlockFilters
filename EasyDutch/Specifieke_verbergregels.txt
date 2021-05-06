@@ -1,4 +1,5 @@
 ! 2021-05-06
+androidplanet.nl,iphoned.nl##.widget_offers
 marktplaats.nl,2dehands.be##.banner-vipbottom
 pcmweb.nl##div.block:has([id^="div-gpt-ad"])
 pcmweb.nl##div.block:has-text(Vacatures)
