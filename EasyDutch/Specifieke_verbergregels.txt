@@ -1,3 +1,6 @@
+! 2021-05-06
+zeelandnet.nl##aside:has([id^="div-gpt-ad"])
+zeelandnet.nl##.as__bottom-banner
 ! https://github.com/easylist/easylistdutch/commit/431dbba630602067c94b5c56ef2c1e31928215cd
 sexjobs.nl##.banner-wrapper
 sexjobs.nl##div[id^="banner-"]
