@@ -1,5 +1,7 @@
+! 2021-05-07
+||cashpartners.eu^$3p
 ! 2021-05-05
-||affilaxy.com$3p
+||affilaxy.com^$3p
 ! 2021-05-05 Taken out of Pete Lowe Lists
 ||bannermarkt.nl^$badfilter
 ||bannermarkt.nl^$3p
