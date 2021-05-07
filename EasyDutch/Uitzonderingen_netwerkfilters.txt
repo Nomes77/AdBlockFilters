@@ -10,7 +10,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_$script,domain=allestoringen.*
 ! 2021-04-27
 @@||2dehandskleertjes.nl/uploads/advertenties/
-@@||images.marktnet.eu/adimg/
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||te-les-koop.nl/advertenties.php
 @@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
