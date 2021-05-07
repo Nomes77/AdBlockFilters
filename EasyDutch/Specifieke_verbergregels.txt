@@ -5,6 +5,7 @@ gratispornofilm.nl,lekkerewebcams.nl##.happy-sidebar
 gratispornofilm.nl,lekkerewebcams.nl##.lebox-ready > [src^="https://pornokartel.nl/wp-content/uploads"]
 gratispornofilm.nl##[href*="https://www.shemale-contacten.nl/"]
 lekkerewebcams.nl##.happy-under-player
+pornokartel.nl##.video-block-happy
 pornokartel.nl##[href*="https://pornokartel.nl/adverteren"]
 pornoplekje.nl###exitpopup-modal
 marktnet.nl##.tab4
