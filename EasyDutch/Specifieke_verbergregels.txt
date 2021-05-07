@@ -1,4 +1,19 @@
 ! 2021-05-07
+adultwebmaster.nl##.main-promo-bn-responsive
+beeldbelsex.com##[href^="https://www.twero.com/"]
+beeldbelsex.com##.wp-block-column > center > .lazyloaded
+beeldbelsex.com##[href^="https://islive.com/"]
+belgie-sexdate.be##.well:has-text(Geile Milfs)
+geile-sexcontacten.be##.card:has([src^="https://www.affilaxy.com/promos/"])
+geile-sexcontacten.be##.d-lg-block:has-text(Advert)
+kinkymedia.nl##.adguru-zone-wrap
+kinkymedia.nl##.gridview-bottom-footer-block
+kinkymedia.nl##.adguru-ad-banner
+sexdating4u.be##.well:has(.bannergroup)
+sexylingerie-winkel.be##.homepage-seo-footer
+pornopower.nl###custom_html-8
+pornopower.nl###custom_html-7
+pornopower.nl##.code-block-1
 elkspel.nl##.banner-container
 camsexbabe.nl##.video-sidebar
 gratispornofilm.nl##.lazyloaded.block-bordered
