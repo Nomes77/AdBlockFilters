@@ -1,3 +1,10 @@
+! 2021-05-07
+||pornokartel.nl/wp-content/uploads/$image,3p
+||pornokartel.nl/wp-content/uploads/*.gif$image
+||pornokartel.nl/wp-content/uploads/*/Badoo$image
+||pornokartel.nl/wp-content/uploads/*/Neuk-test$image
+||gratispornofilm.nl/wp-content/uploads/*/Neuk-test$image
+||lekkerewebcams.nl/wp-content/uploads/*.gif$image
 ! 2021-05-06
 ||images.prewarcar.com/pics/fb-*x*-banners$image
 ||ninefornews.nl/wp-content/uploads/*/banner-$image
