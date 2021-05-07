@@ -1,4 +1,5 @@
 ! 2021-05-07
+||pornokartel.nl/wp-content/themes/*/img/happy-$image
 ||pornokartel.nl/wp-content/uploads/$image,3p
 ||pornokartel.nl/wp-content/uploads/*.gif$image
 ||pornokartel.nl/wp-content/uploads/*/Badoo$image
