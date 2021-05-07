@@ -1,4 +1,12 @@
 ! 2021-05-07
+camsexbabe.nl##.video-sidebar
+gratispornofilm.nl##.lazyloaded.block-bordered
+gratispornofilm.nl,lekkerewebcams.nl##.happy-sidebar
+gratispornofilm.nl,lekkerewebcams.nl##.lebox-ready > [src^="https://pornokartel.nl/wp-content/uploads"]
+gratispornofilm.nl##[href*="https://www.shemale-contacten.nl/"]
+lekkerewebcams.nl##.happy-under-player
+pornokartel.nl##[href*="https://pornokartel.nl/adverteren"]
+pornoplekje.nl###exitpopup-modal
 marktnet.nl##.tab4
 ! https://github.com/easylist/easylistdutch/commit/2f052e891c714dcc5faae08677eb9a1695307abd
 prewarcar.nl##.banner-holder
