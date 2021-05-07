@@ -25,7 +25,6 @@
 ||123video.nl/img/banners/
 ||123video.nl^*/nathan.js
 ||almere-nieuws.nl/banners_*.html
-||am-forum.nl/kbc-logo.swf
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
 ||androidplanet.nl/wp-content/plugins/scroll-triggered-boxes/
@@ -49,7 +48,7 @@
 ||dutchleader.nl/php/popex/
 ||duurzaam-actueel.nl^*banner
 ||flirtfair.de^*/dppop.js
-||flirtmee.nl/chat/banner_
+||flirtmee.nl/img/160x70_sponsor-
 ||forum.spaarinformatie.nl/si-info.html
 ||genemuidenactueel.nl^*banner
 ||giveawayoftheday.com/ticker/
@@ -59,8 +58,6 @@
 ||jobat.be/scripts/jobatscripts.js
 ||kavelplatform.nl/assets/uploads/banners/
 ||kilroynews.net^*banner
-||leerwiki.nl/leerwiki-doemee.swf?
-||leerwiki.nl/test/promobanner.swf
 ||marktnet.nl/bs/loadBanner.aspx?
 ||mediareader.omroepwest.nl/gaslicht^
 ||media.prdn.nl/retailtrends/images/*.gif
