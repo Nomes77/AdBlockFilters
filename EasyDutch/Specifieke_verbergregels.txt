@@ -1,4 +1,7 @@
 ! 2021-05-08
+gva.be##main > div > .grid:has-text(Auto's in de kijker)
+inmemoriam.be##.o-news__add
+proximus.be##.col.pix-sidebar
 allradio.nl##.banner
 ! 2021-05-07
 opiniepeilers.nl##div.contentContainer:nth-of-type(4)
