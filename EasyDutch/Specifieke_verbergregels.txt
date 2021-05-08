@@ -1,4 +1,7 @@
 ! 2021-05-08
+spelersvrouw.nl##.widget_text.gridlove-box
+rtvdrenthe.nl###recommendations-above-ad
+rtvdrenthe.nl##div[class^="col"]:has([class*="adcontainer"])
 gva.be##main > div > .grid:has-text(Auto's in de kijker)
 inmemoriam.be##.o-news__add
 proximus.be##.col.pix-sidebar
