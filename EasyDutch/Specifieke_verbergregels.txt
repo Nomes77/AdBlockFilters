@@ -1,3 +1,10 @@
+! 2021-05-10
+dekrantnieuws.nl##.wpb_wrapper > .a-single
+dekrantnieuws.nl##.vc_inner:has([src$="324x484.jpg"])
+barneveldsekrant.nl##.w-300x.RM5
+barneveldsekrant.nl##div.bg-grey.text-center:has-text(advertentie)
+barneveldsekrant.nl##div.bg-grey.text-center:has-text(Regiotreffers)
+barneveldsekrant.nl##[class] > [id="div-gpt-ad-banner"]:has-text(advertentie)
 ! 2021-05-08
 marokko.nl##.ad_between
 bellotube.com###exo
