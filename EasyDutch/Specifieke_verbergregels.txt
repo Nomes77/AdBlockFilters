@@ -1,4 +1,9 @@
 ! 2021-05-10
+dekrantvantynaarlo.nl###text-2:has-text(Advertentie)
+destreekkrant.nu##.vc_carousel-inner > .vc_carousel-slideline > .vc_carousel-slideline-inner
+destreekkrant.nu##.wpb_wrapper > .a-single
+destreekkrant.nu##.vc_inner:has([src$="324x484.jpg"])
+dekrantnieuws.nl##.vc_carousel-inner > .vc_carousel-slideline > .vc_carousel-slideline-inner
 dekrantnieuws.nl##.wpb_wrapper > .a-single
 dekrantnieuws.nl##.vc_inner:has([src$="324x484.jpg"])
 barneveldsekrant.nl##.w-300x.RM5
