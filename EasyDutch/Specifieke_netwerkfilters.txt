@@ -1,13 +1,17 @@
 ! 2021-05-10
+||www.media-totaal.nl/*com_adagency*adagencyAds$script,domain=dekrantnieuws.nl|destreekkrant.nu|dekrantvantynaarlo.nl
+||dekrantvantynaarlo.nl/wp-content/uploads/*/*banner$image
+||dekrantvantynaarlo.nl/wp-content/uploads/*/banner.$image
+||dekrantvantynaarlo.nl/wp-content/uploads/*/*-Banner$image
+||dekrantvantynaarlo.nl/wp-content/uploads/*/*-outline-canvas-*.$image
+||destreekkrant.nu/wp-content/uploads/*/*banner$image
+||destreekkrant.nu/wp-content/uploads/*/banner.$image
+||destreekkrant.nu/wp-content/uploads/*/*-Banner$image
+||destreekkrant.nu/wp-content/uploads/*/*-outline-canvas-*.$image
 ||dekrantnieuws.nl/wp-content/uploads/*/*banner$image
 ||dekrantnieuws.nl/wp-content/uploads/*/banner.$image
 ||dekrantnieuws.nl/wp-content/uploads/*/*-Banner$image
 ||dekrantnieuws.nl/wp-content/uploads/*/*-outline-canvas-*.$image
-||dekrantnieuws.nl/wp-content/uploads/*/dacapo.png$image
-||dekrantnieuws.nl/wp-content/uploads/*/deurbord-staand*.$image
-||dekrantnieuws.nl/wp-content/uploads/*/ncc.$image
-||dekrantnieuws.nl/wp-content/uploads/*/onderdelinden.$image
-||dekrantnieuws.nl/wp-content/uploads/*/winkelhart250$image
 ! 2021-05-07
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
 ||beeldbelsex.com/wp-content/uploads/*/bellenafspreken.$image
