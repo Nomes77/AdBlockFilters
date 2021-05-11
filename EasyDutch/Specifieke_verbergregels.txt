@@ -114,6 +114,7 @@ lekkerewebcams.nl##.custom-html-widget.textwidget
 geile-sexcontacten.be##.d-lg-block:has-text(Advert)
 wanttoknow.nl##.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
+tpo.nl##.dusWhite.mainContent
 androidplanet.nl,iphoned.nl##.dynamic-content[data-nosnippet]
 androidplanet.nl,iphoned.nl##.dynamic-content-native
 sexcam-mokkels.nl,tellows.nl##.entry-content > div
