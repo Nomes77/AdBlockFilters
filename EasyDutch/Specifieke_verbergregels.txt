@@ -255,10 +255,10 @@ turksemedia.nl##div[class="sidebar_item"][style="padding-bottom: 16px;"]:has(:sc
 tweakers.net##div[class="wrap"] > div[id]:has(img[src^="/i/"]):not(div[id^="tab"])
 tweakers.net##div[class^="articleColumn"] > div:has(img[src^="/i/"])
 rtvdrenthe.nl##div[class^="col"]:has([class*="adcontainer"])
-tweakers.net##div[class^="priceFilter"] > div[id]:has(img[src^="/i/"])
 tweakers.net##div[class^="relevancy"] > div[id]:has(img[src^="/i/"])
 tweakers.net##div[class^="related"] > div[class]:has(img[src^="/i/"])
 tweakers.net##div[class^="secondColumn"] > div[id]:has(img[src^="/i/"])
+tweakers.net##div[id="filterContainer"] > div[id]:has(img[src^="/i/"])
 biflatie.nl##div[class*="elementor-widget-button"]:has-text(Advert)
 almere-nieuws.nl##div[class*="jeg_ad"]
 nu.nl##div[data-type="tealium"]
