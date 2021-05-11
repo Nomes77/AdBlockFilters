@@ -1,3 +1,6 @@
+! 2021-05-11
+||ero-meiden.nl/wp-content/uploads/*/Spuiten*.gif$image
+||ero-meiden.nl/wp-content/uploads/*/Beffen.gif$image
 ! 2021-05-10
 ||media-totaal.nl/*com_adagency*adagencyAds$script,domain=dekrantnieuws.nl|destreekkrant.nu|dekrantvantynaarlo.nl
 /wp-content/uploads/*/Mijn-Zaak$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
