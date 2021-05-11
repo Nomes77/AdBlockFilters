@@ -1,4 +1,6 @@
 ! 2021-05-11
+sextube-18.com##.happy-under-player
+sextube-18.com##.happy-footer
 tweakers.net##div[class="wrap"] > div[id]:has(img[src^="/i/"])
 tweakers.net##div[class^="relevancy"] > div[id]:has(img[src^="/i/"])
 tweakers.net##div[class^="related"] > div[class]:has(img[src^="/i/"])
