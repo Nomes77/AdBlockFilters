@@ -1,11 +1,15 @@
 ! 2021-05-11
-ero-meiden.nl##.size-full.attachment-full
+camsexbabe.nl,mijnpornotube.nl##.video-sidebar
+ero-meiden.nl,geilverlangen.nl##.size-full.attachment-full
+geilverlangen.nl##[href^="https://www.stout-flirten.nl/lp/"]
+gratispornofilm.nl,lekkerewebcams.nl,porno-filmpjes.nl,teen-sex.nl##.happy-sidebar
+lekkerewebcams.nl##.custom-html-widget.textwidget
+lekkerewebcams.nl,sextube-18.com,teen-sex.nl##.happy-under-player
+luana-escort.nl##.cp-webcam-gallery-container
+sextube-18.com,teen-sex.nl##.happy-footer
 porno-filmpjes.nl##.happy-header
-porno-filmpjes.nl##.happy-sidebar
 pornomilf.nl###custom_html-3:has-text(Hier aanmelden)
 sexcam-mokkels.nl##.entry-content > div
-sextube-18.com##.happy-under-player
-sextube-18.com##.happy-footer
 tweakers.net##div[class="wrap"] > div[id]:has(img[src^="/i/"])
 tweakers.net##div[class^="relevancy"] > div[id]:has(img[src^="/i/"])
 tweakers.net##div[class^="related"] > div[class]:has(img[src^="/i/"])
@@ -53,12 +57,9 @@ pornopower.nl###custom_html-8
 pornopower.nl###custom_html-7
 pornopower.nl##.code-block-1
 elkspel.nl##.banner-container
-camsexbabe.nl##.video-sidebar
 gratispornofilm.nl##.lazyloaded.block-bordered
-gratispornofilm.nl,lekkerewebcams.nl##.happy-sidebar
 gratispornofilm.nl,lekkerewebcams.nl##.lebox-ready > [src^="https://pornokartel.nl/wp-content/uploads"]
 gratispornofilm.nl##[href*="https://www.shemale-contacten.nl/"]
-lekkerewebcams.nl##.happy-under-player
 pornokartel.nl##.video-block-happy
 pornokartel.nl##[href*="https://pornokartel.nl/adverteren"]
 pornoplekje.nl###exitpopup-modal
