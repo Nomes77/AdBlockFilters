@@ -1,3 +1,8 @@
+! 2021-05-11
+tweakers.net##div[class="wrap"] > div[id]:has(img[src^="/i/"])
+tweakers.net##div[class^="relevancy"] > div[id]:has(img[src^="/i/"])
+tweakers.net##div[class^="related"] > div[class]:has(img[src^="/i/"])
+tweakers.net##div[class^="secondColumn"] > div[id]:has(img[src^="/i/"])
 ! 2021-05-10
 historiek.net##.code-block:has-text(advertentie)
 historiek.net##.textwidget:has-text(advertentie)
@@ -105,7 +110,6 @@ waldnet.nl##.topbanner
 waldnet.nl##div[style$="0px;"]:has(.adsbygoogle)
 online-radio.nl###top_ad-360
 zeelandnet.nl##.hero-banner
-tweakers.net##img[src^="/i/"]
 ! 2021-05-03
 notebookcheck.nl##div.am_el
 hyvesgames.nl##.ad
