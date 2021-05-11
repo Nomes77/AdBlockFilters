@@ -5,6 +5,8 @@
 ||outdoor-sex.nl/wp-content/uploads/*/buitenseks.$image
 ||outdoor-sex.nl/wp-content/uploads/*/Neuk-test$image
 ||sexcam-mokkels.nl/wp-content/uploads/*/sexafspraakje-$image
+||spike-source.com/wp-admin/admin-ajax.php?action=select&p=rechts-menu-onder$subdocument
+||spike-source.com/wp-admin/admin-ajax.php?action=select&p=onder-filmpje$subdocument
 ! 2021-05-10
 ||media-totaal.nl/*com_adagency*adagencyAds$script,domain=dekrantnieuws.nl|destreekkrant.nu|dekrantvantynaarlo.nl
 /wp-content/uploads/*/Mijn-Zaak$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
