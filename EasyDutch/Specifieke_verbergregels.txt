@@ -1,4 +1,5 @@
 ! 2021-05-11
+sexcam-mokkels.nl##.entry-content > div
 sextube-18.com##.happy-under-player
 sextube-18.com##.happy-footer
 tweakers.net##div[class="wrap"] > div[id]:has(img[src^="/i/"])
