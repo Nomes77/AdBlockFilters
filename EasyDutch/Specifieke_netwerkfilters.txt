@@ -41,8 +41,6 @@
 ||gadgetsentrends.nl/imagestore/banners/
 ||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
 ||neukcontacten.info/images/pikant.$image
-! 2021-05-03
-||tweakers.net/i/*/1280x400/filters:max_bytes(102400):strip_icc()/i/*.jpeg?f=thumblarge
 ! 2021-04-30
 ||dagelijksestandaard.nl/wp-content/uploads/*/PROMO-DDS.$image
 ! 2021-04-27
