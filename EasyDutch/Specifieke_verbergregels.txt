@@ -254,7 +254,6 @@ handbalstartpunt.nl##aside.widget-banner
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 turksemedia.nl##div[class="sidebar_item"][style="padding-bottom: 16px;"]:has(:scope > a > img[width="276"]):remove()
 tweakers.net##div[class="wrap"] > div[id]:has(img[src^="/i/"]):not(div[id^="tab"])
-tweakers.net##div[class^="articleColumn"] > div:has(img[src^="/i/"])
 rtvdrenthe.nl##div[class^="col"]:has([class*="adcontainer"])
 tweakers.net##div[class^="relevancy"] > div[id]:has(img[src^="/i/"])
 tweakers.net##div[class^="related"] > div[class]:has(img[src^="/i/"])
