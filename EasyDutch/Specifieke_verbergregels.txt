@@ -109,7 +109,7 @@ tvgids.tv##.col-left
 tvgids.tv##.col-right
 proximus.be##.col.pix-sidebar
 waarzo.nl##.contentbox:has-text(Advertentie)
-luana-escort.nl##.cp-webcam-gallery-container
+gratispornofilm.nl,luana-escort.nl##.cp-webcam-gallery-container
 lekkerewebcams.nl##.custom-html-widget.textwidget
 geile-sexcontacten.be##.d-lg-block:has-text(Advert)
 wanttoknow.nl##.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
@@ -127,7 +127,7 @@ hyvesgames.nl##.gamereel_featured-ad
 kinkymedia.nl##.gridview-bottom-footer-block
 tvblik.nl##.header-banner
 sextube-18.com,teen-sex.nl##.happy-footer
-porno-filmpjes.nl##.happy-header
+gratispornofilm.nl,porno-filmpjes.nl##.happy-header
 gratispornofilm.nl,lekkerewebcams.nl,porno-filmpjes.nl,teen-sex.nl##.happy-sidebar
 lekkerewebcams.nl,sextube-18.com,teen-sex.nl##.happy-under-player
 zeelandnet.nl##.hero-banner
