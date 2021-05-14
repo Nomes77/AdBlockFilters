@@ -1,3 +1,5 @@
+! 2021-05-14
+||risallah.com/multimedia/images/banners/$image
 ! 2021-05-11
 /wp-content/uploads/*/Neuk-test$image,domain=gratispornofilm.nl|outdoor-sex.nl|pornokartel.nl|teen-sex.nl
 /wp-content/uploads/*.gif$image,domain=ero-meiden.nl|geilverlangen.nl|hete-foto.nl|lekkerewebcams.nl|pornokartel.nl
