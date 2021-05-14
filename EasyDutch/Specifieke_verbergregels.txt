@@ -1,8 +1,3 @@
-! 2021-05-12 Tweakers.net
-tweakers.net##[id="layout"] > [id="contentArea"] > [class="wrap"] > [id]:has(img[src^="https://tweakers.net/i/"]):not([id^="tab"]):not([id="content"]):not([id^="forum"])
-tweakers.net##[id="layout"] > [id="contentArea"] > [class="wrap"] > [id^="tab"] > [class] > [class]:has(img[src^="https://tweakers.net/i/"]):not([class^="product"])
-tweakers.net##[id="layout"] > [id="contentArea"] > [class="wrap"] > [id^="tab"] > [class] > [id] > [id]:has(img[src^="https://tweakers.net/i/"])
-tweakers.net##[id="top"] > [id="entity"] > div > [id]:has(img[src^="https://tweakers.net/i/"])
 ! 2021-05-11
 filmtotaal.nl###adf-rectangle
 buienradar.be,buienradar.nl###adholderContainerHeader
