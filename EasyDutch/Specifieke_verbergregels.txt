@@ -1,4 +1,5 @@
 ! 2021-05-14
+risallah.com##.zijbalk-rechts > table > tbody:has-text(Advertentie)
 puuropreis.nl##.banner-column
 ! 2021-05-11
 filmtotaal.nl###adf-rectangle
