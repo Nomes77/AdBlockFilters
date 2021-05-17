@@ -1,3 +1,5 @@
+! 2021-05-17
+notebookcheck.nl##.amaz_el
 ! 2021-05-14
 risallah.com##.zijbalk-rechts > table > tbody:has-text(Advertentie)
 puuropreis.nl##.banner-column
@@ -73,7 +75,6 @@ autoweek.nl##.advertise
 bnnvara.nl##.advertisement
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,totaaltv.nl##.advertising-container-top
 meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
-notebookcheck.nl##.am_el
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.ankeiler--advertisement
 want.nl##.article__content:style(margin-top: -125px!important;)
 zeelandnet.nl##.article-bnr-first
