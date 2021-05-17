@@ -1,4 +1,7 @@
 ! 2021-05-17
+||biernet.nl/bja/$subdocument
+||biernet.nl/images/extra-bja_camp-bnr/$image
+||biernet.nl/site/widgets/rand-shop-items$subdocument
 ||ninefornews.nl/wp-content/a-d-s/banner*$image
 ! 2021-05-14
 ||risallah.com/multimedia/images/banners/$image
