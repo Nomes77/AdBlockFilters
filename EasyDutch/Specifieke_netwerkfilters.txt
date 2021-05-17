@@ -1,3 +1,5 @@
+! 2021-05-17
+||ninefornews.nl/wp-content/a-d-s/banner*$image
 ! 2021-05-14
 ||risallah.com/multimedia/images/banners/$image
 ! 2021-05-11
@@ -28,7 +30,6 @@
 ||pornokartel.nl/wp-content/uploads/*/Badoo$image
 ! 2021-05-06
 ||images.prewarcar.com/pics/fb-*x*-banners$image
-||ninefornews.nl/wp-content/uploads/*/banner-$image
 ||dutchporner.com/wp-content/uploads/*/*Account-Promo$image
 ||ishotmyself.nl/include/*/promo/footer/
 ||islive.nl/splash1/banners/
