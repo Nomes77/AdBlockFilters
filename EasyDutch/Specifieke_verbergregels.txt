@@ -132,9 +132,9 @@ hyvesgames.nl##.gamereel_featured-ad
 kinkymedia.nl##.gridview-bottom-footer-block
 tvblik.nl##.header-banner
 sextube-18.com,teen-sex.nl##.happy-footer
-gratispornofilm.nl,porno-filmpjes.nl##.happy-header
+gratispornofilm.nl,lekkerewebcams.nl,porno-filmpjes.nl,teen-sex.nl##.happy-header
 gratispornofilm.nl,lekkerewebcams.nl,porno-filmpjes.nl,teen-sex.nl##.happy-sidebar
-lekkerewebcams.nl,sextube-18.com,teen-sex.nl##.happy-under-player
+gratispornofilm.nl,lekkerewebcams.nl,sextube-18.com,teen-sex.nl##.happy-under-player
 zeelandnet.nl##.hero-banner
 slam.nl##.holder-ads
 sexylingerie-winkel.be##.homepage-seo-footer
