@@ -1,4 +1,5 @@
 ! 2021-05-17
+totaaltv.nl##.banner
 biernet.nl###BJA3
 notebookcheck.nl##.amaz_el
 ! 2021-05-14
@@ -74,7 +75,7 @@ spel.nl,spelletjes.nl##.advert
 deoudrotterdammer.nl##.advertentie
 autoweek.nl##.advertise
 bnnvara.nl##.advertisement
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,totaaltv.nl##.advertising-container-top
+7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.advertising-container-top
 meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.ankeiler--advertisement
 want.nl##.article__content:style(margin-top: -125px!important;)
@@ -284,6 +285,5 @@ dagelijksestandaard.nl##hr:nth-of-type(1)
 dagelijksestandaard.nl##hr:nth-of-type(3)
 prewarcar.nl##img[width="160"][height="92"]
 gva.be##main > div > .grid:has-text(Auto's in de kijker)
-totaaltv.nl##ol:nth-of-type(2)
 meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 marktplaats.nl,2dehands.be##ul.mp-Listings > li.mp-Listing:has(:scope > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
