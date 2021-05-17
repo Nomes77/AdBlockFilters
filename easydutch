@@ -12,7 +12,6 @@
 !#include EasyDutch/Advertentiedomeinen_(derden).txt
 !#include EasyDutch/Specifieke_netwerkfilters.txt
 !#include EasyDutch/Uitzonderingen_netwerkfilters.txt
-!#include EasyDutch/Algemene_verbergregels.txt
 !#include EasyDutch/Specifieke_verbergregels.txt
 !#include EasyDutch/Uitzonderingen_verbergregels.txt
 !#include EasyDutch/Anti-Adblock.txt
