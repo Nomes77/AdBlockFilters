@@ -1,3 +1,5 @@
+! 2021-05-18
+||dutchitchannel.nl/media/6*/*.jpg$3p
 ! 2021-05-17
 ||biernet.nl/bja/$subdocument
 ||biernet.nl/images/extra-bja_camp-bnr/$image
@@ -74,7 +76,6 @@
 ||chatmetvreemden.nl/static/html/
 ||deoudrotterdammer.nl/wp-content/uploads/*/banner*.$image
 ||dutchcowboys.nl/images/*-takeover.png
-||dutchitchannel.nl/media/6*/*.jpg
 ||dutchleader.nl/php/popex/
 ||duurzaam-actueel.nl^*banner
 ||flirtfair.de^*/dppop.js
