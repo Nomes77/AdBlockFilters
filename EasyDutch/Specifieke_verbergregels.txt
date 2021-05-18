@@ -1,4 +1,5 @@
 ! 2021-05-18
+camsexbabe.nl,mijnpornotube.nl,pornosterneuken.nl##.video-sidebar
 gratispornofilm.nl,lekkerewebcams.nl,teen-sex.nl##[id^="custom_html"]:has([src^="https://pornokartel.nl"])
 pornopower.nl##[id^="custom_html"]:has([src^="https://chainadvertising.eu/"])
 pornopower.nl##[id^="custom_html"]:has([src^="https://www.2k19.nl/"])
@@ -214,7 +215,6 @@ trucks.nl##.trucks_ros_alpha_rectangle-halfpage
 dekrantnieuws.nl,destreekkrant.nu##.vc_carousel-inner > .vc_carousel-slideline > .vc_carousel-slideline-inner
 dekrantnieuws.nl,destreekkrant.nu##.vc_inner:has([src$="324x484.jpg"])
 pornokartel.nl##.video-block-happy
-camsexbabe.nl,mijnpornotube.nl##.video-sidebar
 telegraaf.nl##.VideoArticlePage__banner
 telegraaf.nl##.VideoPage__banner
 nnieuws.be##.view-vw-banners.view
