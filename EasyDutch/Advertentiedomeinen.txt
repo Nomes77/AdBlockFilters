@@ -12,6 +12,3 @@
 ||ganaar.gertibaldi.com^
 ||mooieplaatjes.bierdopje.com^
 ||sstats.asadventure.nl^
-! Scam
-||bdsnederland.nl^$important
-||bdsmovement.net^$important
