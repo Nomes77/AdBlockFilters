@@ -1,4 +1,8 @@
 ! 2021-05-18
+oops.nl##body > table > tbody > tr > td[background]:style(height:55px;!important)
+oops.nl##center:has-text(Klik hier voor meer webcams)
+oops.nl##table[cellspacing="30"]
+oops.nl##[src="http://www.oops.nl/banner/bannerindex.html"]
 qseks.nl###black-studio-tinymce-2:has-text(Advertentie)
 secretcircle.com##.column:has(.advert)
 shespot.nl##[id^="text"]:has([src^="https://www.shespot.nl/wp-content/uploads/"])
