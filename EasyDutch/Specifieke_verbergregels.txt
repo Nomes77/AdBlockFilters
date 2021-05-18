@@ -1,4 +1,5 @@
 ! 2021-05-18
+onschuldigemeiden.nl##.widget:has([href^="https://short1.nl/smart/"])
 camsexbabe.nl,mijnpornotube.nl,pornosterneuken.nl##.video-sidebar
 gratispornofilm.nl,lekkerewebcams.nl,teen-sex.nl##[id^="custom_html"]:has([src^="https://pornokartel.nl"])
 pornopower.nl##[id^="custom_html"]:has([src^="https://chainadvertising.eu/"])
