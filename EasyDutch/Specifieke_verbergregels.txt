@@ -1,4 +1,6 @@
 ! 2021-05-18
+netxxx.nl##.widget:has(img[src])
+netxxx.nl##hr:nth-of-type(1)
 oops.nl##body > table > tbody > tr > td[background]:style(height:55px;!important)
 oops.nl##center:has-text(Klik hier voor meer webcams)
 oops.nl##table[cellspacing="30"]
