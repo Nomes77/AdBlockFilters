@@ -10,7 +10,6 @@
 ||risallah.com/multimedia/images/banners/$image
 ! 2021-05-11
 /wp-content/uploads/*/Neuk-test$image,domain=gratispornofilm.nl|outdoor-sex.nl|pornokartel.nl|teen-sex.nl
-/wp-content/uploads/*.gif$image,domain=ero-meiden.nl|geilverlangen.nl|hete-foto.nl|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl
 ||teen-sex.nl/wp-content/uploads/*/SP1600x150.jpg$image
 ||teen-sex.nl/wp-content/uploads/*/900x250$image
 ||outdoor-sex.nl/wp-content/uploads/*/Sexindeprovincie-$image
