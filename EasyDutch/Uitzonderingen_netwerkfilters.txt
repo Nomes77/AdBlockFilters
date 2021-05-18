@@ -1,3 +1,6 @@
+! https://github.com/uBlockOrigin/uAssets/issues/9106
+@@||plista.com/async$script,domain=totaaltv.nl
+@@||media.plista.com^*$image,domain=totaaltv.nl
 ! 2021-05-07
 @@||tools.vpscash.nl/webcams/promo/plug_play_webcams/*$subdocument,domain=beeldbelsex.com
 @@||pt.prtawe.com/embed/tbplyr/*$script,domain=camsexbabe.nl
