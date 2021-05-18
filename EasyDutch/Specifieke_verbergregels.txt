@@ -1,4 +1,5 @@
 ! 2021-05-18
+gratispornofilm.nl,lekkerewebcams.nl,teen-sex.nl##[id^="custom_html"]:has([src^="https://pornokartel.nl"])
 pornopower.nl##[id^="custom_html"]:has([src^="https://chainadvertising.eu/"])
 pornopower.nl##[id^="custom_html"]:has([src^="https://www.2k19.nl/"])
 dutchitchannel.nl##.banner:has([href*="/bannerclick.html&banner"])
