@@ -1,4 +1,6 @@
 ! 2021-05-18
+pornopower.nl##[id^="custom_html"]:has([src^="https://chainadvertising.eu/"])
+pornopower.nl##[id^="custom_html"]:has([src^="https://www.2k19.nl/"])
 dutchitchannel.nl##.banner:has([href*="/bannerclick.html&banner"])
 dutchitchannel.nl##[href*="/bannerclick.html&banner"]
 ! 2021-05-17
@@ -26,8 +28,6 @@ afkortingen.nu###banner_top
 dwtonline.com###banner1
 nnieuws.be###block-views-vw-banners-block-2
 pornomilf.nl###custom_html-3:has-text(Hier aanmelden)
-pornopower.nl###custom_html-7
-pornopower.nl###custom_html-8
 oops.nl###dropinboxv2cover
 538.nl###eCommerce
 pornoplekje.nl###exitpopup-modal
