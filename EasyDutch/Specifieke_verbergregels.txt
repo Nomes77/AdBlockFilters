@@ -1,3 +1,6 @@
+! 2021-05-18
+dutchitchannel.nl##.banner:has([href*="/bannerclick.html&banner"])
+dutchitchannel.nl##[href*="/bannerclick.html&banner"]
 ! 2021-05-17
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 totaaltv.nl##.banner
@@ -85,7 +88,7 @@ nieuwnieuws.nl##.article-page__bumper
 telegraaf.nl##.ArticleBodyBlocks__bannerWrapper
 telegraaf.nl##.ArticlePageWrapper__banner
 zeelandnet.nl##.as__bottom-banner
-afkortingen.nu,allradio.nl,dutchitchannel.nl,erotracks.nl,nrc.nl,startbewijs.nl##.banner
+afkortingen.nu,allradio.nl,erotracks.nl,nrc.nl,startbewijs.nl##.banner
 nieuwsuitnijmegen.nl##.banner-box-1
 elkspel.nl##.banner-container
 ewmagazine.nl##.banner-leaderboard
@@ -242,7 +245,6 @@ beeldbelsex.com##[href^="https://islive.com/"]
 vagina.nl##[href^="https://xltube.nl/click/mad/"]
 geilverlangen.nl##[href^="https://www.stout-flirten.nl/lp/"]
 beeldbelsex.com##[href^="https://www.twero.com/"]
-dutchitchannel.nl##[href*="/application-pages/380/bannerclick.html"]
 leiderdorpsweekblad.nl,welingelichtekringen.nl##[href*="adnxs.com/click?"]
 pornokartel.nl##[href*="pornokartel.nl/adverteren"]
 gratispornofilm.nl##[href*="https://www.shemale-contacten.nl/"]
