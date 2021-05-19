@@ -1,4 +1,6 @@
 ! 2021-05-19
+cumcams.nl##.wpb_wrapper > center:has([src^="//pt.potwm.com/video-banner/"])
+cumcams.nl##[id^="custom_html"]:has(img[src*="wlresources.com/"])
 deperfecte-sexdate.be,deperfecte-sexdate.nl,geil-neuken.nl,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be##.well:has(.bannergroup)
 neuk-sexcontact.be##div.well:has(img[src^="/images/banners/"])
 ! 2021-05-18
