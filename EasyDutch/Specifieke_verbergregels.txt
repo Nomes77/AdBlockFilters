@@ -1,4 +1,6 @@
 ! 2021-05-19
+androidplanet.nl##.w-full:has-text(ADV):has-text(Gesponsord door):has-text(Advertentie)
+androidplanet.nl,iphoned.nl##.aa-top-dog
 autozine.nl##aside > [href^="https://www.autozine.nl/redirect.php"]
 autozine.nl##[href^="https://ds1.nl/c/"]
 bdsmbook.nl###random_banner_widget-2
