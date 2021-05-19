@@ -1,3 +1,5 @@
+! 2021-05-19
+neuk-sexcontact.be##div.well:has(img[src^="/images/banners/"])
 ! 2021-05-18
 transfermarkt.nl##.werbung
 eromarkt.nl,erotischemassagemarkt.nl,erotischemodellen.nl,swingersmarkt.nl##.menubanner:has([src^="ads"])
