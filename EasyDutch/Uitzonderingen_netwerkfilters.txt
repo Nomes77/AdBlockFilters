@@ -1,3 +1,6 @@
+! 2021-05-19
+@@||aweprt.com/embed/$script,domain=cumcams.nl
+@@||tools.vpscash.nl/datingv3/docs/plug_and_play/islive/$script,domain=cumcams.nl
 ! https://github.com/uBlockOrigin/uAssets/issues/9106
 @@||plista.com/async$script,domain=totaaltv.nl
 @@||media.plista.com^*$image,domain=totaaltv.nl
