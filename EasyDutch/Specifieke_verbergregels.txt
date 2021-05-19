@@ -1,4 +1,5 @@
 ! 2021-05-19
+deperfecte-sexdate.be,deperfecte-sexdate.nl,geil-neuken.nl,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be##.well:has(.bannergroup)
 neuk-sexcontact.be##div.well:has(img[src^="/images/banners/"])
 ! 2021-05-18
 transfermarkt.nl##.werbung
@@ -237,7 +238,6 @@ rubenweytjens.be##.view-weather-ads-view
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 barneveldsekrant.nl##.w-300x.RM5
 telegraaf.nl##.WebpushOptin__main
-geil-neuken.nl,sexdating4u.be##.well:has(.bannergroup)
 belgie-sexdate.be##.well:has-text(Geile Milfs)
 ninefornews.nl##.widget-top:has-text(/Advertentie/i)
 ninefornews.nl##.widget-top:has-text(/Archief/i):style(margin-top: -50px!important;)
