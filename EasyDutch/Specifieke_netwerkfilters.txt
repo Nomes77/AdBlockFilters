@@ -1,4 +1,5 @@
 ! 2021-05-19
+||shemaledaten.net/img/banners/$image
 ||speurdeals.nl/uploads/banners$image
 ||webcamsexplaza.com/bannerwsp.$image
 ! 2021-05-18
