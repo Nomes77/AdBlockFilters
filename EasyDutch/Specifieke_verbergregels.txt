@@ -1,4 +1,6 @@
 ! 2021-05-19
+autozine.nl##aside > [href^="https://www.autozine.nl/redirect.php"]
+autozine.nl##[href^="https://ds1.nl/c/"]
 bdsmbook.nl###random_banner_widget-2
 cumcams.nl##.wpb_wrapper > center:has([src^="//pt.potwm.com/video-banner/"])
 cumcams.nl##[id^="custom_html"]:has(img[src*="wlresources.com/"])
