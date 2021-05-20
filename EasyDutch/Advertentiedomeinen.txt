@@ -1,5 +1,5 @@
 ! 2021-05-06
-||2k19.nl^
+||2k19.nl^$~doc
 ! https://github.com/easylist/easylistdutch/commit/431dbba630602067c94b5c56ef2c1e31928215cd
 ||aj1716.online^
 ! https://github.com/BPower0036/AdBlockFilters/issues/16
