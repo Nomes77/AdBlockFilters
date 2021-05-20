@@ -1,3 +1,5 @@
+! 2021-05-20
+||pornokartel.nl/wp-admin*&campaigns=*&banners*$script,3p
 ! 2021-05-19
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||deperfecte-sexdate.be/images/banners/$image
@@ -42,9 +44,6 @@
 ||pornopower.nl/wp-content/uploads/*/bdsm_seksspeeltjesland$image
 ||sexdating4u.be/images/banners/$image
 ||t.whalehunter.cash/tiny/*$image,domain=kinkymedia.nl
-||pornokartel.nl/wp-content/themes/*/img/happy-$image
-||pornokartel.nl/wp-content/uploads/$image,3p
-||pornokartel.nl/wp-content/uploads/*/Badoo$image
 ! 2021-05-06
 ||images.prewarcar.com/pics/fb-*x*-banners$image
 ||dutchporner.com/wp-content/uploads/*/*Account-Promo$image
