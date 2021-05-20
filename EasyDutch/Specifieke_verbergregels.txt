@@ -1,4 +1,7 @@
 ! 2021-05-20
+vivatube.com##.c-content.spots
+vivatube.com##.drt-spot-visible
+vivatube.com##.mt15.container:has-text(Advert)
 dekrantnieuws.nl##.vc_box_outline.vc_single_image-wrapper
 gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl##.happy-header
 gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl##.happy-sidebar
