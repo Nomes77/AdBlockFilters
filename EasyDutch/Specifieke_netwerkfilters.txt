@@ -1,4 +1,5 @@
 ! 2021-05-20
+||dekrantnieuws.nl/wp-content/uploads/*/deurbord-staand*.$image
 ||pornokartel.nl/wp-admin*&campaigns=*&banners*$script,3p
 ! 2021-05-19
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
@@ -35,7 +36,6 @@
 ||media-totaal.nl/*com_adagency*adagencyAds$script,domain=dekrantnieuws.nl|destreekkrant.nu|dekrantvantynaarlo.nl
 /wp-content/uploads/*/Mijn-Zaak$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
 /wp-content/uploads/*/*banner$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
-/wp-content/uploads/*/banner.$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
 /wp-content/uploads/*/*-Banner$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
 /wp-content/uploads/*/*-outline-canvas-*.$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
 ! 2021-05-07
