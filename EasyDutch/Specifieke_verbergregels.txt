@@ -1,3 +1,8 @@
+! 2021-05-20
+belgie-sexdate.be##.well:has(img[src^="https://www.2k19.nl/"])
+neuk-sexcontact.be##.well:has(img[src^="/images/banners/"])
+oops.nl##body > table > tbody > tr > td[background]:style(height:55px!important;)
+pornomilf.nl##[id^="custom_html"]:has-text(Hier aanmelden)
 ! 2021-05-19
 androidplanet.nl##.w-full:has-text(ADV):has-text(Gesponsord door):has-text(Advertentie)
 androidplanet.nl,iphoned.nl##.aa-top-dog
@@ -7,13 +12,11 @@ bdsmbook.nl###random_banner_widget-2
 cumcams.nl##.wpb_wrapper > center:has([src^="//pt.potwm.com/video-banner/"])
 cumcams.nl##[id^="custom_html"]:has(img[src*="wlresources.com/"])
 deperfecte-sexdate.be,deperfecte-sexdate.nl,geil-neuken.nl,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be##.well:has(.bannergroup)
-neuk-sexcontact.be##div.well:has(img[src^="/images/banners/"])
 ! 2021-05-18
 transfermarkt.nl##.werbung
 eromarkt.nl,erotischemassagemarkt.nl,erotischemodellen.nl,swingersmarkt.nl##.menubanner:has([src^="ads"])
 netxxx.nl##.widget:has(img[src])
 netxxx.nl##hr:nth-of-type(1)
-oops.nl##body > table > tbody > tr > td[background]:style(height:55px;!important)
 oops.nl##center:has-text(Klik hier voor meer webcams)
 oops.nl##table[cellspacing="30"]
 oops.nl##[src="http://www.oops.nl/banner/bannerindex.html"]
@@ -52,7 +55,6 @@ afkortingen.nu###banner_right
 afkortingen.nu###banner_top
 dwtonline.com###banner1
 nnieuws.be###block-views-vw-banners-block-2
-pornomilf.nl###custom_html-3:has-text(Hier aanmelden)
 oops.nl###dropinboxv2cover
 538.nl###eCommerce
 pornoplekje.nl###exitpopup-modal
@@ -245,7 +247,6 @@ rubenweytjens.be##.view-weather-ads-view
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 barneveldsekrant.nl##.w-300x.RM5
 telegraaf.nl##.WebpushOptin__main
-belgie-sexdate.be##.well:has-text(Geile Milfs)
 ninefornews.nl##.widget-top:has-text(/Advertentie/i)
 ninefornews.nl##.widget-top:has-text(/Archief/i):style(margin-top: -50px!important;)
 ninefornews.nl##.widget-top:has-text(/Gesponsorde/i) 
