@@ -1,4 +1,7 @@
 ! 2021-05-20
+gratispornofilm.nl,lekkerewebcams.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl##.happy-header
+gratispornofilm.nl,lekkerewebcams.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl##.happy-sidebar
+gratispornofilm.nl,lekkerewebcams.nl,pornomilf.nl,sextube-18.com,teen-sex.nl##.happy-under-player
 belgie-sexdate.be##.well:has(img[src^="https://www.2k19.nl/"])
 neuk-sexcontact.be##.well:has(img[src^="/images/banners/"])
 oops.nl##body > table > tbody > tr > td[background]:style(height:55px!important;)
@@ -163,9 +166,6 @@ hyvesgames.nl##.gamereel_featured-ad
 kinkymedia.nl##.gridview-bottom-footer-block
 tvblik.nl##.header-banner
 sextube-18.com,teen-sex.nl##.happy-footer
-gratispornofilm.nl,lekkerewebcams.nl,porno-filmpjes.nl,teen-sex.nl##.happy-header
-gratispornofilm.nl,lekkerewebcams.nl,porno-filmpjes.nl,teen-sex.nl##.happy-sidebar
-gratispornofilm.nl,lekkerewebcams.nl,sextube-18.com,teen-sex.nl##.happy-under-player
 zeelandnet.nl##.hero-banner
 slam.nl##.holder-ads
 sexylingerie-winkel.be##.homepage-seo-footer
