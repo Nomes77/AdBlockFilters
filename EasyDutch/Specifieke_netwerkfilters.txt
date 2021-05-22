@@ -1,3 +1,5 @@
+! 2021-05-22
+||onderwegonline.nl/wp-content/uploads/*/Onderweg-336x280.png$image
 ! https://github.com/BPower0036/AdBlockFilters/issues/19
 ||cdn.nieuws.nl/media/sites/88/*.gif$image,domain=dongen.nieuws.nl
 ||cdn.nieuws.nl/media/sites/88/*/banner$image,domain=dongen.nieuws.nl
