@@ -1,3 +1,5 @@
+! 2021-05-22
+onderwegonline.nl##.widgettitle:has-text(Advertentie)
 ! https://github.com/BPower0036/AdBlockFilters/issues/19
 dongen.nieuws.nl##.nieuws-banner
 ! 2021-05-21
