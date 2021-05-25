@@ -1,48 +1,5 @@
-! 2021-05-22
-onderwegonline.nl##.widgettitle:has-text(Advertentie)
-! https://github.com/BPower0036/AdBlockFilters/issues/19
-dongen.nieuws.nl##.nieuws-banner
-! 2021-05-21
-landenweb.nl##.content > table > tbody:has-text(advert)
-startkabel.nl##.banner
-! 2021-05-20
-dominant.be,lesbos.be,pornno.be,pornofilmpjes.be,sextoons.be,tiener-sex.be###video-sidebar-wrap
-vivatube.com##.c-content.spots
-vivatube.com##.drt-spot-visible
-vivatube.com##.mt15.container:has-text(Advert)
-dekrantnieuws.nl##.vc_box_outline.vc_single_image-wrapper
-gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl##.happy-header
-gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl##.happy-sidebar
-gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,sextube-18.com,teen-sex.nl##.happy-under-player
-belgie-sexdate.be##.well:has(img[src^="https://www.2k19.nl/"])
-neuk-sexcontact.be##.well:has(img[src^="/images/banners/"])
-oops.nl##body > table > tbody > tr > td[background]:style(height:55px!important;)
-pornomilf.nl##[id^="custom_html"]:has-text(Hier aanmelden)
-! 2021-05-19
-androidplanet.nl##.w-full:has-text(ADV):has-text(Gesponsord door):has-text(Advertentie)
-androidplanet.nl,iphoned.nl##.aa-top-dog
-autozine.nl##aside > [href^="https://www.autozine.nl/redirect.php"]
-autozine.nl##[href^="https://ds1.nl/c/"]
-bdsmbook.nl###random_banner_widget-2
-cumcams.nl##.wpb_wrapper > center:has([src^="//pt.potwm.com/video-banner/"])
-cumcams.nl##[id^="custom_html"]:has(img[src*="wlresources.com/"])
-deperfecte-sexdate.be,deperfecte-sexdate.nl,geil-neuken.nl,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be##.well:has(.bannergroup)
-! 2021-05-18
-transfermarkt.nl##.werbung
-eromarkt.nl,erotischemassagemarkt.nl,erotischemodellen.nl,swingersmarkt.nl##.menubanner:has([src^="ads"])
-netxxx.nl##.widget:has(img[src])
-netxxx.nl##hr:nth-of-type(1)
-oops.nl##center:has-text(Klik hier voor meer webcams)
-oops.nl##table[cellspacing="30"]
-oops.nl##[src="http://www.oops.nl/banner/bannerindex.html"]
-qseks.nl###black-studio-tinymce-2:has-text(Advertentie)
-secretcircle.com##.column:has(.advert)
-shespot.nl##[id^="text"]:has([src^="https://www.shespot.nl/wp-content/uploads/"])
-opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
-onschuldigemeiden.nl##.widget:has([href^="https://short1.nl/smart/"])
-camsexbabe.nl,mijnpornotube.nl,pornosterneuken.nl##.video-sidebar
-gratispornofilm.nl,lekkerewebcams.nl,teen-sex.nl##[id^="custom_html"]:has([src^="https://pornokartel.nl"])
-pornopower.nl##[id^="custom_html"]:has([src^="https://chainadvertising.eu/"])
+! 2021-05-25
+kieskeurig.nl##.advertisement
 pornopower.nl##[id^="custom_html"]:has([src^="https://www.2k19.nl/"])
 dutchitchannel.nl##.banner:has([href*="/bannerclick.html&banner"])
 dutchitchannel.nl##[href*="/bannerclick.html&banner"]
