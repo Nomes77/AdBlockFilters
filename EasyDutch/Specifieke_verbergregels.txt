@@ -1,3 +1,6 @@
+! 2021-05-26
+sexpower.nl###top-banner
+sexpower.nl###pre-footer-banners
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83946
 morningstar.nl###ad_top_page
 ! 2021-05-25
