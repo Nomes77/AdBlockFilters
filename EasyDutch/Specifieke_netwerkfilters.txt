@@ -1,8 +1,7 @@
 ! 2021-05-26
+/wp-content/uploads/*.gif$image,domain=ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|tube.nederlandseporno.nl
 ||video18.nl/img/banners/$image
 ||bekijkporno.nl/wp-content/uploads/*/evelive-hete-live-chat$image
-||kechtube.com/wp-content/uploads/*.gif$image
-||tube.nederlandseporno.nl/wp-content/uploads/*.gif$image
 ||nederlandsextube.nl/images/sextubewebcams$image
 ||nederlandsextube.nl/images/webned$image
 ||nederlandsextube.nl/images/amateurwebcams$image
@@ -38,7 +37,6 @@
 ||oops.nl/banner/$subdocument
 ||profielactueel.nl/content/modules/catalog/4/*.gif$image
 ||sysero.nl/banners/$image
-/wp-content/uploads/*.gif$image,domain=ero-meiden.nl|geilverlangen.nl|hete-foto.nl|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl
 ||dutchitchannel.nl/media/6*/*.jpg$3p
 ! 2021-05-17
 ||biernet.nl/bja/$subdocument
