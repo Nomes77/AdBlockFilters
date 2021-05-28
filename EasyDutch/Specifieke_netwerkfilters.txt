@@ -1,3 +1,8 @@
+! https://github.com/BPower0036/AdBlockFilters/issues/19
+||cdn.nieuws.nl/media/sites/128/*.gif$image
+||cdn.nieuws.nl/media/sites/18/*.gif$image
+||cdn.nieuws.nl/media/sites/88/*.gif$image
+||cdn.nieuws.nl/media/sites/88/*/banner$image
 ! 2021-05-26
 /wp-content/uploads/*.gif$image,domain=ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|tube.nederlandseporno.nl
 ||video18.nl/img/banners/$image
@@ -16,9 +21,6 @@
 ||racingnews365.nl/images/banners/$image
 ! 2021-05-22
 ||onderwegonline.nl/wp-content/uploads/*/Onderweg-336x280.png$image
-! https://github.com/BPower0036/AdBlockFilters/issues/19
-||cdn.nieuws.nl/media/sites/88/*.gif$image,domain=dongen.nieuws.nl
-||cdn.nieuws.nl/media/sites/88/*/banner$image,domain=dongen.nieuws.nl
 ! 2021-05-21
 ||landenweb.nl/imgBoeking/$image
 ! 2021-05-20
