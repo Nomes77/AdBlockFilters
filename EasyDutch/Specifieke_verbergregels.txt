@@ -243,11 +243,9 @@ koopplein.nl##.promoblocs__banner
 synoniemen.net##.promoblok
 openingsurengids.be##.promSB
 metrotime.be##.proper-rss-widget
-nedporno.com##.publis-bottom
 oozo.nl##.rcntctr
 rd.nl##.rdnl__adds
 nnieuws.be##.region-banner-diamond.region
-nedporno.com##.right-player-169
 softonic.nl##.sam-slot
 tvgids.nl##.section-home-news__ad
 telegraaf.nl##.SectionPage__bannerWrapper
