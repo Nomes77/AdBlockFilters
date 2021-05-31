@@ -1,7 +1,7 @@
 ! 2021-05-31
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 /images/*.gif$image,domain=ikneukgraag.nl|zinomteneuken.nl
-/images/banners/*$image,domain=deperfecte-sexdate.be|deperfecte-sexdate.nl|neukengratis.be|neuk-sexcontact.be|sexcontact-xxx.be|sexdate-xxx.be|sexdating4u.be
+/images/banners/*$image,domain=deperfecte-sexdate.be|deperfecte-sexdate.nl|neukengratis.be|neuk-sexcontact.be|sexcontact-xxx.be|sexdate-xxx.be|sexdating4u.be|vrouwsex.be
 /voicebericht/assets/images/verdien-geld-met-anoniem-thuiswerk.$image,domain=1on1.nl|beeldbellen.xxx|erowerk.nl|geilegids.nl|privecam.nl|privesexlijn.nl|sexcamsites.nl|telefoonsex.xxx|tienersex.nl|videochat.nl
 /voicebericht/assets/images/videochat277x$image,domain=beeldbellen.xxx|erowerk.nl|geilegids.nl|privecam.nl|privesexlijn.nl|sexcamsites.nl|telefoonsex.xxx|tienersex.nl|videochat.nl
 /wp-content/uploads/*.gif$image,domain=ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|tube.nederlandseporno.nl
