@@ -145,6 +145,7 @@
 ||search-result.com^*/klokad2.js
 ||sexamateurtjes.nl/banners/
 ||sexcam-mokkels.nl/wp-content/uploads/*/sexafspraakje-$image
+||sexcontactadressen.nl/assets/img/*.gif$image
 ||sexervaringendelen.nl/porno/$image
 ||sexverhalen.com/vriendschap/
 ||shemaledaten.net/img/banners/$image
