@@ -1,2 +1,13 @@
-! As I don't see these general hiding element used, I deleted them for now.
-! Omdat ik niet zie dat deze Algemene verbergregels worden gebruikt, heb ik ze verwijderd.
+! 2021-05-31
+! 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be
+##.advertising-container-top
+##.ankeiler--advertisement
+! pornoplekje.nl,sextube-18.com,teen-sex.nl
+##.happy-footer
+! dutchporntube.nl,gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl
+##.happy-header
+##.happy-sidebar
+! dutchporntube.nl,geilesexfilms.nl,gratispornofilm.nl,kechtube.com,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,pornoplekje.nl,sextube-18.com,teen-sex.nl
+##.happy-under-player
+! deperfecte-sexdate.be,deperfecte-sexdate.nl,geil-neuken.nl,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be
+##.well:has(.bannergroup)
