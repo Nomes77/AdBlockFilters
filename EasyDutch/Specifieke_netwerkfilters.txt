@@ -1,4 +1,5 @@
 ! 2021-05-31
+||crimesite.nl/inhoud/uploads/*/*.gif$image
 ||glutenvrij.nl/tmp/media/afbeeldingen/*_w720_h720.jpg$image
 ! https://github.com/BPower0036/AdBlockFilters/issues/19
 ||cdn.nieuws.nl/media/sites/128/*.gif$image
