@@ -124,7 +124,7 @@ gratispornofilm.nl,luana-escort.nl##.cp-webcam-gallery-container
 tijd.be##.c-sitenavPlaceholder__ad
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
 wanttoknow.nl##.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
-dating-zoeken.nl,milf-overzicht.nl,sexdating-afspraak.nl,sexdatinggids.be##.d-lg-block.d-none:has-text(Advert):not(:has(.jcarousel-skin-tango))
+dating-zoeken.nl,hete-sexcontacten.nl,milf-overzicht.nl,sexdating-afspraak.nl,sexdatinggids.be##.d-lg-block.d-none:has-text(Advert):not(:has(.jcarousel-skin-tango))
 geile-sexcontacten.be##.d-lg-block:has-text(Advert)
 vivatube.com##.drt-spot-visible
 tpo.nl##.dusWhite.mainContent
