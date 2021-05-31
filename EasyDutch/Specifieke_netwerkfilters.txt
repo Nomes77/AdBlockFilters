@@ -1,3 +1,5 @@
+! 2021-05-31
+||glutenvrij.nl/tmp/media/afbeeldingen/*_w720_h720.jpg$image
 ! https://github.com/BPower0036/AdBlockFilters/issues/19
 ||cdn.nieuws.nl/media/sites/128/*.gif$image
 ||cdn.nieuws.nl/media/sites/18/*.gif$image
