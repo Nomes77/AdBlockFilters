@@ -169,8 +169,8 @@ scholieren.com##.min-h-250
 scholieren.com##.min-h-90
 wielerflits.nl##.mm_container
 !#if env_mobile
-nudeviste.be,nudevista.nl
-!#endif##.mob_adv
+nudeviste.be,nudevista.nl##.mob_adv
+!#endif
 video18.nl##.modal
 marktplaats.nl,2dehands.be##.mp-adsense-header
 marktplaats.nl,2dehands.be##.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(:scope > .mp-Listings__admarktTitle)
