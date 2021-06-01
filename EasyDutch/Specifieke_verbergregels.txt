@@ -28,7 +28,7 @@ androidplanet.nl,iphoned.nl###featured-header
 bokt.nl###frontpage_mediumrect
 nu.nl###header > .zone
 nieuws.nl###header-banner
-kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,stellensexdating.nl,zinomteneuken.nl###homebanners
+kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,stellensexdating.nl,tienersexpret.nl,zinomteneuken.nl###homebanners
 gfcnieuws.com###home-banners
 funnygames.be,funnygames.nl###katon-slot
 tellows.nl###lb_header
@@ -128,7 +128,7 @@ gratispornofilm.nl,luana-escort.nl##.cp-webcam-gallery-container
 tijd.be##.c-sitenavPlaceholder__ad
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
 wanttoknow.nl##.d-lg-block.d-none > .mb-3:has-text(/Advertentie/)
-dating-zoeken.nl,hete-sexcontacten.nl,milf-overzicht.nl,sexdating-afspraak.nl,sexdatinggids.be,vrouwensexdate.nl##.d-lg-block.d-none:has-text(Advert):not(:has(.jcarousel-skin-tango))
+dating-zoeken.nl,hete-sexcontacten.nl,milf-overzicht.nl,sexdating-afspraak.nl,sexdating-gids.be,sexdatinggids.be,vrouwensexdate.nl##.d-lg-block.d-none:has-text(Advert):not(:has(.jcarousel-skin-tango))
 geile-sexcontacten.be##.d-lg-block:has-text(Advert)
 vivatube.com##.drt-spot-visible
 tpo.nl##.dusWhite.mainContent
@@ -176,12 +176,13 @@ wielerflits.nl##.mm_container
 nudeviste.be,nudevista.nl##.mob_adv
 !#endif
 video18.nl##.modal
+vrouwen-sexdate.be##.moduletable:has-text(Advert)
 marktplaats.nl,2dehands.be##.mp-adsense-header
 marktplaats.nl,2dehands.be##.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(:scope > .mp-Listings__admarktTitle)
 vivatube.com##.mt15.container:has-text(Advert)
 gfcnieuws.com##.n2-section-smartslider
 dongen.nieuws.nl##.nieuws-banner
-ikwilneuken.net,sexcontactadressen.nl##.nomobile.boxlinks:has(.homebanner)
+ikwilneuken.net,meidenzoekensex.nl,sexcontactadressen.nl##.nomobile.boxlinks:has(.homebanner)
 inmemoriam.be##.o-news__add
 jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.page-header__section--spacer
@@ -261,7 +262,7 @@ risallah.com##.zijbalk-rechts > table > tbody:has-text(Advertentie)
 barneveldsekrant.nl##[class] > [id="div-gpt-ad-banner"]:has-text(advertentie)
 appletips.nl##[class^="ph_block"]
 negerinnensexdating.eu##[class="rand nomobile"]:has(a[href*="net69.nl/genre"])
-kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,stellensexdating.nl,zinomteneuken.nl##[class="rand nomobile"]:has(img[src^="/images/"])
+kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,stellensexdating.nl,tienersexpret.nl,zinomteneuken.nl##[class="rand nomobile"]:has(img[src^="/images/"])
 dutchitchannel.nl##[href*="/bannerclick.html&banner"]
 leiderdorpsweekblad.nl,welingelichtekringen.nl##[href*="adnxs.com/click?"]
 gratispornofilm.nl##[href*="https://www.shemale-contacten.nl/"]
