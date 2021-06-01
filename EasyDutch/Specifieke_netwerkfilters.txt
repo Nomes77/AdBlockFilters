@@ -72,7 +72,6 @@
 ||forum.spaarinformatie.nl/si-info.html
 ||gadgetsentrends.nl/imagestore/banners/
 ||genemuidenactueel.nl^*banner
-||giveawayoftheday.com/ticker/
 ||glutenvrij.nl/tmp/media/afbeeldingen/*_w720_h720.jpg$image
 ||htforum.nl/yabbse/*-banner2.gif
 ||htforum.nl/yabbse/banners/
@@ -83,10 +82,8 @@
 ||i2.wp.com/www.appletips.nl/wp-content/uploads/nordvpn$image,domain=appletips.nl
 ||i3.wp.com/www.appletips.nl/wp-content/uploads/cnmx.*$image,domain=appletips.nl
 ||ikwilneuken.net/assets/img/*.gif$image
-||images.prewarcar.com/pics/fb-*x*-banners$image
 ||ishotmyself.nl/include/*/promo/footer/
 ||islive.nl/splash1/banners/
-||jobat.be/scripts/jobatscripts.js
 ||kavelplatform.nl/assets/uploads/banners/
 ||kilroynews.net^*banner
 ||kinkydatingnederland.nl/banner$image
