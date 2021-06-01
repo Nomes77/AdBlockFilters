@@ -12,7 +12,7 @@
 ||notebookcheck.nl/fileadmin/Sonstiges/ama_abn2_$xmlhttprequest
 ! 2021-05-31
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
-/images/*.gif$image,domain=ikneukgraag.nl|zinomteneuken.nl
+/images/*.gif$image,domain=ikneukgraag.nl|neukplaza.nl|tienersexpret.nl|xxxcontactengids.nl|zinomteneuken.nl
 /images/banners/*$image,domain=deperfecte-sexdate.be|deperfecte-sexdate.nl|neukengratis.be|neuk-sexcontact.be|sexcontact-xxx.be|sexdate-xxx.be|sexdating4u.be|vrouwsex.be
 /voicebericht/assets/images/verdien-geld-met-anoniem-thuiswerk.$image,domain=1on1.nl|beeldbellen.xxx|erowerk.nl|geilegids.nl|privecam.nl|privesexlijn.nl|sexcamsites.nl|telefoonsex.xxx|tienersex.nl|videochat.nl
 /voicebericht/assets/images/videochat277x$image,domain=beeldbellen.xxx|erowerk.nl|geilegids.nl|privecam.nl|privesexlijn.nl|sexcamsites.nl|telefoonsex.xxx|tienersex.nl|videochat.nl
@@ -108,7 +108,6 @@
 ||netonline.be/reizen/ebookers/
 ||netonline.be/slices/banners/
 ||neukcontacten.info/images/pikant.$image
-||neukplaza.nl/images/*.gif$image
 ||niedziela.nl/images/banners/
 ||nieuwsuitnijmegen.nl/gfx/banners/
 ||ninefornews.nl/wp-content/a-d-s/banner*$image
