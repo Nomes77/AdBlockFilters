@@ -1,4 +1,5 @@
 ! 2021-06-01
+infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
 ans-online.nl##.theiaStickySidebar > .widget:has-text(Advertentie)
 takecare4.eu###branding > .clearfix
 ! 2021-05-31
