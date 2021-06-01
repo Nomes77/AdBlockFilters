@@ -1,4 +1,5 @@
 ! 2021-06-01
+||antilliaansdagblad.com/images/*-200x200px*.gif$image
 ||ans-online.nl/wp-content/uploads/*/*-banner*.$image
 ! https://github.com/easylist/easylistdutch/commit/32491001fbdbe6e34b3d20ab614b5953b2cd40d6
 ||notebookcheck.nl/fileadmin/Sonstiges/ama_abn2_$xmlhttprequest
