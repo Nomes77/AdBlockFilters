@@ -17,4 +17,3 @@ filmtotaal.nl##+js(nofab)
 fok.nl#@#.advertentie
 forum.fok.nl#@##advertentie
 girlscene.nl##+js(set, adblock, 0)
-leiderdorpsweekblad.nl###blocktekst
