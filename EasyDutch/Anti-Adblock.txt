@@ -1,5 +1,5 @@
 ! 2021-06-01
-@@*.com/ads.v5.js$script,domain=notebookcheck.nl
+notebookcheck.nl##+js(acis, document.getElementById, send)
 ! 2021-05-08
 @@/ads.js$domain=marokko.nl
 ! 2021-05-04
