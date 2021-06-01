@@ -19,16 +19,11 @@
 ||402automotive.com/files/*/files/images/*online-banner-$image
 ||402automotive.com/files/*/files/images/banners/*.$image
 ||402automotive.com/files/images/website/banners/*.$image
-||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
 ||agfstorage.blob.core.windows.net/banners$domain=agf.nl
-||almere-nieuws.nl/banners_*.html
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
-||androidplanet.nl/wp-content/plugins/scroll-triggered-boxes/
 ||ans-online.nl/wp-content/themes/mimbo/images/Banner-
 ||antilliaansdagblad.com/images/banners/
-||api.skyscanner.net/api.ashx?$domain=viva.nl
-||autoblog.nl/javascript/ABGalleryShowAdDFP.js
 ||autoedizione.nl/wp-content/uploads/*/ae-sponsor
 ||autozine.nl/promo/banner.jpg
 ||beeldbelsex.com/wp-content/uploads/*/bellenafspreken.$image
