@@ -21,7 +21,6 @@
 ! 2021-04-27
 ||adconfigproxy.azurewebsites.net^$3p
 ||adfactor.nl^$3p
-||ad-prod.ster.nl^$3p
 ||affiliatepartners.com^$3p
 ||asp.unitedconsumers.com^$3p
 ||assets.nudeal.nl^$3p
