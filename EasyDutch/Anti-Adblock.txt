@@ -1,9 +1,10 @@
+! 2021-06-01
+@@*.com/ads.v5.js$script,domain=notebookcheck.nl
 ! 2021-05-08
 @@/ads.js$domain=marokko.nl
 ! 2021-05-04
 112midden-zeeland.nl##+js(aopr, anOptions)
 ! 2021-05-03
-notebookcheck.nl##+js(aopw, ab_ubl)
 ||improvedigital.com/*/headerlift.min.js$script,redirect-rule=noop.js,domain=funnygames.be|funnygames.nl|spele.be|spele.nl
 ! 2021-04-28
 webwereld.nl##+js(set, adBlockStatus, false)
