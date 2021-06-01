@@ -1,4 +1,9 @@
 ! 2021-06-01
+||2sexcontact.nl/wp-content/uploads/*/banner*.gif$image
+||2sexcontact.nl/wp-content/uploads/*/*banner.gif$image
+||2sexcontact.nl/wp-content/uploads/*/escort-boeken.gif$image
+||2sexcontact.nl/wp-content/uploads/*/sexdate-zoeken.gif$image
+||2sexcontact.nl/wp-content/uploads/*/cammen-met-de-heetste-dames.gif$image
 ||adulttop50.nl/images/bdsmsexcontact$image
 ||meidenzoekensex.nl/assets/img/shemaledate$image
 ||shemaledateonline.nl/banner$image
