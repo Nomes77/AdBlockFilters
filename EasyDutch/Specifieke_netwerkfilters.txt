@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/32491001fbdbe6e34b3d20ab614b5953b2cd40d6
+||notebookcheck.nl/fileadmin/Sonstiges/ama_abn2_$xmlhttprequest
 ! 2021-05-31
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 /images/*.gif$image,domain=ikneukgraag.nl|zinomteneuken.nl
