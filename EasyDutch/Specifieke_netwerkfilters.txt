@@ -40,8 +40,6 @@
 ||bol.com/nl/upload/banners/
 ||bol.com/nl/upload/partnerprogramma/*.jpg
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
-||brightcove.com/js/BrightcoveExperiences.js$domain=backpackgek.nl
-||buienalarm.nl^*300x250.
 ||cdn.agf.nl/nieuws/*.gif$domain=agf.nl
 ||cdn.media.zylom.com/images/site/zylom/promo/$3p
 ||cdn.nieuws.nl/media/sites/128/*.gif$image
@@ -50,9 +48,6 @@
 ||cdn.nieuws.nl/media/sites/88/*/banner$image
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||cdn.ster.nl/banners^
-||cdn4.emesa-static.com/*/300x200/*.jpg$domain=538.nl
-||centraal.helpmij.nl/images/nieuwsbrief/nod32-colofon.jpg
-||chatgirl.nl^*/dlf468.
 ||chatmetvreemden.be/static/html/
 ||chatmetvreemden.nl/static/html/
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
@@ -69,7 +64,6 @@
 ||dutchleader.nl/php/popex/
 ||dutchporner.com/wp-content/uploads/*/*Account-Promo$image
 ||duurzaam-actueel.nl^*banner
-||ent-cdn.com/files/bans/*$image,domain=vagina.nl
 ||enviedeplus.be^*_banner_$3p
 ||flirtfair.de^*/dppop.js
 ||flirtmee.nl/img/160x70_sponsor-
