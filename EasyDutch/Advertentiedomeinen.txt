@@ -4,9 +4,6 @@
 ||content2.nrc.nl^
 ! 2021-04-27
 ||adverteren.rd.nl^
-||banner.klikklik.nl^
 ||banners.utilo.nl^
 ||bnr.agf.nl^
-||ganaar.gertibaldi.com^
 ||mooieplaatjes.bierdopje.com^
-||sstats.asadventure.nl^
