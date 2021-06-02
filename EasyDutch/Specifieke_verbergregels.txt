@@ -33,7 +33,6 @@ androidplanet.nl,iphoned.nl###featured-header
 bokt.nl###frontpage_mediumrect
 nu.nl###header > .zone
 nieuws.nl###header-banner
-kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,stellensexdating.nl,tienersexpret.nl,zinomteneuken.nl###homebanners
 gfcnieuws.com###home-banners
 funnygames.be,funnygames.nl###katon-slot
 tellows.nl###lb_header
