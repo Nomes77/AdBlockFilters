@@ -1,4 +1,5 @@
 ! 2021-06-02
+marketingtribune.nl###banner-billboard
 telegraaf.nl##.MainCuratedTeasersLayout__banner
 ! https://github.com/easylist/easylistdutch/commit/1cd3f819ac856886d2cbff082b116ec9bb4ae3fa
 hartvannederland.nl##.c01387
