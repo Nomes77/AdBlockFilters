@@ -1,7 +1,10 @@
 ! https://github.com/easylist/easylistdutch/commit/1cd3f819ac856886d2cbff082b116ec9bb4ae3fa
 hartvannederland.nl##.c01387
-hartvannederland.nl##.c01557
-hartvannederland.nl##.c01558
+hartvannederland.nl##[data-testid^="homepageAfter"]
+hartvannederland.nl##[data-testid="bannerHomePageBottom"]
+hartvannederland.nl##[data-testid="bannerTop"]
+hartvannederland.nl##[data-testid^="bannerAfter"]
+hartvannederland.nl##[data-testid="bannerBottom"]
 ! 2021-06-01
 sex-kamer.nl##.videoOverAdBig
 infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
