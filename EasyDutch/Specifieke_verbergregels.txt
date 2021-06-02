@@ -149,7 +149,6 @@ kanaalxxx.nl##.fpbnr
 spel.nl,spelletjes.nl##.game-page-sidebar
 hyvesgames.nl##.gamereel_featured-ad
 kinkymedia.nl##.gridview-bottom-footer-block
-pornoplekje.nl,sextube-18.com,teen-sex.nl##.happy-footer
 tvblik.nl##.header-banner
 zeelandnet.nl##.hero-banner
 slam.nl##.holder-ads
