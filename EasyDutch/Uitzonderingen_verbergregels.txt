@@ -1,27 +1,13 @@
 ! Uitzonderingen voor EasyList
-! 2021-04-30
+! 2021-06-04
+speurders.nl#@#.ad_header
+bokt.nl#@#.ad-body
+marktplaats.nl#@#.adSummary
+vakantieplaats.nl#@#.feed-ad
 !#if env_mobile
 klusidee.nl#@#.header-ad
-!#endif
-! 2021-04-27
-xxxplaza.nl#@##ad_right
-xxxplaza.nl#@##adcontainer
-kinderspelletjes.nl#@##adframe:not(frameset)
-comedycentral.nl#@##bannerad
-autodealers.nl#@#.ad-btn
-bokt.nl#@#.ad-body
-speurders.nl#@#.ad_header
-hotcontact.nl,xxxplaza.nl#@#.adlink
-wereldklokken.nl#@#.adsbygoogle
-marktplaats.nl#@#.adSummary
-digitekst.com#@#.adTitle
-schaatsen.nl#@#.advertisement-header
-emarketingexperts.nl#@#.adwords
-spele.nl#@#.afs_ads
-vakantieplaats.nl#@#.feed-ad
-schaatsen.nl#@#.HeaderAd
+!endif
 bokt.nl#@#.node-ad
-landleven.nl#@#.post-ad
 kamernet.nl#@#.topAdd
 vakantieplaats.nl#@#.topAds
 voetbalnieuws.be#@#a[href^="http://adserving.unibet.com/"]
