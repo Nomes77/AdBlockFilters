@@ -8,7 +8,7 @@ vakantieplaats.nl#@#.featuredAds
 vakantieplaats.nl#@#.feed-ad
 !#if env_mobile
 klusidee.nl#@#.header-ad
-!endif
+!#endif
 bokt.nl#@#.node-ad
 kamernet.nl#@#.topAdd
 vakantieplaats.nl#@#.topAds
