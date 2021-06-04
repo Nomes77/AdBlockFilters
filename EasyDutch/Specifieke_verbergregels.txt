@@ -1,4 +1,5 @@
 ! 2021-06-04
+marktplaats.nl##.mp-Banner
 guldencourant.nl##.jeg_midbar:has([class^="ads-wrapper"])
 ! 2021-06-03
 hartvannederland.nl##[data-testid="topBanner"] > [class]
