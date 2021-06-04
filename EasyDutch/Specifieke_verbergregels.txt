@@ -1,6 +1,6 @@
 ! 2021-06-04
 hpdetijd.nl##.advertisement
-marktplaats.nl##.mp-Banner
+marktplaats.nl,2dehands.be##.mp-Banner
 guldencourant.nl##.jeg_midbar:has([class^="ads-wrapper"])
 ! 2021-06-03
 hartvannederland.nl##[data-testid="topBanner"] > [class]
