@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/commit/710312333d24f05943368608bd695aec1b0cef0b
+geenstijl.nl##.slajeslag
+geenstijl.nl##a[data-ga-event^="link-tip"]
 ! https://github.com/easylist/easylistdutch/commit/7d8cbbd9ab38f9883c2675bc7fc0564cb8d7fd83
 goedkoopstekeukensduitsland.nl###text-5
 goedkoopstekeukensduitsland.nl###text-6
