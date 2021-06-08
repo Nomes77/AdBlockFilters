@@ -1,3 +1,8 @@
+! https://github.com/easylist/easylistdutch/commit/7d8cbbd9ab38f9883c2675bc7fc0564cb8d7fd83
+||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/I-kook-banner.jpg
+||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keuken-ontwerp-aan-huis.jpg
+||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukencoach-300x250.jpg
+||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukenplaats.jpg
 ! 2021-06-01
 ||2sexcontact.nl/wp-content/uploads/*/banner*.gif$image
 ||2sexcontact.nl/wp-content/uploads/*/*banner.gif$image
