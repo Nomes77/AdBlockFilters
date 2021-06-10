@@ -7,7 +7,8 @@ My own updated version of EasyList Dutch special for uBlock Origin, so I use onl
 I made this filter because the EasyList Dutch filter isn't maintained often.
 So I made this to provide you a better service!!
 
-If you see ads on dutch websites please [report](https://github.com/BPower0036/AdBlockFilters/issues) it to me or sent me an email to easydutch.adblock@gmail.com or ask it on [Reddit](https://www.reddit.com/user/BPower0036).   For contributing see: [CONTRIBUTING.md](https://github.com/BPower0036/AdBlockFilters/blob/main/CONTRIBUTING.md)
+If you see ads on dutch websites please [report](https://github.com/BPower0036/AdBlockFilters/issues) it to me or sent me an email to easydutch.adblock@gmail.com
+For contributing see: [CONTRIBUTING.md](https://github.com/BPower0036/AdBlockFilters/blob/main/CONTRIBUTING.md)
 
 ## [Dynamic Rules](https://github.com/BPower0036/AdBlockFilters/blob/main/dynamic%20rules)
 A whitelist for medium mode of uBlock Origin when only blocking 3p-frames.
