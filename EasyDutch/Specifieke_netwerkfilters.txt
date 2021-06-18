@@ -1,3 +1,5 @@
+! 2021-06-18
+||dordtcentraal.nl/wp-content/uploads/*/Inline-banner-DC-Reclame$image
 ! https://github.com/easylist/easylistdutch/commit/7d8cbbd9ab38f9883c2675bc7fc0564cb8d7fd83
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/I-kook-banner.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keuken-ontwerp-aan-huis.jpg
