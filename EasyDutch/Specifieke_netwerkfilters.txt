@@ -2,8 +2,6 @@
 ||transport-online.nl/site/includes/uploads/banner-
 ! https://github.com/easylist/easylistdutch/commit/437fff8bd1a4baa00eff4d782209cf74b56ed31c
 ||dolcevia.com^*/Banners/
-! https://github.com/easylist/easylistdutch/commit/713930ec95f646476fe3dd93c5f9e22d86012994
-||mmcdn.nl/tags/
 ! https://github.com/easylist/easylistdutch/commit/569fec07db2f31e7eaf5b2ffe6cc4429d54437fa
 ||fcupdate.nl/js/adslot.js
 ! https://github.com/easylist/easylistdutch/commit/db57d2f428d0ba0c83d0e9bd72b2d28a943da734
