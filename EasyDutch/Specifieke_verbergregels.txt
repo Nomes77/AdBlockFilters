@@ -4,7 +4,6 @@ dolcevia.com##.bannergroup
 dolcevia.com##.ira-container.ira-format-block > .bookingaff
 ! https://github.com/easylist/easylistdutch/commit/713930ec95f646476fe3dd93c5f9e22d86012994
 wielerflits.nl###mm_hpa
-wielerflits.nl###parentgpt
 wielerflits.nl##.affiliate_links
 ! https://github.com/easylist/easylistdutch/commit/710312333d24f05943368608bd695aec1b0cef0b
 geenstijl.nl##.slajeslag
