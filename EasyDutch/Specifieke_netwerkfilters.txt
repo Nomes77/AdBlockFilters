@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/569fec07db2f31e7eaf5b2ffe6cc4429d54437fa
+||fcupdate.nl/js/adslot.js
 ! https://github.com/easylist/easylistdutch/commit/db57d2f428d0ba0c83d0e9bd72b2d28a943da734
 ||wp.com/romagazine.nl/14nwsite/wp-content/uploads/*/Banner300x250-
 ||wp.com/romagazine.nl/14nwsite/wp-content/uploads/*/BannerPZ-
