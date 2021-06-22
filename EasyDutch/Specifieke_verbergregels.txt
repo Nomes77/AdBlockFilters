@@ -290,10 +290,8 @@ nedporno.com##.r1ght-pl4yer-43
 oozo.nl##.rcntctr
 rd.nl##.rdnl__adds
 softonic.nl##.sam-slot
-tvgids.nl##.section-home-news__ad
 telegraaf.nl##.SectionPage__bannerWrapper
 nederlandsextube.nl##.side
-hardware.info##.sidebar_right_top
 pcmweb.nl##.site__sidebar > .block:has(div.banner)
 ero-meiden.nl,geilverlangen.nl##.size-full.attachment-full
 waarzo.nl##.smallbox:has-text(Advertentie)
