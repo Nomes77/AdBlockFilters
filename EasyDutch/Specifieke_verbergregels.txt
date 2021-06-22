@@ -5,6 +5,8 @@ jan-magazine.nl##.homepage-marquee
 nnieuws.be##.region-banner-diamond
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
+! https://github.com/easylist/easylistdutch/commit/0159848581f3d14013aef12449555e4f5dfe2fda
+digitaalburg.com##.font-bold.font-sans-serif.xs-font-size.rounded-all.s-full.m-half-lm.l-sb-right-split.widget-area
 ! https://github.com/easylist/easylistdutch/commit/c6e664cbf8cb7aa026f7bdc224487f1af9c54c35
 tvgids.nl##.banner
 ! https://github.com/easylist/easylistdutch/commit/941d71d016eda0358d01f9c33f4647ef1d05dac7
