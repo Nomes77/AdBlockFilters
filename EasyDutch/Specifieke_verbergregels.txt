@@ -1,4 +1,5 @@
 ! 2021-06-22
+nnieuws.be##.region-banner-diamond
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
 ! https://github.com/easylist/easylistdutch/commit/941d71d016eda0358d01f9c33f4647ef1d05dac7
@@ -285,7 +286,6 @@ nedporno.com##.publ1s-b0ttom
 nedporno.com##.r1ght-pl4yer-43
 oozo.nl##.rcntctr
 rd.nl##.rdnl__adds
-nnieuws.be##.region-banner-diamond.region
 softonic.nl##.sam-slot
 tvgids.nl##.section-home-news__ad
 telegraaf.nl##.SectionPage__bannerWrapper
