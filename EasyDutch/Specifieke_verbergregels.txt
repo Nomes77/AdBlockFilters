@@ -1,3 +1,11 @@
+! 2021-06-22
+loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
+loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
+! https://github.com/easylist/easylistdutch/commit/94d379750c3c5e6a00cb0ba850cf24a21153d063
+limburger.nl##.ad
+! https://github.com/easylist/easylistdutch/commit/3625956e2d0fa6d0629fb62cae4628361095e7ad
+rtvkrimpenerwaard.nl###pg-1407-8
+rtvkrimpenerwaard.nl##.art-positioncontrol
 ! https://github.com/easylist/easylistdutch/commit/ac089b16e6d91e18d8455be824a9648f3f34a6fa
 hotradiohits.nl###tpl_banners
 ! https://github.com/easylist/easylistdutch/commit/cc184dabab92aeb668fa4dd069eb2a61b7768d48
@@ -17,9 +25,6 @@ historiek.net###before-header
 openrotterdam.nl##.ads
 ! https://github.com/easylist/easylistdutch/commit/ae2d55abd9a3984b940cb0f03ac915b7bbcd5d5d
 rickfm.nl###advertisement
-! 2021-06-22
-loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
-loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
 ! https://github.com/easylist/easylistdutch/compare/021b6c6620...9eeecc805f
 bieos-omroep.nl##.bieos-widget
 loemedia.nl###text-17
