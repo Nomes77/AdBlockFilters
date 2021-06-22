@@ -265,7 +265,6 @@ vrouwen-sexdate.be##.moduletable:has-text(Advert)
 marktplaats.nl,2dehands.be##.mp-adsense-header
 marktplaats.nl,2dehands.be##.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(:scope > .mp-Listings__admarktTitle)
 vivatube.com##.mt15.container:has-text(Advert)
-gfcnieuws.com##.n2-section-smartslider
 dongen.nieuws.nl##.nieuws-banner
 ikwilneuken.net,meidenzoekensex.nl,sexcontactadressen.nl##.nomobile.boxlinks:has(.homebanner)
 inmemoriam.be##.o-news__add
