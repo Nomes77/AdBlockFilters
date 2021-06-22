@@ -1,3 +1,21 @@
+! https://github.com/easylist/easylistdutch/compare/021b6c6620...9eeecc805f
+bieos-omroep.nl##.bieos-widget
+loemedia.nl###text-17
+maaslandradio.nl###media_image-7
+meerradio.nl##div[id="pristineslider.12"]
+noordkopcentraal.nl###banners
+noordkopcentraal.nl###table-49960
+okemedia.nl###custom_html-2
+omroepbrabant.nl##div[class^="ad-"]
+omroephorstaandemaas.nl,omroepvenlo.nl##.prom
+omroeppenm.nl###advertisement
+radio0511.com##.sponsorImg
+radioeenhoorn.nl##.module_round_box
+regionoordkop.nl##.regio-widget
+rtvgo.nl##.footeradd
+tameteo.nl##.creatividad
+westerwoldeactueel.nl##.adr-wrapper
+westerwoldeactueel.nl##.g
 ! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
 247spice.com##.elementor-element-2da19501 + .elementor-element-6406e483
 decibel.nl##img[width="640"][height="180"]
@@ -105,7 +123,6 @@ nederland.fm###xttm > .shadow
 androidplanet.nl,iphoned.nl##.aa-top-dog
 games.nl,hyvesgames.nl,standaard.be,tripadvisor.nl##.ad
 marokko.nl##.ad_between
-omroepbrabant.nl##.ad-1C
 tvgids24.nl##.adBoxbig
 standaard.be##.ad--button
 filmtotaal.nl##.ad-centering
