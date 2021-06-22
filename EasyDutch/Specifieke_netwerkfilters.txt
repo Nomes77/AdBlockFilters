@@ -3,11 +3,6 @@
 ||handbalstartpunt.nl/content/schoonkapje$image,1p
 ||handbalstartpunt.nl/images/mizuno-small.jpg
 ||maaslandradio.nl/wp-content/uploads/*/Banner-
-! https://github.com/easylist/easylistdutch/commit/94d379750c3c5e6a00cb0ba850cf24a21153d063
-limburger.nl##.ad
-! https://github.com/easylist/easylistdutch/commit/3625956e2d0fa6d0629fb62cae4628361095e7ad
-rtvkrimpenerwaard.nl###pg-1407-8
-rtvkrimpenerwaard.nl##.art-positioncontrol
 ! https://github.com/easylist/easylistdutch/commit/ac089b16e6d91e18d8455be824a9648f3f34a6fa
 ||hotradiohits.nl/image/picture/*_banner.
 ! https://github.com/easylist/easylistdutch/commit/40bd66bc5bad85a864b63b19ee143461a2453b65
