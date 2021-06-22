@@ -1,3 +1,7 @@
+! https://github.com/easylist/easylistdutch/commit/40bd66bc5bad85a864b63b19ee143461a2453b65
+halstadcentraal.nl##.bannergroup
+halstadcentraal.nl##.carouselbanner_left
+halstadcentraal.nl##.respbanners
 ! https://github.com/easylist/easylistdutch/commit/53d68076633e0fac1d6167013c457ee175331221
 wos.nl##.header-right
 wos.nl##.prom
