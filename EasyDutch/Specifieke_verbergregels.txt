@@ -109,7 +109,6 @@ dwtonline.com###banner1
 almere-nieuws.nl###banner-text2
 biernet.nl###BJA3
 qseks.nl###black-studio-tinymce-2:has-text(Advertentie)
-nnieuws.be###block-views-vw-banners-block-2
 oops.nl###dropinboxv2cover
 538.nl###eCommerce
 pornoplekje.nl###exitpopup-modal
