@@ -1,5 +1,6 @@
 ! 2021-06-22
-meteovista.be,weeronline.nl##div[class*="AdWrapper"]
+weeronline.nl##section[class*="wol-banner-"]
+meteovista.be##div[class*="AdWrapper"]
 jan-magazine.nl##.homepage-marquee
 nnieuws.be##.region-banner-diamond
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
