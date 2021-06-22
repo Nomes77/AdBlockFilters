@@ -1,4 +1,5 @@
 ! 2021-06-22
+jan-magazine.nl##.homepage-marquee
 nnieuws.be##.region-banner-diamond
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
@@ -270,7 +271,6 @@ vivatube.com##.mt15.container:has-text(Advert)
 dongen.nieuws.nl##.nieuws-banner
 ikwilneuken.net,meidenzoekensex.nl,sexcontactadressen.nl##.nomobile.boxlinks:has(.homebanner)
 inmemoriam.be##.o-news__add
-jan-magazine.nl##.only-marquee.marquee.bg-image.homepage-marquee
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.page-header__section--spacer
 appletips.nl##.ph_upgreatest
 gratisaftehalen.nl##.plistaAllOuter
