@@ -1,4 +1,5 @@
 ! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
+247spice.com##.elementor-element-2da19501 + .elementor-element-6406e483
 decibel.nl##img[width="640"][height="180"]
 decibel.nl##.edgtf-carousel-holder
 dbsuriname.com##.g
