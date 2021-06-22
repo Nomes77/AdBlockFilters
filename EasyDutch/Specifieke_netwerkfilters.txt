@@ -1,3 +1,19 @@
+! https://github.com/easylist/easylistdutch/compare/021b6c6620...9eeecc805f
+||loemedia.nl/wp-content/uploads/*-banner-
+||loemedia.nl/wp-content/uploads/*/BannerPruisSchilderwerken-
+||loemedia.nl/wp-content/uploads/*/HemaBannerGroot-
+||maaslandradio.nl/wp-content/uploads/*/auto-onderdelen24.
+||maaslandradio.nl/wp-content/uploads/*/autodoc.
+||maaslandradio.nl/wp-content/uploads/*/Hekwerkland.
+||noordkopcentraal.nl^*/banner_
+||omroeppenm.nl^*/banner/
+||oogtv.nl/wp-content/banners/
+||radioeenhoorn.nl/images/Maxaro-badkamers-tegels.png
+||rtvmaastricht.nl/banners/
+||rtvnof.nl/prowurk/
+||wp.com/www.regionoordkop.nl/wp-content/uploads/*/banner-
+||wp.com/www.regionoordkop.nl/wp-content/uploads/*/Bdijknov2016336x280.gif
+||wp.com/www.regionoordkop.nl/wp-content/uploads/*/Costa.jpg
 ! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
 ||decibel.nl/wp-content/uploads/*/banner-
 ||lokaleomroepzeewolde.nl/images/banners/
