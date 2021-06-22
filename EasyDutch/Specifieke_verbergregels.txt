@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
+decibel.nl##img[width="640"][height="180"]
+decibel.nl##.edgtf-carousel-holder
 ! https://github.com/BPower0036/AdBlockFilters/issues/21
 tweakers.net##.client-promo
 ! https://github.com/easylist/easylistdutch/commit/437fff8bd1a4baa00eff4d782209cf74b56ed31c
