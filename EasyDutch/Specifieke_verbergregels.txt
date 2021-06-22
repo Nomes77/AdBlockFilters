@@ -1,6 +1,8 @@
 ! 2021-06-22
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
+! https://github.com/easylist/easylistdutch/commit/941d71d016eda0358d01f9c33f4647ef1d05dac7
+turksemedia.nl##.easingslider
 ! https://github.com/easylist/easylistdutch/commit/94d379750c3c5e6a00cb0ba850cf24a21153d063
 limburger.nl##.ad
 ! https://github.com/easylist/easylistdutch/commit/3625956e2d0fa6d0629fb62cae4628361095e7ad
@@ -399,7 +401,6 @@ dagelijksestandaard.nl##div.wpb_raw_code > .wpb_wrapper:has(div[style="padding:2
 biflatie.nl##div[class*="elementor-widget-button"]:has-text(Advert)
 almere-nieuws.nl##div[class*="jeg_ad"]
 rtvdrenthe.nl##div[class^="col"]:has([class*="adcontainer"])
-turksemedia.nl##div[class="sidebar_item"][style="padding-bottom: 16px;"]:has(:scope > a > img[width="276"]):remove()
 nu.nl##div[data-type="tealium"]
 sexjobs.nl##div[id^="banner-"]
 gfcnieuws.com##div[id^="meteor-"]
