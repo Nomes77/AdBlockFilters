@@ -1,3 +1,6 @@
+! 2021-06-22
+loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
+loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
 ! https://github.com/easylist/easylistdutch/compare/021b6c6620...9eeecc805f
 bieos-omroep.nl##.bieos-widget
 loemedia.nl###text-17
