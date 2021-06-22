@@ -19,7 +19,7 @@ assignees: ''
     - [ ] uBlock Origin with default lists / uBlock Origin met standaard filterlijsten
     - [ ] uBlock Origin is the only extension / uBlock Origin is de enige extensie
 - [ ] Only ads or anti-adblock / Alleen advertenties of anti-adblock
-    - Privacy staff should be reported at uBlock Origin or EasyPrivacy / Privacy dingen moet u melden aan uBlock of EasyPrivacy
+    - Privacy stuff should be reported at uBlock Origin or EasyPrivacy / Privacy dingen moet u melden aan uBlock of EasyPrivacy
     - No annoyances 
 
 ### URL(s) where the issue occurs / Websites waar het probleem voorkomt
