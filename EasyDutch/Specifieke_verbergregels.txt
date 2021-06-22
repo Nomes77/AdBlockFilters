@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/commit/53d68076633e0fac1d6167013c457ee175331221
+wos.nl##.header-right
+wos.nl##.prom
 ! https://github.com/easylist/easylistdutch/commit/51bb53c9e02f64f6a6c6f350f1340c067e9f001b
 radiomonique.am##.bannerswidget
 ! https://github.com/easylist/easylistdutch/commit/a18b7b99fdff8391ed1c436df7ec68f421b7aa29
