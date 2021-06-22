@@ -1,4 +1,5 @@
 ! 2021-06-22
+meteovista.be,weeronline.nl##div[class*="AdWrapper"]
 jan-magazine.nl##.homepage-marquee
 nnieuws.be##.region-banner-diamond
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
@@ -415,6 +416,5 @@ netxxx.nl##hr:nth-of-type(1)
 dagelijksestandaard.nl##hr:nth-of-type(3)
 prewarcar.nl##img[width="160"][height="92"]
 gva.be##main > div > .grid:has-text(Auto's in de kijker)
-meteovista.be,weeronline.nl##section[class*="wol-banner-module__banner"]
 oops.nl##table[cellspacing="30"]
 marktplaats.nl,2dehands.be##ul.mp-Listings > li.mp-Listing:has(:scope > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:has-text(/^Topadvertentie$/))
