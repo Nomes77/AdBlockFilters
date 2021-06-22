@@ -5,6 +5,8 @@ jan-magazine.nl##.homepage-marquee
 nnieuws.be##.region-banner-diamond
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
+! https://github.com/easylist/easylistdutch/commit/c6e664cbf8cb7aa026f7bdc224487f1af9c54c35
+tvgids.nl##.banner
 ! https://github.com/easylist/easylistdutch/commit/941d71d016eda0358d01f9c33f4647ef1d05dac7
 turksemedia.nl##.easingslider
 ! https://github.com/easylist/easylistdutch/commit/94d379750c3c5e6a00cb0ba850cf24a21153d063
@@ -243,7 +245,6 @@ sexylingerie-winkel.be##.homepage-seo-footer
 voetbalkrant.com##.imu
 weertdegekste.nl##.infeed-outer
 weertdegekste.nl##.infeed-wrap
-tvgids.nl##.interstitial_banner
 spele.be,spele.nl##.is-billboard.slot-container
 spele.be,spele.nl##.is-skyscraper.slot-container
 beursgorilla.nl##.js--billboard.ut--billboard
