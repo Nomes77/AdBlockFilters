@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/51bb53c9e02f64f6a6c6f350f1340c067e9f001b
+radiomonique.am##.bannerswidget
 ! https://github.com/easylist/easylistdutch/commit/a18b7b99fdff8391ed1c436df7ec68f421b7aa29
 historiek.net###before-header
 ! https://github.com/easylist/easylistdutch/commit/518333aee8d64f08da15c4198a882093593794af
