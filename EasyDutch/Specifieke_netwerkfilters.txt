@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
+||wildfm.nl/wp-content/uploads/*/thumbnail_image002.png
 ! https://github.com/easylist/easylistdutch/commit/bee1fe09c6090405f0ed62098769269fa2597b3f
 ||transport-online.nl/site/includes/uploads/banner-
 ! https://github.com/easylist/easylistdutch/commit/437fff8bd1a4baa00eff4d782209cf74b56ed31c
