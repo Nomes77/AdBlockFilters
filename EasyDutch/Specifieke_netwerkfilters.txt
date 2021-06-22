@@ -1,4 +1,6 @@
 ! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
+||simone.nl/bestanden/afbeelding/*-banner-
+||simone.nl/bestanden/afbeelding/banner/
 ||srherald.com/wp-content/banners/
 ||wildfm.nl/wp-content/uploads/*/thumbnail_image002.png
 ! https://github.com/easylist/easylistdutch/commit/bee1fe09c6090405f0ed62098769269fa2597b3f
