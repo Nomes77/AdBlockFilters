@@ -8,6 +8,7 @@ lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
 omroepflevoland.nl##.ad-container
 simone.nl##.banner
 srherald.com##.gsrhera
+starnieuws.com###overig_nieuws
 ! https://github.com/BPower0036/AdBlockFilters/issues/21
 tweakers.net##.client-promo
 ! https://github.com/easylist/easylistdutch/commit/437fff8bd1a4baa00eff4d782209cf74b56ed31c
