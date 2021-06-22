@@ -1,7 +1,10 @@
+! 2021-06-22
+||handbalstartpunt.nl/images/banner_$image,1p
+||handbalstartpunt.nl/content/schoonkapje$image,1p
+||handbalstartpunt.nl/images/mizuno-small.jpg
+||maaslandradio.nl/wp-content/uploads/*/Banner-
 ! https://github.com/easylist/easylistdutch/commit/ae2d55abd9a3984b940cb0f03ac915b7bbcd5d5d
 ||rickfm.nl/cwm/fm/userfiles/banner/
-! 2021-06-22
-||maaslandradio.nl/wp-content/uploads/*/Banner-
 ! https://github.com/easylist/easylistdutch/compare/021b6c6620...9eeecc805f
 ||loemedia.nl/wp-content/uploads/*-banner-
 ||loemedia.nl/wp-content/uploads/*/BannerPruisSchilderwerken-
