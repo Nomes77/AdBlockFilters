@@ -2,7 +2,7 @@
 
 ##### Ordering of filters
 
-New filter must be added at the top of the list.
+New filters must be added on the top of each list.
 
 The reason is to provide an easy way to check whether a filter is still relevant. The filters at the end of the file will be the oldest filters, and also the most likely to maybe be obsolete.
 
@@ -21,5 +21,7 @@ This way this documents why a filter was added, and how to verify whether an old
 
 ##### Commit message
 
-Keep it simple, use `A:` for adding a site, `C:` for changing and `R:` for removing. Put here after the site url `spele.nl` (no `https://www.`) Put after this the issue number. 
+- Keep it simple, use `A:` for adding a site, `C:` for changing or updating rules, `R:` for removing, and `M:` for moving to other files. 
+- Put here after the site url `spele.nl` (no `https://www.`) 
+- Put after this the issue number. </br>
 Example: `A: spele.nl fix #3` or `C: nu.nl`. The issue itself will contains all the details.
