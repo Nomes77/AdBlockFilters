@@ -1,4 +1,5 @@
 ! 2021-06-23
+goedkoopstekeukensduitsland.nl##[id^="text"]:has(a[href^="https://www.goedkoopstekeukensduitsland.nl"][href$="-bnr"])
 romagazine.nl##[id^="text-"]:has-text(Partners)
 digitaalburg.com##.widget-area-bottom.align-center:has(.adsbygoogle)
 ! 2021-06-22
@@ -79,9 +80,6 @@ wielerflits.nl##.affiliate_links
 geenstijl.nl##.slajeslag
 geenstijl.nl##a[data-ga-event^="link-tip"]
 ! https://github.com/easylist/easylistdutch/commit/7d8cbbd9ab38f9883c2675bc7fc0564cb8d7fd83
-goedkoopstekeukensduitsland.nl###text-5
-goedkoopstekeukensduitsland.nl###text-6
-goedkoopstekeukensduitsland.nl###text-8
 goedkoopstekeukensduitsland.nl##img[width="300"][height="250"]
 ! https://github.com/easylist/easylistdutch/commit/82a4e582311de858b6168af794aa7d3d8225d271
 autoscout24.be,autoscout24.nl##.cl-billboad-wrapper
