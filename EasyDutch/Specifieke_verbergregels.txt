@@ -1,4 +1,5 @@
 ! 2021-06-23
+okemedia.nl##[id^="custom_html"]:has(img[src*="banner"])
 247spice.com##.slideInLeft.animated:has-text(Advert)
 goedkoopstekeukensduitsland.nl##[id^="text"]:has(a[href^="https://www.goedkoopstekeukensduitsland.nl"][href$="-bnr"])
 romagazine.nl##[id^="text-"]:has-text(Partners)
@@ -47,7 +48,6 @@ maaslandradio.nl###media_image-7
 meerradio.nl##div[id="pristineslider.12"]
 noordkopcentraal.nl###banners
 noordkopcentraal.nl###table-49960
-okemedia.nl###custom_html-2
 omroepbrabant.nl##div[class^="ad-"]
 omroephorstaandemaas.nl,omroepvenlo.nl##.prom
 omroeppenm.nl###advertisement
