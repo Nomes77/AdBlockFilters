@@ -3,6 +3,8 @@
 goedkoopstekeukensduitsland.nl##[id^="text"]:has(a[href^="https://www.goedkoopstekeukensduitsland.nl"][href$="-bnr"])
 romagazine.nl##[id^="text-"]:has-text(Partners)
 digitaalburg.com##.widget-area-bottom.align-center:has(.adsbygoogle)
+! https://github.com/easylist/easylistdutch/commit/c00646e2b7d3ad7d28738f30c320917f5087055a
+gamereactor.nl##div[style="min-height: 600px; margin-bottom: 20px;"]
 ! 2021-06-22
 weeronline.nl##section[class*="wol-banner-"]
 meteovista.be##div[class*="AdWrapper"]
