@@ -9,7 +9,8 @@ assignees: ''
 
 ### Prerequisites / Vereisten
 
-<!-- Check the appropriate boxes before you submit your issue -->
+<!-- Check the appropriate boxes before you submit your issue
+     Check like this: - [x] -->
 
 - [ ] This is a **Dutch** website, so no general websites with Dutch subdomains (e.g. nl.y8.com) / 
       Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. nl.y8.com)
