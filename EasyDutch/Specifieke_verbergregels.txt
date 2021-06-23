@@ -1,3 +1,5 @@
+! 2021-06-23
+digitaalburg.com##.widget-area-bottom.align-center:has(.adsbygoogle)
 ! 2021-06-22
 weeronline.nl##section[class*="wol-banner-"]
 meteovista.be##div[class*="AdWrapper"]
