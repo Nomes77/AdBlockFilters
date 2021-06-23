@@ -1,6 +1,6 @@
 ! 2021-06-23
+wanttoknow.nl##.mb-3:has-text(Advert)
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
-wanttoknow.nl###right-sidebar > .mb-3:has-text(Advert)
 wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
 rtvkrimpenerwaard.nl##[id^="pg-1407"]:has-text(Vrienden):has([class^="sp-logo-carousel"] .sp-lcp-logo-wrapper):has(img[src])
 maaslandradio.nl##[id^="media_image"]:has-text(Advertentie)
