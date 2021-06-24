@@ -1,3 +1,5 @@
+! 2021-06-24
+nedporno.com##[class^="r1ght-pl4yer"]:has([src*="ads"])
 ! 2021-06-23
 wanttoknow.nl##.mb-3:has-text(Advert)
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
@@ -291,7 +293,6 @@ synoniemen.net##.promoblok
 openingsurengids.be##.promSB
 metrotime.be##.proper-rss-widget
 nedporno.com##.publ1s-b0ttom
-nedporno.com##.r1ght-pl4yer-43
 oozo.nl##.rcntctr
 rd.nl##.rdnl__adds
 softonic.nl##.sam-slot
