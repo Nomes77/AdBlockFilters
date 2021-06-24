@@ -1,4 +1,6 @@
 ! 2021-06-24
+online-radio.nl##[id^="AdvertMid"]
+online-radio.nl##[id^="containersitead"]
 nedporno.com##[class^="r1ght-pl4yer"]:has([src*="ads"])
 ! 2021-06-23
 wanttoknow.nl##.mb-3:has-text(Advert)
