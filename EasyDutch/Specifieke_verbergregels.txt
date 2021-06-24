@@ -217,7 +217,6 @@ scholieren.com##.blockvertorial
 gic.nl##.btn-adverteren
 geile-sexcontacten.be##.card:has([src^="https://www.affilaxy.com/promos/"])
 nederlandsexdate.nl##.card-header:has-text(Advertentie)
-vivatube.com##.c-content.spots
 online-omzetten.nl##.clearfix.entry > small
 rd.nl##.codalt-container
 historiek.net##.code-block:has-text(advertentie)
