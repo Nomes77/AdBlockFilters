@@ -1,5 +1,5 @@
 ! 2021-06-24
-pornolekker.nl##[class^="Scl"]:has([src^="//ads"])
+pornolekker.com##[class^="Scl"]:has([src^="//ads"])
 sex-kamer.nl##.adHomePage
 online-radio.nl##[id^="AdvertMid"]
 online-radio.nl##[id^="containersitead"]
