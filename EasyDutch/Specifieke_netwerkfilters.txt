@@ -2,6 +2,7 @@
 /images/*.gif$image,domain=18plussexdating.nl|30plussexdate.nl|datingsexgids.nl|eroticdate.be|geheimesexdate.be|hotdatingvlaanderen.be|ikneukgraag.nl|neukplaza.nl|sexadvertentiesonline.nl|sexdatingholland.com|sexstartnet.nl|studentesexcontact.nl|tienersexpret.nl|vlaanderen-sexdate.be|xxxcontactengids.nl|zinineensexdate.com|zinomteneuken.nl
 /images/bdsmsexcontact$image,domain=adulttop50.nl|sexadvertentiesonline.nl|zinineensexdate.com
 ||hotdatingvlaanderen.be/banner$image
+||ikwilneuken.*/assets/img/*.gif$image
 ! 2021-06-23
 ||okemedia.nl/wp-content/uploads/*/*banner.jpg
 ! 2021-06-22
@@ -157,7 +158,6 @@
 ||i0.wp.com/www.appletips.nl/wp-content/uploads/luvago$image,domain=appletips.nl
 ||i2.wp.com/www.appletips.nl/wp-content/uploads/nordvpn$image,domain=appletips.nl
 ||i3.wp.com/www.appletips.nl/wp-content/uploads/cnmx.*$image,domain=appletips.nl
-||ikwilneuken.net/assets/img/*.gif$image
 ||ishotmyself.nl/include/*/promo/footer/
 ||islive.nl/splash1/banners/
 ||kavelplatform.nl/assets/uploads/banners/
