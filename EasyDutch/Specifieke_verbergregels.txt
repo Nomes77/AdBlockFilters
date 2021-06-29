@@ -1,3 +1,5 @@
+! 2021-06-29
+zinineensexdate.com##.nomobile.boxleft:has(img[src^="/images/"])
 ! 2021-06-24
 pornolekker.com##[class^="Scl"]:has([src^="//ads"])
 sex-kamer.nl##.adHomePage
