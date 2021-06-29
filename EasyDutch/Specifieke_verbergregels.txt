@@ -1,6 +1,7 @@
 ! 2021-06-29
+18plussexdating.nl##.homebanner
 30plussexdate.nl,ikwilneuken.be,ikwilneuken.net,meidenzoekensex.nl,sexcontactadressen.nl##.nomobile.boxlinks:has(.homebanner)
-18plussexdating.nl,vlaanderen-sexdate.be###linkpartners > :has(.homebanner)
+vlaanderen-sexdate.be###linkpartners > :has(.homebanner)
 kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,sexdatingholland.com,privesexgids.nl,stellensexdating.nl,studentesexcontact.nl,tienersexpret.nl,zinomteneuken.nl##[class="rand nomobile"]:has(img[src^="/images/"])
 zinineensexdate.com##.nomobile.boxleft:has(img[src^="/images/"])
 ! 2021-06-24
