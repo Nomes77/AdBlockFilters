@@ -1,7 +1,6 @@
 ! Uitzonderingen voor EasyList
 ! 2021-06-04
 speurders.nl#@#.ad_header
-vakantieplaats.nl#@#.adds-wrapper
 marktplaats.nl#@#.adSummary
 vakantieplaats.nl#@#.featuredAds
 vakantieplaats.nl#@#.feed-ad
