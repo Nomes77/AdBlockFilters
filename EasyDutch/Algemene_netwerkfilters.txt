@@ -1,5 +1,5 @@
-! https://github.com/easylist/easylistdutch/commit/ba5b7a4732a3e60992c1bcee3e492178c6536020
-/mediahuis-ads/*
+! 2021-06-29
+/mediahuis-ads/*$~css
 ! 2021-05-31
 /gaslicht/header300x20.png$image
 /gaslicht/gaslicht*$subdocument
