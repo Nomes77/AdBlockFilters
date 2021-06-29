@@ -10,5 +10,4 @@ klusidee.nl#@#.header-ad
 bokt.nl#@#.node-ad
 kamernet.nl#@#.topAdd
 vakantieplaats.nl#@#.topAds
-voetbalnieuws.be#@#a[href^="http://adserving.unibet.com/"]
 startpagina.nl#@#a[href^="https://www.iyalc.com/"]
