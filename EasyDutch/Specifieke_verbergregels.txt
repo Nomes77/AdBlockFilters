@@ -1,5 +1,5 @@
 ! 2021-06-29
-vlaanderen-sexdate.be###linkpartners > :has(.homebanner)
+18plussexdating.nl,vlaanderen-sexdate.be###linkpartners > :has(.homebanner)
 zinineensexdate.com##.nomobile.boxleft:has(img[src^="/images/"])
 ! 2021-06-24
 pornolekker.com##[class^="Scl"]:has([src^="//ads"])
