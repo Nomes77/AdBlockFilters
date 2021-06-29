@@ -1,6 +1,7 @@
 ! 2021-06-29
 30plussexdate.nl,ikwilneuken.be,ikwilneuken.net,meidenzoekensex.nl,sexcontactadressen.nl##.nomobile.boxlinks:has(.homebanner)
 18plussexdating.nl,vlaanderen-sexdate.be###linkpartners > :has(.homebanner)
+kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,sexdatingholland.com,privesexgids.nl,stellensexdating.nl,tienersexpret.nl,zinomteneuken.nl##[class="rand nomobile"]:has(img[src^="/images/"])
 zinineensexdate.com##.nomobile.boxleft:has(img[src^="/images/"])
 ! 2021-06-24
 pornolekker.com##[class^="Scl"]:has([src^="//ads"])
@@ -360,7 +361,6 @@ risallah.com##.zijbalk-rechts > table > tbody:has-text(Advertentie)
 barneveldsekrant.nl##[class] > [id="div-gpt-ad-banner"]:has-text(advertentie)
 appletips.nl##[class^="ph_block"]
 negerinnensexdating.eu##[class="rand nomobile"]:has(a[href*="net69.nl/genre"])
-kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,stellensexdating.nl,tienersexpret.nl,zinomteneuken.nl##[class="rand nomobile"]:has(img[src^="/images/"])
 dutchitchannel.nl##[href*="/bannerclick.html&banner"]
 leiderdorpsweekblad.nl,welingelichtekringen.nl##[href*="adnxs.com/click?"]
 gratispornofilm.nl##[href*="https://www.shemale-contacten.nl/"]
