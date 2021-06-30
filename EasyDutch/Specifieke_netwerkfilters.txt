@@ -3,7 +3,7 @@
 ||images.islive.nl/snapshot/*/200x150$image,domain=nederlandsextube.nl
 ||chainadvertising.eu^$script,domain=kinkymedia.nl
 ||kinkymedia.nl/wp-content/plugins/wp-ad-guru/*$script,1p
-||kinkymedia.nl/wp-content/uploads/vierkant-kinky*
+||kinkymedia.nl/wp-content/uploads/vierkant*$image
 ||glutenvrij.nl/l/library/*banner*.jpg?
 ! 2021-06-29
 ||voetbalnieuws.be/*/images/website-takeover/*$image,1p
