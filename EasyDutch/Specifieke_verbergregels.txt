@@ -1,5 +1,7 @@
 ! 2021-07-02
-nporadio1.nl##section[class]:has-text(advert):has(script[src*="/adcdn."])
+nporadio1.nl##section[class]:has-text(advert):has([id^="adid"]):has(script[src*="/adcdn."])
+nporadio1.nl##[class^="sc-1o7zata"]:has-text(advert):has([id^="adid"]):has(script[src*="/adcdn."])
+nporadio2.nl##.home-module--advertisement
 dorpsklanken.online##.ads-mobiel
 racingnews365.nl##.branded-countdown__content__partner-wrapper
 ! 2021-07-01
