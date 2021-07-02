@@ -1,9 +1,6 @@
 ! https://github.com/easylist/easylistdutch/commit/f6d8d0d1538cc11a45fc33414a7a713db1e0b899
 ! www.rtvnoord.nl
 ##.groei-ad
-! https://github.com/easylist/easylistdutch/commit/6f3559b4dad68c0452b2bb86b3549db7fc613e4b
-! www.dorpsklanken.online
-##.ads-mobiel
 ! 2021-06-02
 ! kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,stellensexdating.nl,tienersexpret.nl,zinomteneuken.nl
 ###homebanners
