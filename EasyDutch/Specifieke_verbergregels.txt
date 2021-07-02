@@ -1,3 +1,5 @@
+! 2021-07-02
+racingnews365.nl##.branded-countdown__content__partner-wrapper
 ! 2021-07-01
 hardware.info##.sidebar_right_top
 be.hardware.info##+js(nostif, .call(null), 10)
