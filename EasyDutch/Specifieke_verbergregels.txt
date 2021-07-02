@@ -1,4 +1,5 @@
 ! 2021-07-02
+dissident.one##.adsbygoogle
 dissident.one##.td-adspot-title
 nporadio1.nl##section[class]:has-text(advert):has([id^="adid"]):has(script[src*="/adcdn."])
 nporadio1.nl##[class^="sc-1o7zata"]:has-text(advert):has([id^="adid"]):has(script[src*="/adcdn."])
