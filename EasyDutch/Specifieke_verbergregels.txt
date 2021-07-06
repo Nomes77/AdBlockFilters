@@ -1,3 +1,5 @@
+! 2021-07-06
+azerty.nl##.block.mod_article
 ! 2021-07-02
 dissident.one##.adsbygoogle
 dissident.one##.td-adspot-title
