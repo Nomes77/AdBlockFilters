@@ -1,3 +1,6 @@
+! 2021-07-06
+||webseed.com/WP/ARF/$script,domain=vaccinedeaths.com
+||webseed.com/WP/BRF/$script,domain=vaccinedeaths.com
 ! 2021-07-02
 ||racingnews365.nl/images/logos/partners/*/$image,1p
 ! 2021-06-30
