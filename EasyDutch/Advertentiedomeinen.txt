@@ -1,3 +1,10 @@
+! 07-07-2021
+||temptation.bd.nl^
+||temptation.bndestem.nl^
+||temptation.destentor.nl^
+||temptation.ed.nl^
+||temptation.gelderlander.nl^
+||temptation.pzc.nl^
 ! https://github.com/easylist/easylistdutch/commit/b8a2a5afdc0ea1163633ce8f6c15a591924b96b4
 ||content1.pcmweb.nl^
 ! https://github.com/easylist/easylistdutch/commit/431dbba630602067c94b5c56ef2c1e31928215cd
