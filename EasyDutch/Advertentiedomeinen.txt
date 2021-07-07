@@ -4,6 +4,7 @@
 ||temptation.destentor.nl^
 ||temptation.ed.nl^
 ||temptation.gelderlander.nl^
+||temptation.hln.be^
 ||temptation.pzc.nl^
 ! https://github.com/easylist/easylistdutch/commit/b8a2a5afdc0ea1163633ce8f6c15a591924b96b4
 ||content1.pcmweb.nl^
