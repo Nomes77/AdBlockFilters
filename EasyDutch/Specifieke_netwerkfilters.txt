@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/61d3604982bb8197deb7ad928f7f7f2de7346de9
+||nrc.nl/tag/tag.js
 ! 2021-07-08
 /^https?:\/\/statics.(ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc).(nl|be)\/js\/advertising-/$script
 ! 2021-07-06
