@@ -1,5 +1,3 @@
-! 2021-07-08
-/^https?:\/\/temptation.(bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc).(nl|be)/
 ! https://github.com/easylist/easylistdutch/commit/b8a2a5afdc0ea1163633ce8f6c15a591924b96b4
 ||content1.pcmweb.nl^
 ! https://github.com/easylist/easylistdutch/commit/431dbba630602067c94b5c56ef2c1e31928215cd
