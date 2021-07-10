@@ -1,3 +1,6 @@
+! 2021-07-10
+autoline-nl.be,autoline.nl##.index-bns
+autoline-nl.be,autoline.nl##.header-bn-wrapper
 ! 2021-07-07
 luchtvaartnieuws.nl##.block-block >.content:has([id^="div-gpt-ad"])
 luchtvaartnieuws.nl##.block-block >.content:has(.adsbygoogle)
