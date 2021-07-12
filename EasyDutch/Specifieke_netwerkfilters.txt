@@ -1,3 +1,5 @@
+! 2021-07-12
+||denieuwepraktijk.nl/zoic/kaart-coronatestlocaties.svg$domain=groningerkrant.nl
 ! 2021-07-10
 ||autoline-nl.be/ecb35fe03fed/*.gif$image
 ||autoline-nl.be/ecb35fe03fed/*.jpg$image
