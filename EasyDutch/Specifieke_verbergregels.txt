@@ -1,3 +1,5 @@
+! 2021-07-12
+groningerkrant.nl##[href^="https://track.adppg.com/"]
 ! 2021-07-10
 autoline-nl.be,autoline.nl##.index-bns
 autoline-nl.be,autoline.nl##.header-bn-wrapper
