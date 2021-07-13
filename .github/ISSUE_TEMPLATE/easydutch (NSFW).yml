@@ -88,7 +88,8 @@ body:
       description: |
         Please investigate the issues you report -- this prevents burdening other volunteers. 
         This is especially true for issues arising from settings which are very different from default ones.
-      placeholder: Write here the result of whatever investigation work you have done
-                   Schrijf hier het resultaat van het onderzoekswerk dat je hebt gedaan
+      placeholder: |
+        Write here the result of whatever investigation work you have done
+        Schrijf hier het resultaat van het onderzoekswerk dat je hebt gedaan
     validations:
       required: false
