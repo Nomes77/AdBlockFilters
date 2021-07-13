@@ -1,6 +1,6 @@
 name: EasyDutch
 description: Issue tracker for EasyDutch (NSFW)
-title: [NSFW]
+title: NSFW
 labels: NSFW
 body:
   - type: checkboxes
