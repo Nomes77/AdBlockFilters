@@ -1,6 +1,6 @@
 name: EasyDutch (NSFW)
 description: Issue tracker for EasyDutch (NSFW)
-title: NSFW
+title: "[NSFW]"
 labels: NSFW
 body:
   - type: checkboxes
@@ -61,6 +61,7 @@ body:
   - type: input
     attributes:
       label: uBlock Origin version
+      placeholder: 1.36.2
     validations:
       required: true
 
