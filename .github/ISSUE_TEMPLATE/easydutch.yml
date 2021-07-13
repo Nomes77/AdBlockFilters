@@ -12,8 +12,8 @@ body:
         - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
         - label: Only ads or anti-adblock / Alleen advertenties of anti-adblock
-    		         Privacy stuff should be reported at uBlock Origin or EasyPrivacy / Privacy dingen moet u melden aan uBlock of EasyPrivacy
-    		         No annoyances 
+                 -Privacy stuff should be reported at uBlock Origin or EasyPrivacy / Privacy dingen moet u melden aan uBlock of EasyPrivacy
+                 -No annoyances 
           required: true
     
   - type: checkboxes
