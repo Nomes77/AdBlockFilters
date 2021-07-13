@@ -13,9 +13,7 @@ body:
           required: true
         - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
-        - label: Only ads or anti-adblock / Alleen advertenties of anti-adblock. |
-                 - Privacy stuff should be reported at uBlock Origin or EasyPrivacy / Privacy dingen moet u melden aan uBlock of EasyPrivacy |
-                 - No annoyances
+        - label: Only ads or anti-adblock / Alleen advertenties of anti-adblock
           required: true
     
   - type: checkboxes
@@ -55,7 +53,7 @@ body:
       description: |
         Screenshot(s) for **difficult to describe visual issues are mandatory**. 
         Post **links** instead of inline images for screenshots containing **Adult material**.
-        Is het **Volwassen material** post dan linkjes in plaats van **Inline Images**.
+        Is het **Volwassen materiaal** post dan linkjes in plaats van **Inline Images**.
     validations:
       required: false
 
