@@ -25,7 +25,7 @@ body:
 
   - type: textarea
     attributes:
-      label: URL(s) where the issue occurs / Websites waar het probleem voorkomt
+      label: URL(s) where the issue occurs / Website(s) waar het probleem voorkomt
       description: |
         At least one URL for a web page where the clearly described issue occurs is **mandatory**. 
         The backticks (`) surrounding the URLs are important, it prevents the URL from being clickable. Warn with "NSFW" where applicable.
@@ -73,7 +73,7 @@ body:
       label: Settings
       description: | 
         List all the changes you've made to uBO's default settings here
-        Maak hier een lijst van alle wijzigingen die u heeft aangebracht in de standaardinstellingen van uBO 
+        Geef hier een lijst van alle wijzigingen die u heeft aangebracht in de standaardinstellingen van uBO 
       placeholder: |
         - Change 1
         - Change 2
