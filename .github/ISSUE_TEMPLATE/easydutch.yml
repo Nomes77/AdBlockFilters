@@ -12,9 +12,6 @@ body:
         - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
         - label: Only ads or anti-adblock / Alleen advertenties of anti-adblock
-          discription: |
-            - Privacy stuff should be reported at uBlock Origin or EasyPrivacy / Privacy dingen moet u melden aan uBlock of EasyPrivacy
-            - No annoyances 
           required: true
     
   - type: checkboxes
@@ -32,7 +29,8 @@ body:
       description: |
         At least one URL for a web page where the clearly described issue occurs is **mandatory**. 
         The backticks (`) surrounding the URLs are important, it prevents the URL from being clickable. Warn with "NSFW" where applicable.
-        Geef de link van de website. Waarschuw met "NSFW" als dat nodig is.
+        Geef de link van de website waar het probleem zich voordoet. 
+        Zorg er voor dat de URL niet klikbaar is. Waarschuw met "NSFW" als dat nodig is.
       placeholder: |
         `https://example.nl`
         `https://example.be`
