@@ -4,7 +4,7 @@ labels: question
 body:
   - type: checkboxes
     attributes:
-    options:
+      options:
         - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
 
