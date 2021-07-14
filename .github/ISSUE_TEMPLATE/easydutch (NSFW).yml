@@ -8,12 +8,17 @@ body:
       label: Prerequisites / Vereisten
       description: To rule out invalid issues, confirm and check each one of the checkboxes.
       options:
-        - label: This is a **Dutch** website, so no general websites with Dutch subdomains (e.g. nl.y8.com) / 
-                 Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. nl.y8.com)
+        - label: |
+             This is a **Dutch** website, so no general websites with Dutch subdomains (e.g. nl.y8.com) / 
+             Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. nl.y8.com)
           required: true
-        - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
+        - label: |
+            I performed a [cursory search of the issue tracker](https://github.com/BPower0036/AdBlockFilters/issues) to avoid opening a duplicate issue / 
+            Geen **duplicaten**!!
           required: true
-        - label: Only ads or anti-adblock / Alleen advertenties of anti-adblock
+        - label: |
+            Only ads or anti-adblock / 
+            Alleen advertenties of anti-adblock
           required: true
     
   - type: checkboxes
@@ -62,6 +67,7 @@ body:
     attributes:
       label: uBlock Origin version
       placeholder: 1.36.2
+      value: 1.36.2
     validations:
       required: true
 
@@ -74,9 +80,9 @@ body:
   - type: textarea
     attributes:
       label: Settings
-      description: |
-        List all the changes you've made to uBO's default settings here.
-        Geef hier een lijst van alle wijzigingen die u heeft aangebracht in de standaardinstellingen van uBO.
+      description: | 
+        List all the changes you've made to uBO's default settings here
+        Geef hier een lijst van alle wijzigingen die u heeft aangebracht in de standaardinstellingen van uBO 
       placeholder: |
         - Change 1
         - Change 2
