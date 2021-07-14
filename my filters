@@ -1,0 +1,242 @@
+[uBlock Origin]
+! Title: My filters list uBo
+! Description: Personal filter list (My filters)
+! Homepage: https://github.com/BPower0036/AdBlockFilters/
+! Expires: 7 days
+!
+! PRIVACY
+! --Remove Parameters from urls ($queryprune or $removeparam)
+$removeparam=/^(dpg_source|dpg_campaign|dpg_medium|dpg_content)=/
+$removeparam=/^(_openstat|admitad_uid|asgtbndr)=/
+$removeparam=/^(action_object_map|action_ref_map|action_type_map)=/
+$removeparam=/^(fbclid|fb_action_|fb_comment_id|fb_ref|fb_source)/
+$removeparam=/^(dclid|gclid|gclsrc|guccounter|guce_referrer|guce_referrer_sig|yclid)=/
+$removeparam=/^(_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
+$removeparam=/^utm_/
+$removeparam=/^source/,domain=googleusercontent.com
+||www.google.com/url?$removeparam=ved
+||google.*^$removeparam=tab
+||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|dpr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact|ved)=/
+||google.*/search$removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/
+||aliexpress.*^$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
+||bing.com^$removeparam=/^(cvid|form|pc|qp|qs|sc|sk|sp)=/
+@@||bing.*^/WS/redirect/$removeparam=/^(cvid|form|qp|qs|sc|sk|sp)=/
+||duckduckgo.com^$removeparam=t
+||linkedin.com^$removeparam=/^(refId|trk)=/
+||twitter.com^$removeparam=/^(cn|ref_url|s)=/
+||www.amazon.*^$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ie|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|s|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
+||www.amazon.*^/dp/$removeparam=tag
+||www.amazon.*^/aa$removeparam=bitCampaignCode
+||www.ebay.*^$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
+||youtube.com^$removeparam=/^(feature|kw|tab)=/
+! --Anti-Facebook
+||facebook.com^$3p,domain=~www.instagram.com
+||facebook.net^$important
+||fb*-a.akamaihd.net^$important
+||fb.com^$important
+||fb.me^$important
+||fbcdn.com^$important
+||fbcdn.net^$important,domain=~facebook.com|~www.instagram.com
+||fbsbx.com^$important
+||fburl.com^$important
+||tfbnw.net^$important
+@@||www.facebook.com/plugins/video.php$subdocument
+@@||z-p42-instagram.c10r.facebook.com^$script
+||google.com/js/client:plusone.js
+||google.com/js/plusone.js
+||spot.im/embed/scripts/launcher.js
+*connect.facebook.
+! --AdGuard Tracking Protection
+.demdex.net/id^$redirect=noop.txt
+||c00.adobe.com^$redirect=noop.txt
+||collect-elb-*.amazonaws.com^$redirect=noop.txt
+||device-metrics-us*.amazon.com^$redirect=noop.txt
+||play.google.com/log?$redirect=noop.txt,important
+! --Gmail tracking
+/cleardot.gif$image,xhr,redirect=1x1.gif
+! --Block access to LAN
+/^\w+://10\.(?:(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))\.){2}(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+/^\w+://172\.(?:1[6-9]|2\d|3[01])(?:\.(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))){2}[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+/^\w+://192\.168(?:\.(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))){2}[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+/^\w+://\[f(?:[cd][0-9a-f]|e[89a-f])[0-9a-f]:[0-9a-f:]+\][:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+/^\w+://169\.254\.(?:[1-9]\d?|1\d{2}|2(?:[0-4]\d|5[0-4]))\.(?:[1-9]?\d|1\d{2}|2(?:[0-4]\d|5[0-5]))[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+/^\w+://127\.(?:(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))\.){2}(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+||localhost^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+||0.0.0.0^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+||[::]^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+||local^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+! --Blocked countries
+.cn^$important
+.cn.com^$important
+.ir^$important
+! --Overig
+*##+js(set, history.length, 2)
+!#if !env_firefox
+*,~hangouts.google.com,~youtube.com,~youtube-nocookie.com##+js(aopr, navigator.getBattery)
+*,~hangouts.google.com,~jensen.nl##+js(nowebrtc)
+!#endif
+
+! ANNOYANCES
+! --Annoyances (uBlock en van mij)
+/wp-content/plugins/append-link-on-copy/*$script,1p
+/wp-content/plugins/content-protector-pack/*
+/wp-content/plugins/image-watermark/*$script
+/wp-content/plugins/rcd-right-click-disabler/*$script,1p
+/wp-content/plugins/secure-copy-content-protection/*$script
+/wp-content/plugins/wp-content-copy-protection/*
+||foxpush.net^$3p
+||holyclock.com^$3p
+||pinterest.com/pin/$removeparam=/^(mt|d)=/,domain=pinterest.com
+||pushwoosh.com/webpush/$script,3p
+||safelinku.com^$3p
+||zoom.us/launch/download/*/meeting/*/Zoom_launcher.exe$subdocument,domain=us02web.zoom.us
+@@||y8.com/games/*.js?referer=$xhr,domain=y8.com
+@@||imasdk.googleapis.com/js/$script,domain=y8.com
+drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/api2/anchor?"])
+gab.com##aside[class]:has-text(Dissenter)
+gab.com##aside[class]:has-text(Gab TV)
+gab.com##aside[class]:has-text(Upgrade)
+gab.com##article[data-id^="timeline-injection"]
+! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
+instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+instagram.com##article[role="presentation"] > div[class] > div[class] > div[class]:has([aria-label^="Information icon"]):not([role="presentation"])
+instagram.com##div[class][role="presentation"]:has([role="dialog"] > div[class] > div[class] > div[class] > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"])
+instagram.com##div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
+news.google.com##[jsdata*="covid-banner"]
+news.google.com##[jsaction][aria-label="COVID-19"]
+news.google.com##[jsaction][aria-label="COVID-19"] + [class]
+pinterest.*##div[data-test-id="giftWrap"]
+pinterest.*##.gridCentered:style(margin-top: auto !important;)
+pinterest.*##body:style(overflow-y: scroll !important;)
+pinterest.*##div[style^="filter:"]:style(filter: none !important)
+www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
+! --Anti Google Chrome Download Message and Cookie Banner
+||ogs.google.*/widget/callout*&origin=*.google.*=callout*
+www.youtube.com##.ytd-popup-container.style-scope > .ytd-mealbar-promo-renderer.style-scope
+!#if env_firefox
+google.*##^script:has-text(CONSENT)
+!#endif
+!#if env_chromium
+google.*##+js(aeld, DOMContentLoaded, CONSENT)
+!#endif
+www.google.*##+js(acis, document.cookie, YES+)
+google.*##div[class^="gb_"][data-cbh*="consent.google."]
+google.*##div[jscontroller][jsaction]:has([class]:has-text(cookies):has([href*="policies.google.com"]))
+www.google.*,www.youtube.com###consent-bump
+www.youtube.com##.opened
+www.youtube.com##.ytd-consent-bump-v2-renderer
+www.youtube.com##yt-upsell-dialog-renderer.style-scope
+! --Anti-Adblock
+||disableadblock.com^$3p
+||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
+||fastly.net/ads/$image,redirect=2x2-transparent.png
+||fastly.net/ads/$script,redirect=noopjs
+||fastly.net/ads/$xmlhttprequest,redirect=nooptext
+||hdliveextra-a.akamaihd.net/*/ads.js$script,redirect=noopjs
+diffchecker.com##+js(nostif, adStillHere)
+radarbox.com##+js(set, ads_enabled, true)
+! ADVERTISMENTS
+||naturalnews.com^$script,badfilter
+@@||naturalnews.com/*=$script,1p,badfilter
+||naturalnews.com/wp-content/themes/js/ads.js$script,1p
+/^https:\/\/naturalnews.com\/[A-Z]RF\/[\D|\d]{1,}.js/$script,1p
+y8.com###Y8_Top_of_Games
+! --Anti SocialMedia Plugins
+*share_ico*$~css
+*social_ico*$~css
+/addtoany/*.js
+/\/assets\/components\/[[\D|\d]{1,}\/images\/(instagram|facebook|twitter)[-_](icon)/$1p,image
+/assets/facebook*
+/click-to-tweet/*
+/\/icon-(facebook|instagram|linkedin|pinterest|share|social|twitter|whatsapp|youtube)/$1p,image
+@@/icon-share-mail$image
+/images/twiiter.$image
+/images/share_
+/images/social/*
+/images/socialmedia/*.$image
+/plugins/facebook-$~css
+/\/share(\/|_)(facebook|instagram|pinterest|twitter|share|button|count.|fb.|link_)/
+/shareaholic.$script
+/shareaholic/*
+/sharebutton*$~css
+/sharecount*
+/shared/social/*
+/sharedaddy/*$image,script
+/sharedcount.
+/sharethis-share*
+/social-likes.$script
+/socialicons_*.$image
+/socialshareprivacy/*$~script,~css
+/\/social\/(facebook.|fcbk.|in.|instagram.|linkedin.|lnkdn.|pinterest.|twitter.|yt.|follow[[\D|\d]{1,}|footer[\D|\d]{1,}|share[\D|\d]{1,})/
+/social/icon*$image
+/social/img/*$image
+/wp-content/*/social_$~stylesheet
+/\/wp-content\/plugins\/[\D|\d]{1,}social(-login|-media-icons|-share|media-buttons)/$~css
+/wp-content/plugins/add-to-any/*
+/wp-content/plugins/easy-facebook-likebox/*
+/wp-content/plugins/easy-twitter-feed-widget$~css
+/wp-content/plugins/social-$~css
+/wp-content/plugins/wp-embed-facebook/*
+/\/wp-content\/themes\/[\D|\d]{0,}(facebook|twitter|\/img\/instagram)/$image
+/wp-content/themes/js/social-shares$script
+/wp-content/themes/js/socialblock$script
+||addnow.com^$third-party
+||addthiscdn.com^$third-party
+||addtoany.com^$third-party
+||api.flattr.com/button^$third-party
+||api.linkedin.com/*/shares^$third-party
+||api.tweetmeme.com/button.js$third-party
+||api.twitter.com/*/count.json$third-party
+||api.*.getsocial.io/get/$script
+||assets.pinterest.com/images/pidgets/$third-party
+||button.flattr.com^$third-party
+||cdn.wibiya.com^$third-party
+||changetip.com^$third-party
+||embed.tumblr.com/widgets/share/$third-party
+||flickr.com/badge_code$third-party
+||friendfeed.com/embed$third-party
+||friends2follow.com^$third-party
+||getbtn.com^$third-party
+||getbutton.io^$third-party
+||google.com/share^$third-party
+||lessbuttons.com^$third-party
+||likebtn.com^$third-party
+||linkedin.com/shareArticle$third-party
+||pinterest.com/js/pinit$script,3p
+||pinterest.com/pin/*/button/?url=$third-party
+||pinterest.com/pinit.html$third-party
+/pinterest.com\/v*[0-9]{1}\/urls\/count.json/$3p
+||platform.linkedin.com/in.$script,third-party
+||platform.stumbleupon.com/*/widgets.js$third-party
+/^https:\/\/platform.twitter.com\/((js\/|widgets\/[\D|\d]{1,}_)button|oct.js)/$3p
+! ||platform.twitter.com/js/button$third-party
+! ||platform.twitter.com/oct.js$third-party
+! ||platform.twitter.com/widgets/*_button$third-party
+||reddit.com/api/info.json?$third-party
+||reddit.com/static/button/$third-party
+||reddit.com/submit?$third-party
+||shareaholic.com^$third-party
+||sharedcount.com^$third-party
+||sharethis.com^$third-party
+||snapwidget.com^$third-party
+||static.bufferapp.com/js/button.js
+||static.hootsuite.com^$third-party
+||stumbleupon.com/badge/$third-party
+||taboolasyndication.com^$third-party
+||tgwidget.com^$third-party
+||tumblr.com/share/$third-party
+||tweetmeme.com/i/scripts$third-party
+||twitter.com/share$third-party
+||twitter-badges.$third-party
+||vk.com/js/api/share$3p
+||vk.com/share.$third-party
+||w.uptolike.com^$third-party
+||weheartit.com^$third-party
+||widget.instodom.com^$third-party
+||widget.pushbullet.com^$third-party
+||widgets.bufferapp.com^$third-party
+||widgets.getpocket.com^$third-party
+||youtube.com/subscribe_$third-party
