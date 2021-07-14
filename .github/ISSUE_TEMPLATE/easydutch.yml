@@ -6,8 +6,7 @@ body:
       label: Prerequisites / Vereisten
       description: To rule out invalid issues, confirm and check each one of the checkboxes.
       options:
-        - label:
-          value: |
+        - label: |
             This is a **Dutch** website, so no general websites with Dutch subdomains (e.g. nl.y8.com) / 
             Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. nl.y8.com)
           required: true
