@@ -1,3 +1,5 @@
+! 2021-07-14
+/^https?:\/\/statics\.(ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(nl|be)\/js\/advertising-[\w]+\.js$/$script
 ! 2021-07-12
 ||poepsexfilmstube.nl/sexdating/sexdating.php$subdocument
 ||denieuwepraktijk.nl/zoic/kaart-coronatestlocaties.svg$domain=groningerkrant.nl
@@ -6,8 +8,6 @@
 ||autoline-nl.be/ecb35fe03fed/*.jpg$image
 ||autoline.nl/ecb35fe03fed/*.gif$image
 ||autoline.nl/ecb35fe03fed/*.jpg$image
-! 2021-07-08
-/^https?:\/\/statics\.(ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(nl|be)\/js\/advertising-/$script
 ! 2021-07-06
 ||webseed.com/WP/ARF/$script,domain=vaccinedeaths.com
 ||webseed.com/WP/BRF/$script,domain=vaccinedeaths.com
