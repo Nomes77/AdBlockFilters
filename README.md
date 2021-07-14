@@ -15,3 +15,13 @@ For contributing see: [CONTRIBUTING.md](https://github.com/BPower0036/AdBlockFil
 A whitelist for medium mode of uBlock Origin when only blocking 3p-frames.
 
 I recommend to use EasyDutch with the default filterlists in [uBlock Origin](https://github.com/uBlockOrigin/uAssets) and with this list.
+
+## [My Filters](https://github.com/BPower0036/AdBlockFilters/blob/main/my%20filters)
+This is filterlist is my Personal Filterlist in uBo. </br>
+It can be handy to use them.
+
+
+### Subcribe to my filterlists
+- [EasyDutch](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/BPower0036/AdBlockfilters/EasyDutch.txt&title=EasyDutch)
+- [Dynamic rules](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/BPower0036/AdBlockfilters/dynamic%20rules)
+- [My filters](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/BPower0036/AdBlockfilters/my%20filters)
