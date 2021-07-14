@@ -7,7 +7,7 @@
 ! PRIVACY
 ! --Remove Parameters from urls ($queryprune or $removeparam)
 $removeparam=/^(dpg_source|dpg_campaign|dpg_medium|dpg_content)=/
-$removeparam=/^(_openstat|admitad_uid|asgtbndr)=/
+$removeparam=/^(_openstat|admitad_uid|asgtbndr|cmpid)=/
 $removeparam=/^(action_object_map|action_ref_map|action_type_map)=/
 $removeparam=/^(fbclid|fb_action_|fb_comment_id|fb_ref|fb_source)/
 $removeparam=/^(dclid|gclid|gclsrc|guccounter|guce_referrer|guce_referrer_sig|yclid)=/
@@ -77,6 +77,13 @@ $removeparam=/^source/,domain=googleusercontent.com
 *,~hangouts.google.com,~jensen.nl##+js(nowebrtc)
 !#endif
 
+! ADVERTISMENTS
+||naturalnews.com^$script,badfilter
+@@||naturalnews.com/*=$script,1p,badfilter
+||naturalnews.com/wp-content/themes/js/ads.js$script,1p
+/^https:\/\/(?:www\.)?naturalnews\.com\/[A-Z]RF\/[\W|\w]+\.js$/$script,1p
+y8.com###Y8_Top_of_Games
+
 ! ANNOYANCES
 ! --Annoyances (uBlock en van mij)
 /wp-content/plugins/append-link-on-copy/*$script,1p
@@ -138,27 +145,21 @@ www.youtube.com##yt-upsell-dialog-renderer.style-scope
 ||hdliveextra-a.akamaihd.net/*/ads.js$script,redirect=noopjs
 diffchecker.com##+js(nostif, adStillHere)
 radarbox.com##+js(set, ads_enabled, true)
-! ADVERTISMENTS
-||naturalnews.com^$script,badfilter
-@@||naturalnews.com/*=$script,1p,badfilter
-||naturalnews.com/wp-content/themes/js/ads.js$script,1p
-/^https:\/\/naturalnews.com\/[A-Z]RF\/[\D|\d]{1,}.js/$script,1p
-y8.com###Y8_Top_of_Games
 ! --Anti SocialMedia Plugins
 *share_ico*$~css
 *social_ico*$~css
 /addtoany/*.js
-/\/assets\/components\/[[\D|\d]{1,}\/images\/(instagram|facebook|twitter)[-_](icon)/$1p,image
+/\/assets\/components\/[\W|\w]+\/images\/(?:instagram|facebook|twitter)[-_]icon/$1p,image
 /assets/facebook*
 /click-to-tweet/*
-/\/icon-(facebook|instagram|linkedin|pinterest|share|social|twitter|whatsapp|youtube)/$1p,image
+/\/icon-(?:facebook|instagram|linkedin|pinterest|share|social|twitter|whatsapp|youtube)/$1p,image
 @@/icon-share-mail$image
 /images/twiiter.$image
 /images/share_
 /images/social/*
 /images/socialmedia/*.$image
 /plugins/facebook-$~css
-/\/share(\/|_)(facebook|instagram|pinterest|twitter|share|button|count.|fb.|link_)/
+/\/share(?:\/|_)(?:facebook|instagram|pinterest|twitter|share|button|count\.|fb\.|link_)/
 /shareaholic.$script
 /shareaholic/*
 /sharebutton*$~css
@@ -170,17 +171,17 @@ y8.com###Y8_Top_of_Games
 /social-likes.$script
 /socialicons_*.$image
 /socialshareprivacy/*$~script,~css
-/\/social\/(facebook.|fcbk.|in.|instagram.|linkedin.|lnkdn.|pinterest.|twitter.|yt.|follow[[\D|\d]{1,}|footer[\D|\d]{1,}|share[\D|\d]{1,})/
+/\/social\/(?:facebook\.|fcbk\.|in\.|instagram\.|linkedin\.|lnkdn\.|pinterest\.|twitter\.|yt\.|follow[[\W|\w]+|footer[\W|\w]+|share[\W|\w]+)/
 /social/icon*$image
 /social/img/*$image
 /wp-content/*/social_$~stylesheet
-/\/wp-content\/plugins\/[\D|\d]{1,}social(-login|-media-icons|-share|media-buttons)/$~css
+/\/wp-content\/plugins\/[\W|\w]+social(?:-login|-media-icons|-share|media-buttons)/$~css
 /wp-content/plugins/add-to-any/*
 /wp-content/plugins/easy-facebook-likebox/*
 /wp-content/plugins/easy-twitter-feed-widget$~css
 /wp-content/plugins/social-$~css
 /wp-content/plugins/wp-embed-facebook/*
-/\/wp-content\/themes\/[\D|\d]{0,}(facebook|twitter|\/img\/instagram)/$image
+/\/wp-content\/themes\/[\W|\w]*(?:facebook|twitter|\/img\/instagram)/$image
 /wp-content/themes/js/social-shares$script
 /wp-content/themes/js/socialblock$script
 ||addnow.com^$third-party
@@ -208,13 +209,10 @@ y8.com###Y8_Top_of_Games
 ||pinterest.com/js/pinit$script,3p
 ||pinterest.com/pin/*/button/?url=$third-party
 ||pinterest.com/pinit.html$third-party
-/pinterest.com\/v*[0-9]{1}\/urls\/count.json/$3p
+/pinterest\.com\/v[\d]\/urls\/count\.json/$3p
 ||platform.linkedin.com/in.$script,third-party
 ||platform.stumbleupon.com/*/widgets.js$third-party
-/^https:\/\/platform.twitter.com\/((js\/|widgets\/[\D|\d]{1,}_)button|oct.js)/$3p
-! ||platform.twitter.com/js/button$third-party
-! ||platform.twitter.com/oct.js$third-party
-! ||platform.twitter.com/widgets/*_button$third-party
+/platform\.twitter\.com\/(?:(?:js\/|widgets\/[\W|\w]+_)button|oct\.js)/$3p
 ||reddit.com/api/info.json?$third-party
 ||reddit.com/static/button/$third-party
 ||reddit.com/submit?$third-party
