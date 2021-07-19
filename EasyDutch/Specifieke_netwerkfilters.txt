@@ -1,3 +1,11 @@
+! 2021-07-19
+||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/*-banner$image
+||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/WK*.$image
+||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/Week-*.png$image
+||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/Twee-wegen.gif$image
+||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/CJG-Alblasserdam.jpg$image
+||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/Rozendaal.jpg$image
+||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/zonder-herfst.gif$image
 ! 2021-07-14
 /^https?:\/\/statics\.(?:ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(?:nl|be)\/js\/advertising-[\w]+\.js$/$script
 ! 2021-07-12
