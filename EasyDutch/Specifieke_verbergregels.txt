@@ -1,3 +1,6 @@
+! 2021-07-19
+alblasserdamsnieuws.nl##.albla-widget
+alblasserdamsnieuws.nl##.sidebarbox > .widgettitle:has-text(Banner)
 ! 2021-07-12
 poepsexfilmstube.nl###tracking-url
 sexpunt.nl###top:has(.banner)
