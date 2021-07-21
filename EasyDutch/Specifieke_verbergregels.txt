@@ -1,5 +1,6 @@
 ! 2021-07-21
 dagelijksestandaard.nl##.wpb_content_element.vc_separator:nth-of-type(4)
+folderz.nl##.advert
 ! 2021-07-19
 alblasserdamsnieuws.nl##.albla-widget
 alblasserdamsnieuws.nl##.sidebarbox > .widgettitle:has-text(Banner)
