@@ -66,8 +66,8 @@ body:
   - type: input
     attributes:
       label: uBlock Origin version
-      placeholder: 1.36.2
-      value: 1.36.2
+      placeholder: 1.37.0
+      value: 1.37.
     validations:
       required: true
 
