@@ -1,3 +1,5 @@
+! 2021-07-22
+||itnijs.frl/wp-content/uploads/*/bannerItNijs
 ! 2021-07-20
 ||noordhollandsdagblad.nl/nhd/extra/assets/advertising/dfp-setup.js$script,1p
 ! 2021-07-19
