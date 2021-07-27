@@ -1,3 +1,5 @@
+! https://github.com/BPower0036/AdBlockFilters/issues/22
+waldnet.nl##.kolom_haad > div[style="height: 300px;"]
 ! https://github.com/easylist/easylistdutch/commit/1e7ce67b45bfc7b7bc96ccfad7d61e574a07487c
 europa-landbouwmachines.nl##.pub
 europa-landbouwmachines.nl##.pub-content
