@@ -163,7 +163,6 @@
 ||deoudrotterdammer.nl/wp-content/uploads/*/banner*.$image
 ||digitalaudience.io/bakery/pix/$image,3p
 ||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
-||dutchcowboys.nl/images/*-takeover.png
 ||dutchitchannel.nl/media/6*/*.jpg$3p
 ||dutchleader.nl/php/banex/$3p
 ||dutchleader.nl/php/popex/
