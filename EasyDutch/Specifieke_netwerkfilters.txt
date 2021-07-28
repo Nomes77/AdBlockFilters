@@ -1,4 +1,5 @@
 ! 2021-07-28
+||oogtv.nl/wp-content/uploads/*/beno_banner_$image
 ||digitaalburg.com/rn02/wp-content/uploads/*/CornetAnimationA-
 ||digitaalburg.com/rn02/wp-content/uploads/*/MERKX11.png
 ||digitaalburg.com/rn02/wp-content/uploads/*/Roel.jpg
