@@ -155,8 +155,6 @@
 ||cdn.nieuws.nl/media/sites/88/*/banner$image
 ||cdn.sbsnet.nl/creatives/assets/*.mp4$domain=kijk.nl
 ||cdn.ster.nl/banners^
-||chatmetvreemden.be/static/html/
-||chatmetvreemden.nl/static/html/
 ||cinkeltrading.nl/pics/*.gif$domain=cumcams.nl
 ||crimesite.nl/inhoud/uploads/*/*.gif$image
 ||custom.islive.nl/_respo/*.gif$image,domain=camsex.nl
