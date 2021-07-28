@@ -189,7 +189,6 @@
 ||kilroynews.net^*banner
 ||kinkydatingnederland.nl/banner$image
 ||landenweb.nl/imgBoeking/$image
-||marktnet.nl/bs/loadBanner.aspx?
 ||media.prdn.nl/retailtrends/images/*.gif
 ||media.rtl.nl/web/components/service/streamspots/*.mp4$object
 ||mediareader.omroepwest.nl/gaslicht^
