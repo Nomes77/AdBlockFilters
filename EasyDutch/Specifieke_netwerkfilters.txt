@@ -171,7 +171,6 @@
 ||enviedeplus.be^*_banner_$3p
 ||flirtfair.de^*/dppop.js
 ||flirtmee.nl/img/160x70_sponsor-
-||forum.spaarinformatie.nl/si-info.html
 ||gadgetsentrends.nl/imagestore/banners/
 ||genemuidenactueel.nl^*banner
 ||glutenvrij.nl/tmp/media/afbeeldingen/*_w720_h720.jpg$image
