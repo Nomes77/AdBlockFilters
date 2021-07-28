@@ -209,7 +209,6 @@
 ||onderwegonline.nl/wp-content/uploads/*/Onderweg-336x280.png$image
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
 ||oops.nl/banner/$subdocument
-||openingsurengids.be/includes/js/checkblock.js
 ||opiniepeilers.nl/media/*/*notiesHR*.jpg$image
 ||opwindend.net/Promotie*.php?$subdocument
 ||outdoor-sex.nl/wp-content/uploads/*/buitenseks.$image
