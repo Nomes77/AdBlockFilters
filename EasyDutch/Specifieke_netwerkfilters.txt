@@ -207,8 +207,6 @@
 ||omroepwest.nl/*/ad.png
 ||omroepzeeland.nl/*/ad.png
 ||onderwegonline.nl/wp-content/uploads/*/Onderweg-336x280.png$image
-||onestat.com/app/banneriframe.aspx?
-||onestat.com/banners/adone-
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
 ||oops.nl/banner/$subdocument
 ||openingsurengids.be/includes/js/checkblock.js
