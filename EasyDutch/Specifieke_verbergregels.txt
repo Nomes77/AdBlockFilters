@@ -1,4 +1,6 @@
 ! 2021-07-28
+netonline.be##td > table > tbody > tr > td > table > tbody > tr > td > table:has(.adsbygoogle)
+netonline.be##.tekstboldwit:has-text(ADVERT)
 oogtv.nl##.home-banner
 ! 2021-07-27
 itnijs.frl##.widget > .banner
