@@ -190,7 +190,6 @@
 ||kinkydatingnederland.nl/banner$image
 ||landenweb.nl/imgBoeking/$image
 ||media.prdn.nl/retailtrends/images/*.gif
-||mediareader.omroepwest.nl/gaslicht^
 ||media-totaal.nl/*com_adagency*adagencyAds$script,domain=dekrantnieuws.nl|destreekkrant.nu|dekrantvantynaarlo.nl
 ||milfdatingnederland.nl/banner$image
 ||mobqo.nl^*/banner
