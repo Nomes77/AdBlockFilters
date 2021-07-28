@@ -1,4 +1,5 @@
 ! 2021-07-28
+neuk-sexcontact.be##.well:has([src*=".sdcash.nl/"])
 netonline.be##td > table > tbody > tr > td > table > tbody > tr > td > table:has(.adsbygoogle)
 netonline.be##.tekstboldwit:has-text(ADVERT)
 oogtv.nl##.home-banner
