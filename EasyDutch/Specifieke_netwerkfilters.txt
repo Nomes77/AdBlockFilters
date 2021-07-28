@@ -59,7 +59,6 @@
 ! https://github.com/easylist/easylistdutch/commit/ae2d55abd9a3984b940cb0f03ac915b7bbcd5d5d
 ||rickfm.nl/cwm/fm/userfiles/banner/
 ! https://github.com/easylist/easylistdutch/compare/021b6c6620...9eeecc805f
-||loemedia.nl/wp-content/uploads/*-banner-
 ||loemedia.nl/wp-content/uploads/*/BannerPruisSchilderwerken-
 ||loemedia.nl/wp-content/uploads/*/HemaBannerGroot-
 ||maaslandradio.nl/wp-content/uploads/*/auto-onderdelen24.
