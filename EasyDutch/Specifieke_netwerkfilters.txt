@@ -135,7 +135,6 @@
 ||agfstorage.blob.core.windows.net/banners$domain=agf.nl
 ||am-forum.nl/upload/logo_elektrodump.png
 ||amz01.plzcdn.com/a/
-||ans-online.nl/wp-content/themes/mimbo/images/Banner-
 ||antilliaansdagblad.com/images/banners/
 ||autoedizione.nl/wp-content/uploads/*/ae-sponsor
 ||autozine.nl/promo/banner.jpg
