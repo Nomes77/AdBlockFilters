@@ -1,3 +1,11 @@
+! 2021-07-28
+||digitaalburg.com/rn02/wp-content/uploads/*/CornetAnimationA-
+||digitaalburg.com/rn02/wp-content/uploads/*/MERKX11.png
+||digitaalburg.com/rn02/wp-content/uploads/*/Roel.jpg
+||digitaalburg.com/rn02/wp-content/uploads/*/uitwaard21.jpg
+||digitaalburg.com/rn02/wp-content/uploads/*/Vacature-
+||digitaalburg.com/rn02/wp-content/uploads/*/vertiadvies_
+||digitaalburg.com/rn02/wp-content/uploads/*/webbanner-
 ! 2021-07-22
 ||itnijs.frl/wp-content/uploads/*/bannerItNijs
 ! 2021-07-20
@@ -44,14 +52,6 @@
 ||handbalstartpunt.nl/content/schoonkapje$image,1p
 ||handbalstartpunt.nl/images/mizuno-small.jpg
 ||maaslandradio.nl/wp-content/uploads/*/Banner-
-! https://github.com/easylist/easylistdutch/commit/e6635e1a24d86eb7b3b96b10186a96f4aad56edd
-||digitaalburg.com/rn02/wp-content/uploads/*/CornetAnimationA-
-||digitaalburg.com/rn02/wp-content/uploads/*/MERKX11.png
-||digitaalburg.com/rn02/wp-content/uploads/*/Roel.jpg
-||digitaalburg.com/rn02/wp-content/uploads/*/uitwaard21.jpg
-||digitaalburg.com/rn02/wp-content/uploads/*/Vacature-400x700-
-||digitaalburg.com/rn02/wp-content/uploads/*/vertiadvies_
-||digitaalburg.com/rn02/wp-content/uploads/*/webbanner-
 ! https://github.com/easylist/easylistdutch/commit/ac089b16e6d91e18d8455be824a9648f3f34a6fa
 ||hotradiohits.nl/image/picture/*_banner.
 ! https://github.com/easylist/easylistdutch/commit/40bd66bc5bad85a864b63b19ee143461a2453b65
