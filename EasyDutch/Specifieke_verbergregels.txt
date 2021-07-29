@@ -1,4 +1,6 @@
 ! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
+123video.nl##.page-load-switch
+123video.nl##.stunt-wide
 maaslandradio.nl##.slides
 noordkopcentraal.nl##.ewic-slider-pro-widget
 noordkopcentraal.nl##.headbanner
