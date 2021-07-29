@@ -1,4 +1,5 @@
 ! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
+||123video.nl^*/300x100_
 ||wp.com/www.appletips.nl/wp-content/uploads/amacdeals$image,domain=appletips.nl
 ||wp.com/www.appletips.nl/wp-content/uploads/cnmx$image,domain=appletips.nl
 ||wp.com/www.appletips.nl/wp-content/uploads/upgreatest1$image,domain=appletips.nl
