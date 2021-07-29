@@ -1,3 +1,6 @@
+! https://github.com/BPower0036/AdBlockFilters/27
+noordkopcentraal.nl##[id^="media_image-"].widget_media_image > a[href] > img[width="462"]
+noordkopcentraal.nl##[id^="media_image-"].widget_media_image > .widgettitle:has-text(Advertenties)
 ! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
 123video.nl##.page-load-switch
 123video.nl##.stunt-wide
