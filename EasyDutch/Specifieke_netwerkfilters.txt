@@ -267,7 +267,6 @@
 ||waarzo.nl/imagestore/banners/
 ||wanttoknow.nl^*Banner
 ||webcamsexplaza.com/bannerwsp.$image
-||weertdegekste.nl^*banner
 ||whatismyip.nl/images/vista_sky2.gif
 ||widget.vpnnederland.nl/VPNNederland-widget.js$domain=nzbserver.com
 ||xingo.nl/bannermanagement/
