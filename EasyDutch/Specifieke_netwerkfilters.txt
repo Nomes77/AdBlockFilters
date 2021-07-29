@@ -1,4 +1,5 @@
 ! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
+||infotalia.com/worktalia_promo_
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||openingsurengids.be/template/images/publi/
 ! 2021-07-28
