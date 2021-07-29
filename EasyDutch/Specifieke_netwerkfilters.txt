@@ -1,3 +1,7 @@
+! https://github.com/BPower0036/AdBlockFilters/27
+||noordkopcentraal.nl/wp-content/uploads/*/*-Logo-462X*.$image
+||noordkopcentraal.nl/wp-content/uploads/*/Boersen-Logo-*.png$image
+||noordkopcentraal.nl/wp-content/uploads/*/Rozing415x125.gif$image
 ! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
 ||123video.nl^*/300x100_
 ||wp.com/www.appletips.nl/wp-content/uploads/amacdeals$image,domain=appletips.nl
