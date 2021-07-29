@@ -1,4 +1,7 @@
 ! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
+||wp.com/www.appletips.nl/wp-content/uploads/amacdeals$image,domain=appletips.nl
+||wp.com/www.appletips.nl/wp-content/uploads/cnmx$image,domain=appletips.nl
+||wp.com/www.appletips.nl/wp-content/uploads/upgreatest1$image,domain=appletips.nl
 ||infotalia.com/worktalia_promo_
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||openingsurengids.be/template/images/publi/
