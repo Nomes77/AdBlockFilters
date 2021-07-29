@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
+noordkopcentraal.nl##.ewic-slider-pro-widget
+noordkopcentraal.nl##.headbanner
 ! 2021-07-28
 netonline.be##table.text_12_jobs_only > tbody:has(td[width="10"]
 neuk-sexcontact.be##.well:has([src*=".sdcash.nl/"])
