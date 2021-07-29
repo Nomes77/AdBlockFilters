@@ -1,4 +1,5 @@
 ! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
+maaslandradio.nl##.slides
 noordkopcentraal.nl##.ewic-slider-pro-widget
 noordkopcentraal.nl##.headbanner
 ! 2021-07-28
