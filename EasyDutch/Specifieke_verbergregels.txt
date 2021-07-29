@@ -1,3 +1,6 @@
+! 2021-07-29
+jammfm.nl##.owl-carousel:has(.sa_hover_container):has([style*="/banner"])
+jammfm.nl##.vc_row-flex.vc_row[style*="width: 1578px;"]:has(.qt-sponsor)
 ! https://github.com/BPower0036/AdBlockFilters/27
 noordkopcentraal.nl##[id^="media_image-"].widget_media_image > a[href] > img[width="462"]
 noordkopcentraal.nl##[id^="media_image-"].widget_media_image > .widgettitle:has-text(Advertenties)
