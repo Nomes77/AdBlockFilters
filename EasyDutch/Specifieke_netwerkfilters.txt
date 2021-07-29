@@ -272,6 +272,7 @@
 ||totaalwijzer.nl/widget/$3p
 ||trivago.nl/nl/srv/destination/js/$domain=popinstituut.nl
 ||turksemedia.nl/logos/*.
+||unity.nu/media/*/BANNERS/
 ||uu.nl/proton/*/akzonobel_masters_
 ||video18.nl/img/banners/$image
 ||voetbalkrant.com/images/pub/
