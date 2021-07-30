@@ -1,4 +1,5 @@
 ! 2021-07-30
+historiek.net##[id^="custom_html"]:has-text(/Advertentie/i)
 top40.nl##[id^="sky"]:has(script:has-text(AdvertSlot))
 ! https://github.com/easylist/easylistdutch/commit/fad584d1e64f36ccc252c6f9ccc786c1d1b7548e
 ! https://github.com/easylist/easylistdutch/commit/a6265915191d95f6f01884b00b72c72c69fe9f7c
@@ -322,7 +323,6 @@ marktnet.nl##.tab4
 nos.nl##.teletekst__banner
 telegraaf.nl##.TextArticlePage__bannerWrapper
 nedporno.com##.text-center:has-text(/Reclame/i)
-historiek.net##.textwidget:has-text(advertentie)
 ans-online.nl##.theiaStickySidebar > .widget:has-text(Advertentie)
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.tile:has(:scope >.ankeiler--advertisement)
 dvhn.nl,lc.nl,meppelercourant.nl##.top__ad
