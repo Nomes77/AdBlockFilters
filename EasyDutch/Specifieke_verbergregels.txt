@@ -1,4 +1,6 @@
 ! 2021-07-30
+startlijstjes.nl##.advertentieblock
+startlijstjes.nl##.item:has([class^="item_special"]:has-text(tradetracker.net))
 kidsweek.nl##.node-advertorial
 villamedia.nl##[href^="https://www.anp.nl/start"]
 knhs.nl##div.row:has( > section > .cycler:has(img[src*="banner"]))
