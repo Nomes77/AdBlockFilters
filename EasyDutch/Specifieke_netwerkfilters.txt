@@ -1,4 +1,6 @@
 ! 2021-07-30
+||agfstorage.blob.core.windows.net/banners/$image,domain=groentennieuws.nl|uiennieuws.nl
+||cdn.agf.nl/nieuws/gif-jpg/*.gif$image,domain=groentennieuws.nl|uiennieuws.nl
 ||nieuwsonline.nu/header/*advertentie.$image
 ||nieuwsonline.nu/header/samsungwatchfaces.webp$image
 ! https://github.com/BPower0036/AdBlockFilters/30
