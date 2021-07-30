@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/5461a08ca805572300c38ba1e710f0fd9991b698
+startpagina.nl##.banner
 ! 2021-07-29
 jammfm.nl##.owl-carousel:has(.sa_hover_container):has([style*="/banner"])
 jammfm.nl##.vc_row-flex.vc_row[style*="width: 1578px;"]:has(.qt-sponsor)
