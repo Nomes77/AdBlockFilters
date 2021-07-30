@@ -1,3 +1,6 @@
+! https://github.com/BPower0036/AdBlockFilters/30
+||wp.com/romagazine.nl/*/wp-content/uploads/*/enschede*?w=665$image
+||wp.com/romagazine.nl/*/wp-content/uploads/*/*.jpg?w=665$image
 ! 2021-07-29
 ||optimole.com/*/https://www.jammfm.nl/wp-content/uploads/*/banner$image
 ||optimole.com/*/https://www.jammfm.nl/wp-content/uploads/*/BW_logo_blok_rgb_$image
