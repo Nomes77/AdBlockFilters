@@ -22,9 +22,12 @@ $removeparam=/^source/,domain=googleusercontent.com
 ||bing.com^$removeparam=/^(cvid|form|pc|qp|qs|sc|sk|sp)=/
 @@||bing.*^/WS/redirect/$removeparam=/^(cvid|form|qp|qs|sc|sk|sp)=/
 ||duckduckgo.com^$removeparam=t
+||library.etf.edu/cgi-bin/koha/opac-detail.pl?biblionumber=$removeparam=query_desc
 ||linkedin.com^$removeparam=/^(refId|trk)=/
-||twitter.com^$removeparam=/^(cn|ref_url|s)=/
-||www.amazon.*^$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ie|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
+||linkedin.com/authwall?$removeparam=/^(originalReferer|trkInfo)=/
+||play.google.*^$removeparam=referrer
+||twitter.com^$removeparam=/^(cn|ref_src|ref_url|s)=/
+||www.amazon.*^$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
 ||www.amazon.*^/dp/$removeparam=tag
 ||www.amazon.*^/aa$removeparam=bitCampaignCode
 ||www.ebay.*^$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
@@ -41,12 +44,14 @@ $removeparam=/^source/,domain=googleusercontent.com
 ||fburl.com^$important
 ||tfbnw.net^$important
 @@||www.facebook.com/plugins/video.php$subdocument
-@@||z-p42-instagram.c10r.facebook.com^$script
+@@||z-p42-instagram.c10r.facebook.com^$script,frame
+@@||instagram.c10r.facebook.com^$script
 ! /^https:\/\/(?:[\W|\w]*)google\.com\/js\/(?:client\:)?plusone\.js/
 ||google.com/js/client:plusone.js
 ||google.com/js/plusone.js
 ||spot.im/embed/scripts/launcher.js
 /cdn-cgi/pe/bag2?*connect.facebook.
+dagelijksestandaard.nl##.post-body > .fb-page
 ! --AdGuard Tracking Protection
 .demdex.net/id^$redirect=noop.txt
 ||c00.adobe.com^$redirect=noop.txt
@@ -57,16 +62,9 @@ $removeparam=/^source/,domain=googleusercontent.com
 /cleardot.gif$image,xhr,redirect=1x1.gif
 ! --Block access to LAN
 /^\w+:\/\/(?:(?:[1-9]?\d|[1]\d\d|24\d|25[0-5])\.){3}(?:[1-9]?\d|1\d\d|24\d|25[0-5])[:\/]/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-/^\w+:\/\/\[(?:[a-f0-9]{1,4}:+){1,7}[a-f0-9:]{1,4}\](?::|\/|\/[0-9]{1,3})$/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-! /^\w+://10\.(?:(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))\.){2}(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-! /^\w+://172\.(?:1[6-9]|2\d|3[01])(?:\.(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))){2}[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-! /^\w+://192\.168(?:\.(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))){2}[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-! /^\w+://\[f(?:[cd][0-9a-f]|e[89a-f])[0-9a-f]:[0-9a-f:]+\][:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-! /^\w+://169\.254\.(?:[1-9]\d?|1\d{2}|2(?:[0-4]\d|5[0-4]))\.(?:[1-9]?\d|1\d{2}|2(?:[0-4]\d|5[0-5]))[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-! /^\w+://127\.(?:(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))\.){2}(?:[1-9]?\d|1\d\d|2(?:[0-4]\d|5[0-5]))[:/]/$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+/^\w+:\/\/\[(?:[a-f0-9]{1,4}:+){1,7}[a-f0-9:]{1,4}\](?::\d{1,3}\/|\/\d{0,3})$/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||localhost^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-||0.0.0.0^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||[::]^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||local^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ! --Blocked countries
@@ -85,6 +83,7 @@ $removeparam=/^source/,domain=googleusercontent.com
 @@||naturalnews.com/*=$script,1p,badfilter
 /^https:\/\/(?:www\.)?naturalnews\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/js\/ads)\.js$/$script,1p
 y8.com###Y8_Top_of_Games
+||support.brighteon.com/ARF/
 
 ! ANNOYANCES
 ! --Annoyances (uBlock en van mij)
@@ -109,7 +108,7 @@ gab.com##aside[class]:has-text(Upgrade)
 gab.com##article[data-id^="timeline-injection"]
 ! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-instagram.com##article[role="presentation"] > div[class] > div[class] > div[class]:has([aria-label^="Information icon"]):not([role="presentation"])
+instagram.com##article[role="presentation"] > div[class] > div[class] > div[class]:has([aria-label^="Information icon"]:not([role="presentation"]))
 instagram.com##div[class][role="presentation"]:has([role="dialog"] > div[class] > div[class] > div[class] > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"])
 instagram.com##div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
 news.google.com##[jsdata*="covid-banner"]
