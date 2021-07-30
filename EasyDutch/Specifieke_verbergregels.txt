@@ -1,4 +1,6 @@
 ! 2021-07-30
+knhs.nl##div.row:has( > section > .cycler:has(img[src*="banner"]))
+knhs.nl##.banners-right
 uiennieuws.nl##.banner
 computable.nl##.sponsored
 nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
