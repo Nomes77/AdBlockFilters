@@ -1,3 +1,8 @@
+! https://github.com/easylist/easylistdutch/commit/fad584d1e64f36ccc252c6f9ccc786c1d1b7548e
+! https://github.com/easylist/easylistdutch/commit/a6265915191d95f6f01884b00b72c72c69fe9f7c
+marktplaats.nl,2dehands.be###top-banner-wrapper
+marktplaats.nl,2dehands.be##.banner-row
+marktplaats.nl,2dehands.be###banner-top-dt
 ! https://github.com/easylist/easylistdutch/commit/5461a08ca805572300c38ba1e710f0fd9991b698
 startpagina.nl##.banner
 ! 2021-07-29
