@@ -1,4 +1,5 @@
 ! 2021-07-30
+villamedia.nl##[href^="https://www.anp.nl/start"]
 knhs.nl##div.row:has( > section > .cycler:has(img[src*="banner"]))
 knhs.nl##.banners-right
 uiennieuws.nl##.banner
