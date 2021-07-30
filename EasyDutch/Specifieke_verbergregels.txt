@@ -1,6 +1,7 @@
 ! https://github.com/BPower0036/AdBlockFilters/30
 romagazine.nl##aside > .textwidget [src*="wp.com/romagazine.nl/"][src*="/wp-content/uploads/"][src$="?w=665"]
 ! 2021-07-30
+nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
 historiek.net##[id^="custom_html"]:has-text(/Advertentie/i)
 top40.nl##[id^="sky"]:has(script:has-text(AdvertSlot))
 ! https://github.com/easylist/easylistdutch/commit/fad584d1e64f36ccc252c6f9ccc786c1d1b7548e
