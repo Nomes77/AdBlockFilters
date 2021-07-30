@@ -21,7 +21,7 @@ maaslandradio.nl##.slides
 noordkopcentraal.nl##.ewic-slider-pro-widget
 noordkopcentraal.nl##.headbanner
 ! 2021-07-28
-netonline.be##table.text_12_jobs_only > tbody:has(td[width="10"]
+netonline.be##.text_12_jobs_only
 neuk-sexcontact.be##.well:has([src*=".sdcash.nl/"])
 netonline.be##.tekstboldwit:has-text(ADVERT)
 oogtv.nl##.home-banner
