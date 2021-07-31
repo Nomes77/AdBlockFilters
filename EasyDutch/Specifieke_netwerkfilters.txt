@@ -1,4 +1,5 @@
 ! 2021-07-31
+||christelijknieuws.nl/upload/modules/banner/$image
 ||kookboekennieuws.nl/wp-content/uploads/*/*-banners-*.$image
 ! 2021-07-30
 ||knhs.nl/imagegen.ashx?image=/media/1*&width=360&constrain=true$image
