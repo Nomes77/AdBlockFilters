@@ -1,3 +1,6 @@
+! 2021-07-31
+marokko.nl###ad-rec-btf
+marokko.nl##.ad_inner
 ! 2021-07-30
 nieuws.besteoverzicht.nl##.block:has-text(Gesponsorde)
 nederlandsmedianieuws.nl##.sidebar:has-text(Advert)
