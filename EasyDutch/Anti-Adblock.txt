@@ -15,6 +15,4 @@ zeelandnet.nl##.bnr-notice
 @@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
 directwonen.nl#@#.adsbox
 filmtotaal.nl##+js(nofab)
-fok.nl#@#.advertentie
-forum.fok.nl#@##advertentie
 girlscene.nl##+js(set, adblock, 0)
