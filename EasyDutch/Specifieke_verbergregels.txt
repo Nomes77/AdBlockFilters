@@ -1,4 +1,5 @@
 ! 2021-08-01
+tijd.be##.ac_paragraph:has(.bb_wrapper)
 tpo.nl##section:has(.daisyconWidget)
 starnieuws.com###topstory > div:has-text(Advertentie)
 seksmet.nl##.et_pb_text:has(div[class] > center > a[href]):not(:has(h3.heading-more))
