@@ -448,7 +448,6 @@ autozine.nl##aside > .ad
 handbalstartpunt.nl##aside.widget-banner
 zeelandnet.nl##aside:has([id^="div-gpt-ad"])
 digitaalburg.com##aside[class^="widget widget_text"]
-oops.nl##body > table > tbody > tr > td[background]:style(height:55px!important;)
 dekrantvantoen.nl##body:style(margin-top:-20px!important)
 oops.nl##center:has-text(Klik hier voor meer webcams)
 historiek.net##div.ai-viewport-1
