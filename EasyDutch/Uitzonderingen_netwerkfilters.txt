@@ -30,5 +30,4 @@
 @@||help.marktplaats.nl/s/sfsites/aura$xmlhttprequest,domain=help.marktplaats.nl
 @@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl|vtm.be
-@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=sdok.nl
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
