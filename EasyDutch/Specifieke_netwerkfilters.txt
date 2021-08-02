@@ -1,7 +1,7 @@
-! 2021-08-01
-||wp.com/romagazine.nl/*/wp-content/uploads/*/*.jpg?zoom=2&w=665$image
-||wp.com/romagazine.nl/*/wp-content/uploads/*/*.gif?w=665$image
-||wp.com/romagazine.nl/*/wp-content/uploads/*/enschede.*?zoom=2&w=665$image
+! 2021-08-01 / #30
+||wp.com/romagazine.nl/*/wp-content/uploads/*/*.jpg*w=665$image
+||wp.com/romagazine.nl/*/wp-content/uploads/*/*.gif*w=665$image
+||wp.com/romagazine.nl/*/wp-content/uploads/*/enschede.*w=665$image
 ||brandweerspotters.nl/modules/banners/
 ! 2021-07-31
 ||christelijknieuws.nl/upload/modules/banner/*
@@ -13,9 +13,6 @@
 ||cdn.agf.nl/nieuws/gif-jpg/*.gif$image,domain=groentennieuws.nl|uiennieuws.nl
 ||nieuwsonline.nu/header/*advertentie.$image
 ||nieuwsonline.nu/header/samsungwatchfaces.webp$image
-! https://github.com/BPower0036/AdBlockFilters/30
-||wp.com/romagazine.nl/*/wp-content/uploads/*/enschede.*?w=665$image
-||wp.com/romagazine.nl/*/wp-content/uploads/*/*.jpg?w=665$image
 ! 2021-07-29
 ||optimole.com/*/https://www.jammfm.nl/wp-content/uploads/*/banner$image
 ||optimole.com/*/https://www.jammfm.nl/wp-content/uploads/*/BW_logo_blok_rgb_$image
