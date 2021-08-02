@@ -1,3 +1,7 @@
+! 2021-08-01
+wielerflits.be###mm_hpa
+wielerflits.be##.affiliate_links
+wielerflits.be##.mm_container
 ! 2021-07-31
 vlietnieuws.nl##.banner_wrapper
 marokko.nl###ad-rec-btf
