@@ -1,4 +1,5 @@
 ! 2021-08-01
+starnieuws.com###topstory > div:has-text(Advertentie)
 seksmet.nl##.et_pb_text:has(div[class] > center > a[href]):not(:has(h3.heading-more))
 stadszaken.nl##.b-side
 brandweerspotters.nl###banners
@@ -140,7 +141,6 @@ oisterwijknieuws.nl###left-sidebar
 vlaanderen-sexdate.be###linkpartners > :has(.homebanner)
 seksmet.nl###main-header-wrapper
 wielerflits.nl###mm_hpa
-starnieuws.com###overig_nieuws
 sexpower.nl###pre-footer-banners
 bdsmbook.nl###random_banner_widget-2
 xxxdump.nl###reclame-eroads
