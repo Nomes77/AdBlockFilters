@@ -1,8 +1,10 @@
-! 2021-08-01 / #30
+! 2021-08-01
+||vlietnieuws.nl/wp-content/plugins/custom-banners/*$script,1p
+||brandweerspotters.nl/modules/banners/
+! 2021-08-01 / https://github.com/BPower0036/AdBlockFilters/30
 ||wp.com/romagazine.nl/*/wp-content/uploads/*/*.jpg*w=665$image
 ||wp.com/romagazine.nl/*/wp-content/uploads/*/*.gif*w=665$image
 ||wp.com/romagazine.nl/*/wp-content/uploads/*/enschede.*w=665$image
-||brandweerspotters.nl/modules/banners/
 ! 2021-07-31
 ||christelijknieuws.nl/upload/modules/banner/*
 ||kookboekennieuws.nl/wp-content/uploads/*/*-banners-*.
