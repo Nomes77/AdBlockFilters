@@ -1,6 +1,8 @@
+! 2021-08-01
+||brandweerspotters.nl/modules/banners/
 ! 2021-07-31
-||christelijknieuws.nl/upload/modules/banner/$image
-||kookboekennieuws.nl/wp-content/uploads/*/*-banners-*.$image
+||christelijknieuws.nl/upload/modules/banner/*
+||kookboekennieuws.nl/wp-content/uploads/*/*-banners-*.
 ! 2021-07-30
 ||knhs.nl/imagegen.ashx?image=/media/1*&width=360&constrain=true$image
 ||knhs.nl/imagegen.ashx?image=/media/1*/*banner-*&width=550&constrain=true$image
