@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/commit/0e00d39ec68f453a0bf1058dd92bc8ff689008ed
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,sportid.be,tenniskrant.be,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
 ! 2021-08-01
 stadszaken.nl##.b-side
 brandweerspotters.nl###banners
