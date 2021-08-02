@@ -1,7 +1,5 @@
-! https://github.com/easylist/easylistdutch/commit/0e00d39ec68f453a0bf1058dd92bc8ff689008ed
-atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
-atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,sportid.be,tenniskrant.be,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
 ! 2021-08-01
+seksmet.nl##.et_pb_text:has(div[class] > center > a[href]):not(:has(h3.heading-more))
 stadszaken.nl##.b-side
 brandweerspotters.nl###banners
 unity.nu##.banner
@@ -9,6 +7,9 @@ koopplein.nl##.ad
 wielerflits.be###mm_hpa
 wielerflits.be##.affiliate_links
 wielerflits.be##.mm_container
+! https://github.com/easylist/easylistdutch/commit/0e00d39ec68f453a0bf1058dd92bc8ff689008ed
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,tenniskrant.be,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.imu
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,sport-planet.eu,sportid.be,tenniskrant.be,volleybalkrant.be,vrouwenvoetbalkrant.be,wielerkrant.be##.leaderboard
 ! 2021-07-31
 vlietnieuws.nl##.banner_wrapper
 marokko.nl###ad-rec-btf
@@ -255,7 +256,6 @@ decibel.nl##.edgtf-carousel-holder
 sexcam-mokkels.nl,tellows.nl##.entry-content > div
 dutchporntube.nl##.entry-header > .button
 seksmet.nl##.et_pb_module:has(.gofollow:has(img[src]))
-seksmet.nl##.et_pb_text:has(div[class] > center > a[href])
 fd.nl##.fd-message-home-header
 vagina.nl##.fish-hook
 wanttoknow.nl##.float-right
