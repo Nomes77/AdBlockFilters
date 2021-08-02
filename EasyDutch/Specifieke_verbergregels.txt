@@ -1,4 +1,5 @@
 ! 2021-08-01
+gratiscams.nl###menuinner > ul#menuinner > .cat
 tijd.be##.ac_paragraph:has(.bb_wrapper)
 tpo.nl##section:has(.daisyconWidget)
 starnieuws.com###topstory > div:has-text(Advertentie)
