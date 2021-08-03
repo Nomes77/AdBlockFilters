@@ -1,3 +1,5 @@
+! 2021-08-03
+||cdn.shortpixel.ai/client/*/https://groningerkrant.nl/wp-content/uploads/*/Rijschool-in-Groningen*.$image
 ! 2021-08-02
 ||shespot.nl/wp-content/uploads/*/vibrators.gif$image
 ||onderwegonline.nl/app/uploads/*/*-banner-*.$image
