@@ -1,5 +1,8 @@
+! 2021-08-03
+@@||ptwmstc.com/*/tube-player/script/*.js$script,domain=potwm.com
+@@||potwm.com/api/video-promotion/v1/get-$xhr,domain=camsexbabe.nl|potwm.com
 ! 2021-06-30
-@@||pt.protoawe.com/embed/tbplyr/*$script,domain=lekkerewebcams.nl|gratispornofilm.nl|teen-sex.nl
+@@||protoawe.com/embed/tbplyr/*$script,domain=lekkerewebcams.nl|gratispornofilm.nl|teen-sex.nl
 ! 2021-06-29
 @@/images/volgende.gif$image,1p,domain=sexdatingholland.com|studentesexcontact.nl|tienersexpret.nl|zinomteneuken.nl
 ! 2021-05-19
@@ -10,8 +13,8 @@
 @@||media.plista.com^*$image,domain=totaaltv.nl
 ! 2021-05-07
 @@||tools.vpscash.nl/webcams/promo/plug_play_webcams/*$subdocument,domain=beeldbelsex.com
-@@||pt.prtawe.com/embed/tbplyr/*$script,domain=camsexbabe.nl
-@@||pt.potwm.com/tube-player/*$subdocument,domain=camsexbabe.nl
+@@||prtawe.com/embed/tbplyr/*$script,domain=camsexbabe.nl
+@@||potwm.com/tube-player/*$subdocument,domain=camsexbabe.nl
 ! 2021-05-05
 @@||dekrantvantoen.nl/resources/*/images/*_336x120.$image
 ! 2021-05-04
