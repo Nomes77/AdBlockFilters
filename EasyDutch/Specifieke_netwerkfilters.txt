@@ -1,4 +1,8 @@
 ! 2021-08-04
+||dorpsklanken.online/wp-content/uploads/*/*_300x100*.gif$image
+||dorpsklanken.online/wp-content/uploads/*/DK-online-*.gif$image
+||dorpsklanken.online/wp-content/uploads/*/Knap-IT_Paterswolde.png$image
+||dorpsklanken.online/wp-content/uploads/*/polling_basis.jpg$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/MBA-regiobank-*.gif$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/lelieveld-*.jpg$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/parelexpres.jpg$image
