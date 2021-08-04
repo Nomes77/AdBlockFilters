@@ -1,4 +1,6 @@
 ! 2021-08-04
+seksmet.nl##.gofollow:has(img[src])
+seksmet.nl##.et_pb_module:has(iframe[src*="dt51.net"])
 dorpsklanken.online##.advertenties
 dutchporntube.nl##[id^="custom_html"]:has-text(Kennismaken en Afspreken)
 funnygames.be,funnygames.nl##.is-billboard.slot-container
@@ -273,7 +275,6 @@ decibel.nl##.edgtf-carousel-holder
 247spice.com##.elementor-element-2da19501 + .elementor-element-6406e483
 sexcam-mokkels.nl,tellows.nl##.entry-content > div
 dutchporntube.nl##.entry-header > .button
-seksmet.nl##.et_pb_module:has(.gofollow:has(img[src]))
 fd.nl##.fd-message-home-header
 vagina.nl##.fish-hook
 wanttoknow.nl##.float-right
