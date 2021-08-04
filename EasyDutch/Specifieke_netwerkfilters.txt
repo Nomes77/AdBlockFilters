@@ -1,4 +1,5 @@
 ! 2021-08-04
+||tools-affil2.com/rtb/index.php$subdocument,domain=beeldbelsex.com
 ||sedproductions.nl/banners/*.gif$image,domain=cumcams.nl
 /wp-content/uploads/*.gif$image,domain=ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|seksmet.nl|shespot.nl|tube.nederlandseporno.nl
 ||dorpsklanken.online/wp-content/uploads/*/*_300x100*.gif$image
