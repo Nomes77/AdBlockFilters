@@ -237,7 +237,6 @@ bieos-omroep.nl##.bieos-widget
 rtlnieuws.nl##.billboard
 rubenweytjens.be##.block-ad-banner
 scholieren.com##.blockvertorial
-gic.nl##.btn-adverteren
 geile-sexcontacten.be##.card:has([src^="https://www.affilaxy.com/promos/"])
 nederlandsexdate.nl##.card-header:has-text(Advertentie)
 halstadcentraal.nl##.carouselbanner_left
