@@ -1,3 +1,5 @@
+! 2021-08-04
+ero-meiden.nl,geilverlangen.nl##.widget_media_image > a[href]:has(.size-full.attachment-full)
 ! https://github.com/easylist/easylistdutch/commit/c6e77ae7b109af11af111047b2f8e0d657b16bda
 oisterwijknieuws.nl##.sam-container
 oisterwijknieuws.nl##a[target="_blank"] > img
@@ -349,7 +351,6 @@ softonic.nl##.sam-slot
 telegraaf.nl##.SectionPage__bannerWrapper
 nederlandsextube.nl##.side
 pcmweb.nl##.site__sidebar > .block:has(div.banner)
-ero-meiden.nl,geilverlangen.nl##.size-full.attachment-full
 geenstijl.nl##.slajeslag
 247spice.com##.slideInLeft.animated:has-text(Advert)
 waarzo.nl##.smallbox:has-text(Advertentie)
