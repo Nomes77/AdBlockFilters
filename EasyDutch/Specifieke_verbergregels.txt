@@ -183,7 +183,7 @@ rtl.be###w-leaderboard
 nederland.fm###xbtm > .shadow
 nederland.fm###xttm > .shadow
 androidplanet.nl,iphoned.nl##.aa-top-dog
-games.nl,hyvesgames.nl,limburger.nl,standaard.be,tripadvisor.nl##.ad
+hyvesgames.nl,limburger.nl,standaard.be,tripadvisor.nl##.ad
 marokko.nl##.ad_between
 tvgids24.nl##.adBoxbig
 standaard.be##.ad--button
