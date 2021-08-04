@@ -1,4 +1,5 @@
 ! 2021-08-04
+geilverlangen.nl##a[href] > img.size-full.aligncenter
 ero-meiden.nl,geilverlangen.nl##.widget_media_image > a[href]:has(.size-full.attachment-full)
 ! https://github.com/easylist/easylistdutch/commit/c6e77ae7b109af11af111047b2f8e0d657b16bda
 oisterwijknieuws.nl##.sam-container
@@ -420,7 +421,6 @@ pornokartel.nl##[href*="pornokartel.nl/adverteren"]
 sexfun.nl##[href^="https://ads.v1d305.com/redirect/"]
 seksmet.nl##[href^="https://dt51.net/"]
 beeldbelsex.com##[href^="https://islive.com/"]
-geilverlangen.nl##[href^="https://www.stout-flirten.nl/lp/"]
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 beeldbelsex.com##[href^="https://www.twero.com/"]
 vagina.nl##[href^="https://xltube.nl/click/mad/"]
