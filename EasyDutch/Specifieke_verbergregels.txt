@@ -1,4 +1,6 @@
 ! 2021-08-04
+funnygames.be,funnygames.nl##.is-billboard.slot-container
+funnygames.be,funnygames.nl##.is-skyscraper.slot-container
 geilverlangen.nl##a[href] > img.size-full.aligncenter
 ero-meiden.nl,geilverlangen.nl##.widget_media_image > a[href]:has(.size-full.attachment-full)
 ! https://github.com/easylist/easylistdutch/commit/c6e77ae7b109af11af111047b2f8e0d657b16bda
