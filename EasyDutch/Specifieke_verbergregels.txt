@@ -469,7 +469,6 @@ barneveldsekrant.nl##div.bg-grey.text-center:has-text(Regiotreffers)
 pcmweb.nl##div.block:has([id^="div-gpt-ad"])
 pcmweb.nl##div.block:has-text(Vacatures)
 classic.nl##div.brievenbus
-direct-sexdate.be##div.card:has([href*="www.datepartner.be"])
 direct-sexdate.be##div.card:has(img[src*="/banner"])
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
 watchfaces.be##div.google
