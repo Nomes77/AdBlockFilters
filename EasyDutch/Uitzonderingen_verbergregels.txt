@@ -1,4 +1,6 @@
 ! Uitzonderingen voor EasyList
+! 2021-08-04
+focus-wtv.be#@#.sponsored-article
 ! 2021-07-07
 directwonen.nl#@#.top-advert
 ! 2021-06-04
