@@ -1,4 +1,6 @@
 ! 2021-08-05
+androidplanet.nl,iphoned.nl##header[data-name="featured-header"]
+androidplanet.nl,iphoned.nl##[data-name="dynamic-content"][data-nosnippet]
 modekoninginmaxima.nl##.after-content-ad:not(:has-text(Niets van deze website mag verveelvoudigd))
 modekoninginmaxima.nl##.advertisement
 ! 2021-08-04
@@ -152,7 +154,6 @@ oops.nl###dropinboxv2cover
 538.nl###eCommerce
 pornoplekje.nl###exitpopup-modal
 bellotube.com###exo
-androidplanet.nl,iphoned.nl###featured-header
 bokt.nl###frontpage_mediumrect
 nu.nl###header > .zone
 nieuws.nl###header-banner
@@ -271,8 +272,6 @@ tijd.be##.c-sitenavPlaceholder__ad
 dating-zoeken.nl,hete-sexcontacten.nl,milf-overzicht.nl,sexdating-afspraak.nl,sexdating-gids.be,sexdatinggids.be,vrouwensexdate.nl##.d-lg-block.d-none:has-text(Advert):not(:has(.jcarousel-skin-tango))
 geile-sexcontacten.be##.d-lg-block:has-text(Advert)
 tpo.nl##.dusWhite.mainContent
-androidplanet.nl,iphoned.nl##.dynamic-content[data-nosnippet]
-androidplanet.nl,iphoned.nl##.dynamic-content-native
 turksemedia.nl##.easingslider
 decibel.nl##.edgtf-carousel-holder
 247spice.com##.elementor-element-2da19501 + .elementor-element-6406e483
