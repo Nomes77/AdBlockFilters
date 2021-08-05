@@ -1,3 +1,5 @@
+! 2021-08-05
+modekoninginmaxima.nl##.advertisement
 ! 2021-08-04
 seksmet.nl##.gofollow:has(img[src])
 seksmet.nl##.et_pb_module:has(iframe[src*="dt51.net"])
