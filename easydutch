@@ -17,3 +17,4 @@
 !#include EasyDutch/Specifieke_verbergregels.txt
 !#include EasyDutch/Uitzonderingen_verbergregels.txt
 !#include EasyDutch/Anti-Adblock.txt
+!#include EasyDutch/Geen_uBlock_Filters.txt
