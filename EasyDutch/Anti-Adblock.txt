@@ -13,7 +13,6 @@ webwereld.nl##+js(set, adBlockStatus, false)
 nu.nl##+js(set, isAdBlockEnabled, false)
 ! 2021-04-27
 ||goplay.be/js/sourcepoint/msg?v=
-zeelandnet.nl##.bnr-notice
 @@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
 directwonen.nl#@#.adsbox
 filmtotaal.nl##+js(nofab)
