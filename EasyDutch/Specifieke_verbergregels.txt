@@ -1,4 +1,5 @@
 ! 2021-08-05
+modekoninginmaxima.nl##.after-content-ad:not(:has-text(Niets van deze website mag verveelvoudigd))
 modekoninginmaxima.nl##.advertisement
 ! 2021-08-04
 seksmet.nl##.gofollow:has(img[src])
