@@ -36,3 +36,4 @@ whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be##.blocker
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=nieuwsblad.be
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=nieuwsblad.be
 !#endif
+@@||laredoute.com^$image,domain=laredoute.nl|laredoute.lu
