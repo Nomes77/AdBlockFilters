@@ -18,7 +18,6 @@ nl.hardware.info##^script:has-text(Inject=!)
 vtm.be##+js(set, __PLAYER_AD__, true)
 @@||fwmrm.net/ad/$script,xhr,domain=vtm.be
 girlscene.nl##.ad-container
-@@*$ghide,domain=quickclaims.nl
 @@||ah.nl^$ghide
 @@||cdn.vuplay.co.uk/*/comscore.$script,domain=vrt.be,sporza.be
 @@||quantcast.mgr.consensu.org/*/cmp2.js$script,domain=vi.nl
