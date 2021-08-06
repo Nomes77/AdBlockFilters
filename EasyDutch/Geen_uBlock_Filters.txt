@@ -1,1 +1,12 @@
-! Voor als u geen uBlock Filters gebruikt. In case you don't use the uBlock Filters.
+! Voor als u geen uBlock Filters gebruikt, maar AdGuard Base. In case you don't use the uBlock Filters, but AdGuard Base.
+! uBlock Filters - Unbreak
+@@||2mdn.net/instream/html5/ima3.js$script,domain=geenstijl.nl
+@@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
+@@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
+@@||coolblue.nl^*/ard.png$script,1p
+@@||flightapi.travix.com/flight$xhr,domain=cheaptickets.nl
+!#if env_firefox
+@@||markup.nieuwsblad.be/extra/assets/advertising/prebid.js$script,1p
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=nieuwsblad.be
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=nieuwsblad.be
+!#endif
