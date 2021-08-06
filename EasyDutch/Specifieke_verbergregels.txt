@@ -1,4 +1,5 @@
 ! 2021-08-06
+azerty.nl##.block.mod_article:has(.flexslider)
 quickclaims.nl##.overlay:has([src^="blob:https://quickclaims.nl/"])
 ! 2021-08-05
 androidplanet.nl,iphoned.nl##header[data-name="featured-header"]
@@ -112,7 +113,6 @@ luchtvaartnieuws.nl##.block-block >.content:has(.adsbygoogle)
 ! https://github.com/AdguardTeam/AdguardFilters/commit/212efadfcaebd2aff2fa53c7173d4edaba3d3f0a
 tweakers.net##.video-container > iframe[src^="https://ads.pexi.nl/"]
 ! 2021-07-06
-azerty.nl##.block.mod_article
 buienradar.nl##.uitradar:has(img[src*=".nl/resources//images/promo/"])
 weerplaza.nl##.hf-widget
 ! 2021-07-02
