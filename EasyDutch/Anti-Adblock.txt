@@ -5,8 +5,6 @@ marokko.nl##+js(set, ads_toegestaan, true)
 notebookcheck.nl##+js(acis, document.getElementById, send)
 ! 2021-05-04
 112midden-zeeland.nl##+js(aopr, anOptions)
-! 2021-05-03
-||improvedigital.com/*/headerlift.min.js$script,redirect-rule=noop.js,domain=funnygames.be|funnygames.nl|spele.be|spele.nl
 ! 2021-04-28
 webwereld.nl##+js(set, adBlockStatus, false)
 nu.nl##+js(set, isAdBlockEnabled, false)
