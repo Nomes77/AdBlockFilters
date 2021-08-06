@@ -12,15 +12,17 @@ $removeparam=/^(action_object_map|action_ref_map|action_type_map)=/
 $removeparam=/^(fbclid|fb_action_|fb_comment_id|fb_ref|fb_source)/
 $removeparam=/^(dclid|gclid|gclsrc|guccounter|guce_referrer|guce_referrer_sig|yclid)=/
 $removeparam=/^(_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
+$removeparam=/^(bsft_aaid|bsft_clkid|bsft_eid|bsft_ek|bsft_mid|bsft_uid)=/
 $removeparam=/^utm_/
 $removeparam=/^source/,domain=googleusercontent.com
 ||www.google.com/url?$removeparam=ved
 ||google.*^$removeparam=tab
-||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|dpr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact|ved)=/
+||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|dpr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact)=/
 ||google.*/search$removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/
 ||aliexpress.*^$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
 ||bing.com^$removeparam=/^(cvid|form|pc|qp|qs|sc|sk|sp)=/
 @@||bing.*^/WS/redirect/$removeparam=/^(cvid|form|qp|qs|sc|sk|sp)=/
+||bol.com^$removeparam=Referrer
 ||duckduckgo.com^$removeparam=t
 ||library.etf.edu/cgi-bin/koha/opac-detail.pl?biblionumber=$removeparam=query_desc
 ||linkedin.com^$removeparam=/^(refId|trk)=/
@@ -46,7 +48,6 @@ $removeparam=/^source/,domain=googleusercontent.com
 @@||www.facebook.com/plugins/video.php$subdocument
 @@||z-p42-instagram.c10r.facebook.com^$script,frame
 @@||instagram.c10r.facebook.com^$script
-! /^https:\/\/(?:[\W|\w]*)google\.com\/js\/(?:client\:)?plusone\.js/
 ||google.com/js/client:plusone.js
 ||google.com/js/plusone.js
 ||spot.im/embed/scripts/launcher.js
@@ -61,7 +62,7 @@ dagelijksestandaard.nl##.post-body > .fb-page
 ! --Gmail tracking
 /cleardot.gif$image,xhr,redirect=1x1.gif
 ! --Block access to LAN
-/^\w+:\/\/(?:(?:[1-9]?\d|[1]\d\d|24\d|25[0-5])\.){3}(?:[1-9]?\d|1\d\d|24\d|25[0-5])[:\/]/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+/^/w+:\/\/(?:(?:[1-9]?\d|[1]\d\d|24\d|25[0-5])\.){3}(?:[1-9]?\d|1\d\d|24\d|25[0-5])[:\/]/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 /^\w+:\/\/\[(?:[a-f0-9]{1,4}:+){1,7}[a-f0-9:]{1,4}\](?::\d{1,3}\/|\/\d{0,3})$/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||localhost^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
@@ -82,16 +83,22 @@ dagelijksestandaard.nl##.post-body > .fb-page
 ||naturalnews.com^$script,badfilter
 @@||naturalnews.com/*=$script,1p,badfilter
 /^https:\/\/(?:www\.)?naturalnews\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/js\/ads)\.js$/$script,1p
-y8.com###Y8_Top_of_Games
 ||support.brighteon.com/ARF/
+y8.com###Y8_Top_of_Games
 
 ! ANNOYANCES
 ! --Annoyances (uBlock en van mij)
+/ad-blocking-advisor/*
+/emma-content-aggregates-prd.
+/snowfall.jquery.js$script
 /wp-content/plugins/append-link-on-copy/*$script,1p
+/wp-content/plugins/christmasify/*
 /wp-content/plugins/content-protector-pack/*
 /wp-content/plugins/image-watermark/*$script
 /wp-content/plugins/rcd-right-click-disabler/*$script,1p
 /wp-content/plugins/secure-copy-content-protection/*$script
+/wp-content/plugins/simple-adblock-notice/*$~css
+/wp-content/plugins/ungrabber/js/*$script
 /wp-content/plugins/wp-content-copy-protection/*
 ||foxpush.net^$3p
 ||holyclock.com^$3p
@@ -102,6 +109,17 @@ y8.com###Y8_Top_of_Games
 @@||y8.com/games/*.js?referer=$xhr,domain=y8.com
 @@||imasdk.googleapis.com/js/$script,domain=y8.com
 drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/api2/anchor?"])
+freebitco.in###bottom_user_ads_container
+freebitco.in###fp_multiplier_bonuses_main_div
+freebitco.in###fp_provably_fair_link
+freebitco.in###req_for_bonuses_link
+freebitco.in##.alert-box
+freebitco.in##.cc_banner
+freebitco.in##.daily_jackpot_main_container_div
+freebitco.in##.free_play_bonus_box_large
+freebitco.in##.premium_buy_more_tokens
+freebitco.in##.reveal-modal-bg
+freebitco.in##.reveal-modal
 gab.com##aside[class]:has-text(Dissenter)
 gab.com##aside[class]:has-text(Gab TV)
 gab.com##aside[class]:has-text(Upgrade)
@@ -118,6 +136,7 @@ pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
 pinterest.*##body:style(overflow-y: scroll !important;)
 pinterest.*##div[style^="filter:"]:style(filter: none !important)
+sharesome.com##article[id^="post"]:has(header[class] span[class]:has-text(Promoted Post))
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
@@ -147,6 +166,7 @@ www.youtube.com##yt-upsell-dialog-renderer.style-scope
 diffchecker.com##+js(nostif, adStillHere)
 radarbox.com##+js(set, ads_enabled, true)
 ! --Anti SocialMedia Plugins
+##.share-buttons
 *share_ico*$~css
 *social_ico*$~css
 /addtoany/*.js
@@ -177,6 +197,7 @@ radarbox.com##+js(set, ads_enabled, true)
 /social/img/*$image
 /wp-content/*/social_$~stylesheet
 /\/wp-content\/plugins\/[\W|\w]+social(?:-login|-media-icons|-share|media-buttons)/$~css
+/wp-content/plugins/*/assets/lib/share-link/*$script,1p
 /wp-content/plugins/add-to-any/*
 /wp-content/plugins/easy-facebook-likebox/*
 /wp-content/plugins/easy-twitter-feed-widget$~css
@@ -207,6 +228,7 @@ radarbox.com##+js(set, ads_enabled, true)
 ||lessbuttons.com^$third-party
 ||likebtn.com^$third-party
 ||linkedin.com/shareArticle$third-party
+||pinterest.com/images/PinExt.png$image
 ||pinterest.com/js/pinit$script,3p
 ||pinterest.com/pin/*/button/?url=$third-party
 ||pinterest.com/pinit.html$third-party
