@@ -7,7 +7,6 @@
 ||mmcdn.nl^$3p
 ||flowcdn.nl/js/devtools-detector.js^
 ||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=spel.nl
-||static.chartbeat.com/js/chartbeat.js$script,redirect=static.chartbeat.com/chartbeat.js,domain=gamer.nl
 fok.nl##+js(aeld, , DAB)
 fok.nl###wa_web_headertofloor
 gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
