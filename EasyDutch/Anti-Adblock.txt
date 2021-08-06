@@ -1,7 +1,6 @@
 ! 2021-08-06
 marokko.nl##+js(set, ads_toegestaan, true)
-@@*$ghide,domain=modekoninginmaxima.nl|quickclaims.nl,badfilter
-modekoninginmaxima.nl,quickclaims.nl##+js(nobab)
+@@*$ghide,domain=modekoninginmaxima.nl|quickclaims.nl
 ! 2021-06-01
 notebookcheck.nl##+js(acis, document.getElementById, send)
 ! 2021-05-04
