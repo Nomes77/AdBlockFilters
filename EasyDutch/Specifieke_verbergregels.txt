@@ -1,3 +1,5 @@
+! 2021-08-06
+quickclaims.nl##.overlay:has([src^="blob:https://quickclaims.nl/"])
 ! 2021-08-05
 androidplanet.nl,iphoned.nl##header[data-name="featured-header"]
 androidplanet.nl,iphoned.nl##[data-name="dynamic-content"][data-nosnippet]
