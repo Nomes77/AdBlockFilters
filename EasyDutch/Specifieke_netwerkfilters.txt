@@ -1,3 +1,7 @@
+! 2021-08-06
+||audiobookbay.nl/images/bin.jpg$image
+||audiobookbay.nl/images/bz.jpg$image
+||audiobookbay.nl/images/fr.jpg$image
 ! 2021-08-05
 ||modekoninginmaxima.nl/sites/default/files/*/*170x600.gif$image
 ! 2021-08-04
