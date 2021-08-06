@@ -11,8 +11,6 @@ seksmet.nl##.gofollow:has(img[src])
 seksmet.nl##.et_pb_module:has(iframe[src*="dt51.net"])
 dorpsklanken.online##.advertenties
 dutchporntube.nl##[id^="custom_html"]:has-text(Kennismaken en Afspreken)
-funnygames.be,funnygames.nl##.is-billboard.slot-container
-funnygames.be,funnygames.nl##.is-skyscraper.slot-container
 geilverlangen.nl##a[href] > img.size-full.aligncenter
 ero-meiden.nl,geilverlangen.nl##.widget_media_image > a[href]:has(.size-full.attachment-full)
 ! https://github.com/easylist/easylistdutch/commit/c6e77ae7b109af11af111047b2f8e0d657b16bda
@@ -305,8 +303,6 @@ voetbalkrant.com##.imu
 weertdegekste.nl##.infeed-outer
 weertdegekste.nl##.infeed-wrap
 dolcevia.com##.ira-container.ira-format-block > .bookingaff
-spele.be,spele.nl##.is-billboard.slot-container
-spele.be,spele.nl##.is-skyscraper.slot-container
 almere-nieuws.nl##.jeg_container > .jeg_container:has(.jeg_ad)
 guldencourant.nl##.jeg_midbar:has([class^="ads-wrapper"])
 beursgorilla.nl##.js--billboard.ut--billboard
