@@ -1,4 +1,32 @@
 ! Voor als u geen uBlock Filters gebruikt, maar AdGuard Base. In case you don't use the uBlock Filters, but AdGuard Base.
+! uBlock Filters
+*$image,redirect-rule=2x2.png,domain=tweakers.net
+||tweakers.net^*.jpeg$removeparam
+@@||tweakers.net^$ghide
+||7mb.nl^$3p
+||mmcdn.nl^$3p
+||flowcdn.nl/js/devtools-detector.js^
+||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=spel.nl
+||static.chartbeat.com/js/chartbeat.js$script,redirect=static.chartbeat.com/chartbeat.js,domain=gamer.nl
+fok.nl##+js(aeld, , DAB)
+fok.nl###wa_web_headertofloor
+gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
+gsurl.be##+js(nowoif)
+icttipsandtricks.nl##+js(acis, String.prototype.charCodeAt, ai_)
+knack.be##+js(nostif, Bait)
+nl.hardware.info##+js(nostif, .call(null), 10)
+nl.hardware.info##^script:has-text(Inject=!)
+vtm.be##+js(set, __PLAYER_AD__, true)
+@@||fwmrm.net/ad/$script,xhr,domain=vtm.be
+girlscene.nl##.ad-container
+@@*$ghide,domain=quickclaims.nl
+@@||ah.nl^$ghide
+@@||cdn.vuplay.co.uk/*/comscore.$script,domain=vrt.be,sporza.be
+@@||quantcast.mgr.consensu.org/*/cmp2.js$script,domain=vi.nl
+@@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
+@@||whiskyprijzen.*^$ghide
+@@||whiskyprix.*^$ghide
+whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be##.blocker
 ! uBlock Filters - Unbreak
 @@||2mdn.net/instream/html5/ima3.js$script,domain=geenstijl.nl
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
