@@ -1,3 +1,5 @@
+! 2021-08-07
+/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|seksmet.nl|shespot.nl|tube.nederlandseporno.nl
 ! 2021-08-06
 ||audiobookbay.nl/images/bin.jpg$image
 ||audiobookbay.nl/images/bz.jpg$image
@@ -7,7 +9,6 @@
 ! 2021-08-04
 ||tools-affil2.com/rtb/index.php$subdocument,domain=beeldbelsex.com
 ||sedproductions.nl/banners/*.gif$image,domain=cumcams.nl
-/wp-content/uploads/*.gif$image,domain=ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|seksmet.nl|shespot.nl|tube.nederlandseporno.nl
 ||dorpsklanken.online/wp-content/uploads/*/*_300x100*.gif$image
 ||dorpsklanken.online/wp-content/uploads/*/DK-online-*.gif$image
 ||dorpsklanken.online/wp-content/uploads/*/Knap-IT_Paterswolde.png$image
@@ -161,11 +162,6 @@
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukencoach-300x250.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukenplaats.jpg
 ! 2021-06-01
-||2sexcontact.nl/wp-content/uploads/*/banner*.gif$image
-||2sexcontact.nl/wp-content/uploads/*/*banner.gif$image
-||2sexcontact.nl/wp-content/uploads/*/escort-boeken.gif$image
-||2sexcontact.nl/wp-content/uploads/*/sexdate-zoeken.gif$image
-||2sexcontact.nl/wp-content/uploads/*/cammen-met-de-heetste-dames.gif$image
 ||meidenzoekensex.nl/assets/img/shemaledate$image
 ||shemaledateonline.nl/banner$image
 ||tienersexpret.nl/images/eroshop$image
