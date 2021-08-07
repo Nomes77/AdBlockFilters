@@ -166,8 +166,6 @@
 ||shemaledateonline.nl/banner$image
 ||tienersexpret.nl/images/eroshop$image
 ||tienersexpret.nl/images/kinkysex$image
-||bekijkporno.nl/wp-content/uploads/*/beste-gratis-webcam-chats$image
-||bekijkporno.nl/wp-content/uploads*/*-camsex-livejasmin$image
 ||antilliaansdagblad.com/images/*-200x200px*.gif$image
 ||ans-online.nl/wp-content/uploads/*/*-banner*.$image
 ! https://github.com/easylist/easylistdutch/commit/32491001fbdbe6e34b3d20ab614b5953b2cd40d6
@@ -191,7 +189,6 @@
 ||amz01.plzcdn.com/a/
 ||antilliaansdagblad.com/images/banners/
 ||beeldbelsex.com/wp-content/uploads/*/bellenafspreken.$image
-||bekijkporno.nl/wp-content/uploads/*/evelive-hete-live-chat$image
 ||belgie-sexcontact.be/images/banners/$image
 ||biernet.nl/bja/$subdocument
 ||biernet.nl/images/extra-bja_camp-bnr/$image
