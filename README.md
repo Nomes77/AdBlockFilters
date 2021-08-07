@@ -27,5 +27,5 @@ It can be handy to use them.
 - [My filters](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/BPower0036/AdBlockfilters/main/my%20filters&title=My%20filters%20list%20uBo)
 
 
-### Support
+## *Support*
 If you want to buy me a cup of coffee or want to support me, you can donate via [PayPal](https://www.paypal.com/donate?hosted_button_id=M4D2NPZX5NS4C)
