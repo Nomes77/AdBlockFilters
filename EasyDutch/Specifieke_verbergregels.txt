@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/issues/16
+marktplaats.nl,2dehands.be##.Banners-bannerFeedItem
 ! https://github.com/easylist/easylistdutch/issues/15
 dumpert.nl##.grid_ad_container
 ! 2021-08-06
