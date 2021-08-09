@@ -12,7 +12,6 @@ fok.nl###wa_web_headertofloor
 gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
 gsurl.be##+js(nowoif)
 icttipsandtricks.nl##+js(acis, String.prototype.charCodeAt, ai_)
-knack.be##+js(nostif, Bait)
 nl.hardware.info##+js(nostif, .call(null), 10)
 nl.hardware.info##^script:has-text(Inject=!)
 vtm.be##+js(set, __PLAYER_AD__, true)
