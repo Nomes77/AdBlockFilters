@@ -1,3 +1,5 @@
+! 2021-08-09
+glutenvrij.nl##.t-banner
 ! https://github.com/easylist/easylistdutch/issues/16
 marktplaats.nl,2dehands.be##.Banners-bannerFeedItem
 ! https://github.com/easylist/easylistdutch/issues/15
