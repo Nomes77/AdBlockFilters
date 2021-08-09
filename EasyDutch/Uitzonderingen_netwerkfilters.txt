@@ -29,7 +29,5 @@
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||te-les-koop.nl/advertenties.php
 @@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hbvl.be|vtm.be
 @@||vtm.be/vmmaplayer/embed?videoUrl=*&adZone=$subdocument,domain=knack.be|zita.be
-@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl|vtm.be
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
