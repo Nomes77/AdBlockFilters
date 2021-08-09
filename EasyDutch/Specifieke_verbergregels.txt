@@ -1,4 +1,6 @@
 ! 2021-08-09
+vagina.nl##div[id^=video-fish-hook]
+vagina.nl##.list-item:has(script[src*=realsrv])
 glutenvrij.nl##.t-banner
 ! https://github.com/easylist/easylistdutch/issues/16
 marktplaats.nl,2dehands.be##.Banners-bannerFeedItem
@@ -286,7 +288,6 @@ decibel.nl##.edgtf-carousel-holder
 sexcam-mokkels.nl,tellows.nl##.entry-content > div
 dutchporntube.nl##.entry-header > .button
 fd.nl##.fd-message-home-header
-vagina.nl##.fish-hook
 wanttoknow.nl##.float-right
 rtvgo.nl##.footeradd
 kinkymedia.nl##.footer-widget-container:has(.size-full.aligncenter):has(img[src$="gif"])
@@ -450,7 +451,6 @@ pornomilf.nl##[id^="custom_html"]:has-text(Hier aanmelden)
 tube.nederlandseporno.nl##[id^="custom_html"]:has-text(Sex contact)
 tube.nederlandseporno.nl##[id^="custom_html"]:has-text(Webcamsex)
 dutchporntube.nl##[id^="custom_html"]:has-text(Werelds Beste)
-vagina.nl##[id^="fish-hook-slidein"]
 maaslandradio.nl##[id^="media_image"]:has-text(Advertentie)
 rtvkrimpenerwaard.nl##[id^="pg-1407"]:has-text(Vrienden):has([class^="sp-logo-carousel"] .sp-lcp-logo-wrapper):has(img[src])
 watchfaces.be##[id^="text"]:has(.adsbygoogle)
