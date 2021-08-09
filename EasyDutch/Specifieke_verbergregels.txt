@@ -499,7 +499,9 @@ meteovista.be##div[class*="AdWrapper"]
 biflatie.nl##div[class*="elementor-widget-button"]:has-text(Advert)
 omroepbrabant.nl##div[class^="ad-"]
 rtvdrenthe.nl##div[class^="col"]:has([class*="adcontainer"])
+!#if env_mobile
 nu.nl##div[data-type="tealium"]
+!#endif
 sexjobs.nl##div[id^="banner-"]
 meerradio.nl##div[id="pristineslider.12"]
 waldnet.nl##div[style$="0px;"]:has(.adsbygoogle)
