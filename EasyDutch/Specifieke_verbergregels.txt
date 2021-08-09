@@ -1,4 +1,5 @@
 ! 2021-08-09
+geilefotoverhalen.nl##.widget:has(iframe[src*="/aff_ad?"])
 farm-date.com##.hide-for-small-only:has-text(Sponsors)
 mariogames.be##.googleadvidx
 mariogames.be##div.gameinfo:has-text(/sponsored links/i)
