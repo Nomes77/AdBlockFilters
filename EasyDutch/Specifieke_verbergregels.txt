@@ -1,4 +1,6 @@
 ! 2021-08-09
+sexmeid.nl##.widget_custom_html:has([src*="affilaxy.com"])
+sexmeid.nl##.widget_media_image:has(img[src*="sexmeid.nl/wp-content/uploads/"][src$=".gif"])
 nederlandsewebcambabes.nl##.textwidget:has(.model)
 vagina.nl##div[id^=video-fish-hook]
 vagina.nl##.list-item:has(script[src*=realsrv])
