@@ -101,7 +101,6 @@
 ! 2021-06-30
 ||cdn.seksmet.nl/wp-content/uploads/*/twero-sociaal*.gif
 ||images.islive.nl/snapshot/*/200x150$image,domain=nederlandsextube.nl
-||chainadvertising.eu^$script,domain=kinkymedia.nl
 ||kinkymedia.nl/wp-content/plugins/wp-ad-guru/*$script,1p
 ||kinkymedia.nl/wp-content/uploads/vierkant*$image
 ||glutenvrij.nl/l/library/*banner*.jpg?
