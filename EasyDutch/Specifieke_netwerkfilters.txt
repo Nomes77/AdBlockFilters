@@ -1,4 +1,6 @@
 ! 2021-08-09
+||gowiththevlo.nl/wp-content/uploads/*/apeldoorn-antiekmarkten-*.jpg$image
+||gowiththevlo.nl/wp-content/uploads/*/*_banner_gwtv.jpg$image
 /js/popup.js$script,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|shemaledaten.net|zoekertjesbelgie.be
 /img/banners/*.gif$image,1p,domain=18date.net|oproepjesnederland.nl|sex55.net|stout-contact.be|stout-contact.nl|zoekertjesbelgie.be
 ||sedproductions.nl/banners/*.gif$image,domain=cumcams.nl|nederlandsewebcambabes.nl
