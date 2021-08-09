@@ -45,7 +45,7 @@ $removeparam=/^source/,domain=googleusercontent.com
 ||fbsbx.com^$important
 ||fburl.com^$important
 ||tfbnw.net^$important
-@@||www.facebook.com/plugins/video.php$subdocument
+||www.facebook.com/plugins/video.php$frame,redirect=click2load.html
 @@||z-p42-instagram.c10r.facebook.com^$script,frame
 @@||instagram.c10r.facebook.com^$script
 ||google.com/js/client:plusone.js
@@ -116,6 +116,7 @@ freebitco.in###req_for_bonuses_link
 freebitco.in##.alert-box
 freebitco.in##.cc_banner
 freebitco.in##.daily_jackpot_main_container_div
+freebitco.in##.deposit_promo_msg
 freebitco.in##.free_play_bonus_box_large
 freebitco.in##.premium_buy_more_tokens
 freebitco.in##.reveal-modal-bg
@@ -126,9 +127,9 @@ gab.com##aside[class]:has-text(Upgrade)
 gab.com##article[data-id^="timeline-injection"]
 ! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-instagram.com##article[role="presentation"] > div[class] > div[class] > div[class]:has([aria-label^="Information icon"]:not([role="presentation"]))
-instagram.com##div[class][role="presentation"]:has([role="dialog"] > div[class] > div[class] > div[class] > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"])
-instagram.com##div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
+instagram.com#?#article[role="presentation"] > div[class] > div[class] > div[class]:has([aria-label^="Information icon"]:not([role="presentation"]))
+instagram.com#?#div[class][role="presentation"]:has([role="dialog"] > div[class] > div[class] > div[class] > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"])
+instagram.com#?#div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
 news.google.com##[jsdata*="covid-banner"]
 news.google.com##[jsaction][aria-label="COVID-19"]
 news.google.com##[jsaction][aria-label="COVID-19"] + [class]
@@ -157,11 +158,12 @@ www.youtube.com##.opened
 www.youtube.com##.ytd-consent-bump-v2-renderer
 www.youtube.com##yt-upsell-dialog-renderer.style-scope
 ! --Anti-Adblock
+/px.gif?$image,redirect-rule=1x1.gif
 ||disableadblock.com^$3p
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
 ||fastly.net/ads/$image,redirect=2x2-transparent.png
 ||fastly.net/ads/$script,redirect=noopjs
-||fastly.net/ads/$xmlhttprequest,redirect=nooptext
+||fastly.net/ads/$xhr,redirect=nooptext
 ||hdliveextra-a.akamaihd.net/*/ads.js$script,redirect=noopjs
 diffchecker.com##+js(nostif, adStillHere)
 radarbox.com##+js(set, ads_enabled, true)
