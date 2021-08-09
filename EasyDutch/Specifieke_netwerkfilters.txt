@@ -286,7 +286,6 @@
 ||sexcontactadressen.nl/assets/img/*.gif$image
 ||sexervaringendelen.nl/porno/$image
 ||sexverhalen.com/vriendschap/
-||shemaledaten.net/img/banners/$image
 ||speurdeals.nl/uploads/banners$image
 ||spike-source.com/wp-admin/admin-ajax.php?action=select&p=onder-filmpje$subdocument
 ||spike-source.com/wp-admin/admin-ajax.php?action=select&p=rechts-menu-onder$subdocument
