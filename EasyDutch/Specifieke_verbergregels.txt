@@ -1,4 +1,6 @@
 ! 2021-08-09
+mariogames.be##.googleadvidx
+mariogames.be##div.gameinfo:has-text(/sponsored links/i)
 tripadvisor.be##.ad
 genotsplekje.nl###exitpopup-modal
 sexmeid.nl##.widget_custom_html:has([src*="affilaxy.com"])
