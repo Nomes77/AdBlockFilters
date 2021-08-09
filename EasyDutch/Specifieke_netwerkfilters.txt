@@ -275,7 +275,6 @@
 ||pornokartel.nl/wp-admin*&campaigns=*&banners*$script,3p
 ||pornopower.nl/wp-content/uploads/*/bdsm_seksspeeltjesland$image
 ||powerconnect.be^*/poweractie.jpg$3p
-||privesexgids.nl/images/webcamsex
 ||profielactueel.nl/content/modules/catalog/4/*.gif$image
 ||racingnews365.nl/images/banners/$image
 ||recreatief.nl/kerstarrangementen.gif
