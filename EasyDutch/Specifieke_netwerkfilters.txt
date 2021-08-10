@@ -1,4 +1,5 @@
 ! 2021-08-10
+/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|bekijkporno.nl|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|seksmet.nl|sexmeid.nl|shespot.nl|sproeiendekutjes.nl|tube.nederlandseporno.nl
 ||ninefornews.nl/wp-content/plugins/advanced-ads*/public/assets/js/*.js$script,1p
 ||ninefornews.nl/wp-content/uploads/*/tetralogie300x250.jpg$image
 ||ninefornews.nl/wp-content/uploads/*/*-300x250-*.jpg$image
@@ -15,7 +16,6 @@
 ||xxxlivesex.nl/banner$image
 ||webcamchicks.net/banner$image
 ||newsexcontact.nl/images/milfjesneuken.$image
-/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|bekijkporno.nl|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|seksmet.nl|sexmeid.nl|shespot.nl|tube.nederlandseporno.nl
 ||agfstorage.blob.core.windows.net/banners/$image,domain=agf.nl|groentennieuws.nl|uiennieuws.nl
 /images/bdsmsexcontact$image,domain=adulttop50.nl|neukadressen.com|sexadvertentiesonline.nl|sexfotodating.nl|zinineensexdate.com
 ! https://github.com/easylist/easylistdutch/issues/17
