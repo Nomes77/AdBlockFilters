@@ -429,8 +429,6 @@ riskcompliance.nl##.widget_itarget_banners
 androidplanet.nl,iphoned.nl##.widget_offers
 spelersvrouw.nl##.widget_text.gridlove-box
 digitaalburg.com##.widget-area-bottom.align-center:has(.adsbygoogle)
-ninefornews.nl##.widget-top:has-text(/Advertentie/i)
-ninefornews.nl##.widget-top:has-text(/Archief/i):style(margin-top: -50px!important;)
 ninefornews.nl##.widget-top:has-text(/Gesponsorde/i) 
 ninefornews.nl##.widget-top:has-text(/Sponsored/i)
 telegraaf.nl##.withBanners
