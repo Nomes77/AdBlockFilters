@@ -1,3 +1,7 @@
+! 2021-08-10
+||ninefornews.nl/wp-content/plugins/advanced-ads*/public/assets/js/*.js$script,1p
+||ninefornews.nl/wp-content/uploads/*/tetralogie300x250.jpg$image
+||ninefornews.nl/wp-content/uploads/*/*-300x250-*.jpg$image
 ! 2021-08-09
 ||flexnieuws.nl/wp-content/uploads/*/Naamloos-*.png$image
 ||farm-date.com/slides/banner-$image,1p
