@@ -1,3 +1,7 @@
+! 2021-08-10
+ninefornews.nl##.nfn-target[data-advadsredirect]
+ninefornews.nl##.widget:has(.nfn-target[data-advadsredirect])
+ninefornews.nl##.sticky-element-placeholder
 ! 2021-08-09
 hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
 cabla.nl##.ontwerp_ads
