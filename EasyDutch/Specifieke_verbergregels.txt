@@ -1,4 +1,6 @@
 ! 2021-08-11
+sexverhalen.com##.header_banner
+sexverhalen.com##.story_suffix:has([href^="//tools.vpscash.nl/"])
 12milf.com##.video-description > .under-video-block
 schaefer-shop.nl##.row > [class]:has(.sfr-pdp-section[id$="crossseller"])
 velt.be##.simpleads
