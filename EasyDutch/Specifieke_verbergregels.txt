@@ -1,4 +1,5 @@
 ! 2021-08-11
+velt.be##.simpleads
 leerlingen.com##.clearfix.widget > :has(.sponsors)
 dekattensite.nl##.nxs-default-p > p:has-text(advert)
 gratisepub.nl##.type-post:has-text(advert)
