@@ -1,4 +1,5 @@
 ! 2021-08-11
+geile-sexverhalen.be##.well:has-text(Sponsers)
 girlpics.nl###cato_top:has-text(Ads)
 girlpics.nl##.cato_content:nth-of-type(2)
 girlpics.nl##.cato_footer:nth-of-type(3)
