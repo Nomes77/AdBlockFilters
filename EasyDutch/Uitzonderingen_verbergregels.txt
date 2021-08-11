@@ -1,4 +1,6 @@
 ! Uitzonderingen voor EasyList
+! 2021-08-11
+japan-webike.*#@#img[class*="img_ad"][data-src*="sale"]
 ! 2021-08-06
 audiobookbay.nl#@#[href^="/down-"]
 ! 2021-08-04
