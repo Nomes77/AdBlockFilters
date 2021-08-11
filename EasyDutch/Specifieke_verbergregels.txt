@@ -1,4 +1,5 @@
 ! 2021-08-11
+leerlingen.com##.clearfix.widget > :has(.sponsors)
 dekattensite.nl##.nxs-default-p > p:has-text(advert)
 gratisepub.nl##.type-post:has-text(advert)
 luchtvaartnieuws.nl##.block-title:has-text(Partners van)
