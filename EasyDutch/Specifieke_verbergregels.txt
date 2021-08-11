@@ -1,8 +1,9 @@
+! 2021-08-11
+ninefornews.nl##[id^="text-"]:has(.nfn-target[data-advadsredirect])
 ! 2021-08-10
 sexafspraakonline.nl##.d-lg-block.d-none > .card:has-text(Advert)
 kutscheetje.nl##[id^="text"]:has([src*="banner"])
 ninefornews.nl##.nfn-target[data-advadsredirect]
-ninefornews.nl##.widget:has(.nfn-target[data-advadsredirect])
 ninefornews.nl##.sticky-element-placeholder
 ! 2021-08-09
 hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
