@@ -1,4 +1,5 @@
 ! 2021-08-11
+||static.qmusic.*/acties/qnl-nu-ad/index.html$subdocument,domain=nu.nl
 ||images.islive.nl/snapshot/*/99x84.jpg$image,domain=sexverhalen.com
 ||images.islive.nl/snapshot/*/snapshot.jpg$image,domain=12milf.com
 ||xmissy.nl/skins/_customplayers/*/footer.jpg$image,1p
