@@ -1,5 +1,5 @@
 ! 2021-08-11
-schaefer-shop.nl##.row > [class]:has(.sfr-pdp-section)
+schaefer-shop.nl##.row > [class]:has(.sfr-pdp-section[id$="crossseller"])
 velt.be##.simpleads
 leerlingen.com##.clearfix.widget > :has(.sponsors)
 dekattensite.nl##.nxs-default-p > p:has-text(advert)
