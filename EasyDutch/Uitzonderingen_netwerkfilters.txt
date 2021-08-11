@@ -1,3 +1,5 @@
+! 2021-08-11
+@@||tools.vpscash.nl/proxy/tools.islive.nl/cam_ms/*/_default/index.html$subdocument,domain=sexoverzicht.nl
 ! 2021-08-09
 @@||lexozfldkklgvc.com/cp/webcam_gallery/index.php$subdocument,domain=sexmeid.nl
 @@||lexozfldkklgvc.com/assets/cp/js/webcam_gallery/iframe_handler.js$script,domain=sexmeid.nl
