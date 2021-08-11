@@ -1,4 +1,5 @@
 ! 2021-08-11
+luchtvaartnieuws.nl##.block-title:has-text(Partners van)
 ninefornews.nl##[id^="text-"]:has(.nfn-target[data-advadsredirect])
 ! 2021-08-10
 sexafspraakonline.nl##.d-lg-block.d-none > .card:has-text(Advert)
