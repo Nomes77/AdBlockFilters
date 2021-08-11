@@ -1,4 +1,5 @@
 ! 2021-08-11
+geile-sexverhalen.nl###footermiddle > .well:has-text(Advert)
 dating-vinden.be,deperfecte-sexdate.be,deperfecte-sexdate.nl,flirten-vlaanderen.be,geile-sexverhalen.nl,geil-neuken.nl,neukengratis.be,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be,vrouwsex.be##.well:has(.bannergroup)
 naaktlog.nl##[id^="custom_html"]:has(iframe[src^="https://tools.vpscash.nl/"])
 geile-sexverhalen.be##.well:has-text(Sponsers)
