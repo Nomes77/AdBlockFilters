@@ -1,4 +1,5 @@
 ! 2021-08-11
+dating-vinden.be,deperfecte-sexdate.be,deperfecte-sexdate.nl,flirten-vlaanderen.be,geil-neuken.nl,neukengratis.be,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be,vrouwsex.be##.well:has(.bannergroup)
 naaktlog.nl##[id^="custom_html"]:has(iframe[src^="https://tools.vpscash.nl/"])
 geile-sexverhalen.be##.well:has-text(Sponsers)
 girlpics.nl###cato_top:has-text(Ads)
@@ -436,7 +437,6 @@ rubenweytjens.be##.view-weather-ads-view
 marktplaats.nl,2dehands.be##.vip-banner-top-sticky-container
 barneveldsekrant.nl##.w-300x.RM5
 telegraaf.nl##.WebpushOptin__main
-dating-vinden.be,deperfecte-sexdate.be,deperfecte-sexdate.nl,geil-neuken.nl,neukengratis.be,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be,vrouwsex.be##.well:has(.bannergroup)
 belgie-sexcontact.be##.well:has(img[src])
 deperfecte-sexdate.be,neuk-sexcontact.be##.well:has(img[src^="/images/banners"])
 belgie-sexdate.be##.well:has(img[src^="https://www.2k19.nl/"])
