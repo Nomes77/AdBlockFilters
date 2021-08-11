@@ -1,4 +1,5 @@
 ! 2021-08-11
+turkinfo.nl##.img_position_left:has(.adsbygoogle)
 geileverhalen.nl##[id^="menu-item-"]> [href^="https://go2.go2cloud.org/aff_ad"]
 sexverhalen.com##.header_banner
 sexverhalen.com##.story_suffix:has([href^="//tools.vpscash.nl/"])
