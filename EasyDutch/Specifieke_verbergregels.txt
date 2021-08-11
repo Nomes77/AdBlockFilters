@@ -1,4 +1,5 @@
 ! 2021-08-11
+dekattensite.nl##.nxs-default-p > p:has-text(advert)
 gratisepub.nl##.type-post:has-text(advert)
 luchtvaartnieuws.nl##.block-title:has-text(Partners van)
 ninefornews.nl##[id^="text-"]:has(.nfn-target[data-advadsredirect])
