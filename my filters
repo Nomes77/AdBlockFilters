@@ -82,8 +82,7 @@ dagelijksestandaard.nl##.post-body > .fb-page
 ! ADVERTISMENTS
 ||naturalnews.com^$script,badfilter
 @@||naturalnews.com/*=$script,1p,badfilter
-/^https:\/\/(?:www\.)?naturalnews\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/js\/ads)\.js$/$script,1p
-||support.brighteon.com/ARF/
+/^https:\/\/(?:[\w]+\.?)?[\w]+\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/[\w]+\/[A-Z]RF\/[\W|\w]+)\.js$/$script,1p
 y8.com###Y8_Top_of_Games
 
 ! ANNOYANCES
