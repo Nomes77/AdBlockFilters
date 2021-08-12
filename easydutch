@@ -8,13 +8,13 @@
 ! https://github.com/BPower0036/AdBlockFilters/issues
 ! mailto: easydutch.adblock@gmail.com
 !
-!#include EasyDutch/Algemene_netwerkfilters.txt
-!#include EasyDutch/Advertentiedomeinen.txt
-!#include EasyDutch/Advertentiedomeinen_(derden).txt
-!#include EasyDutch/Specifieke_netwerkfilters.txt
-!#include EasyDutch/Uitzonderingen_netwerkfilters.txt
-!#include EasyDutch/Algemene_verbergregels.txt
-!#include EasyDutch/Specifieke_verbergregels.txt
-!#include EasyDutch/Uitzonderingen_verbergregels.txt
+!#include EasyDutch/Block_General.txt
+!#include EasyDutch/Block_first_party_Server.txt
+!#include EasyDutch/Block_third_party_Server.txt
+!#include EasyDutch/Block_Resources.txt
+!#include EasyDutch/Block_Whitelist.txt
+!#include EasyDutch/Hide_General.txt
+!#include EasyDutch/Hide_Specific.txt
+!#include EasyDutch/Hide_Whitelist.txt
 !#include EasyDutch/Anti-Adblock.txt
-!#include EasyDutch/Geen_uBlock_Filters.txt
+!#include EasyDutch/No_uBlock_Filters.txt
