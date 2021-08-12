@@ -1,4 +1,5 @@
 ! 2021-08-12
+nltube.com##.player-right
 nlsexfilmpjes.com###videos_div_v > .clear_line
 nlsexfilmpjes.com###left_div li:not( > a[target="_blank"])
 onlineluisteren.nl##center > div:has(.adsbygoogle)
