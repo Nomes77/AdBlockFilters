@@ -1,4 +1,5 @@
 ! 2021-08-12
+showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
 nltube.com##.bottom-bns-block
 gezondheid.be###leaderbord
 gezondheid.be##[class^="gz-ads"]
