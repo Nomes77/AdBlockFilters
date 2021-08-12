@@ -1,4 +1,6 @@
 ! 2021-08-12
+nlsexfilmpjes.com###videos_div_v > .clear_line
+nlsexfilmpjes.com###left_div li:not( > a[target="_blank"])
 onlineluisteren.nl##center > div:has(.adsbygoogle)
 radiozenders.fm##.banner-rectangle:not(:nth-of-type(3))
 radioluisterenlive.nl##.ad
