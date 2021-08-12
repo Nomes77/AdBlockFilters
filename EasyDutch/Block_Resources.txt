@@ -1,4 +1,5 @@
 ! 2021-08-12
+||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
 ! 2021-08-11
 ||go2.go2cloud.org/aff_ad?$domain=sextube.nl
