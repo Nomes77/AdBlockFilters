@@ -13,6 +13,8 @@ $removeparam=/^(fbclid|fb_action_|fb_comment_id|fb_ref|fb_source)/
 $removeparam=/^(dclid|gclid|gclsrc|guccounter|guce_referrer|guce_referrer_sig|yclid)=/
 $removeparam=/^(_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
 $removeparam=/^(bsft_aaid|bsft_clkid|bsft_eid|bsft_ek|bsft_mid|bsft_uid)=/
+$removeparam=/^(mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_medium|mtm_placement|mtm_source)=/
+$removeparam=/^(pk_campaign|pk_medium|pk_source)=/
 $removeparam=/^utm_/
 $removeparam=/^source/,domain=googleusercontent.com
 ||www.google.com/url?$removeparam=ved
