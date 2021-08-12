@@ -1,9 +1,10 @@
 ! Title: Dynamic rules for uBlock Origin for 3p-frame unblocking only
-! Last updated: 11-08-2021
+! Last updated: 12-08-2021
 * * 3p-frame block
 * embed.acast.com * noop
 * ajax.googleapis.com * noop
 * edgekey.net.globalredir.akadns.net * noop
+* a2047.r.akamai.net * noop
 * akamaiedge.net * noop
 * akamaihd.net * noop
 * akamaized.net * noop
@@ -19,6 +20,7 @@
 * start-player.npo.nl.cdn.cloudflare.net * noop
 * platform.cmmtr.com * noop
 * player-backend.cnevids.com * noop
+* dailybuzz.nl * noop
 * disqus.com * noop
 * drtuber.com * noop
 * drtvid.com * noop
@@ -60,6 +62,7 @@
 * odysee.com * noop
 * player.ooyala.com * noop
 * openload.co * noop
+* ourworldindata.org * noop
 * widgets.outbrain.com * noop
 * www.paypalobjects.com * noop
 * player.sequoia.piksel.com * noop
@@ -140,3 +143,4 @@ y8.com hwcdn.net * noop
 ehubsoft.net https://content.googleapis.com/static/proxy.html sub_frame noop
 ehubsoft.net https://accounts.google.com sub_frame noop
 ehubsoft.net https://docs.google.com/picker sub_frame noop
+
