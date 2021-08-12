@@ -1,4 +1,5 @@
 ! 2021-08-12
+radiozenders.fm##.banner-rectangle:not(:nth-of-type(3))
 radioluisterenlive.nl##.ad
 ! 2021-08-11
 geile-sexverhalen.be,geile-sexverhalen.nl###footermiddle > .well:has-text(Advert)
