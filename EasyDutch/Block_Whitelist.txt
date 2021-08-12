@@ -1,3 +1,5 @@
+! 2021-08-12
+@@||naaktkrant.nl/media/*/*-gifs-*.gif$image,1p
 ! 2021-08-11
 @@||tools.vpscash.nl/proxy/tools.islive.nl/cam_ms/*/_default/index.html$subdocument,domain=sexoverzicht.nl
 ! 2021-08-09
