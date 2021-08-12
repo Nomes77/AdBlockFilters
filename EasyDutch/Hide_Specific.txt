@@ -1,5 +1,6 @@
 ! 2021-08-12
 nltube.com##.bottom-bns-block
+gezondheid.be###leaderbord
 gezondheid.be##[class^="gz-ads"]
 gezondheid.be###gz_header:style(margin-top:-120px !important;)
 interglot.nl##.pane_results > div:has-text(Ads)
