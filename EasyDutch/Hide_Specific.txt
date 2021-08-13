@@ -7,12 +7,12 @@ gezondheid.be###gz_header:style(margin-top:-120px !important;)
 interglot.nl##.pane_results > div:has-text(Ads)
 nltube.com##.player-right
 nlsexfilmpjes.com###videos_div_v > .clear_line
-nlsexfilmpjes.com###left_div li:not( > a[target="_blank"])
+nlsexfilmpjes.com###left_div li:not(:scope > a[target="_blank"])
 onlineluisteren.nl##center > div:has(.adsbygoogle)
 radiozenders.fm##.banner-rectangle:not(:nth-of-type(3))
 radioluisterenlive.nl##.ad
 ! https://github.com/BPower0036/AdBlockFilters/32
-nlsexfilmpjes.com###toplist_bodem li:not( > a[target="_blank"])
+nlsexfilmpjes.com###toplist_bodem li:not(:scope > a[target="_blank"])
 ! 2021-08-11
 geile-sexverhalen.be,geile-sexverhalen.nl###footermiddle > .well:has-text(Advert)
 dating-vinden.be,deperfecte-sexdate.be,deperfecte-sexdate.nl,flirten-vlaanderen.be,geile-sexverhalen.nl,geil-neuken.nl,neukengratis.be,neuk-sexcontact.be,sexcontact-xxx.be,sexdate-xxx.be,sexdating4u.be,vrouwsex.be##.well:has(.bannergroup)
