@@ -22,7 +22,7 @@ girlpics.nl###cato_top:has-text(Ads)
 girlpics.nl##.cato_content:nth-of-type(2)
 girlpics.nl##.cato_footer:nth-of-type(3)
 turkinfo.nl##.img_position_left:has(.adsbygoogle)
-geileverhalen.nl##[id^="menu-item-"]> [href^="https://go2.go2cloud.org/aff_ad"]
+geileverhalen.nl##[id^="menu-item-"] > [href^="https://go2.go2cloud.org/aff_ad"]
 sexverhalen.com##.header_banner
 sexverhalen.com##.story_suffix:has([href^="//tools.vpscash.nl/"])
 12milf.com##.video-description > .under-video-block
