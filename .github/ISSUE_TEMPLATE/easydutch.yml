@@ -6,17 +6,11 @@ body:
       label: Prerequisites / Vereisten
       description: To rule out invalid issues, confirm and check each one of the checkboxes.
       options:
-        - label: |
-             This is a **Dutch** website, so no general websites with Dutch subdomains (e.g. nl.y8.com) /
-             Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. nl.y8.com)
+        - label: This is a **Dutch** website, so no general websites with Dutch subdomains (e.g. nl.y8.com) / Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. nl.y8.com)
           required: true
-        - label: |
-            I performed a [cursory search of the issue tracker](https://github.com/BPower0036/AdBlockFilters/issues) to avoid opening a duplicate issue /
-            Geen **duplicaten**!!
+        - label: I performed a [cursory search of the issue tracker](https://github.com/BPower0036/AdBlockFilters/issues) to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
-        - label: |
-            Only ads or anti-adblock /
-            Alleen advertenties of anti-adblock
+        - label: Only ads or anti-adblock / Alleen advertenties of anti-adblock
           required: true
     
   - type: checkboxes
@@ -64,14 +58,24 @@ body:
   - type: input
     attributes:
       label: uBlock Origin version
-      placeholder: 1.37.0
+      placeholder: 1.37.2
       value: 1.37.
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     attributes:
-      label: Browser name and version
+      label: Browser name
+      options:
+        - FireFox
+        - Microsoft Edge
+        - Google Chrome / Chromium
+        - Else
+    validations:
+      required: true
+  - type: input
+    attributes: 
+      label: Browser version
     validations:
       required: true
 
