@@ -63,7 +63,7 @@ body:
     validations:
       required: true
 
-  - type: table
+  - type: dropdown
     attributes:
       label: Browser name
       options:
