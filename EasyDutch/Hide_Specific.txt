@@ -114,7 +114,7 @@ startlijstjes.nl##.advertentieblock
 startlijstjes.nl##.item:has([class^="item_special"]:has-text(tradetracker.net))
 kidsweek.nl##.node-advertorial
 villamedia.nl##[href^="https://www.anp.nl/start"]
-knhs.nl##div.row:has( > section > .cycler:has(img[src*="banner"]))
+knhs.nl##div.row:has(:scope > section > .cycler:has(img[src*="banner"]))
 knhs.nl##.banners-right
 uiennieuws.nl##.banner
 computable.nl##.sponsored
