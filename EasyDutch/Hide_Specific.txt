@@ -1,3 +1,5 @@
+! 2021-08-13
+wietforum.nl##li.ipsBox.ipsWidget:has(.ipsType_richText.ipsPad)
 ! 2021-08-12
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
 nltube.com##.bottom-bns-block
