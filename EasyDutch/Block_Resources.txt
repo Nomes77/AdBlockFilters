@@ -1,3 +1,6 @@
+! 2021-08-13
+||wietforum.nl/uploads/monthly_*/ai_php.gif.*.gif$image
+||wietforum.nl/uploads/monthly_*/*_312x60*.jpg.*.jpg$image
 ! 2021-08-12
 ||naaktkrant.nl/media/*/*.gif$image,1p
 ||nltube.com/b?z=A*$subdocument
