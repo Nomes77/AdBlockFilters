@@ -1,4 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Contact
+  - name: Want to contact me or problems making issues?
     url: easydutch.adblock@gmail.com
+    about: Answers to questions and other kinds of help support is provided when opening the "other" issue template.
