@@ -75,14 +75,9 @@ body:
         - Else
     validations:
       required: true
-    attributes:
+  - type: input
+    attributes: 
       label: Browser version
-      options:
-        - 90
-        - 91
-        - 92
-        - 93
-        - 94
     validations:
       required: true
 
