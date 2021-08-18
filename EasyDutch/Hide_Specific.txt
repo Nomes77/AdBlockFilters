@@ -1,3 +1,5 @@
+! 2021-08-18
+leerzaam.com##p:has(.adsbygoogle)
 ! 2021-08-17
 nieuws.nl##.banner
 ! 2021-08-16
