@@ -1,3 +1,6 @@
+! 2021-08-19
+||promootjesite.nl/images/banners/
+||promootjesite.nl/images/affliateBanner/
 ! https://github.com/easylist/easylistdutch/commit/628b113d1e1bb734cc7f914edbb5b5ab125421d3
 ! nieuwblad.be
 ||jobat.be/extra/trackuityhn/ticker_new.html$3p
