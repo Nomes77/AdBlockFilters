@@ -20,7 +20,7 @@
 /advertentie2/*
 /advertentie_head.
 /advertenties.
-/advertenties/*$domain=~oldtimernederland.nl
+/advertenties/*
 /bannerlookup.
 /big_reclames/*
 /bolcom-partnerprogramma-wordpress-plugin/*
