@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/1dcc8ccbf4b1d5afeebdccbe224b332c99546b63
+routenet.nl##div[style*="width:730px; height:90px;"]
 ! 2021-08-18
 leerzaam.com##p:has(.adsbygoogle)
 ! 2021-08-17
