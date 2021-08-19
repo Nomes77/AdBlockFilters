@@ -1,4 +1,6 @@
 ! 2021-08-19
+ninefornews.nl##.in-house:has(img[width="300"][height="250"])
+ninefornews.nl##.widget_text.widget:has(img[width="300"][height="600"])
 rd.nl##.infotainment:has(a[href^="/advert"])
 promootjesite.nl##.adsense
 ! https://github.com/easylist/easylistdutch/commit/696a3dfbc1250d352b110b35a3ce1897dba5dc28
