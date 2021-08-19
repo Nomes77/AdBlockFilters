@@ -1,4 +1,5 @@
 ! https://github.com/easylist/easylistdutch/commit/628b113d1e1bb734cc7f914edbb5b5ab125421d3
+! nieuwblad.be
 ||jobat.be/extra/trackuityhn/ticker_new.html$3p
 ! https://github.com/easylist/easylistdutch/commit/b4c9e357c49ee4783bf9dbc291374e6caaf9c392
 ||puurnaturisme.nl/images/banners/
