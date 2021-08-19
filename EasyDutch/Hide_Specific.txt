@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/commit/696a3dfbc1250d352b110b35a3ce1897dba5dc28
+fantv.nl##.tm-top-a
+fantv.nl##.tm-top-c
 ! https://github.com/easylist/easylistdutch/commit/b4c9e357c49ee4783bf9dbc291374e6caaf9c392
 puurnaturisme.nl##.banneritem
 ! https://github.com/easylist/easylistdutch/commit/1dcc8ccbf4b1d5afeebdccbe224b332c99546b63
