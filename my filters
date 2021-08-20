@@ -13,7 +13,7 @@ $removeparam=/^(fbclid|fb_action_|fb_comment_id|fb_ref|fb_source)/
 $removeparam=/^(dclid|gclid|gclsrc|guccounter|guce_referrer|guce_referrer_sig|yclid)=/
 $removeparam=/^(_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
 $removeparam=/^(bsft_aaid|bsft_clkid|bsft_eid|bsft_ek|bsft_mid|bsft_uid)=/
-$removeparam=/^(mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_medium|mtm_placement|mtm_source)=/
+$removeparam=/^(mbid|mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_medium|mtm_placement|mtm_source)=/
 $removeparam=/^(pk_campaign|pk_medium|pk_source)=/
 $removeparam=/^utm_/
 $removeparam=/^source/,domain=googleusercontent.com
@@ -26,6 +26,7 @@ $removeparam=/^source/,domain=googleusercontent.com
 @@||bing.*^/WS/redirect/$removeparam=/^(cvid|form|qp|qs|sc|sk|sp)=/
 ||bol.com^$removeparam=Referrer
 ||duckduckgo.com^$removeparam=t
+||instagram.com^$removeparam=igshid
 ||library.etf.edu/cgi-bin/koha/opac-detail.pl?biblionumber=$removeparam=query_desc
 ||linkedin.com^$removeparam=/^(refId|trk)=/
 ||linkedin.com/authwall?$removeparam=/^(originalReferer|trkInfo)=/
@@ -35,7 +36,7 @@ $removeparam=/^source/,domain=googleusercontent.com
 ||www.amazon.*^/dp/$removeparam=tag
 ||www.amazon.*^/aa$removeparam=bitCampaignCode
 ||www.ebay.*^$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
-||youtube.com^$removeparam=/^(feature|kw|tab)=/
+||youtube.com^$removeparam=/^(tab)=/
 ! --Anti-Facebook
 ||facebook.com^$3p,domain=~www.instagram.com
 ||facebook.net^$important
@@ -111,14 +112,11 @@ y8.com###Y8_Top_of_Games
 @@||imasdk.googleapis.com/js/$script,domain=y8.com
 drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/api2/anchor?"])
 freebitco.in###bottom_user_ads_container
-freebitco.in###fp_multiplier_bonuses_main_div
 freebitco.in###fp_provably_fair_link
 freebitco.in###req_for_bonuses_link
 freebitco.in##.alert-box
 freebitco.in##.cc_banner
 freebitco.in##.daily_jackpot_main_container_div
-freebitco.in##.deposit_promo_msg
-freebitco.in##.free_play_bonus_box_large
 freebitco.in##.premium_buy_more_tokens
 freebitco.in##.reveal-modal-bg
 freebitco.in##.reveal-modal
@@ -160,7 +158,6 @@ www.youtube.com##.ytd-consent-bump-v2-renderer
 www.youtube.com##yt-upsell-dialog-renderer.style-scope
 ! --Anti-Adblock
 /px.gif?$image,redirect-rule=1x1.gif
-||disableadblock.com^$3p
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
 ||fastly.net/ads/$image,redirect=2x2-transparent.png
 ||fastly.net/ads/$script,redirect=noopjs
@@ -170,6 +167,7 @@ diffchecker.com##+js(nostif, adStillHere)
 radarbox.com##+js(set, ads_enabled, true)
 ! --Anti SocialMedia Plugins
 ##.share-buttons
+##.social-icons
 *share_ico*$~css
 *social_ico*$~css
 /addtoany/*.js
@@ -204,7 +202,7 @@ radarbox.com##+js(set, ads_enabled, true)
 /wp-content/plugins/add-to-any/*
 /wp-content/plugins/easy-facebook-likebox/*
 /wp-content/plugins/easy-twitter-feed-widget$~css
-/wp-content/plugins/social-$~css
+/wp-content/plugins/social-$~css,~font
 /wp-content/plugins/wp-embed-facebook/*
 /\/wp-content\/themes\/[\W|\w]*(?:facebook|twitter|\/img\/instagram)/$image
 /wp-content/themes/js/social-shares$script
