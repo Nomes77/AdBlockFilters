@@ -1,3 +1,5 @@
+! 2021-08-24
+ninefornews.nl##.header-content > :has(.gofollow)
 ! 2021-08-20
 seksverhalen.nl##[id^="sgpb-popup-dialog"]:has(iframe[src^="https://www.affilaxy.com/promos/regforms"]) + [class]
 seksverhalen.nl##[id^="sgpb-popup-dialog"]:has(iframe[src^="https://www.affilaxy.com/promos/regforms"])
