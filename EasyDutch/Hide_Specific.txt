@@ -1,3 +1,6 @@
+! 2021-08-25
+fcutrecht.nl##.has-toto-banners
+fcutrecht.nl##.has-items-center > .title-container:has-text(/deals/i)
 ! https://github.com/easylist/easylistdutch/compare/68e37fd903...fa35cc7d2b
 ajax.nl##.header__partner-link
 ajax.nl##.page-footer__partners-block
