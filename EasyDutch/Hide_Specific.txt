@@ -2,6 +2,8 @@
 ajax.nl##.header__partner-link
 ajax.nl##.page-footer__partners-block
 az.nl,cambuur.nl##.sponsors
+feyenoord.nl##.partners
+feyenoord.nl##.totoOdds
 ! 2021-08-24
 ninefornews.nl##.header-content > :has(.gofollow)
 ! 2021-08-20
