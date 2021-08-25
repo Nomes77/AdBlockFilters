@@ -1,7 +1,7 @@
 ! https://github.com/easylist/easylistdutch/compare/68e37fd903...fa35cc7d2b
 ajax.nl##.header__partner-link
 ajax.nl##.page-footer__partners-block
-az.nl##.sponsors
+az.nl,cambuur.nl##.sponsors
 ! 2021-08-24
 ninefornews.nl##.header-content > :has(.gofollow)
 ! 2021-08-20
