@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/4f5e6529b5f10fbc21a65bb3a5f6a830937b366f
+||vitesse.nl^*_sponsors_footer.png
 ! https://github.com/easylist/easylistdutch/commit/b6715f432f887e3d45c6b8d83f1c7bf1013e408f
 ||cloudfront.net/-/media/6-parnerships/$domain=feyenoord.nl
 ||cloudfront.net/Assets/images/partners/$domain=feyenoord.nl
