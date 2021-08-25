@@ -11,6 +11,7 @@ sc-heerenveen.nl##.sponsor-grid
 psv.nl##.block-sponsors--psv
 psv.nl##.leaderboard
 psv.nl##.block-sponsors-desktop
+rkcwaalwijk.nl##.carousel
 ! 2021-08-24
 ninefornews.nl##.header-content > :has(.gofollow)
 ! 2021-08-20
