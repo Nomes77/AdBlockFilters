@@ -19,6 +19,8 @@ willem-ii.nl###block-views-block-view-business-partners
 willem-ii.nl###block-views-block-view-main-sponsor
 willem-ii.nl###block-views-block-view-shirt-sponsor
 willem-ii.nl##.top-bar-logos
+eredivisie.nl###partner-bar
+eredivisie.nl##.header__top__partners
 ! 2021-08-24
 ninefornews.nl##.header-content > :has(.gofollow)
 ! 2021-08-20
