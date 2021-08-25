@@ -1,9 +1,10 @@
 ! https://github.com/easylist/easylistdutch/compare/68e37fd903...fa35cc7d2b
 ajax.nl##.header__partner-link
 ajax.nl##.page-footer__partners-block
-az.nl,cambuur.nl##.sponsors
+az.nl,cambuur.nl,ga-eagles.nl##.sponsors
 feyenoord.nl##.partners
 feyenoord.nl##.totoOdds
+ga-eagles.nl##.match-sponsor
 ! 2021-08-24
 ninefornews.nl##.header-content > :has(.gofollow)
 ! 2021-08-20
