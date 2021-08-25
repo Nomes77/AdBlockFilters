@@ -6,6 +6,8 @@ feyenoord.nl##.partners
 feyenoord.nl##.totoOdds
 ga-eagles.nl##.match-sponsor
 fcgroningen.nl##.sidebar__item--banner
+sc-heerenveen.nl##.sponsor
+sc-heerenveen.nl##.sponsor-grid
 ! 2021-08-24
 ninefornews.nl##.header-content > :has(.gofollow)
 ! 2021-08-20
