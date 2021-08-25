@@ -1,4 +1,5 @@
 ! 2021-08-25
+heracles.nl##.footer-sponsors
 fcutrecht.nl##.has-toto-banners
 fcutrecht.nl##.has-items-center > .title-container:has-text(/deals/i)
 ! https://github.com/easylist/easylistdutch/compare/68e37fd903...fa35cc7d2b
