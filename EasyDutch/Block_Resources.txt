@@ -1,3 +1,6 @@
+! https://github.com/easylist/easylistdutch/commit/bccf80739c15e3a436f3d08b1cb3f41bb49d1ba0
+||eredivisie.nl/images/logos/partners/
+||cloudfront.net/banners/$domain=eredivisie.nl
 ! https://github.com/easylist/easylistdutch/commit/5e50685192baa826c43182b9edc6205e48f2d795
 ||willem-ii.nl/banner/
 ! https://github.com/easylist/easylistdutch/commit/4f5e6529b5f10fbc21a65bb3a5f6a830937b366f
