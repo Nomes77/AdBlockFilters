@@ -14,6 +14,7 @@ psv.nl##.block-sponsors-desktop
 rkcwaalwijk.nl##.carousel
 sparta-rotterdam.nl##.logo_main_sponsor_image
 sparta-rotterdam.nl##.logo_slider_logos
+fcutrecht.nl##.footer-logos
 ! 2021-08-24
 ninefornews.nl##.header-content > :has(.gofollow)
 ! 2021-08-20
