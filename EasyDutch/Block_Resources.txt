@@ -1,3 +1,9 @@
+! 2021-08-27
+||ciaotutti.nl/wp-content/uploads/*/camping-delle-rose-isolabona-ligurie-vakantie*.gif$image
+||ciaotutti.nl/wp-content/uploads/*/ghiacci-vecchi-vakantie-toscane.gif$image
+||ciaotutti.nl/wp-content/uploads/*/italmania-*reizen-italie*$image
+||ciaotutti.nl/wp-content/uploads/*/koffiecentrale-augustus*$image
+||ciaotutti.nl/wp-content/uploads/*/villa-in-umbria-vakantie*$image
 ! https://github.com/easylist/easylistdutch/commit/1593d53a45cbfabc2b63c97311ce1474398e92fc
 ||ciaotutti.nl/wp-content/uploads/Banner_
 ! 2021-08-25
