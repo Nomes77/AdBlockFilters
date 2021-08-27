@@ -73,7 +73,6 @@
 ||pexi.nl^$3p
 ||pics.obedo.nl^$3p
 ||radiocoupon.nl^$3p
-||sallandacties.nl^$3p
 ||schoorsteen.geenstijl.nl^$3p
 ||sdcash.nl^$3p
 ||static-cdn.spott.ai^$3p
