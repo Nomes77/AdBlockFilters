@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/16b88e4fcd5182a178946013f142d8d8303d06c0
+knvb.nl##.SponsorBar-list
 ! 2021-08-25
 heracles.nl##.footer-sponsors
 fcutrecht.nl##.has-toto-banners
