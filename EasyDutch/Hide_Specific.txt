@@ -1,4 +1,5 @@
 ! 2021-08-30
+tweedehandschristelijkeboeken.nl##[id^="text-"]:has([href^="https://www.eo-acties.nl/TradeTracker/index.aspx"])
 feyenoord.nl##.banner-carousel
 ! https://github.com/easylist/easylistdutch/commit/1593d53a45cbfabc2b63c97311ce1474398e92fc
 ciaotutti.nl###b_searchboxInc
