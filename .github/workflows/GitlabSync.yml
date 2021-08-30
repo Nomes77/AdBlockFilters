@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - uses: BPower0036/git-repo-sync@v0.1.0
+    - uses: BPower0036/AdBlockFilters@v0.1.0
       with:
         target-url: ${{ secrets.TARGET_URL }}
         target-username: ${{ secrets.TARGET_USERNAME }}
