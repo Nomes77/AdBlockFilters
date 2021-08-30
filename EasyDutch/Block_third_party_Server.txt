@@ -39,7 +39,6 @@
 ||affilaxy.com^$3p
 ||affiliatepartners.com^$3p
 ||asp.unitedconsumers.com^$3p
-||assets.nudeal.nl^$3p
 ||awin.com^$3p
 ||banners.vip.nl^$3p
 ||bluemango.nl^$3p
