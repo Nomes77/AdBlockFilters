@@ -47,7 +47,6 @@
 ||cd.tnet.nl^$script,3p
 ||cleafs.nl^$3p
 ||conversive.nl^$3p
-||coolconcepts.nl^$3p
 ||csmcampagne.consumind.nl^$3p
 ||daisycon.com^$3p
 ||datingcash.eu^$3p
