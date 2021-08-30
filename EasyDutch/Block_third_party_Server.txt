@@ -38,7 +38,6 @@
 ||affiliatepartners.com^$3p
 ||asp.unitedconsumers.com^$3p
 ||awin.com^$3p
-||banners.vip.nl^$3p
 ||bluemango.nl^$3p
 ||bva-auctions.com^$domain=telegraaf.nl
 ||cashpartners.eu^$3p,domain=~extreemonlinecontact.nl|~extremesexmatch.nl|~instasex.nl
