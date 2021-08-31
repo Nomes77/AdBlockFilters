@@ -334,7 +334,6 @@
 ||poldertube.nl/banners/*/small_banner
 ||popinstituut.nl/wp-content/uploads/2014/02/Huren.nl
 ||pornoexpert.nl/img/950x250_*.gif$image
-||pornokartel.nl/wp-admin*&campaigns=*&banners*$script,3p
 ||pornopower.nl/wp-content/uploads/*/bdsm_seksspeeltjesland$image
 ||powerconnect.be^*/poweractie.jpg$3p
 ||profielactueel.nl/content/modules/catalog/4/*.gif$image
