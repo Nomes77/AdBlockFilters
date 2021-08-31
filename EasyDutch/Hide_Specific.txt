@@ -1,3 +1,6 @@
+! 2021-08-31
+camsexbabe.nl##.happy-player-beside
+camsexbabe.nl##.happy-section
 ! 2021-08-30
 tweedehandschristelijkeboeken.nl##[id^="text-"]:has([href^="https://www.eo-acties.nl/TradeTracker/index.aspx"])
 feyenoord.nl##.banner-carousel
