@@ -5,6 +5,7 @@
 @@||tweakers.net^$ghide
 ||7mb.nl^$3p
 ||mmcdn.nl^$3p
+||pornokartel.nl^$3p
 ||flowcdn.nl/js/devtools-detector.js^
 ||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=spel.nl
 fok.nl##+js(aeld, , DAB)
