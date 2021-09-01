@@ -1,3 +1,5 @@
+! 2021-09-01
+paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 ! 2021-08-31
 salvora.nl##.avia-content-slider1
 camsexbabe.nl##.happy-player-beside
