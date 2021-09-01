@@ -30,6 +30,8 @@ girlscene.nl##.ad-container
 @@||whiskyprijzen.*^$ghide
 @@||whiskyprix.*^$ghide
 whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be##.blocker
+camsexbabe.nl##.happy-player-beside
+camsexbabe.nl##.happy-section
 ! uBlock Filters - Unbreak
 @@||2mdn.net/instream/html5/ima3.js$script,domain=geenstijl.nl
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
