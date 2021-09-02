@@ -1,4 +1,5 @@
 ! 2021-09-02
+seks.com##.bannermid
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
 tweakers.net##.reserveSpace
 radiozenders.fm##.marqueeItem:has(a[href^="https://partner.bol.com/"])
