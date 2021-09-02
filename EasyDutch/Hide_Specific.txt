@@ -1,4 +1,5 @@
 ! 2021-09-02
+radiozenders.fm##.marqueeItem:has(a[href^="https://partner.bol.com/"])
 edestad.nl##.w-300x.RM5
 edestad.nl##[class] > [id="div-gpt-ad-banner"]:has-text(advertentie)
 edestad.nl##div.bg-grey.text-center:has-text(advertentie)
