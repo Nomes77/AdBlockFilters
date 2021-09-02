@@ -1,7 +1,9 @@
+! 2021-09-02
+||seks.com/snacc.jpg
+||seks.com/img/*.gif
 ! https://github.com/easylist/easylistdutch/commit/babe1a870bdf578aa84857dceee1d8a5c3d6552c
 ||sexchatlounge.nl/bannerlinks.html
 ||sexchatlounge.nl/bannerrechts.html
-||seks.com/img/bnr.gif
 ! 2021-08-30
 ||tweedehandschristelijkeboeken.nl/wp-content/uploads/*/gratis-eo-visie.png$image
 ! 2021-08-27
