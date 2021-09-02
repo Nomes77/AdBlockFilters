@@ -1,4 +1,5 @@
 ! 2021-09-02
+landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
 tweakers.net##.reserveSpace
 radiozenders.fm##.marqueeItem:has(a[href^="https://partner.bol.com/"])
 edestad.nl##.w-300x.RM5
@@ -398,7 +399,6 @@ proximus.be##.col.pix-sidebar
 tvgids.tv##.col-left
 tvgids.tv##.col-right
 secretcircle.com##.column:has(.advert)
-landenweb.nl##.content > table > tbody:has-text(advert)
 waarzo.nl##.contentbox:has-text(Advertentie)
 gratispornofilm.nl,luana-escort.nl##.cp-webcam-gallery-container
 tameteo.nl##.creatividad
