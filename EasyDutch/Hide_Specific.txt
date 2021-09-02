@@ -1,3 +1,8 @@
+! 2021-09-02
+edestad.nl##.w-300x.RM5
+edestad.nl##[class] > [id="div-gpt-ad-banner"]:has-text(advertentie)
+edestad.nl##div.bg-grey.text-center:has-text(advertentie)
+edestad.nl##div.bg-grey.text-center:has-text(Regiotreffers)
 ! 2021-09-01
 paginamarkt.nl##.element:has(.sb-advertentie > .adsbygoogle)
 ! 2021-08-31
