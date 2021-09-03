@@ -1,4 +1,5 @@
 ! 2021-09-03
+apintie.sr###sidebar > div[style*="width:300px; height:"]
 gfcnieuws.com##.code-block[style*=width]
 dagbladdewest.com###right-sidebar .elementor-widget-wrap
 dagbladdewest.com##.swiper-wrapper
