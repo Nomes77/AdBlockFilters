@@ -1,5 +1,4 @@
 ! 2021-09-03
-starnieuws.com##div[style^="width : 250px ;"]
 srnieuws.com##.centered.card-view:has([id^="taboola"])
 srnieuws.com##.card-view:has(h5.bold > a[href][target="_blank"])
 waterkant.net##.td-fix-index > center
