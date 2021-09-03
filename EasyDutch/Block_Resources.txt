@@ -1,4 +1,6 @@
 ! 2021-09-03
+||dagbladdewest.com/*_728x90px_*.jpg|$image
+||viapizza.online/?ts_id=$subdocument,domain=dagbladdewest.com
 /wp-content/uploads/*/*banner$image,domain=baarsclassicrock.nl,spreekbuis.nl
 ||h2owaternetwerk.nl/images/*/*Banner*300x250px$image
 ||reformatorischeomroep.nl/files/000/*/*/banner*.gif$image
