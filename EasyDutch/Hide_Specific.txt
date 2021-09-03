@@ -1,4 +1,5 @@
 ! 2021-09-03
+keizerstad.nl##[id^="media_image"]
 omroepalmere.nl##[id^="media_image"]:not(:has-text(Met dank aan)):not(#media_image-24):not(#media_image-28)
 omroepalmere.nl##.widget_carousel_slider:has-text(Partners)
 reformatorischeomroep.nl##.item-banner
