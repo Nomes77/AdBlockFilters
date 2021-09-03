@@ -1,4 +1,6 @@
 ! 2021-09-03
+omroepalmere.nl##[id^="media_image"]:not(:has-text(Met dank aan)):not(#media_image-24):not(#media_image-28)
+omroepalmere.nl##.widget_carousel_slider:has-text(Partners)
 reformatorischeomroep.nl##.item-banner
 spreekbuis.nl##.widget_media_image
 ! https://github.com/easylist/easylistdutch/commit/857c246d8adb80733055c46092e684cb57e2b429
