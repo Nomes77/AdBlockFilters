@@ -1,4 +1,6 @@
 ! 2021-09-03
+grandprixradio.nl##[id^="custom_html-"]:has([target="_blank"][rel="noopener"]):not(:has-text(/F1 kalender/i))
+grandprixradio.nl##[id^="custom_html-"]:has([src^="https://partner.bol.com/"])
 h2owaternetwerk.nl##.bannergroup
 keizerstad.nl##[id^="media_image"]
 omroepalmere.nl##[id^="media_image"]:not(:has-text(Met dank aan)):not(#media_image-24):not(#media_image-28)
