@@ -1,3 +1,5 @@
+! 2021-09-03
+spreekbuis.nl##.widget_media_image
 ! https://github.com/easylist/easylistdutch/commit/857c246d8adb80733055c46092e684cb57e2b429
 baarsclassicrock.nl##.widebanner
 ! https://github.com/easylist/easylistdutch/compare/e93d25ea20...63cf914982
