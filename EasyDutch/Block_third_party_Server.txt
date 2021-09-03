@@ -1,3 +1,6 @@
+! 2021-09-03
+! parool.nl
+||advertising-cdn.dpgmedia.cloud^$3p
 ! https://github.com/easylist/easylistdutch/commit/b04939fcc2b0a2564a46143939a15f95b3b30985
 ||widgets.skyscanner.net^$domain=puuropreis.nl
 ! https://github.com/easylist/easylistdutch/commit/1dcc8ccbf4b1d5afeebdccbe224b332c99546b63
