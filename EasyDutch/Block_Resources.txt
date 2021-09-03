@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/commit/9295f184021c8b8c628eb4051ce900da91e74dc7
+||rtvdordrecht.nl/cwm/fm/userfiles/banner/
 ! https://github.com/easylist/easylistdutch/commit/1201945afed489d3777eb478f4dfe1c08efaece5
 ||gigantfm.nl/upload/20170420110645812.jpg$image
 ||gigantfm.nl/upload/20210730122903794.gif$image
