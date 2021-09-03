@@ -1,4 +1,6 @@
 ! 2021-09-03
+dagbladdewest.com###right-sidebar .elementor-widget-wrap
+dagbladdewest.com##.swiper-wrapper
 srnieuws.com##.centered.card-view:has([id^="taboola"])
 srnieuws.com##.card-view:has(h5.bold > a[href][target="_blank"])
 waterkant.net##.td-fix-index > center
