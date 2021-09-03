@@ -1,3 +1,5 @@
+! https://github.com/easylist/easylistdutch/compare/e93d25ea20...63cf914982
+broadcastmagazine.nl##.Advertisement
 ! 2021-09-02
 seks.com##.bannermid
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
