@@ -364,7 +364,7 @@ marokko.nl##.ad_between
 tvgids24.nl##.adBoxbig
 standaard.be##.ad--button
 filmtotaal.nl##.ad-centering
-omroepgelderland.nl,omroepwest.nl,omroepzeeland.nl##.adcontainer
+omroepwest.nl,omroepzeeland.nl##.adcontainer
 omroepflevoland.nl##.ad-container
 kinkymedia.nl##.adguru-ad-banner
 kinkymedia.nl##.adguru-zone-wrap
