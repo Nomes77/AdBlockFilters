@@ -1,9 +1,9 @@
 ! 2021-09-06
+gfcnieuws.com##.ai-viewport-1
 apintie.sr###ads
 apintie.sr##div[style^="width:300px; height:180px;"]
 apintie.sr##div[style*="width:300px; height:250px;"]
 ! 2021-09-03
-gfcnieuws.com##.code-block[style*=width]
 dagbladdewest.com###right-sidebar .elementor-widget-wrap
 dagbladdewest.com##.swiper-wrapper
 srnieuws.com##.centered.card-view:has([id^="taboola"])
