@@ -1,4 +1,5 @@
 ! 2021-09-07
+rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 alkmaarguardians.nl###footer
 basketball.nl##div[data-component="partner"]
 voetbalrotterdam.nl##.wpb_content_element:has(.wpb_wrapper [style^="max-width:"][style*="100%; height:"])
