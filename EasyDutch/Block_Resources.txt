@@ -1,3 +1,5 @@
+! 2021-09-07
+||gic.nl/uploads/fckconnector/$image,1p
 ! 2021-09-06
 ||notebookcheck.nl/fileadmin/Sonstiges/am_abv3_$xhr
 ||dagbladdewest.com/wp-content/uploads/*/*_300x250px.*$image
