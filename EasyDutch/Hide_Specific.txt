@@ -1,4 +1,5 @@
 ! 2021-09-07
+alkmaarguardians.nl###footer
 basketball.nl##div[data-component="partner"]
 voetbalrotterdam.nl##.wpb_content_element:has(.wpb_wrapper [style^="max-width:"][style*="100%; height:"])
 voetbalrotterdam.nl##.wpb_content_element:has(.wpb_wrapper [class^="lshowcase-"])
