@@ -2,7 +2,6 @@
 ngf.nl##.c-footer-sponsors
 burggolf.nl##.footercontent
 golf.nl##.c-sponsors
-nevobo.nl##.sponsorbar
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
 rotterdambasketbal.nl##img[title^="roba_sponosor_"]
