@@ -380,7 +380,6 @@ spel.nl,spelletjes.nl##.advert
 deoudrotterdammer.nl##.advertentie
 autoweek.nl##.advertise
 bnnvara.nl,hpdetijd.nl,kieskeurig.nl##.advertisement
-meppelercourant.nl,dekrantvanmiddendrenthe.nl##.advertorial-item
 wielerflits.nl##.affiliate_links
 notebookcheck.nl##.amaz_el
 want.nl##.article__content:style(margin-top: -125px!important;)
