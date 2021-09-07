@@ -1,4 +1,6 @@
 ! 2021-09-07
+||volleybal.nl/uploads/images/Banners/$image
+||volleybal.nl/uploads/images/Logos/$image
 ||voetbalrotterdam.nl/wp-content/uploads/*/soccerdealbanner*.jpg$image
 ||feenstra-internetservices.nl/?_dnid=$3p
 ||gic.nl/uploads/fckconnector/$image,1p
