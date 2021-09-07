@@ -1,5 +1,5 @@
 ! 2021-09-07
-tennis.nl##.c-site-footer__partners
+knltb.nl,tennis.nl##.c-site-footer__partners
 europa-landbouwmachines.nl##.pub-desktop-a
 speeleiland.nl##.banner-btf-side-rectangle
 ! 2021-09-06
