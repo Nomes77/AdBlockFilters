@@ -1,4 +1,6 @@
 ! 2021-09-07
+volleybal.nl##.card-banner
+volleybal.nl##.card-banner-large
 rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 alkmaarguardians.nl###footer
 basketball.nl##div[data-component="partner"]
