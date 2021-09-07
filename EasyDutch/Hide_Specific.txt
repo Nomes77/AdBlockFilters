@@ -1,3 +1,5 @@
+! 2021-09-07
+speeleiland.nl##.banner-btf-side-rectangle
 ! 2021-09-06
 dagbladdewest.com##img[width="300"]
 surinameview.com###nav_menu-2
