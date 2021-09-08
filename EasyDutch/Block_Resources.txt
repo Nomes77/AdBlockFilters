@@ -1,3 +1,5 @@
+! 2021-09-08
+||golf.be/files/BannerImage/$image,1p
 ! 2021-09-07
 ||nevobo.nl^*/sponsor/
 ||volleybal.nl/uploads/images/Banners/$image
