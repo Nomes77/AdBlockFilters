@@ -1,4 +1,6 @@
 ! 2021-09-08
+hetnieuwsvandaag.be##.ad
+hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
 radioreflex.be##.widget_sponsors_widget
 radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(ADVERTEERDERS))
 radio-minerva.be###topbanner
@@ -9,7 +11,6 @@ basketbal.vlaanderen##.holder--divider-top
 basketballbelgium.be###sidebar aside[id^="ao"]
 basketballbelgium.be##img[width="970"][height="250"]
 mijn-tv-gids.be##.midzone
-mijn-tv-gids.be##.pub
 tvgemist.be##.banner
 volleybelgium.be##.sponsors
 golf.be##.header__bottom
