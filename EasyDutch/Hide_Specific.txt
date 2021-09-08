@@ -1,4 +1,6 @@
 ! 2021-09-08
+voetbal-vandaag.nl###topbox
+voetbal-vandaag.nl###sidebar_aanbevelen
 voetbalbelgie.be##div[id^="voetb-"]
 ! 2021-09-07
 handbal.be##.footer-top
