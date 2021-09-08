@@ -1,4 +1,5 @@
 ! 2021-09-08
+||hetnieuwsvandaag.be/media/cache/rectangle_image/media/image/*.$image
 ||radioreflex.be/wp-content/uploads/*/Banner*.$image
 ||radiozuidrand.be/wp-content/uploads/*/banner-sponsors.jpg$image
 ||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
