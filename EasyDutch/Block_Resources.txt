@@ -1,4 +1,5 @@
 ! 2021-09-08
+||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
 ||tennisvlaanderen.be/documents/*/*Sponsorblok-$image,1p
 ||golf.be/files/BannerImage/$image,1p
 ! 2021-09-07
