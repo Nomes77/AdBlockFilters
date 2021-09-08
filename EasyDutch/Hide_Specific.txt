@@ -1,3 +1,5 @@
+! 2021-09-08
+voetbalbelgie.be##div[id^="voetb-"]
 ! 2021-09-07
 handbal.be##.footer-top
 handbalinside.nl##div[id^="handb-"]
