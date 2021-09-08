@@ -1,4 +1,5 @@
 ! 2021-09-08
+radiozuidrand.be##[id^="text-"]:has(.widget-title:has-text(ADVERTEERDERS))
 radio-minerva.be###topbanner
 bruzz.be,sportuitslagen.org##.ad-container
 tennisplaza.be##a[href^="https://ds1.nl/"]
