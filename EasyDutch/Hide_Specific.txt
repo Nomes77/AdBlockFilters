@@ -1,4 +1,5 @@
 ! 2021-09-08
+omroepwest.nl##.slider-wrapper
 girlpowerradio.nl##.proradio-owl-sponsorcarousel
 omroephouten.nl##.sponsor-carousel
 roulettefm.nl,rtvstichtsevecht.nl##.prom
