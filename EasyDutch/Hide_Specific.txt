@@ -1,6 +1,6 @@
 ! 2021-09-08
-rtvstichtsevecht.nl##.prom
-rtvstichtsevecht.nl##.list-sponsors
+roulettefm.nl,rtvstichtsevecht.nl##.prom
+roulettefm.nl,rtvstichtsevecht.nl##.list-sponsors
 hetnieuwsvandaag.be##.ad
 hetnieuwsvandaag.be,mijn-tv-gids.be##.pub
 radioreflex.be##.widget_sponsors_widget
