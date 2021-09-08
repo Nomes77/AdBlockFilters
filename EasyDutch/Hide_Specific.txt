@@ -1,4 +1,5 @@
 ! 2021-09-08
+bruzz.be,sportuitslagen.org##.ad-container
 tennisplaza.be##a[href^="https://ds1.nl/"]
 nieuws.nl###footer-banner
 basketbal.vlaanderen##.holder--divider-top
@@ -6,7 +7,6 @@ basketballbelgium.be###sidebar aside[id^="ao"]
 basketballbelgium.be##img[width="970"][height="250"]
 mijn-tv-gids.be##.midzone
 mijn-tv-gids.be##.pub
-sportuitslagen.org##.ad-container
 tvgemist.be##.banner
 volleybelgium.be##.sponsors
 golf.be##.header__bottom
