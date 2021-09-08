@@ -1,4 +1,6 @@
 ! 2021-09-08
+mijn-tv-gids.be##.midzone
+mijn-tv-gids.be##.pub
 sportuitslagen.org##.ad-container
 tvgemist.be##.banner
 volleybelgium.be##.sponsors
