@@ -1,4 +1,6 @@
 ! 2021-09-08
+golf.be##.header__bottom
+golf.be##.partners-holder
 voetbalvandaag.be##.adds
 voetbal-vandaag.nl###topbox
 voetbal-vandaag.nl###sidebar_aanbevelen
