@@ -1,5 +1,5 @@
 ! 2021-09-08
-eredivisie.ws,f1-gp.nl,formule1.ws,formule1-race.nl,gazetvandaag.be,grandprix.ws,hotstreams.nl,krantvandaag.nl,nieuwsgigant.nl###topbox
+eredivisie.ws,f1-gp.nl,formule1.ws,formule1-race.nl,gaming-nieuws.nl,gazetvandaag.be,giganieuws.nl,grandprix.ws,hotstreams.nl,jupilerproleague.eu,krantvandaag.nl,nieuwsgigant.nl,recepten-vandaag.nl###topbox
 omroepwest.nl##.slider-wrapper
 girlpowerradio.nl##.proradio-owl-sponsorcarousel
 omroephouten.nl##.sponsor-carousel
