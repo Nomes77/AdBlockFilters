@@ -1,4 +1,6 @@
 ! 2021-09-13
+motorfietsblog.nl###shopside
+motorfietsblog.nl##.cbcontent
 nieuwsmotor.nl##.add-background
 radiovisie.eu##.gmollik
 domstadradio.nl##[class*="elementor-element-"]:has-text(/onze sponsors/i)
