@@ -1,4 +1,6 @@
 ! 2021-09-13
+||rtveen.nl/wp-content/uploads/*-Banner-
+||rtveen.nl/wp-content/uploads/*/banner-
 ||zwartewaterfm.nl/images/SponsorenZwarteWaterFM.$image
 ||twentefm.nl/directcast/custom/rtvnot/playout/commercials/
 ||radioacacia.nl/sponsoren/
