@@ -24,7 +24,6 @@ ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 twentefm.nl##[class^="bannerzone_"]:has([href])
 kbradio.nl##.banners
 midvliet.nl##.bannergroup
-zwartewaterfm.nl###sponsorenBtmCntr
 omroepeemsdelta.nl##[id^="custom_html-"]:has-text(Advertentie)
 a1mediagroep.nl###banners
 klokradio.nl##.panel-grid:has-text(Advertentie)
