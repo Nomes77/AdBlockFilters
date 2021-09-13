@@ -1,4 +1,5 @@
 ! 2021-09-13
+radiofm.nl##.adsense
 rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"]):has-text(deze banner)
 radiofm.nl##.hoofdAd2
 ! 2021-09-08
