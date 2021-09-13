@@ -1,4 +1,7 @@
 ! 2021-09-13
+rtveen.nl##div.category:has-text(Advert)
+rtveen.nl##li:has-text(reclame)
+rtveen.nl###advertentiesOnder
 stubru.be##li:has-text(/advert/i)
 omroeprsh.nl##[id^="media_image-"]:has(img[width="300"]):not(:has([href*="youtube"]))
 waldnet.nl##.banner
@@ -15,7 +18,6 @@ stubru.be###reclameblok-wrapper
 radiopros.be##.inside-left-sidebar
 geelfm.be##[class^="col-md-"]:has(a[href="/adverteren/"])
 rtveen.nl###advertenties
-rtveen.nl##.aas_zone
 regio-voetbal.nl##img[width="300"][height="100"]
 omroepbrabant.nl##div[class^="ad_"]
 rtvideaal.nl##.widget_random_banner_widget
