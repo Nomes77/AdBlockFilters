@@ -1,4 +1,5 @@
 ! 2021-09-13
+osuradio.nl##.wdslider
 bollenstreekomroep.nl,omroepspakenburg.nl##.wpb_wrapper[data-td-block-uid^="tdi_"]:has(.owl-item)
 rtvpapendrecht.nl##.td-a-rec
 dtvnieuws.nl##.prom
