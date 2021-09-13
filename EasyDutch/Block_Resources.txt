@@ -1,3 +1,5 @@
+! 2021-09-13
+||linqmedia.nl/cwm/fm/userfiles/banner/$image
 ! 2021-09-08
 ||delichtzijde.nl/images/banners/*.$image,1p
 ||basketbal.vlaanderen/src/*/images/Logo's*$image
