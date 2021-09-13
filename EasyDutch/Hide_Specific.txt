@@ -1,4 +1,5 @@
 ! 2021-09-13
+omroepbrabant.nl##div[class^="ad_"]
 rtvideaal.nl##.widget_random_banner_widget
 osuradio.nl##.wdslider
 bollenstreekomroep.nl,omroepspakenburg.nl##.wpb_wrapper[data-td-block-uid^="tdi_"]:has(.owl-item)
