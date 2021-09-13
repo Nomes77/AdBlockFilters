@@ -1,4 +1,5 @@
 ! 2021-09-13
+schie.nu##[class^="my-"]:has(img[src*="/images/banner/"])
 tijd.be##.c-articleteaser--sponsored
 radiofm.nl##.adsense
 rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"]):has-text(deze banner)
