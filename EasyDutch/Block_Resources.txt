@@ -1,4 +1,5 @@
 ! 2021-09-13
+||rtveen.nl/wp-content/plugins/advanced-advertising-system/js/*$script,1p
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
 ||camping-frankrijk.nl/graphics/*/*600.$image
 /wp-content/uploads/*.gif$image,domain=rtvpapendrecht.nl
