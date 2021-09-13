@@ -1,4 +1,5 @@
 ! 2021-09-13
+camping-frankrijk.nl##[class$="container"]:has([id*="HyperLinkBanner"])
 schie.nu##[class^="my-"]:has(img[src*="/images/banner/"])
 tijd.be##.c-articleteaser--sponsored
 radiofm.nl##.adsense
