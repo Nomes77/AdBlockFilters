@@ -1,4 +1,5 @@
 ! 2021-09-13
+motorrijdenexpert.nl##.flat-theme-content:has(a[href][rel^="noopener"])
 motokicx.com##div[id^="adtemplate"]
 motokicx.com##div[id^="bannerhome"]
 motorfietsblog.nl###shopside
