@@ -1,4 +1,5 @@
 ! 2021-09-13
+klokradio.nl##.panel-grid:has-text(Advertentie)
 coastline945fm.nl###partners
 aafm.nl##[id^="loaBlock"]:has-text(Advertentie)
 camping-frankrijk.nl##[class$="container"]:has([id*="HyperLinkBanner"])
