@@ -1,4 +1,5 @@
 ! 2021-09-13
+||a1mediagroep.nl/content/*/company/*/banne*.*?width=290&height=150
 ||blob.core.windows.net/*/content/regiovoetbal/*_banner.*$image,domain=regio-voetbal.nl
 ||omroeprsh.nl/wp-content/uploads/*/*-300x*.gif$image
 ||motokicx.com/wp-content/uploads/*/BANNER-
