@@ -1,4 +1,5 @@
 ! 2021-09-13
+ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 twentefm.nl##[class^="bannerzone_"]:has([href])
 kbradio.nl##.banners
 midvliet.nl##.bannergroup
