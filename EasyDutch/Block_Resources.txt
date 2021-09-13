@@ -1,4 +1,5 @@
 ! 2021-09-13
+||tijd.be/ad/
 ||schie.nu/images/banner/$image
 ||linqmedia.nl/cwm/fm/userfiles/banner/$image
 ! 2021-09-08
