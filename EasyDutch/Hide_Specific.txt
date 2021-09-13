@@ -1,4 +1,5 @@
 ! 2021-09-13
+twentefm.nl##[class^="bannerzone_"]:has([href])
 kbradio.nl##.banners
 midvliet.nl##.bannergroup
 zwartewaterfm.nl###sponsorenBtmCntr
