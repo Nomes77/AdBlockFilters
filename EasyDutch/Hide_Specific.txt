@@ -1,4 +1,6 @@
 ! 2021-09-13
+motokicx.com##div[id^="adtemplate"]
+motokicx.com##div[id^="bannerhome"]
 motorfietsblog.nl###shopside
 motorfietsblog.nl##.cbcontent
 nieuwsmotor.nl##.add-background
