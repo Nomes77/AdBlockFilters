@@ -1,4 +1,5 @@
 ! 2021-09-13
+radiopros.be##.inside-left-sidebar
 geelfm.be##[class^="col-md-"]:has(a[href="/adverteren/"])
 omroeprsh.nl##[id^="media_image-"]:has(img[width="300"])
 rtveen.nl###advertenties
