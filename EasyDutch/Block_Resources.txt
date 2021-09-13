@@ -1,4 +1,5 @@
 ! 2021-09-13
+||coastline945fm.nl/cache/partners/$image
 ||aafm.nl/cms/wp-content/themes/omroepalmelo/img/banners/
 ||rtvlansingerland.nl/wp-content/uploads/*/Zorgvilla.gif$image
 ||tijd.be/ad/
