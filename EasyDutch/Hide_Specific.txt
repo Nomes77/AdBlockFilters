@@ -1,4 +1,5 @@
 ! 2021-09-13
+waldnet.nl##.banner
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 motorrijdenexpert.nl##.flat-theme-content:has(a[href][rel^="noopener"])
 motokicx.com##div[id^="adtemplate"]
@@ -614,7 +615,6 @@ nedporno.com##.text-center:has-text(/Reclame/i)
 ans-online.nl##.theiaStickySidebar > .widget:has-text(Advertentie)
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.tile:has(:scope >.ankeiler--advertisement)
 dvhn.nl,lc.nl,meppelercourant.nl##.top__ad
-waldnet.nl##.topbanner
 startpagina.nl##.top-banner
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
 trucks.nl##.trucks_ros_alpha_rectangle-halfpage
