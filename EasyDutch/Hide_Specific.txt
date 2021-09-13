@@ -1,4 +1,5 @@
 ! 2021-09-13
+stubru.be##li:has-text(/advert/i)
 omroeprsh.nl##[id^="media_image-"]:has(img[width="300"]):not(:has([href*="youtube"]))
 waldnet.nl##.banner
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
