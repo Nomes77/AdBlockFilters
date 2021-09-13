@@ -1,4 +1,5 @@
 ! 2021-09-13
+omroeprsh.nl##[id^="media_image-"]:has(img[width="300"]):not(:has([href*="youtube"]))
 waldnet.nl##.banner
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 motorrijdenexpert.nl##.flat-theme-content:has(a[href][rel^="noopener"])
@@ -12,7 +13,6 @@ domstadradio.nl##[class*="elementor-element-"]:has-text(/onze sponsors/i)
 stubru.be###reclameblok-wrapper
 radiopros.be##.inside-left-sidebar
 geelfm.be##[class^="col-md-"]:has(a[href="/adverteren/"])
-omroeprsh.nl##[id^="media_image-"]:has(img[width="300"])
 rtveen.nl###advertenties
 rtveen.nl##.aas_zone
 regio-voetbal.nl##img[width="300"][height="100"]
