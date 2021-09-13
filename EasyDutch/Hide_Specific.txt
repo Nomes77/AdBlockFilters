@@ -1,4 +1,5 @@
 ! 2021-09-13
+regio-voetbal.nl##img[width="300"][height="100"]
 omroepbrabant.nl##div[class^="ad_"]
 rtvideaal.nl##.widget_random_banner_widget
 osuradio.nl##.wdslider
