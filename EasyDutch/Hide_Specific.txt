@@ -1,4 +1,5 @@
 ! 2021-09-13
+zwartewaterfm.nl###sponsorenBtmCntr
 omroepeemsdelta.nl##[id^="custom_html-"]:has-text(Advertentie)
 a1mediagroep.nl###banners
 klokradio.nl##.panel-grid:has-text(Advertentie)
