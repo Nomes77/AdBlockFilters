@@ -1,4 +1,5 @@
 ! 2021-09-13
+||radioacacia.nl/sponsoren/
 ||midvliet.nl/images/advertenties-$image
 ||klokradio.nl/wp-content/uploads/*/adv-
 ||coastline945fm.nl/cache/partners/$image
