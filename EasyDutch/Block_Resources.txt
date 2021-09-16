@@ -1,3 +1,5 @@
+! 2021-09-16
+||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
 ! 2021-09-13
 ||rtveen.nl/wp-content/plugins/advanced-advertising-system/js/*$script,1p
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
