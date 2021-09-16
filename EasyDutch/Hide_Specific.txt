@@ -1,3 +1,5 @@
+! 2021-09-16
+radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
 ! 2021-09-13
 rtveen.nl##div.category:has-text(Advert)
 rtveen.nl##li:has-text(reclame)
