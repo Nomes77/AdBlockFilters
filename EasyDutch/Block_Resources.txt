@@ -1,4 +1,5 @@
 ! 2021-09-16
+||volleyvlaanderen.be/wp-content/uploads/VVB_Banners_*.jpg$image
 ||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
 ! 2021-09-13
 ||rtveen.nl/wp-content/plugins/advanced-advertising-system/js/*$script,1p
