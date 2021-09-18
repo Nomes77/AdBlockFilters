@@ -1,6 +1,9 @@
+! 2021-09-18
+! dagelijksestandaard.nl
+||viadata.store^$3p
 ! 2021-09-16
 ! tpo.nl
-||affiliateprogramma.eu$3p
+||affiliateprogramma.eu^$3p
 ! 2021-09-13
 ! rtvalbrandswaard.com
 ||sponsorkliks.com^$3p
