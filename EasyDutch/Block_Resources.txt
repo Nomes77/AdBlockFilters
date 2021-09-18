@@ -1,3 +1,5 @@
+! 2021-09-18
+||tpo.nl/broodplank/$image,1p
 ! 2021-09-16
 ||volleyvlaanderen.be/wp-content/uploads/VVB_Banners_*.jpg$image
 ||amazonaws.com/zkn/files/*.gif$image,domain=zorgkaartnederland.nl
