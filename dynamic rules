@@ -1,5 +1,6 @@
 ! Title: Dynamic rules for uBlock Origin for 3p-frame unblocking only
-! Last updated: 12-08-2021
+! Last updated: 23-09-2021
+!
 * * 3p-frame block
 * embed.acast.com * noop
 * ajax.googleapis.com * noop
@@ -86,6 +87,7 @@
 * embed.spotify.com * noop
 * open.spotify.com * noop
 * streamable.com * noop
+* ssl.streampartner.nl * noop
 * embed.streamx.me * noop
 * t.me * noop
 * tableau.com * noop
@@ -116,12 +118,19 @@
 * youtube.com * noop
 * youtube.googleapis.com * noop
 * player.zdf.de * noop
+www.adobe.com a1815.dscr.akamai.net * noop
+arpee.be cacpe.be * noop
 www.bnr.nl d6um1u8xqa7e1.cloudfront.net * noop
 css-tricks.com codepen.io * noop
+ehubsoft.net content.googleapis.com * noop
+ehubsoft.net accounts.google.com * noop
+ehubsoft.net docs.google.com * noop
 drive.google.com content.googleapis.com * noop
 sites.google.com content.googleapis.com * noop
 translate.google.com translate.goog * noop
 www.kpn.com reload.alphacomm.network * noop
+www.logos.com gleam.io * noop
+www.natuurmonumenten.nl natuurmonumenten.ent.platform.sh * noop
 www.nu.nl ingress-public.apps-2.osc-nu-prod.k8s.cloud.onenet.nl * noop
 www.nu.nl flo.uri.sh * noop
 www.opendoors.nl truetickets.nl * noop
@@ -140,7 +149,3 @@ y8.com hwcdn.net * noop
 * https://www.skoften.net/video/embed/ sub_frame noop
 * https://platform.twitter.com/embed/ sub_frame noop
 * https://platform.twitter.com/widgets/widget_iframe sub_frame noop
-ehubsoft.net https://content.googleapis.com/static/proxy.html sub_frame noop
-ehubsoft.net https://accounts.google.com sub_frame noop
-ehubsoft.net https://docs.google.com/picker sub_frame noop
-
