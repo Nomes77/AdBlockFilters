@@ -13,18 +13,22 @@ $removeparam=/^(fbclid|fb_action_|fb_comment_id|fb_ref|fb_source)/
 $removeparam=/^(dclid|gbraid|gclid|gclsrc|guccounter|guce_referrer|guce_referrer_sig|wbraid|yclid)=/
 $removeparam=/^(_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
 $removeparam=/^(bsft_aaid|bsft_clkid|bsft_eid|bsft_ek|bsft_mid|bsft_uid)=/
-$removeparam=/^(mbid|mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_medium|mtm_placement|mtm_source)=/
+$removeparam=/^(mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_medium|mtm_placement|mtm_source)=/
 $removeparam=/^(pk_campaign|pk_medium|pk_source)=/
 $removeparam=/^utm_/
+$removeparam=xtor
 $removeparam=/^source/,domain=googleusercontent.com
 ||www.google.com/url?$removeparam=ved
 ||google.*^$removeparam=tab
 ||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|dpr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact)=/
 ||google.*/search$removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/
 ||aliexpress.*^$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
+||amazon.*^$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
+||amazon.*^/dp/$removeparam=tag
+||amazon.*^/aa$removeparam=bitCampaignCode
 ||bing.com^$removeparam=/^(cvid|form|pc|qp|qs|sc|sk|sp)=/
 @@||bing.*^/WS/redirect/$removeparam=/^(cvid|form|qp|qs|sc|sk|sp)=/
-||bol.com^$removeparam=Referrer
+||dailymotion.com/embed/video/*?ads_params=*&origin=$removeparam=ads_params
 ||duckduckgo.com^$removeparam=t
 ||instagram.com^$removeparam=igshid
 ||library.etf.edu/cgi-bin/koha/opac-detail.pl?biblionumber=$removeparam=query_desc
@@ -32,9 +36,6 @@ $removeparam=/^source/,domain=googleusercontent.com
 ||linkedin.com/authwall?$removeparam=/^(originalReferer|trkInfo)=/
 ||play.google.*^$removeparam=referrer
 ||twitter.com^$removeparam=/^(cn|ref_src|ref_url|s)=/
-||www.amazon.*^$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
-||www.amazon.*^/dp/$removeparam=tag
-||www.amazon.*^/aa$removeparam=bitCampaignCode
 ||www.ebay.*^$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
 ||youtube.com^$removeparam=/^(tab)=/
 ! --Anti-Facebook
@@ -71,6 +72,9 @@ dagelijksestandaard.nl##.post-body > .fb-page
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||[::]^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||local^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
+@@||127.0.0.1^*/intel/$xhr,domain=www.intel.*
+! --IDN protection (https://twitter.com/gorhill/status/1422914791077732352)
+||xn--$doc,frame
 ! --Blocked countries
 .cn^$important
 .cn.com^$important
@@ -122,16 +126,22 @@ freebitco.in##.reveal-modal-bg
 freebitco.in##.reveal-modal
 gab.com##aside[class]:has-text(Dissenter)
 gab.com##aside[class]:has-text(Gab TV)
+! gab.com##:matches-path(?:\/home|\/groups) aside[class]:has-text(Gab TV)
+gab.com##aside[class]:has-text(Sponsored)
+gab.com##aside[class]:has-text(Trending Hashtags)
 gab.com##aside[class]:has-text(Upgrade)
 gab.com##article[data-id^="timeline-injection"]
+gab.com##article[data-id^="gab-ad-status-timeline-injection"]
 ! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
-instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-instagram.com#?#article[role="presentation"] > div[class] > div[class] > div[class]:has([aria-label^="Information icon"]:not([role="presentation"]))
-instagram.com#?#div[class][role="presentation"]:has([role="dialog"] > div[class] > div[class] > div[class] > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"])
+! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Information icon"]):not(:has([role="presentation"]))
+instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
+instagram.com#?#div[class][role="presentation"]:has([role="dialog"]:has(:scope > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"]))
 instagram.com#?#div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
 news.google.com##[jsdata*="covid-banner"]
 news.google.com##[jsaction][aria-label="COVID-19"]
 news.google.com##[jsaction][aria-label="COVID-19"] + [class]
+openstreetmap.org##.visible.welcome:has-text(Welcome to OpenStreetMap)
 pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
 pinterest.*##body:style(overflow-y: scroll !important;)
