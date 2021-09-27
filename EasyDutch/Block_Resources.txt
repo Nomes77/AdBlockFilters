@@ -1,3 +1,5 @@
+! 2021-09-27
+||bnpparibasmarkets.nl/widget/$3p
 ! 2021-09-18
 ||tpo.nl/broodplank/$image,1p
 ! 2021-09-16
