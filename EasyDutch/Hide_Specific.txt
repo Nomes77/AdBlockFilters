@@ -1,3 +1,6 @@
+! 2021-09-27
+iex.nl##.ContentPartner
+iex.nl##.network:has-text(Gesponsorde links)
 ! 2021-09-23
 indebuurt.nl##.ad
 ! 2021-09-18
