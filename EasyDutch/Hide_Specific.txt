@@ -1,3 +1,5 @@
+! 2021-09-30
+voetbal.com##.adbox
 ! 2021-09-27
 iex.nl##.ContentPartner
 iex.nl##.network:has-text(Gesponsorde links)
