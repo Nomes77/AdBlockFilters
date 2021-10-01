@@ -138,6 +138,7 @@ instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class
 instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
 instagram.com#?#div[class][role="presentation"]:has([role="dialog"]:has(:scope > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"]))
 instagram.com#?#div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
+mail.google.com##div[style^="position: relative;"] div[style^="height:"]:has(div[id][class][style^="min-height: "]):style(scrollbar-width: none !important;)
 news.google.com##[jsdata*="covid-banner"]
 news.google.com##[jsaction][aria-label="COVID-19"]
 news.google.com##[jsaction][aria-label="COVID-19"] + [class]
@@ -150,6 +151,7 @@ sharesome.com##article[id^="post"]:has(header[class] span[class]:has-text(Promot
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
+www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important; )
 ! --Anti Google Chrome Download Message and Cookie Banner
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout*
 www.youtube.com##.ytd-popup-container.style-scope > .ytd-mealbar-promo-renderer.style-scope
