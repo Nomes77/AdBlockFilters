@@ -1,3 +1,5 @@
+! 2021-10-07
+||ninefornews.nl/wp-content/a-d-s/*
 ! 2021-09-27
 ||bnpparibasmarkets.nl/widget/$3p
 ! 2021-09-18
@@ -389,7 +391,6 @@
 ||netonline.be/slices/banners/
 ||niedziela.nl/images/banners/
 ||nieuwsuitnijmegen.nl/gfx/banners/
-||ninefornews.nl/wp-content/a-d-s/banner*$image
 ||omejoop.be/pop.js
 ||omroepwest.nl/*/ad.png
 ||omroepzeeland.nl/*/ad.png
