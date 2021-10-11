@@ -1,3 +1,5 @@
+! 2021-10-11
+||notebookcheck.nl/fileadmin/Sonstiges/am_$xhr
 ! 2021-10-07
 ||ninefornews.nl/wp-content/a-d-s/*
 ! 2021-09-27
@@ -50,7 +52,6 @@
 ||feenstra-internetservices.nl/?_dnid=$3p
 ||gic.nl/uploads/fckconnector/$image,1p
 ! 2021-09-06
-||notebookcheck.nl/fileadmin/Sonstiges/am_abv3_$xhr
 ||dagbladdewest.com/wp-content/uploads/*/*_300x250px.*$image
 ||dagbladdewest.com/wp-content/uploads/*/*-AD*.jpg$image
 ||dagbladdewest.com/wp-content/uploads*/*728x90px*.jpg$image
