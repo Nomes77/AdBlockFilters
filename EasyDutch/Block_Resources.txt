@@ -1,3 +1,5 @@
+! 2021-10-12
+||buzzbie.nl/buzzbanners/*.js$script,1p
 ! 2021-10-11
 ||notebookcheck.nl/fileadmin/Sonstiges/am_$xhr
 ! 2021-10-07
