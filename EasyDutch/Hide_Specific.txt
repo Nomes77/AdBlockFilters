@@ -1,4 +1,5 @@
 ! 2021-10-13
+zuidenvelder.info##.bg-grey.mb-20:has([advobject])
 inzod.nl##.gofollow
 drentsnieuws.nl###g-header:has(img[src$=".gif"])
 noordernieuws.nl##[id^="slideshowwidget"]:has(img[src$=".gif"])
