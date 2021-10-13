@@ -1,5 +1,5 @@
 ! 2021-10-13
-assercourant.nl##div[class^="col-sm-"]:has(.ad-item)
+assercourant.nl,emmercourant.nl##div[class^="col-sm-"]:has(.ad-item)
 zuidenvelder.info##.bg-grey.mb-20:has([advobject])
 inzod.nl##.gofollow
 drentsnieuws.nl###g-header:has(img[src$=".gif"])
