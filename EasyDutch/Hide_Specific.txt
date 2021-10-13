@@ -1,3 +1,5 @@
+! 2021-10-13
+nieuws.nl##.nieuws-banner
 ! 2021-10-12
 autowereld.nl###mainbanner
 buzzbie.nl##.TS_Banner_Spot
@@ -596,7 +598,6 @@ marktplaats.nl,2dehands.be##.mp-adsense-header
 marktplaats.nl,2dehands.be##.mp-Banner
 marktplaats.nl,2dehands.be##.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has(:scope > .mp-Listings__admarktTitle)
 vivatube.com##.mt15.container:has-text(Advert)
-dongen.nieuws.nl##.nieuws-banner
 zinineensexdate.com##.nomobile.boxleft:has(img[src^="/images/"])
 30plussexdate.nl,ikwilneuken.be,ikwilneuken.net,meidenzoekensex.nl,sexcontactadressen.nl##.nomobile.boxlinks:has(.homebanner)
 inmemoriam.be##.o-news__add
