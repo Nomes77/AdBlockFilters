@@ -1,4 +1,5 @@
 ! 2021-10-13
+noordernieuws.nl##[id^="slideshowwidget"]:has(img[src$=".gif"])
 nieuws.nl##.nieuws-banner
 ! 2021-10-12
 autowereld.nl###mainbanner
