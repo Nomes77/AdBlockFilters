@@ -1,4 +1,5 @@
 ! 2021-10-13
+||noordernieuws.nl/wp-content/uploads/201*/*/*.gif$image
 ||cdn.nieuws.nl/media/sites/221/20*/*/*/*.gif$image
 ||cdn.nieuws.nl/media/sites/221/20*/*/*/dobbenwooncentrum.jpg$image
 ||cdn.nieuws.nl/media/sites/221/20*/*/*/*-Banner.$image
