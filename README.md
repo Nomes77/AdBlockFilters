@@ -1,8 +1,15 @@
+[EasyDutch](https://github.com/BPower0036/AdBlockFilters/tree/main/EasyDutch):
 [![Commit rate](https://img.shields.io/github/commit-activity/m/BPower0036/AdBlockFilters?label=Commits&color=succes)](https://github.com/BPower0036/AdBlockFilters/commits/)
 [![Last commit](https://img.shields.io/github/last-commit/BPower0036/AdBlockFilters?label=Last%20commit&color=informational)](https://github.com/BPower0036/AdBlockFilters/commits/main)
 [![Issues](https://img.shields.io/github/issues/BPower0036/AdBlockFilters?label=Issues&color=red)](https://github.com/BPower0036/AdBlockFilters/issues)
 [![Issues](https://img.shields.io/github/issues-closed/BPower0036/AdBlockFilters?color=green&label=Issues)](https://github.com/BPower0036/AdBlockFilters/issues?q=is%3Aissue+is%3Aclosed)
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey)](https://github.com/BPower0036/AdBlockFilters/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey)](https://github.com/BPower0036/AdBlockFilters/blob/main/LICENSE) </br>
+(( [EasyList Dutch](https://github.com/easylist/easylistdutch/):
+[![Commit rate](https://img.shields.io/github/commit-activity/m/easylist/easylistdutch?label=Commits&color=succes&style=plastic)](https://github.com/easylist/easylistdutch/commits/)
+[![Last commit](https://img.shields.io/github/last-commit/easylist/easylistdutch?label=Last%20commit&color=informational&style=plastic)](https://github.com/easylist/easylistdutch/commits/main)
+[![Issues](https://img.shields.io/github/issues/easylist/easylistdutch?label=Issues&color=red&style=plastic)](https://github.com/easylist/easylistdutch/issues)
+[![Issues](https://img.shields.io/github/issues-closed/easylist/easylistdutch?color=green&label=Issues&style=plastic)](https://github.com/easylist/easylistdutch/issues?q=is%3Aissue+is%3Aclosed) ))
+
 ***
 # AdBlockFilters
 Adblock filters made for [uBlock Origin](https://github.com/uBlockOrigin/uAssets)
