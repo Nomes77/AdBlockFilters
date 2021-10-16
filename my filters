@@ -18,10 +18,10 @@ $removeparam=/^(pk_campaign|pk_medium|pk_source)=/
 $removeparam=/^utm_/
 $removeparam=xtor
 $removeparam=/^source/,domain=googleusercontent.com
-||www.google.com/url?$removeparam=ved
 ||google.*^$removeparam=tab
 ||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|dpr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact)=/
 ||google.*/search$removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/
+||google.*/websearch$removeparam=visit_id
 ||aliexpress.*^$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
 ||amazon.*^$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
 ||amazon.*^/dp/$removeparam=tag
@@ -38,6 +38,7 @@ $removeparam=/^source/,domain=googleusercontent.com
 ||twitter.com^$removeparam=/^(cn|ref_src|ref_url|s)=/
 ||www.ebay.*^$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
 ||youtube.com^$removeparam=/^(tab)=/
+@@||speedtest.polycomm.net^$removeparam
 ! --Anti-Facebook
 ||facebook.com^$3p,domain=~www.instagram.com
 ||facebook.net^$important
@@ -91,6 +92,8 @@ dagelijksestandaard.nl##.post-body > .fb-page
 @@||naturalnews.com/*=$script,1p,badfilter
 /^https:\/\/(?:[\w]+\.?)?[\w]+\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/[\w]+\/[A-Z]RF\/[\W|\w]+)\.js$/$script,1p
 y8.com###Y8_Top_of_Games
+@@||awstrack.me/*/https://freebitco.in/static/html/wof_new/index.html*
+@@||awstrack.me/*/https:%2F%2Ffreebitco.in%2Fstatic%2Fhtml%2Fwof_new%2Findex.html*
 
 ! ANNOYANCES
 ! --Annoyances (uBlock en van mij)
@@ -125,8 +128,8 @@ freebitco.in##.premium_buy_more_tokens
 freebitco.in##.reveal-modal-bg
 freebitco.in##.reveal-modal
 gab.com##aside[class]:has-text(Dissenter)
+! gab.com##:matches-path(\/home|\/groups) aside[class]:has-text(Gab TV)
 gab.com##aside[class]:has-text(Gab TV)
-! gab.com##:matches-path(?:\/home|\/groups) aside[class]:has-text(Gab TV)
 gab.com##aside[class]:has-text(Sponsored)
 gab.com##aside[class]:has-text(Trending Hashtags)
 gab.com##aside[class]:has-text(Upgrade)
@@ -135,6 +138,7 @@ gab.com##article[data-id^="gab-ad-status-timeline-injection"]
 ! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Information icon"]):not(:has([role="presentation"]))
+instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Warning icon"]):not(:has([role="presentation"]))
 instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
 instagram.com#?#div[class][role="presentation"]:has([role="dialog"]:has(:scope > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"]))
 instagram.com#?#div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
@@ -151,6 +155,7 @@ sharesome.com##article[id^="post"]:has(header[class] span[class]:has-text(Promot
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
+www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important; )
 www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important; )
 ! --Anti Google Chrome Download Message and Cookie Banner
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout*
