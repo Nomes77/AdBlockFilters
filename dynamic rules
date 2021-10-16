@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin for 3p-frame unblocking only
-! Last updated: 23-09-2021
+! Last updated: 16-10-2021
 !
 * * 3p-frame block
 * embed.acast.com * noop
@@ -125,6 +125,7 @@ css-tricks.com codepen.io * noop
 ehubsoft.net content.googleapis.com * noop
 ehubsoft.net accounts.google.com * noop
 ehubsoft.net docs.google.com * noop
+library.etf.edu teamup.com * noop
 drive.google.com content.googleapis.com * noop
 sites.google.com content.googleapis.com * noop
 translate.google.com translate.goog * noop
