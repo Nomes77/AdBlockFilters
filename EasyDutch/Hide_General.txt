@@ -1,13 +1,14 @@
+! 2021-10-19
+! 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be
+##.advertising-container-top
+##.ankeiler--advertisement
+##.sixpack__advertisement-tile
 ! 2021-09-06
 ! gld.nl,rtvnoord.nl,omroepwest.nl
 ##.groei-ad
 ! 2021-06-02
 ! kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,stellensexdating.nl,tienersexpret.nl,zinomteneuken.nl
 ###homebanners
-! 2021-05-31
-! 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be
-##.advertising-container-top
-##.ankeiler--advertisement
 ! pornoplekje.nl,sextube-18.com,teen-sex.nl
 ##.happy-footer
 ! dutchporntube.nl,gratispornofilm.nl,lekkerewebcams.nl,outdoor-sex.nl,pornomilf.nl,porno-filmpjes.nl,teen-sex.nl
