@@ -1,5 +1,4 @@
 ! 2021-10-19
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.sixpack__advertisement-tile
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.advertisement
 ! 2021-10-13
 assercourant.nl,emmercourant.nl##div[class^="col-sm-"]:has(.ad-item)
