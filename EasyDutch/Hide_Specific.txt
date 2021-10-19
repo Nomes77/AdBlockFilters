@@ -1,3 +1,5 @@
+! 2021-10-19
+7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp
 ! 2021-10-13
 assercourant.nl,emmercourant.nl##div[class^="col-sm-"]:has(.ad-item)
 zuidenvelder.info##.bg-grey.mb-20:has([advobject])
@@ -540,7 +542,6 @@ secretcircle.com##.column:has(.advert)
 waarzo.nl##.contentbox:has-text(Advertentie)
 gratispornofilm.nl,luana-escort.nl##.cp-webcam-gallery-container
 tijd.be##.c-sitenavPlaceholder__ad
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
 dating-zoeken.nl,hete-sexcontacten.nl,milf-overzicht.nl,sexdating-afspraak.nl,sexdating-gids.be,sexdatinggids.be,vrouwensexdate.nl##.d-lg-block.d-none:has-text(Advert):not(:has(.jcarousel-skin-tango))
 geile-sexcontacten.be##.d-lg-block:has-text(Advert)
 tpo.nl##.dusWhite.mainContent
