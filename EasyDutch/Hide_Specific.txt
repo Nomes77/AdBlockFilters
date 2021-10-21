@@ -1,3 +1,5 @@
+! 2021-10-21
+hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:has(.adsbygoogle):not([id])
 ! 2021-10-19
 7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.advertisement
 ! 2021-10-13
