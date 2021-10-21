@@ -1,3 +1,5 @@
+! 2021-10-21
+||wp.com/www.bol.com/*/upload/partnerprogramma/$image
 ! 2021-10-19
 ||nieuwsopbeeld.nl/wp-content/uploads/*/Advertentie*.gif$image
 ! 2021-10-13
