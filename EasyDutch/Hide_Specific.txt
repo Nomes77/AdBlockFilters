@@ -1,3 +1,5 @@
+! 2021-10-23
+vagina.nl##[href^="https://xltube.nl/click/"]
 ! 2021-10-21
 zakenreisnieuws.nl##[id^="block-block"]:has([id^="div-gpt-ad"])
 ovpro.nl##.advertisement
@@ -701,7 +703,6 @@ seksmet.nl##[href^="https://dt51.net/"]
 beeldbelsex.com##[href^="https://islive.com/"]
 totaaltv.nl##[href^="https://www.totaaltv.nl/plugins/banner/"]
 beeldbelsex.com##[href^="https://www.twero.com/"]
-vagina.nl##[href^="https://xltube.nl/click/mad/"]
 vagina.nl##[id$="fish-hooks"]
 pornozot.com##[id$="iframe"]:has-text(/Reclame/i)
 kinkymedia.nl##[id^="adguru-zone-widget"]
