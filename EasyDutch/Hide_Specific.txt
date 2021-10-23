@@ -1,4 +1,5 @@
 ! 2021-10-23
+marktplaats.nl,2dehands.be##.BannerBottom-root
 vagina.nl##[href^="https://xltube.nl/click/"]
 ! 2021-10-21
 zakenreisnieuws.nl##[id^="block-block"]:has([id^="div-gpt-ad"])
