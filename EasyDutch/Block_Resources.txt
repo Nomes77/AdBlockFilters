@@ -1,5 +1,5 @@
 ! 2021-10-27
-||prm03.wlresources.com/$script,domain=sexed.nl
+||prm03.wlresources.com/$script,3p
 ||sedproductions.nl/banners/$image,3p
 ! 2021-10-21
 ||wp.com/www.bol.com/*/upload/partnerprogramma/$image
