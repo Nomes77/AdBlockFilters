@@ -1,5 +1,5 @@
 ! 2021-10-27
-||sedproductions.nl/banners/*.gif$image,3p
+||sedproductions.nl/banners/$image,3p
 ! 2021-10-21
 ||wp.com/www.bol.com/*/upload/partnerprogramma/$image
 ! 2021-10-19
