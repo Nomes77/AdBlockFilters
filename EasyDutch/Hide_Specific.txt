@@ -1,3 +1,5 @@
+! 2021-10-28
+hardware.info##.sidebar_right_bottom
 ! 2021-10-27
 agconnect.nl##.block-adfo-blocks:has(img[src*="/partner"])
 groningsnieuws.nl##.sticky-sidebar > [id^="media_image"]
