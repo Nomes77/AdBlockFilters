@@ -1,3 +1,5 @@
+! 2021-10-30
+bierdopje.com##[id^="block"]:has(h1:has-text(Advertentie))
 ! 2021-10-28
 hardware.info##.sidebar_right_bottom
 ! 2021-10-27
