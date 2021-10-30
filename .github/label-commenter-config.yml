@@ -22,3 +22,7 @@ labels:
     labeled:
       issue:
         body: I can't reproduce your issue. Please give more information (e.g. screenshots)
+  - name: in progress
+    labeled:
+      issue:
+        body: It takes longer than expected to solve this issue. I'm working on it. Please be patience
