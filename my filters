@@ -7,16 +7,17 @@
 ! PRIVACY
 ! --Remove Parameters from urls ($queryprune or $removeparam)
 $removeparam=/^(dpg_source|dpg_campaign|dpg_medium|dpg_content)=/
-$removeparam=/^(_openstat|admitad_uid|asgtbndr|cmpid)=/
+$removeparam=/^(_branch_match_id|_openstat|admitad_uid|asgtbndr|cmpid|rb_clickid|vc_lpp|xtor)=/
 $removeparam=/^(action_object_map|action_ref_map|action_type_map)=/
 $removeparam=/^(fbclid|fb_action_|fb_comment_id|fb_ref|fb_source)/
 $removeparam=/^(dclid|gbraid|gclid|gclsrc|guccounter|guce_referrer|guce_referrer_sig|wbraid|yclid)=/
 $removeparam=/^(_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
 $removeparam=/^(bsft_aaid|bsft_clkid|bsft_eid|bsft_ek|bsft_mid|bsft_uid)=/
+$removeparam=/^(ml_subscriber|ml_subscriber_hash)=/
 $removeparam=/^(mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_medium|mtm_placement|mtm_source)=/
+$removeparam=/^(oly_anon_idoly_enc_id)=/
 $removeparam=/^(pk_campaign|pk_medium|pk_source)=/
 $removeparam=/^utm_/
-$removeparam=xtor
 $removeparam=/^source/,domain=googleusercontent.com
 ||google.*^$removeparam=tab
 ||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|dpr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact)=/
@@ -38,8 +39,9 @@ $removeparam=/^source/,domain=googleusercontent.com
 ||twitter.com^$removeparam=/^(cn|ref_src|ref_url|s)=/
 ||www.ebay.*^$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
 ||youtube.com^$removeparam=/^(tab)=/
-@@||speedtest.polycomm.net^$removeparam
-! --Anti-Facebook
+@@/ws$removeparam,domain=speedtest.net
+@@||urldefense.com^$removeparam
+! --Anti Facebook
 ||facebook.com^$3p,domain=~www.instagram.com
 ||facebook.net^$important
 ||fb*-a.akamaihd.net^$important
@@ -58,6 +60,10 @@ $removeparam=/^source/,domain=googleusercontent.com
 ||spot.im/embed/scripts/launcher.js
 /cdn-cgi/pe/bag2?*connect.facebook.
 dagelijksestandaard.nl##.post-body > .fb-page
+! --Anti TikTok
+||tiktok.com^
+||tiktokcdn.com^
+||tiktokv.com^
 ! --AdGuard Tracking Protection
 .demdex.net/id^$redirect=noop.txt
 ||c00.adobe.com^$redirect=noop.txt
@@ -92,8 +98,9 @@ dagelijksestandaard.nl##.post-body > .fb-page
 @@||naturalnews.com/*=$script,1p,badfilter
 /^https:\/\/(?:[\w]+\.?)?[\w]+\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/[\w]+\/[A-Z]RF\/[\W|\w]+)\.js$/$script,1p
 y8.com###Y8_Top_of_Games
-@@||awstrack.me/*/https://freebitco.in/static/html/wof_new/index.html*
 @@||awstrack.me/*/https:%2F%2Ffreebitco.in%2Fstatic%2Fhtml%2Fwof_new%2Findex.html*
+! ||verification-va.byteoversea.com/captcha/*$xhr,redirect=noop.txt,domain=www.tiktok.com
+! ||mon-va.byteoversea.com/monitor_browser/collect/*$xhr,redirect=noop.txt,domain=www.tiktok.com
 
 ! ANNOYANCES
 ! --Annoyances (uBlock en van mij)
@@ -111,6 +118,7 @@ y8.com###Y8_Top_of_Games
 /wp-content/plugins/wp-content-copy-protection/*
 ||foxpush.net^$3p
 ||holyclock.com^$3p
+||nrc.nl/paywall-api/$xhr,1p
 ||pinterest.com/pin/$removeparam=/^(mt|d)=/,domain=pinterest.com
 ||pushwoosh.com/webpush/$script,3p
 ||safelinku.com^$3p
@@ -136,12 +144,16 @@ gab.com##aside[class]:has-text(Upgrade)
 gab.com##article[data-id^="timeline-injection"]
 gab.com##article[data-id^="gab-ad-status-timeline-injection"]
 ! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
+instagram.com##.VZk0N._nuMd
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+instagram.com#?#article[role="presentation"] > div[class][style] div[class]:has(> button > div[class][style="width: 100%;"]:has([aria-label^="Information"])):not(div[role="button"][tabindex])
+instagram.com#?#article[role="presentation"] > div[class][style] div[class]:has(> button > div[class][style="width: 100%;"]:has([aria-label^="Warning"])):not(div[role="button"][tabindex])
 instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Information icon"]):not(:has([role="presentation"]))
 instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Warning icon"]):not(:has([role="presentation"]))
 instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
 instagram.com#?#div[class][role="presentation"]:has([role="dialog"]:has(:scope > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"]))
 instagram.com#?#div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
+library.etf.edu##.attention-note:has-text(COVID Update)
 mail.google.com##div[style^="position: relative;"] div[style^="height:"]:has(div[id][class][style^="min-height: "]):style(scrollbar-width: none !important;)
 news.google.com##[jsdata*="covid-banner"]
 news.google.com##[jsaction][aria-label="COVID-19"]
@@ -152,6 +164,7 @@ pinterest.*##.gridCentered:style(margin-top: auto !important;)
 pinterest.*##body:style(overflow-y: scroll !important;)
 pinterest.*##div[style^="filter:"]:style(filter: none !important)
 sharesome.com##article[id^="post"]:has(header[class] span[class]:has-text(Promoted Post))
+translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
