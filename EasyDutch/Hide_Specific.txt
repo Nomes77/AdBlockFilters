@@ -1,4 +1,5 @@
 ! 2021-11-03
+voetbaluitslagen.com##.cta
 heracles.nl##.fixed-ads
 heracles.nl##.footer-blocks
 live-voetbal.com##.top-match
