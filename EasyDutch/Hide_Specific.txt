@@ -1,4 +1,5 @@
 ! 2021-11-03
+clubbrugge.be##.partners
 uitzendinggemist.net##.serie_info_adbox
 telegraaf.nl##.SportScoreboardPage__banner
 voetbaluitslagen.com##.cta
