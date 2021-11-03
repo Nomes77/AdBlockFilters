@@ -1,4 +1,5 @@
 ! 2021-11-03
+||clubbrugge.be^*/partner/$image
 ||ucl-voetbal.nl/derden/betcity-$image
 ! 2021-10-28
 ||ekvrouwen.nl/*/uploads/*/bookmaker-cta-$image
