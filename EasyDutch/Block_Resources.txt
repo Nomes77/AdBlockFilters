@@ -1,4 +1,5 @@
 ! 2021-11-03
+||live-voetbal.com/wp-content/themes/fed/js/jquery-*.js$script,1p
 ||voetbaluitslagen.com/wp-content/uploads/*/bet365-banner-$image
 ||clubbrugge.be^*/partner/$image
 ||ucl-voetbal.nl/derden/betcity-$image
