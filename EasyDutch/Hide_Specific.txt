@@ -1,4 +1,6 @@
 ! 2021-11-03
+heracles.nl##.fixed-ads
+heracles.nl##.footer-blocks
 live-voetbal.com##.top-match
 live-voetbal.com##.special-offer
 live-voetbal.com##.match-bet
