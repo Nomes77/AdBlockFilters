@@ -1,4 +1,5 @@
 ! 2021-11-03
+telegraaf.nl##.SportScoreboardPage__banner
 voetbaluitslagen.com##.cta
 heracles.nl##.fixed-ads
 heracles.nl##.footer-blocks
