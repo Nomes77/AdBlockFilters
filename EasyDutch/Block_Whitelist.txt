@@ -1,5 +1,5 @@
 ! 2021-11-03
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sportnieuws.nl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sportnieuws.nl
 ! 2021-10-23
 @@||nextday.media^$3p,domain=vi.nl
 ! 2021-08-12
