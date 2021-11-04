@@ -1,4 +1,5 @@
 ! 2021-11-04
+duic.nl##.article-excerpt--ad
 zeelandnet.nl##.g_banner
 tijd.be##.c-articlelistitem:has([id="adhese_sponsoredstory"])
 tijd.be##[class^="o-hpgrid__row"]:has-text(/Gesponsorde inhoud/i)
