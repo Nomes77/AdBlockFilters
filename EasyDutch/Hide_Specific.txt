@@ -1,4 +1,5 @@
 ! 2021-11-04
+zeelandnet.nl##.g_banner
 tijd.be##.c-articlelistitem:has([id="adhese_sponsoredstory"])
 tijd.be##[class^="o-hpgrid__row"]:has-text(/Gesponsorde inhoud/i)
 bestereistijd.be##.ad
@@ -604,7 +605,6 @@ koopplein.nl##.header-banner
 tvblik.nl##.header-banner
 eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 wos.nl##.header-right
-zeelandnet.nl##.hero-banner
 slam.nl##.holder-ads
 18plussexdating.nl##.homebanner
 racingnews365.nl##.homepage-casino-wrapper
