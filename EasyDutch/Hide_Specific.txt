@@ -1,4 +1,5 @@
 ! 2021-11-04
+autobahn.eu##.d-none.mb-3:has(a[target="_blank"][rel="noopener"])
 elegance.nl##[id^="tdi_"][class^="tdc-row"]:has([class^="adsbygoogle"])
 trendalert.nl##.ad-container
 duic.nl##.article-excerpt--ad
