@@ -1,4 +1,6 @@
 ! 2021-11-04
+tijd.be##.c-articlelistitem:has([id="adhese_sponsoredstory"])
+tijd.be##[class^="o-hpgrid__row"]:has-text(/Gesponsorde inhoud/i)
 bestereistijd.be##.ad
 bestereistijd.be##.ad + .card-divider
 wielerflits.be,wielerflits.nl##[class*="_ros_bravo_leaderboard-billboard"]
