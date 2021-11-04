@@ -532,7 +532,6 @@ autoweek.nl##.advertise
 bnnvara.nl,hpdetijd.nl,kieskeurig.nl##.advertisement
 wielerflits.nl##.affiliate_links
 notebookcheck.nl##.amaz_el
-want.nl##.article__content:style(margin-top: -125px!important;)
 glutenvrij.nl##.Article__inner > .Article__title:has-text(Advert)
 zeelandnet.nl##.article-bnr-first
 telegraaf.nl##.ArticleBodyBlocks__bannerWrapper
