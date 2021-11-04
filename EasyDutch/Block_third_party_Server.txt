@@ -1,3 +1,20 @@
+! 2021-11-04 Taken out of Peter Lowe List
+||adhese.be^$badfilter
+||adpepper.nl^$badfilter
+||adpepper.nl^$3p
+||adscience.nl^$badfilter
+||adscience.nl^$3p
+||adworx.nl^$badfilter
+||adworx.nl^$3p
+||bannermarkt.nl^$badfilter
+||bannermarkt.nl^$3p
+||m4n.nl^$badfilter
+||m4n.nl^$3p
+||netdirect.nl^$badfilter
+||netdirect.nl^$3p
+||webads.nl^$badfilter
+||webcash.nl^$badfilter
+||webcash.nl^$3p
 ! 2021-10-23
 ! nos.nl (https://nos.nl/op3/video/2399828-wie-bepaalt-welke-emoji-s-jij-kunt-gebruiken)
 ||dntblckmpls.nl^$3p
@@ -28,21 +45,6 @@
 ||affiliateprogramma.eu^$3p
 ! 2021-07-28
 ||gratis-neuken.com^$3p
-! 2021-06-29 Taken out of Peter Lowe List
-||adhese.be^$badfilter
-||adpepper.nl^$badfilter
-||adpepper.nl^$3p
-||adscience.nl^$badfilter
-||adscience.nl^$3p
-||adworx.nl^$badfilter
-||adworx.nl^$3p
-||bannermarkt.nl^$badfilter
-||bannermarkt.nl^$3p
-||m4n.nl^$badfilter
-||m4n.nl^$3p
-||netdirect.nl^$badfilter
-||netdirect.nl^$3p
-||webads.nl^$badfilter
 ! 2021-06-29
 ||2k19.nl^$3p
 ||2k21.nl^$3p
