@@ -1,4 +1,5 @@
 ! 2021-11-06
+xgn.nl##.ad
 letsgodigital.org##.ad
 letsgodigital.org##.product__wrapper:has(##.adsbygoogle)
 racexpress.nl##a[href^="http://www.onderdelenstore24.nl/"]
