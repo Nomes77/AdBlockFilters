@@ -1,4 +1,5 @@
 ! 2021-11-06
+||racexpress.nl/advertising/$image
 ||fanclubbarcelona.nl/viewfile/*banner/$image
 ! 2021-11-04
 ||stepstone.be/*?event=widgettool.$3p
