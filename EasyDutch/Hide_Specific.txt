@@ -1,4 +1,5 @@
 ! 2021-11-06
+baanwacht.nl##.shailan_banner_widget
 fanclubbarcelona.nl###banners
 voetbal4u.com##.widget-container:has([id^="text-"]> h4)
 touretappe.nl##.desktopad
