@@ -1,3 +1,7 @@
+! 2021-11-06
+wielerflits.be,wielerflits.nl##[class^="wielerflits_ros_bravo"]
+wielerflits.be,wielerflits.nl##.list-group-item:has(span:has-text(Ad))
+wielerflits.be,wielerflits.nl##.widget_text:has([class^="wielerflits_ros_bravo"])
 ! 2021-11-04
 autobahn.eu##.d-none.mb-3:has(a[target="_blank"][rel="noopener"])
 elegance.nl##[id^="tdi_"][class^="tdc-row"]:has([class^="adsbygoogle"])
@@ -8,7 +12,6 @@ tijd.be##.c-articlelistitem:has([id="adhese_sponsoredstory"])
 tijd.be##[class^="o-hpgrid__row"]:has-text(/Gesponsorde inhoud/i)
 bestereistijd.be##.ad
 bestereistijd.be##.ad + .card-divider
-wielerflits.be,wielerflits.nl##[class*="_ros_bravo_leaderboard-billboard"]
 ! 2021-11-03
 h20.gg##[id^="text-"]:has-text(Partners)
 clubbrugge.be##.partners
