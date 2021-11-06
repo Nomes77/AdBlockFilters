@@ -1,4 +1,5 @@
 ! 2021-11-06
+||baanwacht.nl/wp-content/uploads/*/*banner*.gif$image
 ||vitesse.nl/assets/img/layout/etoro-logo.png$image
 ||touretappe.nl/images/xtra/
 ||racexpress.nl/advertising/$image
