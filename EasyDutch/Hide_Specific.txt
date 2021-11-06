@@ -1,4 +1,5 @@
 ! 2021-11-06
+voetbal4u.be##.widget-container:has([id^="text-"]:has(script[src*="/ad"]))
 baanwacht.nl##.shailan_banner_widget
 fanclubbarcelona.nl###banners
 voetbal4u.com##.widget-container:has([id^="text-"]> h4)
