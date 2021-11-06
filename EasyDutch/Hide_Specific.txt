@@ -1,4 +1,5 @@
 ! 2021-11-06
+touretappe.nl##.desktopad
 xgn.nl##.ad
 letsgodigital.org##.ad
 letsgodigital.org##.product__wrapper:has(##.adsbygoogle)
