@@ -1,4 +1,6 @@
 ! 2021-11-06
+soccernews.nl###r89-mobile-rectangle-mid
+soccernews.nl###r89-takeover
 wielerflits.be,wielerflits.nl##[class^="wielerflits_ros_bravo"]
 wielerflits.be,wielerflits.nl##.list-group-item:has(span:has-text(Ad))
 wielerflits.be,wielerflits.nl##.widget_text:has([class^="wielerflits_ros_bravo"])
