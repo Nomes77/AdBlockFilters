@@ -1,4 +1,5 @@
 ! 2021-11-06
+||vitesse.nl/assets/img/layout/etoro-logo.png$image
 ||touretappe.nl/images/xtra/
 ||racexpress.nl/advertising/$image
 ||fanclubbarcelona.nl/viewfile/*banner/$image
