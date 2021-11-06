@@ -1,4 +1,6 @@
 ! 2021-11-06
+racexpress.nl##a[href^="http://www.onderdelenstore24.nl/"]
+racexpress.nl##article-side-block:has(a[href][target="_blank"] > img[width="310"][height="200"])
 soccernews.nl###r89-mobile-rectangle-mid
 soccernews.nl###r89-takeover
 wielerflits.be,wielerflits.nl##[class^="wielerflits_ros_bravo"]
