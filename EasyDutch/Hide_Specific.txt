@@ -1,4 +1,5 @@
 ! 2021-11-06
+fanclubbarcelona.nl###banners
 voetbal4u.com##.widget-container:has([id^="text-"]> h4)
 touretappe.nl##.desktopad
 xgn.nl##.ad
