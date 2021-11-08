@@ -6,7 +6,7 @@ voetbal4u.com##.widget-container:has([id^="text-"]> h4)
 touretappe.nl##.desktopad
 xgn.nl##.ad
 letsgodigital.org##.ad
-letsgodigital.org##.product__wrapper:has(##.adsbygoogle)
+letsgodigital.org##.product__wrapper:has(.adsbygoogle)
 racexpress.nl##a[href^="http://www.onderdelenstore24.nl/"]
 racexpress.nl##article-side-block:has(a[href][target="_blank"] > img[width="310"][height="200"])
 soccernews.nl###r89-mobile-rectangle-mid
