@@ -7,7 +7,7 @@ tvblik.nl##.banner-fluid
 flaironline.nl##.c-commerical_banner
 kekmama.nl##[class*="cts-advertorial"]
 kekmama.nl##.cts-row-wrapper
-7sur7.be,ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space
+7sur7.be,ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,goedgevoel.be,hln.be,pzc.nl,tubantia.nl##.dfp-space
 7sur7.be,ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.tile:has(:scope >.ankeiler--advertisement)
 ! 2021-11-06
 voetbal4u.be##.widget-container:has([id^="text-"]:has(script[src*="/ad"]))
