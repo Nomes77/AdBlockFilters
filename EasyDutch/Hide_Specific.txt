@@ -1,3 +1,6 @@
+! 2021-11-09
+7sur7.be,ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space
+7sur7.be,ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.tile:has(:scope >.ankeiler--advertisement)
 ! 2021-11-06
 voetbal4u.be##.widget-container:has([id^="text-"]:has(script[src*="/ad"]))
 baanwacht.nl##.shailan_banner_widget
@@ -38,8 +41,6 @@ live-voetbal.com##.match-bet
 ucl-voetbal.nl##[src^="/derden/betcity-"]
 ! 2021-11-01
 tubantia.nl##.advertisement
-tubantia.nl##.dfp-space
-tubantia.nl##.tile:has(:scope >.ankeiler--advertisement)
 ! 2021-10-30
 bierdopje.com##[id^="block"]:has(h1:has-text(Advertentie))
 ! 2021-10-28
@@ -598,7 +599,6 @@ secretcircle.com##.column:has(.advert)
 waarzo.nl##.contentbox:has-text(Advertentie)
 gratispornofilm.nl,luana-escort.nl##.cp-webcam-gallery-container
 tijd.be##.c-sitenavPlaceholder__ad
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.dfp-space
 dating-zoeken.nl,hete-sexcontacten.nl,milf-overzicht.nl,sexdating-afspraak.nl,sexdating-gids.be,sexdatinggids.be,vrouwensexdate.nl##.d-lg-block.d-none:has-text(Advert):not(:has(.jcarousel-skin-tango))
 geile-sexcontacten.be##.d-lg-block:has-text(Advert)
 tpo.nl##.dusWhite.mainContent
@@ -697,7 +697,6 @@ nos.nl##.teletekst__banner
 telegraaf.nl##.TextArticlePage__bannerWrapper
 nedporno.com##.text-center:has-text(/Reclame/i)
 ans-online.nl##.theiaStickySidebar > .widget:has-text(Advertentie)
-7sur7.be,ad.nl,bd.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be##.tile:has(:scope >.ankeiler--advertisement)
 dvhn.nl,lc.nl,meppelercourant.nl##.top__ad
 startpagina.nl##.top-banner
 chatmetvreemden.be,chatmetvreemden.nl##.trackerclick
