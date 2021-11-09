@@ -1,4 +1,5 @@
 ! 2021-11-09
+flaironline.nl##.c-commerical_banner
 kekmama.nl##[class*="cts-advertorial"]
 kekmama.nl##.cts-row-wrapper
 7sur7.be,ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.dfp-space
