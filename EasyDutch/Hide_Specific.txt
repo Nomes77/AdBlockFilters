@@ -1,4 +1,5 @@
 ! 2021-11-09
+spaargids.be###latest_news_above:has(.sponsored-right-bottom):has([rel="sponsored"])
 tvblik.nl##.banner-fluid
 flaironline.nl##.c-commerical_banner
 kekmama.nl##[class*="cts-advertorial"]
