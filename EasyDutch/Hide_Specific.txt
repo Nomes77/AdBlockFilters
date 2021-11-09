@@ -1,4 +1,5 @@
 ! 2021-11-09
+hardware.info##.overview-item--success
 intermediair.nl##.advert
 reclamefolder.nl##div[class^="ad_"]
 spaargids.be###latest_news_above:has(.sponsored-right-bottom):has([rel="sponsored"])
