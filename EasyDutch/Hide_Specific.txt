@@ -1,4 +1,5 @@
 ! 2021-11-10
+scholieren.com##.searchvertorial
 streamwijzer.be##.widget:has(a[href*=".bn5x.net/"])
 visserijnieuws.nl##[class^="row advertentie-"]:not([class*="advertentie-1"])
 rtlboulevard.nl##.rtldart
