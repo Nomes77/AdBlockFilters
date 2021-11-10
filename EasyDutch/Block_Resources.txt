@@ -1,3 +1,5 @@
+! 2021-11-10
+||visserijnieuws.nl/images/banners/*$image
 ! 2021-11-06
 ||baanwacht.nl/wp-content/uploads/*/*banner*.gif$image
 ||vitesse.nl/assets/img/layout/etoro-logo.png$image
