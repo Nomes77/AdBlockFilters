@@ -1,4 +1,5 @@
 ! 2021-11-10
+||wp.com/gostreaming.nl/wp-content/uploads/*/*-sidebar-banner$image
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-*.jpg$image
 ||visserijnieuws.nl/images/banners/*$image
 ! 2021-11-06
