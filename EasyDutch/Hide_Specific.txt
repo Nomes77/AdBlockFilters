@@ -1,4 +1,5 @@
 ! 2021-11-10
+123geldzaken.nl##.widget_sponsor
 culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img[width][height])
 eurocampings.nl##.js-mock-banner
 gostreaming.nl##a[rel*="sponsored"]
