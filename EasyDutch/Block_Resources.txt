@@ -1,4 +1,5 @@
 ! 2021-11-13
+||classicstogo.nl/files/*/*-banner-*$image,1p
 ||onderwijsland.com/files/banners/
 ||onderwijsland.com/files/partners/
 ! 2021-11-10
