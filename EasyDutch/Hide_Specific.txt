@@ -1,4 +1,7 @@
 ! 2021-11-13
+messianieuws.nl##[id^="custom_html-"]:has(a[href][target="_blank"][rel="noopener"])
+messianieuws.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"]:has(img[width="300"]))
+messianieuws.nl##[id^="text-"]:has(a[href][target="_blank"][rel="noopener"]):has-text(Sponsors)
 onderwijsland.com##.widgetbar > div.row > :has(.widget-partners)
 onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
 schiedamsnieuws.nl###media_image-3
