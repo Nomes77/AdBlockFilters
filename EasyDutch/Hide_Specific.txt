@@ -1,4 +1,6 @@
 ! 2021-11-13
+schiedamsnieuws.nl###media_image-3
+schiedamsnieuws.nl###media_image-4
 surfplaza.be##td.di1:has(img[src$="/yourad.gif"])
 ! 2021-11-10
 123geldzaken.nl##.widget_sponsor
