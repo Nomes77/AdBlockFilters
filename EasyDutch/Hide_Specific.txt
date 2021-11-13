@@ -1,4 +1,6 @@
 ! 2021-11-13
+onderwijsland.com##.widgetbar > div.row > :has(.widget-partners)
+onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
 schiedamsnieuws.nl###media_image-3
 schiedamsnieuws.nl###media_image-4
 surfplaza.be##td.di1:has(img[src$="/yourad.gif"])
