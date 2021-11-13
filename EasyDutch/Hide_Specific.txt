@@ -1,4 +1,5 @@
 ! 2021-11-13
+classicstogo.nl##.owl-carousel
 kanaancourant.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"])
 messianieuws.nl##[id^="custom_html-"]:has(a[href][target="_blank"][rel="noopener"])
 messianieuws.nl##[id^="media_image-"]:has(a[href][target="_blank"][rel="noopener"]:has(img[width="300"]))
