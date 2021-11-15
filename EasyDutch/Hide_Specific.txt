@@ -1,3 +1,5 @@
+! 2021-11-15
+techpulse.be##.td-banner-wrap-full
 ! 2021-11-13
 bnr.nl##.branded
 classicstogo.nl##.owl-carousel
