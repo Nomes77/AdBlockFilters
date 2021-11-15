@@ -1,4 +1,5 @@
 ! 2021-11-15
+||persinfo.org/assets/images/pictures/ad/$image,1p
 ||regioonline.nl/wp-content/uploads/*/*-Ads.*$image,1p
 ! 2021-11-13
 ||commonsensetv.nl/wp-content/uploads/*/ezgif.com-gif-maker*.gif$image
