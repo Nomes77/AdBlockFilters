@@ -1,4 +1,5 @@
 ! 2021-11-15
+cinenews.be##.ads
 filmladder.nl##.banner
 techpulse.be##.td-banner-wrap-full
 ! 2021-11-13
