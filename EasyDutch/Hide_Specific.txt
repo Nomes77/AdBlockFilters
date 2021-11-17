@@ -1,3 +1,6 @@
+! 2021-11=17
+sportinnederland.com##.af-main-header-container
+sportinnederland.com##.widget-area:has([id^="custom_html-"]:has(.adsbygoogle))
 ! 2021-11-15
 persinfo.org##.ad
 regioonline.nl##.td-a-rec
