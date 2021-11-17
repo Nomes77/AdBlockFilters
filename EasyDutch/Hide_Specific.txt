@@ -6,7 +6,6 @@ gocar.be##.pub-leaderboard-top
 rendez-vous.be##.leaderBoard
 nljug.org##[id^="custom_html-"]:has-text(Kennispartners):has(a[href] > img)
 computable.be##.sponsorartikelen
-computable.nl##.sponsored
 computable.be,computable.nl##.true-logo
 immo.vlan.be###ProvidersBox
 immo.vlan.be###TopCompareBox
