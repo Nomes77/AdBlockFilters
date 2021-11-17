@@ -1,4 +1,6 @@
 ! 2021-11-17
+||computable.be/media/truelogo*$image,1p
+||computable.nl/media/truelogo*$image,1p
 ||vives.nl/wp-content/uploads/*-Banner-*
 ||vives.nl/wp-content/uploads/Banner_*
 ||agconnect.nl/sites/ag/files/styles/partner_*$image,1p
