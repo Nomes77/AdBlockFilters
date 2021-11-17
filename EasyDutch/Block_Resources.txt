@@ -1,4 +1,6 @@
 ! 2021-11-17
+||vives.nl/wp-content/uploads/*-Banner-*
+||vives.nl/wp-content/uploads/Banner_*
 ||agconnect.nl/sites/ag/files/styles/partner_*$image,1p
 ! 2021-11-15
 ||persinfo.org/assets/images/pictures/ad/$image,1p
