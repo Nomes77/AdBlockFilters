@@ -1,4 +1,5 @@
 ! 2021-11=17
+zoom.nl##div[class^="display-ad_container"]
 wasmachines.nl##.rectangle
 gocar.be##.pub-leaderboard-top
 rendez-vous.be##.leaderBoard
