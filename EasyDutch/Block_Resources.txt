@@ -1,4 +1,5 @@
 ! 2021-11-17
+||linuxmag.nl/wp-content/uploads/*/rectangle*.gif$image
 ||computable.be/media/truelogo*$image,1p
 ||computable.nl/media/truelogo*$image,1p
 ||vives.nl/wp-content/uploads/*-Banner-*
