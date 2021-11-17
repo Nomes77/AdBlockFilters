@@ -1,3 +1,5 @@
+! 2021-11-17
+||agconnect.nl/sites/ag/files/styles/partner_*$image,1p
 ! 2021-11-15
 ||persinfo.org/assets/images/pictures/ad/$image,1p
 ||regioonline.nl/wp-content/uploads/*/*-Ads.*$image,1p
