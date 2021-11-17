@@ -1,4 +1,5 @@
 ! 2021-11=17
+freesoccer.nl##.container-fluid.site-header
 sportinnederland.com##.af-main-header-container
 sportinnederland.com##.widget-area:has([id^="custom_html-"]:has(.adsbygoogle))
 ! 2021-11-15
