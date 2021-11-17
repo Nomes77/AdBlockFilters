@@ -1,4 +1,7 @@
 ! 2021-11=17
+computable.be##.sponsorartikelen
+computable.nl##.sponsored
+computable.be,computable.nl##.true-logo
 immo.vlan.be###ProvidersBox
 immo.vlan.be###TopCompareBox
 freesoccer.nl##.container-fluid.site-header
