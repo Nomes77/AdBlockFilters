@@ -1,4 +1,6 @@
-! 2021-11=17
+! 2021-11-18
+emerce.nl##.widget_text:has(img[src*="/hosted-by-true-"])
+! 2021-11-17
 landbouwgrond.nu##div[style]:has(.adsbygoogle)
 zoom.nl##div[class^="display-ad_container"]
 wasmachines.nl##.rectangle
