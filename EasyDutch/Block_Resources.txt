@@ -1,3 +1,5 @@
+! 2021-11-18
+||emerce.nl/content/uploads/*/hosted-by-true-$image,1p
 ! 2021-11-17
 ||linuxmag.nl/wp-content/uploads/*/rectangle*.gif$image
 ||computable.be/media/truelogo*$image,1p
