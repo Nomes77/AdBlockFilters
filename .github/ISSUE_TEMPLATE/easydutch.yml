@@ -12,6 +12,8 @@ body:
           required: true
         - label: Only ads or anti-adblock / Alleen advertenties of anti-adblock
           required: true
+        - label: Filters were updated before reproducing an issue / Filterlijsten zijn geüpdated voordat dit probleem werd gereproduceerd 
+          required: true
     
   - type: checkboxes
     attributes:
@@ -58,8 +60,8 @@ body:
   - type: input
     attributes:
       label: uBlock Origin version
-      placeholder: 1.37.2
-      value: 1.37.
+      placeholder: 1.38.6
+      value: 1.38.
     validations:
       required: true
 
@@ -103,3 +105,14 @@ body:
         Schrijf hier het resultaat van het onderzoekswerk dat je hebt gedaan
     validations:
       required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Privacy
+      description: |
+        By submitting this issue, you agree that report does not contain private info, also not in the screenshots
+        Dit issue bevat geen persoonlijke informatie, ook niet in de screenshots
+      options:
+        - label: I agree to follow this condition / Ik ga akkoord met deze voorwaarde
+          required: true
