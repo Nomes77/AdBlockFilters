@@ -1,4 +1,5 @@
 ! 2021-11-18
+||fiets.nl/app/uploads/*-Webbanner-*$image,1p
 ||emerce.nl/content/uploads/*/hosted-by-true-$image,1p
 ! 2021-11-17
 ||linuxmag.nl/wp-content/uploads/*/rectangle*.gif$image
