@@ -33,7 +33,7 @@ body:
         Geef de link van de website waar het probleem zich voordoet. 
         Zorg er voor dat de URL niet klikbaar is.
       placeholder: |
-        `https://example.nl`
+        `https://example.nl`, 
         `https://example.be`
     validations:
       required: true
