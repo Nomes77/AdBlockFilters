@@ -92,7 +92,7 @@ body:
         - Change 2
         - Change 3
     validations:
-      required: false  
+      required: false
 
   - type: textarea
     attributes:
