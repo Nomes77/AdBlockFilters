@@ -1,8 +1,6 @@
 ! Title: Dynamic rules for uBlock Origin for 3p-frame unblocking only
 ! Last updated: 19-11-2021
 !
-no-csp-reports: * true
-no-large-media: behind-the-scene true
 * * 3p-frame block
 * embed.acast.com * noop
 * ajax.googleapis.com * noop
@@ -15,7 +13,6 @@ no-large-media: behind-the-scene true
 * archive.org * noop
 * banned.video * noop
 * bbvms.com * noop
-* behind-the-scene * block
 * bitchute.com * noop
 * embed.blivenyc.com * noop
 * players.brightcove.net * noop
