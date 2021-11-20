@@ -1,6 +1,6 @@
 ! 2021-11-20
+/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|bekijkporno.nl|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|rtvpapendrecht.nl|seksmet.nl|sexmeid.nl|shespot.nl|sproeiendekutjes.nl|tube.nederlandseporno.nl|tubelight.nl
 ||oneworld.nl/app/uploads/*/*-Banner$image
-||tubelight.nl/wp-content/uploads/*/*.gif$image
 ||railhobby.nl/wp-content/uploads/*/*_banner-$image
 ||lflmagazine.nl/wp-content/uploads/*-rectangle-300*.gif$image,1p
 ||luister.nl/wp-content/uploads/*/Banner_$image
@@ -80,7 +80,6 @@
 ||rtveen.nl/wp-content/plugins/advanced-advertising-system/js/*$script,1p
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
 ||camping-frankrijk.nl/graphics/*/*600.$image
-/wp-content/uploads/*.gif$image,domain=rtvpapendrecht.nl
 ||a1mediagroep.nl/content/*/company/*/banne*.*?width=290&height=150
 ||blob.core.windows.net/*/content/regiovoetbal/*_banner.*$image,domain=regio-voetbal.nl
 ||motokicx.com/wp-content/uploads/*/BANNER-
@@ -196,7 +195,6 @@
 ||xmissy.nl/skins/_customplayers/*/footer.jpg$image,1p
 ! 2021-08-10
 ||inviteonly.nl/banner/*$image,domain=kutscheetje.nl
-/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|bekijkporno.nl|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|seksmet.nl|sexmeid.nl|shespot.nl|sproeiendekutjes.nl|tube.nederlandseporno.nl
 ||ninefornews.nl/wp-content/plugins/advanced-ads*/public/assets/js/*.js$script,1p
 ||ninefornews.nl/wp-content/uploads/*/tetralogie300x250.jpg$image
 ||ninefornews.nl/wp-content/uploads/*/*-300x250-*.jpg$image
