@@ -1,4 +1,5 @@
 ! 2021-11-20
+||railhobby.nl/wp-content/uploads/*/*_banner-$image
 ||lflmagazine.nl/wp-content/uploads/*-rectangle-300*.gif$image,1p
 ||luister.nl/wp-content/uploads/*/Banner_$image
 ! 2021-11-18
