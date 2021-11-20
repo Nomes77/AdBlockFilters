@@ -1,4 +1,5 @@
 ! 2021-11-20
+zin.nl##.banner-container
 deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.banner-container):not(:has-text(/podcast/i))
 beleggersbelangen.nl##.ad
 topgear.nl##.theme-advertorial
