@@ -1,4 +1,6 @@
 ! 2021-11-20
+autoreview.nl###parentgpt
+autoreview.nl##.bottom-bannuring
 knipmode.nl,rootsmagazine.nl,seasons.nl,truckstar.nl,vorsten.nl,zin.nl##.banner-container
 deliciousmagazine.nl##.elementor-element > .elementor-element-populated:has(.banner-container):not(:has-text(/podcast/i))
 beleggersbelangen.nl##.ad
