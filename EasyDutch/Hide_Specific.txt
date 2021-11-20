@@ -1,4 +1,5 @@
 ! 2021-11-20
+topgear.nl##.theme-advertorial
 oneworld.nl##.promotion-block
 sciencelink.net##[id^="sponsored-content_"]
 ! 2021-11-18
