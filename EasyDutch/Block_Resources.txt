@@ -1,4 +1,5 @@
 ! 2021-11-20
+||lflmagazine.nl/wp-content/uploads/*-rectangle-300*.gif$image,1p
 ||luister.nl/wp-content/uploads/*/Banner_$image
 ! 2021-11-18
 ||fiets.nl/app/uploads/*-Webbanner-*$image,1p
