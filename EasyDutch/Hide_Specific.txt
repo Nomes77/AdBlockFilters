@@ -1,4 +1,5 @@
 ! 2021-11-20
+eoswetenschap.eu##.l-banner
 pokeren.nl###onetime-popup
 fhm500.nl##.powered_by_page
 fhm500.nl##.powered_by_profile
