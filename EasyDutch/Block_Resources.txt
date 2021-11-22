@@ -1,9 +1,8 @@
 ! 2021-11-22
+/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|alblasserdamsnieuws.nl|bekijkporno.nl|ciaotutti.nl|dorpsklanken.online|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|noordkopcentraal.nl|onschuldigemeiden.nl|pornokartel.nl|regionoordkop.nl|rtvpapendrecht.nl|rtvlansingerland.nl|seksmet.nl|sexmeid.nl|shespot.nl|sproeiendekutjes.nl|tube.nederlandseporno.nl|tubelight.nl
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|baarsclassicrock.nl|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|goedkoopstekeukensduitsland.nl|loemedia.nl|luister.nl|maaslandradio.nl|omroepalmere.nl|oogtv.nl|railhobby.nl|regionoordkop.nl|spreekbuis.nl
-
 ||ciaotutti.nl/wp-content/uploads/*/koffiecentrale-*$image
 ! 2021-11-20
-/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|alblasserdamsnieuws.nl|bekijkporno.nl|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|rtvpapendrecht.nl|seksmet.nl|sexmeid.nl|shespot.nl|sproeiendekutjes.nl|tube.nederlandseporno.nl|tubelight.nl
 ||oneworld.nl/app/uploads/*/*-Banner$image
 ||railhobby.nl/wp-content/uploads/*/*_banner-$image
 ||lflmagazine.nl/wp-content/uploads/*-rectangle-300*.gif$image,1p
@@ -140,8 +139,6 @@
 ! 2021-08-30
 ||tweedehandschristelijkeboeken.nl/wp-content/uploads/*/gratis-eo-visie.png$image
 ! 2021-08-27
-||ciaotutti.nl/wp-content/uploads/*/camping-delle-rose-isolabona-ligurie-vakantie*.gif$image
-||ciaotutti.nl/wp-content/uploads/*/ghiacci-vecchi-vakantie-toscane.gif$image
 ||ciaotutti.nl/wp-content/uploads/*/italmania-*reizen-italie*$image
 ||ciaotutti.nl/wp-content/uploads/*/villa-in-umbria-vakantie*$image
 ! https://github.com/easylist/easylistdutch/commit/1593d53a45cbfabc2b63c97311ce1474398e92fc
@@ -217,8 +214,6 @@
 ||modekoninginmaxima.nl/sites/default/files/*/*170x600.gif$image
 ! 2021-08-04
 ||tools-affil2.com/rtb/index.php$subdocument,domain=beeldbelsex.com
-||dorpsklanken.online/wp-content/uploads/*/*_300x100*.gif$image
-||dorpsklanken.online/wp-content/uploads/*/DK-online-*.gif$image
 ||dorpsklanken.online/wp-content/uploads/*/Knap-IT_Paterswolde.png$image
 ||dorpsklanken.online/wp-content/uploads/*/polling_basis.jpg$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/MBA-regiobank-*.gif$image
@@ -259,7 +254,6 @@
 ! https://github.com/BPower0036/AdBlockFilters/27
 ||noordkopcentraal.nl/wp-content/uploads/*/*-Logo-462X*.$image
 ||noordkopcentraal.nl/wp-content/uploads/*/Boersen-Logo-*.png$image
-||noordkopcentraal.nl/wp-content/uploads/*/Rozing415x125.gif$image
 ! https://github.com/easylist/easylistdutch/compare/e968abed7c...b6aa291af7
 ||123video.nl^*/300x100_
 ||wp.com/www.appletips.nl/wp-content/uploads/amacdeals$image,domain=appletips.nl
@@ -283,10 +277,8 @@
 ! 2021-07-19
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/WK*.$image
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/Week-*.png$image
-||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/Twee-wegen.gif$image
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/CJG-Alblasserdam.jpg$image
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/Rozendaal.jpg$image
-||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/zonder-herfst.gif$image
 ! 2021-07-14
 /^https?:\/\/statics\.(?:ad|bd|bndestem|destentor|ed|gelderlander|hln|tubantia|pzc)\.(?:nl|be)\/js\/advertising-[\w]+\.js$/$script
 ! 2021-07-12
@@ -329,7 +321,6 @@
 ||radioeenhoorn.nl/images/Maxaro-badkamers-tegels.png
 ||rtvmaastricht.nl/banners/
 ||rtvnof.nl/prowurk/
-||wp.com/www.regionoordkop.nl/wp-content/uploads/*/Bdijknov2016336x280.gif
 ||wp.com/www.regionoordkop.nl/wp-content/uploads/*/Costa.jpg
 ! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
 ||lokaleomroepzeewolde.nl/images/banners/
