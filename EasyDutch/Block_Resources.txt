@@ -1,6 +1,6 @@
 ! 2021-11-22
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
-/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|alblasserdamsnieuws.nl|bekijkporno.nl|ciaotutti.nl|dorpsklanken.online|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|motokicx.com|noordkopcentraal.nl|onschuldigemeiden.nl|pornokartel.nl|regionoordkop.nl|rtvpapendrecht.nl|rtvlansingerland.nl|seksmet.nl|sexmeid.nl|shespot.nl|sproeiendekutjes.nl|tube.nederlandseporno.nl|tubelight.nl
+/wp-content/uploads/*.gif$image,domain=2sexcontact.nl|alblasserdamsnieuws.nl|bekijkporno.nl|ciaotutti.nl|dorpsklanken.online|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|motokicx.com|noordkopcentraal.nl|onschuldigemeiden.nl|pornokartel.nl|regionoordkop.nl|rtvpapendrecht.nl|rtvlansingerland.nl|seksmet.nl|sexmeid.nl|shespot.nl|sproeiendekutjes.nl|tiener-sexverhalen.nl|tube.nederlandseporno.nl|tubelight.nl
 /wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|baarsclassicrock.nl|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|goedkoopstekeukensduitsland.nl|loemedia.nl|luister.nl|maaslandradio.nl|omroepalmere.nl|oogtv.nl|railhobby.nl|regionoordkop.nl|spreekbuis.nl
 ||ciaotutti.nl/wp-content/uploads/*/koffiecentrale-*$image
 ! 2021-11-20
