@@ -316,8 +316,6 @@
 ||18plussexdating.nl/images/18plussexdating.$image
 ||hotdatingvlaanderen.be/banner$image
 ||ikwilneuken.*/assets/img/*.gif$image
-! 2021-06-23
-||okemedia.nl/wp-content/uploads/*/*banner.jpg
 ! 2021-06-22
 ||handbalstartpunt.nl/images/banner_$image,1p
 ||handbalstartpunt.nl/content/schoonkapje$image,1p
