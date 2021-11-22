@@ -1,4 +1,6 @@
 ! 2021-11-22
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|baarsclassicrock.nl|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|goedkoopstekeukensduitsland.nl|loemedia.nl|luister.nl|maaslandradio.nl|omroepalmere.nl|oogtv.nl|railhobby.nl|regionoordkop.nl|spreekbuis.nl
+
 ||ciaotutti.nl/wp-content/uploads/*/koffiecentrale-*$image
 ! 2021-11-20
 /wp-content/uploads/*.gif$image,domain=2sexcontact.nl|alblasserdamsnieuws.nl|bekijkporno.nl|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|onschuldigemeiden.nl|pornokartel.nl|rtvpapendrecht.nl|seksmet.nl|sexmeid.nl|shespot.nl|sproeiendekutjes.nl|tube.nederlandseporno.nl|tubelight.nl
@@ -21,7 +23,6 @@
 ||regioonline.nl/wp-content/uploads/*/*-Ads.*$image,1p
 ! 2021-11-13
 ||commonsensetv.nl/wp-content/uploads/*/ezgif.com-gif-maker*.gif$image
-||omroepalmere.nl/wp-content/uploads/*/*-banner.gif
 ||classicstogo.nl/files/*/*-banner-*$image,1p
 ||onderwijsland.com/files/banners/
 ||onderwijsland.com/files/partners/
@@ -31,7 +32,6 @@
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-*.jpg$image
 ||visserijnieuws.nl/images/banners/*$image
 ! 2021-11-06
-||baanwacht.nl/wp-content/uploads/*/*banner*.gif$image
 ||vitesse.nl/assets/img/layout/etoro-logo.png$image
 ||touretappe.nl/images/xtra/
 ||racexpress.nl/advertising/$image
@@ -269,7 +269,6 @@
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||openingsurengids.be/template/images/publi/
 ! 2021-07-28
-||oogtv.nl/wp-content/uploads/*/beno_banner_$image
 ||digitaalburg.com/rn02/wp-content/uploads/*/CornetAnimationA-
 ||digitaalburg.com/rn02/wp-content/uploads/*/MERKX11.png
 ||digitaalburg.com/rn02/wp-content/uploads/*/Roel.jpg
@@ -282,7 +281,6 @@
 ! 2021-07-20
 ||noordhollandsdagblad.nl/nhd/extra/assets/advertising/dfp-setup.js$script,1p
 ! 2021-07-19
-||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/*-banner$image
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/WK*.$image
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/Week-*.png$image
 ||alblasserdamsnieuws.nl/wordpress/wp-content/uploads/*/Twee-wegen.gif$image
@@ -316,7 +314,6 @@
 ||handbalstartpunt.nl/images/banner_$image,1p
 ||handbalstartpunt.nl/content/schoonkapje$image,1p
 ||handbalstartpunt.nl/images/mizuno-small.jpg
-||maaslandradio.nl/wp-content/uploads/*/Banner-
 ! https://github.com/easylist/easylistdutch/commit/ac089b16e6d91e18d8455be824a9648f3f34a6fa
 ||hotradiohits.nl/image/picture/*_banner.
 ! https://github.com/easylist/easylistdutch/commit/40bd66bc5bad85a864b63b19ee143461a2453b65
@@ -324,8 +321,6 @@
 ! https://github.com/easylist/easylistdutch/commit/ae2d55abd9a3984b940cb0f03ac915b7bbcd5d5d
 ||rickfm.nl/cwm/fm/userfiles/banner/
 ! https://github.com/easylist/easylistdutch/compare/021b6c6620...9eeecc805f
-||loemedia.nl/wp-content/uploads/*/BannerPruisSchilderwerken-
-||loemedia.nl/wp-content/uploads/*/HemaBannerGroot-
 ||maaslandradio.nl/wp-content/uploads/*/autodoc.
 ||maaslandradio.nl/wp-content/uploads/*/Hekwerkland.
 ||noordkopcentraal.nl^*/banner_
@@ -334,11 +329,9 @@
 ||radioeenhoorn.nl/images/Maxaro-badkamers-tegels.png
 ||rtvmaastricht.nl/banners/
 ||rtvnof.nl/prowurk/
-||wp.com/www.regionoordkop.nl/wp-content/uploads/*/banner-
 ||wp.com/www.regionoordkop.nl/wp-content/uploads/*/Bdijknov2016336x280.gif
 ||wp.com/www.regionoordkop.nl/wp-content/uploads/*/Costa.jpg
 ! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
-||decibel.nl/wp-content/uploads/*/banner-
 ||lokaleomroepzeewolde.nl/images/banners/
 ||radiolelystad.nl/images/stories/Banners/
 ||simone.nl/bestanden/afbeelding/*-banner-
@@ -354,10 +347,7 @@
 ! https://github.com/easylist/easylistdutch/commit/db57d2f428d0ba0c83d0e9bd72b2d28a943da734
 ||wp.com/romagazine.nl/14nwsite/wp-content/uploads/*/Banner300x250-
 ||wp.com/romagazine.nl/14nwsite/wp-content/uploads/*/BannerPZ-
-! 2021-06-18
-||dordtcentraal.nl/wp-content/uploads/*/Inline-banner-DC-Reclame$image
 ! https://github.com/easylist/easylistdutch/commit/7d8cbbd9ab38f9883c2675bc7fc0564cb8d7fd83
-||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/I-kook-banner.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keuken-ontwerp-aan-huis.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukencoach-300x250.jpg
 ||goedkoopstekeukensduitsland.nl/wp-content/uploads/*/Keukenplaats.jpg
@@ -407,7 +397,6 @@
 ||custom.islive.nl/_respo/*.gif$image,domain=camsex.nl
 ||dagelijksestandaard.nl/wp-content/uploads/*/PROMO-DDS.$image
 ||dekrantnieuws.nl/wp-content/uploads/*/deurbord-staand*.$image
-||deoudrotterdammer.nl/wp-content/uploads/*/banner*.$image
 ||digitalaudience.io/bakery/pix/$image,3p
 ||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
 ||dutchitchannel.nl/media/6*/*.jpg$3p
