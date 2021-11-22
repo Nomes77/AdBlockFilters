@@ -50,8 +50,6 @@
 ||sedproductions.nl/banners/$image,3p
 ! 2021-10-21
 ||wp.com/www.bol.com/*/upload/partnerprogramma/$image
-! 2021-10-19
-||nieuwsopbeeld.nl/wp-content/uploads/*/Advertentie*.gif$image
 ! 2021-10-13
 ||inzod.nl/wp-content/uploads/*/*/*.gif$image
 ||regionieuwshoogeveen.nl/wp-content/uploads/*/*/243505202_939414096933645_1681220239902803510_n*.jpg$image
