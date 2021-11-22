@@ -121,7 +121,6 @@
 ! 2021-09-03
 ||apintie.sr/bannerz$image
 ||viapizza.online/?ts_id=$subdocument,domain=dagbladdewest.com
-/wp-content/uploads/*/*banner$image,domain=baarsclassicrock.nl,spreekbuis.nl
 ||h2owaternetwerk.nl/images/*/*Banner*300x250px$image
 ||reformatorischeomroep.nl/files/000/*/*/banner*.gif$image
 ! https://github.com/easylist/easylistdutch/commit/9295f184021c8b8c628eb4051ce900da91e74dc7
