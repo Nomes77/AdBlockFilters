@@ -1,4 +1,5 @@
 ! 2021-11-22
+tweakers.net###true
 tiener-sexverhalen.nl##aside[id^="block"]:has(img[src*="/wp-content/uploads/"][src$=".gif"])
 maaslandradio.nl###header-text-nav-container > .inner-wrap > .clearfix
 tellows.nl##.ad
