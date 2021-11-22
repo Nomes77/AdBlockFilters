@@ -1,4 +1,5 @@
 ! 2021-11-22
+nuus.be##.widget-area.sidebar:has([data-advadstrackid])
 veronicainside.nl##div[class^="Component-bannerTopWrapper"]
 veronicainside.nl##div[class^="k-bannerWrapper"]
 tweakers.net###true
