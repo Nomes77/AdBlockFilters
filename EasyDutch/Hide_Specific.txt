@@ -1,4 +1,7 @@
 ! 2021-11-22
+despirituelewereld.be##[id^="text-"]:has([href="http://www.info-coronavirus.be"])
+despirituelewereld.be##[id^="text-"]:has(a[href]:has([width="300"][height="250"]))
+despirituelewereld.be##.stream-item-widget
 nuus.be##.widget-area.sidebar:has([data-advadstrackid])
 veronicainside.nl##div[class^="Component-bannerTopWrapper"]
 veronicainside.nl##div[class^="k-bannerWrapper"]
