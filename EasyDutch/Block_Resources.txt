@@ -1,4 +1,5 @@
 ! 2021-11-22
+||despirituelewereld.be/wp-content/uploads/*/hook-bottom-info-coronavirus*$image
 ||storage.googleapis.com/stateless-www-nuus-be/*/*.gif$image,domain=nuus.be
 ||storage.googleapis.com/stateless-www-nuus-be/*/*-banner-*$image,domain=nuus.be
 ||sproeiendekutjes.nl/wp-content/uploads/*/spannende-afspraakjes.webm$media,1p
