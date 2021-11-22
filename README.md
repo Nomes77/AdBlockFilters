@@ -35,7 +35,7 @@ It can be handy to use them.
 
 
 ### Subcribe to my filterlists
-- [EasyDutch](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/BPower0036/AdBlockFilters/main/easydutch.txt&title=EasyDutch), [(Mirror 1)](https://gitlab.com/BPower0036/AdBlockFilters/-/raw/main/easydutch.txt), [(Mirror 2)](https://gitcdn.xyz/repo/BPower0036/AdBlockFilters/main/easydutch.txt)
+- [EasyDutch](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/BPower0036/AdBlockFilters/main/easydutch.txt&title=EasyDutch), [(Mirror 1)](https://gitlab.com/BPower0036/AdBlockFilters/-/raw/main/easydutch.txt)
 - [Dynamic rules](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/BPower0036/AdBlockfilters/main/dynamic%20rules&title=Dynamic%20rules%20for%20uBlock%20Origin%20for%203p-frame%20unblocking%20only), [(Mirror 1)](https://gitlab.com/BPower0036/AdBlockFilters/-/raw/main/dynamic%20rules)
 - [My filters](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/BPower0036/AdBlockfilters/main/my%20filters&title=My%20filters%20list%20uBo), [(Mirror 1)](https://gitlab.com/BPower0036/AdBlockFilters/-/raw/main/my%20filters)
 
