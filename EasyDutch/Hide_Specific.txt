@@ -1,4 +1,6 @@
 ! 2021-11-22
+veronicainside.nl##div[class^="Component-bannerTopWrapper"]
+veronicainside.nl##div[class^="k-bannerWrapper"]
 tweakers.net###true
 tiener-sexverhalen.nl##aside[id^="block"]:has(img[src*="/wp-content/uploads/"][src$=".gif"])
 maaslandradio.nl###header-text-nav-container > .inner-wrap > .clearfix
