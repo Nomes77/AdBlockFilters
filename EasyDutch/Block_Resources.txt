@@ -105,7 +105,6 @@
 ||b-cdn.net/w_/s3-roulettefm/*.$image,domain=roulettefm.nl
 ||b-cdn.net/w_/s3-rtvstichtsevecht/*.$image,domain=rtvstichtsevecht.nl
 ||hetnieuwsvandaag.be/media/cache/rectangle_image/media/image/*.$image
-||radioreflex.be/wp-content/uploads/*/Banner*.$image
 ||radiozuidrand.be/wp-content/uploads/*/banner-sponsors.jpg$image
 ||tennisplaza.be/wp-content/uploads/*/tennisdirect-*$image,1p
 ||tennisvlaanderen.be/documents/*/*Sponsorblok-$image,1p
