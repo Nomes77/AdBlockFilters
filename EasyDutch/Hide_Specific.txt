@@ -1,3 +1,5 @@
+! 2021-11-23
+mo.be##.view-id-banners_top
 ! 2021-11-22
 despirituelewereld.be##[id^="text-"]:has([href="http://www.info-coronavirus.be"])
 despirituelewereld.be##[id^="text-"]:has(a[href]:has([width="300"][height="250"]))
