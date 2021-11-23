@@ -1,4 +1,5 @@
 ! 2021-11-23
+livios.be##.block-leaderboard
 sport.be##.ad
 seksmet.nl##[class^="et_pb_module"]:has([href*="mt67.net"])
 klasse.be##.banner
