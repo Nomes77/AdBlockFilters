@@ -1,4 +1,6 @@
 ! 2021-11-23
+eurogamer.nl##.homepage-billboard-container
+eurogamer.nl##.game-spotlight-advertising
 senseigaming.be##[id^="text-"]:has-text(sponsors)
 mo.be##.view-id-banners_top
 ! 2021-11-22
