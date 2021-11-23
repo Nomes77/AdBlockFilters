@@ -1,4 +1,5 @@
 ! 2021-11-23
+klasse.be##.banner
 eurogamer.nl##.homepage-billboard-container
 eurogamer.nl##.game-spotlight-advertising
 senseigaming.be##[id^="text-"]:has-text(sponsors)
