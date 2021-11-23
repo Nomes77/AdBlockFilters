@@ -1,3 +1,5 @@
+! 2021-11-23
+||mo.be/sites/default/files/banners/$image
 ! 2021-11-22
 ||despirituelewereld.be/wp-content/uploads/*/DrukZo-Korting-*$image
 ||despirituelewereld.be/wp-content/uploads/*/hook-bottom-info-coronavirus*$image
