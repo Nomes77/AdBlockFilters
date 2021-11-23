@@ -1,4 +1,5 @@
 ! 2021-11-23
+senseigaming.be##[id^="text-"]:has-text(sponsors)
 mo.be##.view-id-banners_top
 ! 2021-11-22
 despirituelewereld.be##[id^="text-"]:has([href="http://www.info-coronavirus.be"])
