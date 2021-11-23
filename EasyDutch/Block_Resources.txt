@@ -1,4 +1,5 @@
 ! 2021-11-23
+||klasse.be/wp/wp-content/images/*_lb_zondergrenzenvzw.full.$image
 ||mo.be/sites/default/files/banners/$image
 ! 2021-11-22
 ||despirituelewereld.be/wp-content/uploads/*/DrukZo-Korting-*$image
