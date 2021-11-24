@@ -1,3 +1,5 @@
+! 2021-11-24
+||voetbaluitslagen.com/wp-content/uploads/*/bet*$image
 ! 2021-11-23
 ||cdn.seksmet.nl/wp-content/uploads/*/all-over-40-handjob$image
 ||dating.*.auroraobjects.eu/files/bans/*$image,domain=seksmet.nl
@@ -51,7 +53,6 @@
 ! 2021-11-03
 ||debestevpn.nl/wp-content/*-banner.
 ||live-voetbal.com/wp-content/themes/fed/js/jquery-*.js$script,1p
-||voetbaluitslagen.com/wp-content/uploads/*/bet365-banner-$image
 ||clubbrugge.be^*/partner/$image
 ||ucl-voetbal.nl/derden/betcity-$image
 ! 2021-10-28
