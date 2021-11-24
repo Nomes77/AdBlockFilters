@@ -1,4 +1,5 @@
 ! 2021-11-24
+nieuwslog.nl##.wp-block-genesis-blocks-gb-columns:has(a[href*="/go/www.bet365.nl/"])
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 telezien.nl##.banner
 ! 2021-11-23
