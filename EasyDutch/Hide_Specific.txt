@@ -1,4 +1,6 @@
 ! 2021-11-24
+ajax1.nl##.footer__footer-fat
+ajax1.nl##a[href^="https://www.awin1.com/cread.php?"]
 nieuwslog.nl##.wp-block-genesis-blocks-gb-columns:has(a[href*="/go/www.bet365.nl/"])
 voetbalcentraal.nl##.blok:has(h3:has-text(Partners))
 telezien.nl##.banner
