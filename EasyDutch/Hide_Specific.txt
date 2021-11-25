@@ -1,3 +1,5 @@
+! 2021-11-25
+welingelichtekringen.nl##.post:has(a[href*="/partnerposting/"])
 ! 2021-11-24
 ajax1.nl##.footer__footer-fat
 ajax1.nl##a[href^="https://www.awin1.com/cread.php?"]
