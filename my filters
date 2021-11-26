@@ -4,7 +4,6 @@
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
 !
-
 ! PRIVACY
 ! --Remove Parameters from urls ($queryprune or $removeparam)
 $removeparam=/^(_zucks_suid|cmpid|asgtbndr|guccounter|guce_referrer|guce_referrer_sig|_openstat|xtor)=/
