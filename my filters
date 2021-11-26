@@ -4,6 +4,7 @@
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
 !
+
 ! PRIVACY
 ! --Remove Parameters from urls ($queryprune or $removeparam)
 $removeparam=/^(_zucks_suid|cmpid|asgtbndr|guccounter|guce_referrer|guce_referrer_sig|_openstat|xtor)=/
@@ -19,7 +20,7 @@ $removeparam=/^(_branch_match_id|vc_lpp|ml_subscriber|ml_subscriber_hash|rb_clic
 $removeparam=/^(cmpid|dclid|_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
 $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 ||google.*^$removeparam=tab
-||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|dpr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact)=/
+||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact)=/
 ||google.*/search$removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/
 ||google.*/websearch$removeparam=visit_id
 ||aliexpress.*^$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
@@ -71,9 +72,9 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 /cdn-cgi/pe/bag2?*connect.facebook.
 dagelijksestandaard.nl##.post-body > .fb-page
 ! --Anti TikTok
-||tiktok.com^
-||tiktokcdn.com^
-||tiktokv.com^
+||tiktok.com^$3p
+||tiktokcdn.com^$3p
+||tiktokv.com^$3p
 ! --AdGuard Tracking Protection
 .demdex.net/id^$redirect=noop.txt
 ||c00.adobe.com^$redirect=noop.txt
@@ -109,8 +110,6 @@ dagelijksestandaard.nl##.post-body > .fb-page
 /^https:\/\/(?:[\w]+\.?)?[\w]+\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/[\w]+\/[A-Z]RF\/[\W|\w]+)\.js$/$script,1p
 y8.com###Y8_Top_of_Games
 @@||awstrack.me/*/https:%2F%2Ffreebitco.in%2Fstatic%2Fhtml%2Fwof_new%2Findex.html*
-! ||verification-va.byteoversea.com/captcha/*$xhr,redirect=noop.txt,domain=www.tiktok.com
-! ||mon-va.byteoversea.com/monitor_browser/collect/*$xhr,redirect=noop.txt,domain=www.tiktok.com
 
 ! ANNOYANCES
 ! --Annoyances (uBlock en van mij)
@@ -156,11 +155,12 @@ gab.com##article[data-id^="timeline-injection"]
 gab.com##article[data-id^="gab-ad-status-timeline-injection"]
 ! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
 instagram.com##.VZk0N._nuMd
+instagram.com##.enqOc.ByB5K
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-instagram.com#?#article[role="presentation"] > div[class][style] div[class]:has(> button > div[class][style="width: 100%;"]:has([aria-label^="Information"])):not(div[role="button"][tabindex])
-instagram.com#?#article[role="presentation"] > div[class][style] div[class]:has(> button > div[class][style="width: 100%;"]:has([aria-label^="Warning"])):not(div[role="button"][tabindex])
-instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Information icon"]):not(:has([role="presentation"]))
-instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Warning icon"]):not(:has([role="presentation"]))
+! instagram.com#?#article[role="presentation"] > div[class][style] div[class]:has(> button > div[class][style="width: 100%;"]:has([aria-label^="Information"])):not(div[role="button"][tabindex])
+! instagram.com#?#article[role="presentation"] > div[class][style] div[class]:has(> button > div[class][style="width: 100%;"]:has([aria-label^="Warning"])):not(div[role="button"][tabindex])
+instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Information icon"]):not(:has([role="presentation"])):not(:has(button > div.coreSpriteRightChevron))
+instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Warning icon"]):not(:has([role="presentation"])):not(:has(button > div.coreSpriteRightChevron))
 instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
 instagram.com#?#div[class][role="presentation"]:has([role="dialog"]:has(:scope > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"]))
 instagram.com#?#div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
@@ -169,6 +169,10 @@ mail.google.com##div[style^="position: relative;"] div[style^="height:"]:has(div
 news.google.com##[jsdata*="covid-banner"]
 news.google.com##[jsaction][aria-label="COVID-19"]
 news.google.com##[jsaction][aria-label="COVID-19"] + [class]
+nsinternational.*##.cookie-notice
+nsinternational.*##.cookie-overlay
+nsinternational.*##body:style(overflow: auto !important)
+nsinternational.*##html:style(overflow: auto !important)
 openstreetmap.org##.visible.welcome:has-text(Welcome to OpenStreetMap)
 pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
@@ -302,4 +306,5 @@ radarbox.com##+js(set, ads_enabled, true)
 ||widget.pushbullet.com^$third-party
 ||widgets.bufferapp.com^$third-party
 ||widgets.getpocket.com^$third-party
+||widgets.pinterest.com^$3p
 ||youtube.com/subscribe_$third-party
