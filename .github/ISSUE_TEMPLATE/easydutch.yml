@@ -30,7 +30,7 @@ body:
       description: |
         At least one URL for a web page where the clearly described issue occurs is **mandatory**. 
         Geef de link van de website waar het probleem zich voordoet. 
-      placeholder: "`https://example.nl`; `https://example.be`"
+      placeholder: https://example.nl; https://example.be
     validations:
       required: true
 
