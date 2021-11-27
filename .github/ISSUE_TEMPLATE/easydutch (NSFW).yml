@@ -26,7 +26,7 @@ body:
         - label: uBlock Origin is the only extension / uBlock Origin is de enige extensie
           required: true
 
-  - type: textarea
+  - type: input
     attributes:
       label: URL(s) where the issue occurs / Website(s) waar het probleem voorkomt
       description: |
@@ -34,9 +34,7 @@ body:
         The backticks (`) surrounding the URLs are important, it prevents the URL from being clickable. Warn with "NSFW" where applicable.
         Geef de link van de website waar het probleem zich voordoet. 
         Zorg er voor dat de URL niet klikbaar is. Waarschuw met "NSFW" als dat nodig is.
-      placeholder: |
-        `https://example.nl`, 
-        `https://example.be`
+      placeholder: "`https://example.nl`; `https://example.be`"
     validations:
       required: true
 
