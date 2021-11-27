@@ -25,7 +25,7 @@ If you see ads on dutch websites please [report](https://github.com/BPower0036/A
 For contributing see: [CONTRIBUTING.md](https://github.com/BPower0036/AdBlockFilters/blob/main/CONTRIBUTING.md)
 
 ## [Dynamic Rules](https://github.com/BPower0036/AdBlockFilters/blob/main/dynamic%20rules)
-A whitelist for medium mode of uBlock Origin when only blocking 3p-frames.
+Medium mode for uBlock Origin when blocking 3p-frames and 3p-scripts.
 
 I recommend to use EasyDutch with the default filterlists in [uBlock Origin](https://github.com/uBlockOrigin/uAssets) and with this(Dynamic Rules) list.
 
