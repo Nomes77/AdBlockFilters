@@ -24,17 +24,13 @@ body:
         - label: uBlock Origin is the only extension / uBlock Origin is de enige extensie
           required: true
 
-  - type: textarea
+  - type: input
     attributes:
       label: URL(s) where the issue occurs / Website(s) waar het probleem voorkomt
       description: |
         At least one URL for a web page where the clearly described issue occurs is **mandatory**. 
-        The backticks (`) surrounding the URLs are important, it prevents the URL from being clickable.
         Geef de link van de website waar het probleem zich voordoet. 
-        Zorg er voor dat de URL niet klikbaar is.
-      placeholder: |
-        `https://example.nl`, 
-        `https://example.be`
+      placeholder: `https://example.nl`; `https://example.be`
     validations:
       required: true
 
