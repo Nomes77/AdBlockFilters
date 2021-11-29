@@ -1,3 +1,5 @@
+! 2021-11-19
+||streamwijzer.be/wp-content/uploads/*-banner.$image
 ! 2021-11-24
 ||voetbaluitslagen.com/wp-content/uploads/*/bet*$image
 ! 2021-11-23
