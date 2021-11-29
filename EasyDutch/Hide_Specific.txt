@@ -1,3 +1,5 @@
+! 2021-11-29
+tvoost.be##.leaderboardWrap
 ! 2021-11-25
 welingelichtekringen.nl##.post:has(a[href*="/partnerposting/"])
 ! 2021-11-24
