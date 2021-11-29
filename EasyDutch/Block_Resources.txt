@@ -1,4 +1,6 @@
 ! 2021-11-29
+||abcsuriname.com/images/banners/$image,1p
+||abcsuriname.com/templates/abc/assets/gfx/header_banner$image,1p
 ||menttv.be/wp-content/uploads/*/*.jpg$image,1p
 ||gratis.nl/wp-content/uploads/*/*-gratis.png$image
 ||streamwijzer.be/wp-content/uploads/*-banner.$image
