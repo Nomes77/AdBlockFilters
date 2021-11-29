@@ -1,11 +1,11 @@
 [uBlock Origin]
-! Title: My filters list uBo
+! Title: My filters list in uBo
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
 !
-! PRIVACY
-! --Remove Parameters from urls ($queryprune or $removeparam)
+!PRIVACY
+!--Remove Parameters from urls ($queryprune or $removeparam)
 $removeparam=/^(_zucks_suid|cmpid|asgtbndr|guccounter|guce_referrer|guce_referrer_sig|_openstat|xtor)=/
 $removeparam=/^utm_/
 $removeparam=/^(action_object_map|action_ref_map|action_type_map)=/
@@ -51,38 +51,25 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 ||youtube.com^$removeparam=/^(tab)=/
 @@/ws$removeparam,domain=speedtest.net
 @@||urldefense.com^$removeparam
-! --Anti Facebook (Mostly moved to 'My rules')
-!||facebook.com^$3p,domain=~www.instagram.com
-!||facebook.net^$important
-||fb*-a.akamaihd.net^$important
-!||fb.com^$important
-!||fb.me^$important
-!||fbcdn.com^$important
-!||fbcdn.net^$important,domain=~facebook.com|~www.instagram.com
-!||fbsbx.com^$important
-!||fburl.com^$important
-!||tfbnw.net^$important
-!||www.facebook.com/plugins/video.php$frame,redirect=click2load.html
-!@@||z-p42-instagram.c10r.facebook.com^$script,frame
-!@@||instagram.c10r.facebook.com^$script
-!||google.com/js/client:plusone.js
-!||google.com/js/plusone.js
-!||spot.im/embed/scripts/launcher.js
+!--Anti Facebook (Mostly moved to 'My rules')
+||fbcdn-*-a.akamaihd.net^$important
+||www.facebook.com/plugins/video.php$frame,redirect=click2load.html
+||spot.im/embed/scripts/launcher.js
 /cdn-cgi/pe/bag2?*connect.facebook.
 dagelijksestandaard.nl##.post-body > .fb-page
-! --Anti TikTok
+!--Anti TikTok
 ||tiktok.com^$3p
 ||tiktokcdn.com^$3p
 ||tiktokv.com^$3p
-! --AdGuard Tracking Protection
+!--AdGuard Tracking Protection
 .demdex.net/id^$redirect=noop.txt
 ||c00.adobe.com^$redirect=noop.txt
 ||collect-elb-*.amazonaws.com^$redirect=noop.txt
 ||device-metrics-us*.amazon.com^$redirect=noop.txt
 ||play.google.com/log?$redirect=noop.txt,important
-! --Gmail tracking
+!--Gmail tracking
 /cleardot.gif$image,xhr,redirect=1x1.gif
-! --Block access to LAN
+!--Block access to LAN
 /^\w+:\/\/(?:(?:[1-9]?\d|[1]\d\d|24\d|25[0-5])\.){3}(?:[1-9]?\d|1\d\d|24\d|25[0-5])[:\/]/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 /^\w+:\/\/\[(?:[a-f0-9]{1,4}:+){1,7}[a-f0-9:]{1,4}\](?::\d{1,3}\/|\/\d{0,3})$/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||localhost^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
@@ -90,10 +77,13 @@ dagelijksestandaard.nl##.post-body > .fb-page
 ||[::]^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||local^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 @@||127.0.0.1^*/intel/$xhr,domain=www.intel.*
-! --IDN protection (https://twitter.com/gorhill/status/1422914791077732352)
+!--IDN protection (https://twitter.com/gorhill/status/1422914791077732352)
 ||xn--$doc,frame
-! --Block 3p fonts
-*$font,3p
+!--Block 3p fonts
+/fontawesome-$font,3p
+/\/fonts\/[\w\W]+\.(?:ttf|woff|woff2)$/$font,3p,domain=~reddit.com
+||amazonaws.com^$font,third-party
+||bootstrapcdn.com/bootstrap/$font,third-party
 ||cloud.typography.com^$third-party
 ||disquscdn.com/next/assets/font/$third-party
 ||edgefonts.net^$third-party
@@ -102,16 +92,15 @@ dagelijksestandaard.nl##.post-body > .fb-page
 ||fontawesome.com^$third-party
 ||fontdeck.com^$third-party
 ||fonts.advance.net^$third-party
-||fonts.bauernet.me^
 ||fonts.condenast.com^$script,third-party
-||fonts.googleapis.com/css?$domain=~google.com|translate.google.*
+||fonts.googleapis.com/css?$domain=~brave.com|~google.com|~translate.google.*
 ||fonts.gotraffic.net^$script
-||fonts.gstatic.com^$third-party,domain=~google.com|youtube.com|translate.google.*
+||fonts.gstatic.com^$third-party,domain=~brave.com|~google.com|~youtube.com|~translate.google.*
 ||fonts.nymag.com^$script,third-party
-||fonts.smdg.ca^$third-party
 ||fonts.staticworld.net^$third-party
 ||fonts.timeinc.net^
 ||fonts.voxmedia.com^$third-party
+||google.com/swg/$font,third-party
 ||googleapis.com/ajax/libs/webfont/$third-party
 ||googleusercontent.com/static/fonts/$third-party
 ||gotraffic.net^$font
@@ -120,42 +109,37 @@ dagelijksestandaard.nl##.post-body > .fb-page
 ||myfonts.net^$third-party
 ||netdna-cdn.com^*/webfonts/
 ||netdna.bootstrapcdn.com^*/fonts/$third-party
-||qmerce.com/assets/$font
+||rackcdn.com/fonts/$font,third-party
 ||typefront.com^$third-party
-||typekit.com^$third-party
-||typekit.net^$third-party
-||typesquare.com^$font,third-party
 ||use.fonticons.com^$third-party
 ||webfonts.creativecloud.com^$third-party
 ||wp.com^*/fonts/$third-party
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
-@@||akamai.net^$3p,font
-@@||akamaiedge.net^$3p,font
-@@||cdn.buienradar.nl/resources/fonts/$font,domain=buienradar.be
-@@||cloudfront.net^$3p,font
-@@||cdn.cloudflare.net^$3p,font
 @@||fast.fonts.net/jsapi/$script
-@@||redditstatic.com/*/fonts/$font,domain=reddit.com
-! --Blocked countries
+@@||fonts.googleapis.com/css?family=Material+Icons
+@@||fonts.googleapis.com/icon?family=Material+Icons
+@@||fonts.googleapis.com/css?family=Product+Sans
+@@||fonts.googleapis.com/css?family=Google+Sans
+!--Blocked countries
 .cn^$important
 .cn.com^$important
 .ir^$important
-! --Overig
+!--Overig
 *##+js(set, history.length, 2)
 !#if !env_firefox
 *,~hangouts.google.com,~youtube.com,~youtube-nocookie.com##+js(aopr, navigator.getBattery)
 *,~hangouts.google.com,~jensen.nl##+js(nowebrtc)
 !#endif
 
-! ADVERTISMENTS
+!ADVERTISMENTS
 ||naturalnews.com^$script,badfilter
 @@||naturalnews.com/*=$script,1p,badfilter
 /^https:\/\/(?:[\w]+\.?)?[\w]+\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/[\w]+\/[A-Z]RF\/[\W|\w]+)\.js$/$script,1p
 y8.com###Y8_Top_of_Games
 @@||awstrack.me/*/https:%2F%2Ffreebitco.in%2Fstatic%2Fhtml%2Fwof_new%2Findex.html*
 
-! ANNOYANCES
-! --Annoyances (uBlock and me)
+!ANNOYANCES
+!--Annoyances (uBlock and me)
 /ad-blocking-advisor/*
 /emma-content-aggregates-prd.
 /snowfall.jquery.js$script
@@ -224,7 +208,7 @@ www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > 
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
 www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important; )
 www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important; )
-! --Anti Google Chrome Download Message and Cookie Banner
+!--Anti Google Chrome Download Message and Cookie Banner
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout*
 www.youtube.com##.ytd-popup-container.style-scope > .ytd-mealbar-promo-renderer.style-scope
 !#if env_firefox
@@ -240,7 +224,7 @@ www.google.*,www.youtube.com###consent-bump
 www.youtube.com##.opened
 www.youtube.com##.ytd-consent-bump-v2-renderer
 www.youtube.com##yt-upsell-dialog-renderer.style-scope
-! --Anti-Adblock
+!--Anti-Adblock
 /px.gif?$image,redirect-rule=1x1.gif
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
 ||fastly.net/ads/$image,redirect=2x2-transparent.png
@@ -249,7 +233,7 @@ www.youtube.com##yt-upsell-dialog-renderer.style-scope
 ||hdliveextra-a.akamaihd.net/*/ads.js$script,redirect=noopjs
 diffchecker.com##+js(nostif, adStillHere)
 radarbox.com##+js(set, ads_enabled, true)
-! --Anti SocialMedia Plugins
+!--Anti SocialMedia Plugins
 ##.share-buttons
 ##.social-icons
 *share_ico*$~css
