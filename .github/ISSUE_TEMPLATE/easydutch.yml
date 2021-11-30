@@ -72,10 +72,14 @@ body:
     attributes:
       label: Browser name
       options:
-        - FireFox
+        - Mozilla Firefox
         - Microsoft Edge
         - Google Chrome / Chromium
-        - Else
+        - Vivaldi
+        - Opera Web Browser
+        - Safari
+        - Other / Anders
+      multiple: true
     validations:
       required: true
 
