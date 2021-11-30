@@ -98,7 +98,7 @@ body:
         ```
         </details>
     validations:
-      required: false
+      required: true
 
   - type: textarea
     attributes:
