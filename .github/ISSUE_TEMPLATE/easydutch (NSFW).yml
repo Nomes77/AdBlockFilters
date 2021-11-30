@@ -16,6 +16,8 @@ body:
           required: true
         - label: Filters were updated before reproducing an issue / Filterlijsten zijn geüpdated voordat dit probleem werd gereproduceerd 
           required: true
+        - label: I have updated my browser to the most recent version / Ik heb mijn browser geüpdated naar de meest recente verie
+          required: false
     
   - type: checkboxes
     attributes:
@@ -60,8 +62,8 @@ body:
   - type: input
     attributes:
       label: uBlock Origin version
-      placeholder: 1.38.6
-      value: 1.38.
+      placeholder: 1.39.0
+      value: 1.39.
     validations:
       required: true
 
@@ -73,11 +75,6 @@ body:
         - Microsoft Edge
         - Google Chrome / Chromium
         - Else
-    validations:
-      required: true
-  - type: input
-    attributes: 
-      label: Browser version
     validations:
       required: true
 
