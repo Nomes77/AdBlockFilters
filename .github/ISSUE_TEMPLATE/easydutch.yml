@@ -87,14 +87,14 @@ body:
     attributes:
       label: Settings
       description: | 
-        List all the changes you've made to uBO's default settings here, by copying the information given by uBo under `Support` --> `Troubleshooting Information`
+        List all the changes you've made to uBO's default settings here, by copying the information given by uBO under `Support` --> `Troubleshooting Information`
         Geef hier een lijst van alle wijzigingen die u heeft aangebracht in de standaardinstellingen van uBO, door de informatie te kopiëren die door uBo is gegeven onder `Ondersteuning` --> `Probleemoplossingsinformatie` 
       value: |
         <details>
         <summary>Troubleshooting Information / Probleemoplossingsinformatie</summary>
         
         ```yaml
-        <!--Put the copied text here / Zet hier de gekopieerde tekst neer---------->
+        <!-- Put the copied text here / Zet hier de gekopieerde tekst neer -->
         ```
         </details>
     validations:
