@@ -1,4 +1,6 @@
 ! 2021-11-30
+eurobench.com##.Billboard-wrapper
+eurobench.com##.Rectangle-wrapper
 ftm.nl##.partners
 goodbye.be##.advertising
 vivocyclo.com##.herald-sticky > [id^="media_image-"]
