@@ -22,9 +22,9 @@ body:
       label: I tried to reproduce the issue when...
       options:
         - label: uBlock Origin with default lists / uBlock Origin met standaard filterlijsten
-          required: true
         - label: uBlock Origin is the only extension / uBlock Origin is de enige extensie
-          required: true
+    validations:
+      required: true
 
   - type: input
     attributes:
@@ -98,7 +98,7 @@ body:
         ```
         </details>
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
