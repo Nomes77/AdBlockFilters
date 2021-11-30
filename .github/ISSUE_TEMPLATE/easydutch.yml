@@ -89,6 +89,11 @@ body:
       description: | 
         List all the changes you've made to uBO's default settings here, by copying the information given by uBO under `Support` --> `Troubleshooting Information`
         Geef hier een lijst van alle wijzigingen die u heeft aangebracht in de standaardinstellingen van uBO, door de informatie te kopiëren die door uBo is gegeven onder `Ondersteuning` --> `Probleemoplossingsinformatie` 
+      value: |
+        <details>
+        <summary>Troubleshooting Information / Probleemoplossingsinformatie</summary>
+        <!-- Put the copied text here, by replacing this line / Zet hier de gekopieerde tekst neer, door deze regel te overschrijven -->
+        </details>
       render: yaml
     validations:
       required: false
