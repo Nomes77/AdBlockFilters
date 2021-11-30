@@ -1,4 +1,5 @@
 ! 2021-11-30
+ftm.nl##.partners
 goodbye.be##.advertising
 vivocyclo.com##.herald-sticky > [id^="media_image-"]
 veto.be##.block.spacer:has(#advert-campaign)
