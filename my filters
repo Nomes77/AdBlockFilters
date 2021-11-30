@@ -51,8 +51,19 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 ||youtube.com^$removeparam=/^(tab)=/
 @@/ws$removeparam,domain=speedtest.net
 @@||urldefense.com^$removeparam
-!--Anti Facebook (Mostly moved to 'My rules')
+@@||urldefense.com^$removeparam
+!--Anti Facebook
+||facebook.com^$doc
+||facebook.com^$3p,domain=~instagram.com
+||facebook.net^$3p,important
+||fb.com^$3p,important
+||fb.me^$3p,important
+||fbcdn.com^$3p,important
+||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com
 ||fbcdn-*-a.akamaihd.net^$important
+||fbsbx.com^$3p,important
+||fburl.com^$3p,important
+||tfbnw.net^$3p,important
 ||www.facebook.com/plugins/video.php$frame,redirect=click2load.html
 ||spot.im/embed/scripts/launcher.js
 /cdn-cgi/pe/bag2?*connect.facebook.
@@ -79,43 +90,13 @@ dagelijksestandaard.nl##.post-body > .fb-page
 @@||127.0.0.1^*/intel/$xhr,domain=www.intel.*
 !--IDN protection (https://twitter.com/gorhill/status/1422914791077732352)
 ||xn--$doc,frame
-!--Block 3p fonts
-/fontawesome-$font,3p
-/\/fonts\/[\w\W]+\.(?:ttf|woff|woff2)$/$font,3p,domain=~reddit.com
-||amazonaws.com^$font,third-party
-||bootstrapcdn.com/bootstrap/$font,third-party
-||cloud.typography.com^$third-party
-||disquscdn.com/next/assets/font/$third-party
-||edgefonts.net^$third-party
-||fast.fonts.com^$third-party
-||fast.fonts.net^$third-party
+!--Block some 3p fonts
 ||fontawesome.com^$third-party
-||fontdeck.com^$third-party
-||fonts.advance.net^$third-party
-||fonts.condenast.com^$script,third-party
-||fonts.googleapis.com/css?$domain=~brave.com|~google.com|~translate.google.*
-||fonts.gotraffic.net^$script
+||fonts.googleapis.com/css?$domain=~brave.com|~google.com|~translate.google.*|~katholiek.nl
 ||fonts.gstatic.com^$third-party,domain=~brave.com|~google.com|~youtube.com|~translate.google.*
-||fonts.nymag.com^$script,third-party
-||fonts.staticworld.net^$third-party
-||fonts.timeinc.net^
-||fonts.voxmedia.com^$third-party
 ||google.com/swg/$font,third-party
 ||googleapis.com/ajax/libs/webfont/$third-party
 ||googleusercontent.com/static/fonts/$third-party
-||gotraffic.net^$font
-||maxcdn.bootstrapcdn.com/font-awesome/$third-party
-||myfontastic.com^$third-party
-||myfonts.net^$third-party
-||netdna-cdn.com^*/webfonts/
-||netdna.bootstrapcdn.com^*/fonts/$third-party
-||rackcdn.com/fonts/$font,third-party
-||typefront.com^$third-party
-||use.fonticons.com^$third-party
-||webfonts.creativecloud.com^$third-party
-||wp.com^*/fonts/$third-party
-/cdn-cgi/pe/bag2?*googleapis.com*webfont.js
-@@||fast.fonts.net/jsapi/$script
 @@||fonts.googleapis.com/css?family=Material+Icons
 @@||fonts.googleapis.com/icon?family=Material+Icons
 @@||fonts.googleapis.com/css?family=Product+Sans
