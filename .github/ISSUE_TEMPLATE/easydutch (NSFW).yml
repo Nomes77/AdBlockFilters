@@ -63,8 +63,8 @@ body:
     attributes:
       label: Configuration / Configuratie
       description: | 
-        List all the changes you've made to uBO's default settings here, by copying the information given by uBO under `Support` --> `Troubleshooting Information`
-        Geef hier een lijst van alle wijzigingen die u heeft aangebracht in de standaardinstellingen van uBO, door de informatie te kopiëren die door uBo is gegeven onder `Ondersteuning` --> `Probleemoplossingsinformatie` 
+        List all the changes you've made to uBO's default settings here, by copying the information given by uBO's Dashboard under `Support` --> `Troubleshooting Information`
+        Geef hier een lijst van alle wijzigingen die u heeft aangebracht in de standaardinstellingen van uBO, door de informatie te kopiëren die door uBO's Dashboard is gegeven onder `Ondersteuning` --> `Probleemoplossingsinformatie` 
       value: |
         <details>
         <summary>Troubleshooting Information / Probleemoplossingsinformatie</summary>
