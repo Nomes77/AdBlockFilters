@@ -50,14 +50,19 @@ body:
         Screenshot(s) for **difficult to describe visual issues are mandatory**. 
         Post **links** instead of inline images for screenshots containing **Adult material**.
         Is het **Volwassen materiaal** post dan linkjes in plaats van **Inline Images**.
+      value: |
+        <details>
+        <summary>Screenshot(s)</summary>
+        <!-- drag-and-drop screenshot here -->
+        </details>
     validations:
       required: false
 
   - type: input
     attributes:
       label: uBlock Origin version
-      placeholder: 1.38.6
-      value: 1.38.
+      placeholder: 1.39.0
+      value: 1.39.
     validations:
       required: true
 
