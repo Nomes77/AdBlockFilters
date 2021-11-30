@@ -14,7 +14,7 @@ body:
           required: true
         - label: Only ads or anti-adblock / Alleen advertenties of anti-adblock
           required: true
-        - label: Filters were updated before reproducing an issue / Filterlijsten zijn geüpdated voordat dit probleem werd gereproduceerd 
+        - label: label: Filters were [updated](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists#update-now) before reproducing an issue / Filterlijsten zijn [geüpdated](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists#update-now) voordat dit probleem werd gereproduceerd
           required: true
         - label: I have updated my browser to the most recent version / Ik heb mijn browser geüpdated naar de meest recente verie
           required: false
