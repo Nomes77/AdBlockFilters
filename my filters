@@ -51,7 +51,6 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 ||youtube.com^$removeparam=/^(tab)=/
 @@/ws$removeparam,domain=speedtest.net
 @@||urldefense.com^$removeparam
-@@||urldefense.com^$removeparam
 !--Anti Facebook
 ||facebook.com^$doc
 ||facebook.com^$3p,domain=~instagram.com
