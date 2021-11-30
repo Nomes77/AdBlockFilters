@@ -92,9 +92,11 @@ body:
       value: |
         <details>
         <summary>Troubleshooting Information / Probleemoplossingsinformatie</summary>
+        
+        ```yaml
         <!-- Put the copied text here, by replacing this line / Zet hier de gekopieerde tekst neer, door deze regel te overschrijven -->
+        ```
         </details>
-      render: yaml
     validations:
       required: false
 
