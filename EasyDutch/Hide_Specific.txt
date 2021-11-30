@@ -1,3 +1,6 @@
+! 2021-11-30
+unitednews.sr###image-vertical-reel-scroll-slideshow
+unitednews.sr##.fullwidthbanner-container
 ! 2021-11-29
 menttv.be##.cta-container
 atv.be,robtv.be,tvl.be,tvoost.be##.leaderboardWrap
