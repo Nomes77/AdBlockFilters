@@ -1,4 +1,5 @@
 ! 2021-12-01
+||sleutelstad.nl/wp-content/uploads/*/*banner
 ||swpportal.com/upload/squarebanners/
 ||sociaaldigitaal.nl/img/Banner-$3p
 ||fonkonline.nl/adds/
