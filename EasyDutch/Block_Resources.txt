@@ -1,4 +1,6 @@
 ! 2021-12-01
+||swpportal.com/upload/squarebanners/
+||sociaaldigitaal.nl/img/Banner-$3p
 ||fonkonline.nl/adds/
 ||denachtvlinders.nl/wp-content/uploads/*/bol-*.gif$image
 ||img.iex.nl/uploads/banners/$image
