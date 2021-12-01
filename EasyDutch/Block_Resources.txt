@@ -1,4 +1,6 @@
 ! 2021-12-01
+||agfstorage.blob.core.windows.net/banners/$image,domain=bpnieuws.nl
+||cdn.agf.nl/nieuws/gif-jpg/*.gif$domain=bpnieuws.nl
 ||greenkeeper.nl/upload/banners/
 ||greenkeeper.nl/upload/relaties/
 ||bloovi.be/frontend/files/banners/
