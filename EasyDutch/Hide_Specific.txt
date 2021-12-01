@@ -1,3 +1,6 @@
+! 2021-12-01
+guruwatch.nl##.Billboard
+guruwatch.nl##.LargeRectangle
 ! 2021-11-30
 eurobench.com##.Billboard-wrapper
 eurobench.com##.Rectangle-wrapper
