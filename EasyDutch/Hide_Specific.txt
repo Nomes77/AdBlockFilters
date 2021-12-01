@@ -1,4 +1,7 @@
 ! 2021-12-01
+motocrossplanet.nl##.artikel-banners
+motocrossplanet.nl##[class^="banner"]
+motocrossplanet.nl##.rcol-titel:has-text(Advert)
 autosport.nl##.advertentie_links
 autosport.nl##.bigbanner
 autosport.nl###liggende-banner
