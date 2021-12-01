@@ -1,4 +1,6 @@
 ! 2021-12-01
+||persberichten.com/Images/Banners/
+||persberichten.com/Images/marcommit/
 ||thehike.nl/wp-content/uploads/*/*statisch-500x500
 ||voetbalnederland.nl/img/bravo.gif
 ||sleutelstad.nl/wp-content/uploads/*/*.gif
