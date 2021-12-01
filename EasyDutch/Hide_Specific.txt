@@ -1,4 +1,5 @@
 ! 2021-12-01
+luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
 treinreiziger.nl##[class^="ads-adsense-"]
 blikopnieuws.nl##[id^="block-block-"]:has([target="_blank"] > img.media-element)
 voetbalnederland.nl###bravo
