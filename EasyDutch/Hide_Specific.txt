@@ -1,4 +1,5 @@
 ! 2021-12-01
+fleet-mobility.nl##.spotlight
 zakenreisnieuws.nl###block-views-banner_carousel-block
 zakenreisnieuws.nl##[id^="block-block-"]:has(.adsbygoogle)
 luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
