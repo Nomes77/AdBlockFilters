@@ -1,4 +1,5 @@
 ! 2021-12-01
+cip.nl##a[href*="/ad/click/"]:not(.podcast-inline a[href*="/ad/click/"])
 sozio.nl##.adchannel
 wintersport.nl##.mq-banner
 bodylifebenelux.nl##.bnrrow
