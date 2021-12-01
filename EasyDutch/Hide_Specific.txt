@@ -1,4 +1,6 @@
 ! 2021-12-01
+iexgeld.nl##.LeaderboardContainer
+iexgeld.nl##.Rectangle
 belegger.nl,beursonline.nl,debeurs.nl##.Billboard-wrapper
 belegger.nl,beursonline.nl,debeurs.nl##.Rectangle-wrapper
 belegger.nl,beursonline.nl,debeurs.nl##.Textads
