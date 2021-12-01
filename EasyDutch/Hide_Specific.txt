@@ -1,7 +1,7 @@
 ! 2021-12-01
-debeurs.nl##.Billboard-wrapper
-debeurs.nl##.Rectangle-wrapper
-debeurs.nl##.Textads
+beursonline.nl,debeurs.nl##.Billboard-wrapper
+beursonline.nl,debeurs.nl##.Rectangle-wrapper
+beursonline.nl,debeurs.nl##.Textads
 guruwatch.nl##.Billboard
 guruwatch.nl##.LargeRectangle
 ! 2021-11-30
