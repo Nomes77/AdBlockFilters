@@ -3,6 +3,7 @@ denachtvlinders.nl##.plek-boven-artikel
 iex.nl##.billboardwrap
 iex.nl##.js-banner
 iex.nl##.rectanglewrap
+iex.nl##section:has-text(advertentie)
 iexgeld.nl##.LeaderboardContainer
 iexgeld.nl##.Rectangle
 belegger.nl,beursonline.nl,debeurs.nl##.Billboard-wrapper
