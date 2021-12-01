@@ -1,4 +1,5 @@
 ! 2021-12-01
+treinreiziger.nl##[class^="ads-adsense-"]
 blikopnieuws.nl##[id^="block-block-"]:has([target="_blank"] > img.media-element)
 voetbalnederland.nl###bravo
 wijlimburg.nl##.ad
