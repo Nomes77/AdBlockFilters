@@ -1,4 +1,6 @@
 ! 2021-12-01
+zakenreisnieuws.nl###block-views-banner_carousel-block
+zakenreisnieuws.nl##[id^="block-block-"]:has(.adsbygoogle)
 luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
 treinreiziger.nl##[class^="ads-adsense-"]
 blikopnieuws.nl##[id^="block-block-"]:has([target="_blank"] > img.media-element)
