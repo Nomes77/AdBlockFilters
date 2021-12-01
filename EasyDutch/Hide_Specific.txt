@@ -1,4 +1,6 @@
 ! 2021-12-01
+greenkeeper.nl###lijst_logos
+greenkeeper.nl##.logoblok
 bloovi.be###advertising
 motocrossplanet.nl##.artikel-banners
 motocrossplanet.nl##[class^="banner"]
