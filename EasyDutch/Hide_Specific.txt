@@ -2,6 +2,7 @@
 wintersport.nl##.mq-banner
 bodylifebenelux.nl##.bnrrow
 fonkonline.nl###partners
+fonkonline.nl##.advertisement
 denachtvlinders.nl##.plek-boven-artikel
 iex.nl##.billboardwrap
 iex.nl##.js-banner
