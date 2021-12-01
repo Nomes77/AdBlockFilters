@@ -1,4 +1,7 @@
 ! 2021-12-01
+iex.nl##.billboardwrap
+iex.nl##.js-banner
+iex.nl##.rectanglewrap
 iexgeld.nl##.LeaderboardContainer
 iexgeld.nl##.Rectangle
 belegger.nl,beursonline.nl,debeurs.nl##.Billboard-wrapper
