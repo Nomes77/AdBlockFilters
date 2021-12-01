@@ -1,4 +1,5 @@
 ! 2021-12-01
+||fonkonline.nl/adds/
 ||denachtvlinders.nl/wp-content/uploads/*/bol-*.gif$image
 ||img.iex.nl/uploads/banners/$image
 ! 2021-11-30
