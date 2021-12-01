@@ -1,4 +1,6 @@
 ! 2021-12-01
+||sleutelstad.nl/wp-content/uploads/*/*.gif
+||sleutelstad.nl/wp-content/uploads/*/Zooma*.jpg
 ||sleutelstad.nl/wp-content/uploads/*/*banner
 ||swpportal.com/upload/squarebanners/
 ||sociaaldigitaal.nl/img/Banner-$3p
