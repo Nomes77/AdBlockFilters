@@ -1,3 +1,5 @@
+! 2021-12-01
+||img.iex.nl/uploads/banners/$image
 ! 2021-11-30
 ||katholiek.nl/wp-content/uploads/*/banner$image
 ||dewereldmorgen.be/wp-content/banners/$image
