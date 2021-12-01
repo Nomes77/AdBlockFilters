@@ -1,4 +1,6 @@
 ! 2021-12-01
+||greenkeeper.nl/upload/banners/
+||greenkeeper.nl/upload/relaties/
 ||bloovi.be/frontend/files/banners/
 ||motocrossplanet.nl/banner/
 ||motocrossplanet.nl/wwwuploads/banners/
