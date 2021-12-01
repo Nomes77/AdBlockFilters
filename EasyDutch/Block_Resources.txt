@@ -1,4 +1,5 @@
 ! 2021-12-01
+||autosport.nl/images/banner
 ||persberichten.com/Images/Banners/
 ||persberichten.com/Images/marcommit/
 ||thehike.nl/wp-content/uploads/*/*statisch-500x500
