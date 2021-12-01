@@ -1,4 +1,5 @@
 ! 2021-12-01
+bloovi.be###advertising
 motocrossplanet.nl##.artikel-banners
 motocrossplanet.nl##[class^="banner"]
 motocrossplanet.nl##.rcol-titel:has-text(Advert)
