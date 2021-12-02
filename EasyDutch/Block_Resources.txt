@@ -1,3 +1,5 @@
+! 2021-12-02
+/images/banners/*$image,domain=drentsnieuws.nl
 ! 2021-12-01
 ||agfstorage.blob.core.windows.net/banners/$image,domain=bpnieuws.nl
 ||cdn.agf.nl/nieuws/gif-jpg/*.gif$domain=bpnieuws.nl
@@ -99,7 +101,6 @@
 ! 2021-10-13
 ||inzod.nl/wp-content/uploads/*/*/*.gif$image
 ||regionieuwshoogeveen.nl/wp-content/uploads/*/*/243505202_939414096933645_1681220239902803510_n*.jpg$image
-||drentsnieuws.nl/images/banners/$image
 ||noordernieuws.nl/wp-content/uploads/201*/*/*.gif$image
 ||cdn.nieuws.nl/media/sites/221/20*/*/*/*.gif$image
 ||cdn.nieuws.nl/media/sites/221/20*/*/*/dobbenwooncentrum.jpg$image
