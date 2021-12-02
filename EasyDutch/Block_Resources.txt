@@ -1,5 +1,5 @@
 ! 2021-12-02
-/images/banners/*$image,domain=drentsnieuws.nl
+/images/banners/*$image,domain=drentsnieuws.nl|halstadcentraal.nl
 ! 2021-12-01
 ||agfstorage.blob.core.windows.net/banners/$image,domain=bpnieuws.nl
 ||cdn.agf.nl/nieuws/gif-jpg/*.gif$domain=bpnieuws.nl
@@ -353,8 +353,6 @@
 ||handbalstartpunt.nl/images/mizuno-small.jpg
 ! https://github.com/easylist/easylistdutch/commit/ac089b16e6d91e18d8455be824a9648f3f34a6fa
 ||hotradiohits.nl/image/picture/*_banner.
-! https://github.com/easylist/easylistdutch/commit/40bd66bc5bad85a864b63b19ee143461a2453b65
-||halstadcentraal.nl/images/banners/
 ! https://github.com/easylist/easylistdutch/commit/ae2d55abd9a3984b940cb0f03ac915b7bbcd5d5d
 ||rickfm.nl/cwm/fm/userfiles/banner/
 ! https://github.com/easylist/easylistdutch/compare/021b6c6620...9eeecc805f
