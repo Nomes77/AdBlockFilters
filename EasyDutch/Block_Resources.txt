@@ -1,4 +1,6 @@
 ! 2021-12-02
+||edelmetaal-info.nl/cdfund-336x280.html
+||edelmetaal-info.nl/wp-content/uploads/*.gif
 ||ninefornews.nl/wp-content/uploads/*/tetralogie$image
 ||ninefornews.nl/wp-content/uploads/*/banner-set-*.png$image
 /images/banners/*$image,domain=drentsnieuws.nl|halstadcentraal.nl|lokaleomroepzeewolde.nl|puurnaturisme.nl
