@@ -1,3 +1,5 @@
+! 2021-12-02
+openingstijden.com###adsense_CSA
 ! 2021-12-01
 autoblog.nl##.widget_ab_sidebar
 greenkeeper.nl###lijst_logos
