@@ -1,5 +1,5 @@
 ! 2021-12-02
-/images/banners/*$image,domain=drentsnieuws.nl|halstadcentraal.nl
+/images/banners/*$image,domain=drentsnieuws.nl|halstadcentraal.nl|lokaleomroepzeewolde.nl
 ! 2021-12-01
 ||agfstorage.blob.core.windows.net/banners/$image,domain=bpnieuws.nl
 ||cdn.agf.nl/nieuws/gif-jpg/*.gif$domain=bpnieuws.nl
@@ -366,7 +366,6 @@
 ||rtvnof.nl/prowurk/
 ||wp.com/www.regionoordkop.nl/wp-content/uploads/*/Costa.jpg
 ! https://github.com/easylist/easylistdutch/compare/db57d2f428...021b6c6620
-||lokaleomroepzeewolde.nl/images/banners/
 ||radiolelystad.nl/images/stories/Banners/
 ||simone.nl/bestanden/afbeelding/*-banner-
 ||simone.nl/bestanden/afbeelding/banner/
