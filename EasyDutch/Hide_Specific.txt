@@ -1,4 +1,6 @@
 ! 2021-12-02
+edelmetaal-info.nl##[id^="text-"]:has(img[src])
+edelmetaal-info.nl##a[onclick^="javascript:pageTracker._trackPageview"]
 openingstijden.com###adsense_CSA
 ! 2021-12-01
 autoblog.nl##.widget_ab_sidebar
