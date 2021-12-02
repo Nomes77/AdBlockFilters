@@ -1,5 +1,5 @@
 ! 2021-12-02
-/images/banners/*$image,domain=drentsnieuws.nl|halstadcentraal.nl|lokaleomroepzeewolde.nl
+/images/banners/*$image,domain=drentsnieuws.nl|halstadcentraal.nl|lokaleomroepzeewolde.nl|puurnaturisme.nl
 ! 2021-12-01
 ||agfstorage.blob.core.windows.net/banners/$image,domain=bpnieuws.nl
 ||cdn.agf.nl/nieuws/gif-jpg/*.gif$domain=bpnieuws.nl
@@ -211,8 +211,6 @@
 ! https://github.com/easylist/easylistdutch/commit/628b113d1e1bb734cc7f914edbb5b5ab125421d3
 ! nieuwblad.be
 ||jobat.be/extra/trackuityhn/ticker_new.html$3p
-! https://github.com/easylist/easylistdutch/commit/b4c9e357c49ee4783bf9dbc291374e6caaf9c392
-||puurnaturisme.nl/images/banners/
 ! https://github.com/easylist/easylistdutch/commit/c3c71e44ef6f98249ccc346b8ba3be4cbf7f0474
 ||2link.be/banners/
 ! https://github.com/easylist/easylistdutch/commit/c17c147161d2ad10fb8dba3732dbe228cc76e59b
