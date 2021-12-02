@@ -1,4 +1,5 @@
 ! 2021-12-02
+||ninefornews.nl/wp-content/uploads/*/banner-set-*.png$image
 /images/banners/*$image,domain=drentsnieuws.nl|halstadcentraal.nl|lokaleomroepzeewolde.nl|puurnaturisme.nl
 ! 2021-12-01
 ||agfstorage.blob.core.windows.net/banners/$image,domain=bpnieuws.nl
