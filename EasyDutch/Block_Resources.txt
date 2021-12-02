@@ -520,7 +520,6 @@
 ||uu.nl/proton/*/akzonobel_masters_
 ||video18.nl/img/banners/$image
 ||voetbalkrant.com/images/pub/
-||vrouwenneuken.be/images/banners/$image
 ||waarzo.nl/imagestore/banners/
 ||wanttoknow.nl^*Banner
 ||webcamsexplaza.com/bannerwsp.$image
