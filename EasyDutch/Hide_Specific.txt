@@ -1,3 +1,5 @@
+! 2021-12-04
+tradeidee.nl##.ad
 ! 2021-12-02
 edelmetaal-info.nl##[id^="text-"]:has(img[src])
 edelmetaal-info.nl##a[onclick^="javascript:pageTracker._trackPageview"]
