@@ -1,4 +1,5 @@
 ! 2021-12-04
+retaildetail.be,retaildetail.nl##.banner
 financialinvestigator.nl##.c-newsList__story--partnernews
 financialinvestigator.nl##.mpu
 banknieuws.info##div[class="widget HTML"]
