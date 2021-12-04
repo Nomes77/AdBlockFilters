@@ -1,4 +1,6 @@
 ! 2021-12-04
+||tradeidee.nl/banners/
+||tradeidee.nl/wp-content/uploads/*/*banner
 ||metalfan.nl/banners/
 ! 2021-12-02
 ||zilverengoudkopen.nl/banners/
