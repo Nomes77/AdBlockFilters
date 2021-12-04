@@ -1,4 +1,6 @@
 ! 2021-12-04
+||retaildetail.be/sites/default/files/banner/
+||retaildetail.nl/sites/default/files/banner/
 ||zwaremetalen.com/wp-content/uploads/*/*-AD-$image
 ||zwaremetalen.com/wp-content/uploads/*/*-skyscraper-$image
 ||fx.nl/_ext/widget/$3p
