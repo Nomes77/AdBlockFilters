@@ -1,4 +1,5 @@
 ! 2021-12-04
+||solarmagazine.nl/u/edwin/$image
 ||media.prdn.nl/retailtrends/images/*banner$domain=retailtrends.nl
 ||media.prdn.nl/retailtrends/images/thumbnail_bnr-*$domain=retailtrends.nl
 ||retaildetail.be/sites/default/files/banner/
