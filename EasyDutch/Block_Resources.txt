@@ -1,4 +1,5 @@
 ! 2021-12-04
+||fx.nl/_ext/widget/$3p
 ||tradeidee.nl/banners/
 ||tradeidee.nl/wp-content/uploads/*/*banner
 ||metalfan.nl/banners/
