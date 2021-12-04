@@ -1,4 +1,6 @@
 ! 2021-12-04
+nieuwsfiets.nu##.ult-content-box-container
+nieuwsfiets.nu##.wpb_raw_html[class*="us_custom_"]:has(.wpb_wrapper)
 fok.nl##.trueTop
 solarmagazine.nl##.sols
 fondsnieuws.nl##.promo-wrapper
