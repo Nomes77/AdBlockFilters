@@ -1,4 +1,6 @@
 ! 2021-12-04
+financialinvestigator.nl##.c-newsList__story--partnernews
+financialinvestigator.nl##.mpu
 banknieuws.info##div[class="widget HTML"]
 tradeidee.nl##.ad
 ! 2021-12-02
