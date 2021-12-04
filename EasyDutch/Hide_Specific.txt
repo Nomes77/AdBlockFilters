@@ -1,4 +1,5 @@
 ! 2021-12-04
+solarmagazine.nl##.sols
 fondsnieuws.nl##.promo-wrapper
 dansendeberen.be##.inhype-bb-block-header
 retaildetail.be,retaildetail.nl##.banner
