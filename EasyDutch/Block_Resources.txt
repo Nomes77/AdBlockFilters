@@ -81,7 +81,6 @@
 ||onderwijsland.com/files/banners/
 ||onderwijsland.com/files/partners/
 ! 2021-11-10
-||a.scholieren.com/v/*$image,1p
 ||wp.com/gostreaming.nl/wp-content/uploads/*/*-sidebar-banner$image
 ||wereldstopcontacten.nl/wp-content/uploads/*/image-aff-*.jpg$image
 ||visserijnieuws.nl/images/banners/*$image
