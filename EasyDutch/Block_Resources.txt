@@ -1,4 +1,6 @@
 ! 2021-12-04
+||zwaremetalen.com/wp-content/uploads/*/*-AD-$image
+||zwaremetalen.com/wp-content/uploads/*/*-skyscraper-$image
 ||fx.nl/_ext/widget/$3p
 ||tradeidee.nl/banners/
 ||tradeidee.nl/wp-content/uploads/*/*banner
