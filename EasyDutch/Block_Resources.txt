@@ -1,4 +1,5 @@
 ! 2021-12-04
+||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
 ||solarmagazine.nl/u/edwin/$image
 ||media.prdn.nl/retailtrends/images/*banner$domain=retailtrends.nl
 ||media.prdn.nl/retailtrends/images/thumbnail_bnr-*$domain=retailtrends.nl
