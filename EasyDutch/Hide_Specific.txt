@@ -1,4 +1,5 @@
 ! 2021-12-04
+banknieuws.info##div[class="widget HTML"]
 tradeidee.nl##.ad
 ! 2021-12-02
 edelmetaal-info.nl##[id^="text-"]:has(img[src])
