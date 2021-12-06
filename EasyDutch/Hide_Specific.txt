@@ -1,4 +1,6 @@
 ! 2021-12-06
+tienersextube.com##.adHomePage
+tienersextube.com###buttonUnderVideoLink
 spermatube.be,swingerstube.be##[id^="text-"]:has(img[src*="hotlinkie.com/"])
 fucking-tube.com,seks-tube.be##.video-block-happy
 sexdatingtube.be##.video-sidebar
