@@ -1,4 +1,5 @@
 ! 2021-12-06
+swingerstube.be##[id^="text-"]:has(img[src*="hotlinkie.com/"])
 fucking-tube.com,seks-tube.be##.video-block-happy
 sexdatingtube.be##.video-sidebar
 rapesextube.be##.happy-section
