@@ -1,6 +1,6 @@
 ! 2021-12-06
-sex-kamer.nl,smsextube.com,tienersextube.com###buttonUnderVideoLink
-smsextube.com,tienersextube.com##.adHomePage
+seksfilmstube.be,sex-kamer.nl,smsextube.com,tienersextube.com###buttonUnderVideoLink
+seksfilmstube.be,smsextube.com,tienersextube.com##.adHomePage
 spermatube.be,swingerstube.be##[id^="text-"]:has(img[src*="hotlinkie.com/"])
 fucking-tube.com,seks-tube.be##.video-block-happy
 sexdatingtube.be##.video-sidebar
