@@ -1,7 +1,6 @@
 ! 2021-12-06
 amateursextube.eu,anaaltube.be,incesttube.eu,opasextube.nl,plassextube.com,schaamlip.net,seksfilmstube.be,sex-kamer.nl,smsextube.com,tienersextube.com###buttonUnderVideoLink
 spermatube.be,swingerstube.be##[id^="text-"]:has(img[src*="hotlinkie.com/"])
-fucking-tube.com,seks-tube.be##.video-block-happy
 sexdatingtube.be##.video-sidebar
 rapesextube.be##.happy-section
 ! 2021-12-04
@@ -883,7 +882,6 @@ dekrantnieuws.nl##.vc_box_outline.vc_single_image-wrapper
 dekrantnieuws.nl,destreekkrant.nu##.vc_carousel-inner > .vc_carousel-slideline > .vc_carousel-slideline-inner
 dekrantnieuws.nl,destreekkrant.nu##.vc_inner:has([src$="324x484.jpg"])
 telegraaf.nl##.VideoArticlePage__banner
-pornokartel.nl##.video-block-happy
 sex-kamer.nl##.videoOverAdBig
 telegraaf.nl##.VideoPage__banner
 camsexbabe.nl,mijnpornotube.nl,pornosterneuken.nl##.video-sidebar
