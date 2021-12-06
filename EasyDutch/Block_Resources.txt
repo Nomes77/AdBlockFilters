@@ -1,3 +1,5 @@
+! 2021-12-06
+/wp-content/uploads/*.gif$image,domain=nieuws.xxx
 ! 2021-12-04
 ||creditexpo.nl/wp-content/uploads/*/*_400x400*.jpg
 ||solarmagazine.nl/u/edwin/$image
