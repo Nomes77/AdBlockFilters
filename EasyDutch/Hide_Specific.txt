@@ -1,6 +1,5 @@
 ! 2021-12-06
 amateursextube.eu,anaaltube.be,incesttube.eu,opasextube.nl,plassextube.com,schaamlip.net,seksfilmstube.be,sex-kamer.nl,smsextube.com,tienersextube.com###buttonUnderVideoLink
-amateursextube.eu,anaaltube.be,incesttube.eu,opasextube.nl,plassextube.com,schaamlip.net,seksfilmstube.be,smsextube.com,tienersextube.com##.adHomePage
 spermatube.be,swingerstube.be##[id^="text-"]:has(img[src*="hotlinkie.com/"])
 fucking-tube.com,seks-tube.be##.video-block-happy
 sexdatingtube.be##.video-sidebar
