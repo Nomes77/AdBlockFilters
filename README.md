@@ -3,7 +3,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/BPower0036/AdBlockFilters?label=Last%20commit&color=informational)](https://github.com/BPower0036/AdBlockFilters/commits/main)
 [![Issues](https://img.shields.io/github/issues/BPower0036/AdBlockFilters?label=Issues&color=red)](https://github.com/BPower0036/AdBlockFilters/issues)
 [![Issues](https://img.shields.io/github/issues-closed/BPower0036/AdBlockFilters?color=green&label=Issues)](https://github.com/BPower0036/AdBlockFilters/issues?q=is%3Aissue+is%3Aclosed)
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey)](https://github.com/BPower0036/AdBlockFilters/blob/main/LICENSE) </br>
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey)](https://github.com/BPower0036/AdBlockFilters/blob/main/LICENSE) <br>
 (( [EasyList Dutch](https://github.com/easylist/easylistdutch/):
 [![Commit rate](https://img.shields.io/github/commit-activity/m/easylist/easylistdutch?label=Commits&color=succes&style=plastic)](https://github.com/easylist/easylistdutch/commits/)
 [![Last commit](https://img.shields.io/github/last-commit/easylist/easylistdutch?label=Last%20commit&color=informational&style=plastic)](https://github.com/easylist/easylistdutch/commits/master)
@@ -30,7 +30,7 @@ Medium mode for uBlock Origin when blocking 3p-frames and 3p-scripts.
 I recommend to use EasyDutch with the default filterlists in [uBlock Origin](https://github.com/uBlockOrigin/uAssets) and with this(Dynamic Rules) list.
 
 ## [My Filters](https://github.com/BPower0036/AdBlockFilters/blob/main/my%20filters)
-This is filterlist is my Personal Filterlist in uBo. </br>
+This is filterlist is my Personal Filterlist in uBo. <br>
 It can be handy to use them.
 
 
