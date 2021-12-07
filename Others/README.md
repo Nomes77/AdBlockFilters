@@ -1,4 +1,15 @@
-## EasyList - General Hide (Optimized)
+## General Hide
 
-You can use this filter if you have enabled `Ignore general cosmetic filters` but still wants some general hiding elements to be used. <br>
-My goal is to update this list once a month.
+You can use this filter if you have enabled `Ignore general cosmetic filters` in uBlock Origin but still wants some general hiding elements to be used. <br>
+I have used the uBlock Filters and the EasyList (Optimized). 
+
+### What I have done
+1. Changed `##` from those lists to `*##`
+2. I deleted every unblocking general hiding element from the results I got after I applied the first step
+
+### Why
+This list and enabling `Ignore general cosmetic filters` will save you around 15,000 cosmetic filters.
+This can be handy especially if you are low on resources or want a little bit faster page loading.
+
+***
+My goal is to update this list once a month, maybe twice.
