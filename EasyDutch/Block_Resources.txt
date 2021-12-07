@@ -1,3 +1,5 @@
+! 2021-12-07
+||dating.*.auroraobjects.eu/files/bans/*$image,domain=pikanterooieoortjes.nl
 ! 2021-12-06
 /wp-content/uploads/*.gif$image,domain=nieuws.xxx
 ! 2021-12-04
