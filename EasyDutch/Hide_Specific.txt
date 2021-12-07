@@ -1,3 +1,5 @@
+! https://github.com/uBlockOrigin/uAssets/issues/10801
+nl.motorsport.com##.ms-hapb
 ! 2021-12-07
 dagblad010.nl##.advrow
 thekinkyweb.nl##[id^="text-"]:has-text(Partners)
