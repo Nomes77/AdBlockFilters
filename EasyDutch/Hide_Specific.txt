@@ -1,6 +1,7 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/10801
 nl.motorsport.com##.ms-hapb
 ! 2021-12-07
+transport-online.nl##.widget:has(.advertisement-new:not(:has(a[href$="/adverteerdersinformatie/"])))
 dagblad010.nl##.advrow
 thekinkyweb.nl##[id^="text-"]:has-text(Partners)
 tcroomburg.nl##.hpitem:has(h3:has-text(Partner))
