@@ -1,5 +1,5 @@
 ! 2021-12-07
-||dating.*.auroraobjects.eu/files/bans/*$image,domain=pikanterooieoortjes.nl
+||dating.*.auroraobjects.eu/files/bans/*$image
 ! 2021-12-06
 /wp-content/uploads/*.gif$image,domain=nieuws.xxx
 ! 2021-12-04
@@ -62,7 +62,6 @@
 ||voetbaluitslagen.com/wp-content/uploads/*/bet*$image
 ! 2021-11-23
 ||cdn.seksmet.nl/wp-content/uploads/*/all-over-40-handjob$image
-||dating.*.auroraobjects.eu/files/bans/*$image,domain=seksmet.nl
 ||klasse.be/wp/wp-content/images/*_lb_zondergrenzenvzw.full.$image
 ||mo.be/sites/default/files/banners/$image
 ! 2021-11-22
@@ -226,8 +225,6 @@
 ! https://github.com/easylist/easylistdutch/commit/b6715f432f887e3d45c6b8d83f1c7bf1013e408f
 ||cloudfront.net/-/media/6-parnerships/$domain=feyenoord.nl
 ||cloudfront.net/Assets/images/partners/$domain=feyenoord.nl
-! 2021-08-20
-||dating.o.auroraobjects.eu/files/bans/*$image,domain=seksverhalen.nl
 ! 2021-08-19
 ||promootjesite.nl/images/banners/
 ||promootjesite.nl/images/affliateBanner/
