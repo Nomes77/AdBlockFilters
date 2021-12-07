@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 30-11-2021
+! Last updated: 07-12-2021
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -395,6 +395,7 @@ no-large-media: behind-the-scene true
 * redtube.com * noop
 * static.reembed.com * noop
 * www.reverbnation.com * noop
+* vip0x08e.ssl.rncdn5.com * noop
 * roxytube.com * noop
 * rpxnow.com * noop
 * mathjax.rstudio.com * noop
@@ -455,6 +456,7 @@ no-large-media: behind-the-scene true
 * streamcherry.com * noop
 * ssl.streampartner.nl * noop
 * streamtape.com * noop
+* playerservices.live.streamtheworld.com * noop
 * streamvideo.link * noop
 * embed.streamx.me * noop
 * static-assets.strikinglycdn.com * noop
@@ -651,6 +653,7 @@ www.bedandbreakfast.com csvcus.homeaway.com * noop
 www.bestbuy.com assets.bbystatic.com * noop
 www.bleepingcomputer.com www.bleepstatic.com * noop
 www.bloomberg.com assets.bwbx.io * noop
+www.bol.com assets.s-bol.com * noop
 secure.booked.net s2.bookcdn.com * noop
 www.booking.com bstatic.com * noop
 app.box.com public.boxcloud.com * noop
@@ -767,6 +770,7 @@ graphicriver.net assets.shopfront.envato-static.com * noop
 www.groupon.com grouponcdn.com * noop
 hbr.org media.richrelevance.com * noop
 www.heraldtribune.com cdn.gatehousemedia.com * noop
+www.hervormdijsselmonde.nl kerkinijsselmonde.nl * noop
 www.holidaypirates.com holidaypirates.kayak.co.uk * noop
 www.homedepot.com assets.homedepot-static.com * noop
 hotels.com a.cdn-hotels.com * noop
@@ -817,6 +821,8 @@ live.com msauth.net * noop
 live.com office.net * noop
 account.live.com gfx.ms * noop
 officeapps.live.com cdn.office.net * noop
+onedrive.live.com b-msedge.net * noop
+onedrive.live.com l-msedge.net * noop
 outlook.live.com msftauth.net * noop
 outlook.live.com office365.com * noop
 www.livewalker.com www.music-mdata.com * noop
@@ -914,6 +920,7 @@ pinkbike.com pinkbike.org * noop
 pinterest.com s.pinimg.com * noop
 pixiv.net s.pximg.net * noop
 playstation.com auth.api.sonyentertainmentnetwork.com * noop
+www.pornhub.com ei.phncdn.com.sds.rncdn7.com * noop
 potwm.com * 3p-script noop
 qantas.com cdn.qantasloyalty.com * noop
 quora.com qsbr.fs.quoracdn.net * noop
@@ -940,6 +947,7 @@ www.skyscanner.com js.skyscnr.com * noop
 www.skyscanner.net js.skyscnr.com * noop
 slack.com a.slack-edge.com * noop
 app.slack.com fst.slack-edge.com * noop
+player.slam.nl sdk.listenlive.co * noop
 slashdot.org a.fsdn.com * noop
 www.slate.com sadmin.brightcove.com * noop
 www.slate.com static.cdnslate.com * noop
@@ -1020,6 +1028,8 @@ view.yahoo.com viewport.videovore.com * noop
 www.yahoo.com mbp.yimg.com * noop
 yandex.com yastatic.net * noop
 * https://docs.google.com/forms/ sub_frame noop
+* https://www.google.com/recaptcha/ script noop
 * https://www.google.com/maps/ sub_frame noop
 * https://www.google.com/recaptcha/ sub_frame noop
 * https://www.skoften.net/video/embed/ sub_frame noop
+autoblog.nl https://cdn.bluebillywig.com/apps/player/ script noop
