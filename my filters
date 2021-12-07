@@ -6,7 +6,7 @@
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
-$removeparam=/^(_zucks_suid|cmpid|asgtbndr|guccounter|guce_referrer|guce_referrer_sig|_openstat|xtor)=/
+$removeparam=/^(nx_source|_zucks_suid|cmpid|asgtbndr|guccounter|guce_referrer|guce_referrer_sig|_openstat|xtor)=/
 $removeparam=/^utm_/
 $removeparam=/^(action_object_map|action_ref_map|action_type_map)=/
 $removeparam=/^(fb_action_|fb_comment_id|fb_ref|fb_source|fbclid)/
@@ -92,7 +92,7 @@ dagelijksestandaard.nl##.post-body > .fb-page
 !--Block some 3p fonts
 ||fontawesome.com^$third-party
 ||fonts.googleapis.com/css?$domain=~brave.com|~google.com|~translate.google.*|~katholiek.nl
-||fonts.gstatic.com^$third-party,domain=~brave.com|~google.com|~youtube.com|~translate.google.*
+||fonts.gstatic.com^$third-party,domain=~brave.com|~google.com|~youtube.com|~translate.google.*|~player.slam.nl
 ||google.com/swg/$font,third-party
 ||googleapis.com/ajax/libs/webfont/$third-party
 ||googleusercontent.com/static/fonts/$third-party
@@ -152,12 +152,11 @@ freebitco.in##.daily_jackpot_main_container_div
 freebitco.in##.premium_buy_more_tokens
 freebitco.in##.reveal-modal-bg
 freebitco.in##.reveal-modal
-gab.com##aside[class]:has-text(Dissenter)
-! gab.com##:matches-path(\/home|\/groups) aside[class]:has-text(Gab TV)
-gab.com##aside[class]:has-text(Gab TV)
-gab.com##aside[class]:has-text(Sponsored)
-gab.com##aside[class]:has-text(Trending Hashtags)
-gab.com##aside[class]:has-text(Upgrade)
+gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Dissenter)
+gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Gab TV)
+gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Sponsored)
+gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Trending Hashtags)
+gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Upgrade)
 gab.com##article[data-id^="timeline-injection"]
 gab.com##article[data-id^="gab-ad-status-timeline-injection"]
 ! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
@@ -181,7 +180,7 @@ pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
 pinterest.*##body:style(overflow-y: scroll !important;)
 pinterest.*##div[style^="filter:"]:style(filter: none !important)
-sharesome.com##article[id^="post"]:has(header[class] span[class]:has-text(Promoted Post))
+threader.app##.annotation-details:has-text(COVID)
 translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
@@ -197,10 +196,11 @@ google.*##^script:has-text(CONSENT)
 !#if env_chromium
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
 !#endif
-www.google.*##+js(acis, document.cookie, YES+)
+! www.google.*##+js(acis, document.cookie, YES+)
 google.*##div[class^="gb_"][data-cbh*="consent.google."]
 google.*##div[jscontroller][jsaction]:has([class]:has-text(cookies):has([href*="policies.google.com"]))
 www.google.*,www.youtube.com###consent-bump
+! www.youtube.com##+js(set, ytInitialData.onResponseReceivedEndpoints, undefined)
 www.youtube.com##.opened
 www.youtube.com##.ytd-consent-bump-v2-renderer
 www.youtube.com##yt-upsell-dialog-renderer.style-scope
@@ -214,8 +214,8 @@ www.youtube.com##yt-upsell-dialog-renderer.style-scope
 diffchecker.com##+js(nostif, adStillHere)
 radarbox.com##+js(set, ads_enabled, true)
 !--Anti SocialMedia Plugins
-##.share-buttons
-##.social-icons
+*##.share-buttons
+*##.social-icons
 *share_ico*$~css
 *social_ico*$~css
 /addtoany/*.js
@@ -290,7 +290,7 @@ radarbox.com##+js(set, ads_enabled, true)
 ||reddit.com/submit?$third-party
 ||shareaholic.com^$third-party
 ||sharedcount.com^$third-party
-||sharethis.com^$third-party
+! ||sharethis.com^$third-party
 ||snapwidget.com^$third-party
 ||static.bufferapp.com/js/button.js
 ||static.hootsuite.com^$third-party
