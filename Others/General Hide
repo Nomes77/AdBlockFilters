@@ -1,7 +1,9 @@
 ! Title: General Hide
 ! Description: Filterlist only for General Hide. 
 ! Expires: 31 days
+! Homepage: https://github.com/BPower0036/AdBlockFilters/tree/main/Others
 ! LastUpdated: 2021-12-07
+!
 ! uBlock filters
 *###anuncio
 *###bt-ads
