@@ -1,4 +1,5 @@
 ! 2021-12-07
+||transport-online.nl/site/includes/uploads/banner-*$image
 /wp-content/uploads/*.gif$domain=thekinkyweb.nl|wraaksex.nl
 ||wp.com/www.thekinkyweb.nl/wp-content/uploads/*/*Banner$image
 ||dating.*.auroraobjects.eu/files/bans/*$image
