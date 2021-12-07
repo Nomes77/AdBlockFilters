@@ -2,7 +2,7 @@
 ! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
 ! Only General Hide. Taken from https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt 
 ! Expires: 31 days
-! LastUpdated: 2021-12-06
+! LastUpdated: 2021-12-07
 *###_ads
 *###above_button_ad
 *###above-the-fold-ad
@@ -3974,7 +3974,6 @@
 *##.dianomi-ad
 *##.dikr-responsive-ads-slot
 *##.discourse-adplugin
-*##.display_ad
 *##.display_adv_show
 *##.display_advrst
 *##.DisplayAd
