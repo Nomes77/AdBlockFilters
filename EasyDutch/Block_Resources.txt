@@ -1,5 +1,5 @@
 ! 2021-12-07
-/wp-content/uploads/*.gif$domain=thekinkyweb.nl
+/wp-content/uploads/*.gif$domain=thekinkyweb.nl|wraaksex.nl
 ||wp.com/www.thekinkyweb.nl/wp-content/uploads/*/*Banner$image
 ||dating.*.auroraobjects.eu/files/bans/*$image
 ! 2021-12-06
