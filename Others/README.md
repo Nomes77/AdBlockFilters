@@ -1,7 +1,6 @@
 ## General Hide
-
 You can use this filter if you have enabled `Ignore general cosmetic filters` in uBlock Origin but still want some general hiding elements to be used. <br>
-For this list I have used the default uBlock Filters and the EasyList (Optimized). 
+For this list I have used the default uBlock Filters and [EasyList (Optimized)](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt). 
 
 ### What I have done
 1. Changed `##` from those lists to `*##`
