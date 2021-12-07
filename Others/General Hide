@@ -1,8 +1,163 @@
-! Title: EasyList - General Hide (Optimized)
-! Description: EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.
-! Only General Hide. Taken from https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt 
+! Title: General Hide
+! Description: Filterlist only for General Hide. 
 ! Expires: 31 days
 ! LastUpdated: 2021-12-07
+! uBlock filters
+*###anuncio
+*###bt-ads
+*###interContainer
+*###interVeil
+*###invid_call
+*###invideo_2
+*###invideo_data
+*###invideo_new
+*###lads1
+*###p_native
+*###placeAds
+*###plban
+*###sidearm-adblock-modal
+*###stop_ad
+*###stop_ad2
+*###stop_ad3
+*##.__nat_link
+*##.aan_fake
+*##.aan_fake__video-units
+*##.adsanity-inner
+*##.adsbyrunactive
+*##.ads-container
+*##.advboxemb
+*##.aff-content-col
+*##.aff-inner-col
+*##.aff-item-list
+*##.amp-ad-inner
+*##.ark-ad-message
+*##.ave-pl
+*##.blocker-notice
+*##.blocker-overlay
+*##.bloc-pub
+*##.bloc-pub2
+*##.bottom-hor-block
+*##.brs-block
+*##.dbanner
+*##.exo-horizontal
+*##.fints-block__row
+*##.full-ave-pl
+*##.full-bns-block
+*##.gallery-bns-bl
+*##.glx-teaser
+*##.glx-watermark-container
+*##.happy-inside-player
+*##.header-menu-bottom-ads
+*##.hor_banner
+*##.imggif
+*##.in_stream_banner
+*##.inplayer_banners
+*##.inplayer-ad
+*##.mdp-deblocker-wrapper
+*##.overlay-advertising-new
+*##.preroll-blocker
+*##.rkads
+*##.rps_player_ads
+*##.samBannerUnit, .samCodeUnit
+*##.stream-item-widget
+*##.trafficjunky-float-right
+*##.vertbars
+*##.video-brs
+*##.wgAdBlockMessage
+*##.wps-player__happy-inside
+*##[class^="DisplayAd"]
+*##[data-lnguri*="vipbox"]
+*##[data-lnguri^="https://s3.amazonaws.com"]
+*##[data-uri^="https://s3.amazonaws.com"]
+*##[href*=".smartadserver.com"]
+*##[href*="/afu.php"]
+*##[href*="https://ads.enrt.eu/"]
+*##[href*="https://catastropheillusive.com/"]
+*##[href*="https://mcdlks.com/"]
+*##[href*="https://mlksis.com/"]
+*##[href*="https://recommendedforyou.xyz/"]
+*##[href*="https://trcklks.com/"]
+*##[href*="librateam.net"]
+*##[href*="passtechusa.com"]
+*##[href*="postlnk.com"]
+*##[href*="uselnk.com/"]
+*##[href*="www.gaming-adult.com/"]
+*##[href^="//ad.jetx.info/"]
+*##[href^="//cadsecs.com/"]
+*##[href^="//clk.afftracks.online/"]
+*##[href^="//look.ufinkln.com/"]
+*##[href^="//look.utndln.com/offer"]
+*##[href^="//mellowads.com/"]
+*##[href^="//mob1ledev1ces.com"]
+*##[href^="//prayuserparka.com/"]
+*##[href^="//producebreed.com/"]
+*##[href^="//taghaugh.com/"]
+*##[href^="http://getalinkandshare.com/r"]
+*##[href^="http://go.adovr.com/"]
+*##[href^="http://referrer.website/"]
+*##[href^="http://smart.offers-tracking.com/"]
+*##[href^="https://13vm73vbmp.com/"]
+*##[href^="https://2go7v1nes8.com/"]
+*##[href^="https://adserver.adreactor.com/"]
+*##[href^="https://adult.xyz/"]
+*##[href^="https://ahf8n.com/"]
+*##[href^="https://exi8ef83z9.com/"]
+*##[href^="https://fireads.online/"]
+*##[href^="https://ghoto-12.win/"]
+*##[href^="https://go.rdrjmp.com/"]
+*##[href^="https://klsdee.com/"]
+*##[href^="https://ladsanz.com/"]
+*##[href^="https://m.timesofindia.com/affiliate_amazon.cms"]
+*##[href^="https://mymediarecommendations.com/"]
+*##[href^="https://pics.ys1pve.site/redirect.html"]
+*##[href^="https://pl.allsports4free.club/"]
+*##[href^="https://pl.allsports4u.club/"]
+*##[href^="https://popcash.net/"]
+*##[href^="https://qwertyuiop.stream/"]
+*##[href^="https://redsittalvetoft.pro/"]
+*##[href^="https://t.mobtyb.com/"]
+*##[href^="https://timesofindia.indiatimes.com/affiliate_amazon.cms"]
+*##[href^="https://track.wg-aff.com/click"]
+*##[href^="https://trk.clmbtrck.in/click"]
+*##[href^="https://wap4dollar.com/ad/nonadult/serve.php"]
+*##[href^="https://www.highperformancecpm.com/"]
+*##[href^="https://www.onclickmega.com/"]
+*##[href^="https://www.onclickperformance.com/"]
+*##[href^="https://www.safestcontentgate.com/"]
+*##[href^="luvaihoo.com"]
+*##[href="//xxxrevpushclcdu.com/app.webp"]
+*##[href="https://azzporn.net"]
+*##[id^="cookieConsent"]
+*##[id^="p_root_"]
+*##[onclick*="postlnk.com"]
+*##[onclick*="window.open('http://deloplen.com/"]
+*##[src*="/dutti/"]
+*##[src*="librateam.net"]
+*##[src^="//dombnrs.com/"]
+*##[src^="https://aff1xstavka.com"]
+*##[src^="https://forum.picbaron.com/Banner"]
+*##[src="/img/bat-banner.png"]
+*##[src="/static/img/download-top.png"]
+*##a[href*="/go.php?a_aid="]
+*##a[href*="/open?bver"]
+*##a[href*="/open?refer"]
+*##a[href*="pussl"]
+*##a[href^="http://adtrack"]
+*##a[href^="http://gamingadult.biz/"]
+*##a[href^="http://www.poweredbyliquidfire.mobi/"]
+*##a[href^="https://bj1110.online/"]
+*##a[href^="https://eawp2ra7.top/"]
+*##a[href^="https://syndication.exdynsrv.com/splash.php"]
+*##a[href="http://linkswala.club/"]
+*##div#spot-holder.spot-holder[style="display: block;"]
+*##div[class$="player-promo-col"]
+*##div[class*="displayAdRight"]
+*##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+*##iframe[src^="https://smitionsory.co/"]
+*##div[align="center"]:not(:has(.btn))
+! uBlock filters – Privacy
+*##.addthis_toolbox
+! EasyList (Optimized)
 *###_ads
 *###above_button_ad
 *###above-the-fold-ad
@@ -157,6 +312,7 @@
 *###ad_sky_rhs
 *###ad_sky1
 *###ad_skyscraper
+*###ad_skyscraper_1
 *###ad_skyscraper_right
 *###ad_slot
 *###ad_slot_bottom
@@ -231,6 +387,7 @@
 *###ad300
 *###ad-300
 *###ad300250top
+*###Ad300x145
 *###Ad300x250
 *###ad300x250
 *###ad-300x250
@@ -314,6 +471,7 @@
 *###adbox2
 *###ad-box2
 *###ad-box-2
+*###adbox-inarticle
 *###adBrandingStation
 *###adBTF300x250
 *###adCarousel
@@ -370,6 +528,7 @@
 *###adFrame
 *###ad-frame
 *###adframe:not(frameset)
+*###AdFrame1
 *###AdFrame4
 *###ad-fullbanner2
 *###ad-fullbanner2-billboard-outer
@@ -449,6 +608,7 @@
 *###ad-masthead
 *###ad-medrec__first
 *###adMessage
+*###ad-mid
 *###ad-middle
 *###ad-mid-rect
 *###adm-inline-article-ad-1
@@ -519,6 +679,7 @@
 *###ads_box
 *###ads_box1
 *###ads_box2
+*###ads_center
 *###ads_central
 *###ads_container
 *###ads_content
@@ -528,7 +689,6 @@
 *###ads_footer
 *###Ads_google_01
 *###Ads_google_02
-*###Ads_google_03
 *###ads_h1
 *###ads_h2
 *###ads_header
@@ -635,6 +795,7 @@
 *###ad-skin
 *###adSkinLeft
 *###adSkinRight
+*###adsky
 *###ad-sky
 *###adSkyscraper
 *###adskyscraper
@@ -643,6 +804,7 @@
 *###ads-leaderboard
 *###adsLeft
 *###ads-left
+*###ads-left-top
 *###adSlider
 *###adslider
 *###ads-link
@@ -787,7 +949,6 @@
 *###adv_Skin
 *###adv_sky
 *###adv_top
-*###adv728
 *###adValue
 *###adv-box
 *###AdvContainer
@@ -812,7 +973,6 @@
 *###advertisement_belowscreenshots
 *###advertisement_box
 *###advertisement1
-*###advertisement-content
 *###advertisement-detail1
 *###advertisement-detail2
 *###Advertisements
@@ -991,7 +1151,6 @@
 *###boxes-box-ad_728x90_1
 *###br-ad-header
 *###branding_click
-*###btm_ad
 *###btmad
 *###btopads
 *###budget_adDiv
@@ -999,6 +1158,7 @@
 *###captcha-adspace
 *###carbonads-container
 *###catalog_page_970x250_1_ad
+*###ch-ad-outer-right
 *###chartAdWrap
 *###cmn_ad_tag_head
 *###Col2-1-ComboAd-Proxy
@@ -1044,6 +1204,7 @@
 *###daumAd
 *###desktop_ads_block
 *###desktop-ad-btf
+*###desktop-sidebar-ad
 *###dfp_bigbox_2
 *###dfp_bigbox_recipe_top
 *###DFP_in_article_mpu
@@ -1360,6 +1521,7 @@
 *###middle_mpu
 *###middleAd
 *###middle-ad
+*###middleads
 *###middleads2
 *###mobile_ads_block
 *###mobileAd_holder
@@ -1820,6 +1982,7 @@
 *##.ad_960
 *##.ad_a
 *##.ad_ad_300
+*##.ad_adInfo
 *##.ad_after_section
 *##.ad_amazon
 *##.AD_area
@@ -1998,8 +2161,6 @@
 *##.ad140
 *##.ad160
 *##.ad-160
-*##.ad160_l
-*##.ad160_r
 *##.ad-160-600
 *##.ad160x600
 *##.ad-160x600
@@ -2050,6 +2211,7 @@
 *##.ad468x60
 *##.ad-5
 *##.ad590
+*##.ad-6
 *##.ad600
 *##.ad728
 *##.ad-728
@@ -2059,7 +2221,6 @@
 *##.ad728x90
 *##.ad-728x90
 *##.ad-8
-*##.ad-88x31
 *##.ad90
 *##.ad-90
 *##.ad960
@@ -2244,6 +2405,7 @@
 *##.ad-container--taboola
 *##.ad-container-top
 *##.ad-container-wrapper
+*##.ad-contain-top
 *##.adContent
 *##.ad-content
 *##.ad--content
@@ -2562,7 +2724,6 @@
 *##.ad-r
 *##.ad-rail
 *##.ad--rail
-*##.ad-ratio-size-300x250
 *##.ad-reader
 *##.ad-reader-con-item
 *##.adrechts
@@ -2809,6 +2970,7 @@
 *##.adsDiv
 *##.adsdiv
 *##.ads-div
+*##.ad-secondary-desktop
 *##.adSection
 *##.adsection
 *##.ad-section
@@ -2840,6 +3002,7 @@
 *##.adsenseBannerArea
 *##.adsense-block
 *##.adsense-box
+*##.adsense-center
 *##.adsenseContainer
 *##.adsense-container
 *##.adsense-content
@@ -2930,6 +3093,7 @@
 *##.ad-slider
 *##.adslink
 *##.ads-link
+*##.adsList
 *##.adslist
 *##.ads-list
 *##.adsload
@@ -2982,6 +3146,7 @@
 *##.adsonofftrigger
 *##.ad-source
 *##.ad-sp
+*##.AdSpace
 *##.adSpace
 *##.ad-space
 *##.adspace2
@@ -3370,7 +3535,6 @@
 *##.advert-label
 *##.advert-leaderboard
 *##.advert--leaderboard
-*##.advertleft
 *##.advertLink
 *##.advertlink
 *##.advertMpu
@@ -3388,6 +3552,10 @@
 *##.advert-right
 *##.advert--right-rail
 *##.adverts
+*##.adverts_footer_advert
+*##.adverts_footer_scrolling_advert
+*##.adverts_header_advert
+*##.adverts_side_advert
 *##.advert-sidebar
 *##.adverts-inline
 *##.advert-skyscraper
@@ -3446,6 +3614,7 @@
 *##.ad-widget
 *##.ad--widget
 *##.AdWidget_ImageWidget
+*##.ad-widgets
 *##.ad-widget-wrapper
 *##.ad-wireframe
 *##.ad-wireframe-wrapper
@@ -3508,7 +3677,6 @@
 *##.article__adv
 *##.article__inset--margin-ad
 *##.article_ad
-*##.article_ad_text
 *##.ArticleAd
 *##.articleAd
 *##.articlead
@@ -3997,12 +4165,12 @@
 *##.download-ad
 *##.dsp-under-video-ad
 *##.dual-ads
-*##.e-ad
 *##.e-advertise
 *##.earAdv
 *##.easyAdsBox
 *##.easyAdsSinglePosition
 *##.ebm-ad-target__outer
+*##.ecommerce-ad
 *##.eg-ad
 *##.eg-custom-ad
 *##.element--ad
@@ -4037,6 +4205,7 @@
 *##.ezoic-ad-adaptive
 *##.ezoic-floating-bottom
 *##.fa-ad
+*##.facebook-ad
 *##.f-ad
 *##.fa-google-ad
 *##.fbs-ad--top-wrapper
@@ -4228,6 +4397,7 @@
 *##.grid_ad_container
 *##.grid-ad
 *##.grid-advertisement
+*##.grid-block-ad
 *##.gridlove-ad-below-header
 *##.group-item-ad
 *##.GRVAd
@@ -4509,6 +4679,7 @@
 *##.lead-ad
 *##.lead-ads
 *##.leader_ad
+*##.leaderAd
 *##.leaderad
 *##.leader-ad
 *##.leaderAdvert
@@ -4597,6 +4768,7 @@
 *##.mainAdContainer
 *##.main-ad-container
 *##.main-add-sec
+*##.mainAds
 *##.main-ads
 *##.main-advertising
 *##.main-google-ad-container
@@ -4619,6 +4791,7 @@
 *##.media--ad
 *##.media-advert
 *##.media-network-ad
+*##.medium_ad
 *##.mediumRectangleAd
 *##.medium-rectangle-ad
 *##.medrect_ad
@@ -4710,7 +4883,6 @@
 *##.mp-ad
 *##.mpu_ad
 *##.mpu_container
-*##.mpu_placeholder
 *##.mpuAd
 *##.mpuad
 *##.mpu-ad
@@ -4721,7 +4893,6 @@
 *##.mpu-left-bk
 *##.mpu-wrap
 *##.mpu-wrapper
-*##.mrecAds
 *##.mrec-ads
 *##.mrec-btf-cont
 *##.mrec-scrollable-cont
@@ -4770,7 +4941,6 @@
 *##.nav-ad-plus-leader
 *##.NavBarAd
 *##.navbar-header-ad
-*##.nbaTextAds
 *##.nested-ad
 *##.netshelter-ad
 *##.newad
@@ -4793,6 +4963,7 @@
 *##.nivo-ad-container
 *##.nm-ad
 *##.node-ad
+*##.nomobilead
 *##.non-empty-ad
 *##.nordvpn-popup
 *##.normalad
@@ -4814,6 +4985,7 @@
 *##.OAS_wrap
 *##.oas_x21
 *##.oasad
+*##.oas-ad
 *##.oasads
 *##.oas-container
 *##.ob_ads_header
@@ -4823,6 +4995,7 @@
 *##.OcelotAdModule
 *##.OcelotAdModule-ad
 *##.offads
+*##.oi_horz_ad_container
 *##.oio-banner-zone
 *##.oio-link-sidebar
 *##.oko-adhesion
@@ -4863,6 +5036,7 @@
 *##.ox_ad
 *##.p_topad
 *##.p2_right_ad
+*##.p75_sidebar_ads
 *##.p-ad
 *##.padAdvx
 *##.p-ad-block
@@ -4883,25 +5057,30 @@
 *##.pagebuilder_ad
 *##.pageclwideadv
 *##.pagefair-acceptable
+*##.pageGoogleAdsContainer
 *##.page-header_ad
 *##.pageHeaderAd
 *##.page-header-ad
 *##.pageHeaderAds
 *##.page-pencil-ad-container-bottom
 *##.PageTopAd
-*##.pan-ad-sidebar1
 *##.pane_ad_wide
 *##.pane-ad-ads-all
+*##.pane-ad-manager-right
 *##.pane-ad-manager-right1
 *##.pane-ads
+*##.pane-advertorials-homepage-advertorial-rotator
 *##.pane-bzads-fintech-300x250
 *##.pane-frontpage-ad-banner
 *##.pane-frontpage-ad-banner-hk
 *##.panel-ad
+*##.paneladvert
 *##.panel-advert
 *##.panel-body-adsense
 *##.pane-mp-advertisement-rectangle
+*##.pane-openx
 *##.pane-site-ads
+*##.pane-sponsored-links
 *##.pane-tgx-ad
 *##.pane-tw-ad-master-ad-300x250a
 *##.pane-tw-ad-master-ad-300x600
@@ -4924,6 +5103,7 @@
 *##.pb-ad
 *##.pb-ad-curated
 *##.pb-f-ad-flex
+*##.pb-f-ad-leaderboard
 *##.pb-f-ads-dfp
 *##.pb-f-ads-dfp-box-300x450
 *##.pb-f-ads-dfp-halfpage-300x600
@@ -4932,7 +5112,6 @@
 *##.pb-f-ads-taboola-article-well
 *##.pb-f-ads-taboola-right-rail-alt
 *##.pb-f-ads-yieldmo
-*##.pb-mod-ad-flex
 *##.pc-ad
 *##.PcSideBarAd
 *##.pd-ads-mpu
@@ -4951,6 +5130,7 @@
 *##.pencil-ad-container
 *##.penci-promo-link
 *##.pf_content_ad
+*##.pf_sky_ad
 *##.pf_top_ad
 *##.pg-ad-block
 *##.pg-adnotice
@@ -4959,6 +5139,7 @@
 *##.pgevoke-story-topads
 *##.ph-ad
 *##.ph-ad-desktop
+*##.ph-ad-mediumrectangle
 *##.photoAd
 *##.photoad
 *##.photo-ad
@@ -4966,6 +5147,7 @@
 *##.pics_detail_ad
 *##.pics_footer_ad
 *##.picto_ad
+*##.pixtrack-adcode
 *##.pj-ad
 *##.pkad
 *##.pl__superad
@@ -4990,7 +5172,6 @@
 *##.player-ad-overlay
 *##.player-ads
 *##.player-ads2
-*##.playerAdv
 *##.playerdads
 *##.player-leaderboard-ad-wrapper
 *##.player-section__ad-block
@@ -5004,29 +5185,31 @@
 *##.plista_widget_retrescoAd_2
 *##.plistaList > .itemLinkPET
 *##.plugin-ad
+*##.pmad-in2
 *##.pm-ads-banner
 *##.pm-ad-zone
 *##.pm-banner-ad
 *##.pmc-adm-boomerang-pub-div
 *##.pmg-sponsoredlinks
 *##.pn-ad
+*##.pnp_ad
 *##.poac_ads_text
+*##.pod-ad
 *##.pod-ad-300
 *##.pod-ad-box
 *##.podRelatedAdLinksWidget
 *##.polaris__ad
-*##.polaris-ad--wrapper-desktop
 *##.poll_sponsor_ad
+*##.popAdContainer
+*##.popadtext
 *##.pop-out-eplayer-container
 *##.popunder-adv
 *##.popup_ad
 *##.popupAd
 *##.popup-ad
-*##.pop-up-ad
 *##.popupAdWrapper
 *##.portal_searchresultssponsoredlist
 *##.portal-advert
-*##.portalCenterContentAdMiddle
 *##.portalCenterContentAdTop
 *##.portalcontentad
 *##.pos_advert
@@ -5062,6 +5245,7 @@
 *##.poster-ad-asset-module
 *##.postfooterad
 *##.post-full-ad
+*##.post-full-ad-wrapper
 *##.post-googlead
 *##.postgroup-ads-middle
 *##.post-load-ad
@@ -5094,7 +5278,6 @@
 *##.premium-adv
 *##.premiumInHouseAd
 *##.pre-roll-ad
-*##.pre-title-ad
 *##.preview-ad
 *##.pricead-border
 *##.primary_sidebar_ad
@@ -5204,6 +5387,7 @@
 *##.r_adbx_top
 *##.r_ads
 *##.r_col_add
+*##.r7ad
 *##.r-ad
 *##.rad_container
 *##.radium-ad-spot
@@ -5789,6 +5973,7 @@
 *##.sidead_300
 *##.sidead_300250_ht
 *##.sidead_550125
+*##.side-ad1
 *##.side-ad-120-bottom
 *##.side-ad-120-middle
 *##.side-ad-120-top
@@ -7705,7 +7890,6 @@
 *##[id*="ScriptRoot"]
 *##[id^="ad-wrap-"]
 *##[id^="bunyad_ads_"]
-*##[id^="div-gpt-ad"]
 *##[id^="google_ads_iframe"]
 *##[lazy-ad="leftthin_banner"]
 *##[lazy-ad="top_banner"]
@@ -7748,6 +7932,7 @@
 *##a[href^="//www.mgid.com/"]
 *##a[href^="http://9nl.es/"]
 *##a[href^="http://ad.doubleclick.net/"]
+*##a[href^="http://ad-apac.doubleclick.net/"]
 *##a[href^="http://ad-emea.doubleclick.net/"]
 *##a[href^="http://adf.ly/?id="]
 *##a[href^="http://ads.betfair.com/redirect.aspx?"]
@@ -7814,7 +7999,6 @@
 *##a[href^="https://as.sexad.net/"]
 *##a[href^="https://awecrptjmp.com/"]
 *##a[href^="https://awejmp.com/"]
-*##a[href^="https://badoinkvr.com/"]
 *##a[href^="https://bestcond1tions.com/"]
 *##a[href^="https://betway.com/"][href*="&a="]
 *##a[href^="https://billing.purevpn.com/aff.php"] > img
@@ -7905,6 +8089,7 @@
 *##a[href^="https://vo2.qrlsx.com/"]
 *##a[href^="https://wantopticalfreelance.com/"]
 *##a[href^="https://wittered-mainging.com/"]
+*##a[href^="https://www.adskeeper.co.uk/"]
 *##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
 *##a[href^="https://www.awin1.com/cread.php?awinaffid="]
 *##a[href^="https://www.bang.com/?aff="]
@@ -7925,7 +8110,6 @@
 *##a[href^="https://www.privateinternetaccess.com/"] > img
 *##a[href^="https://www.rabbits.webcam/?id="]
 *##a[href^="https://www.securegfm.com/"]
-*##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 *##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"]
 *##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
 *##AD-SLOT
@@ -7989,6 +8173,7 @@
 *##div[id^="adspot-"]
 *##div[id^="advads-"]
 *##div[id^="advads_"]
+*##div[id^="ADV-SLOT-"]
 *##div[id^="advt-"]
 *##div[id^="amzn-assoc-ad"]
 *##div[id^="banner-ad-"]
