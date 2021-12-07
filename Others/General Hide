@@ -156,7 +156,6 @@
 *##div[class*="displayAdRight"]
 *##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 *##iframe[src^="https://smitionsory.co/"]
-*##div[align="center"]:not(:has(.btn))
 ! uBlock filters – Privacy
 *##.addthis_toolbox
 ! EasyList (Optimized)
