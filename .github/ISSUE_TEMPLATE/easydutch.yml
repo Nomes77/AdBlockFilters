@@ -6,7 +6,7 @@ body:
       label: Prerequisites / Vereisten
       description: To rule out invalid issues, confirm and check each one of the checkboxes.
       options:
-        - label: This is a **Dutch** website, so no websites with Dutch subdomains (e.g. `nl.y8.com`) / Het is een **Nederlandse** website, dus geen websites met Nederlandse subdomeinen (bijv. `nl.y8.com`)
+        - label: This is a **Dutch** website / Het is een **Nederlandse** website
           required: true
         - label: I performed a [cursory search of the issue tracker](https://github.com/BPower0036/AdBlockFilters/issues) to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
