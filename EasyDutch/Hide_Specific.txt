@@ -18,7 +18,7 @@ sexdatingtube.be##.video-sidebar
 rapesextube.be##.happy-section
 ! 2021-12-04
 linda.nl##[class^="article-"][class$="_article"]:has(.category-label_label:has-text(Advertorial))
-creditexpo.nl##p:has(a[href]:has(img[src*="creditexpo.nl/wp-content/uploads/"][width="300"])
+creditexpo.nl##p:has(a[href]:has(img[src*="creditexpo.nl/wp-content/uploads/"][width="300"]))
 nieuwsfiets.nu##.ult-content-box-container
 nieuwsfiets.nu##.wpb_raw_html[class*="us_custom_"]:has(.wpb_wrapper)
 fok.nl##.trueTop
