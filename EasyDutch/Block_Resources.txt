@@ -1,3 +1,5 @@
+! 2021-12-08
+||verkeerplaza.nl/js/banner.js
 ! 2021-12-07
 /^https\:\/\/executive-people\.nl\/media\/[\d]{6}\/[\d]+\.jpg$/$image
 ||transport-online.nl/site/includes/uploads/banner-*$image
