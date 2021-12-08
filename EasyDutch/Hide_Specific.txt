@@ -1,4 +1,5 @@
 ! 2021-12-08
+zeelandnet.nl##.row--bnr-between
 tameteo.nl##.creatividad
 ! https://github.com/uBlockOrigin/uAssets/issues/10801
 nl.motorsport.com##.ms-hapb
