@@ -152,13 +152,9 @@ freebitco.in##.daily_jackpot_main_container_div
 freebitco.in##.premium_buy_more_tokens
 freebitco.in##.reveal-modal-bg
 freebitco.in##.reveal-modal
-gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Dissenter)
-gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Gab TV)
-gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Sponsored)
-gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Trending Hashtags)
-gab.com##:not(:matches-path(?:^/explore|^/news)) aside[class]:has-text(Upgrade)
+gab.com##:matches-path(/\/home|\/groups/) aside[class]:not(:has-text(Groups)):not(:has(img[src^="https://media.gab.com/system/accounts/avatars/"]):has(a[title$=" Toots"]))
 gab.com##article[data-id^="timeline-injection"]
-gab.com##article[data-id^="gab-ad-status-timeline-injection"]
+gab.com##article[data-id^="gab-ad-status-"]
 ! gab.com##article[data-id^="promotion"]:has-text(Promoted gab)
 instagram.com##.VZk0N._nuMd
 instagram.com##.enqOc.ByB5K
