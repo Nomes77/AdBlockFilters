@@ -1,3 +1,5 @@
+! 2021-12-08
+tameteo.nl##.creatividad
 ! https://github.com/uBlockOrigin/uAssets/issues/10801
 nl.motorsport.com##.ms-hapb
 ! 2021-12-07
