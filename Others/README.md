@@ -11,4 +11,4 @@ This list and enabling `Ignore general cosmetic filters` will save you around 15
 This can be handy especially if you are low on resources or want a little bit faster page loading.
 
 ***
-My goal is to update this list once a month, maybe twice.
+My goal is to update this list once a month, maybe twice or even maybe every week.
