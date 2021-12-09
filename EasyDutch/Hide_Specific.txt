@@ -1,5 +1,5 @@
 ! 2021-12-09
-vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
+manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
 ! 2021-12-08
 vagina.nl###partner-links
 zeelandnet.nl##.row--bnr-between
