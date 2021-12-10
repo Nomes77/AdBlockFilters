@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 07-12-2021
+! Last updated: 10-12-2021
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -255,7 +255,7 @@ no-large-media: behind-the-scene true
 * cdn.impress.ly * noop
 * hb.improvedigital.com * noop
 * e.infogr.am * noop
-* www.instagram.com * noop
+* instagram.com * noop
 * instansive.com * noop
 * instawidget.net * noop
 * shopify.intercom.io * noop
@@ -361,6 +361,8 @@ no-large-media: behind-the-scene true
 * static.parastorage.com * noop
 * payments-amazon.com * noop
 * c.paypal.com * noop
+* www.paypal.com * noop
+* paypalobjects.com * noop
 * phncdn.com * noop
 * player.sequoia.piksel.com * noop
 * create.piktochart.com * noop
@@ -657,6 +659,7 @@ www.bol.com assets.s-bol.com * noop
 secure.booked.net s2.bookcdn.com * noop
 www.booking.com bstatic.com * noop
 app.box.com public.boxcloud.com * noop
+browserleaks.com prod.disqus.map.fastlylb.net * noop
 sport.bt.com img01.bt.co.uk * noop
 www.buienradar.be cdn.buienradar.nl * noop
 businessinsider.in static.clmbtech.com * noop
@@ -861,11 +864,13 @@ login.microsoftonline.com msftauth.net * noop
 login.microsoftonline.com office.com * noop
 login.microsoftonline.com outlook.office365.com * noop
 login.microsoftonline.com account.activedirectory.windowsazure.com * noop
+nl.motorsport.com motorsport.tv * noop
 hubs.mozilla.com assets-prod.reticulum.io * noop
 addons.mozilla.org addons-amo.cdn.mozilla.net * noop
 discourse.mozilla.org cdn.discourse-prod.itsre-apps.mozit.cloud * noop
 support.mozilla.org support.cdn.mozilla.net * noop
 support.mozilla.org static-media-prod-cdn.sumo.mozilla.net * noop
+www.mozilla.org www.mozorg.moz.works * noop
 www.musiciansfriend.com recs.richrelevance.com * noop
 www.myenglishteacher.eu hb.wpmucdn.com * noop
 myspace.com x.myspacecdn.com * noop
@@ -914,7 +919,6 @@ pandora.tv player.h-cdn.com * noop
 www.pandora.tv adlc-exchange.toast.com * noop
 www.paramountnetwork.com tve.mtvnservices.com * noop
 www.paramountnetwork.com tvejs.mtvnservices.com * noop
-paypal.com paypalobjects.com * noop
 phys.org internapcdn.net * noop
 pinkbike.com pinkbike.org * noop
 pinterest.com s.pinimg.com * noop
@@ -997,7 +1001,9 @@ www.trustpilot.com businessunitprofile-cdn.trustpilot.net * noop
 www.twitch.tv twitchcdn.net * noop
 twitter.com twimg.com * noop
 www.usenix.org pantheonsite.io * noop
+vagina.nl cdn.fluidplayer.com * noop
 variety.com wp.com * noop
+www.verkeerplaza.nl gdpr-wrapper.privacymanager.io * noop
 www.vicsdrumshop.com assets.reverbsites.com * noop
 www.viki.com viki.io * noop
 www.viptube.com vptpsn.com * noop
@@ -1027,6 +1033,7 @@ yahoo.com yahoodns.net * noop
 view.yahoo.com viewport.videovore.com * noop
 www.yahoo.com mbp.yimg.com * noop
 yandex.com yastatic.net * noop
+www.zdnet.com cdn.cookielaw.org * noop
 * https://docs.google.com/forms/ sub_frame noop
 * https://www.google.com/recaptcha/ script noop
 * https://www.google.com/maps/ sub_frame noop
