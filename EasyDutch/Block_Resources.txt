@@ -1,3 +1,5 @@
+! 2021-12-10
+||vnexplorer.net/assets/img/cover_single.png$image
 ! 2021-12-09
 ||manpedia.nl/wp-content/uploads/*/Maxaro-badkamers-tegels.png
 ||vrouwpedia.nl/wp-content/uploads/*/Maxaro-badkamers-tegels.png
