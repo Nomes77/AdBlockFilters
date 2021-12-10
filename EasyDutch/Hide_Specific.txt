@@ -1,3 +1,6 @@
+! 2021-12-10
+tankpro.nl##.advertisement
+tankpro.nl##.widget_nlpartners
 ! 2021-12-09
 geldpedia.nl,manpedia.nl,vrouwpedia.nl##[id^="gridlove-module-"]:not(.module-type-posts):not(.module-type-cats)
 ! 2021-12-08
