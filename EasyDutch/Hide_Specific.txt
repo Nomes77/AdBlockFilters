@@ -1,4 +1,5 @@
 ! 2021-12-11
+voetbalvandaag.be##.panel-box:has(a[href^="http://unibet.me/"])
 uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 belgiancycling.be###banner
 ! 2021-12-10
