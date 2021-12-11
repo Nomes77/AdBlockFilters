@@ -1,4 +1,5 @@
 ! 2021-12-11
+||uel-voetbal.nl/derden/
 ||belgiancycling.be^*/Banners/
 ||belgiancycling.be^*/Logo%27s%20partners/
 ||belgiancycling.be/resize.asp?w=120&file=*.gif
