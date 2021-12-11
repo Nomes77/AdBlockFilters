@@ -1,4 +1,6 @@
 ! 2021-12-11
+gids.tv##h2:has-text(Advert)
+gids.tv##h2:has-text(Advert) + .advertisement + a[href]
 voetbalvandaag.be##.panel-box:has(a[href^="http://unibet.me/"])
 uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 belgiancycling.be###banner
