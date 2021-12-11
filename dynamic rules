@@ -382,6 +382,7 @@ no-large-media: behind-the-scene true
 * privacy-mgmt.com * noop
 * cmp-consent-tool.privacymanager.io * noop
 * gdpr-consent-tool.privacymanager.io * noop
+* gdpr-wrapper.privacymanager.io * noop
 * protoawe.com * noop
 * static.prvd.com * noop
 * assets.pscp.tv * noop
@@ -1003,7 +1004,6 @@ twitter.com twimg.com * noop
 www.usenix.org pantheonsite.io * noop
 vagina.nl cdn.fluidplayer.com * noop
 variety.com wp.com * noop
-www.verkeerplaza.nl gdpr-wrapper.privacymanager.io * noop
 www.vicsdrumshop.com assets.reverbsites.com * noop
 www.viki.com viki.io * noop
 www.viptube.com vptpsn.com * noop
