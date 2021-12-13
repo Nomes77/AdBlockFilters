@@ -1,4 +1,5 @@
 ! 2021-12-13
+briefjevanjan.nl##center:has([src^="https://partner.bol.com/"])
 eindtijdklok.org##.widget_block:has(img[src*="/ad"])
 ! 2021-12-11
 gids.tv##h2:has-text(Advert)
