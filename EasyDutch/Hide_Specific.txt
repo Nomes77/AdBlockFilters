@@ -1,3 +1,5 @@
+! 2021-12-13
+eindtijdklok.org##.widget_block:has(img[src*="/ad"])
 ! 2021-12-11
 gids.tv##h2:has-text(Advert)
 gids.tv##h2:has-text(Advert) + .advertisement + a[href]
