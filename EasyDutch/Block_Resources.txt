@@ -1,3 +1,5 @@
+! 2021-12-14
+||upload.gscdn.nl/uploads/*_widgets_300x300px$image,domain=geenstijl.nl
 ! 2021-12-13
 ||eindtijdchristen.files.wordpress.com/*/ad-$image,domain=eindtijdklok.org
 ! 2021-12-11
