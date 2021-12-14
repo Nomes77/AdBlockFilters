@@ -1,4 +1,5 @@
 ! 2021-12-14
+geenstijl.nl##.article-premium-promotion-block
 hardware.info##article.overview-item:has-text(Sponsored)
 hdtienersexfilms.nl,rapetube.eu,tubeseks.be###tracking-url
 omatube.be###buttonUnderVideoLink
