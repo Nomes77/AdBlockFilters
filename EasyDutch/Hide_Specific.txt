@@ -3,7 +3,7 @@ hdtienersexfilms.nl,rapetube.eu,tubeseks.be###tracking-url
 omatube.be###buttonUnderVideoLink
 sexbios.net##.video-sidebar
 bejaardensextube.nl,creampiesex.nl,rapetube.be##.happy-section
-xxx-tube.be##[id^="text-"]:has([src^="https://www.hotlinkie.com/"])
+xxx-tube.be##[id^="text-"]:has(img[src*="hotlinkie.com/"])
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 intikkertje.nl##.vc_cta3-container
 ! 2021-12-13
