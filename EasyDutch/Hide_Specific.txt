@@ -1,3 +1,5 @@
+! 2021-12-14
+intikkertje.nl##.vc_cta3-container
 ! 2021-12-13
 briefjevanjan.nl##center:has([src^="https://partner.bol.com/"])
 eindtijdklok.org##.widget_block:has(img[src*="/ad"])
