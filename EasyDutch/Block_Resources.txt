@@ -1,4 +1,5 @@
 ! 2021-12-15
+||mannennieuws.nl/wp-content/uploads/*-banner.
 ||bol-an.nl/wp-content/uploads/*/Adv_
 ||bol-an.nl/wp-content/uploads/*/*_Banner
 ! 2021-12-14
