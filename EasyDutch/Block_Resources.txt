@@ -1,4 +1,5 @@
 ! 2021-12-15
+||ditjesendatjes.nl/app/uploads/*/*-footer-DenD.png$image
 ||mannennieuws.nl/wp-content/uploads/*-banner.
 ||bol-an.nl/wp-content/uploads/*/Adv_
 ||bol-an.nl/wp-content/uploads/*/*_Banner
