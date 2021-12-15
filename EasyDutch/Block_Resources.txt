@@ -1,3 +1,6 @@
+! 2021-12-15
+||bol-an.nl/wp-content/uploads/*/Adv_
+||bol-an.nl/wp-content/uploads/*/*_Banner
 ! 2021-12-14
 ||upload.gscdn.nl/uploads/*_widgets_300x300px$image,domain=geenstijl.nl
 ! 2021-12-13
