@@ -1,4 +1,5 @@
 ! 2021-12-15
+ditjesendatjes.nl##.c-partners
 nailtalk.nl##.ashe-widget
 nailtalk.nl##a[href^="https://partnerprogramma.bol.com/"]
 mannennieuws.nl##.widget:has(img[src*="banner"])
