@@ -1,4 +1,6 @@
 ! 2021-12-15
+nailtalk.nl##.ashe-widget
+nailtalk.nl##a[href^="https://partnerprogramma.bol.com/"]
 mannennieuws.nl##.widget:has(img[src*="banner"])
 bol-an.nl##[id^="block-"]:has([src*="_Banner"])
 bol-an.nl##.widget:has-text(Sponsors)
