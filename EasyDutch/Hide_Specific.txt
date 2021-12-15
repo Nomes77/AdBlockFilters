@@ -1,4 +1,5 @@
 ! 2021-12-15
+mannenstyle.nl##.widget_execphp
 gooieneembode.nl,laardercourant.nl##[class^="mtb-"]:has-text(Partner)
 gooieneembode.nl,laardercourant.nl##[class^="mb-"]:has([advobject^="webadv_"])
 ditjesendatjes.nl##.c-partners
