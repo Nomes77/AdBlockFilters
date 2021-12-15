@@ -1,4 +1,6 @@
 ! 2021-12-15
+laardercourant.nl##[class^="mtb-"]:has-text(Partner)
+laardercourant.nl##[class^="mb-"]:has([advobject^="webadv_"])
 ditjesendatjes.nl##.c-partners
 nailtalk.nl##.ashe-widget
 nailtalk.nl##a[href^="https://partnerprogramma.bol.com/"]
