@@ -1,3 +1,6 @@
+! 2021-12-15
+bol-an.nl##[id^="block-"]:has([src*="_Banner"])
+bol-an.nl##.widget:has-text(Sponsors)
 ! 2021-12-14
 nieuweoogst.nl##.banner
 geenstijl.nl##.article-premium-promotion-block
