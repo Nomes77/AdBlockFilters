@@ -1,3 +1,5 @@
+! 2021-12-17
+ninefornews.nl##.in-house
 ! 2021-12-15
 mannenstyle.nl##.widget_execphp
 gooieneembode.nl,laardercourant.nl##[class^="mtb-"]:has-text(Partner)
