@@ -1,3 +1,5 @@
+! 2021-12-17
+||ninefornews.nl/wp-content/uploads/*/*/hs-*.png$image,1p
 ! 2021-12-15
 ||cdn.shopsuite.com/js/layer.js$script,domain=franska.nl
 ||ditjesendatjes.nl/app/uploads/*/*-footer-DenD.png$image
