@@ -477,7 +477,6 @@ seksverhalen.nl##[id^="sgpb-popup-dialog"]:has(iframe[src^="https://www.affilaxy
 seksverhalen.nl##[id^="sgpb-popup-dialog"]:has(iframe[src^="https://www.affilaxy.com/promos/regforms"])
 ! 2021-08-19
 kutscheetje.nl##[id^="text-"]:has([src^="http://promotools.islive.nl/ads/"])
-ninefornews.nl##.in-house:has(img[width="300"][height="250"])
 ninefornews.nl##.widget_text.widget:has(img[width="300"][height="600"])
 rd.nl##.infotainment:has(a[href^="/advert"])
 promootjesite.nl##.adsense
