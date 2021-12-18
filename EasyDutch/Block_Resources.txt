@@ -1,3 +1,5 @@
+! 2021-12-18
+||dutchitchannel.nl/6*?field=Binary$image
 ! 2021-12-17
 ||ninefornews.nl/wp-content/uploads/*/*/hs-*.png$image,1p
 ! 2021-12-15
