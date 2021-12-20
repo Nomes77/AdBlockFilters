@@ -1,4 +1,5 @@
 ! 2021-12-20
+radionl.fm##.widget_text:has(a[href] > img[src])
 nieuwsopbeeld.nl##.td_module_wrap:has(.td-post-category:has-text(Gesponsord))
 coastlinefm.nl###partners
 ! 2021-12-18
