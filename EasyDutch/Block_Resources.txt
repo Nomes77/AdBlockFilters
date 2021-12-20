@@ -1,4 +1,5 @@
 ! 2021-12-20
+||qmusic.medialaancdn.be/b/*/*/*Banner*$image,domain=qmusic.nl
 ||simone.nl/wp-content/uploads/*-banner-
 ||simone.nl/wp-content/uploads/*-besteonderdelen.nl-
 ||simone.nl/wp-content/uploads/*-onderdelenexpert.nl-
