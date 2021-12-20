@@ -1,4 +1,5 @@
 ! 2021-12-20
+simone.nl##.qt-sponsor
 radionl.fm##.widget_text:has(a[href] > img[src])
 nieuwsopbeeld.nl##.td_module_wrap:has(.td-post-category:has-text(Gesponsord))
 coastlinefm.nl###partners
@@ -791,7 +792,7 @@ nieuwnieuws.nl##.article-page__bumper
 telegraaf.nl##.ArticlePageWrapper__banner
 rtvkrimpenerwaard.nl##.art-positioncontrol
 zeelandnet.nl##.as__bottom-banner
-afkortingen.nu,allradio.nl,erotracks.nl,nrc.nl,sexfotodating.nl,simone.nl,startbewijs.nl,startkabel.nl,totaaltv.nl,tvgids.nl##.banner
+afkortingen.nu,allradio.nl,erotracks.nl,nrc.nl,sexfotodating.nl,startbewijs.nl,startkabel.nl,totaaltv.nl,tvgids.nl##.banner
 dutchitchannel.nl##.banner:has([href*="/bannerclick.html&banner"])
 402online.com##.bannerblock
 nieuwsuitnijmegen.nl##.banner-box-1
