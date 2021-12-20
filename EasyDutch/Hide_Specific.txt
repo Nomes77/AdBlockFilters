@@ -1,4 +1,6 @@
 ! 2021-12-20
+qmusic.nl##.c-sponsors
+qmusic.nl##.inline-partners
 deblueskrant.nl##.main-banner
 simone.nl##.qt-sponsor
 radionl.fm##.widget_text:has(a[href] > img[src])
