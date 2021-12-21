@@ -1,6 +1,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103938
 nzbindex.nl##.inner:has([href^="/"])
 ! 2021-12-21
+adbroere.nl##[id^="text-"]:has-text(adv)
 petitie24.nl###tekstpetitie > :has-text(advert)
 petitie24.nl###tekstpetitie > :has-text(advert) + div
 spelletje.nl##.adv
