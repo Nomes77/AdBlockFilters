@@ -1,3 +1,5 @@
+! https://github.com/AdguardTeam/AdguardFilters/issues/103938
+nzbindex.nl##.inner:has([href^="/"])
 ! 2021-12-21
 spelletje.nl##.adv
 ! 2021-12-20
