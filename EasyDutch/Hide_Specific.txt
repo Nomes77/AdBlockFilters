@@ -1,6 +1,8 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103938
 nzbindex.nl##.inner:has([href^="/"])
 ! 2021-12-21
+petitie24.nl###tekstpetitie > :has-text(advert)
+petitie24.nl###tekstpetitie > :has-text(advert) + div
 spelletje.nl##.adv
 ! 2021-12-20
 radiocontinu.nl##.eskimo-carousel-container
