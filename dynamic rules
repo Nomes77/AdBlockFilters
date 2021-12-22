@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 11-12-2021
+! Last updated: 22-12-2021
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -224,6 +224,7 @@ no-large-media: behind-the-scene true
 * secure.gravatar.com * noop
 * gsl-co2.com * noop
 * gstatic.com * noop
+* player.h-cdn.com * noop
 * cdn.h-static.com * noop
 * hatenablog-parts.com * noop
 * hcaptcha.com * noop
@@ -381,6 +382,7 @@ no-large-media: behind-the-scene true
 * sdk.privacy-center.org * noop
 * privacy-mgmt.com * noop
 * cmp-consent-tool.privacymanager.io * noop
+* gdpr.privacymanager.io * noop
 * gdpr-consent-tool.privacymanager.io * noop
 * gdpr-wrapper.privacymanager.io * noop
 * protoawe.com * noop
@@ -637,7 +639,6 @@ apple.com aaplimg.com * noop
 apple.com cdn-apple.com * noop
 appleinsider.com www.apple.com * noop
 appleinsider.com insidercdn.com * noop
-appleinsider.com apple.insidercdn.com * noop
 arpee.be cacpe.be * noop
 arstechnica.com cdn.arstechnica.net * noop
 www.ask.com partnerads.ysm.yahoo.com * noop
@@ -654,6 +655,7 @@ www.bbc.com static-web-assets.gnl-common.bbcverticals.com * noop
 www.bbc.com admin.brightcove.com * noop
 www.bedandbreakfast.com csvcus.homeaway.com * noop
 www.bestbuy.com assets.bbystatic.com * noop
+www.bild.de cdn23720755.blazingcdn.net * noop
 www.bleepingcomputer.com www.bleepstatic.com * noop
 www.bloomberg.com assets.bwbx.io * noop
 www.bol.com assets.s-bol.com * noop
@@ -743,11 +745,13 @@ foxbusiness.com foxnews.com * noop
 foxnews.com global.fncstatic.com * noop
 video.foxnews.com cdn.krxd.net * noop
 www.freepik.com freepik.cdnpk.net * noop
+www.freudenhof.nl freudenhof-zmuln.at * noop
 www.fun.tv static.funshion.com * noop
 funnyjunk.com fjcdn.com * noop
 www.funnyordie.com w.fod4.com * noop
 www.fxstreet.com vip.azurewebsites.windows.net * noop
 www.fxstreet.com zetacdn.net * noop
+gab.com bild.de * noop
 www.gameanyone.com www.gameanyone.net * noop
 gamejolt.com s.gjcdn.net * noop
 www.gamepedia.com stations.cursetech.com * noop
@@ -767,11 +771,14 @@ godaddy.com img1.wsimg.com * noop
 google.com content.googleapis.com * noop
 google.com googleusercontent.com * noop
 translate.google.com translate.goog * noop
+www.gooieneembode.nl pubblewebsites.cloudapp.net * noop
 www.govoyagin.com voyagin.sslcs.cdngc.net * noop
 govtslaves.info cache.worldstarhiphop.com * noop
 govtslaves.info www.worldstarhiphop.com * noop
 graphicriver.net assets.shopfront.envato-static.com * noop
 www.groupon.com grouponcdn.com * noop
+www.hansanders.nl eyewear.pttrns.ai * noop
+hardware.info assets.hwigroup.net * noop
 hbr.org media.richrelevance.com * noop
 www.heraldtribune.com cdn.gatehousemedia.com * noop
 www.hervormdijsselmonde.nl kerkinijsselmonde.nl * noop
@@ -813,6 +820,7 @@ knowyourmeme.com s.kym-cdn.com * noop
 knowyourmeme.com litmedia.s.llnwi.net * noop
 compete.kotaku.com kinja.com * noop
 www.kpn.com reload.alphacomm.network * noop
+www.laardercourant.nl pubblewebsites.cloudapp.net * noop
 lastminute.com biff.travel * noop
 lastminute.com assets.staticroot.com * noop
 lastminute.com cms.staticroot.com * noop
@@ -824,13 +832,13 @@ previous-recipients.levchinprize.com cdn.readymag.com * noop
 live.com msauth.net * noop
 live.com office.net * noop
 account.live.com gfx.ms * noop
-officeapps.live.com cdn.office.net * noop
 onedrive.live.com b-msedge.net * noop
 onedrive.live.com l-msedge.net * noop
 outlook.live.com msftauth.net * noop
 outlook.live.com office365.com * noop
 www.livewalker.com www.music-mdata.com * noop
 support.logmeininc.com assets.cdngetgo.com * noop
+www.logos.com sites-assets.faithlifecdn.com * noop
 www.logos.com gleam.io * noop
 www.lonelyplanet.com assets.staticlp.com * noop
 www.marketwatch.com wsj.net * noop
@@ -845,6 +853,7 @@ www.microcenter.com content.webcollage.net * noop
 microsoft.com msauth.net * noop
 microsoft.com onestore.ms * noop
 microsoft.com s-msft.com * noop
+microsoft.com prd.aadg.trafficmanager.net * noop
 account.microsoft.com gfx.ms * noop
 account.microsoft.com live.com * noop
 admin.microsoft.com busbuy.live.com * noop
@@ -857,6 +866,7 @@ admin.microsoft.com res.office365.com * noop
 answers.microsoft.com msecnd.net * noop
 cmt3.research.microsoft.com client.hip.live.com * noop
 teams.microsoft.com statics.teams.cdn.office.net * noop
+www.microsoft.com mem.gfx.ms * noop
 www.microsoft.com c.s-microsoft.com * noop
 login.microsoftonline.com login.live.com * noop
 login.microsoftonline.com admin.microsoft365.com * noop
@@ -883,6 +893,7 @@ www.nbcnews.com ndassets.s-nbcnews.com * noop
 www.netflix.com codex.nflxext.com * noop
 www.news.com.au resources.newscdn.com.au * noop
 www.news.com.au resourcesssl.newscdn.com.au * noop
+www.nieuweoogst.nl cdn.nieuweoogst.nu * noop
 www.ncbi.nlm.nih.gov pubmed.gov * noop
 login.norton.com static.nortoncdn.com * noop
 my.norton.com static.nortoncdn.com * noop
@@ -894,6 +905,7 @@ blogs.nytimes.com int.nyt.com * noop
 blogs.nytimes.com static01.nyt.com * noop
 www.nytimes.com g1.nyt.com * noop
 www.nytimes.com static01.nyt.com * noop
+office.com mem.gfx.ms * noop
 office.com microsoft.com * noop
 office.com login.microsoftonline.com * noop
 office.com msauth.net * noop
@@ -904,7 +916,6 @@ office.com office365.com * noop
 office.com c.s-microsoft.com * noop
 outlook.office.com b-msedge.net * noop
 outlook.office.com officeapps.live.com * noop
-www.office.com mem.gfx.ms * noop
 outlook.office365.com live.com * noop
 outlook.office365.com login.microsoftonline.com * noop
 outlook.office365.com shellprod.msocdn.com * noop
@@ -944,7 +955,12 @@ www.scmp.com assets.i-scmp.com * noop
 sears.com shld.net * noop
 www.secsports.com espn.com * noop
 www.secsports.com secure.espncdn.com * noop
+www.sexgames.cc * 3p-frame noop
+www.sexgames.cc * 3p-script noop
 www.sfgate.com webwidgets.wsi.com * noop
+sharepoint.com b-msedge.net * noop
+sharepoint.com officeapps.live.com * noop
+sharepoint.com office.net * noop
 shop-list.com global.cdn.idcfcloud.net * noop
 siliconangle.com video.cube365.net * noop
 www.sitepoint.com cdn-enterprise.discourse.org * noop
@@ -1018,13 +1034,16 @@ westerndigital.com static.sandisk.com * noop
 wikia.com wikia.nocookie.net * noop
 account.activedirectory.windowsazure.com login.microsoftonline.com * noop
 account.activedirectory.windowsazure.com shellprod.msocdn.com * noop
-account.activedirectory.windowsazure.com r1.res.office365.com * noop
+account.activedirectory.windowsazure.com shell.cdn.office.net * noop
+account.activedirectory.windowsazure.com res.office365.com * noop
+account.activedirectory.windowsazure.com prd.aadg.trafficmanager.net * noop
 wixsite.com usrfiles.com * noop
 wixsite.com wixstatic.com * noop
 wolframalpha.com www.wolframcdn.com * noop
 wordpress.org s.w.org * noop
 worldoftanks.com na-wotp.wgcdn.co * noop
 worldofwarships.com wowsp-wows-na.wgcdn.co * noop
+www.worldometers.info www.realtimestatistics.net * noop
 wsj.com wsj.net * noop
 wstream.icu akvideo.stream * noop
 wstream.icu wstream.video * noop
@@ -1034,9 +1053,13 @@ view.yahoo.com viewport.videovore.com * noop
 www.yahoo.com mbp.yimg.com * noop
 yandex.com yastatic.net * noop
 www.zdnet.com cdn.cookielaw.org * noop
+* https://cdn.bluebillywig.com/apps/player/ script noop
 * https://docs.google.com/forms/ sub_frame noop
 * https://www.google.com/recaptcha/ script noop
 * https://www.google.com/maps/ sub_frame noop
 * https://www.google.com/recaptcha/ sub_frame noop
 * https://www.skoften.net/video/embed/ sub_frame noop
-autoblog.nl https://cdn.bluebillywig.com/apps/player/ script noop
+freebitco.in https://www.google.com/jsapi?autoload= script noop
+radio.nl https://massariuscdn.com/pubs/radionl/radionl_hb_setup.js script noop
+sportnieuws.nl https://static.spott.ai/videoplayer/ script noop
+threadreaderapp.com https://www.google.com/cse/static/element/ script noop
