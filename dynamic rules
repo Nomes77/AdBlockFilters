@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 22-12-2021
+! Last updated: 23-12-2021
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -63,6 +63,7 @@ no-large-media: behind-the-scene true
 * behind-the-scene * block
 * bigcommerce.com * noop
 * bitchute.com * noop
+* cdn23720755.blazingcdn.net * noop
 * embed.blivenyc.com * noop
 * library.blivenyc.com * noop
 * web-cdn.blivenyc.com * noop
@@ -655,7 +656,6 @@ www.bbc.com static-web-assets.gnl-common.bbcverticals.com * noop
 www.bbc.com admin.brightcove.com * noop
 www.bedandbreakfast.com csvcus.homeaway.com * noop
 www.bestbuy.com assets.bbystatic.com * noop
-www.bild.de cdn23720755.blazingcdn.net * noop
 www.bleepingcomputer.com www.bleepstatic.com * noop
 www.bloomberg.com assets.bwbx.io * noop
 www.bol.com assets.s-bol.com * noop
@@ -978,6 +978,8 @@ softonic.com sftcdn.net * noop
 soundcloud.com sndcdn.com * noop
 sourceforge.net a.fsdn.com * noop
 speakerdeck.com speakerd.herokuapp.com * noop
+www.specsavers.nl fsm1-cdn.attraqt.com * noop
+www.specsavers.nl bsdk.api.ditto.com * noop
 www.speedtest.net b.cdnst.net * noop
 spiceworks.com spiceworksstatic.com * noop
 spiegel.de arc.nexx.cloud * noop
