@@ -1,4 +1,5 @@
 ! 2021-12-23
+poki.be##[class^="Advertisement__AdvertisementContainer"]
 elkspel.nl##.banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103938
 nzbindex.nl##.inner:has([href^="/"])
