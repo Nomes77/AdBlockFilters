@@ -3,6 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
+! Last updated: 23-12-2021
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
