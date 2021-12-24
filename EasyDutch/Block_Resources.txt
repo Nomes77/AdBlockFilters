@@ -1,4 +1,6 @@
 ! 2021-12-24
+||hoekschnieuws.nl/banner/
+||hoekschnieuws.nl/wp-content/uploads/*/Banner-
 ||adodenhaag.nl/fpbanner
 ||adodenhaag.nl/images/banners/
 ||duurzaamnieuws.nl/wp-content/uploads/*/meewind$image
