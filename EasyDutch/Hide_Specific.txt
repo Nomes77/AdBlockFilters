@@ -12,6 +12,7 @@ feyenoordpings.nl##.footer__partners
 itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 voorburgsdagblad.nl##.advrow
 hoekschnieuws.nl##.widget[class^="td_block_template"]:has-text(Advert)
+hoekschnieuws.nl##body > center:has(img)
 adodenhaag.nl##.adv
 ! 2021-12-23
 poki.be##[class^="Advertisement__AdvertisementContainer"]
