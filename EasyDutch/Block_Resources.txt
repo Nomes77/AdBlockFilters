@@ -1,4 +1,5 @@
 ! 2021-12-24
+||floranews.com/img/banner/
 ||cryptoprijzen.com/cryptoprijzen-widget/$domain=cryptobenelux.com
 ||cryptobenelux.com/wp-content/uploads/*banner
 ||hoekschnieuws.nl/banner/
