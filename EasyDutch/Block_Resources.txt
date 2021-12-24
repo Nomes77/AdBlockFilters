@@ -1,4 +1,6 @@
 ! 2021-12-24
+||adodenhaag.nl/fpbanner
+||adodenhaag.nl/images/banners/
 ||duurzaamnieuws.nl/wp-content/uploads/*/meewind$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103938
 ||nzbindex.nl/img/i/$image,1p
