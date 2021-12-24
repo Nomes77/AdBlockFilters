@@ -1,4 +1,5 @@
-! 2021-12-14
+! 2021-12-24
+meerdangewenst.nl##[class*="footer-section"]:has(.sponsoren)
 gaynews.nl##[id^="abri"]
 gaynews.nl##[class^="va"]:has([class*="banner"])
 gaynews.nl##a[href^="/_global/_cp.php?"]
