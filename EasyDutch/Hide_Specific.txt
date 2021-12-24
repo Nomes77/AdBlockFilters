@@ -1,4 +1,5 @@
 ! 2021-12-14
+itwm.nl##[id^="tdi_"].tdc-row:has-text(Casino)
 voorburgsdagblad.nl##.advrow
 hoekschnieuws.nl##.widget[class^="td_block_template"]:has-text(Advert)
 adodenhaag.nl##.adv
