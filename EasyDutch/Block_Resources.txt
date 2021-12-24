@@ -1,4 +1,5 @@
 ! 2021-12-24
+||dutchcryptotalk.com/wp-content/uploads/*/bitvavo
 ||curacao.nu/wp-content/uploads/*/*banner
 ||bitvavo.com/assets/static/widget/$subdocument,domain=cryptosjop.nl
 ||coc.nl/wp-content/uploads/*/*.gif
