@@ -1,3 +1,5 @@
+! 2021-12-14
+adodenhaag.nl##.adv
 ! 2021-12-23
 poki.be##[class^="Advertisement__AdvertisementContainer"]
 elkspel.nl##.banner
