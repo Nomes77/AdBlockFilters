@@ -1,4 +1,5 @@
 ! 2021-12-24
+coc.nl###banners
 amsterdamactueel.nl##.widget_alaya_ad
 meerdangewenst.nl##[class*="footer-section"]:has(.sponsoren)
 gaynews.nl##[id^="abri"]
