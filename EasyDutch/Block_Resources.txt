@@ -1,4 +1,5 @@
 ! 2021-12-24
+||cryptobenelux.com/wp-content/uploads/*banner
 ||hoekschnieuws.nl/banner/
 ||hoekschnieuws.nl/wp-content/uploads/*/Banner-
 ||adodenhaag.nl/fpbanner
