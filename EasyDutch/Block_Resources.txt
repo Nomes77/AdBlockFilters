@@ -1,3 +1,5 @@
+! 2021-12-24
+||duurzaamnieuws.nl/wp-content/uploads/*/meewind$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103938
 ||nzbindex.nl/img/i/$image,1p
 ||nzbvortex.com/images/*Banner*$image,domain=nzbindex.nl
