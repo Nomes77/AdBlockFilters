@@ -1,4 +1,5 @@
 ! 2021-12-24
+elektormagazine.nl##.advertisement
 dutchcryptotalk.com##[id^="media_image"]:has([href*="/bitvavo"])
 dutchcryptotalk.com##div[id^="dutch-"]:has(a[href^="https://bitvavo.com/"])
 cryptosjop.nl##[id^="custom_html-"]:has(.bitvavo-widget)
