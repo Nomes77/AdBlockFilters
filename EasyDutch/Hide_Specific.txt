@@ -1,4 +1,5 @@
 ! 2021-12-24
+cryptosjop.nl##[id^="custom_html-"]:has(.bitvavo-widget)
 coc.nl###banners
 amsterdamactueel.nl##.widget_alaya_ad
 meerdangewenst.nl##[class*="footer-section"]:has(.sponsoren)
