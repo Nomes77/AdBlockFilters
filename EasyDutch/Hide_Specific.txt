@@ -1,4 +1,5 @@
 ! 2021-12-14
+cryptobenelux.com##.jet-parallax-section.elementor-section:has(img[src*="banner"])
 feyenoordpings.nl##.betcity-intro-wrapper
 feyenoordpings.nl##.bn__wrapper
 feyenoordpings.nl##.footer__partners
