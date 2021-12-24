@@ -1,4 +1,8 @@
 ! 2021-12-14
+gaynews.nl##[id^="abri"]
+gaynews.nl##[class^="va"]:has([class*="banner"])
+gaynews.nl##a[href^="/_global/_cp.php?"]
+gaynews.nl##.telefoon_verberg
 weespernieuws.nl##[class^="mb"]:has([advobject^="web_adv"])
 weespernieuws.nl##div[class*="krant-onder-web"]
 cryptobenelux.com##.jet-parallax-section.elementor-section:has(img[src*="banner"])
