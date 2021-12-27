@@ -1,3 +1,5 @@
+! 2021-12-27
+||sponsorlink.nl/storage/*/conversions/*-thumbnail$domain=hoekschnieuws.nl
 ! 2021-12-24
 ||elektormagazine.nl/assets/upload/banners/
 ||dutchcryptotalk.com/wp-content/uploads/*/bitvavo
