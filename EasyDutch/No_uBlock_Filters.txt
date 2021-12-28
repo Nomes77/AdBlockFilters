@@ -34,6 +34,11 @@ whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be##.blocker
 camsexbabe.nl##.happy-player-beside
 camsexbabe.nl##.happy-section
 ! uBlock Filters - Unbreak
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dagelijksekost.een.be
+@@||shared.mediahuis.be/ka-ching/prebid.js$script,domain=dagelijksekost.een.be
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=dagelijksekost.een.be
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=dagelijksekost.een.be
+@@||assets.adobedtm.com/*-source.min.js$script,domain=dagelijksekost.een.be
 @@||2mdn.net/instream/html5/ima3.js$script,domain=geenstijl.nl
 @@||cdn.vuplay.co.uk/stats/*/AppMeasurement.js$script,domain=vrt.be
 @@||cdn.vuplay.co.uk/stats/*/VisitorAPI.js$script,domain=vrt.be
