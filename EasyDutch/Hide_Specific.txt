@@ -1,4 +1,5 @@
 ! 2021-12-28
+fierljeppenwinsum.frl##.gdlr-sidebar:has-text(sponsoren)
 redbot.frl###content .container:has(.twelvecol:has-text(partners))
 ! 2021-12-27
 weespernieuws.nl##[class^="mb"]:has([advobject^="webadv_"])
