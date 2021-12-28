@@ -1,3 +1,5 @@
+! https://github.com/uBlockOrigin/uAssets/issues/10754
+||peoplesphere.be/img/logo/financemanagement.png$image
 ! 2021-12-27
 ||sponsorlink.nl/storage/*/conversions/*-thumbnail$domain=hoekschnieuws.nl
 ! 2021-12-24
