@@ -1,3 +1,6 @@
+! https://github.com/uBlockOrigin/uAssets/issues/10754
+peoplesphere.be##.leaderboard
+peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
 ! 2021-12-28
 fierljeppenwinsum.frl##.gdlr-sidebar:has-text(sponsoren)
 redbot.frl###content .container:has(.twelvecol:has-text(partners))
