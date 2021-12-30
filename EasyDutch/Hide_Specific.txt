@@ -1,3 +1,5 @@
+! 2021-12-30
+forum.scholieren.com###posts .thead:has-text(Advert)
 ! https://github.com/uBlockOrigin/uAssets/issues/10754
 peoplesphere.be##.leaderboard
 peoplesphere.be##[id^="text-"]:not(:has(a[href^="https://peoplesphere.be/"])):not(:has(.twitter-timeline))
