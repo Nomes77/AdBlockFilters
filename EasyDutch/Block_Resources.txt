@@ -1,3 +1,5 @@
+! 2021-12-31
+||detelefoongids.nl/img/youvia-banner/banner
 ! https://github.com/uBlockOrigin/uAssets/issues/10754
 ||peoplesphere.be/img/logo/financemanagement.png$image
 ! 2021-12-27
