@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 23-12-2021
+! Last updated: 31-12-2021
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -19,12 +19,12 @@ $removeparam=/^(mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_mediu
 $removeparam=/^(_branch_match_id|vc_lpp|ml_subscriber|ml_subscriber_hash|rb_clickid|oly_anon_id|oly_enc_id)=/
 $removeparam=/^(cmpid|dclid|_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
 $removeparam=/^source/,domain=googleusercontent.com|rumble.com
-||google.*^$removeparam=tab
+||google.$removeparam=tab
 ||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact)=/
 ||google.*/search$removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/
 ||google.*/websearch$removeparam=visit_id
-||aliexpress.*^$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
-||amazon.*^$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
+||aliexpress.$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
+||amazon.$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
 ||amazon.*^/dp/$removeparam=tag
 ||amazon.*^/aa$removeparam=bitCampaignCode
 ||bing.com^$removeparam=/^(cvid|form|pc|qp|qs|sc|sk|sp)=/
@@ -37,7 +37,7 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 ||linkedin.com^$removeparam=/^(refId|trk)=/
 ||linkedin.com/authwall?$removeparam=/^(originalReferer|trkInfo)=/
 ||microsoft.com^$removeparam=/^(irclickid|ocid|ranEAID|ranSiteID|tduid)=/
-||play.google.*^$removeparam=referrer
+||play.google.$removeparam=referrer
 ||searx.*/search?$removeparam=~/^(categories|category_|preferences|q)/
 ||twitter.com^$removeparam=/^(cn|ref_src|ref_url|s)=/
 ||www.ebay.*^$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
@@ -76,7 +76,7 @@ startpage.com##[class$="result"]:has(a[href*="facebook.com/"])
 ||play.google.com/log?$redirect=noop.txt,important
 !--Gmail tracking
 /cleardot.gif$image,xhr,redirect=1x1.gif
-!--Block access to LAN
+!--Block Outsider Intrusion into LAN
 /^\w+:\/\/(?:(?:[1-9]?\d|[1]\d\d|24\d|25[0-5])\.){3}(?:[1-9]?\d|1\d\d|24\d|25[0-5])[:\/]/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 /^\w+:\/\/\[(?:[a-f0-9]{1,4}:+){1,7}[a-f0-9:]{1,4}\](?::\d{1,3}\/|\/\d{0,3})$/$3p,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
 ||localhost^$third-party,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
@@ -160,6 +160,8 @@ pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
 pinterest.*##body:style(overflow-y: scroll !important;)
 pinterest.*##div[style^="filter:"]:style(filter: none !important)
+pinterest.*##header[data-test-id=unauthHeader] ~ div[data-test-id=fullPageSignupModal]
+pinterest.*##div[data-test-id=pin-closeup-image] > div[role=button] > div:not([class]) ~ div
 threader.app##.annotation-details:has-text(COVID)
 translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
@@ -512,7 +514,7 @@ radarbox.com##+js(set, ads_enabled, true)
 ||platform.linkedin.com/in.$script,third-party
 ||platform.stumbleupon.com/*/widgets.js$third-party
 /platform\.twitter\.com\/(?:(?:js\/|widgets\/[\W|\w]+_)button|oct\.js)/$3p
-/platform.\twitter\.com\/widgets\/(?:follow|tweet)\_button/$subdocument
+/platform\.twitter\.com\/widgets\/(?:follow|tweet)\_button/$subdocument
 ||reddit.com/api/info.json?$third-party
 ||reddit.com/static/button/$third-party
 ||reddit.com/submit?$third-party
