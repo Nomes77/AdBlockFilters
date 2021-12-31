@@ -1,3 +1,6 @@
+! 2021-12-31
+detelefoongids.nl##.static-map
+detelefoongids.nl##div[class*="additional__"]:has(div[id^="banner"])
 ! 2021-12-30
 forum.scholieren.com###posts .thead:has-text(Advert)
 ! https://github.com/uBlockOrigin/uAssets/issues/10754
