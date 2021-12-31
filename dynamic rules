@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 23-12-2021
+! Last updated: 31-12-2021
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -676,6 +676,7 @@ www.cc.com tve.mtvnservices.com * noop
 www.cc.com tvejs.mtvnservices.com * noop
 chicagotribune.com tribdss.com * noop
 www.chicagotribune.com www.trbas.com * noop
+www.clint.be worldstarhiphop.com * noop
 www.cnbc.com cnbcfm.com * noop
 cnn.com cnn.io * noop
 cnn.com cdn.turner.com * noop
@@ -777,6 +778,7 @@ govtslaves.info cache.worldstarhiphop.com * noop
 govtslaves.info www.worldstarhiphop.com * noop
 graphicriver.net assets.shopfront.envato-static.com * noop
 www.groupon.com grouponcdn.com * noop
+www.hansanders.nl static.fittingbox.com * noop
 www.hansanders.nl eyewear.pttrns.ai * noop
 hardware.info assets.hwigroup.net * noop
 hbr.org media.richrelevance.com * noop
@@ -955,6 +957,7 @@ www.scmp.com assets.i-scmp.com * noop
 sears.com shld.net * noop
 www.secsports.com espn.com * noop
 www.secsports.com secure.espncdn.com * noop
+sex.xxx j0.wlmediahub.com * noop
 www.sexgames.cc * 3p-frame noop
 www.sexgames.cc * 3p-script noop
 www.sfgate.com webwidgets.wsi.com * noop
@@ -1032,6 +1035,7 @@ vtm.be v.fwmrm.net * noop
 www.walmart.com i5.wal.co * noop
 www.walmart.com i5.walmartimages.com * noop
 weather.com s.w-x.co * noop
+www.weespernieuws.nl pubblewebsites.cloudapp.net * noop
 westerndigital.com static.sandisk.com * noop
 wikia.com wikia.nocookie.net * noop
 account.activedirectory.windowsazure.com login.microsoftonline.com * noop
