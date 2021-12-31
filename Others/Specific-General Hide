@@ -2,30 +2,90 @@
 ! Description: Filterlist only for Specific-General Hide. 
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/tree/main/Others
 ! Expires: 31 days
-! Last updated: 15-12-2021
+! Last updated: 31-12-2021
 !
 ! uBlock filters
+*###ad_300:not([style^="position: absolute; left: -5000px"])
+*###ad_728:not([style^="position: absolute; left: -5000px"])
+*###ad_area:not([style^="position: absolute; left: -5000px"])
+*###ad_big:not([style^="position: absolute; left: -5000px"])
+*###ad_box:not([style^="position: absolute; left: -5000px"])
+*###ad_channel:not([style^="position: absolute; left: -5000px"])
+*###ad_footer:not([style^="position: absolute; left: -5000px"])
+*###ad_slot:not([style^="position: absolute; left: -5000px"])
+*###Ad300x145:not([style^="position: absolute; left: -5000px"])
+*###Ad300x250:not([style^="position: absolute; left: -5000px"])
+*###Ad728x90:not([style^="position: absolute; left: -5000px"])
+*###adAd:not([style^="position: absolute; left: -5000px"])
+*###AdArea:not([style^="position: absolute; left: -5000px"])
+*###adBanner:not([style^="position: absolute; left: -5000px"])
+*###adbanner:not([style^="position: absolute; left: -5000px"])
+*###ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"])
+*###adBannerWrap:not([style^="position: absolute; left: -5000px"])
+*###AdBox160:not([style^="position: absolute; left: -5000px"])
+*###ad-container:not([style^="position: absolute; left: -5000px"])
+*###ad-container-1:not([style^="position: absolute; left: -5000px"])
+*###ad-container-2:not([style^="position: absolute; left: -5000px"])
+*###AdDiv:not([style^="position: absolute; left: -5000px"])
+*###ad-footer:not([style^="position: absolute; left: -5000px"])
+*###ad-frame:not([style^="position: absolute; left: -5000px"])
+*###adframe:not(frameset):not([style^="position: absolute; left: -5000px"])
+*###AdFrame1:not([style^="position: absolute; left: -5000px"])
+*###AdFrame2:not([style^="position: absolute; left: -5000px"])
+*###AdFrame4:not([style^="position: absolute; left: -5000px"])
+*###adheader:not([style^="position: absolute; left: -5000px"])
+*###AdImage:not([style^="position: absolute; left: -5000px"])
+*###ad-img:not([style^="position: absolute; left: -5000px"])
+*###ad-inner:not([style^="position: absolute; left: -5000px"])
+*###ad-label:not([style^="position: absolute; left: -5000px"])
+*###AdLayer1:not([style^="position: absolute; left: -5000px"])
+*###AdLayer2:not([style^="position: absolute; left: -5000px"])
+*###ad-lb:not([style^="position: absolute; left: -5000px"])
+*###ad-left:not([style^="position: absolute; left: -5000px"])
+*###ads-1:not([style^="position: absolute; left: -5000px"])
+*###ads-banner:not([style^="position: absolute; left: -5000px"])
+*###ads-footer:not([style^="position: absolute; left: -5000px"])
+*###adslot:not([style^="position: absolute; left: -5000px"])
+*###adsquare:not([style^="position: absolute; left: -5000px"])
+*###adTeaser:not([style^="position: absolute; left: -5000px"])
 *###anuncio
+*###banner468:not([style^="position: absolute; left: -5000px"])
+*###banner728x90:not([style^="position: absolute; left: -5000px"])
+*###bannerad:not([style^="position: absolute; left: -5000px"])
 *###bt-ads
+*###DivAd:not([style^="position: absolute; left: -5000px"])
+*###DivAd1:not([style^="position: absolute; left: -5000px"])
+*###DivAd2:not([style^="position: absolute; left: -5000px"])
+*###DivAd3:not([style^="position: absolute; left: -5000px"])
+*###DivAdA:not([style^="position: absolute; left: -5000px"])
+*###DivAdB:not([style^="position: absolute; left: -5000px"])
+*###DivAdC:not([style^="position: absolute; left: -5000px"])
+*###glinkswrapper:not([style^="position: absolute; left: -5000px"])
+*###google_ad:not([style^="position: absolute; left: -5000px"])
 *###interContainer
 *###interVeil
 *###invid_call
 *###invideo_2
 *###invideo_data
 *###invideo_new
+*###outbrain-paid:not([style^="position: absolute; left: -5000px"])
 *###p_native
 *###placeAds
 *###playerOverlay[style="position:absolute; z-index:3"]
 *###plban
 *###sidearm-adblock-modal
+*###sponsored_link:not([style^="position: absolute; left: -5000px"])
 *###stop_ad
 *###stop_ad2
 *###stop_ad3
 *##.__nat_link
 *##.aan_fake
 *##.aan_fake__video-units
+*##.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"])
 *##.adsanity-inner
+*##.adsBox:not([style$="-99999px;"])
 *##.adsbyrunactive
+*##.ads-center
 *##.ads-container
 *##.advboxemb
 *##.aff-content-col
@@ -73,6 +133,7 @@
 *##[data-uri^="https://s3.amazonaws.com"]
 *##[href*=".smartadserver.com"]
 *##[href*="//agacelebir.com"]
+*##[href*="//atwainbounce.com/"]
 *##[href*="/afu.php"]
 *##[href*="https://ads.enrt.eu/"]
 *##[href*="https://catastropheillusive.com/"]
@@ -99,17 +160,23 @@
 *##[href^="http://go.adovr.com/"]
 *##[href^="http://referrer.website/"]
 *##[href^="http://smart.offers-tracking.com/"]
+*##[href^="http://wurfl.site/Ck.php"]
 *##[href^="https://13vm73vbmp.com/"]
 *##[href^="https://2go7v1nes8.com/"]
 *##[href^="https://adserver.adreactor.com/"]
 *##[href^="https://adult.xyz/"]
 *##[href^="https://ahf8n.com/"]
+*##[href^="https://bestbuyrdp.com/"]
+*##[href^="https://buycheaphost.net/"]
+*##[href^="https://buycheaprdp.com/"]
 *##[href^="https://cluttercallousstopped.com/"]
 *##[href^="https://exi8ef83z9.com/"]
 *##[href^="https://fireads.online/"]
 *##[href^="https://ghoto-12.win/"]
 *##[href^="https://go.rdrjmp.com/"]
+*##[href^="https://instatus.in/status1.php"]
 *##[href^="https://klsdee.com/"]
+*##[href^="https://knightsstatuesteering.com/"]
 *##[href^="https://ladsanz.com/"]
 *##[href^="https://m.timesofindia.com/affiliate_amazon.cms"]
 *##[href^="https://mymediarecommendations.com/"]
@@ -132,7 +199,6 @@
 *##[href="//xxxrevpushclcdu.com/app.webp"]
 *##[href="https://azzporn.net"]
 *##[href="https://clickaine.com"]
-*##[id^="cookieConsent"]:not([id*="Button"])
 *##[id^="p_root_"]
 *##[onclick*="postlnk.com"]
 *##[onclick*="window.open('http://deloplen.com/"]
@@ -157,6 +223,7 @@
 *##div#spot-holder.spot-holder[style="display: block;"]
 *##div[class$="player-promo-col"]
 *##div[class*="displayAdRight"]
+*##div[class=ad-banner]:not([style="height: 5px; width: 5px; position: absolute; top: 0;"])
 *##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 *##iframe[src^="https://smitionsory.co/"]
 ! uBlock filters – Privacy
@@ -170,13 +237,11 @@
 *###ad_0
 *###ad_02
 *###ad_03
-*###ad_04
 *###ad_1
 *###ad_190x90
 *###ad_2
 *###ad_250
 *###ad_3
-*###ad_300
 *###ad_300_250
 *###ad_300x100
 *###ad_300x100_m_c
@@ -190,32 +255,26 @@
 *###ad_5
 *###ad_6
 *###ad_7
-*###ad_728
 *###ad_728_90
 *###ad_728x90
 *###ad_8
 *###ad_9
-*###ad_984
 *###ad_adverskinleaderboard
 *###ad_anchor
-*###ad_area
 *###AD_banner
 *###ad_banner
 *###ad_banner_1
 *###AD_banner_bottom
 *###ad_banner_top
 *###ad_bg
-*###ad_big
 *###ad_billboard
 *###ad_block
 *###ad_board_after_forums
 *###ad_bottom
-*###ad_box
 *###ad_btmslot
 *###ad_button
 *###ad_C2
 *###ad_center
-*###ad_channel
 *###ad_close
 *###ad_cont
 *###ad_cont2
@@ -229,13 +288,11 @@
 *###ad_div
 *###ad_Feature_Middlebar_468x60
 *###ad_foot
-*###ad_footer
 *###ad_frame
 *###AD_G
 *###ad_global_above_footer
 *###ad_global_header1
 *###ad_global_header2
-*###AD_google
 *###ad_head
 *###ad_header
 *###ad_Header_768x90
@@ -252,6 +309,8 @@
 *###ad_hy_07
 *###ad_hy_08
 *###ad_img
+*###ad_J
+*###ad_K
 *###AD_L
 *###ad_large
 *###ad_LargeRec01
@@ -260,7 +319,6 @@
 *###ad_layer2
 *###ad_lead1
 *###ad_leaderboard
-*###ad_leaderboard_1
 *###ad_leaderboard_flex
 *###ad_leaderboard_top
 *###ad_left
@@ -285,11 +343,9 @@
 *###ad_mpuslot
 *###ad_mrec1
 *###ad_mrec2
-*###ad_news_article
 *###ad_overlay
 *###ad_overlayer
 *###ad_panel
-*###ad_panorama_top
 *###ad_ph_1
 *###ad_place
 *###ad_rec_01
@@ -306,9 +362,7 @@
 *###ad_row
 *###ad_sidebar
 *###ad_sidebar_1
-*###ad_sidebar_news
 *###ad_sidebody
-*###ad_site_header
 *###ad_skin
 *###ad_sky
 *###ad_sky_lhs
@@ -316,11 +370,9 @@
 *###ad_sky1
 *###ad_skyscraper
 *###ad_skyscraper_right
-*###ad_slot
 *###ad_slot_bottom
 *###ad_slot_right_bottom
 *###ad_slot_right_top
-*###ad_space
 *###ad_strip
 *###ad_superbanner
 *###ad_table
@@ -345,7 +397,9 @@
 *###ad_wide
 *###ad_wrapper
 *###ad_wrapper2
+*###ad_zone
 *###ad-0
+*###ad001
 *###ad01
 *###ad02
 *###ad03
@@ -389,7 +443,6 @@
 *###ad300
 *###ad-300
 *###ad300250top
-*###Ad300x250
 *###ad300x250
 *###ad-300x250
 *###ad-300x250-1
@@ -408,7 +461,6 @@
 *###ad-728
 *###ad72890
 *###ad-728-90
-*###Ad728x90
 *###ad728x90
 *###ad-728x90-1
 *###ad-8
@@ -418,9 +470,7 @@
 *###ad97090
 *###ad-a
 *###ad-absolute-160
-*###adAd
 *###ad-anchor
-*###AdArea
 *###ad-area
 *###AdAreaH
 *###ad-article
@@ -432,9 +482,6 @@
 *###ad-ban
 *###AdBanner
 *###Adbanner
-*###adBanner
-*###adbanner
-*###ad-banner
 *###ad-banner_atf-label
 *###adBanner1
 *###adbanner1
@@ -477,6 +524,7 @@
 *###adbox-inarticle
 *###adBrandingStation
 *###adBTF300x250
+*###ad-btm
 *###adCarousel
 *###ad-carousel
 *###adcell
@@ -493,16 +541,12 @@
 *###adCol
 *###adColumn
 *###adcolumn
-*###AdContainer
 *###adContainer
 *###adcontainer
 *###Ad-Container
-*###ad-container
 *###adcontainer1
 *###ad-container1
-*###ad-container-1
 *###adcontainer2
-*###ad-container-2
 *###adcontainer3
 *###ad-container-3
 *###ad-container-inner
@@ -512,24 +556,17 @@
 *###AdContent
 *###adContent
 *###adcontent
-*###ad-Content_1
-*###ad-Content_2
 *###adContext
-*###ad-desktop-bottom
 *###ad-desktop-footer
 *###ad-display-ad
-*###AdDiv
 *###adDiv
 *###adDiv1
 *###ad-flex-top
 *###adfloat
 *###adFooter
 *###adfooter
-*###ad-footer
 *###adform_leaderboard
 *###adFrame
-*###ad-frame
-*###adframe:not(frameset)
 *###ad-fullbanner2
 *###ad-fullbanner2-billboard-outer
 *###ad-gpt-bottomrightrec
@@ -540,8 +577,6 @@
 *###ad-head
 *###AdHeader
 *###adHeader
-*###adheader
-*###ad-header
 *###ad-header-1
 *###ad-header-mobile
 *###ad-header-mobile-contener
@@ -559,25 +594,21 @@
 *###AdIbl
 *###adid2161
 *###adIframe
-*###AdImage
 *###adimg
-*###ad-img
+*###adimg1
+*###ad-index
 *###adInhouse
-*###ad-inner
 *###ADInterest
+*###ad-jack
 *###adjs_id
 *###adlabel
-*###ad-label
 *###adlabelfooter
 *###adlabelheader
 *###ad-large-header
 *###adLayer
 *###adlayer
-*###AdLayer1
-*###AdLayer2
 *###adLayerTop
 *###adLayout
-*###ad-lb
 *###ad-lead
 *###adLeaderboard
 *###adleaderboard
@@ -588,7 +619,6 @@
 *###ad-leaderboard-top
 *###adLeft
 *###adleft
-*###ad-left
 *###adLink
 *###adLink1
 *###adLrec
@@ -612,6 +642,7 @@
 *###admobilemiddle
 *###admobiletop
 *###admobiletopinside
+*###admod2
 *###ad-mpu
 *###ad-mpu2
 *###admpubottom
@@ -639,9 +670,9 @@
 *###ad-popup
 *###adprovider-default
 *###ad-pushdown
+*###ad-rec-btf
 *###ad-rect
 *###ad-rectangle
-*###ad-Rectangle_1
 *###ad-rectangle1
 *###ad-rectangle1-outer
 *###ad-rectangle2
@@ -675,13 +706,10 @@
 *###ads_box
 *###ads_box1
 *###ads_box2
-*###ads_central
 *###ads_container
 *###ads_content
 *###ads_expand
 *###ads_footer
-*###Ads_google_01
-*###Ads_google_02
 *###ads_h1
 *###ads_header
 *###ads_lb
@@ -698,7 +726,6 @@
 *###ads_video
 *###ads_wide
 *###ads1
-*###ads-1
 *###ads1_box
 *###ads120_600-widget-2
 *###ads160_600-widget-3
@@ -712,10 +739,10 @@
 *###ads7
 *###ads-B
 *###ads-B1
-*###ads-banner
 *###ads-banner-top
 *###ads-bar
 *###ads-before-content
+*###ads-block
 *###ads-blog
 *###ads-bot
 *###adsBottom
@@ -746,6 +773,7 @@
 *###adSense
 *###adsense_block
 *###adsense_top
+*###adsense05
 *###AdSense1
 *###adsense1
 *###AdSense2
@@ -753,13 +781,12 @@
 *###adsense-2
 *###AdSense3
 *###adsense-bottom
-*###AdSenseDiv
 *###adsense-header
 *###adsense-head-spacer
+*###adsense-links
 *###adsense-middle
 *###adsense-right
 *###adsense-sidebar
-*###adsensetop
 *###adsense-top
 *###adSenseWrapper
 *###AdServer
@@ -767,7 +794,7 @@
 *###adsground
 *###adsHeader
 *###ads-header
-*###ads-horizontal
+*###adsID
 *###adside
 *###ad-side
 *###adSide1-container
@@ -799,7 +826,7 @@
 *###ads-left-top
 *###adSlider
 *###adslider
-*###adslot
+*###ads-link
 *###ad-slot
 *###ADSLOT_1
 *###adSlot1
@@ -815,6 +842,7 @@
 *###adslot3
 *###adslot300x250ATF
 *###adslot300x250BTF
+*###adSlot4
 *###adslot4
 *###ad-slot-4
 *###adslot5
@@ -824,7 +852,6 @@
 *###adslot-below-newest
 *###adslot-below-updated
 *###adslot-half-page
-*###adslot-homepage-middle
 *###adslot-infobox
 *###ad-slot-lb
 *###adslot-left-skyscraper
@@ -837,7 +864,6 @@
 *###ad-slug-wrapper
 *###ads-outer
 *###adSpace
-*###adspace
 *###ad-space
 *###adSpacer
 *###adspacer
@@ -856,8 +882,6 @@
 *###adspot-728x90-pos1
 *###adSqb
 *###adSquare
-*###adsquare
-*###adsquare2
 *###adsRight
 *###adsright
 *###ads-right
@@ -874,8 +898,6 @@
 *###adsTop
 *###adstop
 *###ads-top
-*###ad-Superbanner
-*###ads-vertical
 *###adswidget1-quick-adsense
 *###adswidget2-quick-adsense
 *###adswidget2-quick-adsense-reloaded-2
@@ -888,7 +910,6 @@
 *###adtagrightcol
 *###adTakeOverLeft
 *###adTakeOverRight
-*###adTeaser
 *###adText
 *###adtext
 *###ad-text
@@ -904,11 +925,9 @@
 *###ad-top-banner
 *###adtophp
 *###adTopLarge
-*###ad-top-leader
 *###ad-top-left
 *###ad-top-lock
 *###adTopLREC
-*###ad-top-right
 *###ad-top-wrapper
 *###adTopYSP
 *###adTower
@@ -920,7 +939,6 @@
 *###adunit
 *###ad-unit
 *###adv_11
-*###adv_5
 *###adv_62
 *###adv_65
 *###adv_70
@@ -937,8 +955,8 @@
 *###adv_Skin
 *###adv_sky
 *###adv_top
-*###adv728
 *###adValue
+*###adv-banner
 *###adv-box
 *###AdvContainer
 *###adv-container
@@ -949,6 +967,10 @@
 *###advert-1
 *###advert2
 *###advert-2
+*###advert-article
+*###advert-article-1
+*###advert-article-2
+*###advert-article-3
 *###advert-banner
 *###advert-banner-container
 *###advert-block
@@ -961,7 +983,6 @@
 *###advertisement_belowscreenshots
 *###advertisement_box
 *###advertisement1
-*###advertisement-content
 *###advertisement-detail1
 *###advertisement-detail2
 *###Advertisements
@@ -1032,7 +1053,10 @@
 *###ad-zone-1
 *###ad-zone-2
 *###adzone-wallpaper
+*###after_bottom_ad
+*###after_bottom_ad_2
 *###after_button_ad_desktop
+*###after_heading_ad
 *###after_title_ad
 *###after-dfp-ad-mid1
 *###after-dfp-ad-mid2
@@ -1044,10 +1068,11 @@
 *###anAdScGame300x250
 *###anchorAd
 *###anchor-ad
+*###aom-ad-right_side_1
+*###aom-ad-top
 *###app_advertising_pregame_content
 *###article_ad
 *###article-ad
-*###article-ad-content
 *###article-ads
 *###article-bottom-ad
 *###articleBottom-ads
@@ -1063,19 +1088,15 @@
 *###banner-300x250
 *###banner-300x250-area
 *###banner-300x600-area
-*###banner468
 *###banner468x60
 *###banner728
-*###banner728x90
 *###banner-728x90
 *###banner-728x90-area
 *###BannerAd
 *###bannerAd
-*###bannerad
 *###banner-ad
 *###bannerAd_ctr
 *###bannerAd_rdr
-*###banner-ad-container
 *###bannerads
 *###banner-ads
 *###banneradspace
@@ -1093,14 +1114,16 @@
 *###BigBoxAd
 *###bigbox-ad
 *###billboard_ad
+*###billboard-atf
 *###block-dfp-billboard-leaderboard
 *###block-dfp-mpu-1
 *###block-dfp-mpu-2
+*###block-leaderboard-ad-channel
 *###block-ltadvertising-ltadvertising
 *###blogads
+*###bm-HeaderAd
 *###body_ad
 *###BodyTopAds
-*###bordeaux-preemptive-ad-0
 *###bot_ad
 *###botad
 *###bottom_ad
@@ -1119,6 +1142,7 @@
 *###bottom-ads
 *###bottom-ads-bar
 *###bottom-ads-container
+*###bottom-ad-slot
 *###bottom-ad-wrapper
 *###bottomDDAd
 *###bottomLeftAd
@@ -1133,7 +1157,6 @@
 *###boxad4
 *###boxad5
 *###boxAdvert
-*###boxes-box-ad_300x250_1
 *###boxes-box-ad_728x90_1
 *###br-ad-header
 *###branding_click
@@ -1146,7 +1169,6 @@
 *###captcha-adspace
 *###carbonads-container
 *###catalog_page_970x250_1_ad
-*###ch-ad-outer-right
 *###chartAdWrap
 *###cmn_ad_tag_head
 *###Col2-1-ComboAd-Proxy
@@ -1181,12 +1203,9 @@
 *###contentad-superbanner-3
 *###contentad-top-adsense-1
 *###contentad-topbanner-1
-*###content-left-ad
-*###cpmstar_anchor_divad
 *###crt-adblock-b
 *###ctlDisplayAd1_lblAd
 *###cubeAd
-*###custom-advert-leadboard-spacer
 *###dashboardFeaturedEventAd
 *###dashboardRectangleAd
 *###daumAd
@@ -1210,8 +1229,6 @@
 *###dfp-ad-mpu_1-wrapper
 *###dfp-ad-mpu_2
 *###dfp-ad-mpu_2-wrapper
-*###dfp-ad-mpu1
-*###dfp-ad-mpu2
 *###dfp-ad-right1
 *###dfp-ad-right1-wrapper
 *###dfp-ad-right2
@@ -1240,11 +1257,7 @@
 *###display_ads_footer_last
 *###div_ad_float
 *###div_advt_right
-*###DivAd
 *###divAd
-*###DivAd2
-*###DivAdA
-*###DivAdB
 *###div-ad-bottom
 *###div-ad-leaderboard
 *###divAdLeft
@@ -1276,7 +1289,6 @@
 *###download-leaderboard-ad-bottom
 *###dsk-banner-ad-a
 *###dsk-banner-ad-b
-*###dsk-banner-ad-c
 *###dsk-box-ad-c
 *###dsk-box-ad-d
 *###dsk-box-ad-f
@@ -1299,8 +1311,8 @@
 *###floatingAd
 *###footAd
 *###footad
+*###foot-add
 *###footer_ad
-*###footer_ad_modules
 *###footer_adcode
 *###footer_add
 *###footer_ads
@@ -1321,19 +1333,14 @@
 *###fpad2
 *###frnAdSky
 *###frnBannerAd
-*###fullbanner2_ad_container
 *###gad300x250
 *###gad728x90
 *###gAds
-*###gads_middle
 *###gallery-ad
 *###gallery-ad-container
 *###gf-mrecs-ads
 *###gg_ad
-*###glinkswrapper
 *###global_header_ad
-*###google_ad
-*###google_ad_inline
 *###google_ads
 *###google_ads_top
 *###google_adsense
@@ -1350,10 +1357,10 @@
 *###google-adsense
 *###google-top-ads
 *###gpt-ad-1
-*###gpt-instory-ad
 *###gStickyAd
 *###gwd-ad
 *###halfpagead
+*###hawkMagWidget
 *###hd_ad
 *###head_ad
 *###head_ads
@@ -1373,24 +1380,24 @@
 *###headerAd
 *###headerad
 *###header-ad
+*###header-ad2
 *###header-ad-container
 *###header-ad-label
 *###headerAds
 *###headerads
 *###header-ads
-*###header-adsense
 *###header-ad-slot
 *###header-advert
 *###header-advertising
 *###header-ad-wrapper
 *###header-banner-ad
-*###header-box-ads
 *###headerTopAd
 *###HeroAd
 *###hideAds
 *###hideads
 *###hidemefloorad
 *###home_ad
+*###home_top_right_ad
 *###homead
 *###home-ad
 *###homepage_top_ad
@@ -1409,7 +1416,6 @@
 *###im_popupDiv
 *###im_popupFixed
 *###in_ad_col_a
-*###in_ad_col_b
 *###inarticlead
 *###index_ad
 *###index-ad
@@ -1419,7 +1425,6 @@
 *###inlineAd
 *###inlineads
 *###innerad
-*###inner-ad
 *###inner-advert-row
 *###insticator-container
 *###intermediate-ad
@@ -1479,6 +1484,7 @@
 *###logo_ad
 *###logoAd
 *###logoAd2
+*###long-ad
 *###lower_content_ad_box
 *###lowerads
 *###lsadvert-left_menu_1
@@ -1493,19 +1499,21 @@
 *###medrec_bottom_ad
 *###medrec_top_ad
 *###menuad
+*###menuAds
 *###menu-ads
 *###menubarad
+*###mgid_iframe
 *###mid_ad
 *###midAD
 *###mid-ad-slot-1
 *###mid-ad-slot-3
+*###mid-ad-slot-5
 *###middle_ad
 *###middle_mpu
 *###middleAd
 *###middle-ad
 *###middleads2
 *###mobile_ads_block
-*###mobileAd_holder
 *###mobile-ad-container
 *###modal-ad
 *###moreads
@@ -1549,12 +1557,10 @@
 *###oba_message
 *###onpageads
 *###origami-ad-container
-*###outbrain-paid
 *###outbrain-wrapper
 *###overlay_ad
 *###overlayad
 *###overlay-ad-bg
-*###p-Ad
 *###p-advert
 *###page_ad
 *###page_top_ad
@@ -1563,8 +1569,6 @@
 *###partner-ad
 *###personalization_ads
 *###p-googleadsense-portletlabel
-*###pinned_advert_top
-*###pinned_advert_top_wrapper
 *###player_ad
 *###player_ads
 *###playerAd
@@ -1572,7 +1576,6 @@
 *###player-ads
 *###player-advertising
 *###polar-sidebar-sponsored
-*###pop_up_ad_box_id
 *###popupAd
 *###postAd
 *###post-ad
@@ -1596,13 +1599,13 @@
 *###quads-ad4
 *###quads-admin-ads-js
 *###r_adver
-*###r89-desktop-top-ad
 *###r-ad-tag
 *###rc-row-container
 *###recommendAdBox
 *###refine-ad
 *###reklama
 *###related_ads
+*###related-ads
 *###removeAdsSidebar
 *###responsive_ad
 *###rhsads
@@ -1622,6 +1625,7 @@
 *###rightAd300x250
 *###rightAd300x250Lower
 *###rightAdContainer
+*###rightAdDiv2
 *###right-adds
 *###rightAds
 *###rightads
@@ -1644,6 +1648,7 @@
 *###scrolladsbanners
 *###scrollover-ad-wrap
 *###search_ad
+*###search_ads
 *###searchAd
 *###search-ad
 *###second_ad_div
@@ -1674,7 +1679,6 @@
 *###sidebar_ad_big
 *###sidebar_ad_container
 *###sidebar_ads
-*###sidebarAd
 *###sidebarad
 *###sidebar-ad
 *###sidebar-ad-1
@@ -1684,12 +1688,10 @@
 *###sidebarAds
 *###sidebar-ads
 *###sidebarAdSense
-*###sidebar-adv
 *###sidebar-feed-ad
 *###sidebar-main-ad
 *###simple_ads_manager_widget-3
 *###singlead
-*###single-ad
 *###singleADS
 *###SitenavAdslot
 *###skin-ad
@@ -1704,23 +1706,23 @@
 *###slide_ad
 *###slideAd
 *###slider_ad
+*###smallBannerAdboard
 *###snippet--ads_bottom
 *###snippet--ads_menu
 *###snippet--ads_mobile
 *###snippet--ads_sides
 *###speed_ads
 *###sponsor_ad
+*###sponsor_box
 *###sponsorAdDiv
 *###sponsorBar
 *###sponsored_content
 *###sponsored_game_row_listing
 *###sponsored_head
-*###sponsored_link
 *###sponsored_links
 *###SponsoredAd
 *###sponsoredAd
 *###SponsoredAds
-*###sponsored-ads
 *###sponsoredContentTile_midCol
 *###sponsoredContentTile_rightCol
 *###SponsoredLinks
@@ -1730,7 +1732,6 @@
 *###sponsored-products
 *###sponsoredProducts_feature_div
 *###sponsored-recommendations
-*###sponsoredResults
 *###sponsoredwellcontainerbottom
 *###sponsorfeature
 *###sponsorText
@@ -1749,7 +1750,6 @@
 *###sticky-ad-bottom
 *###sticky-ad-container
 *###sticky-ad-header
-*###stickyadin1
 *###stickyads
 *###sticky-ads-top
 *###sticky-custom-ads
@@ -1770,8 +1770,10 @@
 *###taboola_responsive_wrapper
 *###taboola-ad
 *###taboola-below-article-thumbnails
+*###taboola-below-article-thumbnails-3rd
 *###taboola-content
 *###taboola-mid-article-thumbnails
+*###taboola-placeholder
 *###taboola-right-rail
 *###taboola-right-rail-express
 *###taboola-right-rail-thumbnails-1st
@@ -1781,6 +1783,7 @@
 *###tall-sidebar-ad
 *###td-ad-placeholder
 *###text_ad
+*###text_ads
 *###textAd
 *###textad
 *###text-ad
@@ -1806,7 +1809,6 @@
 *###top_mpu
 *###top_rectangle_ad
 *###top_right_ad
-*###top_wide_ad
 *###Top1AdWrapper
 *###TopAd
 *###topAD
@@ -1820,6 +1822,7 @@
 *###topAdArea
 *###top-ad-area
 *###topAdBanner
+*###topadbanner
 *###topadblock
 *###topAdContainer
 *###top-ad-container
@@ -1831,7 +1834,7 @@
 *###top-ad-slot-1
 *###topads-wrapper
 *###topAdv
-*###topAdvert
+*###topadvert
 *###top-advert
 *###top-ad-wrapper
 *###topadzone
@@ -1851,8 +1854,8 @@
 *###topSponsorBanner
 *###towerad
 *###travel_ad
-*###tvplayer_main_adwrap
 *###ultimedia_wrapper
+*###undergameAd
 *###vc-maincontainer-ad
 *###vc-maincontainer-midad
 *###video_ads_overdiv
@@ -1868,6 +1871,7 @@
 *###video-advert
 *###video-sponsor-links
 *###vz_im_ad
+*###waldo-sticky-footer-wrapper
 *###WarningCodecBanner
 *###wd-sponsored
 *###weatherad
@@ -1882,7 +1886,6 @@
 *###zergnet-wrapper
 *##._ap_apex_ad
 *##._bannerAds
-*##._ciw-betterAds
 *##._SummaryPageHeaderAdView
 *##._SummaryPageSidebarStickyAdView
 *##.a160x600
@@ -1903,14 +1906,13 @@
 *##.acm_ad_zones
 *##.ad.card
 *##.ad.center
-*##.ad.floater-link
 *##.ad.inner
 *##.ad.item
-*##.Ad.Leaderboard
 *##.ad.module
 *##.ad.rectangle
 *##.ad.widget
 *##.ad__caption
+*##.ad__centered
 *##.ad__container
 *##.ad__content
 *##.ad__create
@@ -1924,13 +1926,14 @@
 *##.ad__mobile-footer
 *##.ad__placeholder
 *##.ad__rectangle
+*##.ad__sidebar
 *##.ad__sticky-desktop
 *##.ad__superbanner
 *##.ad__wrapper
 *##.ad__wrapper-element
 *##.ad_0
 *##.ad_1
-*##.ad_160
+*##.ad_1200
 *##.ad_160_600
 *##.ad_160x600
 *##.ad_188_inner
@@ -1951,7 +1954,6 @@
 *##.ad_336x280
 *##.ad_4
 *##.ad_468
-*##.ad_468x60
 *##.ad_640
 *##.ad_728
 *##.ad_728_90
@@ -1961,7 +1963,6 @@
 *##.ad_728x90
 *##.ad_960
 *##.ad_a
-*##.ad_ad_300
 *##.ad_after_section
 *##.ad_amazon
 *##.AD_area
@@ -2004,7 +2005,6 @@
 *##.ad_content
 *##.ad_deferrable
 *##.ad_desktop
-*##.ad_disclaimer
 *##.ad_div
 *##.ad_div_box
 *##.ad_div_box2
@@ -2024,8 +2024,6 @@
 *##.ad_global_header
 *##.ad_google
 *##.ad_google_shhide
-*##.ad_grein_botn
-*##.ad_grid
 *##.ad_group
 *##.ad_halfpage
 *##.ad_head
@@ -2039,6 +2037,7 @@
 *##.ad_image
 *##.ad_img
 *##.ad_inline_wrapper
+*##.ad_inner
 *##.ad_item
 *##.ad_l
 *##.ad_label
@@ -2062,7 +2061,6 @@
 *##.ad_module
 *##.ad_mpu
 *##.ad_mpu_top
-*##.ad_mr
 *##.ad_msg
 *##.ad_news
 *##.ad_note
@@ -2071,6 +2069,7 @@
 *##.ad_one
 *##.ad_one_one
 *##.ad_one_third
+*##.ad_outer
 *##.ad_panel
 *##.ad_pause
 *##.ad_pic
@@ -2085,7 +2084,6 @@
 *##.ad_right
 *##.ad_row
 *##.ad_side
-*##.ad_side_rectangle_banner
 *##.ad_sidebar
 *##.ad_sidebar_bigbox
 *##.ad_sidebar_inner
@@ -2114,9 +2112,11 @@
 *##.ad_top_2
 *##.ad_top_left
 *##.ad_two_third
+*##.ad_type_1
 *##.ad_under
 *##.AD_underpost
 *##.ad_unit
+*##.ad_unit_wrapper
 *##.ad_url
 *##.ad_warn
 *##.ad_wide
@@ -2131,6 +2131,7 @@
 *##.ad-01
 *##.ad01-obj
 *##.ad02
+*##.ad-02
 *##.ad03
 *##.ad04
 *##.ad-1
@@ -2145,6 +2146,7 @@
 *##.ad160
 *##.ad-160
 *##.ad-160-600
+*##.ad160b
 *##.ad160x600
 *##.ad-160x600
 *##.ad180
@@ -2200,6 +2202,7 @@
 *##.ad728_cont
 *##.ad72890
 *##.ad-728-90
+*##.ad728b
 *##.ad728x90
 *##.ad-728x90
 *##.ad-8
@@ -2209,6 +2212,7 @@
 *##.ad970
 *##.ad-970
 *##.ad970_250
+*##.ad-970-250
 *##.ad-970-90
 *##.ad970x90
 *##.ad-970x90
@@ -2223,6 +2227,7 @@
 *##.adace-slot-wrapper
 *##.adActive
 *##.ad-active
+*##.adadded
 *##.ad-advertisement-horizontal
 *##.ad-after-content
 *##.adAlert
@@ -2232,7 +2237,6 @@
 *##.adarea
 *##.ad-area
 *##.adAreaNative
-*##.adAreaNativeDmm
 *##.adAreaTopTitle
 *##.adarticle
 *##.adArticleSidetile
@@ -2242,16 +2246,17 @@
 *##.ad-atf-top
 *##.Ad--awareness-bp
 *##.ad-b
+*##.ad-b1
 *##.ad-background
 *##.ad-background-container
 *##.adBan
 *##.adban
 *##.adbanner
 *##.ad-BANNER
-*##.ad-banner
 *##.ad--banner
 *##.ad-banner-bottom-container
 *##.ad-banner-box
+*##.ad-banner-btf
 *##.ad-banner-container
 *##.ad-banner-image
 *##.ad-banner-leaderboard
@@ -2259,7 +2264,6 @@
 *##.ad-banners
 *##.ad-banner-top
 *##.ad-banner-wrapper
-*##.ADBAR
 *##.adbar
 *##.ad-bar
 *##.ad-below
@@ -2279,6 +2283,7 @@
 *##.adblockdiv
 *##.ad-block-inside
 *##.ad-bnr
+*##.ad-board
 *##.ad-body
 *##.adborder
 *##.ad-border
@@ -2310,6 +2315,8 @@
 *##.adboxid
 *##.adboxlarge
 *##.adbox-rectangle
+*##.adbox-sidebar
+*##.adBox-small
 *##.adbox-title
 *##.ad-box-title
 *##.adboxtop
@@ -2327,6 +2334,7 @@
 *##.ad-button
 *##.ad--button
 *##.ad-buttons
+*##.adbygoogle
 *##.ad-callout
 *##.ad-caption
 *##.adCaptionText
@@ -2347,7 +2355,6 @@
 *##.adChrome
 *##.ad-c-label
 *##.adclass
-*##.ad-click
 *##.adClose
 *##.ad-close-button
 *##.ad-cluster
@@ -2375,6 +2382,8 @@
 *##.ad--container
 *##.ad-container.component
 *##.ad-container__sticky-wrapper
+*##.adcontainer_footer
+*##.adContainer1
 *##.adcontainer2
 *##.ad-container-bottom
 *##.ad-container--inline
@@ -2409,8 +2418,10 @@
 *##.ad-desktop
 *##.ad--desktop
 *##.ad-desktop-right
+*##.adDialog
 *##.addisclaimer
 *##.ad-disclaimer
+*##.ad-disclaimer-text
 *##.ad-display
 *##.ad-displayed
 *##.adDiv
@@ -2430,7 +2441,6 @@
 *##.ad-enabled
 *##.ad-endcap-wrapper
 *##.ad-entity-container
-*##.ad-ex
 *##.adfeedback
 *##.ad-feedback
 *##.ad-field
@@ -2453,9 +2463,9 @@
 *##.adFull
 *##.adfull
 *##.ad-full
-*##.adFullbanner
 *##.ad-full-width
 *##.adg_cell
+*##.adg_native_home
 *##.adg_row
 *##.adg_table
 *##.adg_table_cell
@@ -2484,8 +2494,6 @@
 *##.ad-header-container
 *##.ad-heading
 *##.adHeadline
-*##.adHeight270
-*##.adHeight600
 *##.AdHere
 *##.ad-here
 *##.ad-hero
@@ -2509,6 +2517,7 @@
 *##.ad-identifier
 *##.adiframe
 *##.ad-iframe
+*##.ad-iframe-container
 *##.adImg
 *##.ad-img
 *##.ad--in-article
@@ -2530,7 +2539,6 @@
 *##.ad-inner-container
 *##.ad-in-post
 *##.ad-in-read
-*##.ad-insert
 *##.ad-inserter
 *##.ad-inside
 *##.ad-integrated-display
@@ -2547,6 +2555,7 @@
 *##.ad--large
 *##.ad-last
 *##.ad-layer
+*##.ad-lazy
 *##.ad-lb
 *##.ad-leader
 *##.adLeaderboard
@@ -2598,14 +2607,17 @@
 *##.ad-masthead-1
 *##.ad-masthead-left
 *##.ad-mb
-*##.adMed
 *##.ad-medium
+*##.ad-medium-container
+*##.ad-medium-content
 *##.adMediumRectangle
 *##.ad-medium-rectangle
 *##.ad--mediumrectangle
 *##.ad--medium-rectangle
+*##.ad-medium-widget
 *##.admedrec
 *##.ad-med-rec
+*##.AdMessage
 *##.adMessage
 *##.admessage
 *##.ad-message
@@ -2660,8 +2672,13 @@
 *##.adOverlay
 *##.ad-overlay
 *##.ad--overlayer
+*##.ad--p1
+*##.ad--p2
+*##.ad--p3
+*##.ad--p4
+*##.ad--p6
+*##.ad--p7
 *##.ad-padding
-*##.ad-page-leader
 *##.AdPanel
 *##.adPanel
 *##.ad-panel
@@ -2712,19 +2729,17 @@
 *##.ad-r
 *##.ad-rail
 *##.ad--rail
+*##.ad-ratio-size-300x250
 *##.ad-reader
 *##.ad-reader-con-item
 *##.adrechts
-*##.adRect
 *##.adrect
 *##.ad-rect
 *##.adRectangle
-*##.adrectangle
 *##.ad-rectangle
 *##.ad--rectangle
 *##.ad-rectangle-1
 *##.ad-rectangle-container
-*##.ad-rectanglemed
 *##.adRectangle-pos-large
 *##.adRectangle-pos-medium
 *##.adRectangle-pos-small-inline
@@ -2737,7 +2752,6 @@
 *##.ad-responsive
 *##.ad-responsive-slot
 *##.adResult
-*##.ad-rev-content
 *##.adRight
 *##.adright
 *##.ad-right
@@ -2791,6 +2805,7 @@
 *##.ads_banner
 *##.ads_before
 *##.ads_bg
+*##.ads_big
 *##.ads_block
 *##.ads_border
 *##.ads_box
@@ -2803,12 +2818,12 @@
 *##.ads_content
 *##.ads_css
 *##.ads_der
+*##.ads_disclaimer
 *##.ads_div
 *##.ads_div1
 *##.ads_entrymore
 *##.ads_footer
 *##.ads_google
-*##.ads_h
 *##.ads_header
 *##.ads_horizontal
 *##.ads_item
@@ -2909,6 +2924,7 @@
 *##.ads-block-panel-tipo-1
 *##.ads-block-rightside
 *##.ads-block-top
+*##.adsborder
 *##.ads-border
 *##.adsBottom
 *##.adsbottom
@@ -2916,7 +2932,6 @@
 *##.ads-bottom-center
 *##.ads-bottom-center-pagination
 *##.ads-bottom-right
-*##.adsBox
 *##.ads-box
 *##.adsbox970x90
 *##.ads-by
@@ -2933,6 +2948,7 @@
 *##.ads-card
 *##.ads-carousel
 *##.adscenter
+*##.ads-center
 *##.ads-centered
 *##.ads-code
 *##.ads-col
@@ -2952,12 +2968,12 @@
 *##.adsDiv
 *##.adsdiv
 *##.ads-div
-*##.ad-secondary-desktop
 *##.adSection
 *##.adsection
 *##.ad-section
 *##.ad-section-one
 *##.ad-section-three
+*##.ad--seeding
 *##.adsens
 *##.AdSense
 *##.Adsense
@@ -2975,7 +2991,6 @@
 *##.adsense1
 *##.adsense3
 *##.adsense-336
-*##.adsense-728-90
 *##.adsense-ad
 *##.ad-sense-ad
 *##.adsense-ad-results
@@ -3034,9 +3049,9 @@
 *##.adsidebar
 *##.ad-sidebar
 *##.ad--sidebar
+*##.adsider
 *##.ad-side-top
 *##.ads-iframe
-*##.ad-signup
 *##.ads-image
 *##.ads-inarticle
 *##.ads-in-content
@@ -3116,7 +3131,6 @@
 *##.adsmessage
 *##.ads-middle
 *##.ads-middle-top
-*##.ads-mini
 *##.ads-mobile
 *##.ads-module
 *##.ads-movie
@@ -3124,7 +3138,6 @@
 *##.adsns
 *##.ads-one
 *##.adsonofftrigger
-*##.ad-source
 *##.ad-sp
 *##.AdSpace
 *##.adSpace
@@ -3135,6 +3148,7 @@
 *##.ad-spacer
 *##.adspace-widget
 *##.ad-span
+*##.adspanel
 *##.ads-panel
 *##.ads-parent
 *##.adSpec
@@ -3216,7 +3230,6 @@
 *##.adStyle
 *##.adstyle
 *##.ad-subtitle
-*##.ads-ul
 *##.ad-summary
 *##.ad-superbanner
 *##.adsvideo
@@ -3291,6 +3304,7 @@
 *##.ad-type-cube
 *##.ad-type-flex-leaderboard
 *##.adun
+*##.adUnderArticle
 *##.AdUnit
 *##.adUnit
 *##.adunit
@@ -3311,6 +3325,7 @@
 *##.adunit-wrap
 *##.adunit-wrapper
 *##.ad-unit-wrapper
+*##.ad-update
 *##.ad-v
 *##.adv__text
 *##.adv__wrapper
@@ -3320,7 +3335,6 @@
 *##.adv_300
 *##.adv_300x250
 *##.adv_600
-*##.adv_aff
 *##.adv_banner
 *##.adv_box
 *##.adv_cnt
@@ -3344,6 +3358,7 @@
 *##.ad-v2
 *##.adv300
 *##.adv-300
+*##.adv-300-250
 *##.adv-300-600
 *##.adv300x100
 *##.adv300x250
@@ -3356,7 +3371,6 @@
 *##.adv-ad
 *##.advads_ad_widget-2
 *##.advads_ad_widget-3
-*##.advads_ad_widget-4
 *##.advads-close-button
 *##.advads-sticky
 *##.advads-widget
@@ -3413,7 +3427,6 @@
 *##.advert-container
 *##.advertContent
 *##.advert-content
-*##.advert-dfp
 *##.advert--fallback
 *##.advert-footer
 *##.advert--header
@@ -3424,23 +3437,22 @@
 *##.advert-info
 *##.advert--inline
 *##.advertis
+*##.advertise_box
 *##.advertise_here
-*##.advertise_link
 *##.advertise-box
 *##.advertiseContainer
 *##.advertise-here
-*##.advertise-info
 *##.advertise-link
 *##.advertisement__header
 *##.advertisement__label
 *##.advertisement__line
 *##.advertisement__title
+*##.advertisement__wrapper
 *##.advertisement_300x250
 *##.advertisement_728x90
 *##.advertisement_above_footer
 *##.advertisement_box
 *##.advertisement_container
-*##.advertisement_part
 *##.advertisement_text
 *##.advertisement_wrapper
 *##.advertisement1
@@ -3451,7 +3463,6 @@
 *##.advertisement-728x90
 *##.advertisement-area
 *##.advertisement-banner
-*##.advertisement--billboard
 *##.advertisementBlock
 *##.advertisement-block
 *##.advertisement-bottom
@@ -3459,24 +3470,23 @@
 *##.advertisement-card
 *##.advertisement-cell
 *##.advertisementCenterer
-*##.advertisement-comment
 *##.advertisementContainer
 *##.advertisement-container
 *##.advertisement-content
 *##.advertisement-footer
 *##.advertisement-header
 *##.advertisement-image
+*##.advertisement-information-link
 *##.advertisementLabel
 *##.advertisement-label
 *##.advertisement-leaderboard
 *##.advertisement--leaderboard
-*##.advertisement--leaderboard_top
 *##.advertisement-leaderboard-lg
 *##.advertisement-link
 *##.advertisementSection
 *##.advertisement-sidebar
-*##.advertisement--skyscraper
 *##.advertisements-link
+*##.advertisement-space
 *##.advertisement-tag
 *##.AdvertisementText
 *##.advertisementText
@@ -3550,10 +3560,7 @@
 *##.advert-top
 *##.advert-txt
 *##.advert-unit
-*##.advert-wingbanner-left
-*##.advert-wingbanner-right
 *##.advert-wrap
-*##.advertWrapper
 *##.advert-wrapper
 *##.adverTxt
 *##.adver-wrapper--250
@@ -3585,8 +3592,10 @@
 *##.advv_box
 *##.ad-w-300
 *##.ad--wallpaper
+*##.ad-wap
 *##.ad-warning
 *##.ad-warp
+*##.ad-watermark
 *##.ad-wgt
 *##.adwide
 *##.ad-wide
@@ -3609,7 +3618,6 @@
 *##.ad-wrapper
 *##.ad--wrapper
 *##.ad-wrapper__ad-slug
-*##.AdWrapper--sticky-block
 *##.ad-wrapper-top
 *##.adwrap-widget
 *##.adx_center
@@ -3625,6 +3633,7 @@
 *##.after-post-ad
 *##.after-post-ads
 *##.afw_ad
+*##.age_default
 *##.aggads-ad
 *##.ajax_ad
 *##.ajdg_bnnrwidgets
@@ -3644,12 +3653,14 @@
 *##.amp-ad-wrapper
 *##.ampforwp-sticky-custom-ad
 *##.anchor-ad-wrapper
+*##.a-paternoster-ad
 *##.app_ad_unit
 *##.app_advertising_skyscraper
 *##.app_nexus_banners_common
 *##.app-ad
 *##.area_ad
 *##.artAd
+*##.artcl_ad_dsk
 *##.article__ad-holder
 *##.article__adv
 *##.article__inset--margin-ad
@@ -3675,7 +3686,6 @@
 *##.article-advert
 *##.ArticleAdWrapper
 *##.article-aside-ad
-*##.article-body__suppl_content--inline-cta-ad
 *##.article-content-ad
 *##.article-footer-ad
 *##.article-footer--taboola
@@ -3722,6 +3732,7 @@
 *##.Banner300x250
 *##.banner-300x250
 *##.banner-300x600
+*##.banner-320-100
 *##.banner350
 *##.banner468
 *##.banner-468
@@ -3769,7 +3780,6 @@
 *##.bgcolor_ad
 *##.bidbarrel-ad
 *##.big_ad
-*##.big_ads
 *##.bigAd
 *##.bigad
 *##.big-ad
@@ -3777,14 +3787,9 @@
 *##.bigbox.ad
 *##.bigbox-ad
 *##.billboard.ad
-*##.Billboard_2-ad-holder
-*##.Billboard_3-ad-holder
-*##.Billboard_4-ad-holder
-*##.Billboard_5-ad-holder
 *##.billboard_ad
 *##.billboardAd
 *##.billboard-ad
-*##.Billboard-ad-holder
 *##.bin-ads
 *##.blk_advert
 *##.block__advertising
@@ -3793,12 +3798,12 @@
 *##.block_ad
 *##.block_ads
 *##.block_adv
-*##.block1--ads
 *##.blockAd
 *##.blockad
 *##.block-ad
 *##.block--ad
 *##.block-ad-entity
+*##.block-ad-leaderboard
 *##.block-ads
 *##.block-adsense
 *##.block-ads-yahoo
@@ -3809,6 +3814,7 @@
 *##.block--advertising
 *##.block-dfp
 *##.block--dfp
+*##.block-ec_ads
 *##.block-fusion-ads
 *##.block-google_admanager
 *##.block-google-admanager
@@ -3870,9 +3876,9 @@
 *##.boxad1
 *##.boxad2
 *##.boxAds
+*##.boxads
 *##.box-ads
 *##.box-adsense
-*##.boxAdvertisement
 *##.box-adverts
 *##.box-entry-detail--ad
 *##.BoxRail-ad
@@ -3917,6 +3923,7 @@
 *##.c-advert-app
 *##.c-advertisement
 *##.c-advertising
+*##.c-advscrollingzone
 *##.california-ad
 *##.california-sidebar-ad
 *##.can_ad_slug
@@ -3924,6 +3931,7 @@
 *##.card-ad
 *##.card-ads
 *##.card-captioned.crd > .crd--cnt > .s2nPlayer
+*##.card-productads
 *##.c-ArticleAds
 *##.category-ad:not(html):not(body)
 *##.category-ads:not(html):not(body)
@@ -3931,6 +3939,7 @@
 *##.categoryMosaic-advertising
 *##.categoryMosaic-advertisingText
 *##.catfish_ad
+*##.cbd_ad_manager
 *##.cBox-body--similarSellerAds
 *##.cbs-ad-unit
 *##.cbs-ad-unit-wrapper
@@ -3942,6 +3951,7 @@
 *##.centerAd
 *##.centerad
 *##.center-ad
+*##.centerAds
 *##.centerads
 *##.centeradv
 *##.centered-ad
@@ -3958,9 +3968,11 @@
 *##.cl-ad-inpager
 *##.cldt-ad-content-banner2
 *##.cldt-ad-top
+*##.clickads
 *##.clickforceads
 *##.click-track.partner
 *##.client-ad
+*##.client-ad-container
 *##.cmAd
 *##.cmam_responsive_ad_widget_class
 *##.cmg-ads-wrapper
@@ -3968,15 +3980,16 @@
 *##.cnAdDiv
 *##.cns-ads-stage
 *##.codeneric_ultimate_ads_manager_ad_wrapper
-*##.coinzilla-ad
 *##.col_ad
 *##.col-ad
 *##.collapse-ad-mob-wrapper
 *##.collapsed-ad
 *##.colombiaAd
+*##.columnAd
 *##.column-ad
 *##.comment_ad
 *##.comment-ad
+*##.commercial-unit-mobile-bottom
 *##.companionAd
 *##.companion-ad
 *##.companion-ads
@@ -4003,15 +4016,12 @@
 *##.container--ads-leaderboard-atf
 *##.container-first-ads
 *##.container-lower-ad
-*##.Content_1-ad-holder
 *##.content_ad
 *##.content_ads
 *##.content_adsense
-*##.ContentAd
 *##.contentAd
 *##.contentad
 *##.content-ad
-*##.content-ad-container
 *##.contentadleft
 *##.content-ad-left
 *##.contentAds
@@ -4020,14 +4030,12 @@
 *##.content-ad-wrapper
 *##.content-footer-ad
 *##.content-kuss-ads
-*##.content-leaderboard-ads
 *##.content-page-ad_wrap
 *##.content-zergnet
 *##.coreAdsPlacer
 *##.cpp-text-ad
 *##.crain-advertisement
 *##.c-res-ad
-*##.criteo-ad
 *##.crumb-ad
 *##.c-sitenavPlaceholder__ad
 *##.css-live-widget_googleAdBlock
@@ -4041,6 +4049,7 @@
 *##.custom-ad
 *##.custom-ads
 *##.customadvert
+*##.custom-sticky-ad-container
 *##.d3-c-adblock
 *##.dac__banner__wrapper
 *##.dac__mpu-card
@@ -4064,6 +4073,7 @@
 *##.desktop-advert
 *##.desktop-sidebar-ad-wrapper
 *##.detail__ad--small
+*##.detail_ad
 *##.detail-ad
 *##.detail-ads
 *##.DetailAdvertisement
@@ -4119,6 +4129,7 @@
 *##.display-ad-block
 *##.displayAds
 *##.div_adv300
+*##.divAd
 *##.divads
 *##.divider-ad
 *##.dmpu-ad
@@ -4131,7 +4142,6 @@
 *##.download_ad
 *##.download_adv_text_video
 *##.download_link_sponsored
-*##.downloadad
 *##.download-ad
 *##.dsp-under-video-ad
 *##.dual-ads
@@ -4175,11 +4185,11 @@
 *##.ezoic-ad-adaptive
 *##.ezoic-floating-bottom
 *##.fa-ad
-*##.facebook-ad
 *##.f-ad
 *##.fa-google-ad
 *##.fbs-ad--top-wrapper
 *##.fd-ad
+*##.featured_ad_item
 *##.featured-ad
 *##.featuredAds
 *##.featured-ads
@@ -4190,6 +4200,7 @@
 *##.first_post_ad
 *##.firstad
 *##.first-ad
+*##.firstAd-container
 *##.firstpost_advert
 *##.firstpost_advert_container
 *##.fist-advertise-box
@@ -4204,13 +4215,13 @@
 *##.floatad
 *##.floatads
 *##.floating-ads
+*##.flurryAdsType1
 *##.fly-ad
 *##.following-ad
 *##.following-ad-container
 *##.footad
 *##.foot-ad
 *##.footer__advert
-*##.Footer_1-ad-holder
 *##.footer_ad
 *##.footer_ads
 *##.footer_adv
@@ -4259,6 +4270,8 @@
 *##.full-top-ad-area
 *##.full-width-ad
 *##.full-width-ads
+*##.fuv_sidebar_ad_widget
+*##.fw_ad
 *##.g_ad
 *##.g_flbrd_ad
 *##.g_lbrd_ad
@@ -4268,6 +4281,7 @@
 *##.g-ad
 *##.gad_container
 *##.gad-container
+*##.g-ad-leaderboard
 *##.gAdMainParent
 *##.gAdOne
 *##.gAdOneMobile
@@ -4282,18 +4296,14 @@
 *##.gallery-ad
 *##.gallery-ad-container
 *##.gallery-ad-lazyload-placeholder
-*##.galleryads
-*##.gallery-sidebar-ad
-*##.GalleryViewerAdSuppress
 *##.gam-ad
 *##.gameAd
 *##.game-ads
 *##.game-category-ads
-*##.game-spotlight-advertising
+*##.gamepage_boxad
 *##.GeminiNativeAd
 *##.generic-ad-module
 *##.gfp-banner
-*##.ggads
 *##.gnm-ad-unit
 *##.gnt_tb.gnt_tbb
 *##.gnt_tbr.gnt_tb
@@ -4317,7 +4327,6 @@
 *##.googleAdContainer
 *##.googleadcontainer
 *##.google-ad-container
-*##.google-ad-header2
 *##.google-ad-iframe
 *##.google-ad-manager__slot
 *##.google-ad-placeholder
@@ -4332,9 +4341,10 @@
 *##.googleadsense
 *##.google-adsense
 *##.googleads-height
+*##.google-ad-sidebar
 *##.google-ad-space
+*##.googleadsrectangle
 *##.google-ads-right
-*##.googleAdsSquare
 *##.google-ads-widget
 *##.google-ads-wrapper
 *##.googleAdv
@@ -4356,6 +4366,7 @@
 *##.gpt-ad
 *##.gpt-ad-container
 *##.gpt-ads
+*##.gpt-breaker-container
 *##.gpt-container
 *##.gptSlot
 *##.gptslot
@@ -4366,7 +4377,6 @@
 *##.grid_ad_container
 *##.grid-ad
 *##.grid-advertisement
-*##.grid-block-ad
 *##.gridlove-ad-below-header
 *##.group-item-ad
 *##.GRVAd
@@ -4402,6 +4412,7 @@
 *##.headerad
 *##.header-ad
 *##.header-ad-area
+*##.headeradblock
 *##.header-adcode
 *##.header-ad-container
 *##.header-ad-desktop
@@ -4414,6 +4425,7 @@
 *##.header-ads-area
 *##.header-ads-container
 *##.header-ad-slot
+*##.header-adslot-container
 *##.header-ad-space
 *##.header-ads-wrap
 *##.header-ads-wrapper
@@ -4425,6 +4437,7 @@
 *##.header-advert-wrapper
 *##.header-ad-wrap
 *##.header-ad-wrapper
+*##.header-ama-ad
 *##.header-banner-ad
 *##.header-banner-ads
 *##.header-banner-advertising
@@ -4436,6 +4449,7 @@
 *##.heatmapthemead_ad_widget
 *##.height_250_ad
 *##.herald-ad
+*##.heroAd
 *##.hero-ad
 *##.hidden-ad
 *##.hide_ad
@@ -4444,8 +4458,6 @@
 *##.hidePauseAdZone
 *##.hl-ad-row__1p-link
 *##.hl-ad-row__mrec
-*##.hmad
-*##.hm-ad
 *##.home__ad
 *##.home_ad
 *##.home_adholder
@@ -4480,7 +4492,9 @@
 *##.hss-ad
 *##.hstpnetworkads
 *##.ht_ad_widget
+*##.htl-ad
 *##.htl-ad-placeholder
+*##.htl-ad-wrapper
 *##.html-advertisement
 *##.hyad
 *##.i_ad
@@ -4489,11 +4503,13 @@
 *##.ic-ads
 *##.ico-adv
 *##.iconAdChoices
+*##.icon-advertise
 *##.id-Article-advert
 *##.idgGoogleAdTag
 *##.idGoogleAdsense
 *##.id-StoryElement-adWrapper
 *##.ie-adtext
+*##.iframeAd
 *##.iframead
 *##.iframe-ad
 *##.iframeAds
@@ -4506,7 +4522,6 @@
 *##.img_ad
 *##.img_ads
 *##.imgad
-*##.img-ad-container
 *##.img-advert
 *##.impo-b-overlay
 *##.impo-b-stitial
@@ -4529,6 +4544,7 @@
 *##.info-ads
 *##.injectedAd
 *##.inline_ad
+*##.inline_ads
 *##.inlineAd
 *##.inlinead
 *##.inline-ad
@@ -4541,7 +4557,6 @@
 *##.inline-iframe.article--content-embed
 *##.inline-mpu
 *##.inlinePageAds
-*##.inline-panorama-ad
 *##.inner_ad
 *##.inner_adv
 *##.innerad
@@ -4558,6 +4573,7 @@
 *##.insertad
 *##.InsertedAd
 *##.insert-post-ads
+*##.inside_ad
 *##.inside-post-ad
 *##.insticator-ads
 *##.instream_ad
@@ -4572,6 +4588,7 @@
 *##.ipsAdvertisement
 *##.iqadlinebottom
 *##.iqadmarker
+*##.iqadtile_wrapper
 *##.iRx9_wrt
 *##.is24-adplace
 *##.isAd
@@ -4584,11 +4601,9 @@
 *##.item-ad
 *##.item-ads
 *##.item-advertising
-*##.itinerary-index-advertising
 *##.iw-leaderboard-ad
 *##.j_ads
 *##.j-ad
-*##.jannah_ad
 *##.jeg_ad
 *##.jeg_ad_top
 *##.jLinkSponsored
@@ -4604,6 +4619,7 @@
 *##.js-ad_iframe_wrap
 *##.js-ad-buttons
 *##.js-ad-container
+*##.js-ad-primary
 *##.js-ads
 *##.jsAdSlot
 *##.js-ad-slot
@@ -4613,7 +4629,6 @@
 *##.js-dfp-ad
 *##.js-footer-zerg
 *##.js-googleAdSuperHeader-wrapper
-*##.js-header-ad-wrapper
 *##.js-native-ad
 *##.jsOneAd
 *##.js-outbrain-container
@@ -4622,6 +4637,7 @@
 *##.js-right-ad-block
 *##.js-skyscraper-ad
 *##.js-sticky-ad
+*##.js-underplayerAd
 *##.js-widget-distroscale.distroscale
 *##.jw-ad
 *##.jw-ad-media-container
@@ -4632,16 +4648,17 @@
 *##.kwd_bloack
 *##.label-ad
 *##.l-ad
-*##.large_ad
 *##.largeAd
 *##.large-advert
 *##.large-right-ad
 *##.latest-ad
+*##.law_center_ad
 *##.layout-ad
 *##.lazyad
 *##.lazy-ad
 *##.lazyadslot
 *##.lazyload_ad
+*##.lazyload_ad_article
 *##.lazyload-ad
 *##.lb-ad
 *##.lblAdvert
@@ -4657,10 +4674,10 @@
 *##.leaderboard_ad
 *##.leaderboard_ad_container
 *##.leaderboard_ads
+*##.leaderboard1AdWrapper
 *##.leaderboardAd
 *##.leaderboardad
 *##.leaderboard-ad
-*##.leaderboard-ad-belt
 *##.leaderboard-ad-component
 *##.leaderboardAdContainer
 *##.leaderboard-ad-container
@@ -4668,7 +4685,6 @@
 *##.leaderboard-ad-placeholder
 *##.leaderboard-ads
 *##.leaderBoardAdvert
-*##.leaderBoardAdWrapper
 *##.leaderboard-ad-wrapper
 *##.left_ad
 *##.left_ad_box
@@ -4676,7 +4692,6 @@
 *##.left_ads
 *##.left_adsense
 *##.left_adv
-*##.LeftAd
 *##.leftAd
 *##.leftad
 *##.left-ad
@@ -4689,6 +4704,7 @@
 *##.left-advert
 *##.leftColumnAd
 *##.lft_advt_container
+*##.liberty-ad-renderer-iframe
 *##.Ligatus
 *##.ligatus
 *##.linead
@@ -4699,13 +4715,13 @@
 *##.list-ad
 *##.list-ads
 *##.list-footer-ad
+*##.listingAd
 *##.listing-item-ad
 *##.listings-ad-block
 *##.lite-page-ad
 *##.literatumAd
 *##.ljad
 *##.lnad
-*##.localad
 *##.local-ads
 *##.logo_AdChoices
 *##.logoad
@@ -4716,11 +4732,11 @@
 *##.loop-ad
 *##.lower-ad
 *##.lqm_ad
-*##.l-section--ad
 *##.lyad
 *##.lyrics-inner-ad-wrap
 *##.m_ad
 *##.m_ad1
+*##.m1-header-ad
 *##.macad
 *##.m-ad
 *##.m-ad__wrapper
@@ -4731,10 +4747,8 @@
 *##.main__top-ad
 *##.main_ad
 *##.main_ads
-*##.main_adv
 *##.mainAd
 *##.main-ad
-*##.mainAdContainer
 *##.main-ad-container
 *##.main-add-sec
 *##.mainAds
@@ -4745,6 +4759,7 @@
 *##.mainRightAd
 *##.main-right-ads
 *##.mal-ad-unit
+*##.mal-koukoku-unit
 *##.mantis__recommended__item--sponsored
 *##.mapped-ad
 *##.margin0-ads
@@ -4762,9 +4777,11 @@
 *##.media-advert
 *##.media-network-ad
 *##.medium_ad
+*##.medium_rectangle_ad_container
 *##.mediumRectangleAd
 *##.medium-rectangle-ad
 *##.medrect_ad
+*##.medrectadv4
 *##.mega-ad
 *##.menuAd
 *##.menuad
@@ -4785,6 +4802,8 @@
 *##.midad
 *##.midAdv-cont
 *##.midAdv-cont2
+*##.mid-advert
+*##.mid-article-banner-ad
 *##.middle_ad
 *##.middle_ad_responsive
 *##.middleAd
@@ -4865,23 +4884,24 @@
 *##.mpu-left-bk
 *##.mpu-wrap
 *##.mpu-wrapper
+*##.mrecAds
 *##.mrec-ads
-*##.mrec-btf-cont
 *##.mrec-scrollable-cont
 *##.mrf-adv
 *##.msgad
 *##.msg-ad
-*##.mslo-ad
 *##.mslo-ad-300x250
-*##.mslo-ad-728x66
 *##.mslo-ad-holder
+*##.MspAd
 *##.m-sponsored
 *##.msw-js-advert
 *##.mt_adv
+*##.mt-ad-container
 *##.mtop_adfit
 *##.mts_ad_300_widget
 *##.multiad2
 *##.mv_atf_ad_holder
+*##.m-video-wafer
 *##.mvp_ad_widget
 *##.mvp-ad-label
 *##.mvp-feat1-list-ad
@@ -4899,24 +4919,31 @@
 *##.nativeAd
 *##.nativead
 *##.native-ad
+*##.native-ad__first
 *##.nativeadasideplaceholder
 *##.native-ad-container
 *##.native-ad-item
+*##.native-ad-promoted-provider
 *##.nativeads-unt
 *##.native-adv
-*##.native-advts
 *##.nav_ad
 *##.navad
 *##.nav-ad
 *##.nav-ad-gpt-container
 *##.nav-ad-plus-leader
-*##.nav-adWrapper
 *##.NavBarAd
 *##.navbar-ads
 *##.navbar-header-ad
+*##.nbaTextAds
+*##.nbaTVPodAd
+*##.nc-dealsaver-container
 *##.nested-ad
 *##.netshelter-ad
+*##.network-ad-two
 *##.newad
+*##.new-ad-box
+*##.newPageAd
+*##.news_ad_box
 *##.news_imgad
 *##.newsAd
 *##.newsad
@@ -4925,7 +4952,7 @@
 *##.news-ad-square-box
 *##.newsfeed_adunit
 *##.newspack_global_ad
-*##.newsstackedAds
+*##.newstream_ad
 *##.nexusad
 *##.nfy-ad-teaser
 *##.nfy-ad-wrapper
@@ -4934,6 +4961,9 @@
 *##.ng-ad-container-300-250
 *##.ngart__ad-col
 *##.ngart__side-ad
+*##.ngs-adv-async
+*##.ninemsn-footer-ad
+*##.ninth-box-ad
 *##.nivo-ad-container
 *##.nm-ad
 *##.noAdForLead
@@ -4943,45 +4973,60 @@
 *##.normalad
 *##.Normal-add
 *##.normalAds
+*##.note-advertisement
+*##.noticeAd_pc_wrap
 *##.np-ad
 *##.np-ad-border
 *##.np-header-ad
 *##.np-right-ad
 *##.npSponsorTextAd
+*##.nscrMidAdBlock
+*##.ntnlad
 *##.ntv-ad
-*##.nuffnangad
-*##.nw-c-leaderboard-ad
+*##.ntv-rail-ad
+*##.nu2ad
 *##.nw-taboola
+*##.o-ad-banner-top
 *##.o-ad-container
 *##.o-ads
 *##.o-ads--center
-*##.o-ads-content
 *##.o-advert
+*##.oas_ad
+*##.oas_add
+*##.oas_advertisement
 *##.oas_desktop_banner
 *##.oas_sidebar_v7
 *##.OAS_wrap
 *##.oas_x21
+*##.oas_x70
 *##.oasad
 *##.oasads
+*##.oas-bottom-ads
 *##.oas-container
 *##.ob_ads_header
 *##.ob_dual_right > .ob_ads_header ~ .odb_div
+*##.ob_nm_paid
 *##.oba_message
 *##.ob-hover
+*##.ob-p.ob-dynamic-rec-container
 *##.ob-strip-layout
 *##.OcelotAdModule
 *##.OcelotAdModule-ad
+*##.ocp-sponsor
+*##.odc-nav-ad
 *##.offads
 *##.offer_sponsoredlinks
 *##.oi_horz_ad_container
-*##.oi-header-ad
 *##.oio-banner-zone
 *##.oio-link-sidebar
+*##.oio-zone-position
 *##.oko-adhesion
+*##.o-listing__ad
 *##.on_player_ads
 *##.onAd
 *##.on-ad
 *##.onad_desktop
+*##.on-demand-ad
 *##.one-ad
 *##.oneColumnAd
 *##.onf-ad
@@ -4990,6 +5035,9 @@
 *##.openads
 *##.openadstext_after
 *##.openx
+*##.openx_10
+*##.openx_11
+*##.openx_17
 *##.openx_3
 *##.openx_4
 *##.openx_ad
@@ -4997,28 +5045,40 @@
 *##.openxbuttons
 *##.optidigital-ad-center
 *##.optional-ad
+*##.os-advertisement
 *##.osan-ads
 *##.os-header-ad
 *##.o-story-content__ad
+*##.other_adv2
+*##.otherheader_ad
+*##.other-posts-ads
+*##.otj_adspot
 *##.outbrain_ad_li
 *##.outbrain_dual_ad_whats_class
 *##.outbrain_ul_ad_top
 *##.outbrain-ad-units
 *##.outbrain-widget
+*##.outerAd_300x250_1
 *##.outeradcontainer
 *##.outer-ad-container
 *##.outer-ad-unit-wrapper
 *##.outerAdWrapper
 *##.outermainadtd1
+*##.outgameadbox
 *##.outside_ad
 *##.outsider-ad
+*##.ov_spns
+*##.ovAdartikel
 *##.ovAdLabel
 *##.ovadsenselabel
+*##.ovAdSky
+*##.overflow-ad
 *##.overlay_ad
 *##.overlay-ad
 *##.overlay-ad-container
 *##.overlay-ads
 *##.ox_ad
+*##.ox-holder
 *##.ozadtop
 *##.ozadtop3
 *##.p_adv
@@ -5034,6 +5094,7 @@
 *##.pads2
 *##.pAdsBlock2
 *##.page_ad
+*##.page_content_right_ad
 *##.pagead
 *##.page-ad
 *##.page-ad-container
@@ -5042,32 +5103,47 @@
 *##.pageAdSkin
 *##.pageAdSkinUrl
 *##.page-advert
+*##.pageBottomGoogleAd
 *##.page-box-ad
-*##.page-break-ad
 *##.pagebuilder_ad
 *##.pageclwideadv
 *##.pagefair-acceptable
+*##.pageFooterAd
 *##.pageGoogleAd
+*##.pageGoogleAdFlat
+*##.pageGoogleAds
 *##.pageGoogleAdsContainer
+*##.pageGoogleAdSubcontent
 *##.page-header_ad
 *##.pageHeaderAd
 *##.page-header-ad
 *##.pageHeaderAds
-*##.pageLeaderAd
+*##.pagenavindexcontentad
 *##.page-pencil-ad-container-bottom
 *##.pageSkinAds
 *##.PageTopAd
+*##.pair_ads
+*##.pan-ad-inline
 *##.pan-ad-inline1
+*##.pan-ad-inline2
 *##.pan-ad-inline3
+*##.pan-ad-sidebar1
+*##.pan-ad-sidebar2
 *##.pan-ad-sidebar-top
 *##.pane_ad_wide
 *##.pane-ad-ads-all
+*##.pane-ad-block
+*##.pane-ad-manager-bottom-right-rail-circ
 *##.pane-ad-manager-middle
 *##.pane-ad-manager-right
 *##.pane-ad-manager-right1
 *##.pane-ad-manager-right2
+*##.pane-ad-manager-right3
+*##.pane-ad-manager-shot-business-circ
+*##.pane-ad-manager-subscribe-now
 *##.pane-adonews-ad
 *##.pane-ads
+*##.pane-advertorials-homepage-advertorial-rotator
 *##.pane-adv-manager
 *##.pane-bzads-bzadwrapper-120x60-partner
 *##.pane-bzads-fintech-300x250
@@ -5077,6 +5153,8 @@
 *##.pane-frontpage-ad-banner-hk
 *##.pane-kl-global-middle-ad
 *##.panel__column--vc-advert
+*##.panel__row--with-vc-advert
+*##.panel_ad
 *##.panel-ad
 *##.panel-ad-mr
 *##.paneladvert
@@ -5088,18 +5166,20 @@
 *##.pane-sponsored-links
 *##.pane-textlinkads-26
 *##.pane-tgx-ad
+*##.pane-tw-adjuggler-tw-adjuggler-half-page-ad
 *##.pane-tw-ad-master-ad-300x250a
 *##.pane-tw-ad-master-ad-300x600
+*##.panoramic_ad_placeholder
 *##.parade-ad-container
 *##.par-adv-slot
 *##.paragraphAdinsert
 *##.paragraphs-item-advertisement
 *##.parent-ad-desktop
+*##.partial-ad
 *##.partner_ads
 *##.partnerAd
 *##.partner-ad
 *##.partner-ads-container
-*##.partner-ads-list
 *##.partner-adsonar
 *##.partnerAdTable
 *##.partner-loading-shown.partner-label
@@ -5116,11 +5196,13 @@
 *##.pb-f-ads-dfp-big-box-300x250
 *##.pb-f-ads-dfp-box-300x450
 *##.pb-f-ads-dfp-halfpage-300x600
+*##.pb-f-ads-dfp-leaderboard-728x90
 *##.pb-f-ads-nativo
 *##.pb-f-ads-taboola
 *##.pb-f-ads-taboola-article-well
 *##.pb-f-ads-taboola-right-rail-alt
 *##.pb-f-ads-yieldmo
+*##.pb-f-advert-dfp-double-mpu
 *##.pb-mod-ad-flex
 *##.pb-mod-ad-leaderboard
 *##.pc-ad
@@ -5159,6 +5241,7 @@
 *##.photoAd
 *##.photoad
 *##.photo-ad
+*##.photobox-adbox
 *##.photo-news-list-advertisement
 *##.phpads_container
 *##.pics_detail_ad
@@ -5171,7 +5254,6 @@
 *##.pkgTemplateAdWrapper
 *##.pl__superad
 *##.pl_adv1
-*##.pl_adv1_t
 *##.pl_adv1_wr
 *##.pl_adv1_wr2
 *##.pla_ad
@@ -5221,6 +5303,7 @@
 *##.pod-ad-300
 *##.pod-ad-box
 *##.podRelatedAdLinksWidget
+*##.podSponsoredLink
 *##.polaris__ad
 *##.poll_sponsor_ad
 *##.popAdContainer
@@ -5273,13 +5356,13 @@
 *##.poster-ad-asset-module
 *##.postfooterad
 *##.post-full-ad
+*##.post-full-ad-wrapper
 *##.post-googlead
 *##.postgroup-ads
 *##.postgroup-ads-middle
 *##.post-load-ad
 *##.post-nativeadcarousel
 *##.post-pick-ad
-*##.post-sponsored
 *##.postWideAd
 *##.post-zergnet-wrap
 *##.power_by_sponsor
@@ -5323,6 +5406,7 @@
 *##.ProductAd
 *##.product-ad
 *##.product-ads
+*##.product-ads-carousel
 *##.product-bar-ads
 *##.product-inlist-ad
 *##.profile__ad-wrapper
@@ -5357,7 +5441,6 @@
 *##.pt_ad03
 *##.pt_col_ad02
 *##.pt-ad--container
-*##.pt-ad--scroll
 *##.pub_ads
 *##.pubDesk
 *##.publiboxright300
@@ -5468,9 +5551,6 @@
 *##.rect-ad-1
 *##.rectAd300
 *##.rectadv
-*##.Rectangle_1-ad-holder
-*##.Rectangle_2-ad-holder
-*##.Rectangle_3-ad-holder
 *##.rectangle_ad
 *##.RectangleAd
 *##.rectangleAd
@@ -5561,7 +5641,6 @@
 *##.result_ad
 *##.result_item_ad-adsense
 *##.resultAd
-*##.resultad
 *##.result-ad
 *##.results_sponsor_right
 *##.results-ads
@@ -5569,6 +5648,7 @@
 *##.result-sponsored
 *##.rev_square_side_door
 *##.revcontent-main-ad
+*##.revcontent-slot
 *##.rev-content-sponsored
 *##.review_ad1
 *##.reviewMidAdvertAlign
@@ -5675,6 +5755,7 @@
 *##.right-advert
 *##.rightAdverts
 *##.RightAdWrapper
+*##.RightBannerAd350x250
 *##.rightbigcolumn_ads
 *##.rightbigcolumn_ads_nobackground
 *##.rightbox_content_ads
@@ -5721,6 +5802,7 @@
 *##.right-side-ad
 *##.right-side-ads
 *##.rightSideBarAd
+*##.right-sidebar-ads-container
 *##.right-sidebar-box-ad
 *##.right-sidebar-box-ads
 *##.rightSideSponsor
@@ -5752,6 +5834,7 @@
 *##.rolloverad
 *##.roof-ad
 *##.rot_ads
+*##.rotatead-container
 *##.rotating-ad
 *##.rotating-ads
 *##.rotatingadsection
@@ -5774,6 +5857,7 @@
 *##.rr_skyad
 *##.rr-300x250-ad
 *##.rr-300x600-ad
+*##.rr-ad
 *##.rs_ad_bot
 *##.rs_ad_top
 *##.rs-ad
@@ -6000,6 +6084,7 @@
 *##.sidead_300
 *##.sidead_300250_ht
 *##.sidead_550125
+*##.side-ad1
 *##.side-ad-120-bottom
 *##.side-ad-120-middle
 *##.side-ad-120-top
@@ -6215,6 +6300,7 @@
 *##.site-footer__ad-area
 *##.site-head-ads
 *##.site-header__advert-container
+*##.site-header--sponsored
 *##.site-nav-ad-inner
 *##.sitesponsor
 *##.sitesprite_ads
@@ -6328,6 +6414,7 @@
 *##.sp-ad
 *##.spc-ads-leaderboard
 *##.spc-ads-sky
+*##.speakol-widget
 *##.special_ad_section
 *##.specialAd175x90
 *##.specialAdsContent
@@ -6491,7 +6578,6 @@
 *##.sponsoredlink
 *##.sponsored-link
 *##.sponsoredlinkHed
-*##.sponsoredLinks
 *##.sponsoredlinks
 *##.sponsored-links
 *##.sponsoredLinks2
@@ -6541,6 +6627,7 @@
 *##.sponsor-inner
 *##.sponsorLabel
 *##.sponsor-left
+*##.SponsorLink
 *##.sponsorLink
 *##.sponsorlink
 *##.sponsor-link
@@ -6561,13 +6648,13 @@
 *##.sponsor-promo
 *##.sponsorPuffsHomepage
 *##.sponsor-right
-*##.sponsors__container
 *##.sponsors__wide
 *##.sponsors_300x250
 *##.sponsors_box_container
 *##.sponsors_fieldset
 *##.sponsors_links
 *##.sponsors_spacer
+*##.sponsors-advertisment
 *##.sponsorsbanner
 *##.sponsorsBanners
 *##.sponsorsbig
@@ -6590,6 +6677,7 @@
 *##.sponsor-text-container
 *##.sponsorTitle
 *##.sponsorTxt
+*##.sponsor-wrap
 *##.sponsorwrapper
 *##.sponstop
 *##.sponsWrap
@@ -6647,6 +6735,7 @@
 *##.stackedads1
 *##.stackedads2
 *##.stack-l-ad-center
+*##.st-adunit
 *##.standalone_txt_ad
 *##.standalonead
 *##.standalone-ad-container
@@ -6773,6 +6862,7 @@
 *##.syAd
 *##.syHdrBnrAd
 *##.sykscraper-ad
+*##.symphony_ad
 *##.syndicatedAds
 *##.szoAdBox
 *##.szoSponsoredPost
@@ -6888,7 +6978,6 @@
 *##.textadlink
 *##.text-ad-links2
 *##.textAdMinimum
-*##.Textads
 *##.textAds
 *##.textads
 *##.textads_left
@@ -6927,7 +7016,6 @@
 *##.themidad
 *##.themonic-ad1
 *##.themonic-ad2
-*##.themonic-ad3
 *##.thirdAd160Cont
 *##.thirdAdBot
 *##.thirdAdHead
@@ -6968,7 +7056,6 @@
 *##.title-ad
 *##.tj_ad_box
 *##.tj_ad_box_top
-*##.tjads
 *##.tl-ad
 *##.tl-ad-dfp
 *##.tl-ad-display-3
@@ -6992,7 +7079,6 @@
 *##.tnt-ads-container
 *##.tnt-dmp-reactive
 *##.toaster-ad
-*##.today-ad-imu
 *##.toggle-adinmap
 *##.tone_adspace_300x250
 *##.tone_adspace_300x600
@@ -7285,6 +7371,7 @@
 *##.type-ad
 *##.tz_ad_widget
 *##.tz_ad300_widget
+*##.u-ad-leaderboard__bg
 *##.u-ads
 *##.uds-ad
 *##.uds-ads
@@ -7300,6 +7387,7 @@
 *##.ult_vp_videoPlayerAD
 *##.under_ads
 *##.under-header-ad
+*##.underplayerAd
 *##.under-player-ads
 *##.undertimyads
 *##.uniAdBox
@@ -7407,7 +7495,6 @@
 *##.view_ads_top_bg_middle
 *##.view_rig_ad
 *##.view-ad
-*##.view-ads
 *##.view-ads-header-top-block
 *##.view-ads-sidebar-block
 *##.view-ads-under-the-slider
@@ -7482,6 +7569,8 @@
 *##.wAdvert
 *##.wahAd
 *##.wahAdRight
+*##.waldo-display-unit
+*##.waldo-placeholder
 *##.wall_ad
 *##.wall_ad_hd
 *##.wallAd
@@ -7559,6 +7648,7 @@
 *##.widget_admanagerwidget
 *##.widget_adrotate_widgets
 *##.widget_ads
+*##.widget_ads_widget
 *##.widget_adsblock
 *##.widget_adsensem
 *##.widget_adsensewidget
@@ -7579,6 +7669,7 @@
 *##.widget_advwidget
 *##.widget_adwidget
 *##.widget_ad-widget
+*##.widget_alaya_ad
 *##.widget_appmanager_sponsoredpostswidget
 *##.widget_awpcp-random-ads
 *##.widget_bestgoogleadsense
@@ -7683,6 +7774,7 @@
 *##.widgetSponsors
 *##.widget-text-ad
 *##.widgetYahooAds
+*##.WidthAd
 *##.width-ad-slug
 *##.wikia_ad_placeholder
 *##.wikia-ad
@@ -7699,6 +7791,7 @@
 *##.wn-ad
 *##.wnIframeAd
 *##.wnMultiAd
+*##.worldplus-ad
 *##.wp_bannerize
 *##.wp_bannerize_container
 *##.wp_bnn
@@ -7871,6 +7964,7 @@
 *##[class*="__adv-block"]
 *##[class*="auto-bottom-advertising-"]
 *##[data-ad-manager-id]
+*##[data-ad-width]
 *##[data-dynamic-ads]
 *##[data-freestar-ad]
 *##[href*=".directtf.xyz/"]
@@ -7886,7 +7980,6 @@
 *##[href^="http://go.cm-trk2.com/"]
 *##[href^="http://homemoviestube.com/"]
 *##[href^="http://join.rodneymoore.com/"]
-*##[href^="http://join.shemale.xxx/"]
 *##[href^="http://raboninco.com/"]
 *##[href^="https://affect3dnetwork.com/track/"]
 *##[href^="https://awbbjmp.com/"]
@@ -7898,13 +7991,13 @@
 *##[href^="https://innyweakela.co"]
 *##[href^="https://join.girlsoutwest.com/"]
 *##[href^="https://join.playboyplus.com/track/"]
-*##[href^="https://join3.bannedsextapes.com"]
 *##[href^="https://ptwmjmp.com/"]
 *##[href^="https://r.kraken.com/"]
 *##[href^="https://rapidgator.net/article/premium/ref/"]
 *##[href^="https://refpahrwzjlv.top/"]
 *##[href^="https://secure.bmtmicro.com/servlets/"]
 *##[href^="https://stvkr.com/"]
+*##[href^="https://t.ajrkm.link/"]
 *##[href^="https://track.fiverr.com/visit/"] > img
 *##[href^="https://veepn.g2afse.com/"]
 *##[href^="https://wct.link/"]
@@ -7950,6 +8043,7 @@
 *##a[href*="/servlet/click/zone?"]
 *##a[href*="=exoclick"]
 *##a[href*="ad2upapp.com/"]
+*##a[href*="adzerk.net"]
 *##a[href^="//awejmp.com/"]
 *##a[href^="//postlnk.com/"]
 *##a[href^="//pubads.g.doubleclick.net/"]
@@ -7963,7 +8057,6 @@
 *##a[href^="http://adf.ly/?id="]
 *##a[href^="http://ads.betfair.com/redirect.aspx?"]
 *##a[href^="http://ads2.williamhill.com/redirect.aspx?"]
-*##a[href^="http://adserver.adreactor.com/"]
 *##a[href^="http://affiliate.coral.co.uk/processing/"]
 *##a[href^="http://affiliates.lifeselector.com/"]
 *##a[href^="http://affiliates.thrixxx.com/"]
@@ -8005,6 +8098,7 @@
 *##a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"]
 *##a[href^="http://www.coiwqe.site/"]
 *##a[href^="http://www.fonts.com/BannerScript/"]
+*##a[href^="http://www.FriendlyDuck.com/"]
 *##a[href^="http://www.mrskin.com/tour"]
 *##a[href^="http://www.myfreecams.com/?co_id="][href*="&track="]
 *##a[href^="http://www.onwebcam.com/random?t_link="]
@@ -8017,10 +8111,10 @@
 *##a[href^="https://ad.doubleclick.net/"]
 *##a[href^="https://adclick.g.doubleclick.net/"]
 *##a[href^="https://ads.betfair.com/redirect.aspx?"]
-*##a[href^="https://ads.leovegas.com/redirect.aspx?"]
 *##a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"]
 *##a[href^="https://adserver.adreactor.com/"]
 *##a[href^="https://affiliate.rusvpn.com/click.php?"]
+*##a[href^="https://affiliates.bet-at-home.com/processing/"]
 *##a[href^="https://as.sexad.net/"]
 *##a[href^="https://awecrptjmp.com/"]
 *##a[href^="https://awejmp.com/"]
@@ -8074,7 +8168,6 @@
 *##a[href^="https://mcdlks.com/"]
 *##a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"]
 *##a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"]
-*##a[href^="https://medleyads.com/"]
 *##a[href^="https://misspkl.com/"]
 *##a[href^="https://mmwebhandler.aff-online.com/"]
 *##a[href^="https://msecure117.com/"]
@@ -8090,7 +8183,6 @@
 *##a[href^="https://promo-bc.com/"]
 *##a[href^="https://pubads.g.doubleclick.net/"]
 *##a[href^="https://redsittalvetoft.pro/"]
-*##a[href^="https://refpaexhil.top/"]
 *##a[href^="https://refpasrasw.world/"]
 *##a[href^="https://s.zlink2.com/"]
 *##a[href^="https://secure.adnxs.com/clktrb?"]
@@ -8101,8 +8193,8 @@
 *##a[href^="https://t.grtyi.com/"]
 *##a[href^="https://tc.tradetracker.net/"] > img
 *##a[href^="https://tm-offers.gamingadult.com/"]
+*##a[href^="https://torguard.net/aff.php"] > img
 *##a[href^="https://torrentsafeguard.com/?aid="]
-*##a[href^="https://tour.mrskin.com/"]
 *##a[href^="https://track.afcpatrk.com/"]
 *##a[href^="https://track.afftck.com/"]
 *##a[href^="https://track.effiliation.com/servlet/effi.redir?"]
@@ -8110,7 +8202,6 @@
 *##a[href^="https://tracking.truthfinder.com/?a="]
 *##a[href^="https://ttf.trmobc.com/"]
 *##a[href^="https://usenetxs.website/"]
-*##a[href^="https://vlnk.me/"]
 *##a[href^="https://vo2.qrlsx.com/"]
 *##a[href^="https://wantopticalfreelance.com/"]
 *##a[href^="https://wittered-mainging.com/"]
@@ -8126,7 +8217,6 @@
 *##a[href^="https://www.googleadservices.com/pagead/aclk?"]
 *##a[href^="https://www.iyalc.com/"]
 *##a[href^="https://www.mrskin.com/tour"]
-*##a[href^="https://www.nudeidols.com/cams/"]
 *##a[href^="https://www.nutaku.net/signup/landing/"]
 *##a[href^="https://www.popads.net/users/"]
 *##a[href^="https://www.porngamesxxx.com/"][href*="?campaign="]
@@ -8136,15 +8226,16 @@
 *##a[href^="https://www.xvinlink.com/?a_fid="]
 *##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"]
 *##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
+*##a[target="_blank"][href^="http://api.taboola.com/"]
 *##AD-SLOT
 *##AD-TRIPLE-BOX
 *##AMP-AD
+*##amp-embed[type="taboola"]
 *##app-advertisement
 *##aside[id^="adrotate_widgets-"]
 *##aside[id^="advads_ad_widget-"]
 *##aside[itemtype="https://schema.org/WPAdBlock"]
 *##DFP-AD
-*##dile-cookies-consent
 *##display-ad-component
 *##display-ads
 *##div[aria-label="Ads"]
@@ -8197,7 +8288,6 @@
 *##div[id^="advads-"]
 *##div[id^="advads_"]
 *##div[id^="ADV-SLOT-"]
-*##div[id^="advt-"]
 *##div[id^="amzn-assoc-ad"]
 *##div[id^="banner-ad-"]
 *##div[id^="crt-"][style]
@@ -8215,8 +8305,8 @@
 *##div[id^="yandex_ad"]
 *##div[id^="zergnet-widget"]
 *##div[itemtype="http://schema.org/WPAdBlock"]
-*##div[style^="padding: 5px 15px !important"] > [style^="width: 100% !important; cursor: pointer !important;"]
 *##FBS-AD
+*##hl-adsense
 *##iframe[id^="google_ads_frame"]
 *##iframe[src*="mellowads.com"]
 *##iframe[src^="https://pagead2.googlesyndication.com/"]
