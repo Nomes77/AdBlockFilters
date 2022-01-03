@@ -1,3 +1,6 @@
+! 2022-01-03
+janvissersweer.nl##[id^="custom_html-"]:has([src^="https://pagead2.googlesyndication.com/"])
+janvissersweer.nl##.post:has-text(Sponsor)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105265
 truck1.be,truck1-nl.be,truck1.nl##.banner
 ! 2021-12-31
