@@ -1,3 +1,7 @@
+! https://github.com/AdguardTeam/AdguardFilters/issues/105265
+||truck1.be/st2/banners/$subdocument
+||truck1-nl.be/st2/banners/$subdocument
+||truck1.nl/st2/banners/$subdocument
 ! 2021-12-31
 ||reliwiki.nl/images/*banner
 ||detelefoongids.nl/img/youvia-banner/banner
