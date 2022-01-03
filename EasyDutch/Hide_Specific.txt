@@ -1,3 +1,5 @@
+! https://github.com/AdguardTeam/AdguardFilters/issues/105265
+truck1.be,truck1-nl.be,truck1.nl##.banner
 ! 2021-12-31
 detelefoongids.nl##.static-map
 detelefoongids.nl##div[class*="additional__"]:has(div[id^="banner"])
