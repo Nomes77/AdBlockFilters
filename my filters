@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 31-12-2021
+! Last updated: 04-01-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -13,20 +13,34 @@ $removeparam=/^(action_object_map|action_ref_map|action_type_map)=/
 $removeparam=/^(fb_action_|fb_comment_id|fb_ref|fb_source|fbclid)/
 $removeparam=/^(gbraid|wbraid|gclsrc|gclid|yclid)=/
 $removeparam=/^(dpg_source|dpg_campaign|dpg_medium|dpg_content)=/
-$removeparam=/^(admitad_uid|adjust_adgroup|adjust_campaign|adjust_tracker)=/
+$removeparam=/^(admitad_uid|adjust_adgroup|adjust_campaign|adjust_creative|adjust_tracker|adjust_tracker_limit)=/
 $removeparam=/^(bsft_aaid|bsft_clkid|bsft_eid|bsft_ek|bsft_mid|bsft_uid)=/
 $removeparam=/^(mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_medium|mtm_placement|mtm_source|pk_campaign|pk_medium|pk_source)=/
 $removeparam=/^(_branch_match_id|vc_lpp|ml_subscriber|ml_subscriber_hash|rb_clickid|oly_anon_id|oly_enc_id)=/
 $removeparam=/^(cmpid|dclid|_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
 $removeparam=/^source/,domain=googleusercontent.com|rumble.com
+$removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/,domain=google.*
+$removeparam=/^(_u|aqs|atyp|cad|cd|dcr|dpr|ei|esrc|ie|je|oq|rlz|site|sourceid|sxsrf|uact|vet|zx)=/,domain=google.*
 ||google.$removeparam=tab
-||google.*/search$removeparam=/^(atyp|aqs|cd|cad|client|dcr|ei|esrc|ie|oq|rlz|sa|sclient|sei|source|sourceid|site|sxsrf|uact)=/
-||google.*/search$removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/
+||google.*/search$removeparam=/^(client|sa|sclient|sei|source|site)=/
 ||google.*/websearch$removeparam=visit_id
+@@||client-channel.google.com/client-channel*zx=$removeparam
+@@||hangouts.google.com/webchat*zx=$removeparam
+@@||news.google.com/*?hl=$removeparam
+@@||mail.google.com/mail/u/$removeparam
+@@/^https?:\/\/(?:docs|accounts)\.google(?:\.[a-z]{2,}){1,}/$removeparam
+@@/^https?:\/\/(?:[a-z0-9-\.])*drive\.google\.com\/videoplayback/$removeparam
+@@/^https?:\/\/(?:[a-z0-9-]+\.)*?google(?:\.[a-z]{2,}){1,}(?:\/upload)?\/drive\//$removeparam
+@@/^https?:\/\/(?:[a-z0-9-]+\.)*?google(?:\.[a-z]{2,}){1,}\/(?:appsactivity\/|preferences\?[\w\W]*?hl=|recaptcha\/)/$removeparam
+@@/^https?:\/\/(?:[a-z0-9-]+\.)*?google(?:\.[a-z]{2,}){1,}\/(?:s\?tbm=map.*?gs_[a-z]*=.|complete\/search|setprefs|searchbyimage|appsactivity|aclk\?)/$removeparam
+@@$removeparam,domain=myaccount.google.*
 ||aliexpress.$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
-||amazon.$removeparam=/^(ascsubtag|c|camp|creative|creativeASIN|crid|dchild|field-lbr_brands_browse-bin|ingress|initialIssue|linkCode|pd_rd_i|pd_rd_r|pd_rd_w|pd_rd_wg|pf_rd_i|pf_rd_m|pf_rd_p|pf_rd_r|pf_rd_s|pf_rd_t|pf_rd_w|plattr|qid|rdc|ref|ref_|refRID|rnid|smid|spIA|sprefix|srs|tag|th|ts_id|visitId|vt)=/
-||amazon.*^/dp/$removeparam=tag
+||aliexpress.$removeparam=/^scm[_a-z-]*=/
+||amazon.$removeparam=/^(_encoding|aaxitk|ascsubtag|c|camp|creative|creativeASIN|crid|field-lbr_brands_browse-bin|hsa_cr_id|ingress|initialIssue|keywords|linkCode|ms3_c|plattr|qualifier|qid|refRID|rnid|s|smid|spIA|sprefix|tag|th|ts_id|visitId|vt)=/
+||amazon.$removeparam=/^(__mk_[a-z]{1,3}_[a-z]{1,3}|[a-z%0-9]*ie|[^a-z%0-9]adId|colii?d|cv_ct_[a-z]+|p[fd]_rd_[a-z]*|ref_?|sb-ci-[a-z]+|srs?)=/
 ||amazon.*^/aa$removeparam=bitCampaignCode
+@@/^https?:\/\/(?:[a-z0-9-]+\.)*?amazon(?:\.[a-z]{2,}){1,}\/gp\/.*?(?:redirector.html|cart\/ajax-update.html|video\/api\/)/$removeparam
+@@/^https?:\/\/(?:[a-z0-9-]+\.)*?amazon(?:\.[a-z]{2,}){1,}\/(?:hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
 ||bing.com^$removeparam=/^(cvid|form|pc|qp|qs|sc|sk|sp)=/
 @@||bing.*^/WS/redirect/$removeparam=/^(cvid|form|qp|qs|sc|sk|sp)=/
 ||blckbx.tv^$removeparam=/^(source|ss_source|ss_campaign_|ss_email_id|usg|ust)/
@@ -40,8 +54,9 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 ||play.google.$removeparam=referrer
 ||searx.*/search?$removeparam=~/^(categories|category_|preferences|q)/
 ||twitter.com^$removeparam=/^(cn|ref_src|ref_url|s)=/
-||www.ebay.*^$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
+||www.ebay.$removeparam=/^(_from|_trkparms|_trksid|amdata|campid|hash|mkrid)=/
 ||youtube.com^$removeparam=/^(tab)=/
+@@/^https?:\/\/(?:[a-z0-9-]+\.)*?(?:cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
 @@/ws$removeparam,domain=speedtest.net
 @@||urldefense.com^$removeparam
 !--Anti Facebook
@@ -63,6 +78,7 @@ dagelijksestandaard.nl##.post-body > .fb-page
 bing.com##[id$="results"] > :has(a[href*="facebook.com/"])
 duckduckgo.com##.result:has([href*="facebook.com"])
 google.*##[data-async-context^="query:"] > div:has(a[href*="facebook.com/"])
+google.*##[data-async-context^="query:"] > div:has(a[href*="facebook.nl/"])
 startpage.com##[class$="result"]:has(a[href*="facebook.com/"])
 !--Anti TikTok
 ||tiktok.com^$3p
@@ -170,7 +186,7 @@ www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-
 www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important; )
 www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important; )
 !--Anti Google Chrome Download Message, Cookie Banner and Login
-||ogs.google.*/widget/callout*&origin=*.google.*=callout*
+||ogs.google.*/widget/callout*&origin=*.google.*=callout
 www.youtube.com##.ytd-popup-container.style-scope > .ytd-mealbar-promo-renderer.style-scope
 !#if env_firefox
 google.*##^script:has-text(CONSENT)
