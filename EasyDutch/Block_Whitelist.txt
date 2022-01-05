@@ -1,5 +1,5 @@
 ! 2022-01-05
-@@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|radio.nl
+@@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|radio.nl|welingelichtekringen.nl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dailybuzz.nl
 ! 2021-12-14
 @@||vinatera.be/wp-content/uploads/*_300x600.$image,1p
