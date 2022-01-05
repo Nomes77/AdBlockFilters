@@ -1,3 +1,6 @@
+! 2022-01-05
+sexervaringdelen.com##[id^="text-"]:has([src$="ads.js"])
+sexervaringdelen.com##[id^="custom_html-"]:has(iframe)
 ! 2022-01-03
 janvissersweer.nl##[id^="custom_html-"]:has([src^="https://pagead2.googlesyndication.com/"])
 janvissersweer.nl##.post:has-text(Sponsor)
