@@ -1,5 +1,6 @@
-! 2021-12-20
-@@||massariuscdn.com/pubs/radionl/radionl_hb_setup.js$script,domain=radio.nl
+! 2022-01-05
+@@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|radio.nl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dailybuzz.nl
 ! 2021-12-14
 @@||vinatera.be/wp-content/uploads/*_300x600.$image,1p
 ! 2021-12-02
