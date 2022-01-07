@@ -1,4 +1,7 @@
 ! Uitzonderingen voor EasyList
+! 2022-01-07
+bokt.nl#@#.ad-body
+bokt.nl#@#.node-ad 
 ! 2021-11-17
 veeteelt.nl#@#.advertorial
 ! 2021-11-06
