@@ -1,5 +1,6 @@
 ! Uitzonderingen voor EasyList
 ! 2022-01-07
+ajaxrss.nl#@#.top-ads-block
 bokt.nl#@#.ad-body
 bokt.nl#@#.node-ad 
 ! 2021-11-17
