@@ -1,5 +1,5 @@
 ! 2022-01-07
-voetbalsnafu.nl##.widget_links
+sportweddenrss.nl,voetbalsnafu.nl##.widget_links
 voetbalsnafu.nl##div[class$="sidebar-widget"] > .textwidget:has(p > a[href*="voetbalwedden.net"][target="_blank"])
 voetbalsnafu.nl##[class$="sidebar-widget"]:has(p > a[href*="casino"]):not(:has(div[class="widget-title"]))
 voetbalsnafu.nl##div[class$="sidebar-widget"] > .textwidget:has(p > a[href*="eredivisiewedden.nl"][target="_blank"])
