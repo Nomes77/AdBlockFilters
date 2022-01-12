@@ -366,7 +366,6 @@ hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:has(.ads
 ! 2021-10-13
 assercourant.nl,emmercourant.nl##div[class^="col-sm-"]:has(.ad-item)
 zuidenvelder.info##.bg-grey.mb-20:has([advobject])
-inzod.nl##.gofollow
 drentsnieuws.nl###g-header:has(img[src$=".gif"])
 noordernieuws.nl##[id^="slideshowwidget"]:has(img[src$=".gif"])
 nieuws.nl##.nieuws-banner
