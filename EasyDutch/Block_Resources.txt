@@ -1,3 +1,5 @@
+! 2022-01-12
+||frontline.digital/wp-content/uploads/*/*MM_500x500_IAB.$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105265
 ||truck1.be/st2/banners/$subdocument
 ||truck1-nl.be/st2/banners/$subdocument
