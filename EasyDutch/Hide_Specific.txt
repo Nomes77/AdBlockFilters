@@ -1,4 +1,5 @@
 ! 2021-01-12
+crypto-insiders.nl##article.format-standard:has([id^="div-gpt-ad"])
 frontline.digital##[id^="block-"]:has(a[href^="https://clk.tradedoubler.com/click"])
 ! 2022-01-07
 ajaxreport.nl,psvreport.nl##[id^="text"][class$="sidebar-widget"]:has-text(/casino/i):not(:has(div[class="widget-title"]))
