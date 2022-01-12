@@ -1,4 +1,4 @@
-! 2021-01-12
+! 2022-01-12
 actueel-nieuws.besteoverzicht.nl##.block:has-text(Gesponsorde)
 belgischecasinos.be##.gofollow
 crypto-insiders.nl##article.format-standard:has([id^="div-gpt-ad"])
