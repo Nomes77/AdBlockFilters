@@ -1,3 +1,5 @@
+! 2021-01-12
+frontline.digital##[id^="block-"]:has(a[href^="https://clk.tradedoubler.com/click"])
 ! 2022-01-07
 ajaxreport.nl,psvreport.nl##[id^="text"][class$="sidebar-widget"]:has-text(/casino/i):not(:has(div[class="widget-title"]))
 ajaxreport.nl,feyenoordreport.nl,livestreamvandaag.be,onlinekraslotenrss.nl,onlinepokerrss.nl,psvreport.nl,sportweddenrss.nl,voetbalsnafu.nl##.widget_links
