@@ -1,4 +1,6 @@
 ! 2022-01-12
+newspower.nu##.gofollow
+newspower.nu##aside[class^="td_block"]:has(.gofollow)
 actueel-nieuws.besteoverzicht.nl##.block:has-text(Gesponsorde)
 belgischecasinos.be##.gofollow
 crypto-insiders.nl##article.format-standard:has([id^="div-gpt-ad"])
