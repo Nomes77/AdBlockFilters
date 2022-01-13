@@ -1,4 +1,5 @@
 ! 2022-01-13
+nd.nl##.desktoponly > .text-center
 rtlnieuws.nl###rtln-ad-advertorial
 rtlnieuws.nl##.billboard
 rtlnieuws.nl##div[class$=_with_ad__ad]
