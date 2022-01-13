@@ -285,6 +285,7 @@ tvgids.tv##.col-left
 tvgids.tv##.col-right
 secretcircle.com##.column:has(.advert)
 freesoccer.nl##.container-fluid.site-header
+xmissy.nl##.container-linkpartners
 landenweb.nl##.content > table:has(:scope > tbody:has-text(advert))
 waarzo.nl##.contentbox:has-text(Advertentie)
 iex.nl##.ContentPartner
@@ -499,6 +500,7 @@ nnieuws.be##.region-banner-diamond
 regionoordkop.nl##.regio-widget
 tweakers.net##.reserveSpace
 halstadcentraal.nl##.respbanners
+xmissy.nl##.rightbar > :has([src^="https://ads."])
 schaefer-shop.nl##.row > [class]:has(.sfr-pdp-section[id$="crossseller"])
 zeelandnet.nl##.row--bnr-between
 rtlboulevard.nl##.rtldart
