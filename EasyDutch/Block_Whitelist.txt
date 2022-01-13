@@ -46,4 +46,3 @@
 @@||showmodeluitverkoop.nl/upload/advertentie/
 @@||te-les-koop.nl/advertenties.php
 @@||tools.vpscash.nl/datingv3/docs/plug_and_play/$subdocument,domain=flirtmee.nl
-@@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
