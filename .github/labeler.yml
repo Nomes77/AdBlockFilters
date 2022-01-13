@@ -24,7 +24,7 @@ comments:
 labels:
   'invalid':
     include:
-      - '\Put the copied text here\, by replacing this line\'
+      - 'Put\\sthe\\scopied\\stext\\shere\,\\sby\\sreplacing\\sthis\\sline'
     exclude:
-      - '\Possible solution for the problem\.\'
-      - '\Your Question\(s\) \/ Uw vraag\'
+      - 'Possible\\ssolution\\sfor\\sthe\\sproblem\.'
+      - 'Your\\sQuestion\(s\)\\s\/\\sUw\\svraag'
