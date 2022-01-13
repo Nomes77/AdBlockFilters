@@ -10,7 +10,3 @@ caseSensitive: true
 # Explicit keyword mappings to labels. Form of match:label. Required.
 labelMappings:
   <!-- Put the copied text here, by replacing this line / Zet hier de gekopieerde tekst neer, door deze regel te overschrijven -->: invalid
-  [ ] This is a **Dutch** website: invalid
-  [ ] Only ads or anti-adblock: invalid
-  [ ] uBlock Origin with default lists: invalid
-  [ ] uBlock Origin is the only extension: invalid
