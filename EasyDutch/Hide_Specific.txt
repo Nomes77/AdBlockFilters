@@ -427,7 +427,9 @@ mijn-tv-gids.be##.midzone
 scholieren.com##.min-h-250
 scholieren.com##.min-h-90
 wielerflits.be,wielerflits.nl##.mm_container
-!#if env_mobile nudeviste.be,nudevista.nl !#endif##.mob_adv
+!#if env_mobile
+nudeviste.be,nudevista.nl##.mob_adv
+!#endif
 video18.nl##.modal
 radioeenhoorn.nl##.module_round_box
 vrouwen-sexdate.be##.moduletable:has-text(Advert)
@@ -853,7 +855,9 @@ weeronline.nl##div[class^="styled__FooterAdWrapper-"]
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
 banknieuws.info##div[class="widget HTML"]
 basketball.nl##div[data-component="partner"]
-!#if env_mobile nu.nl !#endif##div[data-type="tealium"]
+!#if env_mobile
+nu.nl##div[data-type="tealium"]
+!#endif
 motokicx.com##div[id^="adtemplate"]
 sexjobs.nl##div[id^="banner-"]
 motokicx.com##div[id^="bannerhome"]
