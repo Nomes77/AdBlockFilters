@@ -4,6 +4,7 @@ labels: question
 body:
   - type: checkboxes
     attributes:
+      label: Prerequisites / Vereisten
       options:
         - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
