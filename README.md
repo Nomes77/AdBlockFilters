@@ -27,7 +27,7 @@ My own updated version of EasyList Dutch special for uBlock Origin, so I use onl
 
 I made this filter because the EasyList Dutch filter isn't maintained often. <br>
 So I made this to provide you a better service!! <br>
-This list also handles anti-adblock, which isn't done by EasyList Dutch. See these comments for more information: (https://github.com/easylist/easylistdutch/issues/11#issuecomment-818864565; https://github.com/easylist/easylistdutch/issues/30#issuecomment-1011180477).
+This list also handles anti-adblock, which isn't done by EasyList Dutch. See these comments for more information: [easylist/easylistdutch#11 (comment)](https://github.com/easylist/easylistdutch/issues/11#issuecomment-818864565) and [easylist/easylistdutch#11 (comment)](https://github.com/easylist/easylistdutch/issues/30#issuecomment-1011180477).
 
 If you see ads on dutch websites please [report](https://github.com/BPower0036/AdBlockFilters/issues/new/choose) it to me or sent me an email to easydutch.adblock@gmail.com <br>
 For contributing see: [CONTRIBUTING.md](https://github.com/BPower0036/AdBlockFilters/blob/main/CONTRIBUTING.md)
