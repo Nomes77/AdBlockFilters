@@ -1,4 +1,5 @@
 ! 2022-01-13
+antilliaansdagblad.com##.bannergroup
 beursgorilla.nl##.ut--billboard
 beursgorilla.nl##.ut--rectangle
 nnp.nl##.bg-gray-100:has([advobject])
