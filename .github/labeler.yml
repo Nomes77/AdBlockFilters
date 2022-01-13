@@ -24,7 +24,7 @@ comments:
 labels:
   'invalid':
     include:
-      - 'Put\\sthe\\scopied\\stext\\shere\,\\sby\\sreplacing\\sthis\\sline'
+      - '/copied\\stext/'
     exclude:
-      - 'Possible\\ssolution\\sfor\\sthe\\sproblem\.'
-      - 'Your\\sQuestion\(s\)\\s\/\\sUw\\svraag'
+      - '/Possible\\ssolution\\sfor\\sthe\\sproblem\./'
+      - '/Your\\sQuestion\(s\)\\s\/\\sUw\\svraag/'
