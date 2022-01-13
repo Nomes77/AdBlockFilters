@@ -716,6 +716,7 @@ audiobookbay.nl##[href="/dl-14-days-trial"]
 vagina.nl##[id$="fish-hooks"]
 pornozot.com##[id$="iframe"]:has-text(/Reclame/i)
 gaynews.nl##[id^="abri"]
+besteproduct.nl##[id^="ad-block"]
 kinkymedia.nl##[id^="adguru-zone-widget"]
 online-radio.nl##[id^="AdvertMid"]
 bol-an.nl##[id^="block-"]:has([src*="_Banner"])
