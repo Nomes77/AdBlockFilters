@@ -106,7 +106,6 @@
 ||radiocoupon.nl^$3p
 ||schoorsteen.geenstijl.nl^$3p
 ||sdcash.nl^$3p
-||static-cdn.spott.ai^$3p
 ||static-dscn.net^$3p
 ||teasemedia.nl^$3p
 ||tradetracker.com^$3p
