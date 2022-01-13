@@ -1,4 +1,6 @@
 ! 2022-01-13
+beursgorilla.nl##.ut--billboard
+beursgorilla.nl##.ut--rectangle
 nnp.nl##.bg-gray-100:has([advobject])
 nd.nl##.desktoponly > .text-center
 rtlnieuws.nl###rtln-ad-advertorial
@@ -943,8 +945,6 @@ weertdegekste.nl##.infeed-wrap
 dolcevia.com##.ira-container.ira-format-block > .bookingaff
 almere-nieuws.nl##.jeg_container > .jeg_container:has(.jeg_ad)
 guldencourant.nl##.jeg_midbar:has([class^="ads-wrapper"])
-beursgorilla.nl##.js--billboard.ut--billboard
-beursgorilla.nl##.js--rect.ut--rectangle
 gratispornofilm.nl##.lazyloaded.block-bordered
 speeleiland.nl##.leader-below-game
 voetbalkrant.com##.leaderboard
