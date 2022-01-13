@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 31-12-2021
+! Last updated: 13-01-2022
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -454,6 +454,7 @@ no-large-media: behind-the-scene true
 * static.squarespace.com * noop
 * static1.squarespace.com * noop
 * cdn.sstatic.net * noop
+* stackpathcdn.com * noop
 * static.staff-start.com * noop
 * statpedia.com * noop
 * storage.googleapis.com * noop
@@ -734,6 +735,7 @@ figshare.com figstatic.com * noop
 file-scheme * 1p-script block
 file-scheme * inline-script block
 accounts.firefox.com mozilla.net * noop
+profiler.firefox.com perf-html.netlify.com * noop
 www.flickr.com combo.staticflickr.com * noop
 www.fool.com foolcdn.com * noop
 www.forbes.com i.forbesimg.com * noop
@@ -772,6 +774,8 @@ godaddy.com img1.wsimg.com * noop
 google.com content.googleapis.com * noop
 google.com googleusercontent.com * noop
 translate.google.com translate.goog * noop
+translate.googleusercontent.com translate.google.com * noop
+translate.googleusercontent.com translate.googleapis.com * noop
 www.gooieneembode.nl pubblewebsites.cloudapp.net * noop
 www.govoyagin.com voyagin.sslcs.cdngc.net * noop
 govtslaves.info cache.worldstarhiphop.com * noop
@@ -866,6 +870,8 @@ admin.microsoft.com shellprod.msocdn.com * noop
 admin.microsoft.com office.com * noop
 admin.microsoft.com res.office365.com * noop
 answers.microsoft.com msecnd.net * noop
+partner.microsoft.com msecnd.net * noop
+partner.microsoft.com wpc.v0cdn.net * noop
 cmt3.research.microsoft.com client.hip.live.com * noop
 teams.microsoft.com statics.teams.cdn.office.net * noop
 www.microsoft.com mem.gfx.ms * noop
@@ -877,6 +883,7 @@ login.microsoftonline.com msftauth.net * noop
 login.microsoftonline.com office.com * noop
 login.microsoftonline.com outlook.office365.com * noop
 login.microsoftonline.com account.activedirectory.windowsazure.com * noop
+www.momondo.nl content.r9cdn.net * noop
 nl.motorsport.com motorsport.tv * noop
 hubs.mozilla.com assets-prod.reticulum.io * noop
 addons.mozilla.org addons-amo.cdn.mozilla.net * noop
@@ -892,6 +899,7 @@ www.natuurmonumenten.nl natuurmonumenten.ent.platform.sh * noop
 www.nbcdfw.com npmcdn.com * noop
 www.nbcnews.com media1.s-nbcnews.com * noop
 www.nbcnews.com ndassets.s-nbcnews.com * noop
+www.nederlandwereldwijd.nl bz.platformrijksoverheid.nl * noop
 www.netflix.com codex.nflxext.com * noop
 www.news.com.au resources.newscdn.com.au * noop
 www.news.com.au resourcesssl.newscdn.com.au * noop
@@ -990,6 +998,7 @@ sporza.be cdn.vuplay.co.uk * noop
 spotify.com scdn.co * noop
 stacksocial.com shops1.stackassets.com * noop
 www.stager.live pic.stagerlive.com * noop
+nieuws.startkabel.nl cache.cabla.nl * noop
 www.statista.com cdn.statcdn.com * noop
 steamcommunity.com steamstatic.com * noop
 store.steampowered.com steamstatic.com * noop
@@ -1046,6 +1055,7 @@ account.activedirectory.windowsazure.com prd.aadg.trafficmanager.net * noop
 wixsite.com usrfiles.com * noop
 wixsite.com wixstatic.com * noop
 wolframalpha.com www.wolframcdn.com * noop
+www.womenshealthmag.com cdn.cookielaw.org * noop
 wordpress.org s.w.org * noop
 worldoftanks.com na-wotp.wgcdn.co * noop
 worldofwarships.com wowsp-wows-na.wgcdn.co * noop
@@ -1059,12 +1069,14 @@ view.yahoo.com viewport.videovore.com * noop
 www.yahoo.com mbp.yimg.com * noop
 yandex.com yastatic.net * noop
 www.zdnet.com cdn.cookielaw.org * noop
+www.zelfzorg.nl loadbalancer.verona.hoppinger.com * noop
 * https://cdn.bluebillywig.com/apps/player/ script noop
 * https://docs.google.com/forms/ sub_frame noop
 * https://www.google.com/recaptcha/ script noop
 * https://www.google.com/maps/ sub_frame noop
 * https://www.google.com/recaptcha/ sub_frame noop
 * https://www.skoften.net/video/embed/ sub_frame noop
+complex.com https://geolocation.onetrust.com/cookieconsentpub/ script noop
 freebitco.in https://www.google.com/jsapi?autoload= script noop
 radio.nl https://massariuscdn.com/pubs/radionl/radionl_hb_setup.js script noop
 sportnieuws.nl https://static.spott.ai/videoplayer/ script noop
