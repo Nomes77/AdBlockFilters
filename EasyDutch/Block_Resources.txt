@@ -1,5 +1,5 @@
 ! 2022-01-13
-||antilliaansdagblad.com/images/*_200x200px.jpg^$image
+||antilliaansdagblad.com/images/*200x200px*$image
 ||notebookcheck.nl/fileadmin/Sonstiges/amaz_$xhr
 ! 2022-01-12
 ||newspower.nu/wp-content/uploads/*/*/*.gif$image
@@ -478,7 +478,6 @@
 ||meidenzoekensex.nl/assets/img/shemaledate$image
 ||tienersexpret.nl/images/eroshop$image
 ||tienersexpret.nl/images/kinkysex$image
-||antilliaansdagblad.com/images/*-200x200px*.gif$image
 ! 2021-05-31
 .nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 /images/banners/*$image,domain=deperfecte-sexdate.be|deperfecte-sexdate.nl|neukengratis.be|neuk-sexcontact.be|sexcontact-xxx.be|sexdate-xxx.be|sexdating4u.be|vrouwsex.be
