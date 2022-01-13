@@ -8,15 +8,11 @@ enable:
 
 comments:
   issues: |
-    Thanks for opening this issue!
-    I have applied any labels matching special text in your title and description.
-
-    Please review the labels and make any necessary changes.
+    Thank you @{{ issue.user.login }} for suggesting this.
+    Please follow the issue templates.
   prs: |
-    Thanks for the contribution!
-    I have applied any labels matching special text in your title and description.
-
-    Please review the labels and make any necessary changes.
+    Thank you for suggesting this.
+    Please follow the issue templates.
 
 # Labels is an object where:
 # - keys are labels
@@ -29,4 +25,6 @@ labels:
   'invalid':
     include:
       - '\Put the copied text here\, by replacing this line\'
-    exclude: []
+    exclude:
+      - '\Possible solution for the problem\.\'
+      - '\Your Question\(s\) \/ Uw vraag\'
