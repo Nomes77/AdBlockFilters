@@ -1,4 +1,5 @@
 ! 2022-01-13
+kledingmaten.nl##[id^="text-"]:has-text(Advert)
 antilliaansdagblad.com##.bannergroup
 beursgorilla.nl##.ut--billboard
 beursgorilla.nl##.ut--rectangle
