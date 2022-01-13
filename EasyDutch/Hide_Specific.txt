@@ -4,8 +4,6 @@ beursgorilla.nl##.ut--billboard
 beursgorilla.nl##.ut--rectangle
 nnp.nl##.bg-gray-100:has([advobject])
 nd.nl##.desktoponly > .text-center
-rtlnieuws.nl###rtln-ad-advertorial
-rtlnieuws.nl##.billboard
 rtlnieuws.nl##div[class$=_with_ad__ad]
 ! 2022-01-12
 newspower.nu##.gofollow
