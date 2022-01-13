@@ -1,3 +1,5 @@
+! 2022-01-13
+||notebookcheck.nl/fileadmin/Sonstiges/amaz_$xhr
 ! 2022-01-12
 ||newspower.nu/wp-content/uploads/*/*/*.gif$image
 ||frontline.digital/wp-content/uploads/*/*MM_500x500_IAB.$image
@@ -206,8 +208,6 @@
 ||xmissy.nl/admnfiles1809/*/freechatbanner_$image,3p
 ||clubxmissy.nl/banners/*$image,3p
 ||buzzbie.nl/buzzbanners/*.js$script,1p
-! 2021-10-11
-||notebookcheck.nl/fileadmin/Sonstiges/am_$xhr
 ! 2021-10-07
 ||ninefornews.nl/wp-content/a-d-s/*
 ! 2021-09-27
