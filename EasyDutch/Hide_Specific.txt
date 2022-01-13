@@ -1,4 +1,5 @@
 ! 2022-01-13
+nnp.nl##.bg-gray-100:has([advobject])
 nd.nl##.desktoponly > .text-center
 rtlnieuws.nl###rtln-ad-advertorial
 rtlnieuws.nl##.billboard
