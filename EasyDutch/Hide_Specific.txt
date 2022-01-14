@@ -651,8 +651,7 @@ onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
 voetbal4u.be##.widget-container:has([id^="text-"]:has(script[src*="/ad"]))
 voetbal4u.com##.widget-container:has([id^="text-"]> h4)
 indebuurt.nl##.widget-tabs--partner
-ninefornews.nl##.widget-top:has-text(/Gesponsorde/i) 
-ninefornews.nl##.widget-top:has-text(/Sponsored/i)
+ninefornews.nl##.widget-top:has-text(/sponsor/i) 
 telegraaf.nl##.withBanners
 eindtijdklok.org##.wpa
 dagelijksestandaard.nl##.wpb_content_element.vc_separator:nth-of-type(4)
