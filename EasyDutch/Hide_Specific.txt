@@ -829,8 +829,7 @@ rtveen.nl##div.category:has-text(Advert)
 opiniepeilers.nl##div.contentContainer:has(img[src^="/content/"])
 mariogames.be##div.gameinfo:has-text(/sponsored links/i)
 watchfaces.be##div.google
-loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Advertentie))
-loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(Banner))
+loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(/Advertentie|Banner/))
 knhs.nl##div.row:has(:scope > section > .cycler:has(img[src*="banner"]))
 dagelijksestandaard.nl##div.wpb_raw_code > .wpb_wrapper:has(div[style="padding:20px;"])
 oisterwijknieuws.nl##div[align="center"] a[target="_blank"]
