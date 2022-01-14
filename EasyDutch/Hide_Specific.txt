@@ -238,8 +238,7 @@ iex.nl##.billboardwrap
 belegger.nl,beursonline.nl,debeurs.nl,eurobench.com##.Billboard-wrapper
 azerty.nl##.block.mod_article:has(.flexslider)
 veto.be##.block.spacer:has(#advert-campaign)
-actueel-nieuws.besteoverzicht.nl##.block:has-text(Gesponsorde)
-nieuws.besteoverzicht.nl##.block:has-text(Gesponsorde)
+besteoverzicht.nl##.block:has-text(Gesponsorde)
 rubenweytjens.be##.block-ad-banner
 agconnect.nl##.block-adfo-blocks:has(img[src*="/partner"])
 luchtvaartnieuws.nl##.block-block >.content:has(.adsbygoogle)
