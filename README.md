@@ -19,7 +19,7 @@ Adblock filters made for [uBlock Origin](https://github.com/uBlockOrigin/uAssets
 | [EasyDutch](#easydutch) |
 | [Dynamic Rules](#dynamic-rules) |
 | [My Filters](#my-filters) |
-| [View and Subscribe](#specific-general-hide) |
+| [View and Subscribe](#view-and-subscribe-to-my-filterlists) |
 | [Support](#support) |
 -----
 ## [EasyDutch](https://github.com/BPower0036/AdBlockFilters/tree/main/EasyDutch)
