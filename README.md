@@ -61,5 +61,3 @@ See for more [`Others`](https://github.com/BPower0036/AdBlockFilters/tree/main/O
 
 ## *Support*
 If you want to buy me a cup of coffee or want to support me, you can donate via [PayPal](https://www.paypal.com/donate?hosted_button_id=M4D2NPZX5NS4C)
-
-##### Contributor : [JohnyP36](https://github.com/JohnyP36)
