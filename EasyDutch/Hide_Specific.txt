@@ -820,7 +820,7 @@ onlineluisteren.nl##center > div:has(.adsbygoogle)
 briefjevanjan.nl##center:has([src^="https://partner.bol.com/"])
 oops.nl##center:has-text(Klik hier voor meer webcams)
 historiek.net##div.ai-viewport-1
-nu.nl##div.articlelist[data-section^="advertorial][data-section$="-adverteerder"]
+nu.nl##div.articlelist[data-section^="advertorial"][data-section$="-adverteerder"]
 barneveldsekrant.nl,edestad.nl##div.bg-grey.text-center:has-text(/advertentie|Regiotreffers/)
 pcmweb.nl##div.block:has([id^="div-gpt-ad"])
 pcmweb.nl##div.block:has-text(Vacatures)
