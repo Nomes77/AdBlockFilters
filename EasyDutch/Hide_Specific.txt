@@ -727,7 +727,7 @@ blikopnieuws.nl##[id^="block-block-"]:has([target="_blank"] > img.media-element)
 luchtvaartnieuws.nl##[id^="block-block-"]:has-text(/voordelige/i)
 online-radio.nl##[id^="containersitead"]
 cryptosjop.nl##[id^="custom_html-"]:has(.bitvavo-widget)
-rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"]):has-text(deze banner)
+rtvalbrandswaard.com##[id^="custom_html-"]:has([src^="https://bannerbuilder.sponsorkliks.com/"])
 pornopower.nl##[id^="custom_html"]:has([src^="https://chainadvertising.eu/"])
 janvissersweer.nl##[id^="custom_html-"]:has([src^="https://pagead2.googlesyndication.com/"])
 grandprixradio.nl##[id^="custom_html-"]:has([src^="https://partner.bol.com/"])
