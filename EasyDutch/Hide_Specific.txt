@@ -608,7 +608,7 @@ deperfecte-sexdate.be,neuk-sexcontact.be##.well:has(img[src^="/images/banners"])
 belgie-sexdate.be##.well:has(img[src^="https://www.2k19.nl/"])
 geile-sexverhalen.be##.well:has-text(Sponsers)
 transfermarkt.nl##.werbung
-androidplanet.nl##.w-full:has-text(ADV):has-text(Gesponsord door):has-text(Advertentie)
+androidplanet.nl##.w-full:has-text(/ADV|Gesponsord door|Advertentie/)
 baarsclassicrock.nl##.widebanner
 itnijs.frl##.widget > .banner
 transport-online.nl##.widget:has(.advertisement-new:not(:has(a[href$="/adverteerdersinformatie/"])))
