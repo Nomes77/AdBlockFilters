@@ -674,7 +674,7 @@ domstadradio.nl##[class*="elementor-element-"]:has-text(/onze sponsors/i)
 meerdangewenst.nl##[class*="footer-section"]:has(.sponsoren)
 hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
 telefoonboek.nl##[class*="organic-"]:has-text(Advertentie)
-barneveldsekrant.nl,edestad.nl##[class] > [id="div-gpt-ad-banner"]:has-text(advertentie)
+barneveldsekrant.nl,edestad.nl##[class] > [id="div-gpt-ad-banner"]
 infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
 treinreiziger.nl##[class^="ads-adsense-"]
 poki.be##[class^="Advertisement__AdvertisementContainer"]
@@ -823,8 +823,7 @@ briefjevanjan.nl##center:has([src^="https://partner.bol.com/"])
 oops.nl##center:has-text(Klik hier voor meer webcams)
 historiek.net##div.ai-viewport-1
 nu.nl##div.articlelist[data-section^="advertorial][data-section$="-adverteerder"]
-barneveldsekrant.nl,edestad.nl##div.bg-grey.text-center:has-text(advertentie)
-barneveldsekrant.nl,edestad.nl##div.bg-grey.text-center:has-text(Regiotreffers)
+barneveldsekrant.nl,edestad.nl##div.bg-grey.text-center:has-text(/advertentie|Regiotreffers/)
 pcmweb.nl##div.block:has([id^="div-gpt-ad"])
 pcmweb.nl##div.block:has-text(Vacatures)
 classic.nl##div.brievenbus
