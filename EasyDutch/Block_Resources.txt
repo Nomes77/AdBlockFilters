@@ -420,8 +420,6 @@
 ||truck1.be/st2/banners/$subdocument
 ||truck1.nl/st2/banners/$subdocument
 ||truck1-nl.be/st2/banners/$subdocument
-||tube.nederlandseporno.nl/wp-content/uploads/islive.gif
-||tube.nederlandseporno.nl/wp-content/uploads/neukertjes.gif
 ||turksemedia.nl/logos/*.
 ||tweedehandschristelijkeboeken.nl/wp-content/uploads/*/gratis-eo-visie.png$image
 ||twentefm.nl/directcast/custom/rtvnot/playout/commercials/
