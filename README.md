@@ -18,7 +18,8 @@ Adblock filters made for [uBlock Origin](https://github.com/uBlockOrigin/uAssets
 -----
 ## [EasyDutch](https://github.com/EasyDutch-uBO/EasyDutch/)
 **IMPORTANT NOTE: I have moved EasyDutch to a new organization. I can be found here: <br>
-[EasyDutch-uBO/EasyDutch/](https://github.com/EasyDutch-uBO/EasyDutch/)**
+[EasyDutch-uBO/EasyDutch/](https://github.com/EasyDutch-uBO/EasyDutch/)** <br>
+I left everything here, just as back-up
 
 My own updated version of EasyList Dutch special for uBlock Origin, so I use only the uBlock syntax. 
 
