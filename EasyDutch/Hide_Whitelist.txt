@@ -21,5 +21,4 @@ vakantieplaats.nl#@#.feed-ad
 !#if env_mobile
 klusidee.nl#@#.header-ad
 !#endif
-kamernet.nl#@#.topAdd
 vakantieplaats.nl#@#.topAds
