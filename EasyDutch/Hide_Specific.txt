@@ -1,3 +1,20 @@
+! https://github.com/EasyDutch-uBO/EasyDutch/pull/7
+nieuwsonline.nu##.widget-title:has-text(/Advert|AD/):upward(1)
+nieuwsonline.nu##.split-images-news-section:has(.section-title:has-text(Advert))
+! 2022-01-14
+biernet.nl###BJA2
+biernet.nl###BJA3
+biernet.nl##div[id^="banTop"]:has([class*="ad-wrapper"])
+dutchleader.nl##td[align="CENTER"]:has(td[background*="pics"]:has-text(/sponsor/i))
+duurzaam-actueel.nl##[class*="bd-block"]:has(a[href]):has(img[src*="wp-content/uploads/"])
+duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
+forum.spaarinformatie.nl##table:has-text(/advert/i)
+handbalstartpunt.nl##aside > div[class]:has(> .adsbygoogle)
+handbalstartpunt.nl##p:has(img[src*="Logo"])
+kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
+kinkymedia.nl##aside > div[id^="media_image"]:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
+mygaydate.nl##.rand:has([href^="https://www.shemalecontactnederland.nl/"])
+netonline.be##.tekstboldwit td:has-text(/advert/i)
 ! 2022-01-13
 morningstar.*###ad_top_page
 asex.nl###adblk1
@@ -19,7 +36,6 @@ gooieneemlander.nl,noordhollandsdagblad.nl,leidschdagblad.nl###advertorial-desti
 sexdating-vrouwen.be###aside > :has(iframe[data-src*="affilaxy.com"])
 autozine.nl###asidetop
 ciaotutti.nl###b_searchboxInc
-biernet.nl###ban_blok
 belgiancycling.be###banner
 afkortingen.nu###banner_rectangle
 afkortingen.nu###banner_right
@@ -32,7 +48,6 @@ a1mediagroep.nl,brandweerspotters.nl,coc.nl,fanclubbarcelona.nl,noordkopcentraal
 almere-nieuws.nl###banner-text2
 marktplaats.nl,2dehands.be###banner-top-dt
 historiek.net###before-header
-biernet.nl###BJA3
 qseks.nl###black-studio-tinymce-2:has-text(Advertentie)
 zakenreisnieuws.nl###block-views-banner_carousel-block
 willem-ii.nl###block-views-block-view-business-partners
