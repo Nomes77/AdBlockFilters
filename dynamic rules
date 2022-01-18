@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 13-01-2022
+! Last updated: 18-01-2022
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -847,6 +847,9 @@ support.logmeininc.com assets.cdngetgo.com * noop
 www.logos.com sites-assets.faithlifecdn.com * noop
 www.logos.com gleam.io * noop
 www.lonelyplanet.com assets.staticlp.com * noop
+nl.lxax.com ahacdn.me * noop
+nl.lxax.com g-om.com * noop
+nl.lxax.com sys.vidsrev.com * noop
 www.marketwatch.com wsj.net * noop
 www.marktplaats.nl cdn.ebayclassifieds.net * noop
 mashable.com a.amz.mshcdn.com * noop
@@ -1045,6 +1048,7 @@ www.walmart.com i5.wal.co * noop
 www.walmart.com i5.walmartimages.com * noop
 weather.com s.w-x.co * noop
 www.weespernieuws.nl pubblewebsites.cloudapp.net * noop
+wereldklokken.nl 24timezones.com * noop
 westerndigital.com static.sandisk.com * noop
 wikia.com wikia.nocookie.net * noop
 account.activedirectory.windowsazure.com login.microsoftonline.com * noop
