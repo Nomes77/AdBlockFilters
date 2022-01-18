@@ -160,7 +160,7 @@ gab.com##article[data-id^="gab-ad-status-"]
 gab.com##div[role="feed"] > div:not(div[class])
 github.com##[data-repository-hovercards-enabled] > div[class] > .body:has(a[data-hovercard-type="user"][href="/dcharkes"])
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-instagram.com#?#button:has(svg[aria-label^="Information icon"]):has-text(COVID):upward(2)
+instagram.com#?#button:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(2)
 instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
 instagram.com#?#div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
 library.etf.edu##.attention-note:has-text(COVID Update)
