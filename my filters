@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 04-01-2022
+! Last updated: 18-01-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -158,14 +158,11 @@ gab.com##:matches-path(/\/home|\/groups/) aside[class]:not(:has-text(Groups)):no
 gab.com##article[data-id^="timeline-injection"]
 gab.com##article[data-id^="gab-ad-status-"]
 gab.com##div[role="feed"] > div:not(div[class])
-instagram.com##.VZk0N._nuMd
-instagram.com##.enqOc.ByB5K
+github.com##[data-repository-hovercards-enabled] > div[class] > .body:has(a[data-hovercard-type="user"][href="/dcharkes"])
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Information icon"]):not(:has([role="presentation"])):not(:has(button > div.coreSpriteRightChevron))
-instagram.com#?#article[role="presentation"] > div[class] > div[class] div[class]:has([aria-label^="Warning icon"]):not(:has([role="presentation"])):not(:has(button > div.coreSpriteRightChevron))
-instagram.com#?#div[style^="height:"] > section[class] > div[class] > div[class]:has([aria-label^="Information icon"])
+instagram.com#?#button:has(svg[aria-label^="Information icon"]):has-text(COVID):upward(2)
 instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
-instagram.com#?#div[class][role="presentation"]:has([role="dialog"]:has(:scope > div[class]:has(h2[class]:has-text(cookies))):has(a[href="/legal/cookies/"]))
+instagram.com#?#div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
 library.etf.edu##.attention-note:has-text(COVID Update)
 mail.google.com##div[style^="position: relative;"] div[style^="height:"]:has(div[id][class][style^="min-height: "]):style(scrollbar-width: none !important;)
 news.google.com##[jsdata*="covid-banner"]
@@ -180,11 +177,13 @@ pinterest.*##header[data-test-id=unauthHeader] ~ div[data-test-id=fullPageSignup
 pinterest.*##div[data-test-id=pin-closeup-image] > div[role=button] > div:not([class]) ~ div
 threader.app##.annotation-details:has-text(COVID)
 translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
+translate.google.com##section:has-text(/COVID/i)
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
 www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important; )
 www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important; )
+www.youtube.com##:matches-path(/\/feed\/subscriptions/) #details #channel-name:has-text(Hananya Naftali):upward(7)
 !--Anti Google Chrome Download Message, Cookie Banner and Login
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout
 www.youtube.com##.ytd-popup-container.style-scope > .ytd-mealbar-promo-renderer.style-scope
