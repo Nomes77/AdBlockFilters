@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 18-01-2022
+! Last updated: 21-01-2022
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -402,6 +402,7 @@ no-large-media: behind-the-scene true
 * static.reembed.com * noop
 * www.reverbnation.com * noop
 * vip0x08e.ssl.rncdn5.com * noop
+* phncdn.com.sds.rncdn7.com * noop
 * roxytube.com * noop
 * rpxnow.com * noop
 * mathjax.rstudio.com * noop
@@ -949,7 +950,6 @@ pinkbike.com pinkbike.org * noop
 pinterest.com s.pinimg.com * noop
 pixiv.net s.pximg.net * noop
 playstation.com auth.api.sonyentertainmentnetwork.com * noop
-www.pornhub.com ei.phncdn.com.sds.rncdn7.com * noop
 potwm.com * 3p-script noop
 qantas.com cdn.qantasloyalty.com * noop
 quora.com qsbr.fs.quoracdn.net * noop
@@ -1012,6 +1012,7 @@ www.target.com assets.targetimg1.com * noop
 www.techradar.com cdn0.static.techradar.futurecdn.net * noop
 www.telegraaf.nl gracenote.com * noop
 www.telegraaf.nl shared.mediahuis.be * noop
+www.template.net cdn.ampproject.org * noop
 www.theblaze.com static.rbl.ms * noop
 www.theguardian.com guim.co.uk * noop
 themeforest.net assets.shopfront.envato-static.com * noop
