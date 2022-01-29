@@ -1,3 +1,5 @@
+! 2022-01-29
+autoweek.nl##+js(set, isAdBlockActive, false)
 ! 2021-11-09
 @@||looopings.nl/wp-banners.js
 looopings.nl##+js(acis, document.getElementById, .style.display=)
