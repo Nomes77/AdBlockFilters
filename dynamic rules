@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 21-01-2022
+! Last updated: 19-02-2022
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -9,7 +9,6 @@ no-large-media: behind-the-scene true
 * cdn.acast.com * noop
 * embed.acast.com * noop
 * addthis.com * noop
-* local.adguard.org * noop
 * entitlement.auth.adobe.com * noop
 * sp.auth.adobe.com * noop
 * assets.adobedtm.com * noop
@@ -63,7 +62,7 @@ no-large-media: behind-the-scene true
 * behind-the-scene * block
 * bigcommerce.com * noop
 * bitchute.com * noop
-* cdn23720755.blazingcdn.net * noop
+* blazingcdn.net * noop
 * embed.blivenyc.com * noop
 * library.blivenyc.com * noop
 * web-cdn.blivenyc.com * noop
@@ -76,7 +75,7 @@ no-large-media: behind-the-scene true
 * cross-border-tag.borderfree.com * noop
 * embassy.borderfree.com * noop
 * app.box.com * noop
-* cdn01.boxcdn.net * noop
+* boxcdn.net * noop
 * braintreegateway.com * noop
 * players.brightcove.net * noop
 * brighteon.com * noop
@@ -120,6 +119,7 @@ no-large-media: behind-the-scene true
 * badge.dimensions.ai * noop
 * discourse-cdn.com * noop
 * disqus.com * noop
+* disqus.map.fastlylb.net * noop
 * c.disquscdn.com * noop
 * currys-ssl.cdn.dixons.com * noop
 * dmcdn.net * noop
@@ -332,7 +332,7 @@ no-large-media: behind-the-scene true
 * vo.msecnd.net * noop
 * app.multilanguage.xyz * noop
 * multistream.one * noop
-* embed.mychannels.video * noop
+* mychannels.video * noop
 * mylivechat.com * noop
 * api.mywot.com * noop
 * vplayer.nbcsports.com * noop
@@ -380,11 +380,9 @@ no-large-media: behind-the-scene true
 * potwm.com * noop
 * pressidium.com * noop
 * prezi.com * noop
-* sdk.privacy-center.org * noop
 * privacy-mgmt.com * noop
 * cmp-consent-tool.privacymanager.io * noop
 * gdpr.privacymanager.io * noop
-* gdpr-consent-tool.privacymanager.io * noop
 * gdpr-wrapper.privacymanager.io * noop
 * protoawe.com * noop
 * static.prvd.com * noop
@@ -401,7 +399,7 @@ no-large-media: behind-the-scene true
 * redtube.com * noop
 * static.reembed.com * noop
 * www.reverbnation.com * noop
-* vip0x08e.ssl.rncdn5.com * noop
+* ssl.rncdn5.com * noop
 * phncdn.com.sds.rncdn7.com * noop
 * roxytube.com * noop
 * rpxnow.com * noop
@@ -500,9 +498,6 @@ no-large-media: behind-the-scene true
 * tradingview.com * noop
 * cdn.transifex.com * noop
 * trinitymedia.ai * noop
-* consent.trustarc.com * noop
-* consent-pref.trustarc.com * noop
-* consent.truste.com * noop
 * widgets.trustedshops.com * noop
 * www.trustedsite.com * noop
 * widget.trustpilot.com * noop
@@ -633,6 +628,7 @@ www.afr.com resources.fairfax.com.au * noop
 www.afr.com www.fairfaxstatic.com.au * noop
 www.agoda.com cdn6.agoda.net * noop
 aliexpress.com assets.alicdn.com * noop
+allestoringen.nl cdn2.downdetector.com * noop
 bookaa.amadeus.com www.aa.com * noop
 bookaa.amadeus.com geetest.com * noop
 aws.amazon.com a0.awsstatic.com * noop
@@ -644,7 +640,6 @@ appleinsider.com www.apple.com * noop
 appleinsider.com insidercdn.com * noop
 arpee.be cacpe.be * noop
 arstechnica.com cdn.arstechnica.net * noop
-www.ask.com partnerads.ysm.yahoo.com * noop
 www.asus.com adn.psicdn.net * noop
 www.authenticwatches.com sep.yimg.com * noop
 aad.portal.azure.com azure.net * noop
@@ -657,6 +652,7 @@ www.bbc.com bbci.co.uk * noop
 www.bbc.com static-web-assets.gnl-common.bbcverticals.com * noop
 www.bbc.com admin.brightcove.com * noop
 www.bedandbreakfast.com csvcus.homeaway.com * noop
+www.beslist.nl cdn.beslist.net * noop
 www.bestbuy.com assets.bbystatic.com * noop
 www.bleepingcomputer.com www.bleepstatic.com * noop
 www.bloomberg.com assets.bwbx.io * noop
@@ -664,13 +660,11 @@ www.bol.com assets.s-bol.com * noop
 secure.booked.net s2.bookcdn.com * noop
 www.booking.com bstatic.com * noop
 app.box.com public.boxcloud.com * noop
-browserleaks.com prod.disqus.map.fastlylb.net * noop
 sport.bt.com img01.bt.co.uk * noop
 www.buienradar.be cdn.buienradar.nl * noop
 businessinsider.in static.clmbtech.com * noop
 camsexbabe.nl pctlwm.com * noop
 camsexbabe.nl prtawe.com * noop
-cbslocal.com cdn.cookielaw.org * noop
 cbslocal.com kappacdn.net * noop
 cbslocal.com geolocation.onetrust.com * noop
 www.cc.com btg.mtvnservices.com * noop
@@ -693,8 +687,9 @@ www.denverpost.com cityspark.com * noop
 www.denverpost.com assets.digitalfirstmedia.com * noop
 www.denverpost.com sip.azurewebsites.windows.net * noop
 deviantart.com st.deviantart.net * noop
-digitaltrends.com consent.cookiebot.com * noop
 www.discovery.com ddmcdn.com * noop
+myprivacy.dpgmedia.nl myprivacy-static.dpgmedia.net * noop
+myprivacy.dpgmedia.nl privacy-mgmt.com * noop
 www.dropbox.com arkoselabs.com * noop
 www.dropbox.com dropboxcaptcha.com * noop
 www.dropbox.com cfl.dropboxstatic.com * noop
@@ -711,8 +706,10 @@ ehubsoft.net content.googleapis.com * noop
 ehubsoft.net accounts.google.com * noop
 ehubsoft.net docs.google.com * noop
 www.electriciantalk.com verticalscope-com.videoplayerhub.com * noop
+www.elitedaily.com * 3p-script noop
 www.elle.com assets.hearstapps.com * noop
 elsevier.com cdn.elsevier.io * noop
+www.endgamegear.nl assets.endgamegear.com * noop
 www.engadget.com static-cdn.spot.im * noop
 www.engadget.com yahoodns.net * noop
 www.entrepreneur.com bapi.adsafeprotected.com * noop
@@ -729,7 +726,7 @@ extreme.com admin.brightcove.com * noop
 www.extremetube.com cdn1-static-extremetube.spankcdn.net * noop
 www.eyeota.com sites.hscoscdn00.net * noop
 fancy.com thefancy.com * noop
-fandom.com wikia.nocookie.net * noop
+fandom.com static.wikia.nocookie.net * noop
 www.farfetch.com cdn-static.farfetch-contents.com * noop
 www.fifthdomain.com video-api.mco.arcpublishing.com * noop
 figshare.com figstatic.com * noop
@@ -760,6 +757,7 @@ www.gameanyone.com www.gameanyone.net * noop
 gamejolt.com s.gjcdn.net * noop
 www.gamepedia.com stations.cursetech.com * noop
 gatherhere.com cdnjs.gathercdn.com * noop
+www.geenstijl.nl gscdn.nl * noop
 www.geniuskitchen.com geniuskitchen.sndimg.com * noop
 www.geniuskitchen.com code.adsales.snidigital.com * noop
 getpocket.com cdn-apple.com * noop
@@ -895,6 +893,7 @@ discourse.mozilla.org cdn.discourse-prod.itsre-apps.mozit.cloud * noop
 support.mozilla.org support.cdn.mozilla.net * noop
 support.mozilla.org static-media-prod-cdn.sumo.mozilla.net * noop
 www.mozilla.org www.mozorg.moz.works * noop
+www.mulders-opel.nl waws-prod-am2-151.cloudapp.net * noop
 www.musiciansfriend.com recs.richrelevance.com * noop
 www.myenglishteacher.eu hb.wpmucdn.com * noop
 myspace.com x.myspacecdn.com * noop
@@ -935,6 +934,7 @@ outlook.office365.com login.microsoftonline.com * noop
 outlook.office365.com shellprod.msocdn.com * noop
 outlook.office365.com webshell.suite.office.com * noop
 outlook.office365.com office.net * noop
+www.omroepwest.nl regiogroei.cloud * noop
 www.onlinevideoconverter.com stackpathdns.com * noop
 www.opendoors.nl truetickets.nl * noop
 www.orbitz.com expedia.com * noop
@@ -945,21 +945,26 @@ pandora.tv player.h-cdn.com * noop
 www.pandora.tv adlc-exchange.toast.com * noop
 www.paramountnetwork.com tve.mtvnservices.com * noop
 www.paramountnetwork.com tvejs.mtvnservices.com * noop
+www.pcgamer.com futurecdn.net.c.footprint.net * noop
+www.pcgamer.com remixd.com * noop
 phys.org internapcdn.net * noop
 pinkbike.com pinkbike.org * noop
 pinterest.com s.pinimg.com * noop
 pixiv.net s.pximg.net * noop
 playstation.com auth.api.sonyentertainmentnetwork.com * noop
+pornhub.com wpc.rncdn4.com * noop
 potwm.com * 3p-script noop
 qantas.com cdn.qantasloyalty.com * noop
 quora.com qsbr.fs.quoracdn.net * noop
 radioluisteren.fm * 3p-script noop
+radiowereld.nl radiowereld.siticdn.nl * noop
 reddit.com redditstatic.com * noop
 redtube.com rdtcdn.com * noop
 www.researchgate.net rgstatic.net * noop
 reuters.com queso-cdn.prod.reuters.tv * noop
 reuters.com reutersmedia.net * noop
 rtl.be videoplaza.tv * noop
+www.rtlnieuws.nl player.rtl.nl * noop
 www.rtlnieuws.nl rtlnederland.qualifioapp.com * noop
 www.rtlnieuws.nl varnish.qualifioapp.com * noop
 www.rtsak.com robtex.com * noop
@@ -978,6 +983,10 @@ sharepoint.com office.net * noop
 shop-list.com global.cdn.idcfcloud.net * noop
 siliconangle.com video.cube365.net * noop
 www.sitepoint.com cdn-enterprise.discourse.org * noop
+www.skype.com azureloginprodwe.cloudapp.net * noop
+www.skype.com login.live.com * noop
+www.skype.com skypeassets.com * noop
+www.skype.com www.tm.a.prd.aadg.trafficmanager.net * noop
 www.skyscanner.com js.skyscnr.com * noop
 www.skyscanner.net js.skyscnr.com * noop
 slack.com a.slack-edge.com * noop
@@ -996,6 +1005,7 @@ www.specsavers.nl fsm1-cdn.attraqt.com * noop
 www.specsavers.nl bsdk.api.ditto.com * noop
 www.speedtest.net b.cdnst.net * noop
 spiceworks.com spiceworksstatic.com * noop
+www.spidersolitairespelen.nl www.squidbyte.com * noop
 spiegel.de arc.nexx.cloud * noop
 sporza.be cdn.vuplay.co.uk * noop
 spotify.com scdn.co * noop
@@ -1037,7 +1047,9 @@ www.twitch.tv twitchcdn.net * noop
 twitter.com twimg.com * noop
 www.usenix.org pantheonsite.io * noop
 vagina.nl cdn.fluidplayer.com * noop
+www.vaillant.nl vaillant-group.com * noop
 variety.com wp.com * noop
+www.vi.nl oneline.nextday.media * noop
 www.vicsdrumshop.com assets.reverbsites.com * noop
 www.viki.com viki.io * noop
 www.viptube.com vptpsn.com * noop
@@ -1051,7 +1063,6 @@ weather.com s.w-x.co * noop
 www.weespernieuws.nl pubblewebsites.cloudapp.net * noop
 wereldklokken.nl 24timezones.com * noop
 westerndigital.com static.sandisk.com * noop
-wikia.com wikia.nocookie.net * noop
 account.activedirectory.windowsazure.com login.microsoftonline.com * noop
 account.activedirectory.windowsazure.com shellprod.msocdn.com * noop
 account.activedirectory.windowsazure.com shell.cdn.office.net * noop
@@ -1060,7 +1071,6 @@ account.activedirectory.windowsazure.com prd.aadg.trafficmanager.net * noop
 wixsite.com usrfiles.com * noop
 wixsite.com wixstatic.com * noop
 wolframalpha.com www.wolframcdn.com * noop
-www.womenshealthmag.com cdn.cookielaw.org * noop
 wordpress.org s.w.org * noop
 worldoftanks.com na-wotp.wgcdn.co * noop
 worldofwarships.com wowsp-wows-na.wgcdn.co * noop
@@ -1069,11 +1079,13 @@ wsj.com wsj.net * noop
 wstream.icu akvideo.stream * noop
 wstream.icu wstream.video * noop
 www.gov.uk assets.publishing.service.gov.uk * noop
+cams.xvideos.com vsmedia.s.llnwi.net * noop
+cams.xvideos.com cdn4.vscdns.com * noop
 yahoo.com yahoodns.net * noop
 view.yahoo.com viewport.videovore.com * noop
 www.yahoo.com mbp.yimg.com * noop
 yandex.com yastatic.net * noop
-www.zdnet.com cdn.cookielaw.org * noop
+www.zdnet.com adtech.redventures.io * noop
 www.zelfzorg.nl loadbalancer.verona.hoppinger.com * noop
 * https://cdn.bluebillywig.com/apps/player/ script noop
 * https://docs.google.com/forms/ sub_frame noop
@@ -1081,7 +1093,7 @@ www.zelfzorg.nl loadbalancer.verona.hoppinger.com * noop
 * https://www.google.com/maps/ sub_frame noop
 * https://www.google.com/recaptcha/ sub_frame noop
 * https://www.skoften.net/video/embed/ sub_frame noop
-complex.com https://geolocation.onetrust.com/cookieconsentpub/ script noop
+cbslocal.com https://w3.mp.lura.live/player/ script noop
 freebitco.in https://www.google.com/jsapi?autoload= script noop
 radio.nl https://massariuscdn.com/pubs/radionl/radionl_hb_setup.js script noop
 sportnieuws.nl https://static.spott.ai/videoplayer/ script noop
