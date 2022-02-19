@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 21-01-2022
+! Last updated: 19-02-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -22,11 +22,11 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 $removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/,domain=google.*
 $removeparam=/^(_u|aqs|atyp|cad|cd|dcr|dpr|ei|esrc|ie|je|oq|rlz|site|sourceid|sxsrf|uact|vet|zx)=/,domain=google.*
 ||google.$removeparam=tab
-||google.*/search$removeparam=/^(client|sa|sclient|sei|source|site)=/
+||google.*/search$removeparam=/^(client|sa|sclient|sei|source|site|ved)=/
 ||google.*/websearch$removeparam=visit_id
 @@||client-channel.google.com/client-channel*zx=$removeparam
-@@||hangouts.google.com/webchat*zx=$removeparam
 @@||news.google.com/*?hl=$removeparam
+@@||mail.google.com/mail/u/$removeparam
 @@||mail.google.com/mail/u/$removeparam
 @@/^https?:\/\/(?:docs|accounts)\.google(?:\.[a-z]{2,}){1,}/$removeparam
 @@/^https?:\/\/(?:[a-z0-9-\.])*drive\.google\.com\/videoplayback/$removeparam
@@ -34,10 +34,9 @@ $removeparam=/^(_u|aqs|atyp|cad|cd|dcr|dpr|ei|esrc|ie|je|oq|rlz|site|sourceid|sx
 @@/^https?:\/\/(?:[a-z0-9-]+\.)*?google(?:\.[a-z]{2,}){1,}\/(?:appsactivity\/|preferences\?[\w\W]*?hl=|recaptcha\/)/$removeparam
 @@/^https?:\/\/(?:[a-z0-9-]+\.)*?google(?:\.[a-z]{2,}){1,}\/(?:s\?tbm=map.*?gs_[a-z]*=.|complete\/search|setprefs|searchbyimage|appsactivity|aclk\?)/$removeparam
 @@$removeparam,domain=myaccount.google.*
-||aliexpress.$removeparam=/^(af|aff_request_id|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|sk|terminal_id|ws_ab_test)=/
+||aliexpress.$removeparam=/^(af|aff_fcid|aff_fsk|aff_request_id|aff_trace_key|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|pvid|sk|spm|terminal_id|utparam|ws_ab_test)=/
 ||aliexpress.$removeparam=/^scm[_a-z-]*=/
 ||amazon.$removeparam=/^(_encoding|aaxitk|ascsubtag|c|camp|creative|creativeASIN|crid|field-lbr_brands_browse-bin|hsa_cr_id|ingress|initialIssue|keywords|linkCode|ms3_c|plattr|qualifier|qid|refRID|rnid|s|smid|spIA|sprefix|tag|th|ts_id|visitId|vt)=/
-||amazon.$removeparam=/^(__mk_[a-z]{1,3}_[a-z]{1,3}|[a-z%0-9]*ie|[^a-z%0-9]adId|colii?d|cv_ct_[a-z]+|p[fd]_rd_[a-z]*|ref_?|sb-ci-[a-z]+|srs?)=/
 ||amazon.*^/aa$removeparam=bitCampaignCode
 @@/^https?:\/\/(?:[a-z0-9-]+\.)*?amazon(?:\.[a-z]{2,}){1,}\/gp\/.*?(?:redirector.html|cart\/ajax-update.html|video\/api\/)/$removeparam
 @@/^https?:\/\/(?:[a-z0-9-]+\.)*?amazon(?:\.[a-z]{2,}){1,}\/(?:hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
@@ -74,7 +73,6 @@ $removeparam=/^(_u|aqs|atyp|cad|cd|dcr|dpr|ei|esrc|ie|je|oq|rlz|site|sourceid|sx
 ||www.facebook.com/plugins/video.php$frame,redirect=click2load.html
 ||spot.im/embed/scripts/launcher.js
 /cdn-cgi/pe/bag2?*connect.facebook.
-dagelijksestandaard.nl##.post-body > .fb-page
 bing.com##[id$="results"] > :has(a[href*="facebook.com/"])
 duckduckgo.com##.result:has([href*="facebook.com"])
 google.*##[data-async-context^="query:"] > div:has(a[href*="facebook.com/"])
@@ -82,8 +80,8 @@ google.*##[data-async-context^="query:"] > div:has(a[href*="facebook.nl/"])
 startpage.com##[class$="result"]:has(a[href*="facebook.com/"])
 !--Anti TikTok
 ||tiktok.com^$3p
-||tiktokcdn.com^$3p
-||tiktokv.com^$3p
+||tiktokcdn.com^$3p,domain=~tiktok.com
+||tiktokv.com^$3p,domain=~tiktok.com
 !--AdGuard Tracking Protection
 .demdex.net/id^$redirect=noop.txt
 ||c00.adobe.com^$redirect=noop.txt
@@ -103,10 +101,11 @@ startpage.com##[class$="result"]:has(a[href*="facebook.com/"])
 !--IDN protection (https://twitter.com/gorhill/status/1422914791077732352)
 ||xn--$doc,frame
 !--Blocked countries
-.cn^$important
-.cn.com^$important
-.ir^$important
-!--Overig
+.cn^$doc,frame,important
+.cn.com^$doc,frame,important
+.ir^$doc,frame,important
+.ru^$doc,frame,important
+!--Other
 *##+js(set, history.length, 2)
 !#if !env_firefox
 *,~hangouts.google.com,~youtube.com,~youtube-nocookie.com##+js(aopr, navigator.getBattery)
@@ -132,6 +131,7 @@ y8.com###Y8_Top_of_Games
 /wp-content/plugins/rcd-right-click-disabler/*$script,1p
 /wp-content/plugins/secure-copy-content-protection/*$script
 /wp-content/plugins/simple-adblock-notice/*$~css
+/wp-content/plugins/smio-push-notification
 /wp-content/plugins/ungrabber/js/*$script
 /wp-content/plugins/wp-content-copy-protection/*
 ||foxpush.net^$3p
@@ -143,8 +143,6 @@ y8.com###Y8_Top_of_Games
 ||zoom.us/launch/download/*/meeting/*/Zoom_launcher.exe$subdocument,domain=us02web.zoom.us
 @@||y8.com/games/*.js?referer=$xhr,domain=y8.com
 @@||imasdk.googleapis.com/js/$script,domain=y8.com
-chamilo.etf.edu##.toolbar-cookie
-drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/api2/anchor?"])
 freebitco.in###bottom_user_ads_container
 freebitco.in###fp_provably_fair_link
 freebitco.in###req_for_bonuses_link
@@ -158,23 +156,20 @@ gab.com##:matches-path(/\/home|\/groups/) aside[class]:not(:has-text(Groups)):no
 gab.com##article[data-id^="timeline-injection"]
 gab.com##article[data-id^="gab-ad-status-"]
 gab.com##div[role="feed"] > div:not(div[class])
+gab.com##div[role="feed"] > div[class][tabindex]:has-text(/Jew/i):has-text(/satan/i)
 github.com##[data-repository-hovercards-enabled] > div[class] > .body:has(a[data-hovercard-type="user"][href="/dcharkes"])
+github.com##div.push > .body > .js-news-feed-event-group.Details:has([href="/apps/github-actions"]):has([href="/BPower0036/BPower0036"])
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 instagram.com#?#a[href] > div[style="width: 100%;"]:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(3)
 instagram.com#?#button:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(2)
 instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
-instagram.com#?#div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
 !#if !env_mobile
 ! instagram.com#?#a[href="/explore/people/"]:upward(2)
 ! instagram.com##[href="/accounts/activity/"]:upward(1) div[class][style="left: 427px;"]
-instagram.com#?#div[class][style^="left: "]:has([style="width: 100%;"]):style(margin-top: 125px !important; position: unset !important;)
-instagram.com#?#section div.VideM:style(width: 950px !important;)
+! instagram.com#?#div[class][style^="left: "]:has([style="width: 100%;"]):style(margin-top: 125px !important; position: unset !important;)
+! instagram.com#?#section div.VideM:style(width: 950px !important;)
 !#endif
 library.etf.edu##.attention-note:has-text(COVID Update)
-mail.google.com##div[style^="position: relative;"] div[style^="height:"]:has(div[id][class][style^="min-height: "]):style(scrollbar-width: none !important;)
-news.google.com##[jsdata*="covid-banner"]
-news.google.com##[jsaction][aria-label="COVID-19"]
-news.google.com##[jsaction][aria-label="COVID-19"] + [class]
 openstreetmap.org##.visible.welcome:has-text(Welcome to OpenStreetMap)
 pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
@@ -183,13 +178,20 @@ pinterest.*##div[style^="filter:"]:style(filter: none !important)
 pinterest.*##header[data-test-id=unauthHeader] ~ div[data-test-id=fullPageSignupModal]
 pinterest.*##div[data-test-id=pin-closeup-image] > div[role=button] > div:not([class]) ~ div
 threader.app##.annotation-details:has-text(COVID)
+||maps.gstatic.com/tactile/promo/covidinfo/$image
+google.com##div.section-cardbox:has(div[class][style^="background-image:url(//maps.gstatic.com/tactile/promo/covidinfo/"])
+drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/api2/anchor?"])
+mail.google.com##div[style^="position: relative;"] div[style^="height:"]:has(div[id][class][style^="min-height: "]):style(scrollbar-width: none !important;)
+news.google.com##[jsdata*="covid-banner"]
+news.google.com##[jsaction][aria-label="COVID-19"]
+news.google.com##[jsaction][aria-label="COVID-19"] + [class]
 translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
 translate.google.com##section:has-text(/COVID/i)
 www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important; )
-www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important; )
+www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important;)
+www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important;)
 www.youtube.com##:matches-path(/\/feed\/subscriptions/) #details #channel-name:has-text(Hananya Naftali):upward(7)
 !--Anti Google Chrome Download Message, Cookie Banner and Login
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout
@@ -225,235 +227,118 @@ www.youtube.com##yt-upsell-dialog-renderer.style-scope
 diffchecker.com##+js(nostif, adStillHere)
 radarbox.com##+js(set, ads_enabled, true)
 !--Anti SocialMedia Plugins
-*##.addthis_button_more:not(html, body)
-*##.addthis_counter:not(html, body)
-*##.addtoany_content:not(html, body)
-*##.addtoany_list:not(html, body)
-*##.addtoany_share:not(html, body)
-*##.article__share:not(html, body)
-*##.blog-post-single-share:not(html, body)
-*##.btn-facebook-like:not(html, body)
-*##.btn-share:not(html, body)
-*##.btn-tweet:not(html, body)
-*##.btn-twitter:not(html, body)
-*##.button__facebook:not(html, body)
-*##.button__instagram:not(html, body)
-*##.button__linkedin:not(html, body)
-*##.button__twitter:not(html, body)
-*##.button--share:not(html, body)
-*##.c-share-tools:not(html, body)
-*##.facebook[href*="/sharer/"]:not(html, body)
-*##.facebook_share:not(html, body)
-*##.facebook_top:not(html, body)
-*##.facebook-like-box:not(html, body)
-*##.facebook-page-plugin:not(html, body)
-*##.facebook-share:not(html, body)
-*##.face-share:not(html, body)
+*###share
+*###socialize
+telegraaf.nl##.ArticleSocialButtons
+! *##.fa-twitter
 *##.fb-like-box:not(html, body)
+*##.fb-page:not(html, body)
 *##.fb-page-plugin:not(html, body)
-*##.figure-share:not(html, body)
-*##.floating-share-bar:not(html, body)
-*##.follow_like_module:not(html, body)
-*##.footerSocial:not(html, body)
-*##.globalSharing:not(html, body)
-*##.icon--facebook:not(html, body)
-*##.icon--twitter:not(html, body)
-*##.js-share-btn:not(html, body)
-*##.js-share-pinterest:not(html, body)
-*##.js-share-stumble:not(html, body)
-*##.js-share-twitter:not(html, body)
-*##.jw-sharing-icon:not(html, body)
-*##.like_facebook:not(html, body)
-*##.linkedinShare:not(html, body)
-*##.loader-container.shares:not(html, body)
-*##.pinterest-share:not(html, body)
-*##.post_social:not(html, body)
-*##.product-sharing:not(html, body)
-*##.share__list:not(html, body)
-*##.share_area:not(html, body)
-*##.share_btn:not(html, body)
-*##.share_icon_area:not(html, body)
-*##.Share_Icons:not(html, body)
-*##.share_toggle:not(html, body)
-*##.sharea:not(html, body)
-*##.share-actions:not(html, body)
-*##.share-after:not(html, body)
-*##.shareBar:not(html, body)
-*##.share-bar:not(html, body)
-*##.share-before:not(html, body)
-*##.shareBottom:not(html, body)
-*##.share-bottom:not(html, body)
-*##.sharebtns:not(html, body)
-*##.share-btns:not(html, body)
-*##.shareFacebook:not(html, body)
-*##.share-fb:not(html, body)
-*##.share-icon:not(html, body)
-*##.share-icons:not(html, body)
-*##.shareit:not(html, body)
-*##.share-it:not(html, body)
-*##.share-link.js-require-widget:not(html, body)
-*##.share-linkedin:not(html, body)
-*##.share-list:not(html, body)
-*##.share-metas:not(html, body)
-*##.share-networks:not(html, body)
-*##.share-nw:not(html, body)
-*##.share-other:not(html, body)
-*##.share-pinterest:not(html, body)
-*##.shares-badge:not(html, body)
-*##.share-social:not(html, body)
-*##.share-this:not(html, body)
-*##.sharethis-wrapper:not(html, body)
-*##.shareToggle:not(html, body)
-*##.share-toggle:not(html, body)
-*##.sharetools:not(html, body)
-*##.share-tools:not(html, body)
-*##.share-top:not(html, body)
-*##.share-trigger:not(html, body)
-*##.share-twitter:not(html, body)
-*##.share-twttr:not(html, body)
+! *##.js-share-modal-button
+*##.post-share
+*##.share:not(html, body)
+*##.share_buttons
+*##.share-post
+*##.share-tools
 *##.sharing:not(html, body)
-*##.sharing-btn:not(html, body)
-*##.sharing-container:not(html, body)
-*##.sharing-item:not(html, body)
-*##.sharing-links:not(html, body)
-*##.sharing-tools:not(html, body)
-*##.social.shares:not(html, body)
-*##.social_buttons:not(html, body)
-*##.social_media:not(html, body)
-*##.social-action[test-id*=facebook]:not(html, body)
-*##.SocialArticleIcons:not(html, body)
-*##.social-btns:not(html, body)
-*##.socialbuttons:not(html, body)
-*##.social-footer:not(html, body)
-*##.social-icon:not(html, body)
-*##.social-likes:not(html, body)
-*##.socialmedia:not(html, body)
-*##.socialmedia-btns:not(html, body)
-*##.social-share-sidebar-component:not(html, body)
-*##.social-sharing:not(html, body)
-*##.social-sharing-buttons:not(html, body)
-*##.social-widget:not(html, body)
-*##.social-wrap:not(html, body)
-*##.spotheader__sharing:not(html, body)
-*##.twit_share_button:not(html, body)
-*##.twitter[href*="/share?"]:not(html, body)
-*##.twitter_share:not(html, body)
-*##.twitter-share:not(html, body)
-*##[app=addtoany]
-*##[class*=facebookShare i]:not(html, body)
-*##[class*=fb-share]:not(html, body)
-*##[class*=share-facebook]:not(html, body)
-*##[class*=share-toolbar]:not(html, body)
-*##[class*=social_share]:not(article, html, body)
-*##[class*=socialshare i]:not(html, body)
-*##[class*=social-share]:not(article, html, body, [preload])
-*##[data-flip-widget=shareflip]
-*##[socialshare]
-*##a[appshareclick]
-*##a[class$=sharebtn]
-*##a[class$=-sharing-button__link]
-*##a[class*=addthis_button]
-*##a[class*=BtnShare]
-*##a[class*=share__button]
-*##a[class*=-sharing-popup]
-*##a[class*=-socials__item]
-*##a[class^=pagetools][class*=icon--twitter]
-*##a[class^=share_btn]
-*##a[class^=sharing-popup-]
-*##a[class^=socialbutton i][onclick*="window.open"]
-*##a[class=facebook i][title="Share this"]
-*##a[data-ga-event-action^="share:"]
-*##a[data-js=facebook-share]
-*##a[data-js=twitter-share]
-*##a[data-pin-do=buttonPin]
-*##a[data-plugin^=sharingButtons]
-*##a[data-share$=Facebook i]
-*##a[data-sharer=facebook]
-*##a[data-sharer=twitter]
-*##a[data-tooltip^="Share on "]
-*##a[data-type=sharing-button]
-*##a[href*=".cmd=addShare"]
-*##a[href*="/social_plugins/share"]
-*##a[href*="addtoany.com/add_to/"]
-*##a[href*="api.addthis.com"]:not([href*="/email/"])
-*##a[href*=share-tools]
-*##a[href^="/sharer/sharer.php?"] > button[type=submit]
-*##a[href^="javascript:fb_share('"]
-*##a[href^="javascript:fbShare"]
-*##a[href^="javascript:tw_share('"]
-*##a[href="#javascript"][class*=social-link]
-*##a[href="/#facebook"]
-*##a[href="/#pinterest"]
-*##a[id*=share-][id*=-button]
-*##a[id^=share_btn]
-*##a[onclick*="pinterest.com/pin/create/"]
-*##a[onclick^="share_toggle("]
-*##a[onclick^="var share"]
-*##a[onclick^="window.open('http"][onclick*="facebook.com/sharer"]
-*##a[onclick^=ShowShareDialog]
-*##a[onmouseover^="return addthis_open"]
-*##a[title^="Share on " i]
-*##button[aria-controls=ShareContainer]
-*##button[class*=_fbshare]
-*##button[class*=ShareOverlayButton i]
-*##button[class*=SharesButton i]
-*##button[class^=share-module__share]
-*##button[data-arctrac*=socialShare i]
-*##button[data-a-target^=share]
-*##button[data-share-url]
-*##button[ng-click^=shareOn]
-*##button[onclick^=socialsharing_]
-*##button[title^="Share this "]
-*##div[button=share]
-*##div[class$=-share-single]
-*##div[class*=_share_button]
-*##div[class*=addthis]
-*##div[class*=article-share]
-*##div[class*=box--share]
-*##div[class*=footer__share]
-*##div[class*=FooterShare i]
-*##div[class*=iconShare]
-*##div[class*=post-sharing]
-*##div[class*=share-article]
-*##div[class*=share-box]
-*##div[class*=sharer-tool]
-*##div[class*=sharethisbutton i]
-*##div[class*=shareToolbar]
-*##div[class*=social][class*=sharing]
-*##div[class*=social_sidebar]
-*##div[class*=social_slide]
-*##div[class*=social-panel]
-*##div[class*=socials-share]
-*##div[class^=container_NotificationsBanner_]
-*##div[class^=fbshare i]
-*##div[class^=icon-share-]
-*##div[class^=shareLinks]
-*##div[class^=share-options]
-*##div[class^=social-like]
-*##div[class^=social-media-container]
-*##div[class^=twittshare]
-*##div[class=instagram_Share i]
-*##div[class=instagramShare i]
-*##div[class=instagram-Share i]
-*##div[class=twitterShare i]
-*##div[data-hook=social-sharing]
-*##div[id$=_sharethis]
-*##div[id^=btnShare i]
-*##div[pw\:twitter-via]
-*##div[tmp^="Share on "]
-*##label[for*=ShareModal]
-*##li[aria-label=facebook]
-*##li[class$=-share-toggle]
-*##li[class*=link_facebook]
-*##li[data-share=facebook]
-*##li[data-share=linkedin]
-*##li[data-share=twitter]
-*##share-grid
-*##span[class*=share-icon]
-*##span[class*=-social-share-]
-*##span[class^=share_btn]
-*##ul[class*=-share-buttons]
-*##ul[class^=share-action]
+! *##.social-block
+*##[class^="shareWrapper"]:not(html, body)
+*##[class^="social" i]:not(article, html, body)
+*##[class*="facebook" i]:not(html, body)
+*##[class*="share" i]:not(article, html, body)
+*##[class*="shareIconContainer" i]:not(html, body)
+*##[class*="sharing" i]:not(article, html, body)
+*##[class*="social-share" i]:not(html, body)
+*##[class$="share-inline"]:not(html, body)
+*##[class$="shareitemlist"]:not(html, body)
+*##div[class^="post_share"]
+*##div[class$="share-bar"]
+*,~telegraaf.nl##div[class*="social"]
+*##a[href$="/feed"]
+*##a[href$="feed/"]
+! *##.addthis_button_more:not(html, body)
+! *##.addthis_counter:not(html, body)
+! *##.addtoany_content:not(html, body)
+! *##.addtoany_list:not(html, body)
+! *##.btn-messenger:not(html, body)
+! *##.btn-tweet:not(html, body)
+! *##.btn-twitter:not(html, body)
+! *##.button__instagram:not(html, body)
+! *##.button__linkedin:not(html, body)
+! *##.button__twitter:not(html, body)
+! *##.follow_like_module:not(html, body)
+! *##.footerSocial:not(html, body)
+! *##.icon--twitter:not(html, body)
+! *##.mashsb-box:not(html, body)
+! *##.post_social:not(html, body)
+! *##.recentsocial:not(html, body)
+! *##.sbtn_main:not(html, body)
+! *##.soc-list:not(html, body)
+! *##.SocialArticleIcons:not(html, body)
+! *##.twitter[href*="/share?"]:not(html, body)
+! *##[app=addtoany]
+! *##[data-flip-widget=shareflip]
+! *##[socialshare]
+! *##a[appshareclick]
+! *##a[class*=-socials__item]
+! *##a[class*=addthis_button]
+! *##a[class^=pagetools][class*=icon--twitter]
+! *##a[class^=pinterest-save]
+! *##a[data-ga-event-action^="share:"]
+! *##a[data-js$=-share]
+! *##a[data-pin-do=buttonPin]
+! *##a[data-plugin^=sharingButtons]
+! *##a[data-share$=Facebook i]
+! *##a[data-sharer=facebook]
+! *##a[data-sharer=twitter]
+! *##a[data-ss-ss-type]
+! *##a[data-tooltip^="Share on "]
+! *##a[data-type=sharing-button]
+! *##a[href*=".cmd=addShare"]
+! *##a[href*="/share-newsletter/"]
+! *##a[href*="/social_plugins/share"]
+! *##a[href*="addtoany.com/add_to/"]
+! *##a[href*="api.addthis.com"]:not([href*="/email/"])
+! *##a[href*=share-tools]
+! *##a[href="#javascript"][class*=social-link]
+! *##a[href="/#facebook"]
+! *##a[href="/#messenger"]
+! *##a[href="/#pinterest"]
+! *##a[href^="/sharer/sharer.php?"] > button[type=submit]
+! *##a[href^="https://web.whatsapp.com/send?"]
+! *##a[href^="javascript:fb_share('"]                        |
+! *##a[href^="javascript:fbShare"]                           |-->  *##a[href^="javascript:"][href*="share" i] 
+! *##a[href^="javascript:tw_share('"]                        |
+! *##a[id*=share-][id*=-button]
+! *##a[id^=share_btn]
+! *##a[onclick^="share_toggle("]
+! *##a[onclick^="var share"]
+! *##a[onclick^=ShowShareDialog]
+! *##a[onmouseover^="return addthis_open"]
+! *##a[title^="Share on " i]
+! *##a[title^="Share to "]
+! *##amp-social-share
+! *##button[aria-controls=ShareContainer]
+! *##button[data-a-target^=share]
+! *##button[data-arctrac*=socialShare i]
+! *##button[data-share-url]
+! *##button[onclick^=socialsharing_]
+! *##button[title^="Share this "]
+! *##div[button=share]
+! *##div[class*=addthis]
+! *##div[class^=container_NotificationsBanner_]
+! *##div[data-aop^=sharingtoolbar]
+! *##div[data-hook=social-sharing]
+! *##div[id$=_sharethis]
+! *##div[id^=btnShare i]
+! *##div[tmp^="Share on "]
+! *##label[for*=ShareModal]
+! *##li[aria-label=facebook]
+! *##li[data-share=facebook]
+! *##li[data-share=linkedin]
+! *##li[data-share=twitter]
+! *##share-grid
+! *##span[data-lnkd-debug]
 *share_ico*$~css
 *social_ico*$~css
 /addthis_widget.js^
@@ -465,11 +350,11 @@ radarbox.com##+js(set, ads_enabled, true)
 /btn_share_ln.
 /click-to-tweet/*
 /\/icon-(?:facebook|instagram|linkedin|pinterest|share|social|twitter|whatsapp|youtube)/$1p,image
-@@/icon-share-mail$image
 /images/twiiter.$image
 /images/share_
 /images/social/*
 /images/socialmedia/*.$image
+/modules/responsive_share_buttons^
 /pinitbtn.$image
 /plugins/facebook-$~css
 /\/share(?:\/|_)(?:facebook|instagram|pinterest|twitter|share|button|count\.|fb\.|link_)/
@@ -484,12 +369,20 @@ radarbox.com##+js(set, ads_enabled, true)
 /sharedcount.
 /share-newsletter/*
 /sharethis-share*
+/sharing_buttons.js
 /sharing/facebook.$image
 /sharing/reddit.$image
 /sharing/stumbleupon.$image
 /sharing/twitter.$image
+/social_networks.js
 /social-likes.$script
+/socialbar-js.php
+/socialbuttons.js
 /socialicons_*.$image
+/socialite.$script
+/socializ.js
+/socializ_3.js
+/socialize.js
 /socialshareprivacy/*$~script,~css
 /\/social\/(?:facebook\.|fcbk\.|in\.|instagram\.|linkedin\.|lnkdn\.|pinterest\.|twitter\.|yt\.|follow[[\W|\w]+|footer[\W|\w]+|share[\W|\w]+)/
 /social/icon*$image
@@ -499,12 +392,12 @@ radarbox.com##+js(set, ads_enabled, true)
 /wp-content/plugins/*/assets/lib/share-link/*$script,1p
 /wp-content/plugins/add-to-any/*
 /wp-content/plugins/easy-facebook-likebox/*
-/wp-content/plugins/easy-twitter-feed-widget$~css
 /wp-content/plugins/social-$~css,~font
 /wp-content/plugins/wp-embed-facebook/*
 /\/wp-content\/themes\/[\W|\w]*(?:facebook|twitter|\/img\/instagram)/$image
 /wp-content/themes/js/social-shares$script
 /wp-content/themes/js/socialblock$script
+/wp-content/uploads/*/fb-banner$image
 ||addnow.com^$third-party
 ||addthis.com/static/btn/sm-share*.gif^
 ||addthiscdn.com^$third-party
@@ -565,3 +458,36 @@ radarbox.com##+js(set, ads_enabled, true)
 ||widgets.getpocket.com^$third-party
 ||widgets.pinterest.com^$3p
 ||youtube.com/subscribe_$third-party
+!--Anti Cookie Popups
+||privacy-mgmt.com^$3p,script,frame,domain=~ed.nl|~gelderlander.nl|~nu.nl
+||privacymanager.io^$3p,script,frame,domain=~geenstijl.nl|~omroepwest.nl
+||quantcast.mgr.consensu.org^$3p,script,frame,domain=~www.vi.nl
+||sdk.privacy-center.org^$3p,script,frame,domain=~metronieuws.nl|~telegraaf.nl
+*###cookie
+*###gdpr
+*##.cookie
+*##.cookies
+*##.gdpr
+*,~metronieuws.nl,~telegraaf.nl,~vi.nl##[class*="consent-"]:not(html, body)
+*,~reddit.com##[class*="cookie" i]:not(html, body)
+*##[class*="gdpr-" i]:not(html, body)
+*,~privacymanager.io##[class*="privacy-"]:not(html, body, a)
+*##[class*="privacy_"]:not(html, body, a)
+*##[class^="cookie"]:not(html, body)
+*,~geenstijl.nl,~omroepwest.nl##[id*="consent-"]:not(html, body)
+*,~geenstijl.nl##[id*="cookie" i]:not(html, body)
+*,~geenstijl.nl,~omroepwest.nl##[id*="gdpr-" i]:not(html, body)
+*##[id*="privacy-"]:not(html, body, a)
+*##[id*="privacy_"]:not(html, body, a)
+*,~geenstijl.nl##[id^="cookie"]:not(html, body)
+akku-shop.*,abconcerts.be,adidas.*,bbc.com,calvinklein.*,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,escarpe.*,hetwkz.nl,joingoodcompany.nl,kinky.nl,kyoceradocumentsolutions.*,lego.com,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,umcutrecht.nl,vanharen.nl,zwic.nl##body:style(overflow: auto !important;)
+bing.com,interfriendship.*,kvk.nl,openreach.com,pvcvoordeel.nl##html:style(overflow: auto !important)
+hema.nl,makro.nl,mulders-opel.nl,nsinternational.com,vaillant.*##body,html:style(overflow: auto !important; position: initial !important;)
+bol.com##body,html:style(overflow: auto !important;)
+bol.com##.main:style(position: static !important; filter: none !important; width: auto !important;)
+bol.com,vaillant.*##.modal:has-text(cookie)
+instagram.com#?#div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
+mediamarkt.*###loading
+umcutrecht.nl###navigation.menu-wrapper
+umcutrecht.nl##main:style(filter: none !important)
+vraagzin.nl##.cc_banner
