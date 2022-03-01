@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 19-02-2022
+! Last updated: 01-03-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -37,6 +37,7 @@ $removeparam=/^(_u|aqs|atyp|cad|cd|dcr|dpr|ei|esrc|ie|je|oq|rlz|site|sourceid|sx
 ||aliexpress.$removeparam=/^(af|aff_fcid|aff_fsk|aff_request_id|aff_trace_key|algo_expid|algo_pvid|btsid|cv|dp|gps-id|mall_affr|pvid|sk|spm|terminal_id|utparam|ws_ab_test)=/
 ||aliexpress.$removeparam=/^scm[_a-z-]*=/
 ||amazon.$removeparam=/^(_encoding|aaxitk|ascsubtag|c|camp|creative|creativeASIN|crid|field-lbr_brands_browse-bin|hsa_cr_id|ingress|initialIssue|keywords|linkCode|ms3_c|plattr|qualifier|qid|refRID|rnid|s|smid|spIA|sprefix|tag|th|ts_id|visitId|vt)=/
+||amazon.$removeparam=/^(__mk_[a-z]{1,3}_[a-z]{1,3}|[a-z%0-9]*ie|[^a-z%0-9]adId|colii?d|cv_ct_[a-z]+|p[fd]_rd_[a-z]*|ref_?|sb-ci-[a-z]+|srs?)=/
 ||amazon.*^/aa$removeparam=bitCampaignCode
 @@/^https?:\/\/(?:[a-z0-9-]+\.)*?amazon(?:\.[a-z]{2,}){1,}\/gp\/.*?(?:redirector.html|cart\/ajax-update.html|video\/api\/)/$removeparam
 @@/^https?:\/\/(?:[a-z0-9-]+\.)*?amazon(?:\.[a-z]{2,}){1,}\/(?:hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
@@ -73,11 +74,6 @@ $removeparam=/^(_u|aqs|atyp|cad|cd|dcr|dpr|ei|esrc|ie|je|oq|rlz|site|sourceid|sx
 ||www.facebook.com/plugins/video.php$frame,redirect=click2load.html
 ||spot.im/embed/scripts/launcher.js
 /cdn-cgi/pe/bag2?*connect.facebook.
-bing.com##[id$="results"] > :has(a[href*="facebook.com/"])
-duckduckgo.com##.result:has([href*="facebook.com"])
-google.*##[data-async-context^="query:"] > div:has(a[href*="facebook.com/"])
-google.*##[data-async-context^="query:"] > div:has(a[href*="facebook.nl/"])
-startpage.com##[class$="result"]:has(a[href*="facebook.com/"])
 !--Anti TikTok
 ||tiktok.com^$3p
 ||tiktokcdn.com^$3p,domain=~tiktok.com
@@ -209,14 +205,19 @@ www.google.*,www.youtube.com###consent-bump
 www.youtube.com##.opened
 www.youtube.com##.ytd-consent-bump-v2-renderer
 www.youtube.com##yt-upsell-dialog-renderer.style-scope
-! www.youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
-! www.youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
-! www.youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer, undefined)
-! www.youtube.com##+js(json-prune, [].response.overlay.consentBumpV2Renderer topbar.desktopTopbarRenderer.interstitial.consentBumpV2Renderer overlay.consentBumpV2Renderer response.overlay.consentBumpV2Renderer)
-! youtube.com##+js(set, ytInitialData.onResponseReceivedEndpoints, undefined)
-! youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
-! youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
-! youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer auxiliaryUi.messageRenderers.upsellDialogRenderer)
+!--Remove websites from Search Results
+bing.com##[id$="results"] > :has(a[href*="facebook.com/"])
+bing.com##li[data-idx][style^="width"] a[href*="facebook"]
+duckduckgo.com##.results > :has(a[href*="facebook.com"])
+duckduckgo.com##.tile-wrap a[href*="facebook.com"]:upward(.tile)
+google.*##[data-async-context^="query:"] > div:has(a[href*="facebook.com/"])
+google.*##.islrc a[href*="facebook.com"]:upward(div)
+! search.yahoo.com###main a[href*="facebook.com"]:upward(li)
+! searchencrypt.com##.web-result a[href*=".facebook"]:upward(3)
+! searx.be###main_results div.result:has(a[href*="facebook.com"])
+startpage.com##[class$="result"]:has(a[href*="facebook.com/"])
+startpage.com##.image-container:has(div.image-quick-details span:has-text(facebook.com))
+! swisscows.com##.page-results a[href*=".facebook."]:upward(1)
 !--Anti-Adblock
 /px.gif?$image,redirect-rule=1x1.gif
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
@@ -230,22 +231,19 @@ radarbox.com##+js(set, ads_enabled, true)
 *###share
 *###socialize
 telegraaf.nl##.ArticleSocialButtons
-! *##.fa-twitter
 *##.fb-like-box:not(html, body)
 *##.fb-page:not(html, body)
 *##.fb-page-plugin:not(html, body)
-! *##.js-share-modal-button
 *##.post-share
 *##.share:not(html, body)
 *##.share_buttons
 *##.share-post
 *##.share-tools
 *##.sharing:not(html, body)
-! *##.social-block
 *##[class^="shareWrapper"]:not(html, body)
-*##[class^="social" i]:not(article, html, body)
+*##[class^="social" i]:not(article, html, body, [preload])
 *##[class*="facebook" i]:not(html, body)
-*##[class*="share" i]:not(article, html, body)
+*##[class*="share" i]:not(article, html, body, [preload])
 *##[class*="shareIconContainer" i]:not(html, body)
 *##[class*="sharing" i]:not(article, html, body)
 *##[class*="social-share" i]:not(html, body)
@@ -254,102 +252,22 @@ telegraaf.nl##.ArticleSocialButtons
 *##div[class^="post_share"]
 *##div[class$="share-bar"]
 *,~telegraaf.nl##div[class*="social"]
+*##a[href^="javascript:"][href*="share" i] 
 *##a[href$="/feed"]
 *##a[href$="feed/"]
-! *##.addthis_button_more:not(html, body)
-! *##.addthis_counter:not(html, body)
-! *##.addtoany_content:not(html, body)
-! *##.addtoany_list:not(html, body)
-! *##.btn-messenger:not(html, body)
-! *##.btn-tweet:not(html, body)
-! *##.btn-twitter:not(html, body)
-! *##.button__instagram:not(html, body)
-! *##.button__linkedin:not(html, body)
-! *##.button__twitter:not(html, body)
-! *##.follow_like_module:not(html, body)
-! *##.footerSocial:not(html, body)
-! *##.icon--twitter:not(html, body)
-! *##.mashsb-box:not(html, body)
-! *##.post_social:not(html, body)
-! *##.recentsocial:not(html, body)
-! *##.sbtn_main:not(html, body)
-! *##.soc-list:not(html, body)
-! *##.SocialArticleIcons:not(html, body)
-! *##.twitter[href*="/share?"]:not(html, body)
-! *##[app=addtoany]
-! *##[data-flip-widget=shareflip]
-! *##[socialshare]
-! *##a[appshareclick]
-! *##a[class*=-socials__item]
-! *##a[class*=addthis_button]
-! *##a[class^=pagetools][class*=icon--twitter]
-! *##a[class^=pinterest-save]
-! *##a[data-ga-event-action^="share:"]
-! *##a[data-js$=-share]
-! *##a[data-pin-do=buttonPin]
-! *##a[data-plugin^=sharingButtons]
-! *##a[data-share$=Facebook i]
-! *##a[data-sharer=facebook]
-! *##a[data-sharer=twitter]
-! *##a[data-ss-ss-type]
-! *##a[data-tooltip^="Share on "]
-! *##a[data-type=sharing-button]
-! *##a[href*=".cmd=addShare"]
-! *##a[href*="/share-newsletter/"]
-! *##a[href*="/social_plugins/share"]
-! *##a[href*="addtoany.com/add_to/"]
-! *##a[href*="api.addthis.com"]:not([href*="/email/"])
-! *##a[href*=share-tools]
-! *##a[href="#javascript"][class*=social-link]
-! *##a[href="/#facebook"]
-! *##a[href="/#messenger"]
-! *##a[href="/#pinterest"]
-! *##a[href^="/sharer/sharer.php?"] > button[type=submit]
-! *##a[href^="https://web.whatsapp.com/send?"]
-! *##a[href^="javascript:fb_share('"]                        |
-! *##a[href^="javascript:fbShare"]                           |-->  *##a[href^="javascript:"][href*="share" i] 
-! *##a[href^="javascript:tw_share('"]                        |
-! *##a[id*=share-][id*=-button]
-! *##a[id^=share_btn]
-! *##a[onclick^="share_toggle("]
-! *##a[onclick^="var share"]
-! *##a[onclick^=ShowShareDialog]
-! *##a[onmouseover^="return addthis_open"]
-! *##a[title^="Share on " i]
-! *##a[title^="Share to "]
-! *##amp-social-share
-! *##button[aria-controls=ShareContainer]
-! *##button[data-a-target^=share]
-! *##button[data-arctrac*=socialShare i]
-! *##button[data-share-url]
-! *##button[onclick^=socialsharing_]
-! *##button[title^="Share this "]
-! *##div[button=share]
-! *##div[class*=addthis]
-! *##div[class^=container_NotificationsBanner_]
-! *##div[data-aop^=sharingtoolbar]
-! *##div[data-hook=social-sharing]
-! *##div[id$=_sharethis]
-! *##div[id^=btnShare i]
-! *##div[tmp^="Share on "]
-! *##label[for*=ShareModal]
-! *##li[aria-label=facebook]
-! *##li[data-share=facebook]
-! *##li[data-share=linkedin]
-! *##li[data-share=twitter]
-! *##share-grid
-! *##span[data-lnkd-debug]
 *share_ico*$~css
 *social_ico*$~css
 /addthis_widget.js^
 /addtoany/*.js
-/\/assets\/components\/[\W|\w]+\/images\/(?:instagram|facebook|twitter)[-_]icon/$1p,image
+! /\/assets\/components\/[\W|\w]+\/images\/(?:instagram|facebook|twitter)[-_]icon/$1p,image
 /assets/facebook*
 /btn_share_fb.
 /btn_share_tw.
 /btn_share_ln.
 /click-to-tweet/*
-/\/icon-(?:facebook|instagram|linkedin|pinterest|share|social|twitter|whatsapp|youtube)/$1p,image
+! /\/icon-(?:facebook|instagram|linkedin|pinterest|share|social|twitter|whatsapp|youtube)/$1p,image
+/icon-share$1p,image
+/icon-social$1p,image
 /images/twiiter.$image
 /images/share_
 /images/social/*
@@ -362,8 +280,8 @@ telegraaf.nl##.ArticleSocialButtons
 /share/*-icon.png$image
 /shareaholic.$script
 /shareaholic/*
-/sharebutton*$~css
-/sharecount*
+/sharebutton$~css
+/sharecount
 /shared/social/*
 /sharedaddy/*$image,script
 /sharedcount.
@@ -384,7 +302,8 @@ telegraaf.nl##.ArticleSocialButtons
 /socializ_3.js
 /socialize.js
 /socialshareprivacy/*$~script,~css
-/\/social\/(?:facebook\.|fcbk\.|in\.|instagram\.|linkedin\.|lnkdn\.|pinterest\.|twitter\.|yt\.|follow[[\W|\w]+|footer[\W|\w]+|share[\W|\w]+)/
+! /\/social\/(?:facebook\.|fcbk\.|in\.|instagram\.|linkedin\.|lnkdn\.|pinterest\.|twitter\.|yt\.|follow[[\W|\w]+|footer[\W|\w]+|share[\W|\w]+)/
+/social/share*
 /social/icon*$image
 /social/img/*$image
 /wp-content/*/social_$~stylesheet
@@ -394,7 +313,7 @@ telegraaf.nl##.ArticleSocialButtons
 /wp-content/plugins/easy-facebook-likebox/*
 /wp-content/plugins/social-$~css,~font
 /wp-content/plugins/wp-embed-facebook/*
-/\/wp-content\/themes\/[\W|\w]*(?:facebook|twitter|\/img\/instagram)/$image
+! /\/wp-content\/themes\/[\W|\w]*(?:facebook|twitter|\/img\/instagram)/$image
 /wp-content/themes/js/social-shares$script
 /wp-content/themes/js/socialblock$script
 /wp-content/uploads/*/fb-banner$image
@@ -468,26 +387,26 @@ telegraaf.nl##.ArticleSocialButtons
 *##.cookie
 *##.cookies
 *##.gdpr
-*,~metronieuws.nl,~telegraaf.nl,~vi.nl##[class*="consent-"]:not(html, body)
+*,~consent.yahoo.com,~metronieuws.nl,~telegraaf.nl,~vi.nl##[class*="consent-"]:not(html, body)
 *,~reddit.com##[class*="cookie" i]:not(html, body)
 *##[class*="gdpr-" i]:not(html, body)
 *,~privacymanager.io##[class*="privacy-"]:not(html, body, a)
 *##[class*="privacy_"]:not(html, body, a)
-*##[class^="cookie"]:not(html, body)
-*,~geenstijl.nl,~omroepwest.nl##[id*="consent-"]:not(html, body)
+*,~consent.yahoo.com,~geenstijl.nl,~omroepwest.nl##[id*="consent-"]:not(html, body)
 *,~geenstijl.nl##[id*="cookie" i]:not(html, body)
 *,~geenstijl.nl,~omroepwest.nl##[id*="gdpr-" i]:not(html, body)
 *##[id*="privacy-"]:not(html, body, a)
 *##[id*="privacy_"]:not(html, body, a)
-*,~geenstijl.nl##[id^="cookie"]:not(html, body)
-akku-shop.*,abconcerts.be,adidas.*,bbc.com,calvinklein.*,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,escarpe.*,hetwkz.nl,joingoodcompany.nl,kinky.nl,kyoceradocumentsolutions.*,lego.com,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,umcutrecht.nl,vanharen.nl,zwic.nl##body:style(overflow: auto !important;)
+akku-shop.*,abconcerts.be,adidas.*,bbc.com,calvinklein.*,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,escarpe.*,hetwkz.nl,joingoodcompany.nl,kinky.nl,kyoceradocumentsolutions.*,lego.com,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,petities.com,umcutrecht.nl,vanharen.nl,zwic.nl##body:style(overflow: auto !important;)
 bing.com,interfriendship.*,kvk.nl,openreach.com,pvcvoordeel.nl##html:style(overflow: auto !important)
 hema.nl,makro.nl,mulders-opel.nl,nsinternational.com,vaillant.*##body,html:style(overflow: auto !important; position: initial !important;)
 bol.com##body,html:style(overflow: auto !important;)
 bol.com##.main:style(position: static !important; filter: none !important; width: auto !important;)
 bol.com,vaillant.*##.modal:has-text(cookie)
 instagram.com#?#div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
+jw.org##div[class*="legal-notices"]
 mediamarkt.*###loading
+petities.com##.modal-backdrop
 umcutrecht.nl###navigation.menu-wrapper
 umcutrecht.nl##main:style(filter: none !important)
 vraagzin.nl##.cc_banner
