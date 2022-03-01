@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 19-02-2022
+! Last updated: 01-03-2022
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -725,6 +725,8 @@ www.expedia.com travel-assets.com * noop
 extreme.com admin.brightcove.com * noop
 www.extremetube.com cdn1-static-extremetube.spankcdn.net * noop
 www.eyeota.com sites.hscoscdn00.net * noop
+ebooks.faithlife.com faithlifecdn.com * noop
+ebooks.faithlife.com faithlifesites.com * noop
 fancy.com thefancy.com * noop
 fandom.com static.wikia.nocookie.net * noop
 www.farfetch.com cdn-static.farfetch-contents.com * noop
@@ -815,6 +817,7 @@ www.indiegogo.com iggcdn.com * noop
 website.informer.com assets.webinfcdn.net * noop
 invisionapp.com static.invisionapp-cdn.com * noop
 www.jimdo.com webteam.jimstatic.com * noop
+www.jw.org jw-cdn.org * noop
 k-vid.net kshows.to * noop
 www.kaspersky.com assets.kasperskydaily.com * noop
 kayak.com r9cdn.net * noop
@@ -823,6 +826,7 @@ kizi.com kizicdn.com * noop
 www.klm.com static-afkl.com * noop
 knowyourmeme.com s.kym-cdn.com * noop
 knowyourmeme.com litmedia.s.llnwi.net * noop
+kodiefiles.nl dutchsexnetwork.com * noop
 compete.kotaku.com kinja.com * noop
 www.kpn.com reload.alphacomm.network * noop
 www.laardercourant.nl pubblewebsites.cloudapp.net * noop
@@ -960,6 +964,7 @@ radioluisteren.fm * 3p-script noop
 radiowereld.nl radiowereld.siticdn.nl * noop
 reddit.com redditstatic.com * noop
 redtube.com rdtcdn.com * noop
+www.rejoicenow.nl mijndomein-ws.nl * noop
 www.researchgate.net rgstatic.net * noop
 reuters.com queso-cdn.prod.reuters.tv * noop
 reuters.com reutersmedia.net * noop
@@ -1085,6 +1090,7 @@ yahoo.com yahoodns.net * noop
 view.yahoo.com viewport.videovore.com * noop
 www.yahoo.com mbp.yimg.com * noop
 yandex.com yastatic.net * noop
+www.youporntube.net movietube32.xyz * noop
 www.zdnet.com adtech.redventures.io * noop
 www.zelfzorg.nl loadbalancer.verona.hoppinger.com * noop
 * https://cdn.bluebillywig.com/apps/player/ script noop
