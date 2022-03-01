@@ -2,7 +2,7 @@
 ! Description: Filterlist only for Specific-General Hide. 
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/tree/main/Others
 ! Expires: 31 days
-! Last updated: 28-02-2022
+! Last updated: 01-03-2022
 !
 ! uBlock filters
 *###ad_300:not([style^="position: absolute; left: -5000px"])
@@ -224,7 +224,7 @@
 *##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 *##iframe[src^="https://smitionsory.co/"]
 ! uBlock filters – Privacy
-**##.addthis_toolbox
+*##.addthis_toolbox
 ! EasyList (Optimized)
 *###_ads
 *###above_button_ad
