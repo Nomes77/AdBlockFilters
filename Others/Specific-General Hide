@@ -84,7 +84,6 @@
 *##.adsanity-inner
 *##.adsBox:not([style$="-99999px;"])
 *##.adsbyrunactive
-*##.ads-center
 *##.ads-container
 *##.advboxemb
 *##.aff-content-col
