@@ -1,5 +1,14 @@
+! 2022-03-18
+@@||files.skoften.net/website/lib/vjs/plugins/ads/videojs.ads.min.js$script,~third-party
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=skoften.net
+! 2022-03-17
+@@||sliedrecht24.nl/wp-content/uploads/*/Banner-300x250*.jpg$image,1p
+! 2022-03-12
+@@/images/volgende.gif$image,1p,domain=privesexgids.nl|sexdatingholland.com|sexpret.com|studentesexcontact.nl|tienersexpret.nl|zinomteneuken.nl
+! 2022-03-11
+@@||weerstation-markelo.nl/weer/banners/weerbanner$domain=maarkelsnieuws.nl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108243
-@@||cdn.ebayclassifieds.net/bff/static/*/MyAds.$domain=2dehands.be
+@@||cdn.ebayclassifieds.net/bff/static/*/MyAds.$domain=2dehands.be|marktplaats.nl
 ! 2022-01-05
 @@||massariuscdn.com/pubs/$script,domain=dailybuzz.nl|radio.nl|welingelichtekringen.nl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dailybuzz.nl
@@ -21,7 +30,6 @@
 ! 2021-08-09
 @@||lexozfldkklgvc.com/cp/webcam_gallery/index.php$subdocument,domain=sexmeid.nl
 @@||lexozfldkklgvc.com/assets/cp/js/webcam_gallery/iframe_handler.js$script,domain=sexmeid.nl
-@@/images/volgende.gif$image,1p,domain=privesexgids.nl|sexdatingholland.com|studentesexcontact.nl|tienersexpret.nl|zinomteneuken.nl
 ! 2021-08-03
 @@||ptwmstc.com/*/tube-player/script/*.js$script,domain=potwm.com
 ! 2021-06-30
