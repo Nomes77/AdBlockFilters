@@ -10,7 +10,7 @@ declare -A filters
 filters=(
     ['EasyDutch/Anti-Adblock.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Anti-Adblock.txt'
     ['EasyDutch/Block_General.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Block_General.txt'
-    ['EasyDutch/Block_Resources.txt']='https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&startdate%5Bday%5D=&startdate%5Bmonth%5D=&startdate%5Byear%5D=&mimetype=plaintext'
+    ['EasyDutch/Block_Resources.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Block_Resources.txt'
     ['EasyDutch/Block_Whitelist.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Block_Whitelist.txt'
     ['EasyDutch/Block_first_party_Server.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Block_first_party_Server.txt'
     ['EasyDutch/Block_third_party_Server.txt ']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Block_third_party_Server.txt'
