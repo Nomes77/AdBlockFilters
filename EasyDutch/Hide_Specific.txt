@@ -1,4 +1,33 @@
+! Last updated: Fri, 15 Apr 2022 08:07:45 +0000
+!
+! 2022-04-14
+camjam.nl##.banner
+kieskeurig.nl##div[id*="gpt-ad"]
+kinkymedia.nl###advertentie
+finance.nl##div[style^="width:300px; height:250px;"]:has([id*="google"])
+fonkmagazine.nl###partners
+fonkmagazine.nl##.advertisement
+nieuweoogst.nl##.logolinks-wrapper
+veronicasuperguide.nl##div[id][class^="css"]
+! 2022-04-12
+farmaline.be##.c-scroll-list:has(img[src*="farmaline.be/assets/banners/"])
+! 2022-04-02
+1001erotiekverhalen.nl##[href^="https://t.adating.link/"]:upward(2)
+1001erotiekverhalen.nl##aside[id^="block"]:has([src*="tools-affil2.com/rtb/index.php"])
+mr-online.nl##.elementor-widget-container:has-text(Advertentie):upward(2)
+mr-online.nl##.strack_bnr
+binnenvaartkrant.nl##.g
+scheepvaartkrant.nl###block-leaderboard
+scheepvaartkrant.nl###block-topbannersidebar
+vlootschouw.nl##[id*="miw_widget"]:has(div[class]:has(a[href*="leverancier"]))
+vlootschouw.nl##[id*="miw_widget"] a[target$="blank"][href]:not(a[href*="mailto"])
+! 2022-03-31
+automobielmanagement.nl,carwashpro.nl,infrasite.nl,ovpro.nl,rijschoolpro.nl,spoorpro.nl,tankpro.nl,taxipro.nl,verkeersnet.nl##.widget_nlpartners
+schuttevaer.nl##.widget_minisites
+vandaaginside.nl##div[class^="a-bannerWrapper-"]
+vandaaginside.nl##div[class^="Component-bannerTopWrapper-"]
 ! 2022-03-29
+nu.nl##.banner
 skoften.net##.promoted
 ! 2022-03-26
 headliner.nl###flex_left:has([id="div-gpt-ad"])
@@ -87,7 +116,6 @@ hartvannederland.nl,shownieuws.nl,vivandaag.nl##[data-testid^="banner"]
 hartvannederland.nl,shownieuws.nl,vivandaag.nl##div[class*="-bannerWrapper-"]
 helpmij.nl##[id^="navbar_notice"]:has(.adsbygoogle)
 ! 2022-01-19
-1001erotiekverhalen.nl##[href^="https://t.adating.link/"]:upward(2)
 kinkymedia.nl##.carousel-frame:has([id*="adguru_slider"])
 klapjes.nl##a[href*="/adverteren"]:upward(2)
 klapjes.nl##div[class*="Sidebar"] > [class]:has-text(webcamsex)
@@ -211,7 +239,7 @@ pokeren.nl###onetime-popup
 autoreview.nl###parentgpt
 eredivisie.nl###partner-bar
 vagina.nl###partner-links
-coastline945fm.nl,coastlinefm.nl,elfvoetbal.nl,fonkonline.nl###partners
+coastline945fm.nl,coastlinefm.nl,elfvoetbal.nl###partners
 forum.scholieren.com###posts .thead:has-text(Advert)
 sexpower.nl###pre-footer-banners
 immo.vlan.be###ProvidersBox
@@ -291,7 +319,7 @@ autosport.nl##.advertentie_links
 startlijstjes.nl##.advertentieblock
 dorpsklanken.online##.advertenties
 autoweek.nl##.advertise
-7sur7.be,ad.nl,bd.nl,bnnvara.nl,destentor.nl,ed.nl,elektormagazine.nl,fonkonline.nl,gelderlander.nl,hln.be,hpdetijd.nl,kieskeurig.nl,modekoninginmaxima.nl,ovpro.nl,tankpro.nl,tubantia.nl,zijaanzij.nl##.advertisement
+7sur7.be,ad.nl,bd.nl,bnnvara.nl,destentor.nl,ed.nl,elektormagazine.nl,gelderlander.nl,hln.be,hpdetijd.nl,kieskeurig.nl,modekoninginmaxima.nl,ovpro.nl,tankpro.nl,tubantia.nl,zijaanzij.nl##.advertisement
 broadcastmagazine.nl##.Advertisement
 goodbye.be,sporza.be##.advertising
 dagblad010.nl,voorburgsdagblad.nl##.advrow
