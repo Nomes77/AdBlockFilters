@@ -1,0 +1,26 @@
+name: Clone EasyDutch as Back-up (weekly)
+
+on:
+  schedule:
+    - cron: "0 12 * * 3"
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: Clone EasyDutch as Back-up
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone EasyDutch as Back-up
+        uses: actions/checkout@v3
+      - name: Fetch EasyDutch
+        run: |
+          ./.github/update-back-up.sh
+      - name: Commit changes, if any
+        run: |
+          if [[ -n $(git diff) ]]; then
+            git config user.name "GitHub-actions Bot"
+            git config user.email "<>"
+            git add -u EasyDutch/
+            git commit -m "Updated from @EasyDutch-uBO as back-up"
+            git push origin main
+          fi
