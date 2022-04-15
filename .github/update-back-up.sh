@@ -22,7 +22,7 @@ filters=(
 
 for i in "${!filters[@]}"; do
     localURL="$i"
-    remoteURL="${assets[$i]}"
+    remoteURL="${filters[$i]}"
     echo "*** Downloading ${remoteURL}"
     if wget -q -T 30 -O $TEMPFILE -- $remoteURL; then
         if [ -s $TEMPFILE ]; then
