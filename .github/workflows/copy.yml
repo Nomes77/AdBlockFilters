@@ -1,13 +1,13 @@
-name: Clone EasyDutch as Back-up (weekly)
+name: Copy EasyDutch as Back-up
 
 on:
   schedule:
-    - cron: "29 7 * * 3"
+    - cron: "0 5 * * 1,3,5"
   workflow_dispatch:
 
 jobs:
   publish:
-    name: Clone EasyDutch as Back-up
+    name: Clone EasyDutch
     runs-on: ubuntu-latest
     steps:
       - name: Clone EasyDutch as Back-up
@@ -23,6 +23,6 @@ jobs:
             git config user.name "GitHub-actions Bot"
             git config user.email "<>"
             git add -u EasyDutch/
-            git commit -m "Updated from @EasyDutch-uBO as back-up"
+            git commit -m "Updated from @EasyDutch-uBO"
             git push origin main
           fi
