@@ -2,7 +2,7 @@ name: Clone EasyDutch as Back-up (weekly)
 
 on:
   schedule:
-    - cron: "0 12 * * 3"
+    - cron: "29 7 * * 3"
   workflow_dispatch:
 
 jobs:
@@ -12,9 +12,11 @@ jobs:
     steps:
       - name: Clone EasyDutch as Back-up
         uses: actions/checkout@v3
+      - name: Change permissions
+        run: chmod +x ./.github/update-back-up.sh
       - name: Fetch EasyDutch
         run: |
-          ./tools/update-back-up.sh
+          ./.github/update-back-up.sh
       - name: Commit changes, if any
         run: |
           if [[ -n $(git diff) ]]; then
