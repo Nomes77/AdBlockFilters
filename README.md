@@ -17,8 +17,8 @@ Adblock filters made for [uBlock Origin](https://github.com/uBlockOrigin/uAssets
 | [Support](#support) |
 -----
 ## [EasyDutch](https://github.com/EasyDutch-uBO/EasyDutch/)
-**IMPORTANT NOTE: I have moved EasyDutch to a new organization. I can be found here: <br>
-[EasyDutch-uBO/EasyDutch/](https://github.com/EasyDutch-uBO/EasyDutch/)** <br>
+**IMPORTANT NOTE: I have moved EasyDutch to a new organization. It can be found here: <br>
+[EasyDutch-uBO/EasyDutch](https://github.com/EasyDutch-uBO/EasyDutch/)** <br>
 I left everything here, just as back-up
 
 ## [Dynamic Rules](https://github.com/BPower0036/AdBlockFilters/blob/main/dynamic%20rules)
