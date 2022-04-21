@@ -1,5 +1,5 @@
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 29-03-2022
+! Last updated: 21-04-2022
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -635,6 +635,7 @@ bookaa.amadeus.com geetest.com * noop
 aws.amazon.com a0.awsstatic.com * noop
 www.amazon.com media-amazon.com * noop
 www.amazon.com ssl-images-amazon.com * noop
+install.appcenter.ms v0cdn.net * noop
 apple.com aaplimg.com * noop
 apple.com cdn-apple.com * noop
 appleinsider.com www.apple.com * noop
@@ -654,8 +655,10 @@ www.bbc.com bbci.co.uk * noop
 www.bbc.com static-web-assets.gnl-common.bbcverticals.com * noop
 www.bbc.com admin.brightcove.com * noop
 www.bedandbreakfast.com csvcus.homeaway.com * noop
+www.belgiantrain.be omegacdn.net * noop
 www.beslist.nl cdn.beslist.net * noop
 www.bestbuy.com assets.bbystatic.com * noop
+mooieplaatjes.bierdopje.com bierdopje.eu * noop
 www.bleepingcomputer.com www.bleepstatic.com * noop
 www.bloomberg.com assets.bwbx.io * noop
 www.bol.com assets.s-bol.com * noop
@@ -665,6 +668,7 @@ app.box.com public.boxcloud.com * noop
 sport.bt.com img01.bt.co.uk * noop
 www.buienradar.be cdn.buienradar.nl * noop
 businessinsider.in static.clmbtech.com * noop
+www.camjam.nl googlehosted.com * noop
 camsexbabe.nl pctlwm.com * noop
 camsexbabe.nl prtawe.com * noop
 cbslocal.com kappacdn.net * noop
@@ -733,6 +737,9 @@ auth.faithlife.com auth.logos.com * noop
 fancy.com thefancy.com * noop
 fandom.com static.wikia.nocookie.net * noop
 www.farfetch.com cdn-static.farfetch-contents.com * noop
+www.fietsonderzoek.nl jotfor.ms * noop
+www.fietsonderzoek.nl geu.submit.jotform.com * noop
+www.fietsonderzoek.nl submit.jotformeu.com * noop
 www.fifthdomain.com video-api.mco.arcpublishing.com * noop
 figshare.com figstatic.com * noop
 file-scheme * 1p-script block
@@ -860,6 +867,7 @@ nl.lxax.com sys.vidsrev.com * noop
 www.marketwatch.com wsj.net * noop
 www.marktplaats.nl cdn.ebayclassifieds.net * noop
 mashable.com a.amz.mshcdn.com * noop
+www.mazda.nl mazda.media * noop
 www.mediamarkt.nl jscdn.redblue.de * noop
 www.medscape.com img.medscapestatic.com * noop
 www.meetup.com secure.meetupstatic.com * noop
@@ -946,6 +954,7 @@ outlook.office365.com shellprod.msocdn.com * noop
 outlook.office365.com webshell.suite.office.com * noop
 outlook.office365.com office.net * noop
 www.omroepwest.nl regiogroei.cloud * noop
+www.onlinerijexamenoefenen.nl targetpay.com * noop
 www.onlinevideoconverter.com stackpathdns.com * noop
 www.opendoors.nl truetickets.nl * noop
 www.orbitz.com expedia.com * noop
@@ -968,6 +977,7 @@ potwm.com * 3p-script noop
 pubblewebsite-one.azurewebsites.net waws-prod-am2-261.cloudapp.net * noop
 qantas.com cdn.qantasloyalty.com * noop
 quora.com qsbr.fs.quoracdn.net * noop
+www.quora.com quoracdn.net * noop
 radioluisteren.fm * 3p-script noop
 radiowereld.nl radiowereld.siticdn.nl * noop
 reddit.com redditstatic.com * noop
@@ -1012,6 +1022,7 @@ www.slate.com sadmin.brightcove.com * noop
 www.slate.com static.cdnslate.com * noop
 slickdeals.net slickdealscdn.com * noop
 www.slideshare.net slidesharecdn.com * noop
+snapchat.com googlehosted.com * noop
 softonic.com sftcdn.net * noop
 soundcloud.com sndcdn.com * noop
 sourceforge.net a.fsdn.com * noop
@@ -1033,6 +1044,7 @@ store.steampowered.com steamstatic.com * noop
 www.stopworldcontrol.com lbry.tv * noop
 www.stopworldcontrol.com spotlightr.com * noop
 streamsb.net streamsb.com * noop
+www.subscribestar.com checkout.com * noop
 www.target.com assets.targetimg1.com * noop
 www.techradar.com footprint.net * noop
 www.techradar.com cdn0.static.techradar.futurecdn.net * noop
@@ -1043,6 +1055,7 @@ www.theblaze.com static.rbl.ms * noop
 www.theguardian.com guim.co.uk * noop
 themeforest.net assets.shopfront.envato-static.com * noop
 thenextweb.com cdn0.tnwcdn.com * noop
+www.thepsalmsproject.com nitrocdn.com * noop
 www.thetimesnews.com cdn.gatehousemedia.com * noop
 theundefeated.com secure.espn.com * noop
 theundefeated.com projects.fivethirtyeight.com * noop
@@ -1109,9 +1122,11 @@ www.zelfzorg.nl loadbalancer.verona.hoppinger.com * noop
 * https://www.google.com/recaptcha/ script noop
 * https://www.google.com/maps/ sub_frame noop
 * https://www.google.com/recaptcha/ sub_frame noop
+* https://maps.google.nl/maps sub_frame noop
 * https://www.skoften.net/video/embed/ sub_frame noop
 cbslocal.com https://w3.mp.lura.live/player/ script noop
 freebitco.in https://www.google.com/jsapi?autoload= script noop
+hartvannederland.nl https://mssl.fwmrm.net/libs/adm/6.43.0/AdManager.js script noop
 radio.nl https://massariuscdn.com/pubs/radionl/radionl_hb_setup.js script noop
 sportnieuws.nl https://static.spott.ai/videoplayer/ script noop
 threadreaderapp.com https://www.google.com/cse/static/element/ script noop
