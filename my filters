@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 29-03-2022
+! Last updated: 21-04-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -119,6 +119,13 @@ $removeparam=/^(amdata|cmpgn|crlp|device|epid|geo_id|hash|MT_ID)=/,domain=ebay.*
 y8.com###Y8_Top_of_Games
 @@||awstrack.me/*/https:%2F%2Ffreebitco.in%2Fstatic%2Fhtml%2Fwof_new%2Findex.html*
 
+!ADVERTISMENTS
+||naturalnews.com^$script,badfilter
+@@||naturalnews.com/*=$script,1p,badfilter
+/^https:\/\/(?:[\w]+\.?)?[\w]+\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/[\w]+\/[A-Z]RF\/[\W|\w]+)\.js$/$script,1p
+y8.com###Y8_Top_of_Games
+@@||awstrack.me/*/https:%2F%2Ffreebitco.in%2Fstatic%2Fhtml%2Fwof_new%2Findex.html*
+
 !ANNOYANCES
 !--Annoyances (uBlock and me)
 /ad-blocking-advisor/*
@@ -143,22 +150,18 @@ y8.com###Y8_Top_of_Games
 ||zoom.us/launch/download/*/meeting/*/Zoom_launcher.exe$subdocument,domain=us02web.zoom.us
 @@||y8.com/games/*.js?referer=$xhr,domain=y8.com
 @@||imasdk.googleapis.com/js/$script,domain=y8.com
-freebitco.in###bottom_user_ads_container
-freebitco.in###fp_provably_fair_link
-freebitco.in###req_for_bonuses_link
-freebitco.in##.alert-box
-freebitco.in##.cc_banner
-freebitco.in##.daily_jackpot_main_container_div
-freebitco.in##.premium_buy_more_tokens
-freebitco.in##.reveal-modal-bg
-freebitco.in##.reveal-modal
+buienradar.nl##html,body:style(overflow: auto !important;)
+buienradar.nl##.onboard-popup-container:has-text(Mogen we je locatie gebruiken)
+buienradar.nl##.onboard-background
+freebitco.in###bottom_user_ads_container, #fp_provably_fair_link, #req_for_bonuses_link
+freebitco.in##.alert-box, .cc_banner, .daily_jackpot_main_container_div, .premium_buy_more_tokens
+freebitco.in##.reveal-modal-bg, .reveal-modal
 gab.com##:matches-path(/\/home|\/groups/) aside[class]:not(:has-text(Groups)):not(:has(img[src^="https://media.gab.com/system/accounts/avatars/"]):has(a[title$=" Toots"])):not(:has-text(About))
-gab.com##article[data-id^="timeline-injection"]
-gab.com##article[data-id^="gab-ad-status-"]
+gab.com##article[data-id^="timeline-injection"], article[data-id^="gab-ad-status-"]
 gab.com##div[role="feed"] > div:not(div[class])
 gab.com##div[role="feed"] > div[class][tabindex]:has-text(/Jew/i):has-text(/satan/i)
 github.com##[data-repository-hovercards-enabled] > div[class] > .body:has(a[data-hovercard-type="user"][href="/dcharkes"])
-github.com##div.push > .body > .js-news-feed-event-group.Details:has([href="/apps/github-actions"]):has([href="/BPower0036/BPower0036"])
+github.com##div.push > .body > *:has([href="/apps/github-actions"])
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 instagram.com#?#a[href] > div[style="width: 100%;"]:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(3)
 instagram.com#?#button:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(2)
@@ -177,6 +180,7 @@ pinterest.*##body:style(overflow-y: scroll !important;)
 pinterest.*##div[style^="filter:"]:style(filter: none !important)
 pinterest.*##header[data-test-id=unauthHeader] ~ div[data-test-id=fullPageSignupModal]
 pinterest.*##div[data-test-id=pin-closeup-image] > div[role=button] > div:not([class]) ~ div
+sharesome.com##[id^="post"]:has(.inline-flex:has-text(Promoted Post))
 threader.app##.annotation-details:has-text(COVID)
 ||maps.gstatic.com/tactile/promo/covidinfo/$image
 google.com##div.section-cardbox:has(div[class][style^="background-image:url(//maps.gstatic.com/tactile/promo/covidinfo/"])
@@ -184,15 +188,39 @@ drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/
 ! mail.google.com##h2:has-text(Conversaties):upward(5):style(scrollbar-width: none !important;)
 mail.google.com##div[style^="position: relative;"] div[style^="height:"]:has(div[id][class][style^="min-height: "]):style(scrollbar-width: none !important;)
 news.google.com##[jsdata*="covid-banner"]
-news.google.com##[jsaction][aria-label="COVID-19"]
-news.google.com##[jsaction][aria-label="COVID-19"] + [class]
+news.google.com##[jsaction][aria-label="COVID-19"], [jsaction][aria-label="COVID-19"] + [class]
 translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
 translate.google.com##section:has-text(/COVID/i)
-www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
-www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
-www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important;)
+
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail #text[aria-label="Shorts"])
+! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#thumbnail[href^="/shorts/"])
+! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[overlay-style="SHORTS"])
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:[0-2]\d)\s/))
+! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail #text:has-text(/\s(0:[0-2]\d)\s/))
+! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com##ytd-search ytd-video-renderer:has(ytd-thumbnail #text[aria-label="Shorts"])
+! www.youtube.com##ytd-search ytd-video-renderer:has(#thumbnail[href^="/shorts/"])
+! www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+! www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[overlay-style="SHORTS"])
+www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:[0-2]\d)\s/))
+! www.youtube.com##ytd-search ytd-video-renderer:has(ytd-thumbnail #text:has-text(/\s(0:[0-2]\d)\s/))
+! www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail #text[aria-label="Shorts"])
+! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#thumbnail[href^="/shorts/"])
+! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[overlay-style="SHORTS"])
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:[0-2]\d)\s/))
+! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail #text:has-text(/\s(0:[0-2]\d)\s/))
+! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+
 www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important;)
+www.youtube.com##ytd-guide-entry-renderer.style-scope:has-text(Shorts)
+www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
+www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+! www.youtube.com###comment:has-text(test):upward(1)
+www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important;)
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
 www.youtube.com##:matches-path(/\/feed\/subscriptions/) #details #channel-name:has-text(Hananya Naftali):upward(7)
 !--Anti Google Chrome Download Message, Cookie Banner and Login
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout
@@ -232,6 +260,9 @@ startpage.com##.image-container:has(div.image-quick-details span:has-text(facebo
 ||hdliveextra-a.akamaihd.net/*/ads.js$script,redirect=noopjs
 diffchecker.com##+js(nostif, adStillHere)
 radarbox.com##+js(set, ads_enabled, true)
+@@||browserleaks.com/img/*.gif?v=*&q*$image,1p
+@@||s_a_f_e..0verflow.*$image,domain=browserleaks.com
+@@||browserleaks.com$removeparam,1p
 !--Anti SocialMedia Plugins
 *###share
 *###socialize
@@ -249,7 +280,7 @@ jdreport.com##.mashsb-container
 *##[class^="shareWrapper"]:not(html, body)
 *##[class^="social" i]:not(article, html, body, [preload])
 *##[class*="facebook" i]:not(html, body)
-*##[class*="share" i]:not(article, html, body, [preload])
+*,~paypal.com,~sharesome.com##[class*="share" i]:not(article, html, body, [preload], [class*="article"])
 *##[class*="shareIconContainer" i]:not(html, body)
 *##[class*="sharing" i]:not(article, html, body)
 *##[class*="social-share" i]:not(html, body)
@@ -257,7 +288,7 @@ jdreport.com##.mashsb-container
 *##[class$="shareitemlist"]:not(html, body)
 *##div[class^="post_share"]
 *##div[class$="share-bar"]
-*,~telegraaf.nl##div[class*="social"]
+*,~eo.nl,~telegraaf.nl##div[class*="social"]
 *##a[href^="javascript:"][href*="share" i] 
 *##a[href$="/feed"]
 *##a[href$="feed/"]
@@ -391,27 +422,29 @@ jdreport.com##.mashsb-container
 ||privacymanager.io^$3p,script,frame,domain=~geenstijl.nl|~omroepwest.nl
 ||quantcast.mgr.consensu.org^$3p,script,frame,domain=~www.vi.nl
 ||sdk.privacy-center.org^$3p,script,frame,domain=~metronieuws.nl|~telegraaf.nl
-*###cookie
-*###gdpr
-*##.cookie
-*##.cookies
-*##.gdpr
+*###cookie:not(html, body)
+*###gdpr:not(html, body)
+*##.cookie:not(html, body)
+*##.cookies:not(html, body)
+*##.gdpr:not(html, body)
 *,~consent.yahoo.com,~metronieuws.nl,~telegraaf.nl,~vi.nl##[class*="consent-"]:not(html, body)
-*,~reddit.com##[class*="cookie" i]:not(html, body)
+*,~eo.nl,~reddit.com##[class*="cookie" i]:not(html, body ,a)
 *##[class*="gdpr-" i]:not(html, body)
-*,~privacymanager.io##[class*="privacy-"]:not(html, body, a)
+*,~paypal.com,~privacymanager.io##[class*="privacy-"]:not(html, body, a)
 *##[class*="privacy_"]:not(html, body, a)
 *,~consent.yahoo.com,~geenstijl.nl,~omroepwest.nl##[id*="consent-"]:not(html, body)
 *,~geenstijl.nl,~refoweb.nl##[id*="cookie" i]:not(html, body)
 *,~geenstijl.nl,~omroepwest.nl##[id*="gdpr-" i]:not(html, body)
-*##[id*="privacy-"]:not(html, body, a)
+*,~paypal.com##[id*="privacy-"]:not(html, body, a)
 *##[id*="privacy_"]:not(html, body, a)
 akku-shop.*,abconcerts.be,adidas.*,bbc.com,calvinklein.*,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,escarpe.*,hetwkz.nl,joingoodcompany.nl,kerknet.be,kinky.nl,kyoceradocumentsolutions.*,lego.com,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,petities.com,umcutrecht.nl,vanharen.nl,zwic.nl##body:style(overflow: auto !important;)
 amazon.*###sp-cc[action^="/cookieprefs"]
 anwb.nl##.critical-dialog
+mechanisatiemarkt.nl##[class^="cc_dialog"]:upward(3)
 beterrekenen.nl,nieuwsuitdelden.nl,oostnl.nl,vraagzin.nl##[class^="cc_banner"]:not(html, body)
-bing.com,interfriendship.*,kvk.nl,openreach.com,pvcvoordeel.nl##html:style(overflow: auto !important)
+bing.com,interfriendship.*,kvk.nl,openreach.com,paypal.com,pvcvoordeel.nl##html:style(overflow: auto !important)
 hema.nl,makro.nl,mulders-opel.nl,nsinternational.com,vaillant.*##body,html:style(overflow: auto !important; position: initial !important;)
+kieskeurig.nl##html:style(overflow: auto !important; position: initial !important;)
 bol.com##body,html:style(overflow: auto !important;)
 bol.com##.main:style(position: static !important; filter: none !important; width: auto !important;)
 bol.com,vaillant.*##.modal:has-text(cookie)
