@@ -1,7 +1,13 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Fri, 15 Apr 2022 17:39:09 +0000
+! Last updated: Fri, 22 Apr 2022 04:18:02 +0000
 !
+! 2022-04-22
+||anoniem-surfen.nl/wp-content/uploads/*/aff3-*.png$image
+||anoniem-surfen.nl/wp-content/uploads/*/Flavour-balls.gif$image
+! 2022-04-21
+||dagelijksestandaard.nl/wp-content/uploads/*/DDS-banner.$image
+||dagelijksestandaard.nl/wp-content/uploads/*/PROMO-DDS.$image
 ! 2022-04-15
 ||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
 ! 2022-04-14
@@ -183,7 +189,6 @@
 ||dagbladdewest.com/wp-content/uploads*/*728x90px*.jpg$image
 ||dagbladdewest.com/wp-content/uploads/*/*_300x250px.*$image
 ||dagbladdewest.com/wp-content/uploads/*/*-AD*.jpg$image
-||dagelijksestandaard.nl/wp-content/uploads/*/PROMO-DDS.$image
 ||dating.*.auroraobjects.eu/files/bans/*$image
 ||debestevpn.nl/wp-content/*-banner.
 ||delichtzijde.nl/images/banners/*.$image,1p
