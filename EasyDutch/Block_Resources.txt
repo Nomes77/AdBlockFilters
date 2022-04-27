@@ -1,7 +1,14 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Fri, 22 Apr 2022 04:18:02 +0000
+! Last updated: Tue, 26 Apr 2022 14:02:23 +0000
 !
+! 2022-04-26
+||wp.com/www.appletips.nl/wp-content/uploads/112-tmobviaplay.png$image,domain=appletips.nl
+||dronkenmokkels.nl^$domain=poepsexfilmstube.nl
+||radioeenhoorn.nl/images/banners$image
+||kechtube.com^$popunder
+||nieuwsuitnijmegen.nl/uploads/banners/
+||onderwegonline.nl/app/uploads/*/Banner$image
 ! 2022-04-22
 ||anoniem-surfen.nl/wp-content/uploads/*/aff3-*.png$image
 ||anoniem-surfen.nl/wp-content/uploads/*/Flavour-balls.gif$image
@@ -326,7 +333,6 @@
 ||newspower.nu/wp-content/uploads/*/*/*.gif$image
 ||nieuwsonline.nu/header/*advertentie.$image
 ||nieuwsopbeeld.nl/wp-content/uploads/*/Advertentie-
-||nieuwsuitnijmegen.nl/gfx/banners/
 ||ninefornews.nl/wp-content/a-d-s/*
 ||ninefornews.nl/wp-content/plugins/advanced-ads*/public/assets/js/*.js$script,1p
 ||ninefornews.nl/wp-content/uploads/*/*-300x250-*.jpg$image
@@ -349,10 +355,6 @@
 ||omejoop.be/pop.js
 ||omroeppenm.nl^*/banner/
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
-||omroepwest.nl/*/ad.png
-||omroepzeeland.nl/*/ad.png
-||onderwegonline.nl/app/uploads/*/*-banner-*.$image
-||onderwegonline.nl/wp-content/uploads/*/Onderweg-336x280.png$image
 ||onderwijsland.com/files/banners/
 ||onderwijsland.com/files/partners/
 ||oneworld.nl/app/uploads/*/*-Banner$image
@@ -382,14 +384,12 @@
 ||poldertube.nl/banners/*/small_banner
 ||popinstituut.nl/wp-content/uploads/2014/02/Huren.nl
 ||pornoexpert.nl/img/950x250_*.gif$image
-||pornopower.nl/wp-content/uploads/*/bdsm_seksspeeltjesland$image
 ||powerconnect.be^*/poweractie.jpg$3p
 ||privesexgids.nl/images/webcamsex
 ||prm03.wlresources.com/$script,3p
 ||profielactueel.nl/content/modules/catalog/4/*.gif$image
 ||promootjesite.nl/images/affliateBanner/
 ||promootjesite.nl/images/banners/
-||psv.nl/multimedia/toto_new/index.html$subdocument
 ||psv.nl/multimedia/toto_new/index.html$subdocument
 ||psv.nl/upload/*_image*.gif$image
 ||psv.nl/upload/*_Soccerlab_Logo.png$image
@@ -465,8 +465,6 @@
 ||tennisvlaanderen.be/documents/*/*Sponsorblok-$image,1p
 ||thehike.nl/wp-content/uploads/*/*statisch-500x500
 ||thisislive.com/promo/
-||tienersexpret.nl/images/eroshop$image
-||tienersexpret.nl/images/kinkysex$image
 ||tijd.be/ad/
 ||tools-affil2.com/rtb/index.php$subdocument,domain=beeldbelsex.com
 ||totaalwijzer.nl/widget/$3p
@@ -502,13 +500,11 @@
 ||vnexplorer.net/assets/img/cover_single.png$image
 ||voetbalkrant.com/images/pub/
 ||voetbalnederland.nl/img/bravo.gif
-||voetbalnederland.nl/img/bravo.gif
 ||voetbalnieuws.be/*/images/website-takeover/*$image,1p
 ||voetbalrotterdam.nl/wp-content/uploads/*/soccerdealbanner*.jpg$image
 ||voetbaluitslagen.com/wp-content/uploads/*/bet*$image
 ||volleybal.nl/uploads/images/Banners/$image
 ||volleybal.nl/uploads/images/Logos/$image
-||volleyvlaanderen.be/wp-content/uploads/VVB_Banners_*.jpg$image
 ||vrouwpedia.nl/wp-content/uploads/*/Maxaro-badkamers-tegels.png
 ||waarzo.nl/imagestore/banners/
 ||wanttoknow.nl^*Banner
