@@ -1,7 +1,29 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 29 Apr 2022 17:43:22 +0000
+! Last updated: Thu, 05 May 2022 17:10:09 +0000
 !
+! 2022-05-05
+ijshockeynederland.nl##footer > .container > div:nth-of-type(1)
+ijshockeynederland.nl##.adswiper:upward(1)
+ijshockeynederland.nl##div[class^="column col"]:has(img[src*="/uploads/ads"])
+! 2022-05-04
+amsterdamtigers.com##.sponsorbanner
+businessinsider.nl##.ll_partnerexpert
+cryptoclan.nl,cryptonieuws.nl##div[data-elementor-type="popup"]
+fotografie.nl##.section-partners
+hyc.be##div[class*="slider"]:has([class*="sliderwidget"])
+nummerzoeker.com##a[href^="/out/"]
+onsoranje.nl##.SponsorBar
+proshop.nl​##.site-background-banner
+proshop.nl​##.site-home-banner
+proshop.nl​##.site-top-banner
+regioinbedrijf.nl##.g
+sc-heerenveen.nl##.partner-grid:upward(2)
+sc-heerenveen.nl##.partnerlink
+totoknvbbeker.nl##.SponsorBlock
+trappers.nl##.sponsors
+weerstationleeuwarden.nl##.cookieconsent-optin-marketing
+zoekhulp.nl###banner
 ! 2022-04-29
 besteproduct.nl,voetbalnieuws.nl##.ad
 xgn.nl##.bs
@@ -704,12 +726,10 @@ waarzo.nl##.smallbox:has-text(Advertentie)
 solarmagazine.nl##.sols
 live-voetbal.com##.special-offer
 az.nl,cambuur.nl,fcgroningen.nl,ga-eagles.nl,nec-nijmegen.nl,niburu.co##.sponsers
-sc-heerenveen.nl##.sponsor
 computable.be##.sponsorartikelen
 knvb.nl##.SponsorBar-list
 omroephouten.nl##.sponsor-carousel
 businessinsider.nl,computable.nl##.sponsored
-sc-heerenveen.nl##.sponsor-grid
 radio0511.com##.sponsorImg
 volleybelgium.be##.sponsors
 telegraaf.nl##.SportScoreboardPage__banner
