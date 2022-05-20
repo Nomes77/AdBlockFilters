@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 21-04-2022
+! Last updated: 20-05-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -106,18 +106,12 @@ $removeparam=/^(amdata|cmpgn|crlp|device|epid|geo_id|hash|MT_ID)=/,domain=ebay.*
 .ir^$doc,frame,important
 .ru^$doc,frame,important
 !--Other
+|http://*$3p,~image,~css
 *##+js(set, history.length, 2)
 !#if !env_firefox
 *,~hangouts.google.com,~youtube.com,~youtube-nocookie.com##+js(aopr, navigator.getBattery)
 *,~hangouts.google.com,~jensen.nl##+js(nowebrtc)
 !#endif
-
-!ADVERTISMENTS
-||naturalnews.com^$script,badfilter
-@@||naturalnews.com/*=$script,1p,badfilter
-/^https:\/\/(?:[\w]+\.?)?[\w]+\.com\/(?:[A-Z]RF\/[\W|\w]+|wp-content\/themes\/[\w]+\/[A-Z]RF\/[\W|\w]+)\.js$/$script,1p
-y8.com###Y8_Top_of_Games
-@@||awstrack.me/*/https:%2F%2Ffreebitco.in%2Fstatic%2Fhtml%2Fwof_new%2Findex.html*
 
 !ADVERTISMENTS
 ||naturalnews.com^$script,badfilter
@@ -150,9 +144,9 @@ y8.com###Y8_Top_of_Games
 ||zoom.us/launch/download/*/meeting/*/Zoom_launcher.exe$subdocument,domain=us02web.zoom.us
 @@||y8.com/games/*.js?referer=$xhr,domain=y8.com
 @@||imasdk.googleapis.com/js/$script,domain=y8.com
-buienradar.nl##html,body:style(overflow: auto !important;)
-buienradar.nl##.onboard-popup-container:has-text(Mogen we je locatie gebruiken)
-buienradar.nl##.onboard-background
+buienradar.*##html,body:style(overflow: auto !important;)
+buienradar.*##.onboard-popup-container:has-text(Mogen we je locatie gebruiken)
+buienradar.*##.onboard-background
 freebitco.in###bottom_user_ads_container, #fp_provably_fair_link, #req_for_bonuses_link
 freebitco.in##.alert-box, .cc_banner, .daily_jackpot_main_container_div, .premium_buy_more_tokens
 freebitco.in##.reveal-modal-bg, .reveal-modal
@@ -162,17 +156,21 @@ gab.com##div[role="feed"] > div:not(div[class])
 gab.com##div[role="feed"] > div[class][tabindex]:has-text(/Jew/i):has-text(/satan/i)
 github.com##[data-repository-hovercards-enabled] > div[class] > .body:has(a[data-hovercard-type="user"][href="/dcharkes"])
 github.com##div.push > .body > *:has([href="/apps/github-actions"])
+github.com##.dashboard-changelog
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-instagram.com#?#a[href] > div[style="width: 100%;"]:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(3)
-instagram.com#?#button:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(2)
-instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
-!#if !env_mobile
-! instagram.com#?#a[href="/explore/people/"]:upward(2)
-! instagram.com##[href="/accounts/activity/"]:upward(1) div[class][style="left: 427px;"]
-! instagram.com#?#div[class][style^="left: "]:has([style="width: 100%;"]):style(margin-top: 125px !important; position: unset !important;)
-! instagram.com#?#section div.VideM:style(width: 950px !important;)
-!#endif
+instagram.com##a[href] > div[style="width: 100%;"]:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(3)
+instagram.com##button:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(2)
+instagram.com##body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
+instagram.com##main > section > div[style^="left:"]
+instagram.com##main > section > :not(div[style^="left:"]):style(max-width: 800px !important;)
+instagram.com##main > section .VideM:style(width: 1530px !important; margin-left: -300px !important;)
+chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Logos))
+chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Mentoring))
+chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Pastoraat))
+chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Spirituality))
+chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Studentenraad))
 library.etf.edu##.attention-note:has-text(COVID Update)
+library.etf.edu##.main-menu [href$="covid19"]
 openstreetmap.org##.visible.welcome:has-text(Welcome to OpenStreetMap)
 pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
@@ -185,46 +183,54 @@ threader.app##.annotation-details:has-text(COVID)
 ||maps.gstatic.com/tactile/promo/covidinfo/$image
 google.com##div.section-cardbox:has(div[class][style^="background-image:url(//maps.gstatic.com/tactile/promo/covidinfo/"])
 drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/api2/anchor?"])
-! mail.google.com##h2:has-text(Conversaties):upward(5):style(scrollbar-width: none !important;)
-mail.google.com##div[style^="position: relative;"] div[style^="height:"]:has(div[id][class][style^="min-height: "]):style(scrollbar-width: none !important;)
+mail.google.com##td:has-text(e-mail):upward(9):style(scrollbar-width: none !important;)
 news.google.com##[jsdata*="covid-banner"]
 news.google.com##[jsaction][aria-label="COVID-19"], [jsaction][aria-label="COVID-19"] + [class]
 translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
 translate.google.com##section:has-text(/COVID/i)
-
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail #text[aria-label="Shorts"])
-! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#thumbnail[href^="/shorts/"])
-! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
-! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[overlay-style="SHORTS"])
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:[0-2]\d)\s/))
-! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail #text:has-text(/\s(0:[0-2]\d)\s/))
-! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
-www.youtube.com##ytd-search ytd-video-renderer:has(ytd-thumbnail #text[aria-label="Shorts"])
-! www.youtube.com##ytd-search ytd-video-renderer:has(#thumbnail[href^="/shorts/"])
-! www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
-! www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[overlay-style="SHORTS"])
-www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:[0-2]\d)\s/))
-! www.youtube.com##ytd-search ytd-video-renderer:has(ytd-thumbnail #text:has-text(/\s(0:[0-2]\d)\s/))
-! www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail #text[aria-label="Shorts"])
-! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#thumbnail[href^="/shorts/"])
-! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
-! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[overlay-style="SHORTS"])
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:[0-2]\d)\s/))
-! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail #text:has-text(/\s(0:[0-2]\d)\s/))
-! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
-
-www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important;)
-www.youtube.com##ytd-guide-entry-renderer.style-scope:has-text(Shorts)
-www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
-www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+www.youtube.com##ytd-message-renderer.ytd-live-chat-frame:has-text(Première):remove()
+! www.youtube.com##ytd-watch-next-secondary-results-renderer:remove()
+www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-item-section-renderer:nth-of-type(n+15):remove()
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-continuation-item-renderer:remove()
+www.youtube.com###chat:remove()
+www.youtube.com###clarify-box
+! www.youtube.com###comments #contents:remove()
 ! www.youtube.com###comment:has-text(test):upward(1)
+www.youtube.com###comment-teaser
+www.youtube.com###super-title
+www.youtube.com##.super-title
+! www.youtube.com##.videowall-endscreen
+www.youtube.com##.ytp-subtitles-button:has([fill-opacity="0.3"])
+www.youtube.com##.ytd-watch-metadata > .top-level-buttons  #text:not(:has-text(/[\d]/))
+www.youtube.com###info .top-level-buttons  #text:not(:has-text(/[\d]/))
+www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important;)
+www.youtube.com###page-manager:style(scrollbar-width: none !important;)
 www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important;)
+www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
 www.youtube.com##:matches-path(/\/feed\/subscriptions/) #details #channel-name:has-text(Hananya Naftali):upward(7)
+mediawiki.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikibooks.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikidata.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikieducator.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikimedia.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikinews.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikipedia.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikiquote.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikisource.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikitravel.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikivoyage.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wiktionary.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
 !--Anti Google Chrome Download Message, Cookie Banner and Login
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout
-www.youtube.com##.ytd-popup-container.style-scope > .ytd-mealbar-promo-renderer.style-scope
+www.youtube.com##.ytd-popup-container > .ytd-mealbar-promo-renderer
 !#if env_firefox
 google.*##^script:has-text(CONSENT)
 !#endif
@@ -280,7 +286,7 @@ jdreport.com##.mashsb-container
 *##[class^="shareWrapper"]:not(html, body)
 *##[class^="social" i]:not(article, html, body, [preload])
 *##[class*="facebook" i]:not(html, body)
-*,~paypal.com,~sharesome.com##[class*="share" i]:not(article, html, body, [preload], [class*="article"])
+*,~docs.google.com,~paypal.com,~sharesome.com##[class*="share" i]:not(article, html, body, [preload], [class*="article"])
 *##[class*="shareIconContainer" i]:not(html, body)
 *##[class*="sharing" i]:not(article, html, body)
 *##[class*="social-share" i]:not(html, body)
@@ -417,16 +423,15 @@ jdreport.com##.mashsb-container
 ||youtube.com/subscribe_$third-party
 !--Anti Cookie Popups
 ||myprivacy.dpgmedia.net^$3p,script,frame
-||myprivacy-static.dpgmedia.net^$3p,script,frame,domain=~ad.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~pzc.nl
+||myprivacy-static.dpgmedia.net^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~ad.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~pzc.nl
 ||privacy-mgmt.com^$3p,script,frame,domain=~ad.nl|~ed.nl|~gelderlander.nl|~nu.nl|~pzc.nl
 ||privacymanager.io^$3p,script,frame,domain=~geenstijl.nl|~omroepwest.nl
 ||quantcast.mgr.consensu.org^$3p,script,frame,domain=~www.vi.nl
-||sdk.privacy-center.org^$3p,script,frame,domain=~metronieuws.nl|~telegraaf.nl
+||sdk.privacy-center.org^$3p,script,frame,domain=~goplay.be|~metronieuws.nl|~telegraaf.nl
 *###cookie:not(html, body)
 *###gdpr:not(html, body)
 *##.cookie:not(html, body)
 *##.cookies:not(html, body)
-*##.gdpr:not(html, body)
 *,~consent.yahoo.com,~metronieuws.nl,~telegraaf.nl,~vi.nl##[class*="consent-"]:not(html, body)
 *,~eo.nl,~reddit.com##[class*="cookie" i]:not(html, body ,a)
 *##[class*="gdpr-" i]:not(html, body)
@@ -434,10 +439,11 @@ jdreport.com##.mashsb-container
 *##[class*="privacy_"]:not(html, body, a)
 *,~consent.yahoo.com,~geenstijl.nl,~omroepwest.nl##[id*="consent-"]:not(html, body)
 *,~geenstijl.nl,~refoweb.nl##[id*="cookie" i]:not(html, body)
+*##[id*="gdpr" i]:not(html, body)
 *,~geenstijl.nl,~omroepwest.nl##[id*="gdpr-" i]:not(html, body)
 *,~paypal.com##[id*="privacy-"]:not(html, body, a)
 *##[id*="privacy_"]:not(html, body, a)
-akku-shop.*,abconcerts.be,adidas.*,bbc.com,calvinklein.*,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,escarpe.*,hetwkz.nl,joingoodcompany.nl,kerknet.be,kinky.nl,kyoceradocumentsolutions.*,lego.com,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,petities.com,umcutrecht.nl,vanharen.nl,zwic.nl##body:style(overflow: auto !important;)
+akku-shop.*,abconcerts.be,adidas.*,bbc.com,bijbel-statenvertaling.com,calvinklein.*,catawiki.com,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,escarpe.*,hetwkz.nl,joingoodcompany.nl,kerknet.be,kinky.nl,kyoceradocumentsolutions.*,lego.com,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,petities.com,umcutrecht.nl,vanharen.nl,zwic.nl##body:style(overflow: auto !important;)
 amazon.*###sp-cc[action^="/cookieprefs"]
 anwb.nl##.critical-dialog
 mechanisatiemarkt.nl##[class^="cc_dialog"]:upward(3)
