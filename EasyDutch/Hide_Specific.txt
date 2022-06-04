@@ -1,12 +1,19 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 31 May 2022 17:00:25 +0000
+! Last updated: Sat, 04 Jun 2022 06:06:58 +0000
 !
-! 2022-05-30
-mediamarkt.nl##div[class^="AdWrapper"] + div[class^="SkeletonWrapper"]
+! 2022-06-04
+guidinc.nl##.promotion_link
+radionl.fm##.desktop_mobile:not(a[href*="radionl.fm"])
+! 2022-06-02
+nu.nl##div[id^="block-in-article-ad"]
+! 2022-06-02 https://github.com/uBlockOrigin/uAssets/issues/13494 and https://github.com/EasyDutch-uBO/EasyDutch/issues/22
+tweakers.net##.leaderBoard:has([src*="ab.tweakers"])
+tweakers.net##div[class^="rectangle"]:has-text(/advert/i)
 ! 2022-05-27
 goldfm.be###sponsors-carousel
 mandelnieuws.be##div[class*="blocksponsors"]
+mediamarkt.nl##div[class^="AdWrapper"] + div[class^="SkeletonWrapper"]
 mnm.be###reclameblok-wrapper
 mnm.be##div[class^="grid-item"]:has(div:has-text(/advert/i))
 radioviainternet.be##.banner-size-leaderbord
@@ -182,7 +189,6 @@ ninefornews.nl##.gofollow
 ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3)
 ninefornews.nl##div[class^="mag-box"] + #adskeeper
 ! 2022-03-04
-nu.nl##.block-wrapper:has-text(adverteerders)
 nu.nl##.articlelist.block:has-text(Folder \(Adverteerders\)) .list
 nu.nl##.temptation__aside
 ! 2022-03-02
@@ -524,7 +530,6 @@ autoscout24.be,autoscout24.nl##.cl-billboad-wrapper
 online-omzetten.nl##.clearfix.entry > small
 leerlingen.com##.clearfix.widget > :has(.sponsors)
 nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
-tweakers.net##.client-promo
 financialinvestigator.nl##.c-newsList__story--partnernews
 rd.nl##.codalt-container
 pornopower.nl##.code-block-1
@@ -829,7 +834,6 @@ intikkertje.nl##.vc_cta3-container
 dekrantnieuws.nl,destreekkrant.nu##.vc_inner:has([src$="324x484.jpg"])
 gloednieuw.nl##.vc_raw_html.td_block_wrap.wpb_wrapper
 telegraaf.nl##.VideoArticlePage__banner
-tweakers.net##.video-container > iframe[src^="https://ads.pexi.nl/"]
 12milf.com##.video-description > .under-video-block
 sex-kamer.nl##.videoOverAdBig
 telegraaf.nl##.VideoPage__banner
@@ -879,7 +883,6 @@ culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img
 radioreflex.be##.widget_sponsors_widget
 spelersvrouw.nl##.widget_text.gridlove-box
 wielerflits.be,wielerflits.nl##.widget_text:has([class^="wielerflits_ros_bravo"])
-radionl.fm##.widget_text:has(a[href] > img[src])
 emerce.nl##.widget_text:has(img[src*="/hosted-by-true-"])
 nuus.be##.widget-area.sidebar:has([data-advadstrackid])
 sportinnederland.com##.widget-area:has([id^="custom_html-"]:has(.adsbygoogle))
