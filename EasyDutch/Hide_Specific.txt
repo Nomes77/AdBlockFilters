@@ -1,7 +1,16 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 07 Jun 2022 13:09:43 +0000
+! Last updated: Wed, 15 Jun 2022 06:04:22 +0000
 !
+! 2022-06-14
+sexvoorgeldadvertenties.nl##[class]:has-text(Gesponsorde):upward(aside)
+marktnet.nl##li.linkUnit
+mijnserie.nl##a[href^="https://partnerprogramma.bol.com/"]
+mijnserie.nl##.sponsors
+streamwijzer.nl##.wp-block-buttons
+tvblik.nl##div[class^="r89-desktop"]
+vlaamskijken.nl##a[href^="https://partner.bol.com/"]
+vlaamskijken.nl##div[class^="col"]:has([class^="add"])
 ! 2022-06-07
 autoweek.nl##.tile-category:has-text(/advert/i):upward(.aw-tile)
 ! 2022-06-04
