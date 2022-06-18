@@ -1,7 +1,23 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Wed, 15 Jun 2022 06:04:22 +0000
+! Last updated: Fri, 17 Jun 2022 11:54:01 +0000
 !
+! 2022-06-16
+androidworld.nl,dartsnieuws.com,f1maximaal.nl,indeleiderstrui.nl##.sda
+dartfreakz.nl##.soliloquy-wrapper:not(:has(a[href*="dartfreakz.nl"]))
+dartfreakz.nl##.textwidget:has(a[href*="casino"])
+dartfreakz.nl##.g
+dartfreakz.nl##aside[class^="td_block"]:has-text(/partners/i)
+dartfreakz.nl##.wpb_wrapper a[href*="dartswarehouse.nl"]
+dartsactueel.nl##.elementor-widget-container:has-text(/powered by/i)
+dartsactueel.nl##.elementor-widget-container:has(a[href$="dartshopmn.nl"] > img)
+playboy.nl##a[href^="https://casinoscout.nl/"]
+rtlboulevard.nl##.dfp-rectangle-wrapper
+webwoordenboek.nl##div[class^="r89-desktop-rectangle"]
+wkdarts.nl##.vcex-module:has-text(advert)
+wkdarts.nl##[href="https://www.loketkansspel.nl/"]
+! 2022-06-15
+indignatie.nl##[id^="custom_html"]:has([src^="https://pagead2.googlesyndication.com/"])
 ! 2022-06-14
 sexvoorgeldadvertenties.nl##[class]:has-text(Gesponsorde):upward(aside)
 marktnet.nl##li.linkUnit
@@ -426,7 +442,7 @@ kinkymedia.nl##.adguru-zone-wrap
 standaard.be##.ad--halfpageskyscraper
 koopplein.nl##.ad-item-container
 westerwoldeactueel.nl##.adr-wrapper
-androidworld.nl,cinenews.be,handbal.nl,indeleiderstrui.nl,openrotterdam.nl,webmastersunited.com##.ads
+androidworld.nl,cinenews.be,handbal.nl,openrotterdam.nl,webmastersunited.com##.ads
 dissident.one##.adsbygoogle
 parool.nl,trouw.nl##.ad--section
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
