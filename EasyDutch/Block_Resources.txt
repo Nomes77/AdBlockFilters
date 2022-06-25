@@ -1,7 +1,10 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Tue, 21 Jun 2022 05:23:17 +0000
+! Last updated: Wed, 22 Jun 2022 15:00:39 +0000
 !
+! 2022-06-22
+||upload.gscdn.nl/uploads/*_Kansino_Feed$image,domain=geenstijl.nl
+||streekstadcentraal.nl/images/banners/$image
 ! 2022-06-21
 ||ouders.nl/uploads/alt/$domain=viafora.nl
 ! 2022-06-17
@@ -165,7 +168,7 @@
 ||bloovi.be/frontend/files/banners/
 ||bnpparibasmarkets.nl/widget/$3p
 ||bol.com/nl/upload/banners/
-||bol.com/nl/upload/partnerprogramma/*.jpg
+||bol.com/nl/upload/partnerprogramma/$image
 ||bol-an.nl/wp-content/uploads/*/Adv_
 ||booking.com/flexiproduct.html$domain=puuropreis.nl
 ||buzzbie.nl/buzzbanners/*.js$script,1p
