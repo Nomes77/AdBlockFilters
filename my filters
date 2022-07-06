@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 20-05-2022
+! Last updated: 07-06-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -16,8 +16,9 @@ $removeparam=/^(dpg_source|dpg_campaign|dpg_medium|dpg_content)=/
 $removeparam=/^(admitad_uid|adjust_adgroup|adjust_campaign|adjust_creative|adjust_tracker|adjust_tracker_limit)=/
 $removeparam=/^(bsft_aaid|bsft_clkid|bsft_eid|bsft_ek|bsft_mid|bsft_uid)=/
 $removeparam=/^(mtm_campaign|mtm_cid|mtm_content|mtm_group|mtm_keyword|mtm_medium|mtm_placement|mtm_source|pk_campaign|pk_medium|pk_source)=/
-$removeparam=/^(_branch_match_id|vc_lpp|ml_subscriber|ml_subscriber_hash|rb_clickid|oly_anon_id|oly_enc_id)=/
+$removeparam=/^(_branch_match_id|_sgm_action|_sgm_campaign|_sgm_source|vc_lpp|ml_subscriber|ml_subscriber_hash|rb_clickid|oly_anon_id|oly_enc_id)=/
 $removeparam=/^(cmpid|dclid|_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
+$removeparam=/^(at_campaign|at_custom|at_medium|ns_campaign|ns_fee|ns_linkname|ns_mchannel|ns_source|ocid)/,domain=bbc.com|bbc.co.uk
 $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 $removeparam=/^(bi[a-z]|btn[a-z]|gfe_[a-z]|gs_[a-z]|gws_[a-z])/,domain=google.*
 $removeparam=/^(_u|aqs|atyp|cad|cd|dcr|esrc|ie|je|oq|rlz|site|sourceid|sxsrf|vet|zx)=/,domain=google.*
@@ -48,6 +49,7 @@ $removeparam=/^(_u|aqs|atyp|cad|cd|dcr|esrc|ie|je|oq|rlz|site|sourceid|sxsrf|vet
 @@||bing.com/AS/Suggestions?$removeparam=cvid
 ||blckbx.tv^$removeparam=/^(source|ss_source|ss_campaign_|ss_email_id|usg|ust)/
 ||dailymotion.com/embed/video/*?ads_params=*&origin=$removeparam=/^(ads_params|origin)=/
+||download.mozilla.org^$removeparam=/^(attribution_code|attribution_sig)=/
 ||duckduckgo.com^$removeparam=t
 ||ebay.$removeparam=/^(_blrs|_from|_trkparms|_trksid|abcId|bu|campid|chn|crd|customid|emsid|euid|mkcid|mkevt|mkgroupid|mkpid|mkrid|mktype|poi|sacat|sojTags|toolid)=/
 $removeparam=/^(amdata|cmpgn|crlp|device|epid|geo_id|hash|MT_ID)=/,domain=ebay.*
@@ -56,10 +58,12 @@ $removeparam=/^(amdata|cmpgn|crlp|device|epid|geo_id|hash|MT_ID)=/,domain=ebay.*
 ||linkedin.com^$removeparam=/^(refId|trk)=/
 ||linkedin.com/authwall?$removeparam=/^(originalReferer|trkInfo)=/
 ||microsoft.com^$removeparam=/^(irclickid|ocid|ranEAID|ranSiteID|tduid)=/
+||office.com^$removeparam=ocid
 ||play.google.$removeparam=referrer
 ||searx.*/search?$removeparam=~/^(categories|category_|preferences|q)/
 ||twitter.com^$removeparam=/^(cn|ref_src|ref_url|s)=/
 ||youtube.com^$removeparam=/^(tab)=/
+||zalando.$removeparam=/^(cd\d+|tm_hem|wmc|wt_cd)/
 @@/^https?:\/\/(?:[a-z0-9-]+\.)*?(?:cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
 @@/ws$removeparam,domain=speedtest.net
 @@||urldefense.com^$removeparam
@@ -160,15 +164,17 @@ github.com##.dashboard-changelog
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 instagram.com##a[href] > div[style="width: 100%;"]:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(3)
 instagram.com##button:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(2)
-instagram.com##body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
+! instagram.com##body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
 instagram.com##main > section > div[style^="left:"]
 instagram.com##main > section > :not(div[style^="left:"]):style(max-width: 800px !important;)
 instagram.com##main > section .VideM:style(width: 1530px !important; margin-left: -300px !important;)
-chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Logos))
-chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Mentoring))
-chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Pastoraat))
-chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Spirituality))
-chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Studentenraad))
+instagram.com##main > section > div > div:nth-of-type(2):style(width: 1530px !important; margin-left: -350px !important;)
+chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(/Logos|Mentoring|Pastoraat|Spirituality|Studentenraad/))
+! chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Logos))
+! chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Mentoring))
+! chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Pastoraat))
+! chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Spirituality))
+! chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(Studentenraad))
 library.etf.edu##.attention-note:has-text(COVID Update)
 library.etf.edu##.main-menu [href$="covid19"]
 openstreetmap.org##.visible.welcome:has-text(Welcome to OpenStreetMap)
@@ -190,25 +196,27 @@ translate.google.com##[class][aria-label^="Google-account"][href^="https://accou
 translate.google.com##section:has-text(/COVID/i)
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com##ytd-browse ytd-rich-section-renderer:has(#title-text:has-text(Shorts))
 www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
 www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
 www.youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
+! www.youtube.com##ytd-comments #content-text:has-text(/\b(word)\b/i):upward(ytd-comment-thread-renderer)
+! www.youtube.com##ytd-comments #comments #contents:remove()
 www.youtube.com##ytd-message-renderer.ytd-live-chat-frame:has-text(Première):remove()
 ! www.youtube.com##ytd-watch-next-secondary-results-renderer:remove()
 www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-item-section-renderer:nth-of-type(n+15):remove()
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-continuation-item-renderer:remove()
 www.youtube.com###chat:remove()
 www.youtube.com###clarify-box
-! www.youtube.com###comments #contents:remove()
-! www.youtube.com###comment:has-text(test):upward(1)
 www.youtube.com###comment-teaser
 www.youtube.com###super-title
 www.youtube.com##.super-title
+www.youtube.com##.super-title-icon:upward(1)
 ! www.youtube.com##.videowall-endscreen
 www.youtube.com##.ytp-subtitles-button:has([fill-opacity="0.3"])
-www.youtube.com##.ytd-watch-metadata > .top-level-buttons  #text:not(:has-text(/[\d]/))
+www.youtube.com##.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
 www.youtube.com###info .top-level-buttons  #text:not(:has-text(/[\d]/))
 www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important;)
 www.youtube.com###page-manager:style(scrollbar-width: none !important;)
@@ -228,6 +236,7 @@ wikisource.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Fra
 wikitravel.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
 wikivoyage.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
 wiktionary.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+cumcams.nl,erotischemassages.com##+js(aopw, age_gate_params)
 !--Anti Google Chrome Download Message, Cookie Banner and Login
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout
 www.youtube.com##.ytd-popup-container > .ytd-mealbar-promo-renderer
@@ -269,36 +278,173 @@ radarbox.com##+js(set, ads_enabled, true)
 @@||browserleaks.com/img/*.gif?v=*&q*$image,1p
 @@||s_a_f_e..0verflow.*$image,domain=browserleaks.com
 @@||browserleaks.com$removeparam,1p
+!--Anti Contextmenu, Selection and Copying
+debijbel.nl,theorieexamen.nl##*:style(user-select: text !important; -moz-user-select: text !important;)
+! *##::selection:style(background-color: Highlight !important; color: HighlightText !important;)
+theorieexamen.nl##+js(aeld, contextmenu)
 !--Anti SocialMedia Plugins
-*###share
-*###socialize
-telegraaf.nl##.ArticleSocialButtons
-*##.fb-like-box:not(html, body)
-*##.fb-page:not(html, body)
-*##.fb-page-plugin:not(html, body)
-jdreport.com##.mashsb-container
-*##.post-share
-*##.share:not(html, body)
-*##.share_buttons
-*##.share-post
-*##.share-tools
-*##.sharing:not(html, body)
-*##[class^="shareWrapper"]:not(html, body)
-*##[class^="social" i]:not(article, html, body, [preload])
-*##[class*="facebook" i]:not(html, body)
-*,~docs.google.com,~paypal.com,~sharesome.com##[class*="share" i]:not(article, html, body, [preload], [class*="article"])
-*##[class*="shareIconContainer" i]:not(html, body)
-*##[class*="sharing" i]:not(article, html, body)
-*##[class*="social-share" i]:not(html, body)
-*##[class$="share-inline"]:not(html, body)
-*##[class$="shareitemlist"]:not(html, body)
-*##div[class^="post_share"]
-*##div[class$="share-bar"]
-*,~eo.nl,~telegraaf.nl##div[class*="social"]
-*##a[href^="javascript:"][href*="share" i] 
-*##a[href$="/feed"]
-*##a[href$="feed/"]
-*##h4:has-text(/Deel|Share/i)
+! ###add_like_bar
+! ###ctoolbar
+! ###divShare
+! ###fb_share
+! ###fb-share
+! ###likebuttons
+! ###mashfbar-header
+! ###new-social-share
+! ###share
+! ###share_bar
+! ###share_container
+! ###sharebar
+! ###ShareEntryPoint
+! ###sharingfooter
+! ###social_buttons
+! ###socialize
+! ###social-share
+! ###ss-floating-bar
+! ###story-socials
+! ###tell-a-friend
+! ###top_share
+! ##.article__share:not(html, body)
+! telegraaf.nl##.ArticleSocialButtons
+! ##.basicsSocialActions-socialIcons:not(html, body)
+! ##.c-article__byline-social:not(html, body)
+! ##.fbbsb-button:not(html, body)
+! ##.fb-like-box:not(html, body)
+! ##.fb-page:not(html, body)
+! ##.fb-page-plugin:not(html, body)
+! ##.follow_like_module:not(html, body)
+! ##.footerSocial:not(html, body)
+! ##.Gallery-Share:not(html, body)
+! ##.globalSharing:not(html, body)
+! ##.heateor_sss_sharing_container:not(html, body)
+! ##.loader-container.shares:not(html, body)
+! ##.mashsb-box:not(html, body)
+! jdreport.com##.mashsb-container
+! ##.news_share:not(html, body)
+! ##.post_social:not(html, body)
+! ##.post-share
+! ##.product-sharing:not(html, body)
+! ##.recentsocial:not(html, body)
+! ##.sbtn_main:not(html, body)
+! ##.sd-sharing:not(html, body)
+! ##.share:not(html, body)
+! ##.share_buttons
+! ##.Share_Icons:not(html, body)
+! ##.sharea:not(html, body)
+! ##.shareBar:not(html, body)
+! ##.shareBottom:not(html, body)
+! ##.sharebtns:not(html, body)
+! ##.shareit:not(html, body)
+! ##.shareon:not(html, body)
+! ##.share-post
+! ##.shares-badge:not(html, body)
+! ##.sharethis-wrapper:not(html, body)
+! ##.shareToggle:not(html, body)
+! ##.share-tools
+! ##.sharetools:not(html, body)
+! ##.shariff-button:not(html, body)
+! ##.sharing:not(html, body)
+! ##.shr.btn:not(html, body)
+! ##.shr-badge__button:not(html, body)
+! ##.shr-opn:not(html, body)
+! ##.sns:not(html, body)
+! ##.social.shares:not(html, body)
+! ##.SocialArticleIcons:not(html, body)
+! ##.socialbuttons:not(html, body)
+! ##.socialmedia:not(html, body)
+! ##.socialmedia-btns:not(html, body)
+! ##.soc-list:not(html, body)
+! ##.spotheader__sharing:not(html, body)
+! ##.ssba:not(html, body)
+! ##.ssk-group:not(html, body)
+! ##.swp-hover-pin-button:not(html, body)
+! ##.wpusb:not(html, body)
+! ##[app=addtoany]
+! ##[class$="share-inline"]:not(html, body)
+! ##[class$="shareitemlist"]:not(html, body)
+! ##[class*="facebook" i]:not(html, body)
+! ##[class*="fb-share"]:not(html, body)
+! ##[class*="share-toolbar"]:not(html, body)
+! ##[class*="shareIconContainer" i]:not(html, body)
+! ##[class*="sharing-"]:not(article, html, body, [preload])
+! ##[class*="social-share"]:not(article, html, body, [preload])
+! ##[class*="social_share"]:not(article, html, body)
+! ##[class*="socialshare" i]:not(html, body)
+! ##[class^="shareWrapper"]:not(html, body)
+! ##[data-flip-widget=shareflip]
+! ##[id*="share-"]
+! ##[socialshare]
+! ##a[appshareclick]
+! ##a[class$=sharebtn]
+! ##a[class$=-sharing-button__link]
+! ##a[class*=BtnShare]
+! ##a[class*=-sharing-popup]
+! ##a[class*=-socials__item]
+! ##a[class^=sharing-popup-]
+! ##a[class^=socialbutton i][onclick*="window.open"]
+! ##a[data-ga-event-action^="share:"]
+! ##a[data-pin-do=buttonPin]
+! ##a[data-plugin^=sharingButtons]
+! ##a[data-ss-ss-type]
+! ##a[data-tooltip^="Share on "]
+! ##a[data-type=sharing-button]
+! ##a[href*=".cmd=addShare"]
+! ##a[href*="/share-newsletter/"]
+! ##a[href*="/social_plugins/share"]
+! ##a[href*=share-tools]
+! ##a[href^="/sharer/sharer.php?"] > button[type=submit]
+! ##a[href^="javascript:"][href*="share" i] 
+! ##a[href="#javascript"][class*=social-link]
+! ##a[id^=share_btn]
+! ##a[onclick^="share_toggle("]
+! ##a[onclick^="var share"]
+! ##a[onclick^="window.open('http"][onclick*=".com/sharer"]
+! ##a[onclick^=ShowShareDialog]
+! ##a[onmouseover^="return addthis_open"]
+! ##a[title^="Share on " i]
+! ##a[title^="Share to "]
+! ##a[title="Share this"]
+! ##amedia-share
+! ##amp-social-share
+! ##div[class$="share-bar"]
+! ##div[class$=-share-single]
+! ##div[class*=_share_button]
+! ##div[class*=addthis]
+! ##div[class*=article-share]
+! ##div[class*=box--share]
+! ##div[class*=footer__share]
+! ##div[class*=FooterShare i]
+! ##div[class*=iconShare]
+! ##div[class*=lp_sharing]
+! ##div[class*=post-sharing]
+! ##div[class*=share-article]
+! ##div[class*=share-box]
+! ##div[class*=sharer-tool]
+! ##div[class*=sharethisbutton i]
+! ##div[class*=shareToolbar]
+! ##div[class*=social-panel]
+! ##div[class*=social][class*=sharing]
+! ##div[class*=social_sidebar]
+! ##div[class*=social_slide]
+! ##div[class*=socials-share]
+! ##div[class^=container_NotificationsBanner_]
+! ##div[class^=fbshare i]
+! ##div[class^=icon-share-]
+! ##div[class^="post_share"]
+! ##div[class^=share-options]
+! ##div[class^=shareLinks]
+! ##div[class^=social-like]
+! ##div[class^=social-media-container]
+! ##div[data-aop^=sharingtoolbar]
+! ##div[data-hook=social-sharing]
+! ##div[id$=_sharethis]
+! ##div[id^=btnShare i]
+! ##div[id^=sthoverbuttons]
+! ##div[tmp^="Share on "]
+! ##h4:has-text(/Deel|Share/i)
+! ##label[for*=ShareModal]
+! ##share-grid
+! ##span[data-lnkd-debug]
 *share_ico*$~css
 *social_ico*$~css
 /addthis_widget.js^
@@ -370,7 +516,7 @@ jdreport.com##.mashsb-container
 ||api.tweetmeme.com/button.js$third-party
 ||api.twitter.com/*/count.json$third-party
 ||api.*.getsocial.io/get/$script
-||assets.pinterest.com/images/pidgets/$third-party
+||assets.pinterest.com/images/widgets/$third-party
 ||button.flattr.com^$third-party
 ||cdn.wibiya.com^$third-party
 ||changetip.com^$third-party
@@ -422,45 +568,322 @@ jdreport.com##.mashsb-container
 ||widgets.pinterest.com^$3p
 ||youtube.com/subscribe_$third-party
 !--Anti Cookie Popups
+/gdpr.js$script,1p
+*/wp-content/plugins/gdpr-cookie-compliance/$script,1p
+||consent.trustarc.com^$3p
 ||myprivacy.dpgmedia.net^$3p,script,frame
 ||myprivacy-static.dpgmedia.net^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~ad.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~pzc.nl
-||privacy-mgmt.com^$3p,script,frame,domain=~ad.nl|~ed.nl|~gelderlander.nl|~nu.nl|~pzc.nl
+||privacy-mgmt.com^$3p,script,frame,domain=~ad.nl|~autoweek.nl|~ed.nl|~gelderlander.nl|~nu.nl|~pzc.nl
 ||privacymanager.io^$3p,script,frame,domain=~geenstijl.nl|~omroepwest.nl
 ||quantcast.mgr.consensu.org^$3p,script,frame,domain=~www.vi.nl
 ||sdk.privacy-center.org^$3p,script,frame,domain=~goplay.be|~metronieuws.nl|~telegraaf.nl
 *###cookie:not(html, body)
+*###cookies:not(html, body)
 *###gdpr:not(html, body)
 *##.cookie:not(html, body)
 *##.cookies:not(html, body)
-*,~consent.yahoo.com,~metronieuws.nl,~telegraaf.nl,~vi.nl##[class*="consent-"]:not(html, body)
-*,~eo.nl,~reddit.com##[class*="cookie" i]:not(html, body ,a)
-*##[class*="gdpr-" i]:not(html, body)
-*,~paypal.com,~privacymanager.io##[class*="privacy-"]:not(html, body, a)
-*##[class*="privacy_"]:not(html, body, a)
-*,~consent.yahoo.com,~geenstijl.nl,~omroepwest.nl##[id*="consent-"]:not(html, body)
-*,~geenstijl.nl,~refoweb.nl##[id*="cookie" i]:not(html, body)
-*##[id*="gdpr" i]:not(html, body)
-*,~geenstijl.nl,~omroepwest.nl##[id*="gdpr-" i]:not(html, body)
-*,~paypal.com##[id*="privacy-"]:not(html, body, a)
-*##[id*="privacy_"]:not(html, body, a)
-akku-shop.*,abconcerts.be,adidas.*,bbc.com,bijbel-statenvertaling.com,calvinklein.*,catawiki.com,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,escarpe.*,hetwkz.nl,joingoodcompany.nl,kerknet.be,kinky.nl,kyoceradocumentsolutions.*,lego.com,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,petities.com,umcutrecht.nl,vanharen.nl,zwic.nl##body:style(overflow: auto !important;)
-amazon.*###sp-cc[action^="/cookieprefs"]
-anwb.nl##.critical-dialog
-mechanisatiemarkt.nl##[class^="cc_dialog"]:upward(3)
-beterrekenen.nl,nieuwsuitdelden.nl,oostnl.nl,vraagzin.nl##[class^="cc_banner"]:not(html, body)
-bing.com,interfriendship.*,kvk.nl,openreach.com,paypal.com,pvcvoordeel.nl##html:style(overflow: auto !important)
-hema.nl,makro.nl,mulders-opel.nl,nsinternational.com,vaillant.*##body,html:style(overflow: auto !important; position: initial !important;)
-kieskeurig.nl##html:style(overflow: auto !important; position: initial !important;)
-bol.com##body,html:style(overflow: auto !important;)
-bol.com##.main:style(position: static !important; filter: none !important; width: auto !important;)
-bol.com,vaillant.*##.modal:has-text(cookie)
-gratis-theorie-examen.nl##.cc-window
-ilovepdf.com###toast-container
-instagram.com#?#div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
-jw.org##div[class*="legal-notices"]
+! *,~consent.yahoo.com,~metronieuws.nl,~telegraaf.nl,~vi.nl##[class*="consent-"]:not(html, body)
+! *,~eo.nl,~reddit.com##[class*="cookie" i]:not(html, body ,a)
+! *##[class*="gdpr-" i]:not(html, body)
+! *,~paypal.com,~privacymanager.io##[class*="privacy-"]:not(html, body, a)
+! *##[class*="privacy_"]:not(html, body, a)
+! *,~consent.yahoo.com,~geenstijl.nl,~omroepwest.nl##[id*="consent-"]:not(html, body)
+! *,~geenstijl.nl,~refoweb.nl##[id*="cookie" i]:not(html, body)
+! *##[id*="gdpr" i]:not(html, body)
+! *,~geenstijl.nl,~omroepwest.nl##[id*="gdpr-" i]:not(html, body)
+! *,~paypal.com##[id*="privacy-"]:not(html, body, a)
+! *##[id*="privacy_"]:not(html, body, a)
+grandprixradio.nl###accept-cookies
+petitie24.nl###cc--main
+eindtijdklok.org###cmp-app-container
+genotsplekje.nl,kanaancourant.nl,palnws.be###cmplz-cookiebanner-container
+meerradio.nl###cookie_banner
+goodbye.be###cookieBar
+fleet-mobility.nl,hdtienersexfilms.nl,marketingtribune.nl,poepsexfilmstube.nl###cookie-bar
+farm-date.com###cookieChoiceInfo
+nd.nl###cookieconsent
+handbalstartpunt.nl###cookie-container
+beveiligingnieuws.nl,crypto-insiders.nl,edelmetaal-info.nl,freesoccer.nl,gamblingreport.nl,groningsnieuws.nl,infinance.nl,intikkertje.nl,itdaily.be,itwm.nl,klapjes.nl,livestreamvandaag.be,nieuwslog.nl,nl-nieuwsonline.nl,oneworld.nl,onlinecasinorss.nl,onlinepokerrss.nl,runningplus.nl###cookie-law-info-bar
+gamereactor.nl###cookielawwarning
+dissident.one,geelfm.be,girlpowerradio.nl,groningerkrant.nl,kinkymedia.nl,leerzaam.com,meerbode.nl,omrekenen.org,omroephouten.nl###cookie-notice
+noties.nl###cookie-notification
+solarmagazine.nl###cookie-notifier
+mariabode.nl,vaerhorst.nl###eu_cookie_law_widget-2
+dekattensite.nl###eu-cookie-bar
+duurzaamnieuws.nl,loemedia.nl###gdprc_bar
+dutchitchannel.nl,executive-people.nl###gdpr-cookie-message
 mediamarkt.*###loading
 medicalnewstoday.com###modal-host
-onzetaal.nl##.consent
-petities.com##.modal-backdrop
+dolcevia.com###mod-eu-cookies
+dolcevia.com###mod-eu-cookies-overlay
+dorpsklanken.online,feyenoordreport.nl###moove_gdpr_cookie_info_bar
 umcutrecht.nl###navigation.menu-wrapper
+koopplein.nl###qball_co_cookie_div_layover
+massad.com###sbeu-cookie
+amazon.*###sp-cc[action^="/cookieprefs"]
+ilovepdf.com###toast-container
+glutenvrij.nl##.cb-js.scms-cookie-control
+dtvnieuws.nl,gratisepub.nl,interglot.nl,omroephorstaandemaas.nl,omroepvenlo.nl##.cc_banner-wrapper
+lonelyplanet.nl##.cc_container--open.cc_container.cc_banner
+nieuweoogst.nl##.cc_overlay_lock
+0297.nl,112schade.nl,drentsnieuws.nl,fantv.nl,gratis-theorie-examen.nl,golf.be,h2owaternetwerk.nl,kinderspelletjes.be,kinderspelletjes.nl,kledingmaten.nl,landbouwgrond.nu,marktnet.nl,modekoninginmaxima.nl,oefentoetsen.nl##.cc-window
+groningsnieuws.nl##.cli-show.cli-modal-backdrop
+onzetaal.nl##.consent
+sexwerk.nl##.cookiealert
+ftm.nl##.cookie-consent
+klimaatinfo.nl##.cookie-container
+knhs.nl##.cookie-dialog
+folderz.nl##.cookie-message
+anwb.nl##.critical-dialog
+nnieuws.be##.eu-cookie-compliance-banner
+onsnieuws.com##.eu-cookies-bar-cookies-bar-wrap
+marktplaats.nl##.gdpr-consent-modal-overlay.gdpr-consent-banner
+dwtonline.com##.jnews-cookie-law-policy
+superuser.com##.js-consent-banner
+bol.com##.main:style(position: static !important; filter: none !important; width: auto !important;)
+bol.com,vaillant.*##.modal:has-text(cookie)
+petities.com##.modal-backdrop
+besteproduct.nl##.modals
+eredivisie.nl##.tdecc
+deblueskrant.nl##.widget_eu_cookie_law_widget
+beterrekenen.nl,nieuwsuitdelden.nl,oostnl.nl,vraagzin.nl##[class^="cc_banner"]:not(html, body)
+mechanisatiemarkt.nl##[class^="cc_dialog"]:upward(3)
+automobielmanagement.nl,carwashpro.nl##body > * :style(filter: unset !important;)
+hema.nl,makro.nl,mulders-opel.nl,nsinternational.com,vaillant.*##body,html:style(overflow: auto !important; position: initial !important;)
+bol.com##body,html:style(overflow: auto !important;)
+bosch-home.nl##body.cookielaw-blur-background > :not([data-t-decorator="CookieLaw"]):style(filter: none !important;)
+akku-shop.*,abconcerts.be,adidas.*,bbc.com,bijbel-statenvertaling.com,calvinklein.*,catawiki.com,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,erotracks.nl,escarpe.*,hetwkz.nl,joingoodcompany.nl,kerknet.be,kinky.nl,kyoceradocumentsolutions.*,lego.com,marktplaats.nl,medicalnewstoday.com,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,petities.com,umcutrecht.nl,vanharen.nl,zwic.nl##body:style(overflow: auto !important;)
+bosch-home.nl##body:style(overflow-y: auto !important;)
+jw.org##div[class*="legal-notices"]
+instagram.com##div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
+automobielmanagement.nl,bing.com,interfriendship.*,kvk.nl,openreach.com,paypal.com,petitie24.nl,pvcvoordeel.nl##html:style(overflow: auto !important)
+kieskeurig.nl##html:style(overflow: auto !important; position: initial !important;)
 umcutrecht.nl##main:style(filter: none !important)
+
+
+
+kidsweek.nl###block-sevendays-tweaks-social-media
+europa-heftruck.nl###dropdownShare
+pcmweb.nl###facebook
+meerradio.nl###facebook\.14
+petitie24.nl###fb-root
+dutchitchannel.nl,executive-people.nl###share
+motocrossplanet.nl###socialButtons
+carwashpro.nl,infrasite.nl,ovpro.nl###socialmedia
+fonkmagazine.nl###social-media
+marktplaats.nl###social-share-root
+dartsactueel.nl,leerzaam.com,ml5.nl,oogtv.nl##.addtoany_content.addtoany_share_save_container
+binnenlandsbestuur.nl##.addtoany_list
+agconnect.nl##.adfo-social-share-links-container
+gaynews.nl##.agenda_shareblok
+bieos-omroep.nl##.aiovg-social
+guidinc.nl,limburger.nl##.article__share
+letsgodigital.org##.article__social
+nieuwsuitdelden.nl##.article_share_title
+demorgen.be,parool.nl,volkskrant.nl##.article-footer__sharing
+automobielmanagement.nl##.article-share
+thegatewaypundit.com##.article-sharing
+persinfo.org##.article-social
+omroepflevoland.nl##.article-socials
+alkmaarguardians.nl##.avia_fb_likebox
+noordkopcentraal.nl##.avia-cookie-consent-wrap
+alkmaarguardians.nl##.av-share-box
+duurzaamnieuws.nl##.av-social-sharing-box
+motorrijdenexpert.nl##.blogpost-share-wrap-onestep
+livios.be##.btn-group-sm
+berekenhet.nl,patternsofevidence.com##.btn-share
+binnenlandsbestuur.nl##.c-article__social
+atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,voetbalkrant.com,wielerkrant.be##.colored.social-icons
+cityplaza.nl##.cookie-bar
+onderwijsland.com##.cookiecheck
+openingsurengids.be##.cookieconsent-com---nb-interstitial-overlay
+nummerzoeker.com##.cookiedialog
+ditjesendatjes.nl,flair.nl,inmemoriam.be##.c-share
+made-in.be##.c-share__list:upward(1)
+knack.be##.c-socials-aside
+basketball.nl##.c-social-share__icon-row
+basketball.nl##.c-social-share__title
+knack.be##.c-social-shares
+cabla.nl##.delen
+a1mediagroep.nl##.desktop.moduletable > .mod-list.menu.nav
+guidinc.nl##.detail__sharebtn
+morningstar.nl##.divToolsWidgetRight
+groningerkrant.nl##.dpsp-networks-btns-share
+cryptobenelux.com,cryptonieuws.nl,dekattensite.nl,deliciousmagazine.nl,mr-online.nl,motokicx.com##.elementor-widget-share-buttons
+runningplus.nl##.et_social_sidebar_flip.et_social_sidebar_networks
+wyattmuseum.com##.facebook-widget
+fantv.nl,halstadcentraal.nl##.fastsocialshare_container
+apintie.sr##.fbside
+fixpedia.nl,geldpedia.nl,manpedia.nl##.gridlove-share-wrapper
+gva.be##.gva-92611660_shareitemlist
+hbvl.be##.hbvl-92611660_shareitemlist
+artsencollectief.nl,dutchcryptotalk.com,deblueskrant.nl,hyc.be,kinkymedia.nl,radiovisie.eu##.heateor_sss_sharing_container
+geenstijl.nl,welingelichtekringen.nl##.hidden-xs
+gooieneemlander.nl##.hmc-ge-92611660_sharesticky
+leidschdagblad.nl##.hmc-ld-92611660_sharesticky
+noordhollandsdagblad.nl##.hmc-nhd-92611660_sharesticky
+ninefornews.nl##.iwc-speak-share-buttons
+midvliet.nl##.jb-cookie
+dwtonline.com##.jeg_custom_share_wrapper
+almere-nieuws.nl,palnws.be##.jeg_share_bottom_container
+guldencourant.nl,klapjes.nl,palnws.be##.jeg_share_top_container
+nrc.nl##.js-show.user-confirmation-screen
+handbal.be##.jssocials.sharing-page
+tref.eu##.jssocials-share
+lonelyplanet.nl##.jssocials-shares
+appletips.nl##.lineshare
+participaties.nl##.linkbar
+nd.nl##.list-a-hvr-primary
+ans-online.nl##.list-posts-share
+emerce.nl##.m-article-info__data-share
+emerce.nl##.m-article-share
+iculture.nl,jdreport.com##.mashsb-stretched.mashsb-main.mashsb-container
+parool.nl,volkskrant.nl##.menu__share-inline
+tpo.nl##.meta__share
+nrc.nl##.metabox__list__link--share
+omroeprsh.nl##.mh-social-bottom
+peoplesphere.be##.nc_socialPanel
+ninefornews.nl##.nfn-share-top-wrapper
+538.nl##.n-shareText-0-2-790
+538.nl##.n-socialShare-0-2-814
+funda.nl##.object-save-share__button-share
+cinenews.be##.open-modal-share
+duurzaam-actueel.nl,klokradio.nl,osuradio.nl##.pea_cook_wrapper
+noordernieuws.nl##.penci-social-share-center.penci-social-buttons
+friedensstimme.nl##.post__sharing
+loemedia.nl##.post_share_center
+fiets.nl##.post-data__share
+fietsactief.nl,infinance.nl##.post-share
+mannennieuws.nl##.post-share-bar
+intikkertje.nl,okemedia.nl##.post-sharing
+dansendeberen.be##.post-social-frame
+frontline.digital##.post-social-wrapper
+debanier.nl##.product__sharing
+thunderbird.prowly.com##.pr-story--share-sapce.pr-story--share-sapce-none
+klokradio.nl##.pt-cv-social-buttons
+jammfm.nl##.qticon-share
+omroepeemsdelta.nl##.qt-part-share
+jammfm.nl##.qt-sharelink
+omroephouten.nl##.qt-sharepage
+girlpowerradio.nl##.reakticons-share
+h2owaternetwerk.nl##.s2sdefault
+beveiligingnieuws.nl##.sfsi_plus_Sicons
+123geldzaken.nl,agriline.be,agriline.nl,androidplanet.nl,autoline.be,autoline.nl,bruzz.be,cambuur.nl,camsexbabe.nl,creampiesex.nl,creditexpo.nl,duic.nl,ewmagazine.nl,feyenoordpings.nl,filmtotaal.nl,ga-eagles.nl,gids.tv,gratisaftehalen.nl,hetnieuwsvandaag.be,indebuurt.nl,machineryline.be,machineryline.nl,mediacourant.nl,menttv.be,modekoninginmaxima.nl,sdok.nl,voetbalverslaafd.nl,omroephorstaandemaas.nl,omroepvenlo.nl##.share
+techindeep.com##.share_float_container
+androidworld.nl,bitcoinmagazine.nl,dagelijksestandaard.nl,indeleiderstrui.nl##.share_item
+beleggersbelangen.nl##.share-area > .slide
+banknieuws.info##.share-art
+classicstogo.nl##.share-bar
+voetbalprimeur.nl##.share-block
+gezondheid.be##.sharebutton
+feyenoord.nl##.shareButtons
+despirituelewereld.be,iculture.nl,nu.nl,regionoordkop.nl,tpo.nl##.share-buttons
+bnr.nl##.ShareButtons_share-buttons__fDWr4
+gld.nl,omroepwest.nl,omroepzeeland.nl##.share-buttons-container
+bol-an.nl,bollenstreekomroep.nl,briefjevanjan.nl,eindtijdklok.org,gfcnieuws.com,hollywoodhuizen.nl,mariabode.nl,stopdebankiers.com,wanttoknow.nl##.sharedaddy
+autoblog.nl##.shared-counts-wrap
+nuus.be##.share-it
+402online.com##.sharelinks
+onsoranje.nl##.ShareOptions
+oneworld.nl##.share-options
+bloovi.be##.sharer
+omroepbrabant.nl##.shares_shares__2B7sw
+christenenvoorisrael.nl##.share-socials
+7sur7.be,ad.nl,autobahn.eu,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,goedgevoel.be,hln.be,playboy.nl,tubantia.nl,pzc.nl##.sharing
+historiek.net##.single-component-share
+beleefalmere.nu##.single-post-share-big
+niw.nl##.single-share
+autoweek.nl,beursgorilla.nl,mens-en-gezondheid.infonu.nl,marketingtribune.nl,rd.nl##.social
+nec-nijmegen.nl##.social_sharing
+notebookcheck.nl##.socialarea
+autowereld.nl##.socialbutton
+rtlnieuws.nl##.social-buttons
+computable.nl##.social-buttons-column
+telegraaf.nl##.SocialButttons
+gamereactor.nl##.socialIcons
+112schade.nl##.social-icons
+rtlboulevard.nl##.social-items
+techradar.com##.socialite-widget
+investmentofficer.nl##.social-links
+anwb.nl##.socialmedia-buttons
+immo.vlan.be##.social-media-buttons
+grandprixradio.nl##.social-media-share
+mnm.be##.socialmedia-wrapper
+golf.be##.social-nav
+nieuweoogst.nl##.social-network
+bodylifebenelux.nl,dvhn.nl,eredivisie.nl,hpdetijd.nl,lc.nl,meppelercourant.nl,nhnieuws.nl##.socials
+a1mediagroep.nl##.socialshare
+az.nl,businessinsider.nl,dvhn.nl,eoswetenschap.eu,fotografie.nl,lc.nl,meppelercourant.nl,nieuwnieuws.nl,nieuws.nl,omroeppenm.nl,opendoors.nl,vrt.be##.social-share
+linda.nl##.social-share_base
+stadsarchief.rotterdam.nl##.social-share-buttons-component
+ajax1.nl##.social-share-container
+kekmama.nl,zakbijbelbond.nl##.social-sharing
+nieuwsmotor.nl##.social-side-icons
+limburger.nl##.social-sticky-wrapper
+freesoccer.nl##.ssbp-wrap.ssba
+digitaalburg.com##.swp_social_panel
+destreekkrant.nu,elegance.nl,nieuwsopbeeld.nl##.td-post-sharing
+amstelveenblog.nl,binnenvaartkrant.nl,bollywood.nl,dartfreakz.nl,dekrantnieuws.nl,destreekkrant.nu,frontnieuws.com,gostreaming.nl,hoekschnieuws.nl,omroepspakenburg.nl##.td-post-sharing-bottom
+amstelveenblog.nl,dekrantnieuws.nl,dissident.one,genotsplekje.nl,gostreaming.nl,hoekschnieuws.nl,newspower.nu##.td-post-sharing-top
+computable.nl##.text-share-column
+noordkopcentraal.nl##.the_champ_horizontal_sharing.the_champ_sharing_container
+nieuwsmotor.nl##.tm-cookie-banner
+mediawijsheid.nl##.vce-share-bar
+financialinvestigator.nl##.weblogPost__share
+intermediair.nl##.widgets__item--share
+ajaxreport.nl,feyenoordreport.nl##.wpusb-buttons.wpusb
+edestad.nl##[title^="Deel"]:upward(5)
+fanclubbarcelona.nl##a.smLink
+
+! 2022-07-02 https://www.omgubuntu.co.uk
+www.omgubuntu.co.uk##.omg-socials
+
+! 2022-07-02 https://www.omglinux.com
+www.omglinux.com##.share
+
+! 2022-07-04 https://www.theorie-leren.nl
+www.theorie-leren.nl###cookiewarning
+
+! 2022-07-04 https://www.mormonisme.info
+www.mormonisme.info##.sharedaddy
+
+! 2022-07-04 https://visie.eo.nl
+visie.eo.nl##.vi-ArticleShare
+
+! 2022-07-05 https://www.google.com
+||maps.gstatic.com/tactile/promo/covidinfo/$image
+www.google.com##[style^="background-image:url(//maps.gstatic.com/tactile/promo/covidinfo/covid19-promo.png)"]:upward(3)
+
+! 2022-07-06 https://boerenvoorburen.nl
+boerenvoorburen.nl###cookie-notice
+
+! 2022-07-06 https://www.martinvrijland.nl
+www.martinvrijland.nl###cookie-law-info-bar
+
+! 2022-07-06 https://pornoplekje.nl
+pornoplekje.nl###cmplz-cookiebanner-container
+
+! 2022-07-06 https://pornopower.nl
+pornopower.nl###cookie-law-info-bar
+
+! 2022-07-06 https://www.pornolekker.com
+www.pornolekker.com##.jssocials
+
+! 2022-07-06 https://qmusic.nl
+qmusic.nl##.c-share
+
+! 2022-07-06 https://www.racesport.nl
+www.racesport.nl##.td-post-sharing-bottom
+
+! 2022-07-06 https://radio182.nl
+radio182.nl###cookie-notice
+
+! 2022-07-06 https://www.radiofm.nl
+www.radiofm.nl###ccd > .cc_banner-wrapper > .cc_container--open.cc_container.cc_banner
+
+! 2022-07-06 https://radiolelystad.nl
+radiolelystad.nl###ampz_inline_bottom
+
+! 2022-07-06 https://www.webmastersunited.com
+www.webmastersunited.com##.content-share-container >.content-share
+
