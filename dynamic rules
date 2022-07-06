@@ -936,7 +936,6 @@ login.microsoftonline.com prd.aadg.trafficmanager.net * noop
 login.microsoftonline.com account.activedirectory.windowsazure.com * noop
 www.momondo.nl content.r9cdn.net * noop
 morningstar.nl euim.mstar.com * noop
-www.morningstar.nl euim.mstar.com * allow
 motorsport.com motorsport.tv * noop
 hubs.mozilla.com assets-prod.reticulum.io * noop
 mozilla.org mozilla.net * noop
@@ -963,7 +962,6 @@ www.nieuwsblad.be goplay.be * noop
 www.nieuwsblad.be shared.mediahuis.be * noop
 www.ncbi.nlm.nih.gov pubmed.gov * noop
 www.ninefornews.nl epsiloncdn.net * noop
-www.ninefornews.nl l-msedge.net * noop
 www.ninefornews.nl licdn.com * noop
 www.nltube.com cdn.fluidplayer.com * noop
 login.norton.com static.nortoncdn.com * noop
