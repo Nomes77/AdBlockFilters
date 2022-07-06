@@ -1,7 +1,24 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 01 Jul 2022 15:14:58 +0000
+! Last updated: Tue, 05 Jul 2022 15:10:21 +0000
 !
+! 2022-07-05
+hollywoodhuizen.nl##.a-widget
+hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:not(.sharedaddy):not(:has(img))
+radiomonique.am##.qt-sponsors
+nl-nieuwsonline.nl###content-footer-section:has(.adsbygoogle)
+nieuwsfiets.nu##.ult-content-box > a[href]:not([href*="nieuwsfiets.nu"]):not([href*="questionpro.com"])
+nl.motorsport.com##.ms-side-items--with-banner
+mr-online.nl##a[href="/partner/profielpartner/"]:upward(.elementor-widget-wrap)
+gooieneembode.nl##[advobject]:upward(.bg-gray-100)
+gooieneembode.nl##.content-start > :has([advobject])
+weespernieuws.nl##[advobject]:upward(.bg-gray-100)
+weespernieuws.nl##.content-start > :has([advobject])
+tippelpagina.nl##.widget:has-text(/advertentie|aanraders/i)
+immo.vlan.be##.partners_immo
+vakantieweb.be##.partners-immo
+hvzeeland.nl##.advertisement
+arenalokaal.nl##.content-start > .w-full:has-text(Externe)
 ! 2022-07-01
 forum.scholieren.com##div[data-advert-placeholder-size]
 basketballbelgium.be##.sidebar-inner aside:has(.carousel.slide)
@@ -18,6 +35,7 @@ opwindend.net##div.Tab:has(img[src^="Promotie_Content/"])
 oogtv.nl##.g
 radio.nl###xttm > .shadow
 radio.nl###xbtm > .shadow
+radio.nl##[id^="takeover"]:has-text(Advert)
 cocamsterdam.nl,cochaaglanden.nl###banners
 cocdeventer.nl###ads
 omroephouten.nl##.bannerswidget
@@ -55,7 +73,6 @@ leerzaam.com##[id^="custom_html-"]:has(.adsbygoogle)
 laardercourant.nl##[advobject]:upward(2)
 midvliet.nl##.bannergroup:upward(div[class^="t3-module"])
 motocrossplanet.nl##.background_link
-tippelpagina.nl##.widget:has-text(Advertentie)
 oisterwijknieuws.nl##.sidebar
 oisterwijknieuws.nl##div[align="center"] a[target="_blank"]
 onderdanigeman.nl##aside.widget:has(script[src*="affilaxy.com"])
@@ -82,7 +99,6 @@ iculture.nl##.ad-top-desktop
 iculture.nl##.feed-ad-wrapper
 solarmagazine.nl##[id]:has(.company-add)
 sproeiendekutjes.nl##aside.widget:has(a[href*="trff9links.com/"])
-hvzeeland.nl##.square:has([id^="div-gpt-ad"])
 nporadio1.nl,nporadio2.nl##[id^="adid"]:upward(2)
 hollywoodhuizen.nl##rssapp-carousel
 tennisvlaanderen.be##.commercial-banner
@@ -371,7 +387,7 @@ headliner.nl###flex_left:has([id="div-gpt-ad"])
 hardnieuws.nl##[id*="ros-300x600"]:upward(1)
 ! 2022-03-22
 hbvl.be##.widget:has(.article-teaser)
-historiek.net,mariabode.nl,omroepeemsdelta.nl##[id^="custom_html"]:has-text(/advert/i)
+mariabode.nl##[id^="custom_html"]:has-text(/advert/i)
 historiek.net##div[id^="ai_widget"]:has-text(/advert/i)
 hvzeeland.nl##.affiliates
 maaslandradio.nl##.slides
@@ -476,7 +492,6 @@ duurzaam-actueel.nl##[class*="bd-block"]:has(a[href]):has(img[src*="wp-content/u
 duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
 forum.spaarinformatie.nl##table:has-text(/advert/i)
 handbalstartpunt.nl##aside > div[class]:has(> .adsbygoogle)
-handbalstartpunt.nl##p:has(img[src*="Logo"])
 kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
 kinkymedia.nl##aside > div[id^="media_image"]:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
 netonline.be##.tekstboldwit td:has-text(/advert/i)
@@ -621,7 +636,7 @@ dissident.one##.adsbygoogle
 parool.nl,trouw.nl##.ad--section
 openingstijden.com,promootjesite.nl,radiofm.nl##.adsense
 dorpsklanken.online##.ads-mobiel
-hetkrantje-online.nl,leiderdorpsweekblad.nl##.adUnderArticle
+leiderdorpsweekblad.nl##.adUnderArticle
 adodenhaag.nl,spelletje.nl##.adv
 folderz.nl,intermediair.nl,spel.nl,spelletjes.nl##.advert
 deoudrotterdammer.nl##.advertentie
@@ -832,7 +847,7 @@ webwereld.nl##.leaderBoardHolder
 atv.be,robtv.be,tvl.be,tvoost.be##.leaderboardWrap
 blikopnieuws.nl##.ligatus-sidebar-block
 vagina.nl##.list-item:has(script[src*=realsrv])
-roulettefm.n,rtvstichtsevecht.nl##.list-sponsors
+roulettefm.nl,rtvstichtsevecht.nl##.list-sponsors
 sparta-rotterdam.nl##.logo_main_sponsor_image
 sparta-rotterdam.nl##.logo_slider_logos
 greenkeeper.nl##.logoblok
@@ -893,7 +908,7 @@ fhm500.nl##.powered_by_profile
 nederlandsextube.nl##.prefilm
 marktplaats.nl,2dehands.be##.premium-content
 letsgodigital.org##.product__wrapper:has(.adsbygoogle)
-dtvnieuws.nl,omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.n,rtvstichtsevecht.nl,wos.nl##.prom
+dtvnieuws.nl,omroephorstaandemaas.nl,omroepvenlo.nl,roulettefm.nl,rtvstichtsevecht.nl,wos.nl##.prom
 koopplein.nl##.promobloc-desktop
 koopplein.nl##.promoblocs__banner
 synoniemen.net##.promoblok
@@ -985,7 +1000,6 @@ buzzbie.nl##.TS_Banner_Spot
 gratisepub.nl##.type-post:has-text(advert)
 uecl-voetbal.nl,uel-voetbal.nl##.uitgelichtbox
 buienradar.nl##.uitradar:has(img[src*=".nl/resources//images/promo/"])
-nieuwsfiets.nu##.ult-content-box-container
 beursgorilla.nl##.ut--billboard
 beursgorilla.nl##.ut--rectangle
 dekrantnieuws.nl##.vc_box_outline.vc_single_image-wrapper
@@ -1069,8 +1083,6 @@ amusement.tv,beurs.tv,cultuur.tv,formule1.tv,gamen.tv,geloof.tv,gezondheid.tv,in
 twentefm.nl##[class^="bannerzone_"]:has([href])
 ml5.nl##[class^="fl-row fl-row-"][data-node]:has(.fl-module-uabb-image-carousel)
 gezondheid.be##[class^="gz-ads"]
-gooieneembode.nl,weespernieuws.nl##[class^="mb"]:has([advobject^="webadv_"])
-gooieneembode.nl##[class^="mtb-"]:has-text(Partner)
 schie.nu##[class^="my-"]:has(img[src*="/images/banner/"])
 appletips.nl##[class^="ph_block"]
 visserijnieuws.nl##[class^="row advertentie-"]:not([class*="advertentie-1"])
@@ -1192,13 +1204,11 @@ ajaxreport.nl,feyenoordreport.nl,psvreport.nl,voetbalsnafu.nl##div[class$="sideb
 rtlnieuws.nl##div[class$=_with_ad__ad]
 meteovista.be##div[class*="AdWrapper"]
 biflatie.nl##div[class*="elementor-widget-button"]:has-text(Advert)
-weespernieuws.nl##div[class*="krant-onder-web"]
 omroepbrabant.nl##div[class^="ad-"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 rtvdrenthe.nl##div[class^="col"]:has([class*="adcontainer"])
 assercourant.nl,emmercourant.nl##div[class^="col-sm-"]:has(.ad-item)
 zoom.nl##div[class^="display-ad_container"]
-hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:has(.adsbygoogle):not([id])
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
 rtvpapendrecht.nl##div[class^="vc_column"]:has-text(/reclame/i)
