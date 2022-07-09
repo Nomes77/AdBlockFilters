@@ -1,8 +1,18 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Tue, 05 Jul 2022 15:10:21 +0000
+! Last updated: Thu, 07 Jul 2022 14:53:06 +0000
 !
-! 2022-07-05
+! 2022-07-06
+scattube.be,tubeclips.nl###buttonUnderVideoLink
+puuropreis.nl##.banneritem:not(:has([href^="/component/banners/click"]))
+omejoop.be##.widget:has-text(/Schijnwerpers|Partners/)
+palnws.be##.content-inner > .palnw-target:has([id^="div-gpt-ad"])
+radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
+qmusic.nl##.inline-partners
+puurnaturisme.nl##aside div:has(.bannergroup_noborder)
+kinkymedia.nl##.footer-widget-container .widget:has(img)
+kinkymedia.nl##.widget:has(a[href*="ad"][href*="bnmngr"])
+tubeseks.be##.site-footer
 hollywoodhuizen.nl##.a-widget
 hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:not(.sharedaddy):not(:has(img))
 radiomonique.am##.qt-sponsors
@@ -595,7 +605,6 @@ loemedia.nl###text-17
 sexpunt.nl###top:has(.banner)
 online-radio.nl###top_ad-360
 doorbraak.be###top-advertisement-area
-radio-minerva.be###topbanner
 sexpower.nl###top-banner
 marktplaats.nl,2dehands.be###top-banner-wrapper
 eredivisie.ws,f1-gp.nl,formule1.ws,formule1-race.nl,gaming-nieuws.nl,gazetvandaag.be,giganieuws.nl,grandprix.ws,hotstreams.nl,jupilerproleague.eu,krantvandaag.nl,nieuwsgigant.nl,recepten-vandaag.nl,voetbal-vandaag.nl###topbox
@@ -606,7 +615,7 @@ hdtienersexfilms.nl,poepsexfilmstube.nl,rapetube.eu,tubeseks.be###tracking-url
 tweakers.net###true
 pornozot.com###video-right
 nlsexfilmpjes.com###videos_div_v > .clear_line
-dominant.be,pornno.be,pornofilmpjes.be,sextoons.be,tiener-sex.be###video-sidebar-wrap
+dominant.be,sextoons.be,tiener-sex.be###video-sidebar-wrap
 petities.com###visible_ad_1
 rtl.be###w-leaderboard
 nederland.fm###xbtm > .shadow
@@ -671,14 +680,12 @@ vlietnieuws.nl##.banner_wrapper
 marktplaats.nl,2dehands.be##.BannerBottom-root
 speeleiland.nl##.banner-btf-side-rectangle
 feyenoord.nl##.banner-carousel
-puuropreis.nl##.banner-column
 funnygames.be,funnygames.nl,rtvdordrecht.nl##.bannerContainer
 refoweb.nl##.bannercontainer
 elkspel.nl,fiets.nl,fietsactief.nl,knipmode.nl,rootsmagazine.nl,seasons.nl,truckstar.nl,vorsten.nl,zin.nl##.banner-container
 tvblik.nl##.banner-fluid
 antilliaansdagblad.com,dolcevia.com,lokaleomroepzeewolde.nl,radiolelystad.nl##.bannergroup
 prewarcar.nl##.banner-holder
-puurnaturisme.nl##.banneritem
 ewmagazine.nl##.banner-leaderboard
 seks.com##.bannermid
 radiozenders.fm##.banner-rectangle:not(:nth-of-type(3))
@@ -756,7 +763,7 @@ gratispornofilm.nl##.cp-webcam-gallery-container
 tameteo.nl##.creatividad
 knltb.nl,tennis.nl##.c-site-footer__partners
 tijd.be##.c-sitenavPlaceholder__ad
-golf.nl,qmusic.nl##.c-sponsors
+golf.nl##.c-sponsors
 voetbaluitslagen.com##.cta
 menttv.be##.cta-container
 touretappe.nl##.desktopad
@@ -785,7 +792,6 @@ heracles.nl##.footer-blocks
 fcutrecht.nl##.footer-logos
 heracles.nl##.footer-sponsors
 handbal.be##.footer-top
-kinkymedia.nl##.footer-widget-container:has(.size-full.aligncenter):has(img[src$="gif"])
 kanaalxxx.nl##.fpbnr
 zeelandnet.nl##.g_banner
 spel.nl,spelletjes.nl##.game-page-sidebar
@@ -797,7 +803,6 @@ mariogames.be##.googleadvidx
 dumpert.nl##.grid_ad_container
 meerradio.nl##.grijze-balk:has-text(Advert)
 srherald.com##.gsrhera
-bejaardensextube.nl,creampiesex.nl,rapesextube.be,rapetube.be##.happy-section
 fcutrecht.nl##.has-items-center > .title-container:has-text(/deals/i)
 fcutrecht.nl##.has-toto-banners
 noordkopcentraal.nl##.headbanner
@@ -826,7 +831,6 @@ weertdegekste.nl##.infeed-wrap
 rd.nl##.infotainment:has(a[href^="/advert"])
 ninefornews.nl##.in-house
 dansendeberen.be##.inhype-bb-block-header
-qmusic.nl##.inline-partners
 nzbindex.nl##.inner:has([href^="/"])
 radiopros.be##.inside-left-sidebar
 funnygames.nl,funnygames.be,spele.be,spele.nl##.is-billboard
@@ -955,7 +959,6 @@ computable.be##.sponsorartikelen
 knvb.nl##.SponsorBar-list
 omroephouten.nl##.sponsor-carousel
 computable.nl##.sponsored
-radio0511.com##.sponsorImg
 volleybelgium.be##.sponsors
 telegraaf.nl##.SportScoreboardPage__banner
 gratispittigesexfilms.nl,hetegangbang.nl##.spot-on
