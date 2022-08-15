@@ -366,6 +366,7 @@ no-large-media: behind-the-scene true
 * create.piktochart.com * noop
 * magic.piktochart.com * noop
 * www.pipii.tv * noop
+* player-cdn.com * noop
 * playhydrax.com * noop
 * static.plimo.com * noop
 * pocketnet.app * noop
@@ -689,6 +690,7 @@ chicagotribune.com tribdss.com * noop
 www.chicagotribune.com www.trbas.com * noop
 bugs.chromium.org ghs.googlehosted.com * noop
 www.clint.be worldstarhiphop.com * noop
+cloudconvert.com fontawesome.com * noop
 www.cnbc.com cnbcfm.com * noop
 cnn.com cnn.io * noop
 cnn.com cdn.turner.com * noop
@@ -728,8 +730,10 @@ www.endgamegear.nl assets.endgamegear.com * noop
 www.engadget.com static-cdn.spot.im * noop
 www.engadget.com yahoodns.net * noop
 www.entrepreneur.com bapi.adsafeprotected.com * noop
+forum.eset.com eset.invisionmanaged.net * noop
 www.eset.com wpc.deltacdn.net * noop
 www.eset.com cdn1.esetstatic.com * noop
+klantenservice.eset.nl deskpro.com * noop
 www.espn.com espncdn.com * noop
 www.espncricinfo.com i.imgci.com * noop
 esquire.com hearstapps.com * noop
@@ -740,6 +744,7 @@ www.expedia.com travel-assets.com * noop
 extreme.com admin.brightcove.com * noop
 www.extremetube.com cdn1-static-extremetube.spankcdn.net * noop
 www.eyeota.com sites.hscoscdn00.net * noop
+faithlife.com cloudapp.azure.com * noop
 faithlife.com faithlifecdn.com * noop
 faithlife.com faithlifesites.com * noop
 auth.faithlife.com auth.logos.com * noop
@@ -850,6 +855,7 @@ www.ipsosisay.com entercdn.ipsosinteractive.com.wtxcdn.com * noop
 gtb.ivdnt.org inl.nl * noop
 jan-magazine.nl hearstapps.com * noop
 www.jimdo.com webteam.jimstatic.com * noop
+www.joyclub.com cfnimg.joyclub.de * noop
 support.jumpcloud.com siteforce.com * noop
 www.jw.org jw-cdn.org * noop
 k-vid.net kshows.to * noop
@@ -884,10 +890,11 @@ outlook.live.com msftauth.net * noop
 outlook.live.com office365.com * noop
 www.livewalker.com www.music-mdata.com * noop
 support.logmeininc.com assets.cdngetgo.com * noop
+logos.com cloudapp.azure.com * noop
+logos.com faithlife.com * noop
 logos.com faithlifecdn.com * noop
 logos.com gleam.io * noop
 app.logos.com app.logoscdn.com * noop
-community.logos.com westus2.cloudapp.azure.com * noop
 www.lonelyplanet.com assets.staticlp.com * noop
 nl.lxax.com ahacdn.me * noop
 nl.lxax.com g-om.com * noop
@@ -962,6 +969,7 @@ www.nieuwsblad.be goplay.be * noop
 www.nieuwsblad.be shared.mediahuis.be * noop
 www.ncbi.nlm.nih.gov pubmed.gov * noop
 www.ninefornews.nl epsiloncdn.net * noop
+www.ninefornews.nl l-msedge.net * noop
 www.ninefornews.nl licdn.com * noop
 www.nltube.com cdn.fluidplayer.com * noop
 login.norton.com static.nortoncdn.com * noop
@@ -1023,11 +1031,13 @@ pornhub.com wpc.rncdn4.com * noop
 potwm.com * 3p-script noop
 www.prewarcar.nl static.prewarcar.com * allow
 pubblewebsite-one.azurewebsites.net waws-prod-am2-261.cloudapp.net * noop
+pyfunceble.github.io asciinema.org * noop
 qantas.com cdn.qantasloyalty.com * noop
 quora.com quoracdn.net * noop
 radioluisteren.fm * 3p-script noop
 radiowereld.nl radiowereld.siticdn.nl * noop
 apk-handboek.rdw.nl pacloudflare.com * noop
+www.rebelnews.com nationbuilder.com * noop
 reddit.com redditstatic.com * noop
 redtube.com rdtcdn.com * noop
 www.rejoicenow.nl mijndomein-ws.nl * noop
@@ -1115,6 +1125,7 @@ theundefeated.com secure.espn.com * noop
 theundefeated.com projects.fivethirtyeight.com * noop
 www.theweathernetwork.com s1.twnmm.com * noop
 www.tijd.be web.keesing.com * noop
+www.tiktok.com ttwstatic.com * noop
 survey.tolunastart.com customer-surveys.euro.confirmit.com * noop
 www.toolbox.com incapdns.net * noop
 totaaltv.nl plista.com * noop
@@ -1153,6 +1164,7 @@ weather.com s.w-x.co * noop
 www.weespernieuws.nl pubblewebsites.cloudapp.net * noop
 wereldklokken.nl 24timezones.com * noop
 westerndigital.com static.sandisk.com * noop
+wetransfer.com prod-cdn.wetransfer.net * noop
 www.wielerkrant.be static.sportid.be * noop
 account.activedirectory.windowsazure.com login.microsoftonline.com * noop
 account.activedirectory.windowsazure.com shellprod.msocdn.com * noop
