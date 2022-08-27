@@ -1,7 +1,10 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 06 Aug 2022 09:51:27 +0000
+! Last updated: Thu, 25 Aug 2022 12:47:49 +0000
 !
+! 2022-08-25
+rtlnieuws.nl##.dfp-rectangle-wrapper
+rtlnieuws.nl##.dfp-billboard-wrapper
 ! 2022-08-03
 tweakers.net###contentArea>div>div:matches-css-after(content: /Advert/)
 tweakers.net###top>div>div>div:matches-css-after(content: /Advert/)
@@ -611,7 +614,6 @@ sexfun.nl###recommendBlock
 wanttoknow.nl###right-sidebar > .mb-3:has(img[src*="banner"])
 wanttoknow.nl###right-sidebar > :has(.mb-3:has-text(Advert))
 audiobookbay.nl###rsidebar > ul > li > h2:has-text(/ad/i)
-rtlnieuws.nl###rtln-ad-advertorial
 motorfietsblog.nl###shopside
 112achterhoek-nieuws.nl###sidebar
 voetbal-vandaag.nl###sidebar_aanbevelen
@@ -724,7 +726,6 @@ berekenhet.nl##.bh-ads
 bieos-omroep.nl##.bieos-widget
 autosport.nl##.bigbanner
 guruwatch.nl##.Billboard
-rtlnieuws.nl##.billboard
 iex.nl##.billboardwrap
 belegger.nl,beursonline.nl,debeurs.nl,eurobench.com##.Billboard-wrapper
 azerty.nl##.block.mod_article:has(.flexslider)
