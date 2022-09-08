@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: EasyDutch
 ! Expires: 3 days (update frequency)
 ! Description: Dutch supplement for the Easylist filters to use with uBlock Origin
