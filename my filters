@@ -713,7 +713,6 @@ kieskeurig.nl##html:style(overflow: auto !important; position: initial !importan
 umcutrecht.nl##main:style(filter: none !important)
 
 
-
 ##.addtoany_content:not(html, body)
 ##.addtoany_list:not(html, body)
 ##.addtoany_share:not(html, body)
