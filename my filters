@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 15-08-2022
+! Last updated: 09-09-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -150,87 +150,87 @@ y8.com###Y8_Top_of_Games
 @@||y8.com/games/*.js?referer=$xhr,domain=y8.com
 @@||imasdk.googleapis.com/js/$script,domain=y8.com
 buienradar.*##html,body:style(overflow: auto !important;)
-buienradar.*##.onboard-popup-container:has-text(Mogen we je locatie gebruiken)
+buienradar.*#?#.onboard-popup-container:has-text(Mogen we je locatie gebruiken)
 buienradar.*##.onboard-background
 freebitco.in###bottom_user_ads_container, #fp_provably_fair_link, #req_for_bonuses_link
 freebitco.in##.alert-box, .cc_banner, .daily_jackpot_main_container_div, .premium_buy_more_tokens
 freebitco.in##.reveal-modal-bg, .reveal-modal
-gab.com##:matches-path(/\/home|\/groups/) aside[class]:not(:has-text(Groups)):not(:has(img[src^="https://media.gab.com/system/accounts/avatars/"]):has(a[title$=" Toots"])):not(:has-text(About))
+gab.com#?#:matches-path(/\/home|\/groups/) aside[class]:not(:has-text(Groups)):not(:has(img[src^="https://media.gab.com/system/accounts/avatars/"]):has(a[title$=" Toots"])):not(:has-text(About))
 gab.com##article[data-id^="timeline-injection"], article[data-id^="gab-ad-status-"]
 gab.com##div[role="feed"] > div:not(div[class])
-gab.com##div[role="feed"] > div[class][tabindex]:has-text(/Jew/i):has-text(/satan/i)
-github.com##[data-repository-hovercards-enabled] > div[class] > .body:has(a[data-hovercard-type="user"][href="/dcharkes"])
-github.com##div.push > .body > *:has([href="/apps/github-actions"])
+gab.com#?#div[role="feed"] > div[class][tabindex]:has-text(/Jew/i):has-text(/satan/i)
+github.com#?#[data-repository-hovercards-enabled] > div[class] > .body:has(a[data-hovercard-type="user"][href="/dcharkes"])
+github.com#?#div.push > .body > :has([href="/apps/github-actions"])
 github.com##.dashboard-changelog
 ! instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-! instagram.com##a[href] > div[style="width: 100%;"]:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(3)
-instagram.com##button:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(1)
-! instagram.com##body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
+! instagram.com#?#a[href] > div[style="width: 100%;"]:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(3)
+instagram.com#?#button:has(svg[aria-label]):has-text(/Covid|Corona|Informat/i):upward(1)
+! instagram.com#?#body:not(section > main > section article[role="presentation"]):style(overflow-y: scroll !important;)
 ! instagram.com##main > div > section > div[style^="left:"]
-instagram.com##main > div > section >  :not(div[style^="left:"]):style(max-width: 850px !important; margin-left: -100px !important;)
-instagram.com##main > div > section > div [role="presentation"]:upward(3):nth-of-type(2):style(width: 1100px !important; margin-left: -270px !important;)
-chamilo.etf.edu##.classic-courses > .panel:has(.course-items-title:has-text(/Logos|Mentoring|Pastoraat|Spirituality|Studentenraad/))
-library.etf.edu##.attention-note:has-text(COVID Update)
+! instagram.com##main > div > section >  :not(div[style^="left:"]):style(max-width: 850px !important; margin-left: -100px !important;)
+! instagram.com#?#main > div > section > div [role="presentation"]:upward(3):nth-of-type(2):style(width: 1100px !important; margin-left: -270px !important;)
+chamilo.etf.edu#?#.classic-courses > .panel:has(.course-items-title:has-text(/Logos|Mentoring|Pastoraat|Spirituality|Studentenraad/))
+library.etf.edu#?#.attention-note:has-text(COVID Update)
 library.etf.edu##.main-menu [href$="covid19"]
-openstreetmap.org##.visible.welcome:has-text(Welcome to OpenStreetMap)
+openstreetmap.org#?#.visible.welcome:has-text(Welcome to OpenStreetMap)
 pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
 pinterest.*##body:style(overflow-y: scroll !important;)
 pinterest.*##div[style^="filter:"]:style(filter: none !important)
 pinterest.*##header[data-test-id=unauthHeader] ~ div[data-test-id=fullPageSignupModal]
 pinterest.*##div[data-test-id=pin-closeup-image] > div[role=button] > div:not([class]) ~ div
-sharesome.com##[id^="post"]:has(.inline-flex:has-text(Promoted Post))
-threader.app##.annotation-details:has-text(COVID)
+sharesome.com#?#[id^="post"]:has(.inline-flex:has-text(Promoted Post)):remove()
+threader.app#?#.annotation-details:has-text(COVID)
 ||maps.gstatic.com/tactile/promo/covidinfo/$image
-google.com##[style^="background-image:url(//maps.gstatic.com/tactile/promo/covidinfo/covid19-promo.png)"]:upward(3)
+google.com#?#[style^="background-image:url(//maps.gstatic.com/tactile/promo/covidinfo/covid19-promo.png)"]:upward(3)
 drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/api2/anchor?"])
-mail.google.com##td:has-text(e-mail):upward(9):style(scrollbar-width: none !important;)
+mail.google.com#?#td:has-text(e-mail):upward(9):style(scrollbar-width: none !important;)
 news.google.com##[jsdata*="covid-banner"]
 news.google.com##[jsaction][aria-label="COVID-19"], [jsaction][aria-label="COVID-19"] + [class]
 translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
-translate.google.com##section:has-text(/COVID/i)
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
-www.youtube.com##ytd-browse ytd-rich-section-renderer:has(#title-text:has-text(Shorts))
-www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
-www.youtube.com##ytd-search ytd-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
-www.youtube.com##ytd-guide-entry-renderer:has-text(Shorts)
-! www.youtube.com##ytd-comments #content-text:has-text(/\b(word)\b/i):upward(ytd-comment-thread-renderer)
+translate.google.com#?#section:has-text(/COVID/i)
+www.youtube.com#?#ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+www.youtube.com#?#ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com#?#ytd-browse ytd-rich-section-renderer:has(#title-text:has-text(Shorts))
+www.youtube.com#?#ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+www.youtube.com#?#ytd-search ytd-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com#?#ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+www.youtube.com#?#ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+www.youtube.com#?#ytd-guide-entry-renderer:has-text(Shorts)
+! www.youtube.com#?#ytd-comments #content-text:has-text(/\b(word)\b/i):upward(ytd-comment-thread-renderer)
 ! www.youtube.com##ytd-comments #comments #contents:remove()
-www.youtube.com##ytd-message-renderer.ytd-live-chat-frame:has-text(Première):remove()
+www.youtube.com#?#ytd-message-renderer.ytd-live-chat-frame:has-text(Première):remove()
 ! www.youtube.com##ytd-watch-next-secondary-results-renderer:remove()
-www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-item-section-renderer:nth-of-type(n+15):remove()
+www.youtube.com#?#ytd-watch-next-secondary-results-renderer .ytd-item-section-renderer:nth-of-type(n+15):remove()
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-continuation-item-renderer:remove()
 www.youtube.com###chat:remove()
 www.youtube.com###clarify-box
 www.youtube.com###comment-teaser
 www.youtube.com###super-title
 www.youtube.com##.super-title
-www.youtube.com##.super-title-icon:upward(1)
+www.youtube.com#?#.super-title-icon:upward(1)
 ! www.youtube.com##.videowall-endscreen
-www.youtube.com##.ytp-subtitles-button:has([fill-opacity="0.3"])
-www.youtube.com##.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
-www.youtube.com###info .top-level-buttons  #text:not(:has-text(/[\d]/))
+www.youtube.com#?#.ytp-subtitles-button:has([fill-opacity="0.3"])
+www.youtube.com#?#.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
+www.youtube.com#?##info .top-level-buttons  #text:not(:has-text(/[\d]/))
 www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important;)
 www.youtube.com###page-manager:style(scrollbar-width: none !important;)
 www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important;)
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-www.youtube.com##:matches-path(/\/feed\/subscriptions/) #details #channel-name:has-text(Hananya Naftali):upward(7)
-mediawiki.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikibooks.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikidata.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikieducator.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikimedia.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikinews.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikipedia.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikiquote.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikisource.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikitravel.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wikivoyage.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
-wiktionary.org##.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+www.youtube.com#?#:matches-path(/\/feed\/subscriptions/) #details #channel-name:has-text(Hananya Naftali):upward(7)
+mediawiki.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikibooks.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikidata.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikieducator.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikimedia.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikinews.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikipedia.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikiquote.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikisource.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikitravel.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wikivoyage.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
+wiktionary.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
 cumcams.nl,erotischemassages.com##+js(aopw, age_gate_params)
 !--Anti Google Chrome Download Message, Cookie Banner and Login
 ||ogs.google.*/widget/callout*&origin=*.google.*=callout
@@ -243,26 +243,25 @@ google.*##+js(aeld, DOMContentLoaded, CONSENT)
 !#endif
 ! www.google.*##+js(acis, document.cookie, YES+)
 google.*##div[class^="gb_"][data-cbh*="consent.google."]
-google.*##div[jscontroller][jsaction]:has([class]:has-text(cookies):has([href*="policies.google.com"]))
+google.*#?#div[jscontroller][jsaction]:has([class]:has-text(cookies):has([href*="policies.google.com"]))
 www.google.*,www.youtube.com###consent-bump
 www.youtube.com##.opened
 www.youtube.com##.ytd-consent-bump-v2-renderer
 www.youtube.com##yt-upsell-dialog-renderer.style-scope
 !--Remove websites from Search Results
-bing.com##[id$="results"] > :has(a[href*="facebook.com/"])
+bing.com#?#[id$="results"] > :has(a[href*="facebook.com/"])
 bing.com##li[data-idx][style^="width"] a[href*="facebook"]
-duckduckgo.com##.results > :has(a[href*="facebook.com"])
-duckduckgo.com##.tile-wrap a[href*="facebook.com"]:upward(.tile)
-google.*##[data-async-context^="query:"] > div:has(a[href*="facebook.com/"])
-google.*##.islrc a[href*="facebook.com"]:upward(div)
-! search.yahoo.com###main a[href*="facebook.com"]:upward(li)
-! searchencrypt.com##.web-result a[href*=".facebook"]:upward(3)
-! searx.be###main_results div.result:has(a[href*="facebook.com"])
-startpage.com##[class$="result"]:has(a[href*="facebook.com/"])
-startpage.com##.image-container:has(div.image-quick-details span:has-text(facebook.com))
-! swisscows.com##.page-results a[href*=".facebook."]:upward(1)
+duckduckgo.com#?#.results > :has(a[href*="facebook.com"])
+duckduckgo.com#?#.tile-wrap a[href*="facebook.com"]:upward(.tile)
+google.*#?#[data-async-context^="query:"] > div:has(a[href*="facebook.com/"])
+google.*#?#.islrc a[href*="facebook.com"]:upward(div)
+! search.yahoo.com#?##main a[href*="facebook.com"]:upward(li)
+! searchencrypt.com#?#.web-result a[href*=".facebook"]:upward(3)
+! searx.be#?##main_results div.result:has(a[href*="facebook.com"])
+startpage.com#?#[class$="result"]:has(a[href*="facebook.com/"])
+startpage.com#?#.image-container:has(div.image-quick-details span:has-text(facebook.com))
+! swisscows.com#?#.page-results a[href*=".facebook."]:upward(1)
 !--Anti-Adblock
-/px.gif?$image,redirect-rule=1x1.gif
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
 ||fastly.net/ads/$image,redirect=2x2-transparent.png
 ||fastly.net/ads/$script,redirect=noopjs
@@ -661,12 +660,13 @@ folderz.nl##.cookie-message
 hsbc.*##.cookie-notification
 blackbox.nl##.cookie-overlay
 puzzleyou.*,fotopuzzle.*,fotondo.*,photopuzzle.ie,monpuzzlephoto.fr,myphotopuzzle.ch,mifotopuzzle.es##.cookie-policy-widget
+nsinternational.com##.cookie-popup
 eteam-winkler.de,kdn-elektro.de,elektro-kotz.de,elektro-service-rauh.de,elektroanlagenbuettner.de,be-connect.online,bayergruppe.com,bayer-wkt.de,bayer-wind.de,bayer-wd.de,elektro-joa.de,htechnik.de,ehk-service.de,bittner-tv.de,elektro-suelzner.de,elektro-leps.de,elektromax-hausgeraete.de,elektrotechnik-schedel.de,elkugmbh.de,ln-elektro-gmbh.de,weiss-blau-gmbh.de,sunbeam-energy.de,prokauf.com,lichtstudio-kerl.de,liebing-beese.de,hoeschel-baumann.de,hausgeraete-kraemer.de,gehlhaar-elektrotechnik.de,ehs-elektrotechnik.de,elektrojarschke.de,elektrotechnik-fleischmann.de,elektroseemueller.de,schoerling-blitz.de,ast-apolda.com,elektro-klippel.de,arntz-haustechnik.de,elektro-bindel.de,elektrotechnik-weiss.com,brandschutz-hamburg.de,wagnerelektrotechnik.de,el-kramer.de,mks-hof.de,wernz-elektro.de,e3-energy.de,sg-solar.de,elektrokrebs.de,elektro-roehrl.de,elektro-kreher.de,giegling-vonsaal.de,elektro-lehmann.com,ems-wurzen.de##.cookieWarning-container
 anwb.nl##.critical-dialog
 dbschenker-seino.jp,dbschenker-digital.cn,dbschenker.com,dbschenkerarkas.com.tr##.dialog--open
 okdiario.com,afnor-rus.ru,icsms.ru,naszemiasto.pl,lavanguardia.com,mundodeportivo.com##.didomi-screen-xlarge
 bederhomes.ch,beterhomes.ch,betterhome.ch,betterhomes-international.com,betterhomes.at,betterhomes.ch,betterhoms.ch##.dsvgpBannerContainer
-nnieuws.be##.eu-cookie-compliance-banner
+leuven.be,nnieuws.be##.eu-cookie-compliance-banner
 onsnieuws.com##.eu-cookies-bar-cookies-bar-wrap
 ks-gruppe.de,butor-mirjan24.hu,newtom.it,myray.it,virbac.ph,icelandicglacial.is,icelandicglacial.com,huaweistore.bg,huaweistore.gr,renewal.ru##.fancybox-container
 marktplaats.nl##.gdpr-consent-modal-overlay.gdpr-consent-banner
@@ -691,7 +691,7 @@ eredivisie.nl##.tdecc
 chamilo.etf.edu##.toolbar-cookie
 deblueskrant.nl##.widget_eu_cookie_law_widget
 beterrekenen.nl,nieuwsuitdelden.nl,oostnl.nl,vraagzin.nl##[class^="cc_banner"]:not(html, body)
-mechanisatiemarkt.nl##[class^="cc_dialog"]:upward(3)
+mechanisatiemarkt.nl#?#[class^="cc_dialog"]:upward(3)
 airfrance.*##[id^="gdpr"]
 ! al.com,allkpop.com,calendarpedia.co.uk,ccn.com,mlive.com,newatlas.com,readlightnovel.org,secondnexus.com,sevenforums.com,totalbeauty.com,westernjournal.com,windows101tricks.com##+js(aopr, __cmpGdprAppliesGlobally)
 ! 199-euro-computer.de,24hessen.de,4kfilme.de,aachen50plus.de,abcteile24.de,accace.com,accademiainformatica.com,ac-grimmen.de,actrento.com,adzurro.de,aglini.com,akademie-management.de,akzent-magazin.com,alleingeborener-zwilling.com,alquilerordenadores.com,annabeauty-stuttgart.de,antik-shop.de,arabesque-essen.de,arsdigita.de,artkon.de,asga.ch,audiovision.de,autobrinkmann.de,automatiksysteme.com,b757.info,backstagefrankfurt.de,balsamico.shop,baumarkt-vogl.at,bayern-kreativ.de,beeze.de,bestwig.de,betec.de,bewusstes-zentrum.de,bierspot.de,bildung-ab-50.de,bklm-ahaus.de,blhv.de,blindbild.com,blogyourthing.com,blueoceangaming.com,boeser-chinese.de,boheme-schwabing.de,borderline-plattform.de,brachmannofficial.com,brancaia.com,branson-germany.de,brill-art.de,brodbeck-dd.de,brunozimmer.de,bs-achern.de,bsk-consulting.de,canvascga.com,caucasus-naturefund.org,china-central-consultants.com,ciss.de,classic-emaille.de,cleverpush.com,cocktailsworld.net,compari.net,computer-und-technik-im-wohnmobil.de,continentale-hannover.de,coworkingrepublic.com,coyagaming.de,c-parts.de,cranimax.com,crazeuk.com, crossculture-academy.com,dacsa.com,danielederosa.de,dasmagazin.de,dayspamainz.de,dcore.de,denk-doch-mal.de,derhoerbuchblog.de,derklassiker.de,desser.co.uk,dg-pw.de,dictum-shop.de,die-werbeschmiede.de,dollenberg-isolierung.de,donostiroller.com,drhorvath.de,drive4brands.de,duft-werk.de,edr-software.com,egon-w-kreutzer.de,egro-direktwerbung.de,ejwleo.de,ekiwi.de,elisazunder.de,ellasblog.de,energiemetropole-leipzig.de,epages.com,erbsenprinzessin.com,erfurt-touristinformation.de,erlebnispark-ziegenhagen.de,esderaiz.com,estudio-nous.com,europace.de,everbloom.eu,evkirche-eilsen.de,exitroom.berlin,fahrstil.cc,fakturia.de,farbenherz.com,fashionturca.com,fasteninfos.de,feucht-obsttechnik.de,feuerhexen.de,feuerwehr-oberau.de,ffzblossin.de,fitnesscenter-schardt.de,flow-in-yoga.de,flugschule-hochries.de,forum-koepenick.de,forwardis.com,frauzuckerbroetchen.com,frigge-dinstak.de,frohreich.de,fschemie-goettingen.de,gcol.de,gerdes-reisen.de,gesundheitsladen-online.de,goeltzschtal-reisen.de,goessential.com,goldpreis24.de,gooloo.de,grid.de,grupo-loma.com,guiademayores.com,gymnasium-hochdahl.de,hallesches-fotoatelier.de,hannover-living.de,hans-engelke.de,happiness-bundles.com,hauspanorama.de,hof-droste.de,holzkisten-fabrik.de,hopfner.info,horizonte.com,hs-soft.com,htvb.org,hundewelpe.de,hundgemacht.net,ichbindochnichthierumbeliebtzusein.com,ideentitaet.com,igvm.de,immobilien-skiba.de,imprints.de,industriemedien.at,inicionet.com,insidetrading.de,iqskitchen.de,istaf-indoor.de,istdasvegan.eu,it-koehler.com,ivfp.de,jadent.de,jankarres.de,josefbergs.com,kaiser-mania.de,karlhoeffkes.de,karver-systems.com,kasteninblau.de,kbmv-matting.de,kd-slovenija.de,klangmassage-moser.de,klicks-kaufen.de,klsys.com,knauer-galabau.de,knoblauch.de,kohlkg.de,komm-mit.com,kuechenboerse.de,kunstmuseum-heidenheim.de,kwerfeldein.de,lacasadavantialsole.org,lameerooftop.com,lang-ag.com,lazyinvestors.de,lb-consultores.com,lemarit.com,lepetitmarchedauvergne.fr,lichttraeumer.de,lightcon.com,lobetalarbeit.de,locandazita.com,ls-service.at,luegeten.ch,m38a1.de,mack-design.com,madame-lenormand.de,mallorca-unternehmen.com,maniac.de,manneskraft-gesteigert.com,manyanet.org,mario-kaps.de,maxkoch.de,meinstream.net,mfu-pilotenclub.at,miriamkreativ.de,missinfogeek.net,mmo-sankar.de,monikabirknerfreedombusiness.de,motivationstipp.de,move-ment.at,mummelito.de,music-on-net.de,music-service-geiger.de,myclim8.com,nahrungsmittel-intoleranz.com,naku.at,naturseifen-moosmed.de,nmmn.com,noaf.de,nordlicht-ev.de,oakbeardcare.com,odw-journal.de,ojas.de,olmatic.de,openforests.com,osmc.de,patchbox.com,pentadoc-radar.com,penzkofer-bau.de,penzkofer-bau.de,pferde-hunde-therapie.de,photofloh.de,picipix.com,pinel.de,pinel-medizin.de,pinel-netzwerk.de,pizzeria-algusto.de,plr-paket.de,pndracingteam.net,pocket-pirates-prt.de,popp.eu,presto-personaldienste.de,prodopa.de,profiel.de,project-creative.de,proofing.de,rechtsanwalt-nierfeld.de,reinhardstrempel.de,reisekontakte.at,reise-zikaden.de,restaurant-lindenhof.at,ridee.bike,rissland-kunststoffe.de,roemermann.com,rolandgermany.com,roschmann.de,rossoft.co.uk,running-green.de,salzerkfz.de,salzstreuner.de,samadhi-vegetarian.de,samenbank-berlin.de,schiffe-und-kreuzfahrten.de,schneelaeuferzunft.de,schuetzendepot.de,seifriz-preis.de,signisalc.org,simtarife.de,skiweltcup.tv,sl-landschaftsgestaltung.de,smiley.blue,socceressen.de,sonderversum.com,spherity.com,spytunes.com,stadt-schoeneck.de,stefan-froescher.eu,stefaniegoldmarie.com,steinway-park-seesen.de,subitec.com,suedafrika-wein.de,suitapp.de,supereight.net,supertipp-online.de,sv-langenfeld.de,swg-chemnitz.de,swiss-commerce.ch,symposium.org,tango-flores.de,tanzschulebogner.de,tc-equipment.de,tecalliance.net,techniknews.net,teilzeitreisender.de,terra-natur.com,thingybob.de,thinkingwithyou.com,thomasschlechter.de,tiermasseur-mannsberger.at,tiesse.com,tim-ehling.com,timo-bernhard.de,tkm-systemtechnik.de,tonispizza-rastatt.de,toplink.de,torinostoria.com,transport-versicherungen.info,trirhena-consulting.de,tsg6209weinheim.de,tulipize.com,tv-sport.de,ubisys.de,udo-lermann.de,vapecoco.com,vcfrankfurt.de,vectorsoft.de,verein-fairbund.de,versicherungsmakler-leistenschneider.de,verstehepferde.de,vg-veitsbronn-seukendorf.de,viel-unterwegs.de,vienna-interiors.at,visconti.partners,visitmedia.de,vitalplus.com,vivoil.com,volksfest-nuernberg.de,von-neindorff-stiftung.de,von-zinsen-leben.de,vzm.de,wallygusto.de,webfactory-i4.de,webtapete.de,webtimiser.de,weimar-touristinformation.de,weingut-knipser.de,weiterbildungsfinder.de,welte-glasuren.com,wichmann.biz,wildbits.de,wildpark-ortenburg.de,windata.de,wind-craft.eu,winlocal.de,wohnmobilcenter-drechsler.de,wolfgangallgaeuer.com,wp-loft.de,wp-ninjas.de,wunderpen.com,wzl-zwickau.de,yplay.de,zabel-group.de,zahnarzt-dr-henkel.de,zahnarzt-kuboth.de,zaunbau-koch.de,zimmerwetter.de,zouboulis.com,zumkutscher.de,zur-glocke.com##+js(aopr, realCookieBanner)
@@ -707,7 +707,7 @@ akku-shop.*,abconcerts.be,adidas.*,bbc.com,bijbel-statenvertaling.com,calvinklei
 bosch-home.nl##body:style(overflow-y: auto !important;)
 jw.org##div[class*="legal-notices"]
 okdiario.com,afnor-rus.ru,icsms.ru,naszemiasto.pl,lavanguardia.com,mundodeportivo.com##div[class^="didomi-consent-popup_"]
-instagram.com##div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
+instagram.com#?#div[role="presentation"] > [role="dialog"]:has-text(cookies):has(a[href="/legal/cookies/"]):upward(1)
 automobielmanagement.nl,bing.com,interfriendship.*,kvk.nl,openreach.com,paypal.com,petitie24.nl,pvcvoordeel.nl,tmleuven.be##html:style(overflow: auto !important)
 kieskeurig.nl##html:style(overflow: auto !important; position: initial !important;)
 umcutrecht.nl##main:style(filter: none !important)
@@ -748,6 +748,7 @@ letsgodigital.org##.article__social
 nieuwsuitdelden.nl##.article_share_title
 demorgen.be,parool.nl,volkskrant.nl##.article-footer__sharing
 automobielmanagement.nl##.article-share
+gooieneembode.nl##.article-share__list
 thegatewaypundit.com##.article-sharing
 persinfo.org##.article-social
 omroepflevoland.nl##.article-socials
@@ -763,7 +764,7 @@ lekkercryptisch.nl##.c-blogPost__share
 atletiekkrant.be,autosportkrant.be,basketbalkrant.be,handbalkrant.be,hockeykrant.be,voetbalkrant.com,wielerkrant.be##.colored.social-icons
 webmastersunited.com##.content-share-container >.content-share
 ditjesendatjes.nl,flair.nl,inmemoriam.be,qmusic.nl##.c-share
-made-in.be##.c-share__list:upward(1)
+made-in.be#?#.c-share__list:upward(1)
 theverge.com##.c-social-buttons
 knack.be##.c-socials-aside
 basketball.nl##.c-social-share__icon-row
@@ -781,6 +782,7 @@ apintie.sr##.fbside
 fixpedia.nl,geldpedia.nl,manpedia.nl##.gridlove-share-wrapper
 gva.be##.gva-92611660_shareitemlist
 hbvl.be##.hbvl-92611660_shareitemlist
+nieuwsblad.be##.nb-92611660_shareitemlist
 geenstijl.nl,welingelichtekringen.nl##.hidden-xs
 gooieneemlander.nl,leidschdagblad.nl,noordhollandsdagblad.nl##[class^="hmc"][class$="sharesticky"]
 powned.tv##.item-share
@@ -892,5 +894,5 @@ visie.eo.nl##.vi-ArticleShare
 financialinvestigator.nl##.weblogPost__share
 intermediair.nl##.widgets__item--share
 ajaxreport.nl,feyenoordreport.nl##.wpusb-buttons.wpusb
-edestad.nl##[title^="Deel"]:upward(5)
+edestad.nl#?#[title^="Deel"]:upward(5)
 fanclubbarcelona.nl##a.smLink
