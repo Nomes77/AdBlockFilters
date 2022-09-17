@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Mon, 12 Sep 2022 14:46:45 +0000
+! Last updated: Thu, 15 Sep 2022 17:08:30 +0000
 !
 ! 2022-09-12
 dissident.one##[id^="custom_html-"]:has-text(advert)
