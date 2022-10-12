@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: No uBO Filters
 ! Description: Filters for Dutch websites in case you don't use the uBlock Filters, but AdGuard Base
-! Last updated: Fri, 23 Sep 2022 10:17:02 +0000
+! Last updated: Wed, 12 Oct 2022 05:17:32 +0000
 !
 ! uBlock Filters
 *$image,redirect-rule=2x2.png,domain=tweakers.net
@@ -37,15 +37,6 @@ whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be##.blocker
 camsexbabe.nl##.happy-player-beside
 camsexbabe.nl##.happy-section
 girlscene.nl##.ad-container
-@@||videoplayer.persgroep.be/*/ad_smartads_.js$xhr,domain=vtm.be
-||medialaancdn.be/vtm_od/prerolls/$media,domain=vtm.be,redirect=noopmp3-0.1s
-vtm.be##+js(rc, pui__root--no-seekbar, .pui__root--no-seekbar, stay)
-vtm.be##.pe__container__ads
-vtm.be##.pui__adinfo
-vtm.be##div.pui__seekbar__cuepoints
-||freewheel-jitt.dpgmedia.be^
-||spott.ai^$domain=vtm.be
-||gemius.pl^$important,domain=vtm.be
 ! uBlock Filters - Unbreak
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dagelijksekost.een.be
 @@||shared.mediahuis.be/ka-ching/prebid.js$script,domain=dagelijksekost.een.be
