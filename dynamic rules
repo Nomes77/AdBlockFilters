@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 14-10-2022
+! Last updated: 28-10-2022
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -684,6 +684,7 @@ www.bruzz.be player.cdn01.rambla.be * noop
 sport.bt.com img01.bt.co.uk * noop
 www.buienradar.be cdn.buienradar.nl * noop
 businessinsider.in static.clmbtech.com * noop
+idiscover.lib.cam.ac.uk cambridge-primo.hosted.exlibrisgroup.com * noop
 www.camjam.nl googlehosted.com * noop
 camsexbabe.nl pctlwm.com * noop
 camsexbabe.nl prtawe.com * noop
@@ -705,6 +706,7 @@ cnn.com cdn.turner.com * noop
 www.consumerreports.org cdn.cr.org * noop
 www.cracked.com ui.crackedcdn.com * noop
 www.cruisedeals.co.uk static.tui.co.uk * noop
+manuscripts.csntm.org cloudapp.net * noop
 cumcams.nl aweprt.com * noop
 cumcams.nl tools.vpscash.nl * noop
 www.dell.com afcs.dellcdn.com * noop
@@ -726,6 +728,8 @@ drtuber.com drtst.com * noop
 dynamed.com smallcontent.ebsco-content.com * noop
 ebay.com ebaystatic.com * noop
 www.ebay.com systemcdn.net * noop
+web.s.ebscohost.com ebsco-content.com * noop
+web.s.ebscohost.com cc.wac.sigmacdn.net * noop
 englishlive.ef.com ef-cdn.com * noop
 www.ehftv.com cdn.laola1.tv * noop
 ehubsoft.net content.googleapis.com * noop
@@ -813,6 +817,7 @@ godaddy.com img1.wsimg.com * noop
 google.com content.googleapis.com * noop
 google.com googleusercontent.com * noop
 translate.google.com translate.goog * noop
+www.google.com books.google.nl * noop
 translate.googleusercontent.com translate.google.com * noop
 translate.googleusercontent.com translate.googleapis.com * noop
 www.gooieneembode.nl pubblewebsites.cloudapp.net * noop
@@ -990,6 +995,9 @@ my.norton.com static.nortoncdn.com * noop
 nos.nl scaliacdn.nl * noop
 www.nporadio1.nl apps.sena.cluster.chp4.io * noop
 www.nporadio2.nl apps.sena.cluster.chp4.io * noop
+www.npostart.nl ccm.npo.nl * noop
+www.npostart.nl omroep.nl * noop
+www.nspublieksprijs.nl hostingxs-cdn.com * noop
 www.nu.nl localfocuswidgets.net * noop
 www.nu.nl ingress-public.apps-2.osc-nu-prod.k8s.cloud.onenet.nl * noop
 www.nu.nl snmmd.nl * noop
@@ -1011,6 +1019,7 @@ office.com msocdn.com * noop
 office.com office.net * noop
 office.com office365.com * noop
 office.com c.s-microsoft.com * noop
+forms.office.com b-msedge.net * noop
 outlook.office.com b-msedge.net * noop
 outlook.office.com officeapps.live.com * noop
 outlook.office365.com live.com * noop
@@ -1027,6 +1036,7 @@ www.opendoors.nl truetickets.nl * noop
 www.orbitz.com expedia.com * noop
 www.orbitz.com travel-assets.com * noop
 academic.oup.com oup.silverchair-cdn.com * noop
+www.oxfordlearnersdictionaries.com pitchleads.com * noop
 www.pacsun.com inscname.net * noop
 pandora.tv player.h-cdn.com * noop
 www.pandora.tv adlc-exchange.toast.com * noop
@@ -1035,6 +1045,7 @@ www.paramountnetwork.com tvejs.mtvnservices.com * noop
 www.paypal.com betacdn.net * noop
 www.pcgamer.com futurecdn.net.c.footprint.net * noop
 www.pcgamer.com remixd.com * noop
+www.peterlang.com openpublishing.com * noop
 phys.org internapcdn.net * noop
 pinkbike.com pinkbike.org * noop
 pinterest.com s.pinimg.com * noop
@@ -1045,7 +1056,7 @@ www.porn.com 1832849173.rsc.cdn77.org * noop
 pornhub.com wpc.rncdn4.com * noop
 potwm.com * 3p-script noop
 www.prewarcar.nl static.prewarcar.com * allow
-pubblewebsite-one.azurewebsites.net waws-prod-am2-261.cloudapp.net * noop
+pubblewebsite-one.azurewebsites.net cloudapp.net * noop
 pyfunceble.github.io asciinema.org * noop
 qantas.com cdn.qantasloyalty.com * noop
 quora.com quoracdn.net * noop
@@ -1072,7 +1083,7 @@ www.scmp.com assets.i-scmp.com * noop
 sears.com shld.net * noop
 www.secsports.com espn.com * noop
 www.secsports.com secure.espncdn.com * noop
-www.seniorweb.nl waws-prod-am2-237.cloudapp.net * noop
+www.seniorweb.nl cloudapp.net * noop
 sex.xxx j0.wlmediahub.com * noop
 www.sexgames.cc * 3p-frame noop
 www.sexgames.cc * 3p-script noop
@@ -1159,6 +1170,7 @@ www.tripadvisor.ca static.tacdn.com * noop
 www.tripadvisor.com static.tacdn.com * noop
 www.tristatecity.nl parastorage.com * noop
 www.trustpilot.com businessunitprofile-cdn.trustpilot.net * noop
+www.tvgids.nl tvgidsassets.nl * noop
 www.twitch.tv twitchcdn.net * noop
 twitter.com twimg.com * noop
 www.usenix.org pantheonsite.io * noop
