@@ -7,7 +7,7 @@ For this list I have used the default uBlock Filters and [EasyList (Optimized)](
 2. I deleted every unblocking general hiding element from the results I got after I applied the first step
 
 ### Why
-This list and enabling `Ignore general cosmetic filters` will save you around 15,000 cosmetic filters.
+This list and enabling `Ignore general cosmetic filters` will save you around 11,000 cosmetic filters.
 This can be handy especially if you are low on resources or want a little bit faster page loading.
 
 ***
