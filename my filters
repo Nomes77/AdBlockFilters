@@ -196,19 +196,22 @@ news.google.com##[jsaction][aria-label="COVID-19"], [jsaction][aria-label="COVID
 news.google.com#?#h2:has-text(Fact check):upward(section)
 translate.google.com##[class][aria-label^="Google-account"][href^="https://accounts.google.com/SignOutOptions?"]
 translate.google.com#?#section:has-text(/COVID/i)
-www.youtube.com#?#ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
-www.youtube.com#?#ytd-browse ytd-rich-item-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
-www.youtube.com#?#ytd-browse ytd-rich-section-renderer:has(#title-text:has-text(Shorts))
+www.youtube.com#?#ytd-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
+www.youtube.com#?#ytd-browse[page-subtype="home"] ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
+www.youtube.com#?#ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+www.youtube.com#?#ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
+! www.youtube.com#?#ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
+! www.youtube.com#?#ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"]):upward(ytd-item-section-renderer)
 www.youtube.com#?#ytd-search ytd-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
 www.youtube.com#?#ytd-search ytd-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
 www.youtube.com#?#ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail[href^="/shorts/"])
 www.youtube.com#?#ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(.ytd-thumbnail:has-text(/\s(0:[0-2]\d)\s/))
-www.youtube.com#?#ytd-guide-entry-renderer:has(path[d^="M10 14.65v-5.3L15 12l-5"])
+www.youtube.com#?#ytd-browse[page-subtype="subscriptions"] #channel-name:has-text(/\bHananya Naftali$/):upward(ytd-grid-video-renderer)
 ! www.youtube.com#?#ytd-comments #content-text:has-text(/\b(word)\b/i):upward(ytd-comment-thread-renderer)
 ! www.youtube.com##ytd-comments #comments #contents:remove()
 www.youtube.com#?#ytd-message-renderer.ytd-live-chat-frame:has-text(Première):remove()
 ! www.youtube.com##ytd-watch-next-secondary-results-renderer:remove()
-www.youtube.com#?#ytd-watch-next-secondary-results-renderer .ytd-item-section-renderer:nth-of-type(n+15):remove()
+www.youtube.com#?#ytd-watch-next-secondary-results-renderer .ytd-item-section-renderer:nth-of-type(n+20):remove()
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-continuation-item-renderer:remove()
 www.youtube.com###chat:remove()
 www.youtube.com###clarify-box
@@ -218,16 +221,14 @@ www.youtube.com##.super-title
 www.youtube.com#?#.super-title-icon:upward(1)
 ! www.youtube.com##.videowall-endscreen
 www.youtube.com#?#.ytp-subtitles-button:has([fill-opacity="0.3"])
-www.youtube.com#?#.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
-www.youtube.com#?#.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
+www.youtube.com#?##actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
+www.youtube.com#?##actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
 www.youtube.com#?#.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
-www.youtube.com#?##info .top-level-buttons  #text:not(:has-text(/[\d]/))
 www.youtube.com,music.youtube.com##html:style(scrollbar-width: thin !important;)
 www.youtube.com###page-manager:style(scrollbar-width: none !important;)
 www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important;)
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-www.youtube.com#?#:matches-path(/\/feed\/subscriptions/) #details #channel-name:has-text(Hananya Naftali):upward(7)
 www.youtube.com,m.youtube.com##+js(aeld, dblclick)
 mediawiki.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
 wikibooks.org#?#.interlanguage-link:not(:has-text(/Afrikaans|Deutsch|English|Français|Nederlands/))
