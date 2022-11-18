@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 17-11-2022
+! Last updated: 18-11-2022
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -644,6 +644,7 @@ artsencollectief.nl,gendertwijfel.nl,genotsplekje.nl,kanaancourant.nl,newscienti
 meerradio.nl###cookie_banner
 xlstat.com###cookie-acceptance
 digi.vatlib.it###cookieAd
+2ndsmartestguyintheworld.com###cookie-banner
 homify.*###cookie-banner.cookie-banner
 goodbye.be###cookieBar
 broerneuktzusje.nl,bruteincestfilms.nl,directpornofilmskijken.nl,fleet-mobility.nl,hdtienersexfilms.nl,marketingtribune.nl,poepsexfilmstube.nl###cookie-bar
