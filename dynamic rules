@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 18-11-2022
+! Last updated: 08-12-2022
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -866,11 +866,13 @@ website.informer.com assets.webinfcdn.net * noop
 www.instagram.com static.cdninstagram.com * noop
 invisionapp.com static.invisionapp-cdn.com * noop
 enter.ipsosinteractive.com entercdn.ipsosinteractive.com.wtxcdn.com * noop
+eusurveys.ipsosinteractive.com cdn.ipsosinteractive.com.cdnga.net * noop
 surveys.ipsosinteractive.com cdn.ipsosinteractive.com.cdnga.net * noop
 www.ipsosisay.com ipsosinteractive.com * noop
 www.ipsosisay.com entercdn.ipsosinteractive.com.wtxcdn.com * noop
 gtb.ivdnt.org inl.nl * noop
 jan-magazine.nl hearstapps.com * noop
+www.jerkmatelive.com streamate.icfcdn.com * noop
 www.jimdo.com webteam.jimstatic.com * noop
 www.joyclub.com cfnimg.joyclub.de * noop
 support.jumpcloud.com siteforce.com * noop
@@ -914,6 +916,7 @@ logos.com faithlife.com * noop
 logos.com faithlifecdn.com * noop
 logos.com gleam.io * noop
 app.logos.com app.logoscdn.com * noop
+www.logos.com faithlifetv.com * noop
 www.lonelyplanet.com assets.staticlp.com * noop
 nl.lxax.com ahacdn.me * noop
 nl.lxax.com g-om.com * noop
@@ -961,6 +964,7 @@ login.microsoftonline.com msauth.net * noop
 login.microsoftonline.com msftauth.net * noop
 login.microsoftonline.com office.com * noop
 login.microsoftonline.com outlook.office365.com * noop
+login.microsoftonline.com wpc.omegacdn.net * noop
 login.microsoftonline.com prd.aadg.trafficmanager.net * noop
 login.microsoftonline.com account.activedirectory.windowsazure.com * noop
 www.momondo.nl content.r9cdn.net * noop
@@ -1024,6 +1028,7 @@ office.com msocdn.com * noop
 office.com office.net * noop
 office.com office365.com * noop
 office.com c.s-microsoft.com * noop
+office.com wpc.sigmacdn.net * noop
 forms.office.com b-msedge.net * noop
 outlook.office.com b-msedge.net * noop
 outlook.office.com officeapps.live.com * noop
@@ -1129,7 +1134,8 @@ spiceworks.com spiceworksstatic.com * noop
 www.spidersolitairespelen.nl www.squidbyte.com * noop
 spiegel.de arc.nexx.cloud * noop
 sporza.be cdn.vuplay.co.uk * noop
-spotify.com scdn.co * noop
+www.spotify.com scdn.co * noop
+www.spotify.com wap.spotifycdn.com * noop
 www.spurgeon.org wpengine.com * noop
 stacksocial.com shops1.stackassets.com * noop
 www.stager.live pic.stagerlive.com * noop
@@ -1226,6 +1232,14 @@ www.gov.uk assets.publishing.service.gov.uk * noop
 www.xnxx.com xnxx-cdn.com * noop
 cams.xvideos.com vsmedia.s.llnwi.net * noop
 cams.xvideos.com cdn4.vscdns.com * noop
+www.y8.com bitent.com * noop
+www.y8.com famobi.com * noop
+www.y8.com freegames.org * noop
+www.y8.com htmlgames.com * noop
+www.y8.com id.net * noop
+www.y8.com www.lexaloffle.com * noop
+www.y8.com wpc.upsiloncdn.net * noop
+www.y8.com h5gamessdk.yyggames.com * noop
 yahoo.com yahoodns.net * noop
 view.yahoo.com viewport.videovore.com * noop
 www.yahoo.com mbp.yimg.com * noop
