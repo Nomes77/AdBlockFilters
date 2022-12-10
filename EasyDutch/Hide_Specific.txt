@@ -1,8 +1,28 @@
 [uBlock Origin]
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 01 Dec 2022 16:53:09 +0000
+! Last updated: Fri, 09 Dec 2022 11:34:28 +0000
 !
+! 2022-12-09
+wijkkrantzuid.nl##.widget_media_image:not(:has(a[href^="https://wijkkrantzuid.nl"]))
+rodi.nl##[id^="gtm-article-lb"]
+rodi.nl##[id^="gtm-article-mpu"]
+drimble.nl##.ASTAGQ_Billboard
+amsterdamsdagblad.nl##.banner
+amsterdamsdagblad.nl##.bannerrow
+amsterdamsdagblad.nl##.partnerrow
+dehavenloods.nl##[advobject]:upward(.bg-gray-100)
+dehavenloods.nl##.content-start > .items-center:has([advobject])
+! 2022-12-08
+accountancyvanmorgen.nl##.rc-banner-inner-wrapper
+accountancyvanmorgen.nl,salarisvanmorgen.nl##.rc-banner-leaderboard
+accountancyvanmorgen.nl,pensioenvanmorgen.nl,salarisvanmorgen.nl##aside > section:has(img):not(:has(a[href*="vanmorgen.nl"]))
+accountancyvanmorgen.nl,fiscaalvanmorgen.nl,salarisvanmorgen.nl##div[class*="slideshow-wrapper"]:has-text(/vriend|partners|hoofdsponsor/i)
+jndkgrf.nl##.wp-block-image:has([href^="https://partner.bol.com/click/"])
+! 2022-12-07
+flashscore.nl##.adsenvelope
+flashscore.nl##.oddsPlacement
+telegraaf.nl##.ComponentRotation
 ! 2022-12-01
 rtlnieuws.nl##.article-sidebar__ad
 ! 2022-11-29
