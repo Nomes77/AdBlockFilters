@@ -214,6 +214,7 @@ www.youtube.com###super-title
 www.youtube.com##.super-title
 www.youtube.com#?#.super-title-icon:upward(1)
 ! www.youtube.com##.videowall-endscreen
+www.youtube.com###movie_player .ytp-ce-covering-overlay
 www.youtube.com#?#.ytp-subtitles-button:has([fill-opacity="0.3"])
 www.youtube.com#?##actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
 www.youtube.com#?##actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
