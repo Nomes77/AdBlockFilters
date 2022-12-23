@@ -12,3 +12,8 @@ This can be handy especially if you are low on resources or want a little bit fa
 
 ***
 My goal is to update this list once a month, maybe twice or even maybe every week.
+
+
+## My Scriptlets.js
+You can use this file in uBlock Origin, see [documentation](https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation).
+It is under development and I have to test whether it works for the purposes I want it for.
