@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 08-12-2022
+! Last updated: 10-01-2023
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -338,6 +338,8 @@ no-large-media: behind-the-scene true
 * netdna-ssl.com * noop
 * data.newantenna.net * noop
 * ninjastream.to * noop
+* nitter.net * noop
+* nitter.nl * noop
 * services.nofraud.com * noop
 * seal.websecurity.norton.com * noop
 * note.mu * noop
@@ -381,9 +383,12 @@ no-large-media: behind-the-scene true
 * prezi.com * noop
 * sdk.privacy-center.org * noop
 * privacy-mgmt.com * noop
+* invidious.privacydev.net * noop
+* proxitok.privacydev.net * noop
 * cmp-consent-tool.privacymanager.io * noop
 * gdpr.privacymanager.io * noop
 * gdpr-wrapper.privacymanager.io * noop
+* rimgo.privacytools.io * noop
 * protoawe.com * noop
 * static.prvd.com * noop
 * assets.pscp.tv * noop
@@ -495,6 +500,7 @@ no-large-media: behind-the-scene true
 * tags.tiqcdn.com * noop
 * tnaflix.com * noop
 * assets.topify.com * noop
+* rimgo.totaldarkness.net * noop
 * vip.townnews.com * noop
 * tradingview.com * noop
 * cdn.transifex.com * noop
@@ -600,6 +606,7 @@ no-large-media: behind-the-scene true
 * xtube.com * noop
 * xvideos-cdn.com * noop
 * xvideos.com * noop
+* y.com.sb * noop
 * yandex.st * noop
 * yewtu.be * noop
 * s.yimg.com * noop
@@ -704,6 +711,8 @@ www.cnbc.com cnbcfm.com * noop
 cnn.com cnn.io * noop
 cnn.com cdn.turner.com * noop
 www.consumerreports.org cdn.cr.org * noop
+www.cosmopolitan.com assets.hearstapps.com * noop
+www.cosmopolitan.com glimmer.hearstapps.com * noop
 www.cracked.com ui.crackedcdn.com * noop
 www.cruisedeals.co.uk static.tui.co.uk * noop
 manuscripts.csntm.org cloudapp.net * noop
@@ -884,6 +893,7 @@ keizerstad.nl hostin.live * noop
 kizi.com gamedistribution.com * noop
 kizi.com kizicdn.com * noop
 www.klm.com static-afkl.com * noop
+www.knmi.nl knmi.cloud * noop
 knowyourmeme.com s.kym-cdn.com * noop
 knowyourmeme.com litmedia.s.llnwi.net * noop
 kodiefiles.nl dutchsexnetwork.com * noop
@@ -989,6 +999,7 @@ www.nederlandwereldwijd.nl bz.platformrijksoverheid.nl * noop
 www.netflix.com codex.nflxext.com * noop
 www.news.com.au resources.newscdn.com.au * noop
 www.news.com.au resourcesssl.newscdn.com.au * noop
+my.nextdns.io cname.vercel-dns.com * noop
 niburu.co userapi.com * noop
 niburu.co vk.com * noop
 www.nieuweoogst.nl cdn.nieuweoogst.nu * noop
@@ -1002,6 +1013,7 @@ www.nltube.com cdn.fluidplayer.com * noop
 login.norton.com static.nortoncdn.com * noop
 my.norton.com static.nortoncdn.com * noop
 nos.nl scaliacdn.nl * noop
+www.npo3fm.nl apps.sena.cluster.chp4.io * noop
 www.nporadio1.nl apps.sena.cluster.chp4.io * noop
 www.nporadio2.nl apps.sena.cluster.chp4.io * noop
 www.npostart.nl ccm.npo.nl * noop
@@ -1232,14 +1244,16 @@ www.gov.uk assets.publishing.service.gov.uk * noop
 www.xnxx.com xnxx-cdn.com * noop
 cams.xvideos.com vsmedia.s.llnwi.net * noop
 cams.xvideos.com cdn4.vscdns.com * noop
-www.y8.com bitent.com * noop
-www.y8.com famobi.com * noop
-www.y8.com freegames.org * noop
-www.y8.com htmlgames.com * noop
-www.y8.com id.net * noop
-www.y8.com www.lexaloffle.com * noop
-www.y8.com wpc.upsiloncdn.net * noop
-www.y8.com h5gamessdk.yyggames.com * noop
+y8.com bitent.com * noop
+y8.com famobi.com * noop
+y8.com freegames.org * noop
+y8.com htmlgames.com * noop
+y8.com id.net * noop
+y8.com www.lexaloffle.com * noop
+y8.com wpc.upsiloncdn.net * noop
+y8.com h5gamessdk.yyggames.com * noop
+www.y8.com 1149676613.rsc.cdn77.org * noop
+www.y8.com 1961996933.rsc.cdn77.org * noop
 yahoo.com yahoodns.net * noop
 view.yahoo.com viewport.videovore.com * noop
 www.yahoo.com mbp.yimg.com * noop
@@ -1258,6 +1272,8 @@ login-select.zilverenkruis.nl signicat.pro * noop
 * https://www.linkedin.com/embed/feed/ sub_frame noop
 * https://www.skoften.net/video/embed/ sub_frame noop
 * https://publish.twitter.com/oembed?url=https://twitter.com/ script noop
+* https://syndication.twitter.com/srv/timeline-list/ sub_frame noop
+* https://syndication.twitter.com/srv/timeline-profile/ sub_frame noop
 camsexbabe.nl https://pt-static5.ptlwmstc.com/npe/ba/tube-player/ script noop
 camsexbabe.nl https://pt.wmptctl.com/tube-player/ sub_frame noop
 cbslocal.com https://w3.mp.lura.live/player/ script noop
