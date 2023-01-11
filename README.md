@@ -32,7 +32,7 @@ It can be handy to use them.
 
 ## [Specific-General Hide](https://github.com/BPower0036/AdBlockFilters/blob/main/Others/Specific-General%20Hide)
 You can use this filter if you have enabled `Ignore general cosmetic filters` in uBlock Origin but still want some general hiding elements to be used.
-See for more [`Others`](https://github.com/BPower0036/AdBlockFilters/tree/main/Others)
+See for more: [`Others`](https://github.com/BPower0036/AdBlockFilters/tree/main/Others)
 
 ***
 ## View and Subscribe to my filterlists
