@@ -1,9 +1,16 @@
 [uBlock Origin]
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 06 Jan 2023 10:31:32 +0000
+! Last updated: Tue, 10 Jan 2023 07:24:17 +0000
 !
+! 2022-01-10
+kutjeporno.com##div.thumb:has([href^="/hot/out.php"])
+nlsexfilmpjes.com###left_div li:not(:has(a[target="_blank"]))
+nlsexfilmpjes.com###toplist_bodem li:not(:has(a[target="_blank"]))
+! 2022-01-09
+stopdebankiers.com##.adsbygoogle:upward([id^="custom_html"])
 ! 2022-01-06
+androidplanet.nl,iphoned.nl##div[data-name="dynamic-content-injected"]:upward(2)
 sexguide.nl##.moreEscortM:has-text(Sponsors)
 loonwijzer.be##.main__bottom:has(div[id*="gpt-ad-"])
 loonwijzer.be##[class^="article__ad"]
@@ -166,7 +173,6 @@ commonsensetv.nl##.theiaStickySidebar div[id^="media_image"]:has(img[src*="wp.co
 okemedia.nl##.widget:has-text(Interessante links)
 nuus.be##.advertentie
 ! 2022-06-30
-nlsexfilmpjes.com###left_div li:not(> a[target="_blank"])
 nljug.org##.widget:has(.capegroep-banner)
 nl.motorsport.com##.ms-side-widget--custom-links__wrapper
 detelefoongids.nl##.wrapper:has-text(Youvia)
@@ -713,7 +719,6 @@ doorbraak.be###top-advertisement-area
 sexpower.nl###top-banner
 marktplaats.nl,2dehands.be###top-banner-wrapper
 eredivisie.ws,f1-gp.nl,formule1.ws,formule1-race.nl,gaming-nieuws.nl,gazetvandaag.be,giganieuws.nl,grandprix.ws,hotstreams.nl,jupilerproleague.eu,krantvandaag.nl,nieuwsgigant.nl,recepten-vandaag.nl,voetbal-vandaag.nl###topbox
-nlsexfilmpjes.com###toplist_bodem li:not(:scope > a[target="_blank"])
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
 hdtienersexfilms.nl,poepsexfilmstube.nl,rapetube.eu,tubeseks.be###tracking-url
