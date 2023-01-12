@@ -685,7 +685,6 @@ www.bol.com assets.s-bol.com * noop
 secure.booked.net s2.bookcdn.com * noop
 www.booking.com bstatic.com * noop
 app.box.com public.boxcloud.com * noop
-bpower0036.github.io user-images.githubusercontent.com * noop
 www.bruzz.be player.clevercast.com * noop
 www.bruzz.be shared.mediahuis.be * noop
 www.bruzz.be player.cdn01.rambla.be * noop
@@ -820,6 +819,7 @@ github.com github.githubassets.com * noop
 github.com render.githubusercontent.com * noop
 github.com viewscreen.githubusercontent.com * noop
 archiveprogram.github.com github.github.io * noop
+github.io user-images.githubusercontent.com * noop
 gitlab.com assets.gitlab-static.net * noop
 globalnews.ca videoplayer.smdg.ca * noop
 dev.gnupg.org files.gnupg.net * noop
