@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 10-01-2023
+! Last updated: 12-01-2023
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -256,16 +256,19 @@ www.youtube.com##yt-upsell-dialog-renderer.style-scope
 !--Remove websites from Search Results
 bing.com#?#[id$="results"] > :has(a[href*="facebook.com/"])
 bing.com##li[data-idx][style^="width"] a[href*="facebook"]
-duckduckgo.com#?#.results > :has(a[href*="facebook.com"])
-duckduckgo.com#?#.tile-wrap a[href*="facebook.com"]:upward(.tile)
+duckduckgo.com#?#.results > :has(a[href*="facebook.com/"])
+duckduckgo.com#?#.tile-wrap a[href*="facebook.com/"]:upward(.tile)
 google.*#?#[data-async-context^="query:"] > div:has(a[href*="facebook.com/"])
 google.*#?#.islrc a[href*="facebook.com"]:upward(div)
-! search.yahoo.com#?##main a[href*="facebook.com"]:upward(li)
-! searchencrypt.com#?#.web-result a[href*=".facebook"]:upward(3)
-! searx.be#?##main_results div.result:has(a[href*="facebook.com"])
+search.yahoo.com#?##main a[href*="facebook.com"]:upward(li)
+searchencrypt.com#?#.web-result a[href*=".facebook"]:upward(3)
+searx.be#?##main_results div.result:has(a[href*="facebook.com"])
+search.brave.com###results a[href*="facebook.com/"]:upward(.snippet)
+search.brave.com###img-results a[href*="facebook.com/"]:upward([id^="img"])
+search.brave.com###results a[href*="facebook.com/"]:upward(.card)
 startpage.com#?#[class$="result"]:has(a[href*="facebook.com/"])
 startpage.com#?#.image-container:has(div.image-quick-details span:has-text(facebook.com))
-! swisscows.com#?#.page-results a[href*=".facebook."]:upward(1)
+swisscows.com#?#.page-results a[href*=".facebook."]:upward(1)
 !--Anti-Adblock
 ||doubleclick.net/instream/ad_status.js$script,redirect=doubleclick.net/instream/ad_status.js
 ||fastly.net/ads/$image,redirect=2x2-transparent.png
