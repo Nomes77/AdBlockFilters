@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 10-01-2023
+! Last updated: 12-01-2023
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
