@@ -8,6 +8,7 @@ echo "*** EasyDutch: updating EasyDutch filters..."
 
 declare -A filters
 filters=(
+    ['EasyDutch.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch.txt'
     ['EasyDutch/Anti-Adblock.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Anti-Adblock.txt'
     ['EasyDutch/Block_General.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Block_General.txt'
     ['EasyDutch/Block_Resources.txt']='https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch/Block_Resources.txt'
