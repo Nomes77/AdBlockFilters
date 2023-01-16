@@ -1,10 +1,7 @@
-[uBlock Origin]
 ! Title: EasyDutch
-! Expires: 3 days (update frequency)
 ! Description: Dutch supplement for the Easylist filters to use with uBlock Origin
-!              Please note that this is a back-up version
-!              The maintained version can be found at: https://github.com/EasyDutch-uBO/EasyDutch
-! Homepage: https://github.com/BPower0036/AdBlockFilters
+! Homepage: https://github.com/EasyDutch-uBO/EasyDutch
+! Expires: 3 days (update frequency)
 !
 ! Alleen voor advertenties of anti-adblock op Nederlandstalige sites!
 ! Rapporteer gevonden advertenties of fouten hier:
