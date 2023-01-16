@@ -22,7 +22,7 @@ jobs:
           if [[ -n $(git diff) ]]; then
             git config user.name "BPower0036"
             git config user.email "<>"
-            git add -u EasyDutch/
+            git add -u EasyDutch/ EasyDutch.txt
             git commit -m "Updated from @EasyDutch-uBO"
             git push origin main
           fi
