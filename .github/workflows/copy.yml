@@ -5,19 +5,25 @@ on:
     - cron: "00 07 * * 3,6"
   workflow_dispatch:
 
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-only-cancel-in-progress-jobs-or-runs-for-the-current-workflow
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   publish:
-    name: Clone EasyDutch
+    name: Update EasyDutch AdGuard
     runs-on: ubuntu-latest
     steps:
       - name: Clone EasyDutch as Back-up
         uses: actions/checkout@v3
-      - name: Change permissions
-        run: chmod +x ./.github/update-back-up.sh
-      - name: Fetch EasyDutch
+      - name: Copy EasyDutch to AdBlockFilters
         run: |
-          ./.github/update-back-up.sh
-      - name: Commit changes, if any
+          TMPFILE=$(mktemp -d)
+          git clone --depth=1 --single-branch --branch=gh-pages https://github.com/EasyDutch-uBO/EasyDutch.git $TMPFILE
+          cp $TMPFILE/EasyDutch/*.txt EasyDutch/
+          cp $TMPFILE/EasyDutch.txt EasyDutch.txt
+      - name: Commit changes (if any)
         run: |
           if [[ -n $(git diff) ]]; then
             git config user.name "BPower0036"
