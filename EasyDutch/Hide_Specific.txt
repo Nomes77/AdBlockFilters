@@ -1,8 +1,10 @@
 [uBlock Origin]
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 27 Jan 2023 07:07:44 +0000
+! Last updated: Thu, 02 Feb 2023 10:36:30 +0000
 !
+! 2023-02-02
+focusclub.nl##.funbox
 ! 2023-01-27
 hollandskroonnieuws.nl,wieringernieuws.nl##div#block-blue:has-text(advert)
 hollandskroonnieuws.nl,wieringernieuws.nl###navleft > center:has-text(advert)
@@ -32,7 +34,7 @@ tweakers.net##.leaderBoard:has([src*="ab.tweakers"])
 tweakers.net##div[class^="rectangle"]:has-text(/advert/i)
 tweakers.net###true
 tweakers.net##.reserveSpace
-tweakers.net##.widebanner
+tweakers.net##.widebnr
 ! 2023-01-10
 kutjeporno.com##div.thumb:has([href^="/hot/out.php"])
 nlsexfilmpjes.com###left_div li:not(:has(a[target="_blank"]))
