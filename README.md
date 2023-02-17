@@ -29,6 +29,7 @@ I recommend to use EasyDutch with the default filterlists in [uBlock Origin](htt
 ## [My Filters](https://github.com/BPower0036/AdBlockFilters/blob/main/my%20filters)
 This is filterlist is my Personal Filterlist in uBo. <br>
 It can be handy to use them.
+For better performance, use [`my_scriptlets.js`](https://github.com/BPower0036/AdBlockFilters/blob/main/Others/my_scriptlets.js)
 
 ## [Specific-General Hide](https://github.com/BPower0036/AdBlockFilters/blob/main/Others/Specific-General%20Hide)
 You can use this filter if you have enabled `Ignore general cosmetic filters` in uBlock Origin but still want some general hiding elements to be used.
