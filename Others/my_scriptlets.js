@@ -41,25 +41,3 @@
         addEventListener('DOMContentLoaded', click);
     }
 })();
-
-// https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L307
-/// click-element-onload.js
-/// alias ceol.js
-// example.com##+js(click-element-onload,#badbutton)
-(() => {
-var selector = '{{1}}';
-    if ( selector === '' || selector === '{{1}}' ) {
-        return;
-    }
-    var click = function() {
-        var elements = document.querySelectorAll(selector);
-        for ( var element of elements ) {
-            element.click();
-        }
-    };
-    if ( document.readyState === 'complete' ) {
-        click();
-    } else {
-        addEventListener('load', click);
-    }
-})();
