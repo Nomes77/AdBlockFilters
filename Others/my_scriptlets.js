@@ -1,3 +1,5 @@
+'use strict';
+
 // this is from https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
 /// cookie-set.js
 /// alias cs.js
