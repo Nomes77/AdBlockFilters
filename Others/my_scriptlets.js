@@ -1,4 +1,4 @@
-/// this is from https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
+// this is from https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
 /// cookie-set.js
 /// alias cs.js
 // example.com##+js(cs, name, value, age)
@@ -17,9 +17,10 @@
     }
 })();	
 
-///https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L283
+// https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L283
 /// click-element-onready.js
-/// example.com##+js(click-element-onready,#badbutton)
+/// alias ceor.js
+// example.com##+js(click-element-onready,#badbutton)
 (() => {
     var selector = '{{1}}';
     if ( selector === '' || selector === '{{1}}' ) {
@@ -39,9 +40,10 @@
     }
 })();
 
-///https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L307
+// https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L307
 /// click-element-onload.js
-/// example.com##+js(click-element-onload,#badbutton)
+/// alias ceol.js
+// example.com##+js(click-element-onload,#badbutton)
 (() => {
 var selector = '{{1}}';
     if ( selector === '' || selector === '{{1}}' ) {
