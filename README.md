@@ -24,7 +24,7 @@ I left everything here, just as back-up
 ## [Dynamic Rules](https://github.com/BPower0036/AdBlockFilters/blob/main/dynamic%20rules)
 Medium mode for uBlock Origin when blocking 3p-frames and 3p-scripts.
 
-I recommend to use EasyDutch with the default filterlists in [uBlock Origin](https://github.com/uBlockOrigin/uAssets) and with this(Dynamic Rules) list.
+I recommend to use EasyDutch with the default filterlists in [uBlock Origin](https://github.com/uBlockOrigin/uAssets) and with this (Dynamic Rules) list.
 
 ## [My Filters](https://github.com/BPower0036/AdBlockFilters/blob/main/my%20filters)
 This is filterlist is my Personal Filterlist in uBo. <br>
