@@ -20,9 +20,9 @@
 })();	
 
 // https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L283
-/// click-element-onready.js
-/// alias ceor.js
-// example.com##+js(click-element-onready,#badbutton)
+/// click-element.js
+/// alias ce.js
+// example.com##+js(ce,#badbutton)
 (() => {
     var selector = '{{1}}';
     if ( selector === '' || selector === '{{1}}' ) {
