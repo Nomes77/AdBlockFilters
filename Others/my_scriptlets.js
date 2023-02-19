@@ -1,11 +1,14 @@
-// this is from https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
-/// cookie-set.js
+// https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
+/// setCookie.js
+/// alias sc.js
 /// alias cs.js
 // example.com##+js(cs, name, value, age)
 (() => {
     'use strict';
     const cs = ev => {
-        if (ev) { window.removeEventListener(ev.type, cs, true); }
+        if (ev) {
+            window.removeEventListener(ev.type, cs, true);
+        }
         try {
             document.cookie = '{{1}}={{2}}; max-age={{3}}; secure; path=/;';
         } catch { }
@@ -15,7 +18,34 @@
     } else {
         cs();
     }
-})();	
+})();
+
+// https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
+/// setLocalStorageItem.js
+/// alias slsi.js
+/// alias si.js
+// example.com##+js(si, key, value)
+(() => {
+    'use strict';
+    const key = '{{1}}';
+    if ( key === '' || key === '{{1}}' ) { return; }
+    const value = '{{2}}';
+    if ( value === '' || value === '{{2}}' ) { return; }
+    const setItem = ev => {
+        if (ev) {
+            window.removeEventListener(ev.type, setItem, true);
+        }
+        try {
+		    if (localStorage.getItem(key) !== null) { return; }
+            localStorage.setItem(key, value);
+        } catch { }
+    };
+    if (document.readyState === 'loading') {
+        window.addEventListener('DOMContentLoaded', setItem, true); 
+    } else {
+        setItem();
+    }
+})();
 
 // based on https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L283
 // You can optional set a timeout in milliseconds.
