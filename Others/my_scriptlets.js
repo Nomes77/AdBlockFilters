@@ -17,35 +17,14 @@
     }
 })();	
 
-// https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L283
+// based on https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L283
 /// click-element.js
 /// alias ce.js
 // example.com##+js(ce,#badbutton)
+// example.com##+js(ce,#badbutton,1000)
 (() => {
     var selector = '{{1}}';
-    if ( selector === '' || selector === '{{1}}' ) {
-        return;
-    }
-    var click = function() {
-        var elements = document.querySelectorAll(selector);
-        for ( var element of elements ) {
-            element.click();
-        }
-    };
-    if ( document.readyState === 'interactive' ||
-         document.readyState === 'complete' ) {
-        click();
-    } else {
-        addEventListener('DOMContentLoaded', click);
-    }
-})();
-
-/// click-element-timeout.js
-/// alias cet.js
-// example.com##+js(cet,#badbutton,1000)
-(() => {
-    var selector = '{{1}}';
-    var timeout = {{2}};
+    var timeout = ({{2}} === undefined) ? 0 : {{2}};
     if ( selector === '' || selector === '{{1}}' ) {
         return;
     }
