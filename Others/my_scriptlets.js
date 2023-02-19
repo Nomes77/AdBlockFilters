@@ -29,7 +29,7 @@
         return;
     }
     if ( timeout === 'undefined' || timeout === 'null' || timeout === '' ) {
-        timeout = 0;
+        let timeout = 0;
     }
     var click = function() {
         var elements = document.querySelectorAll(selector);
