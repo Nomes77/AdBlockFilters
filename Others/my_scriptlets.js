@@ -49,7 +49,7 @@
         return;
     }
     var timeout = {{2}};
-    if ( timeout === undefined || timeout === null ) {
+    if ( timeout === undefined || timeout === null || timeout === {{2}}) {
         var timeout = 0;
     }
     var click = function() {
