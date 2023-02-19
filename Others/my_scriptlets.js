@@ -42,9 +42,10 @@
 
 /// click-element-timeout.js
 /// alias cet.js
-// example.com##+js(cet,#badbutton)
+// example.com##+js(cet,#badbutton,1000)
 (() => {
     var selector = '{{1}}';
+    var timeout = {{2}};
     if ( selector === '' || selector === '{{1}}' ) {
         return;
     }
@@ -61,5 +62,5 @@
         } else {
             addEventListener('DOMContentLoaded', click);
         }
-    }, 1000);
+    }, timeout);
 })();
