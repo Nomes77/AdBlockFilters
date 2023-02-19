@@ -44,10 +44,13 @@
 /// alias cet.js
 // example.com##+js(cet,#badbutton,1000)
 (() => {
-    let selector = '{{1}}';
-    let timeout = {{2}} || 0;
+    var selector = '{{1}}';
     if ( selector === '' || selector === '{{1}}' ) {
         return;
+    }
+    var timeout = {{2}};
+    if ( timeout === undefined || timeout === null ) {
+        var timeout = 0;
     }
     var click = function() {
         var elements = document.querySelectorAll(selector);
