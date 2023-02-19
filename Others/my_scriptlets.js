@@ -23,13 +23,13 @@
 // example.com##+js(ce,#badbutton)
 // example.com##+js(ce,#badbutton,1000)
 (() => {
-    var selector = '{{1}}';
-    var timeout = {{2}};
+    let selector = '{{1}}';
+    let timeout = {{2}};
     if ( selector === '' || selector === '{{1}}' ) {
         return;
     }
-    if ( timeout === 'undefined' || timeout === 'null' ) {
-        return 0;
+    if ( timeout === 'undefined' || timeout === 'null' || timeout === '' ) {
+        timeout = 0;
     }
     var click = function() {
         var elements = document.querySelectorAll(selector);
