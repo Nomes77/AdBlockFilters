@@ -45,12 +45,9 @@
 // example.com##+js(cet,#badbutton,1000)
 (() => {
     let selector = '{{1}}';
-    let timeout = {{2}};
+    let timeout = {{2}} || 0;
     if ( selector === '' || selector === '{{1}}' ) {
         return;
-    }
-    if ( timeout == null || timeout == undefined ) {
-        let timeout = 0;
     }
     var click = function() {
         var elements = document.querySelectorAll(selector);
