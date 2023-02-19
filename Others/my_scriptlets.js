@@ -1,5 +1,3 @@
-'use strict';
-
 // this is from https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
 /// cookie-set.js
 /// alias cs.js
@@ -47,15 +45,9 @@
 // example.com##+js(ace,#badbutton)
 (() => {
     var selector = '{{1}}';
-    if ( selector === '' || selector === '{{1}}' ) {
-        return;
-    }
     var g=new MutationObserver(function(){
         var b=document.querySelector(selector);
-        b&&b.click();
+        b.click();
     });
     g.observe(document,{childList:!0,subtree:!0});
-    setTimeout(function(){
-      g.disconnect()
-    },1E4)};
 })();
