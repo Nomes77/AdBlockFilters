@@ -40,14 +40,26 @@
     }
 })();
 
-/// adguard-click-element.js
-/// alias ace.js
-// example.com##+js(ace,#badbutton)
+/// click-element-timeout.js
+/// alias cet.js
+// example.com##+js(cet,#badbutton)
 (() => {
     var selector = '{{1}}';
-    var g=new MutationObserver(function(){
-        var b=document.querySelector(selector);
-        b.click();
-    });
-    g.observe(document,{childList:!0,subtree:!0});
+    if ( selector === '' || selector === '{{1}}' ) {
+        return;
+    }
+    var click = function() {
+        var elements = document.querySelectorAll(selector);
+        for ( var element of elements ) {
+            element.click();
+        }
+    };
+    setTimeout(function() {
+        if ( document.readyState === 'interactive' ||
+             document.readyState === 'complete' ) {
+            click();
+        } else {
+            addEventListener('DOMContentLoaded', click);
+        }
+    }, 1000);
 })();
