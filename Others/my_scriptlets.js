@@ -28,8 +28,8 @@
     if ( selector === '' || selector === '{{1}}' ) {
         return;
     }
-    if ( timeout === 'undefined' || timeout === 'null' || timeout === '' ) {
-        let timeout = 0;
+    if ( timeout === '' ) {
+        let timeout = 300;
     }
     var click = function() {
         var elements = document.querySelectorAll(selector);
