@@ -41,3 +41,21 @@
         addEventListener('DOMContentLoaded', click);
     }
 })();
+
+/// adguard-click-element.js
+/// alias ace.js
+// example.com##+js(ace,#badbutton)
+(() => {
+    var selector = '{{1}}';
+    if ( selector === '' || selector === '{{1}}' ) {
+        return;
+    }
+    var g=new MutationObserver(function(){
+        var b=document.querySelector(selector);
+        b&&b.click();
+    });
+    g.observe(document,{childList:!0,subtree:!0});
+    setTimeout(function(){
+      g.disconnect()
+    },1E4)};
+})();
