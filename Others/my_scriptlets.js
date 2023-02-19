@@ -24,9 +24,12 @@
 // example.com##+js(ce,#badbutton,1000)
 (() => {
     var selector = '{{1}}';
-    var timeout = ({{2}} === undefined) ? 0 : {{2}};
+    var timeout = {{2}};
     if ( selector === '' || selector === '{{1}}' ) {
         return;
+    }
+    if ( timeout === 'undefined' || timeout === 'null' ) {
+        return 0;
     }
     var click = function() {
         var elements = document.querySelectorAll(selector);
