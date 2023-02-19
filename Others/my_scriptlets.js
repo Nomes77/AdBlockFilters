@@ -18,31 +18,12 @@
 })();	
 
 // based on https://github.com/NanoAdblocker/NanoFilters/blob/master/NanoFilters/NanoResources.txt#L283
+// You can optional set a timeout in milliseconds.
+// If not set, it will click directly.
+// example.com##+js(ce,#badbutton)
+// example.com##+js(ce,#badbutton,1000)
 /// click-element.js
 /// alias ce.js
-// example.com##+js(ce,#badbutton)
-(() => {
-    var selector = '{{1}}';
-    if ( selector === '' || selector === '{{1}}' ) {
-        return;
-    }
-    var click = function() {
-        var elements = document.querySelectorAll(selector);
-        for ( var element of elements ) {
-            element.click();
-        }
-    };
-    if ( document.readyState === 'interactive' ||
-         document.readyState === 'complete' ) {
-        click();
-    } else {
-        addEventListener('DOMContentLoaded', click);
-    }
-})();
-
-/// click-element-timout.js
-/// alias cet.js
-// example.com##+js(cet,#badbutton,1000)
 (() => {
     let selector = '{{1}}';
     if ( selector === '' || selector === '{{1}}' ) {
