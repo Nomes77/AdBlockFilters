@@ -1,8 +1,12 @@
 [uBlock Origin]
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 10 Feb 2023 16:00:35 +0000
+! Last updated: Sun, 19 Feb 2023 16:49:59 +0000
 !
+! 2023-02-18
+telegraaf.nl##.OutbrainWrapper
+reclamefolder.nl##[class*="folderRowAd"]
+redbot.frl##.slider.container:has(.twelvecol:has-text(partners))
 ! 2023-02-10 https://github.com/uBlockOrigin/uAssets/issues/9705
 modekoninginmaxima.nl##.adsbygoogle
 ! 2023-02-10
@@ -689,7 +693,6 @@ amateursextube.eu,anaaltube.be,incesttube.eu,omatube.be,opasextube.nl,plassextub
 indiexl.nl###carousel-indiexl_partners_carousel_widget
 girlpics.nl###cato_top:has-text(Ads)
 almere-nieuws.nl###containerx
-redbot.frl###content .container:has(.twelvecol:has-text(partners))
 vnexplorer.net###div_the_mgid
 oops.nl###dropinboxv2cover
 538.nl###eCommerce
