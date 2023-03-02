@@ -126,7 +126,7 @@
     }
     let bhref = '{{2}}';
     if ( bhref === '' ) {
-        bhref = '';
+        bhref = '-1';
     }
     let ccookie = '{{3}}';
     if ( ccookie === '' ) {
