@@ -2,18 +2,17 @@
 /// setCookie.js
 /// alias sc.js
 /// alias cs.js
-// example.com##+js(cs, name, value, age, path)
-// example.com##+js(cs, name, value)
-// example.com##+js(cs, name, value, 31536000)
-// example.com##+js(cs, name, value, 31536000, path)
-// example.com##+js(cs, name, value, , path)
+// example.com##+js(cs, name, value, age, domain, path, SameSite)
+// name and value are required, the others are options
 (() => {
     'use strict';
     const cs = () => {
-        document.cookie = '{{1}}={{2}}; max-age={{3}}; path={{4}}; secure;';
+        document.cookie = '{{1}}={{2}}; max-age={{3}}; domain={{4}}; path={{5}}; SameSite={{6}}; secure;';
     };
-    if ( document.readyState === 'loading' ||
-         document.readyState === 'loaded' ||
+    if ( document.readyState === 'loading' ) {
+        window.addEventListener('DOMContentLoaded', cs, true);
+    } else
+    if ( document.readyState === 'loaded' ||
          document.readyState === 'interactive' ||
          document.readyState === 'complete') {
         cs();
@@ -22,11 +21,11 @@
     }
 })();
 
-// https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
+// https://github.com/uBlock-user/uBO-Scriptlets/blob/master/scriptlets.js
 /// setLocalStorageItem.js
 /// alias slsi.js
-/// alias si.js
-// example.com##+js(si, key, value)
+/// alias sli.js
+// example.com##+js(sli, key, value)
 (() => {
     'use strict';
     const key = '{{1}}';
@@ -46,6 +45,56 @@
         window.addEventListener('DOMContentLoaded', setItem, true); 
     } else {
         setItem();
+    }
+})();
+
+(() => {
+    const key = '{{1}}';
+        if ( key === '' || key === '{{1}}' ) { return; }
+        const keys = key.split(/\s*\|\s*/);
+        const value = '{{2}}';
+        const behavior = '{{3}}';
+        const setItem = () => {
+            let timer = undefined;
+            try {
+                for (const keyName of keys) {
+                    if (localStorage.getItem(keyName) === value) { break; }
+                    localStorage.setItem(keyName, value);
+                 }
+            } catch { }
+        };
+        const mutationHandler = mutations => {
+            if ( timer !== undefined ) { return; }
+            let skip = true;
+            for ( let i = 0; i < mutations.length && skip; i++ ) {
+                const { type, addedNodes, removedNodes } = mutations[i];
+                if ( type === 'attributes' ) { skip = false; }
+                for ( let j = 0; j < addedNodes.length && skip; j++ ) {
+                    if ( addedNodes[j].nodeType === 1 ) { skip = false; break; }
+                }
+                for ( let j = 0; j < removedNodes.length && skip; j++ ) {
+                    if ( removedNodes[j].nodeType === 1 ) { skip = false; break; }
+                }
+            }
+			if ( skip ) { return; }
+			timer = self.requestIdleCallback(setItem, { timeout: 10 });
+		};
+        const start = ( ) => {
+            setItem();
+            if ( /\bloop\b/.test(behavior) === false ) { return; }
+            const observer = new MutationObserver(mutationHandler);
+            observer.observe(document.documentElement, {
+                attributes: true,
+                childList: true,
+                subtree: true,
+            });
+        };
+        if ( document.readyState !== 'complete' && /\bcomplete\b/.test(behavior) ) {
+            self.addEventListener('load', start, { once: true });
+        } else if ( document.readyState === 'loading' ) {
+            self.addEventListener('DOMContentLoaded', start, { once: true });
+        } else {
+            start();
     }
 })();
 
