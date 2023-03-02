@@ -125,11 +125,11 @@
         return;
     }
     let bhref = '{{2}}';
-    if ( bhref === '' ) {
+    if ( bhref === '{{2}}' ) {
         bhref = '-1';
     }
     let ccookie = '{{3}}';
-    if ( ccookie === '' ) {
+    if ( ccookie === '{{3}}' ) {
         ccookie = '-1';
     }
     let dmsecs = '{{4}}';
