@@ -3,7 +3,7 @@
 /// alias sc.js
 /// alias cs.js
 // name and value are required, the others are options
-// example.com##+js(cs, name, value, age, domain, path, SameSite)
+// example.com##+js(cs, name, value, max-age, domain, path, SameSite)
 (() => {
     'use strict';
     const cs = ev => {
