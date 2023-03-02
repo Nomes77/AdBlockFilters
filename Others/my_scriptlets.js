@@ -76,12 +76,7 @@
         }
     };
     setTimeout(function() {
-        if ( document.readyState === 'interactive' ||
-             document.readyState === 'complete' ) {
-            click();
-        } else {
-            addEventListener('DOMContentLoaded', click);
-        }
+        click();
     }, timeout);
 })();
 
