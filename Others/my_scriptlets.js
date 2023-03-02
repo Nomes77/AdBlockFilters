@@ -87,24 +87,24 @@
 /// click-element-observer.js
 /// alias ceo.js
 (() => {
-    let selector = '{{1}}';
-    if ( selector === '' || selector === '{{1}}' ) {
+    let a = '{{1}}';
+    if ( a === '' || a === '{{1}}' ) {
         return;
     }
-    let msecs = '{{2}}';
-    if ( msecs === '{{2}}' ) {
-        msecs = '';
+    let b = '{{2}}';
+    if ( b === '{{2}}' ) {
+        b = '';
     }
-    let timeout = parseInt(msecs, 10);
-    if ( isNaN(timeout) || isFinite(timeout) === false ) {
-        timeout = 10000;
+    let c = parseInt(b, 10);
+    if ( isNaN(c) || isFinite(c) === false ) {
+        c = 10000;
     }
-    const o = new MutationObserver(function() {
-        const s = document.querySelector(selector);
-        s&&(o.disconnect(),s.click())
+    const d = new MutationObserver(function() {
+        const e = document.querySelector(a);
+        e&&(d.disconnect(),e.click())
     });
-    o.observe(document,{ childList:!0, subtree:!0 }),
+    d.observe(document,{ childList:!0, subtree:!0 }),
     setTimeout(function() {
-        o.disconnect()
-    }, timeout)
+        e.disconnect()
+    }, c)
 })();
