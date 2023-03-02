@@ -53,9 +53,9 @@
                     if ( removedNodes[j].nodeType === 1 ) { skip = false; break; }
                 }
             }
-			if ( skip ) { return; }
-			timer = self.requestIdleCallback(setItem, { timeout: 10 });
-		};
+            if ( skip ) { return; }
+            timer = self.requestIdleCallback(setItem, { timeout: 10 });
+        };
         const start = ( ) => {
             setItem();
             if ( /\bloop\b/.test(behavior) === false ) { return; }
@@ -101,6 +101,7 @@
             element.click();
         }
     };
+    if ( (window.location.href.indexOf(href) !== -1) && (document.cookie.indexOf(cookie) == -1) ) {
     setTimeout(function() {
         if ( document.readyState === 'interactive' ||
              document.readyState === 'complete' ) {
@@ -109,6 +110,7 @@
             addEventListener('DOMContentLoaded', click);
         }
     }, timeout);
+    }
 })();
 
 // Taken from AdGuard
@@ -141,7 +143,7 @@
     if ( (window.location.href.indexOf(bhref) !== -1) && (document.cookie.indexOf(ccookie) == -1) ) {
         const o = new MutationObserver(function() {
             const e = document.querySelector(aelem);
-            e&&(o.disconnect(),e.click())
+            e && (o.disconnect(), e.click())
         });
         o.observe(document,{ childList:!0, subtree:!0 }),
         setTimeout(function() {
