@@ -141,12 +141,13 @@
         etimeout = 10000;
     }
     if ((window.location.href.indexOf(bhref) != -1) && (-1 == document.cookie.indexOf(ccookie))) {
-    const o = new MutationObserver(function() {
-        const e = document.querySelector(aelem);
-        e&&(o.disconnect(),e.click())
-    });
-    o.observe(document,{ childList:!0, subtree:!0 }),
-    setTimeout(function() {
-        e.disconnect()
-    }, etimeout)
+        const o = new MutationObserver(function() {
+            const e = document.querySelector(aelem);
+            e&&(o.disconnect(),e.click())
+        });
+        o.observe(document,{ childList:!0, subtree:!0 }),
+        setTimeout(function() {
+            e.disconnect()
+        }, etimeout)
+    }
 })();
