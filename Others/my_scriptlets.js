@@ -2,16 +2,15 @@
 /// setCookie.js
 /// alias sc.js
 /// alias cs.js
-// example.com##+js(cs, name, value, age, hostOnly, path)
+// example.com##+js(cs, name, value, age, path)
+// example.com##+js(cs, name, value)
 // example.com##+js(cs, name, value, 31536000)
-// example.com##+js(cs, name, value, 31536000, , path)
-// example.com##+js(cs, name, value, 31536000, false)
-// example.com##+js(cs, name, value, , false, path)
-// example.com##+js(cs, name, value, , , path)
+// example.com##+js(cs, name, value, 31536000, path)
+// example.com##+js(cs, name, value, , path)
 (() => {
     'use strict';
     const cs = () => {
-        document.cookie = '{{1}}={{2}}; max-age={{3}}; hostOnly={{4}}; path={{5}}; secure;';
+        document.cookie = '{{1}}={{2}}; max-age={{3}}; path={{4}}; secure;';
     };
     if ( document.readyState === 'loading' ||
          document.readyState === 'loaded' ||
