@@ -20,33 +20,6 @@
     }
 })();
 
-// https://gist.github.com/AdamWr/b32688adb0393d31525f445ee5ab4302#file-gistfile1-txt
-/// setGoogleConstent.js
-/// alias gc.js
-/// alias sgc.js
-// google.com##+js(gc)
-(() => {
-    try {
-        var time = (new Date).getTime();
-        // add 365 days
-        var cookieDate = new Date(time + 1314E6);
-        var hostname = location.host;
-        var locSubString = null;
-        if (!hostname.startsWith("google.") && !hostname.startsWith("youtube.")) {
-            locSubString = hostname.substring(hostname.indexOf('.') + 1);
-        }
-        var loc = locSubString || hostname;
-        // do nothing if consent cookie is already set
-        if (document.cookie.indexOf('CONSENT=YES') !== -1) {
-            return;
-        }
-        // set the cookie
-        document.cookie = "CONSENT=YES+; domain=" + loc + "; path=/; expires=" + cookieDate.toUTCString();
-    } catch (ex) {
-        console.error('uBO: failed to set google consent cookie: ' + ex);
-    }
-})();
-
 // https://github.com/uBlock-user/uBO-Scriptlets/commit/3d1f48573749ac85b20031f78e0d5f7c7bb0f3af#
 /// setLocalStorageItem.js
 /// alias slsi.js
@@ -63,7 +36,7 @@
             window.removeEventListener(ev.type, setItem, true);
         }
         try {
-		    if (localStorage.getItem(key) !== null) { return; }
+            if (localStorage.getItem(key) !== null) { return; }
             localStorage.setItem(key, value);
         } catch { }
     };
@@ -110,15 +83,28 @@
     }, timeout);
 })();
 
+// Taken from AdGuard
 /// click-element-observer.js
 /// alias ceo.js
 (() => {
-  const c=new MutationObserver(function() {
-    const a = document.querySelector('{{1}}');
-    a&&(c.disconnect(),a.click())
-  });
-  c.observe(document,{ childList:!0,subtree:!0 }),
-  setTimeout(function() {
-    c.disconnect()
-  },1E4)
+    let selector = '{{1}}';
+    if ( selector === '' || selector === '{{1}}' ) {
+        return;
+    }
+    let msecs = '{{2}}';
+    if ( msecs === '{{2}}' ) {
+        msecs = '';
+    }
+    let timeout = parseInt(msecs, 10);
+    if ( isNaN(timeout) || isFinite(timeout) === false ) {
+        timeout = 10000;
+    }
+    const c = new MutationObserver(function() {
+        const s = document.querySelector(selector);
+        s&&(o.disconnect(),s.click())
+    });
+    o.observe(document,{ childList:!0,subtree:!0 }),
+    setTimeout(function() {
+        o.disconnect()
+    }, timeout)
 })();
