@@ -125,6 +125,9 @@
         return;
     }
     let bhref = '{{2}}';
+    if (bhref === '{{2}}') {
+        bhref = -1;
+    }
     let ccookie = '{{3}}';
     let dmsecs = '{{4}}';
     if ( dmsecs === '{{4}}' ) {
