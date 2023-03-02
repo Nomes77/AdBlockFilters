@@ -147,7 +147,7 @@
         });
         o.observe(document,{ childList:!0, subtree:!0 }),
         setTimeout(function() {
-            e.disconnect()
+            o.disconnect()
         }, etimeout)
     }
 })();
