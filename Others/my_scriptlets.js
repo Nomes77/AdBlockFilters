@@ -13,8 +13,8 @@
             document.cookie = '{{1}}={{2}}; max-age={{3}}; secure; path=/;';
         } catch { }
     };
-    if (document.readyState === 'loading') {
-        window.addEventListener('DOMContentLoaded', cs, true);
+    if ( document.readyState === 'loading') {
+        cs();
     } else {
         cs();
     }
