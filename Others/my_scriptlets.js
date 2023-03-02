@@ -129,7 +129,7 @@
         bhref = -1;
     }
     let ccookie = '{{3}}';
-    if (ccookie === '') {
+    if ( ccookie === '' ) {
         ccookie = -1;
     }
     let dmsecs = '{{4}}';
@@ -140,7 +140,7 @@
     if ( isNaN(etimeout) || isFinite(etimeout) === false ) {
         etimeout = 10000;
     }
-    if ((window.location.href.indexOf(bhref) != 0) && (document.cookie.indexOf(ccookie) == -1)) {
+    if ( (window.location.href.indexOf(bhref) != -1) && (document.cookie.indexOf(ccookie) == -1) ) {
         const o = new MutationObserver(function() {
             const e = document.querySelector(aelem);
             e&&(o.disconnect(),e.click())
