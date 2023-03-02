@@ -126,9 +126,14 @@
     }
     let bhref = '{{2}}';
     if (bhref === '{{2}}') {
+	    console.log(bhref);
         bhref = -1;
     }
     let ccookie = '{{3}}';
+    if (ccookie === '{{3}}') {
+	    console.log(ccookie);
+        ccookie = -1;
+    }
     let dmsecs = '{{4}}';
     if ( dmsecs === '{{4}}' ) {
         dmsecs = '';
