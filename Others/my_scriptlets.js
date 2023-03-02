@@ -87,8 +87,16 @@
     if ( selector === '' || selector === '{{1}}' ) {
         return;
     }
-    let msecs = '{{2}}';
-    if ( msecs === '{{2}}' ) {
+    let href = '{{2}}';
+    if ( href === ''  || href === '{{2}}' ) {
+        href = '';
+    }
+    let cookie = '{{3}}';
+    if ( cookie === '' ) {
+        cookie = -1;
+    }
+    let msecs = '{{4}}';
+    if ( msecs === '{{4}}' ) {
         msecs = '';
     }
     let timeout = parseInt(msecs, 10);
@@ -102,14 +110,14 @@
         }
     };
     if ( (window.location.href.indexOf(href) !== -1) && (document.cookie.indexOf(cookie) == -1) ) {
-    setTimeout(function() {
-        if ( document.readyState === 'interactive' ||
-             document.readyState === 'complete' ) {
-            click();
-        } else {
-            addEventListener('DOMContentLoaded', click);
-        }
-    }, timeout);
+        setTimeout(function() {
+            if ( document.readyState === 'interactive' ||
+                 document.readyState === 'complete' ) {
+                click();
+            } else {
+                addEventListener('DOMContentLoaded', click);
+            }
+        }, timeout);
     }
 })();
 
