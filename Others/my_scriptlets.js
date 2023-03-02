@@ -99,11 +99,11 @@
     if ( isNaN(timeout) || isFinite(timeout) === false ) {
         timeout = 10000;
     }
-    const c = new MutationObserver(function() {
+    const o = new MutationObserver(function() {
         const s = document.querySelector(selector);
         s&&(o.disconnect(),s.click())
     });
-    o.observe(document,{ childList:!0,subtree:!0 }),
+    o.observe(document,{ childList:!0, subtree:!0 }),
     setTimeout(function() {
         o.disconnect()
     }, timeout)
