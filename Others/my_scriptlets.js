@@ -6,16 +6,14 @@
 // name and value are required, the others are options
 (() => {
     'use strict';
-    const cs = () => {
-        document.cookie = '{{1}}={{2}}; max-age={{3}}; domain={{4}}; path={{5}}; SameSite={{6}}; secure;';
+    const cs = ev => {
+        if (ev) { window.removeEventListener(ev.type, cs, true); }
+        try {
+            document.cookie = '{{1}}={{2}}; max-age={{3}}; domain={{4}}; path={{5}}; SameSite={{6}}; secure;';
+        } catch { }
     };
     if ( document.readyState === 'loading' ) {
         window.addEventListener('DOMContentLoaded', cs, true);
-    } else
-    if ( document.readyState === 'loaded' ||
-         document.readyState === 'interactive' ||
-         document.readyState === 'complete') {
-        cs();
     } else {
         cs();
     }
