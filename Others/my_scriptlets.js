@@ -29,27 +29,6 @@
 (() => {
     'use strict';
     const key = '{{1}}';
-    if ( key === '' || key === '{{1}}' ) { return; }
-    const value = '{{2}}';
-    if ( value === '' || value === '{{2}}' ) { return; }
-    const setItem = ev => {
-        if (ev) {
-            window.removeEventListener(ev.type, setItem, true);
-        }
-        try {
-            if (localStorage.getItem(key) !== null) { return; }
-            localStorage.setItem(key, value);
-        } catch { }
-    };
-    if (document.readyState === 'loading') {
-        window.addEventListener('DOMContentLoaded', setItem, true); 
-    } else {
-        setItem();
-    }
-})();
-
-(() => {
-    const key = '{{1}}';
         if ( key === '' || key === '{{1}}' ) { return; }
         const keys = key.split(/\s*\|\s*/);
         const value = '{{2}}';
@@ -138,26 +117,36 @@
 /// click-element-observer.js
 /// alias ceo.js
 // example.com##+js(ceo, element)
-// example.com##+js(ceo, element, disconnectTimeout)
+// example.com##+js(ceo, element, hrefIndex, cookie, disconnectTimeout)
+// 1: element to click; 2: url should match given token; 3: should not click when certain cookie is already set; 4: disconnectTimeout.
 (() => {
-    let a = '{{1}}';
-    if ( a === '' || a === '{{1}}' ) {
+    let aelem = '{{1}}';
+    if ( aelem === '' || aelem === '{{1}}' ) {
         return;
     }
-    let b = '{{2}}';
-    if ( b === '{{2}}' ) {
-        b = '';
+    let bhref = '{{2}}';
+    if ( bhref === '{{2}}' ) {
+        bhref = '';
     }
-    let c = parseInt(b, 10);
-    if ( isNaN(c) || isFinite(c) === false ) {
-        c = 10000;
+    let ccookie = '{{3}}';
+    if ( ccookie === '{{3}}' ) {
+        ccookie = '-1';
     }
-    const d = new MutationObserver(function() {
-        const e = document.querySelector(a);
-        e&&(d.disconnect(),e.click())
+    let dmsecs = '{{4}}';
+    if ( dmsecs === '{{4}}' ) {
+        dmsecs = '';
+    }
+    let etimeout = parseInt(dmsecs, 10);
+    if ( isNaN(etimeout) || isFinite(etimeout) === false ) {
+        etimeout = 10000;
+    }
+    if ((window.location.href.indexOf(bhref) != -1) && (-1 == document.cookie.indexOf(ccookie))) {
+    const o = new MutationObserver(function() {
+        const e = document.querySelector(aelem);
+        e&&(o.disconnect(),e.click())
     });
-    d.observe(document,{ childList:!0, subtree:!0 }),
+    o.observe(document,{ childList:!0, subtree:!0 }),
     setTimeout(function() {
         e.disconnect()
-    }, c)
+    }, etimeout)
 })();
