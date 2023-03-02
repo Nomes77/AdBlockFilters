@@ -143,7 +143,8 @@
     if ( (window.location.href.indexOf(bhref) !== -1) && (document.cookie.indexOf(ccookie) == -1) ) {
         const o = new MutationObserver(function() {
             const e = document.querySelector(aelem);
-            e && (o.disconnect(), e.click())
+            e && e.click();
+            o.disconnect();
         });
         o.observe(document,{ childList:!0, subtree:!0 }),
         setTimeout(function() {
