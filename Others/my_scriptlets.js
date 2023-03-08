@@ -10,8 +10,8 @@
     const cs = ev => {
         if (ev) { window.removeEventListener(ev.type, cs, true); }
         try {
-            let data = '{{1}}';
-            document.cookie = '{{1}} secure;';
+            var data = '{{1}}';
+            document.cookie = data + 'secure;';
         } catch { }
     };
     if ( document.readyState === 'loading' ) {
