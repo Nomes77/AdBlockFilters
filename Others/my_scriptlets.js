@@ -6,9 +6,9 @@
 // example.com##+js(cs, name, value, max-age, domain, path, SameSite)
 (() => {
     'use strict';
-    const cs = ev => {
-        if (ev) { window.removeEventListener(ev.type, cs, true); }
-        try {
+    // const cs = ev => {
+        // if (ev) { window.removeEventListener(ev.type, cs, true); }
+        // try {
             let mxage = {{3}};
             let domain = '{{4}}';
             let path = '{{5}}';
@@ -26,13 +26,13 @@
                 data += '; SameSite=' + samesite;
             }
             document.cookie = '{{1}}={{2}};' + data + '; secure;';
-        } catch { }
-    };
-    if ( document.readyState === 'loading' ) {
-        window.addEventListener('DOMContentLoaded', cs, true);
-    } else {
-        cs();
-    }
+        // } catch { }
+    // };
+    // if ( document.readyState === 'loading' ) {
+    //     window.addEventListener('DOMContentLoaded', cs, true);
+    // } else {
+    //     cs();
+    // }
 })();
 
 // https://github.com/uBlock-user/uBO-Scriptlets/blob/master/scriptlets.js
