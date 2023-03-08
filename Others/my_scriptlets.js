@@ -7,11 +7,11 @@
 (() => {
     'use strict';
     const cs = ev => {
-        if (ev) { window.removeEventListener(ev.type, cs, true); }
+        // if (ev) { window.removeEventListener(ev.type, cs, true); }
         try {
             let mxage = '{{3}}';
             let domain = '{{4}}';
-            if ( mxage === {{3}} ) {
+            if ( mxage === '{{3}}' ) {
                 let xage = ( mxage * 24 * 60 * 60 * 1000 );
                 data += '; max-age=' + xage;
             if ( domain !== '' && domain !== '{{4}}' ) {
