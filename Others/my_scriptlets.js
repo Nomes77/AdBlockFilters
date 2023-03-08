@@ -11,7 +11,7 @@
         if (ev) { window.removeEventListener(ev.type, cs, true); }
         try {
             var data = '{{1}}';
-            document.cookie = data + 'secure;';
+            document.cookie = data;
         } catch { }
     };
     if ( document.readyState === 'loading' ) {
