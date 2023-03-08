@@ -6,7 +6,7 @@
 // example.com##+js(cs, name, value, max-age, domain, path, SameSite)
 (() => {
     'use strict';
-    // const cs = ev => {
+    const cs = ev => {
         // if (ev) { window.removeEventListener(ev.type, cs, true); }
         // try {
             let mxage = {{3}};
@@ -15,24 +15,24 @@
             let samesite = '{{6}}';
             if ( mxage === '{{3}}' ) {
                 let xage = (mxage * 24 * 60 * 60 * 1000)
-                data += '; max-age=' + xage;
+                opmxage= '; max-age=' + xage;
             if ( domain !== '' && domain !== '{{4}}' ) {
-                data += '; domain=' + domain;
+                opdomain= '; domain=' + domain;
             }
             if ( path !== '' && path !== '{{5}}' ) {
-                data += '; path=' + path;
+                oppath = '; path=' + path;
             }
             if ( samesite !== '' && samesite !== '{{6}}' ) {
-                data += '; SameSite=' + samesite;
+                opsamesite = '; SameSite=' + samesite;
             }
-            document.cookie = '{{1}}={{2}};' + data + '; secure;';
+            document.cookie = '{{1}}={{2}};' + opmxage + opdomain + oppath + opsamesite + '; secure;';
         // } catch { }
     // };
-    // if ( document.readyState === 'loading' ) {
-    //     window.addEventListener('DOMContentLoaded', cs, true);
-    // } else {
-    //     cs();
-    // }
+    if ( document.readyState === 'loading' ) {
+        window.addEventListener('DOMContentLoaded', cs, true);
+    } else {
+        cs();
+    }
 })();
 
 // https://github.com/uBlock-user/uBO-Scriptlets/blob/master/scriptlets.js
