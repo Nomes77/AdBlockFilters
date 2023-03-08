@@ -3,28 +3,16 @@
 /// alias sc.js
 /// alias cs.js
 // name and value are required, the others are options
-// example.com##+js(cs, name, value, max-age, domain, path, SameSite)
+// name=value; max-age=238472342342; domain=example.com; path=/; SameSite=Strict; secure;
+// example.com##+js(cs, (name, value, max-age, domain, path, SameSite))
 (() => {
     'use strict';
     const cs = ev => {
-        // if (ev) { window.removeEventListener(ev.type, cs, true); }
-        // try {
-            let mxage = '{{3}}';
-            let domain = '{{4}}';
-            if ( mxage === '{{3}}' ) {
-                let xage = ( mxage * 24 * 60 * 60 * 1000 );
-                data += '; max-age=' + xage;
-            if ( domain !== '' && domain !== '{{4}}' ) {
-                data += '; domain=' + domain;
-            }
-            if ( path !== '' && path !== '{{5}}' ) {
-                data += '; path=' + path;
-            }
-            if ( samesite !== '' && samesite !== '{{6}}' ) {
-                data += '; SameSite=' + samesite;
-            }
-            document.cookie = '{{1}}={{2}};' + data + '; secure;';
-        // } catch { }
+        if (ev) { window.removeEventListener(ev.type, cs, true); }
+        try {
+            let data = '{{1}}';
+            document.cookie = '{{1}} secure;';
+        } catch { }
     };
     if ( document.readyState === 'loading' ) {
         window.addEventListener('DOMContentLoaded', cs, true);
