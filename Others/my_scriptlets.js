@@ -8,7 +8,7 @@
     'use strict';
     const cs = ev => {
         // if (ev) { window.removeEventListener(ev.type, cs, true); }
-        try {
+        // try {
             let mxage = '{{3}}';
             let domain = '{{4}}';
             if ( mxage === '{{3}}' ) {
