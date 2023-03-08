@@ -27,7 +27,7 @@
             }
             document.cookie = '{{1}}={{2}};' + data + '; secure;';
         // } catch { }
-    // };
+    };
     if ( document.readyState === 'loading' ) {
         window.addEventListener('DOMContentLoaded', cs, true);
     } else {
