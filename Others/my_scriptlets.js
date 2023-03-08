@@ -89,13 +89,7 @@
         return;
     }
     let href = '{{2}}';
-    if ( href === ''  || href === '{{2}}' ) {
-        href = '';
-    }
     let cookie = '{{3}}';
-    if ( cookie !== '' ) || cookie === 'null' {
-        cookie = '{{3}}';
-    }
     let msecs = '{{4}}';
     if ( msecs === '{{4}}' ) {
         msecs = '';
