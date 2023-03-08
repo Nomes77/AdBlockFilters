@@ -93,8 +93,8 @@
         href = '';
     }
     let cookie = '{{3}}';
-    if ( cookie === '' ) {
-        cookie = -1;
+    if ( cookie === '' ) || cookie === '{{3}}' {
+        cookie = 'thereisnocookieset';
     }
     let msecs = '{{4}}';
     if ( msecs === '{{4}}' ) {
