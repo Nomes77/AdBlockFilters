@@ -3,8 +3,7 @@
 /// alias sc.js
 /// alias cs.js
 // name and value are required, the others are options
-// name=value; max-age=238472342342; domain=example.com; path=/; SameSite=Strict; secure;
-// example.com##+js(cs, (name, value, max-age, domain, path, SameSite))
+// example.com##+js(cs, name=value; max-age=604800000; domain=example.com; path=/; SameSite=Strict; secure;
 (() => {
     'use strict';
     const cs = ev => {
