@@ -9,7 +9,23 @@
     const cs = ev => {
         if (ev) { window.removeEventListener(ev.type, cs, true); }
         try {
-            document.cookie = '{{1}}={{2}}; max-age={{3}}; domain={{4}}; path={{5}}; SameSite={{6}}; secure;';
+            let mxage = {{3}};
+            let domain = '{{4}}';
+            let path = '{{5}}';
+            let samesite = '{{6}}';
+            if ( mxage === '{{3}}' ) {
+                let xage = (mxage * 24 * 60 * 60 * 1000)
+                data += '; max-age=' + xage;
+            if ( domain !== '' && domain !== '{{4}}' ) {
+                data += '; domain=' + domain;
+            }
+            if ( path !== '' && path !== '{{5}}' ) {
+                data += '; path=' + path;
+            }
+            if ( samesite !== '' && samesite !== '{{6}}' ) {
+                data += '; SameSite=' + samesite;
+            }
+            document.cookie = '{{1}}={{2}};' + data + '; secure;';
         } catch { }
     };
     if ( document.readyState === 'loading' ) {
