@@ -13,19 +13,19 @@
             let domain = '{{4}}';
             let path = '{{5}}';
             let samesite = '{{6}}';
-            if ( mxage === '{{3}}' ) {
-                let xage = (mxage * 24 * 60 * 60 * 1000)
-                opmxage= '; max-age=' + xage;
+            if ( mxage === {{3}} ) {
+                let xage = ( mxage * 24 * 60 * 60 * 1000 );
+                data += '; max-age=' + xage;
             if ( domain !== '' && domain !== '{{4}}' ) {
-                opdomain= '; domain=' + domain;
+                data += '; domain=' + domain;
             }
             if ( path !== '' && path !== '{{5}}' ) {
-                oppath = '; path=' + path;
+                data += '; path=' + path;
             }
             if ( samesite !== '' && samesite !== '{{6}}' ) {
-                opsamesite = '; SameSite=' + samesite;
+                data += '; SameSite=' + samesite;
             }
-            document.cookie = '{{1}}={{2}};' + opmxage + opdomain + oppath + opsamesite + '; secure;';
+            document.cookie = '{{1}}={{2}};' + data + '; secure;';
         // } catch { }
     // };
     if ( document.readyState === 'loading' ) {
