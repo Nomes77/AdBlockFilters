@@ -378,7 +378,7 @@ apintie.sr##.fbside
 de-kandelaar.nl##.fb-tabs.card-facebook.card-social
 maurice.nl##.floating-share
 blikopzeewolde.nl,livingwaters.nl,verbindend-enschede.nl##.fusion-sharing-box
-fixpedia.nl,geldpedia.nl,manpedia.nl##.gridlove-share-wrapper
+fixpedia.nl,geldpedia.nl,manpedia.nl,vrouwpedia.nl##.gridlove-share-wrapper
 makeuseof.com##.heading_sharing
 stopworldcontrol.com##.heateor_sssp_sharing_container
 geenstijl.nl,welingelichtekringen.nl##.hidden-xs
@@ -416,7 +416,7 @@ duurzaam-actueel.nl,klokradio.nl,osuradio.nl##.pea_cook_wrapper
 friedensstimme.nl##.post__sharing
 loemedia.nl##.post_share_center
 fiets.nl##.post-data__share
-fietsactief.nl,geekawhat.com,indignatie.nl,infinance.nl,quey.org,stopdebankiers.com##.post-share
+fietsactief.nl,geekawhat.com,indignatie.nl,infinance.nl,quey.org,stopdebankiers.com,unitednews.sr##.post-share
 mannennieuws.nl##.post-share-bar
 quey.org##.post-share-bot
 quey.org##.post-share-float
@@ -436,7 +436,7 @@ communicationtheory.org##.rsssl_soc
 h2owaternetwerk.nl##.s2sdefault
 beveiligingnieuws.nl##.sfsi_plus_Sicons
 techindeep.com##.share_float_container
-androidworld.nl,bitcoinmagazine.nl,dagelijksestandaard.nl,indeleiderstrui.nl##.share_item
+androidworld.nl,bitcoinmagazine.nl,dagelijksestandaard.nl,f1maximaal.nl,indeleiderstrui.nl##.share_item
 beleggersbelangen.nl##.share-area > .slide
 banknieuws.info##.share-art
 christian.net##.share-article
@@ -497,9 +497,10 @@ at5.nl,bodylifebenelux.nl,denoordoostpolder.nl,dvhn.nl,eredivisie.nl,hpdetijd.nl
 ! a1mediagroep.nl##.socialshare
 kekmama.nl,nictiz.nl,nu.nl,zakbijbelbond.nl##.social-sharing
 nieuwsmotor.nl##.social-side-icons
+voetbalnieuws.be##.social-sticky
 limburger.nl##.social-sticky-wrapper
 freesoccer.nl,zuerst.de##.ssbp-wrap.ssba
-nieuwsopbeeld.nl,rotterdam-nesselande.nl,theologymatters.com##.td-post-sharing
+nieuwsopbeeld.nl,regioonline.nl,rotterdam-nesselande.nl,theologymatters.com##.td-post-sharing
 foranewworld.info##.template-social-wrapper .social-media
 computable.nl##.text-share-column
 noordkopcentraal.nl##.the_champ_horizontal_sharing.the_champ_sharing_container
@@ -646,7 +647,7 @@ edestad.nl#?#[title^="Deel"]:upward(5)
 ||myprivacy.dpgmedia.net^$3p,script,frame,domain=~vtm.be
 ||myprivacy-static.dpgmedia.net^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~ad.nl|~autoweek.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~pzc.nl
 ||privacy-mgmt.com^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~cmp.dpgmedia.*|~ad.nl|~autoweek.nl|~ed.nl|~gelderlander.nl|~nu.nl|~pzc.nl
-||privacymanager.io^$3p,script,frame,domain=~geenstijl.nl|~omroepwest.nl|~racingnews365.nl
+||privacymanager.io^$3p,script,frame,domain=~geenstijl.nl|~omroepwest.nl|~racingnews365.nl|~verkeerplaza.nl
 ||quantcast.mgr.consensu.org^$3p,script,frame,domain=~www.vi.nl
 ||sdk.privacy-center.org^$3p,script,frame,domain=~goplay.be|~metronieuws.nl|~telegraaf.nl
 @@||privacymanager.io^$3p,shide,domain=geenstijl.nl|omroepwest.nl|racingnews365.nl
