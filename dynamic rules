@@ -703,10 +703,6 @@ www.buienradar.be cdn.buienradar.nl * noop
 businessinsider.in static.clmbtech.com * noop
 idiscover.lib.cam.ac.uk cambridge-primo.hosted.exlibrisgroup.com * noop
 www.camjam.nl googlehosted.com * noop
-camsexbabe.nl ctsdwm.com * noop
-camsexbabe.nl pctlwm.com * noop
-camsexbabe.nl prtawe.com * noop
-camsexbabe.nl ptwmstcnt.com * noop
 www.catawiki.com cdn.catawiki.net * noop
 cbslocal.com kappacdn.net * noop
 cbslocal.com geolocation.onetrust.com * noop
@@ -1121,7 +1117,6 @@ www.plus.nl incapdns.net * noop
 www.porn.com rsc.cdn77.org * noop
 pornhub.com wpc.rncdn4.com * noop
 potwm.com * 3p-script noop
-prewarcar.nl static.prewarcar.com * allow
 pubblewebsite-one.azurewebsites.net cloudapp.net * noop
 pyfunceble.github.io asciinema.org * noop
 qantas.com cdn.qantasloyalty.com * noop
@@ -1154,6 +1149,7 @@ www.seniorweb.nl cloudapp.net * noop
 sex.xxx j0.wlmediahub.com * noop
 www.sexgames.cc * 3p-frame noop
 www.sexgames.cc * 3p-script noop
+www.sexmeid.nl lexozfldkklgvc.com * noop
 memberzone.sexmessenger.com montnotimex.top * noop
 memberzone.sexmessenger.com rsc.cdn77.org * noop
 sexy-store.nl static.cosmodacollection.com * noop
@@ -1330,7 +1326,9 @@ login-select.zilverenkruis.nl signicat.pro * noop
 * https://publish.twitter.com/oembed?url=https://twitter.com/ script noop
 * https://syndication.twitter.com/srv/timeline-list/ sub_frame noop
 * https://syndication.twitter.com/srv/timeline-profile/ sub_frame noop
-camsexbabe.nl https://pt-static5.ptlwmstc.com/npe/ba/tube-player/ script noop
+camsexbabe.nl https://pt.ctsdwm.com/tube-player/ sub_frame noop
+camsexbabe.nl https://pt.prtawe.com/embed/tbplyr/ script noop
+camsexbabe.nl https://pt-static3.ptwmstcnt.com/npe/ba/tube-player/ script noop
 camsexbabe.nl https://pt.wmptctl.com/tube-player/ sub_frame noop
 cbslocal.com https://w3.mp.lura.live/player/ script noop
 eurocampings.nl https://cdn.acsi.eu/eurocampings/assets/ script noop
@@ -1339,4 +1337,7 @@ h20.gg https://snazzymaps.com/embed/ sub_frame noop
 hartvannederland.nl https://mssl.fwmrm.net/libs/adm/6.43.0/AdManager.js script noop
 radio.nl https://massariuscdn.com/pubs/radionl/radionl_hb_setup.js script noop
 sportnieuws.nl https://static.spott.ai/videoplayer/ script noop
+sproeiendekutjes.nl https://pt.ctsdwm.com/tube-player/ sub_frame noop
+sproeiendekutjes.nl https://pt.pctlwm.com/embed/tbplyr/ script noop
+sproeiendekutjes.nl https://pt-static3.ptwmstcnt.com/npe/ba/tube-player/ script noop
 threadreaderapp.com https://www.google.com/cse/static/element/ script noop
