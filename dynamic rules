@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 26-04-2023
+! Last updated: 27-04-2023
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -942,6 +942,7 @@ onedrive.live.com b-msedge.net * noop
 onedrive.live.com l-msedge.net * noop
 outlook.live.com msftauth.net * noop
 outlook.live.com office365.com * noop
+www.livejasmin.com dditscdn.com * noop
 www.livewalker.com www.music-mdata.com * noop
 support.logmeininc.com assets.cdngetgo.com * noop
 logos.com cloudapp.azure.com * noop
@@ -1328,16 +1329,23 @@ login-select.zilverenkruis.nl signicat.pro * noop
 * https://syndication.twitter.com/srv/timeline-profile/ sub_frame noop
 camsexbabe.nl https://pt.ctsdwm.com/tube-player/ sub_frame noop
 camsexbabe.nl https://pt.prtawe.com/embed/tbplyr/ script noop
+camsexbabe.nl https://pt-static1.ptwmstcnt.com/npe/ba/tube-player/ script noop
 camsexbabe.nl https://pt-static3.ptwmstcnt.com/npe/ba/tube-player/ script noop
-camsexbabe.nl https://pt.wmptctl.com/tube-player/ sub_frame noop
 cbslocal.com https://w3.mp.lura.live/player/ script noop
+erotischemassages.com https://pt.ctsdwm.com/tube-player/ sub_frame noop
+erotischemassages.com https://pt-static1.ptwmstcnt.com/npe/ba/tube-player/ script noop
+erotischemassages.com https://pt.pwmctl.com/embed/tbplyr/ script noop
 eurocampings.nl https://cdn.acsi.eu/eurocampings/assets/ script noop
 freebitco.in https://www.google.com/jsapi?autoload= script noop
+gratispornofilm.nl https://pt.ctsdwm.com/tube-player/ sub_frame noop
+gratispornofilm.nl https://pt.prtawe.com/embed/tbplyr/ script noop
+gratispornofilm.nl https://pt-static1.ptwmstcnt.com/npe/ba/tube-player/ script noop
 h20.gg https://snazzymaps.com/embed/ sub_frame noop
 hartvannederland.nl https://mssl.fwmrm.net/libs/adm/6.43.0/AdManager.js script noop
 radio.nl https://massariuscdn.com/pubs/radionl/radionl_hb_setup.js script noop
 sportnieuws.nl https://static.spott.ai/videoplayer/ script noop
 sproeiendekutjes.nl https://pt.ctsdwm.com/tube-player/ sub_frame noop
 sproeiendekutjes.nl https://pt.pctlwm.com/embed/tbplyr/ script noop
+sproeiendekutjes.nl https://pt-static1.ptwmstcnt.com/npe/ba/tube-player/ script noop
 sproeiendekutjes.nl https://pt-static3.ptwmstcnt.com/npe/ba/tube-player/ script noop
 threadreaderapp.com https://www.google.com/cse/static/element/ script noop
