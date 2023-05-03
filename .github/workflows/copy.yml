@@ -23,12 +23,13 @@ jobs:
           git clone --depth=1 --single-branch --branch=gh-pages https://github.com/EasyDutch-uBO/EasyDutch.git $TMPFILE
           cp $TMPFILE/EasyDutch/*.txt EasyDutch/
           cp $TMPFILE/EasyDutch.txt EasyDutch.txt
+          cp $TMPFILE/EasyDutch/EasyDutch.all.txt EasyDutch.all.txt
       - name: Commit changes (if any)
         run: |
           if [[ -n $(git diff) ]]; then
             git config user.name "BPower0036"
             git config user.email "<>"
-            git add -u EasyDutch/ EasyDutch.txt
+            git add -u EasyDutch/ EasyDutch.txt EasyDutch.all.txt
             git commit -m "Updated from @EasyDutch-uBO"
             git push origin main
           fi
