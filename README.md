@@ -2,7 +2,8 @@
 [![Last commit](https://img.shields.io/github/last-commit/BPower0036/AdBlockFilters?label=Last%20commit&color=informational)](https://github.com/BPower0036/AdBlockFilters/commits/main)
 [![Issues](https://img.shields.io/github/issues/BPower0036/AdBlockFilters?label=Issues&color=red)](https://github.com/BPower0036/AdBlockFilters/issues)
 [![Issues](https://img.shields.io/github/issues-closed/BPower0036/AdBlockFilters?color=green&label=Issues)](https://github.com/BPower0036/AdBlockFilters/issues?q=is%3Aissue+is%3Aclosed)
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey)](https://github.com/BPower0036/AdBlockFilters/blob/main/LICENSE) <br>
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey)](https://github.com/BPower0036/AdBlockFilters/blob/main/LICENSE)
+[![jsDelivr)](https://data.jsdelivr.com/v1/package/gh/BPower0036/AdBlockFilters/badge)](https://www.jsdelivr.com/package/gh/BPower0036/AdBlockFilters) <br>
 
 ***
 # AdBlockFilters
