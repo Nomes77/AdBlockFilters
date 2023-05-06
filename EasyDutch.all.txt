@@ -4,7 +4,7 @@
     Dutch supplement for the Easylist filters to use with uBlock Origin
     Only for ads or anti-adblock on Dutch sites!
     Does also support Afrikaans, since it is a sort of Dutch
-! Last updated: Wed, 03 May 2023 20:17:11 +0000
+! Last updated: Fri, 05 May 2023 07:53:50 +0000
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/EasyDutch-uBO/EasyDutch
 ! GitHub issues: https://github.com/EasyDutch-uBO/EasyDutch/issues
@@ -227,6 +227,8 @@ _advertentieleaderboardhome.
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-05-05
+||proshop.nl/Images/Topbanner$image
 ! 2023-05-03
 ||cvandaag.nl/resources/uploads/banner/$image
 ! 2023-05-02
@@ -255,7 +257,7 @@ _advertentieleaderboardhome.
 ! 2023-04-28
 /https\:\/\/nieuwsfiets\.nu\/wp-content\/uploads\/.*\/.*(?:banner-(?!mis|tip).*|\.gif)/
 ||qmusic.medialaancdn.be/*/*/*banner*$image,domain=qmusic.nl
-||top40.nl/*/widget/uploads/ankeiler/$imaege
+||top40.nl/*/widget/uploads/ankeiler/$image
 ! 2023-04-27
 ||cdn.amateursexstart.nl/wp-content/uploads/*/*.gif$image
 ||cdn77.org/*/banners/crimesite/$image,domain=crimesite.nl
@@ -466,9 +468,7 @@ _advertentieleaderboardhome.
 ||pubble.nl/Content.svc/getAdCollection?
 ! 2022-05-04
 ||onsoranje.nl/sites/*/images/sponsorlogos/
-||proshop.nl/Images/*Top-Banner$image
 ! 2022-04-26
-||radioeenhoorn.nl/images/banners$image
 ||kechtube.com^$popunder
 ||nieuwsuitnijmegen.nl/uploads/banners/
 ||onderwegonline.nl/app/uploads/*/Banner$image
@@ -784,6 +784,9 @@ _advertentieleaderboardhome.
 ! Description: Whitelist for specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-05-04 
+@@||pagead2.googlesyndication.com/pagead/$script,domain=rotterdam-nesselande.nl
+! 2023-05-03 https://github.com/uBlockOrigin/uAssets/issues/13800
 ! 2023-04-27
 @@/images/volgende.gif$image,1p,domain=kinkysexcontactonline.nl|privesexgids.nl|sexdatingholland.com|zinomteneuken.nl
 @@/images/vorige.gif$image,1p,domain=kinkysexcontactonline.nl|privesexgids.nl|sexdatingholland.com|zinomteneuken.nl
@@ -902,6 +905,20 @@ _advertentieleaderboardhome.
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-05-05
+gpblog.com##.ad
+gpblog.com##.articles > li.article:has(.betting)
+gpblog.com##.betting.dossier-module
+gpblog.com##.promo-element
+! 2023-05-04
+duurzaam-actueel.nl##footer > section:has(.logo_showcase):has-text(partners)
+leerlingen.com##.sponsors
+radioeenhoorn.nl##.module_round_box:not(:has([href*="/word-donateur"]))
+recreatief.nl##.widget-a-wrap
+rotterdam-nesselande.nl##.adsbygoogle:upward(.wpb_wrapper):not(:has(aside))
+srnieuws.com##.card-view:has(h5.bold > a[href][target="_blank"])
+srnieuws.com##div.card-view:has([id^="taboola"])
+waterkant.net##div.td-all-devices
 ! 2023-05-03
 cvandaag.nl##.article-view [href^="https://cvandaag.nl/ad/click"]:upward(.d-none)
 cvandaag.nl##[class^="news"] [href^="https://cvandaag.nl/ad/click"]:upward(div)
@@ -1326,7 +1343,6 @@ willem-ii.nl##.advert
 groningerkrant.nl##.widget:has(.widget-title:has-text(Vrienden))
 gratisepub.nl##.widget:has(.adsbygoogle)
 golf.be##[class*="-ad-banner-box"]
-waterkant.net##[href^="https://www.eventbrite.nl/e/tickets"]
 gids.tv##.advertisement:upward(1)
 gic.nl##.katernbanners
 geelfm.be##a[href="/adverteren/"]:upward(1)
@@ -1409,10 +1425,6 @@ wielerflits.be,wielerflits.nl##div[id*="mm_leaderboard"]
 zakenreisnieuws.nl##[id^="block-block"]:has([id^="div-gpt-ad"])
 zakenreisnieuws.nl##div[class*="block-block"]:has(.adsbygoogle)
 zakenreisnieuws.nl##div[style*="padding:10px"]:has(div[id^="div-gpt-ad"])
-! 2022-06-22 https://github.com/uBlockOrigin/uAssets/issues/13800
-!#if env_firefox
-welingelichtekringen.nl##[id^="div-gpt-ad"]:style(height:10px !important;)
-!#endif
 ! 2022-06-21
 deoudrotterdammer.nl##[id^="deoud-"]
 ! 2022-06-16
@@ -1861,15 +1873,12 @@ geile-sexcontacten.be##.card:has([src^="https://www.affilaxy.com/promos/"])
 volleybal.nl##.card-banner
 volleybal.nl##.card-banner-large
 nederlandsexdate.nl##.card-header:has-text(Advertentie)
-srnieuws.com##.card-view:has(h5.bold > a[href][target="_blank"])
 rkcwaalwijk.nl##.carousel
 tijd.be##.c-articlelistitem:has([id="adhese_sponsoredstory"])
 tijd.be##.c-articleteaser--sponsored
 motorfietsblog.nl##.cbcontent
-srnieuws.com##.centered.card-view:has([id^="taboola"])
 ngf.nl##.c-footer-sponsors
 online-omzetten.nl##.clearfix.entry > small
-leerlingen.com##.clearfix.widget > :has(.sponsors)
 nieuwsonline.nu##.clearfix:has(img[src*="/header/"])
 financialinvestigator.nl##.c-newsList__story--partnernews
 rd.nl##.codalt-container
@@ -1983,7 +1992,6 @@ mediacourant.nl##.mc-adv
 eromarkt.nl,erotischemassagemarkt.nl,erotischemodellen.nl,swingersmarkt.nl##.menubanner:has([src^="ads"])
 mijn-tv-gids.be##.midzone
 scholieren.com##.min-h-90
-radioeenhoorn.nl##.module_round_box
 financialinvestigator.nl##.mpu
 wintersport.nl##.mq-banner:not(:has-text(Reisverzekering))
 nl.motorsport.com##.ms-hapb
@@ -2072,7 +2080,6 @@ nieuwsopbeeld.nl##.td_module_wrap:has(.td-post-category:has-text(Gesponsord))
 dissident.one##.td-adspot-title
 regioonline.nl##.td-a-rec
 techpulse.be##.td-banner-wrap-full
-waterkant.net##.td-fix-index > center
 netonline.be##.tekstboldwit:has-text(ADVERT)
 gaynews.nl##.telefoon_verberg
 nos.nl##.teletekst__banner
@@ -2302,16 +2309,14 @@ surfplaza.be##td.di1:has(img[src$="/yourad.gif"])
 ! Description: Whitelist for hidden elements on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-05-04
+rotterdam-nesselande.nl#@#ins.adsbygoogle
 ! 2023-05-03
 noordkopcentraal.nl#@#.category-advertorial
 ! 2023-04-27
 gratis.nl#@#a[href^="https://ndt5.net/"]
 ! 2023-04-26
 wereldklokken.nl#@#ins.adsbygoogle
-! 2022-06-22 https://github.com/uBlockOrigin/uAssets/issues/13800
-!#if env_firefox
-welingelichtekringen.nl#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
-!#endif
 ! Uitzonderingen voor AdGuard
 ! 2022-10-25 https://github.com/EasyDutch-uBO/EasyDutch/issues/29
 embed.kijk.nl#@#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links:style(display: block !important;)
