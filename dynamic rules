@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: Dynamic rules for uBlock Origin's medium mode.
-! Last updated: 27-04-2023
+! Last updated: 09-06-2023
 !
 no-csp-reports: * true
 no-large-media: behind-the-scene true
@@ -730,6 +730,8 @@ manuscripts.csntm.org cloudapp.net * noop
 cumcams.nl aweprt.com * noop
 cumcams.nl tools.vpscash.nl * noop
 volvo.custhelp.com volvornt.harte-hanks.com * noop
+nsfw.dailybuzz.nl massariuscdn.com * noop
+nsfw.dailybuzz.nl replain.cc * noop
 www.delijn.be fdv2-t-msedge.net * noop
 www.dell.com afcs.dellcdn.com * noop
 delta.com onelink-translations.com * noop
@@ -844,6 +846,7 @@ globalnews.ca videoplayer.smdg.ca * noop
 dev.gnupg.org files.gnupg.net * noop
 abcnews.go.com abcnews.com * noop
 godaddy.com img1.wsimg.com * noop
+www.godaddy.com wsimg.com * noop
 google.com content.googleapis.com * noop
 google.com googleusercontent.com * noop
 translate.google.com translate.goog * noop
@@ -856,6 +859,7 @@ www.goplay.be shared.mediahuis.be * noop
 www.govoyagin.com voyagin.sslcs.cdngc.net * noop
 govtslaves.info cache.worldstarhiphop.com * noop
 govtslaves.info www.worldstarhiphop.com * noop
+www.gpblog.com pxr.nl * noop
 graphicriver.net assets.shopfront.envato-static.com * noop
 www.groupon.com grouponcdn.com * noop
 www.gvgmall.com rsc.cdn77.org * noop
@@ -906,6 +910,7 @@ jan-magazine.nl hearstapps.com * noop
 www.jerkmatelive.com streamate.icfcdn.com * noop
 www.jimdo.com webteam.jimstatic.com * noop
 jizzbunker.com cdn3x.com * noop
+form.jotform.com jotfor.ms * noop
 www.joyclub.com cfnimg.joyclub.de * noop
 support.jumpcloud.com siteforce.com * noop
 www.jw.org jw-cdn.org * noop
@@ -936,12 +941,17 @@ previous-recipients.levchinprize.com cdn.readymag.com * noop
 limo.libis.be exlibrisgroup.com * noop
 live.com msauth.net * noop
 live.com office.net * noop
+account.live.com part-0039.t-0009.fb-t-msedge.net * noop
+account.live.com fdv2-t-msedge.net * noop
 account.live.com gfx.ms * noop
+account.live.com www.tm.f.prd.aadg.trafficmanager.net * noop
 login.live.com wpc.alphacdn.net * noop
 onedrive.live.com b-msedge.net * noop
 onedrive.live.com l-msedge.net * noop
 outlook.live.com msftauth.net * noop
 outlook.live.com office365.com * noop
+signup.live.com arkoselabs.com * noop
+signup.live.com fdv2-t-msedge.net * noop
 www.livejasmin.com dditscdn.com * noop
 www.livewalker.com www.music-mdata.com * noop
 support.logmeininc.com assets.cdngetgo.com * noop
@@ -957,6 +967,7 @@ lxax.com g-om.com * noop
 lxax.com sys.vidsrev.com * noop
 mail.com ui-portal.de * noop
 mail.com uicdn.com * noop
+www.manyvids.com cdn.radiantmediatechs.com * noop
 www.marketwatch.com wsj.net * noop
 www.marktplaats.nl cdn.ebayclassifieds.net * noop
 mashable.com a.amz.mshcdn.com * noop
@@ -1025,6 +1036,8 @@ www.mulders-opel.nl waws-prod-am2-151.cloudapp.net * noop
 www.musiciansfriend.com recs.richrelevance.com * noop
 www.myenglishteacher.eu hb.wpmucdn.com * noop
 myspace.com x.myspacecdn.com * noop
+www.namecheap.com nc-img.com * noop
+www.namecheap.com embed.typeform.com * noop
 www.nationalreview.com pantheonsite.io * noop
 www.natuurmonumenten.nl natuurmonumenten.ent.platform.sh * noop
 www.nbcdfw.com npmcdn.com * noop
@@ -1117,11 +1130,15 @@ playstation.com auth.api.sonyentertainmentnetwork.com * noop
 www.plus.nl incapdns.net * noop
 www.porn.com rsc.cdn77.org * noop
 pornhub.com wpc.rncdn4.com * noop
+pornoplekje.nl virt4me.net * noop
 potwm.com * 3p-script noop
 pubblewebsite-one.azurewebsites.net cloudapp.net * noop
 pyfunceble.github.io asciinema.org * noop
 qantas.com cdn.qantasloyalty.com * noop
+www.quest.nl assets.hearstapps.com * noop
 quora.com quoracdn.net * noop
+racingnews365.nl fundingchoicesmessages.google.com * noop
+racingnews365.nl mmcdn.nl * noop
 racingnews365.nl embed.viaplay.com * noop
 radioluisteren.fm * 3p-script noop
 radiowereld.nl radiowereld.siticdn.nl * noop
@@ -1153,6 +1170,8 @@ www.sexgames.cc * 3p-script noop
 www.sexmeid.nl lexozfldkklgvc.com * noop
 memberzone.sexmessenger.com montnotimex.top * noop
 memberzone.sexmessenger.com rsc.cdn77.org * noop
+www.sextjat.nl chatcamsoftware.com * noop
+www.sextjat.nl html5-chat.com * noop
 sexy-store.nl static.cosmodacollection.com * noop
 www.sfgate.com webwidgets.wsi.com * noop
 sharepoint.com b-msedge.net * noop
@@ -1211,6 +1230,7 @@ streetwize.tv imu.nl * noop
 www.subscribestar.com checkout.com * noop
 substack.com substackcdn.com * noop
 nl.surveymonkey.com prod.smassets.net * noop
+t.me telegram.org * noop
 www.target.com assets.targetimg1.com * noop
 techguided.com cdn-fifmh.nitrocdn.com * noop
 techradar.com futurecdn.net.c.footprint.net * noop
@@ -1233,7 +1253,11 @@ www.tijd.be web.keesing.com * noop
 www.tiktok.com ttwstatic.com * noop
 survey.tolunastart.com customer-surveys.euro.confirmit.com * noop
 www.toolbox.com incapdns.net * noop
+www.top40.nl top40tv.nl * noop
+www.top40.nl player.viloud.tv * noop
 totaaltv.nl plista.com * noop
+translate.goog translate.google.com * noop
+translate.goog translate.googleapis.com * noop
 www.travelocity.com suggest.expedia.com * noop
 www.travelocity.com www.expedia.com * noop
 www.travelocity.com travel-assets.com * noop
@@ -1259,17 +1283,21 @@ www.vi.nl cmp.quantcast.com * noop
 www.viafora.nl ouders.nl * noop
 www.vicsdrumshop.com assets.reverbsites.com * noop
 www.viki.com viki.io * noop
+www.vinted.nl static.vinted.com * noop
 www.viptube.com vptpsn.com * noop
 www.virustotal.com virustotalcloud.appspot.com * noop
 www.vividseats.com a.vsstatic.com * noop
 www.voetbalkrant.com static.sportid.be * noop
 vrt.be cdn.vuplay.co.uk * noop
 vtm.be v.fwmrm.net * noop
+www.w3schools.com * 3p-frame noop
+www.w3schools.com * 3p-script noop
 www.walmart.com i5.wal.co * noop
 www.walmart.com i5.walmartimages.com * noop
 washingtoncitypaper.com cdn.ampproject.org * noop
 weather.com s.w-x.co * noop
 www.weespernieuws.nl pubblewebsites.cloudapp.net * noop
+www.welingelichtekringen.nl massariuscdn.com * noop
 wereldklokken.nl 24timezones.com * noop
 westerndigital.com static.sandisk.com * noop
 wetransfer.com prod-cdn.wetransfer.net * noop
@@ -1292,6 +1320,7 @@ wsj.com wsj.net * noop
 wstream.icu akvideo.stream * noop
 wstream.icu wstream.video * noop
 www.gov.uk assets.publishing.service.gov.uk * noop
+xgroovy.com ahacdn.me * noop
 www.xnxx.com xnxx-cdn.com * noop
 cams.xvideos.com vsmedia.s.llnwi.net * noop
 cams.xvideos.com cdn4.vscdns.com * noop
@@ -1302,6 +1331,8 @@ y8.com d.gcdn.co * noop
 y8.com htmlgames.com * noop
 y8.com id.net * noop
 y8.com www.lexaloffle.com * noop
+y8.com monsteraplay.com * noop
+y8.com mgp.pikoya.com * noop
 y8.com rsc.cdn77.org * noop
 y8.com wpc.upsiloncdn.net * noop
 y8.com cdn.wanted5games.com * noop
