@@ -4,7 +4,7 @@
     Dutch supplement for the Easylist filters to use with uBlock Origin
     Only for ads or anti-adblock on Dutch sites!
     Does also support Afrikaans, since it is a sort of Dutch
-! Last updated: Sat, 02 Sep 2023 04:55:54 +0000
+! Last updated: Fri, 08 Sep 2023 15:20:06 +0000
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/EasyDutch-uBO/EasyDutch
 ! GitHub issues: https://github.com/EasyDutch-uBO/EasyDutch/issues
@@ -101,6 +101,9 @@ _advertentieleaderboardhome.
 ! Description: Filters for blocking only general third-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-09-08
+! cryptobenelux.com
+||cryptobeneluxbanner.care^$3p
 ! 2023-04-27
 ! https://www.rd.nl/
 ||adverteren.rd.nl^$strict3p
@@ -227,6 +230,8 @@ _advertentieleaderboardhome.
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-09-08
+||cryptobenelux.com/wp-content/uploads/*/728x90.gif
 ! 2023-08-01
 ||riskcompliance.nl/wp-content/uploads/*/*banner.gif
 ||reformatorischeomroep.nl/*/*banner$image
@@ -934,8 +939,10 @@ _advertentieleaderboardhome.
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-09-08
+cryptobenelux.com##.clickout-banner-regular_native_box
 ! 2023-09-01
-security.nl##.banner_leaderboard
+security.nl##.banner_leaderboardcryptobenelux.com##.clickout-banner-regular_native_box
 sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
 ! 2023-08-29
 wibnet.nl##.default-banner-size
