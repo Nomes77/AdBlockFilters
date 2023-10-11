@@ -4,7 +4,7 @@
     Dutch supplement for the Easylist filters to use with uBlock Origin
     Only for ads or anti-adblock on Dutch sites!
     Does also support Afrikaans, since it is a sort of Dutch
-! Last updated: Fri, 06 Oct 2023 04:54:28 +0000
+! Last updated: Tue, 10 Oct 2023 18:55:29 +0000
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/EasyDutch-uBO/EasyDutch
 ! GitHub issues: https://github.com/EasyDutch-uBO/EasyDutch/issues
@@ -230,6 +230,8 @@ _advertentieleaderboardhome.
 ! Description: Filters to block specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-10-10
+||cdn.wegdamnieuws.nl/wp-content/uploads/*/*/Banner-*$image
 ! 2023-09-18
 ||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
 ! 2023-09-08
@@ -941,6 +943,11 @@ _advertentieleaderboardhome.
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-10-10
+webwoordenboek.nl##.layout__main-ads
+wielerflits.be,wielerflits.nl###mm_hpa
+wielerflits.be,wielerflits.nl##.advertisement
+wegdamnieuws.nl##.fixed-ad
 ! 2023-09-23
 gewoonvoorhem.nl##[id^="below-article-rectangle"]
 gewoonvoorhem.nl##[id$="ad-desktop"]
@@ -1235,7 +1242,6 @@ seksfilms.eu##[id^="custom_html-"]:has([src*="pt.pctlwm.com/embed/"])
 agraaf.nl##.partners-carousel
 barneveldsekrant.nl,destadamersfoort.nl,edestad.nl,scherpenzeelsekrant.nl##[id^="div-gpt-ad"]:upward(.component__plugin)
 barneveldsekrant.nl,destadamersfoort.nl,edestad.nl,scherpenzeelsekrant.nl##div.text-center[advobject]:upward(2)
-wielerflits.nl##.widget:has(.wf_headline:has-text(/Wielerdeals/i))
 ! 2023-03-09
 alarmeringen.nl##.ad
 ! 2023-02-28
@@ -1558,12 +1564,6 @@ noordkopcentraal.nl##.widgettitle:has-text(Advert)
 rtlboulevard.nl###dfp-billboard-wrapper
 streekstadcentraal.nl##[class$="-banners-wrapper"]
 techradar.com###article-body > aside.hawk-nest:has([class^="hawk-affiliate"])
-wielerflits.be,wielerflits.nl###mm_hpa
-wielerflits.be,wielerflits.nl##.affiliate_links
-wielerflits.be,wielerflits.nl##.list-group-item:has(span:has-text(Ad))
-wielerflits.be,wielerflits.nl##.mm_container
-wielerflits.be,wielerflits.nl##.row [class^="widget"]:has(.mm_container)
-wielerflits.be,wielerflits.nl##div[id*="mm_leaderboard"]
 ! 2022-06-21
 deoudrotterdammer.nl##[id^="deoud-"]
 ! 2022-06-16
