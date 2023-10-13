@@ -27,7 +27,7 @@ jobs:
       - name: Commit changes (if any)
         run: |
           if [[ -n $(git diff) ]]; then
-            git config user.name "BPower0036"
+            git config user.name "Nomes77"
             git config user.email "<>"
             git add -u EasyDutch/ EasyDutch.txt EasyDutch.all.txt
             git commit -m "Updated from @EasyDutch-uBO"
