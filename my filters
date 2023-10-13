@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/BPower0036/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 12-10-2023
+! Last updated: 13-10-2023
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -12,7 +12,6 @@ $removeparam=usqp
 $removeparam=/^(action_object_map|action_ref_map|action_type_map|guccounter|nx_source|_zucks_suid|cmpid|asgtbndr)=/
 $removeparam=/^(cmpid|_ga|__twitter_impression|cmpid|ga_|gs_l|os_ehash|tracking_source)=/
 $removeparam=/^(dpg_source|dpg_campaign|dpg_medium|dpg_content)=/
-$removeparam=/^(admitad_uid|adjust_adgroup|adjust_campaign|adjust_creative|adjust_tracker|adjust_tracker_limit|gps_adid|unicorn_click_id)=/
 $removeparam=/^(itm_campaign|itm_content|itm_medium|itm_source|itm_term)=/
 $removeparam=/^(_branch_match_id|_sgm_action|_sgm_campaign|_sgm_source|vc_lpp|rb_clickid|oly_anon_id|oly_enc_id|xtor)=/
 click_id=*_branch_referrer=$removeparam
@@ -46,8 +45,6 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 ||ebay.$removeparam=/^(amdata|cmpgn|crlp|device|epid|geo_id|hash|MT_ID)=/
 ||ebay.*/itm/$removeparam=LH_BIN
 ||etsy.com^$removeparam=/^(click_key|click_sum|frs|organic_search_click|plkey|pop|pro|share_time)=/
-||instagram.com^$removeparam=/^(ig_mid|ig_rid|igshid)=/
-||cdninstagram.com^$removeparam=/^(ccb|efg)=/
 ||library.etf.edu/cgi-bin/koha/opac-detail.pl?biblionumber=$removeparam=query_desc
 ||linkedin.com^$removeparam=/^(refId|trk)=/
 ||microsoft.com^$removeparam=/^(epi|irclickid|ocid|ranEAID|ranSiteID|tduid)=/
@@ -69,8 +66,8 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 @@/unsub/?$removeparam
 !--Anti Facebook
 ||facebook.com^$doc
+||instagram.com^$doc
 ||facebook.com^$3p,domain=~instagram.com
-@@||graph.facebook.com/*/instagram_oembed?url=https://www.instagram.com/*$xhr
 ||facebook.net^$3p,important
 ||fb.com^$3p,important
 ||fb.me^$3p,important
@@ -117,6 +114,12 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 .ru^$doc,frame,important,domain=~sci-hub.ru
 !--Other
 |http://*$3p,~image,~css,domain=~radioluisteren.fm|~radiozenders.fm
+facebook.com##+js(href-sanitizer, a[href^="https://l.facebook.com"][href*="?u=http"], ?u)
+github.com##+js(href-sanitizer, a[href^="https://adguardteam.github.io/AnonymousRedirect/redirect.html?url=", ?url)
+instagram.com##+js(href-sanitizer, a[href^="https://l.instagram.com/?u="], ?u)
+microsoft.com##+js(href-sanitizer, a[href*=".safelinks.protection.outlook.com/?url="], ?url)
+mozilla.org##+js(href-sanitizer, a[href*="outgoing.prod."][title], [title])
+youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?"])
 
 !ADVERTISMENTS
 ||naturalnews.com^$script,badfilter
@@ -160,8 +163,6 @@ github.com##.dashboard-changelog
 github.com##.dashboard-sidebar > .overflow-y-auto:style(scrollbar-width: thin !important;)
 chamilo.etf.edu#?#.classic-courses > .panel:has(.course-items-title:has-text(/Logos|Mentoring|Pastoraat|Spirituality|Studentenraad/))
 chamilo.etf.edu##+js(ra, target, [href^="/"])
-library.etf.edu#?#.attention-note:has-text(COVID Update)
-library.etf.edu##.main-menu [href$="covid19"]
 openstreetmap.org#?#.visible.welcome:has-text(Welcome to OpenStreetMap)
 pinterest.*##div[data-test-id="giftWrap"]
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
@@ -178,14 +179,13 @@ threader.app#?#.annotation-details:has-text(COVID)
 ||maps.gstatic.com/tactile/promo/covidinfo/$image
 google.com#?#[style^="background-image:url(//maps.gstatic.com/tactile/promo/covidinfo/covid19-promo.png)"]:upward(3)
 drive.google.com##.grecaptcha-badge:has([src^="https://www.google.com/recaptcha/api2/anchor?"])
-mail.google.com#?#td:has-text(e-mail):upward(9):style(scrollbar-width: none !important;)
 mail.google.com##+js(ra, data-saferedirecturl, a[href][data-saferedirecturl], stay)
 news.google.com##[jsdata*="covid-banner"]
 news.google.com##[jsaction][aria-label="COVID-19"], [jsaction][aria-label="COVID-19"] + [class]
 news.google.com#?#h2:has-text(Fact check):upward(section)
 translate.goog##+js(aeld, /contextmenu|keyup|keydown/)
 translate.google.com#?#[href^="https://www.google.com/search"]:has-text(/Corona|COVID/i):upward(3)
-google.com,~mail.google.com##a[href^="https://accounts.google.com/SignOutOptions"]:upward(2)
+google.com,~mail.google.com,~myaccount.google.com##a[href^="https://accounts.google.com/SignOutOptions"]:upward(2)
 music.youtube.com##ytmusic-mealbar-promo-renderer
 music.youtube.com##h2 a[href="mixed_for_you"]:upward(ytmusic-carousel-shelf-renderer)
 music.youtube.com##h2 a[href="moods_and_genres"]:upward(ytmusic-carousel-shelf-renderer)
@@ -237,7 +237,6 @@ www.youtube.com###page-manager:style(scrollbar-width: none !important;)
 www.youtube.com###playlist div#items.playlist-items:style(scrollbar-width: thin !important;)
 www.youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-compact-promoted-item-renderer.style-scope
-youtube.com##+js(href-sanitizer, a[href^="https://www.youtube.com/redirect?"])
 y.com.sb,invidious.privacydev.net,yewtu.be,invidious.baczek.me###player .vjs-icon-share.vjs-share-control
 y.com.sb,invidious.privacydev.net,yewtu.be,invidious.baczek.me###player .vjs-remaining-time
 y.com.sb,invidious.privacydev.net,yewtu.be,invidious.baczek.me###contents #playlist > .playlist-restricted:style(height: 560px !important;)
@@ -674,14 +673,15 @@ edestad.nl#?#[title^="Deel"]:upward(5)
 ||cloudfront.net/assets/frontier/cookieModal$script,domain=www.praxis.nl
 ||consent.trustarc.com^$3p
 ||cdn.cookielaw.org^$3p,script,frame,domain=~rtlnieuws.nl|~rtlxl.nl|~vkmag.com
+||cdn.cookielaw.org^$3p,script,redirect-rule=noop.js
 ||geolocation.onetrust.com/cookieconsentpub/*$xhr,domain=cloudflare.com
 ||myprivacy.dpgmedia.net^$3p,script,frame,domain=~vtm.be
 ||myprivacy-static.dpgmedia.net^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~ad.nl|~autoweek.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~vtmgo.be|~pzc.nl
-||privacy-mgmt.com^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~cmp.dpgmedia.*|~ad.nl|~autoweek.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~vtmgo.be|~pzc.nl
+||privacy-mgmt.com^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~cmp.dpgmedia.*|~ad.nl|~autoweek.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~vrt.be|~vtmgo.be|~pzc.nl
 ||privacymanager.io^$3p,script,frame,domain=~geenstijl.nl|~omroepwest.nl|~racingnews365.nl|~top40.nl|~verkeerplaza.nl
 ||quantcast.mgr.consensu.org^$3p,script,frame,domain=~www.vi.nl
 ||redditstatic.com/shreddit/*/reddit-cookie-banner-*.js$script,domain=www.reddit.com
-||sdk.privacy-center.org^$3p,script,frame,domain=~goplay.be|~metronieuws.nl|~telegraaf.nl
+||sdk.privacy-center.org^$3p,script,frame,domain=~goplay.be|~metronieuws.nl|~nieuwsblad.be|~telegraaf.nl
 @@||privacymanager.io^$3p,shide,domain=geenstijl.nl|omroepwest.nl|racingnews365.nl
 ###cmplz-cookiebanner-container
 ###cookie:not(html, body)
