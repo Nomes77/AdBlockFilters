@@ -4,7 +4,7 @@
     Dutch supplement for the Easylist filters to use with uBlock Origin
     Only for ads or anti-adblock on Dutch sites!
     Does also support Afrikaans, since it is a sort of Dutch
-! Last updated: Tue, 10 Oct 2023 18:55:29 +0000
+! Last updated: Fri, 13 Oct 2023 18:20:43 +0000
 ! Expires: 3 days (update frequency)
 ! Homepage: https://github.com/EasyDutch-uBO/EasyDutch
 ! GitHub issues: https://github.com/EasyDutch-uBO/EasyDutch/issues
@@ -101,6 +101,10 @@ _advertentieleaderboardhome.
 ! Description: Filters for blocking only general third-party servers on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-10-13
+||7mb.nl^$3p
+||mmcdn.nl^$3p
+||pornokartel.nl^$3p
 ! 2023-09-08
 ! cryptobenelux.com
 ||cryptobeneluxbanner.care^$3p
@@ -819,6 +823,8 @@ _advertentieleaderboardhome.
 ! Description: Whitelist for specific URLs on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-10-13
+@@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
 ! 2023-08-01
 @@||cijfers.spikker.nl/js/plausible.js$script,domain=visserijnieuws.nl
 ! 2023-05-13
@@ -943,6 +949,10 @@ _advertentieleaderboardhome.
 ! Description: Filters for hiding elements on specific Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-10-13
+citaten.net##.adsense
+citaten.net##.googleinpage
+nieuwsblad.be##.ad--cba[data-ad="cba"]:upward(.widget):has-text(partners)
 ! 2023-10-10
 webwoordenboek.nl##.layout__main-ads
 wielerflits.be,wielerflits.nl###mm_hpa
@@ -960,7 +970,7 @@ ecobioliving.eu##.ezoic-adpicker-ad:upward(section[id^="custom_html"])
 ! 2023-09-08
 cryptobenelux.com##.clickout-banner-regular_native_box
 ! 2023-09-01
-security.nl##.banner_leaderboardcryptobenelux.com##.clickout-banner-regular_native_box
+security.nl##.banner_leaderboard
 sportinnederland.com##.menu-item > [href="https://www.onlinecasinos-nederland.nl/"]
 ! 2023-08-29
 wibnet.nl##.default-banner-size
@@ -2391,6 +2401,8 @@ surfplaza.be##td.di1:has(img[src$="/yourad.gif"])
 ! Description: Whitelist for hidden elements on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-10-13
+gratisaftehalen.nl#@#.ads-image
 ! 2023-05-04
 rotterdam-nesselande.nl#@#ins.adsbygoogle
 ! 2023-05-03
@@ -2446,6 +2458,23 @@ klusidee.nl#@#.header-ad
 ! Description: Filters for anti-adblock on Dutch websites
 ! Last updated: %timestamp%
 !
+! 2023-10-13
+dumpert.nl##+js(nostif, AdBlockerCheck)
+! dumpert.nl##+js(nostif, adBlockChecker)
+dumpert.nl#@#.ads_box
+! 2023-10-13 https://github.com/easylist/easylistdutch/issues/47
+! meerdangewenst.nl##.sponsoren:upward(1)
+! meerdangewenst.nl##+js(aopw, gtag)
+meerdangewenst.nl##.sponsoren:upward(1):style(visibility: collapse !important; position: fixed;)
+! 2023-10-13
+! https://github.com/AdguardTeam/AdguardFilters/issues/59606
+! https://github.com/uBlockOrigin/uAssets/issues/11691
+! https://github.com/uBlockOrigin/uAssets/issues/8984
+! https://github.com/NanoMeow/QuickReports/issues/1285
+@@||ah.nl^$ghide
+radiowereld.nl##+js(nosiif, adb)
+icttipsandtricks.nl##+js(aost, String.prototype.charCodeAt, ai_)
+gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 ! 2023-10-06 https://github.com/AdguardTeam/AdguardFilters/issues/163031
 looopings.nl##+js(remove-node-text, script, if(!document.getElementById)
 ! 2023-08-21 https://github.com/uBlockOrigin/uAssets/issues/19295
@@ -2477,7 +2506,7 @@ tweakers.net###true
 ! 2023-06-12
 aimsolutions.nl##+js(noeval-if, adsBlocked)
 ! 2023-06-10 https://github.com/uBlockOrigin/uAssets/issues/16839
-112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijsel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl##+js(noeval-if, /chp_?ad/)
+112amersfoort.nl,112amsterdam.nl,112apeldoorn.nl,112arnhem.nl,112assen.nl,112barneveld.nl,112bunschoten.nl,112doetinchem.nl,112drenthe.nl,112ede.nl,112eindhoven.nl,112emmen.nl,112flevoland.nl,112harderwijk.nl,112hilversum.nl,112inbeeld.nl,112lelystad.nl,112meppel.nl,112nijkerk.nl,112overijsel.nl,112ridderkerk.nl,112rotterdam.nl,112scherpenzeel.nl,112schiedam.nl,112vallei.nl,112vechtdal.nl,112veenendaal.nl,112wageningen.nl,112zeewolde.nl,112zwolle.nl,vrides.nl##+js(noeval-if, /chp_?ad/)
 ! 2023-06-09
 ! https://github.com/uBlockOrigin/uAssets/issues/18432
 ! https://github.com/uBlockOrigin/uAssets/issues/18013
@@ -2525,13 +2554,8 @@ notebookcheck.nl##+js(acis, document.getElementById, AAdsspaCe)
 @@&ad$xhr,domain=kijk.nl
 @@||ads-talpa.adhese.com/json/$xhr,domain=kijk.nl
 *$image,domain=kijk.nl,redirect-rule=1x1.gif
-! 2022-04-16 https://github.com/easylist/easylistdutch/issues/47
-meerdangewenst.nl##[class*="footer-section"] > *:style(display: none !important;)
 ! 2022-01-29
 autoweek.nl##+js(set, isAdBlockActive, false)
-! 2021-10-29
-dumpert.nl##+js(setTimeout-defuser, AdBlockerCheck)
-dumpert.nl#@#.ads_box
 ! 2021-08-09
 doorbraak.be,gowiththevlo.nl##+js(aopw, advanced_ads_check_adblocker)
 ! 2021-08-07
@@ -2548,37 +2572,4 @@ nu.nl##+js(set, isAdBlockEnabled, false)
 ! 2021-04-27
 directwonen.nl#@#.adsbox
 girlscene.nl##+js(set, adblock, 0)
-
-
-! *** EasyDutch:EasyDutch/No_uBlock_Filters.txt ***
-! Title: No uBO Filters
-! Description: Filters for Dutch websites in case you don't use the uBlock Filters, but AdGuard Base
-! Last updated: %timestamp%
-!
-! uBlock Filters
-||7mb.nl^$3p
-||mmcdn.nl^$3p
-||pornokartel.nl^$3p
-||googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=spel.nl
-gratisaftehalen.nl##+js(acis, fuckAdBlock, undefined)
-icttipsandtricks.nl##+js(acis, String.prototype.charCodeAt, ai_)
-radiowereld.nl##+js(nosiif, adb)
-@@||ah.nl^$ghide
-@@||cdn.vuplay.co.uk/*/comscore.$script,domain=vrt.be|sporza.be
-@@||rambla.be/players/video-js/video-js-plugins/videojs.ads.min.js$script,1p
-@@||whiskyprijzen.*^$ghide
-@@||whiskyprix.*^$ghide
-whiskyprijzen.be,whiskyprijzen.nl,whiskyprix.be##.blocker
-girlscene.nl##.ad-container
-! uBlock Filters - Unbreak
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=dagelijksekost.een.be
-@@||shared.mediahuis.be/ka-ching/prebid.js$script,domain=dagelijksekost.een.be
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=dagelijksekost.een.be
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=dagelijksekost.een.be
-@@||assets.adobedtm.com/*-source.min.js$script,domain=dagelijksekost.een.be
-!#if env_firefox
-@@||markup.nieuwsblad.be/extra/assets/advertising/prebid.js$script,1p
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=nieuwsblad.be
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=nieuwsblad.be
-!#endif
 
