@@ -6,7 +6,7 @@ body:
     attributes:
       label: Prerequisites / Vereisten
       options:
-        - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue / Geen **duplicaten**!!
+        - label: I performed a [cursory search of the issue tracker](https://github.com/Nomes77/AdBlockFilters/issues) to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
 
   - type: textarea
