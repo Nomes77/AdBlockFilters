@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: EasyDutch Issues
+    url: https://github.com/EasyDutch-uBO/EasyDutch/issues
+    about: Report issues concerning EasyDutch in the EasyDutch issue tracker.
