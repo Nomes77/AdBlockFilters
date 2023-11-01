@@ -3,7 +3,7 @@
  > Not following this will result in invalid Pull Requests.
 ### Prerequisites *
 <!-- Check the appropriate boxes before you submit your issue -->
-- [ ] I performed a [cursory search of the issue tracker](https://github.com/BPower/AdBlockFilters/issues) to avoid opening a duplicate issue / Geen **duplicaten**!!
+- [ ] I performed a [cursory search of the issue tracker](https://github.com/Nomes77/AdBlockFilters/issues) to avoid opening a duplicate issue / Geen **duplicaten**!!
 - [ ] Filters were [updated](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists#purge-all-caches) before reproducing an issue / Filterlijsten zijn [geüpdated](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists#update-now) voordat dit probleem werd gereproduceerd
 - [ ] I have updated my browser to the most recent version / Ik heb mijn browser geüpdated naar de meest recente verie
 - [ ] I tried to reproduce the issue when...
