@@ -1,6 +1,6 @@
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Tue, 31 Oct 2023 05:56:14 +0000
+! Last updated: Thu, 02 Nov 2023 14:32:09 +0000
 !
 ! 2023-10-17
 ! bitcoinmagazine.nl, cryptobenelux.com
@@ -63,7 +63,6 @@
 ! https://github.com/easylist/easylistdutch/commit/1dcc8ccbf4b1d5afeebdccbe224b332c99546b63
 ! routenet.nl
 ||botndm.nl^$3p
-||nextday.media^$3p
 ! 2021-08-09
 ||chainadvertising.eu^$3p
 ! 2021-07-28
@@ -82,7 +81,7 @@
 ||asp.unitedconsumers.com^$3p
 ||awin.com^$3p
 ||bva-auctions.com^$domain=telegraaf.nl
-||cashpartners.eu^$3p,domain=~extreemonlinecontact.nl|~extremesexmatch.nl|~instasex.nl
+||cashpartners.eu^$3p,domain=~extreemonlinecontact.nl|~instasex.nl
 ||cd.tnet.nl^$script,3p
 ||cleafs.nl^$3p
 ||conversive.nl^$3p
