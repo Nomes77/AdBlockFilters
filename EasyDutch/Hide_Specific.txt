@@ -1,7 +1,14 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 17 Nov 2023 05:54:24 +0000
+! Last updated: Fri, 24 Nov 2023 11:20:16 +0000
 !
+! 2023-11-24
+dagelijksestandaard.nl##div[id*="_ROS_"]:upward(.raw-html-component)
+dagelijksestandaard.nl##div[id*="-ros-"]:upward(.raw-html-component)
+doorbraak.be##a[href^="https://vnz.be"]:upward(div)
+! 2023-11-20
+nl.radio.net###headerTopBar ~ div:has(div#RAD_D_station_top)
+goudengids.be##.banner-boxes-holder
 ! 2023-11-13 https://github.com/uBlockOrigin/uAssets/issues/20659
 npo.nl,vpro.nl##.bitmovinplayer-poster
 ! 2023-11-09
@@ -737,9 +744,6 @@ voetbalnieuws.be##.banner
 ! 2022-04-22
 anoniem-surfen.nl##.footer-widget-1
 anoniem-surfen.nl##.header-widget-region
-! 2022-04-21
-dagelijksestandaard.nl###TOP_ARTICLE
-dagelijksestandaard.nl##nav + div[style^="height:52px"]
 ! 2022-04-19
 skoften.net##.promoted-entry-in-content
 ! 2022-04-15
@@ -924,7 +928,6 @@ appletips.nl###singleab
 petitie24.nl###tekstpetitie > :has-text(advert)
 petitie24.nl###tekstpetitie > :has-text(advert) + div
 online-radio.nl###top_ad-360
-doorbraak.be###top-advertisement-area
 eredivisie.ws,f1-gp.nl,formule1.ws,formule1-race.nl,gaming-nieuws.nl,gazetvandaag.be,giganieuws.nl,grandprix.ws,hotstreams.nl,jupilerproleague.eu,krantvandaag.nl,nieuwsgigant.nl,recepten-vandaag.nl,voetbal-vandaag.nl###topbox
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners

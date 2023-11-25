@@ -1,7 +1,7 @@
 ! Title: EasyDutch
-! Last updated: Fri, 17 Nov 2023 05:54:24 +0000
+! Last updated: Fri, 24 Nov 2023 11:20:16 +0000
 ! Expires: 7 days (update frequency)
-! Diff-Path: patches/2023.11.17.354.patch#easydutch
+! Diff-Path: patches/2023.11.24.680.patch#easydutch
 ! Diff-Name: easydutch
 ! Diff-Expires: 6 hours
 ! Description: |
@@ -150,6 +150,12 @@ _advertentieleaderboardhome.
 ||vpscash.nl^$3p
 ||xpartners.nl^$3p
 ! *** EasyDutch:EasyDutch/Block_Resources.txt ***
+||doorbraak.be/wp-json/api/*/ads$xhr
+||grootnieuwsradio.nl/advertisements$xhr
+||grootnieuwsradio.nl/cache/*/advertisements/$image
+||reformatorischeomroep.nl/*/*banner$image
+||reformatorischeomroep.nl/*Reformatorische-omroep.gif$image
+||reformatorischeomroep.nl/*/*-RO-*.gif$image
 ||akamaized.net^$media,domain=npo.nl|vpro.nl,redirect=noopmp3-0.1s
 npo.nl,vpro.nl##+js(json-prune, assets.preroll)
 ||rubenweytjens.be/sites/default/*/ads_$image
@@ -198,8 +204,6 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ||ecobioliving.eu/*bol.com/nl/upload/partnerprogramma/$image
 ||cryptobenelux.com/wp-content/uploads/*/728x90.gif
 ||riskcompliance.nl/wp-content/uploads/*/*banner.gif
-||reformatorischeomroep.nl/*/*banner$image
-||reformatorischeomroep.nl/*Reformatorische-omroep.gif$image
 ||villamedia.nl/images/banners/
 ||autonieuws.be/templates/yootheme/cache/*/1MG_Banni%C3%A8re_Autonieuws_V1-*$image
 ||autonieuws.be/templates/yootheme/cache/*/325_x_325_NL-*$image
@@ -663,6 +667,11 @@ omroepalmere.nl/wp-content/uploads/*/vacature-noordpool$image,domain=omroepalmer
 ##.video-block-happy
 ###tracking-url
 ! *** EasyDutch:EasyDutch/Hide_Specific.txt ***
+dagelijksestandaard.nl##div[id*="_ROS_"]:upward(.raw-html-component)
+dagelijksestandaard.nl##div[id*="-ros-"]:upward(.raw-html-component)
+doorbraak.be##a[href^="https://vnz.be"]:upward(div)
+nl.radio.net###headerTopBar ~ div:has(div#RAD_D_station_top)
+goudengids.be##.banner-boxes-holder
 npo.nl,vpro.nl##.bitmovinplayer-poster
 abcsuriname.com##.banner_wrapper
 dwtonline.com##[id^="div-gpt-ad"]:upward(.elementor-column):not(:has(article))
@@ -1271,8 +1280,6 @@ voetbalnieuws.be##[id$="takeover"]
 voetbalnieuws.be##.banner
 anoniem-surfen.nl##.footer-widget-1
 anoniem-surfen.nl##.header-widget-region
-dagelijksestandaard.nl###TOP_ARTICLE
-dagelijksestandaard.nl##nav + div[style^="height:52px"]
 skoften.net##.promoted-entry-in-content
 kieskeurig.nl##div[id*="gpt-ad"]
 finance.nl##div[style^="width:300px; height:250px;"]:has([id*="google"])
@@ -1430,7 +1437,6 @@ appletips.nl###singleab
 petitie24.nl###tekstpetitie > :has-text(advert)
 petitie24.nl###tekstpetitie > :has-text(advert) + div
 online-radio.nl###top_ad-360
-doorbraak.be###top-advertisement-area
 eredivisie.ws,f1-gp.nl,formule1.ws,formule1-race.nl,gaming-nieuws.nl,gazetvandaag.be,giganieuws.nl,grandprix.ws,hotstreams.nl,jupilerproleague.eu,krantvandaag.nl,nieuwsgigant.nl,recepten-vandaag.nl,voetbal-vandaag.nl###topbox
 starnieuws.com###topstory > div:has-text(Advertentie)
 hotradiohits.nl###tpl_banners
@@ -1907,7 +1913,6 @@ dumpert.nl#@#.ads_box
 meerdangewenst.nl##.sponsoren:upward(1):style(visibility: collapse !important; position: fixed;)
 @@||ah.nl^$ghide
 radiowereld.nl##+js(nosiif, adb)
-icttipsandtricks.nl##+js(aost, String.prototype.charCodeAt, ai_)
 gratisaftehalen.nl##+js(acs, fuckAdBlock, undefined)
 looopings.nl##+js(remove-node-text, script, if(!document.getElementById)
 @@||v.fwmrm.net/ad/$xhr,domain=vtmgo.be
