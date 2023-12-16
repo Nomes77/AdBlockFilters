@@ -3,7 +3,7 @@
 ! Description: Personal filter list (My filters)
 ! Homepage: https://github.com/Nomes77/AdBlockFilters/
 ! Expires: 7 days
-! Last updated: 09-12-2023
+! Last updated: 16-12-2023
 !
 !PRIVACY
 !--Remove Parameters from urls ($queryprune or $removeparam)
@@ -72,7 +72,7 @@ $removeparam=/^source/,domain=googleusercontent.com|rumble.com
 ||fb.com^$3p,important
 ||fb.me^$3p,important
 ||fbcdn.com^$3p,important
-||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com|~fbsbx.com
+||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com|~scontent.cdninstagram.com|~fbsbx.com
 ||fbcdn-*-a.akamaihd.net^$important
 ||fbsbx.com^$3p,important,domain=~instagram.com
 ||fburl.com^$3p,important
@@ -136,8 +136,9 @@ imginn.com##.block-sulvo
 /wp-content/plugins/append-link-on-copy/*$script,1p
 /wp-content/plugins/better-content-protector/*$script
 /wp-content/plugins/christmasify/*
-*/wp-content/plugins/content-copy-protection-disable-right-click/$script
+/wp-content/plugins/content-copy-protection-disable-right-click/*$script
 /wp-content/plugins/content-protector-pack/*
+/wp-content/plugins/disabled-source-disabled-right-click-and-content-protection/*$script,css,1p
 /wp-content/plugins/image-watermark/*$script
 /wp-content/plugins/rcd-right-click-disabler/*$script,1p
 /wp-content/plugins/secure-copy-content-protection/*$script
@@ -145,7 +146,7 @@ imginn.com##.block-sulvo
 /wp-content/plugins/smio-push-notification
 /wp-content/plugins/t42-content-protector/js/protector.min.js$script
 /wp-content/plugins/ungrabber/js/*$script
-*/wp-content/plugins/uncopy/
+/wp-content/plugins/uncopy/*
 /wp-content/plugins/wccp-pro/*$script,xhr,css
 /wp-content/plugins/wp-content-copy-protection/*
 /wp-content/plugins/wp-extra/js/copy.min.js$script
@@ -167,12 +168,18 @@ github.com##.dashboard-changelog
 github.com##.dashboard-sidebar > .overflow-y-auto:style(scrollbar-width: thin !important;)
 github.com###read-only-cursor-text-area:style(overflow-x:hidden !important;)
 openstreetmap.org#?#.visible.welcome:has-text(Welcome to OpenStreetMap)
-pinterest.*##div[data-test-id="giftWrap"]
+pinterest.*##[data-test-giftwrap]
+pinterest.*###desktopWrapper:style(position: static !important;)
 pinterest.*##.gridCentered:style(margin-top: auto !important;)
 pinterest.*##body:style(overflow-y: scroll !important;)
+pinterest.*##div[data-test-id="giftWrap"]
+pinterest.*##div[class="Closeup__wrapper"] > div > div[style^="cursor: default"]
+pinterest.*##div[class="GrowthUnauthPinImage__imageDim"]
 pinterest.*##div[style^="filter:"]:style(filter: none !important)
-pinterest.*##header[data-test-id=unauthHeader] ~ div[data-test-id=fullPageSignupModal]
+pinterest.*##.GrowthUnauthPinImage > a > div[class^="Jea"]:has(button[class^="noButtonStyles "])
+pinterest.*##.Hsu.iyn.zI7:nth-of-type(2) > div > .FullPageModal__scroller
 pinterest.*##div[data-test-id=pin-closeup-image] > div[role=button] > div:not([class]) ~ div
+pinterest.*##header[data-test-id=unauthHeader] ~ div[data-test-id=fullPageSignupModal]
 pinterest.*##+js(aeld, /^(?:contextmenu|mouseout|mouseover)$/)
 quora.com##.qu-zIndex--blocking_wall:upward(.q-box)
 quora.com###root > div.q-box > div.q-box > div.q-box:style(filter:none !important;)
@@ -475,8 +482,10 @@ logos.com##.entry-share
 /cookie_banner.js$script
 /cookieconsent.min.js$script
 /gdpr.js$script,1p
-*/wp-content/plugins/gdpr-cookie-compliance/$script,1p
-||cdn.cookielaw.org^$3p,script,frame,domain=~rtlnieuws.nl|~rtlxl.nl|~vkmag.com
+/wp-content/plugins/cookie-law-info$script,1p
+/wp-content/plugins/cookie-notice/js/*$script,1p
+/wp-content/plugins/gdpr-cookie-compliance/*$script,1p
+||cdn.cookielaw.org^$3p,script,frame,domain=~rtlnieuws.nl|~vkmag.com
 ||cdn.cookielaw.org^$script,redirect-rule=noop.js
 ||cmp.quantcast.com^$3p,script,frame,domain=~vkmag.com
 ||cloudfront.net/assets/frontier/cookieModal$script,domain=www.praxis.nl
@@ -485,8 +494,8 @@ logos.com##.entry-share
 ||cookies.*.*/*.js$script,1p
 ||geolocation.onetrust.com/cookieconsentpub/*$xhr,domain=cloudflare.com
 ||myprivacy.dpgmedia.net^$3p,script,frame,domain=~vtm.be
-||myprivacy-static.dpgmedia.net^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~ad.nl|~autoweek.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~vtmgo.be|~pzc.nl
-||privacy-mgmt.com^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~cmp.dpgmedia.*|~ad.nl|~autoweek.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~tubantia.nl|~vrt.be|~vtmgo.be|~pzc.nl
+||myprivacy-static.dpgmedia.net^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~ad.nl|~autoweek.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~trouw.nl|~tubantia.nl|~vtmgo.be|~pzc.nl
+||privacy-mgmt.com^$3p,script,frame,domain=~myprivacy.dpgmedia.*|~cmp.dpgmedia.*|~ad.nl|~autoweek.nl|~bd.nl|~bndestem.nl|~destentor.nl|~ed.nl|~gelderlander.nl|~hln.be|~nu.nl|~trouw.nl|~tubantia.nl|~vrt.be|~vtmgo.be|~pzc.nl
 ||privacymanager.io^$3p,script,frame,domain=~top40.nl|~verkeerplaza.nl
 ||quantcast.mgr.consensu.org^$3p,script,frame,domain=~www.vi.nl
 ||redditstatic.com/shreddit/*/reddit-cookie-banner-*.js$script,domain=www.reddit.com
@@ -499,13 +508,15 @@ logos.com##.entry-share
 *###cookie-notice
 *###cookie-notification
 *###cookies:not(html, body)
-*,~gva.be,~telegraaf.nl###didomi-host
+*,~gva.be###didomi-host
 *###gdpr:not(html, body)
 *,~games.cdn.famobi.com###onetrust-banner-sdk
+*###onetrust-consent-sdk
 *##.cc_banner-wrapper
 *##.cc-window
 *##.cli-modal-backdrop
 *##.cookie:not(html, body)
+*##.cookie-banner:not(html, body)
 *##.cookies:not(html, body)
 *##.cookiemessagebackground
 *##.fancybox-overlay
@@ -513,11 +524,7 @@ logos.com##.entry-share
 *,~privacymanager.io#?#.modal:has-text(cookie)
 *##.modal-backdrop
 *##div[id^="sp_message_container_"]
-! *,~myprivacy.dpgmedia.*,~ad.nl,~autoweek.nl,~bd.nl,~bndestem.nl,~destentor.nl,~ed.nl,~gelderlander.nl,~hln.be,~nu.nl,~tubantia.nl,~pzc.nl##div[id^="sp_message_container_"]
-mediamarkt.*###loading
-mediamarkt.*###mms-consent-portal-container
-bol.com###modalWindow
-amazon.*###sp-cc
+! *##div[class*="consent-container"]
 puzzleyou.*,fotopuzzle.*,fotondo.*,photopuzzle.ie,monpuzzlephoto.fr,myphotopuzzle.ch,mifotopuzzle.es##.cookie-policy-widget
 anwb.nl##.critical-dialog
 advalvas.vu.nl,foranewworld.info,leuven.be,nnieuws.be,thuisarts.nl##.eu-cookie-compliance-banner
@@ -526,37 +533,72 @@ pdfforge.org##.gdpr-cookieconsent-overlay
 pdfforge.org##.gdpr-cookieconsent-settings
 costautoricambi.com,digabrielericambi.it,pevgrow.com,pivo-ressel.si,kripa.it,complex-apicol.ro##.gdprModal
 askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.js-consent-banner
-coolblue.be##.modal-box
-bol.com##.modal--is-open:not(.modal--is-open-small) .main:style(position: unset !important; width: unset !important; filter: none !important;)
-bol.com##.modal--is-open:style(overflow-y: unset !important;)
-hardware.info##.oreo
 chamilo.etf.edu##.toolbar-cookie
 deblueskrant.nl##.widget_eu_cookie_law_widget
 vlaanderen.be##.wp-pt-cookie-consent
-mediamarkt.*##[aria-label*=" cookies "]:upward(1)
 beterrekenen.nl,nieuwsuitdelden.nl,oostnl.nl,vraagzin.nl##[class^="cc_banner"]:not(html, body)
 airfrance.*,bmuonline.nl,duurzaamnieuws.nl,loemedia.nl##[id^="gdpr"]
-abconcerts.be,adidas.*,bbc.com,bijbel-statenvertaling.com,calvinklein.*,catawiki.com,coolblue.nl,endgamegear.*,energiewonen.nl,eobuv.*,erotracks.nl,escarpe.*,groningsnieuws.nl,hetwkz.nl,joingoodcompany.nl,kerknet.be,kinky.nl,kyoceradocumentsolutions.*,lego.com,marktplaats.nl,medicalnewstoday.com,mediamarkt.*,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,secretcircle.com,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,petities.com,umcutrecht.nl,vanharen.nl,xxlnutrition.com,zwic.nl##body:style(overflow: auto !important;)
+abconcerts.be,adidas.*,bbc.com,bijbel-statenvertaling.com,calvinklein.*,catawiki.com,endgamegear.*,energiewonen.nl,eobuv.*,erotracks.nl,escarpe.*,groningsnieuws.nl,hetwkz.nl,joingoodcompany.nl,kerknet.be,kinky.nl,kyoceradocumentsolutions.*,lego.com,marktplaats.nl,medicalnewstoday.com,mediamarkt.*,puzzleyou.be,rocrivor.nl,schuurman-schoenen.nl,secretcircle.com,smartphonehoesjes.nl,snp.nl,t-mobile.*,tele2.nl,petities.com,umcutrecht.nl,vanharen.nl,xxlnutrition.com,zwic.nl##body:style(overflow: auto !important;)
 refurbed.nl##body.overflow-hidden:style(overflow-y: auto !important;)
-reddit.com##div > div > section:has(a[href="https://www.reddit.com/policies/cookies"])
 okdiario.com,afnor-rus.ru,icsms.ru,naszemiasto.pl,lavanguardia.com,mundodeportivo.com##div[class^="didomi-consent-popup_"]
 automobielmanagement.nl,bing.com,d66.nl,interfriendship.*,kvk.nl,openreach.com,paypal.com,pcwebplus.nl,petitie24.nl,pvcvoordeel.nl,tmleuven.be##html:style(overflow: auto !important)
 kieskeurig.nl##html:style(overflow: auto !important; position: initial !important;)
 umcutrecht.nl##main:style(filter: none !important)
-www.reddit.com##reddit-cookie-banner
-vtmgo.be##+js(rc, sp-message-open, html, stay)
 
 ! Set cookies or click element for cookies
-hema.nl##+js(trusted-set-cookie, cookies_rejected, 1)
-myprivacy.dpgmedia.*##+js(trusted-set-cookie, euconsent-v2, CPv4B0APv4B0AAGABCENDPCoAPLAAAAAAAIgIzNF1DoUBQFCMXJ6SJswWIQX5kAAIiASAAYBAyABhBoAIAQCkEASFATAAAACAAAAIAIAIABAGAAAAAAQQAAAAAGASAAAgAIIICAAgAIBSAAIAAAAAAAAAAAAgAACAAAAkAAAAAIgWEgAFAAAAAAAIAgAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAWEgPAAIAAWABUADIAHgAQAAyABoAEQAJgATwArgBvADmAH4AQkAiACJAFKANUAd4A_QCOAEmAJSATsBbIC8wGSAMnAZ8EABgAOAR6AyYNADACuAtkBnwYACAdQRAFAB8AFcAnYC2QGfDoE4ACwAKgAZABAADIAGgAPgAiQBMAE0AJ4AVwAxABmADeAHMAP0AiACJAFKAMoAaIA7wB-gEWAI4ASYAlIBLgCcAE7AOcAdQBF4CZAFsgLzAZIAycBlgDPhwAsABAADgALgA5AHQAO4AhABEQEegJiAZMSgIAAIAAWABkAIkATABNACuAGKARABEgDVAHeARwA6gCLwF5gMnAZ8SACAAXAByAO4BHpSA8AAsACoAGQAQAA0AB8AESAJgAmgBPACuAGIAMwAcwA_QCIAIkAUoAygBogDVAHeAP0AiwBHACUgIvAXmAyQBk4DLAGfFAA4AFwAcgDuALqAj0BMQDJgAAA.YAAAAAAAAAAA, 1year, , reload, 1)
-youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1)
+amazon.*###sp-cc
+amazon.co.uk,amazon.com.be,amazon.com.tr,amazon.de,amazon.es,amazon.fr,amazon.it,amazon.nl,amazon.pl##+js(trusted-click-element, '#sp-cc #sp-cc-rejectall-link[role="button"]', , 4000)
+appletips.nl##+js(trusted-click-element, #agree_with_cookie_terms)
+bol.com###modalWindow[data-type="cookie-modal"]
+bol.com###modalWindow[data-type="cookie-modal"]:upward(.modal--is-open) .main:style(position: unset !important; width: unset !important; filter: none !important;)
+bol.com##.modal--is-open:style(overflow-y: unset !important;)
+bol.com##+js(trusted-click-element, '#modalWindow[data-type="cookie-modal"][open] button#js-reject-all-button', , 2000)
+ad.nl,autoweek.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,nu.nl,trouw.nl,tubantia.nl,vrt.be,pzc.nl##+js(rc, sp-message-open, html, stay)
+! cmp.dpgmedia.nl,cmp.dpgmedia.be,cmp.ad.nl,cmp.autoweek.nl,cmp.bd.nl,cmp.bndestem.nl,cmp.destentor.nl,cmp.ed.nl,cmp.gelderlander.nl,cmp.hln.be,cmp.nu.nl,cmp.trouw.nl,cmp.tubantia.nl,cmp.pzc.nl##+js(trusted-click-element, button.pg-accept-button)
+! cmp-sp.vrt.be##+js(trusted-click-element, button.message-button[title="Alles accepteren"])
+cmp.dpgmedia.nl,cmp.dpgmedia.be,cmp.ad.nl,cmp.autoweek.nl,cmp.bd.nl,cmp.bndestem.nl,cmp.destentor.nl,cmp.ed.nl,cmp.gelderlander.nl,cmp.hln.be,cmp.nu.nl,cmp.trouw.nl,cmp.tubantia.nl,cmp.pzc.nl##+js(trusted-click-element, button.pg-configure-button)
+cmp-sp.vrt.be##+js(trusted-click-element, button.message-button[title="Mijn instellingen beheren"])
+cmp.dpgmedia.nl,cmp.dpgmedia.be,cmp.ad.nl,cmp.autoweek.nl,cmp.bd.nl,cmp.bndestem.nl,cmp.destentor.nl,cmp.ed.nl,cmp.gelderlander.nl,cmp.hln.be,cmp.nu.nl,cmp.trouw.nl,cmp.tubantia.nl,cmp-sp.vrt.be,cmp.pzc.nl##+js(trusted-click-element, 'button[aria-checked="false"][aria-label^="Social"], button.sp_choice_type_SAVE_AND_EXIT')
+consent.google.com##+js(trusted-click-element, button[jsname="tWT92d"])
 consent.youtube.com##+js(trusted-click-element, [jsaction="JIbuQc:NdGjVc(dwvGkc)"] button)
 consent.youtube.com##+js(trusted-click-element, 'div[jsaction="JIbuQc:mZ4eAc"] button[aria-label], div[jsaction="JIbuQc:T1q6Me"] button[aria-label], form[jsaction="submit:ldDdv(preventDefault=true)"] button', , 270)
+coolblue.be,coolblue.nl##div[data-component*=".js-cookie-settings"]:upward(.modal-box)
+coolblue.be##+js(trusted-click-element, .modal-box button[name="accept_cookie"][value="selection"])
+coolblue.nl##+js(trusted-click-element, .modal-box button[name="decline_cookie"])
+denhaagfm.nl,gld.nl,omropfryslan.nl,omroepwest.nl,omroepzeeland.nl,rijnmond.nl,rtvdrenthe.nl,rtvnoord.nl,rtvutrecht.nl##+js(trusted-set-cookie, consent-cookie-toggles, '[{"type":"social","value":3},{"type":"remaining","value":2}]')
+! dumpert.nl,telegraaf.nl##+js(trusted-click-element, .didomi-popup-open button#didomi-notice-agree-button)
+dumpert.nl,telegraaf.nl##+js(trusted-click-element, '.didomi-popup-open button#didomi-notice-learn-more-button, .didomi-popup-open button#didomi-radio-option-disagree-to-all, .didomi-popup-open .didomi-components-radio__option--unselected[aria-describedby="didomi-purpose-social_media"]:not(.didomi-components-radio__option--disagree), .didomi-popup-open .didomi-consent-popup-actions > button[aria-describedby="didomi-consent-popup-information-save"]')
+dumpert.nl,telegraaf.nl##body.didomi-popup-open:style(overflow: unset!important;)
+hardware.info###oreo
+hardware.info##+js(trusted-click-element, '#oreo:not(.oreo--hidden) button[data-action="configure"], #oreo:not(.oreo--hidden) .toggleSwitch.on[data-action="toggleAll"], #oreo:not(.oreo--hidden) button[data-action="saveConfigured"]')
+hema.nl##+js(trusted-set-cookie, cookies_rejected, 1)
+lidl.*##+js(trusted-set-cookie, CookieConsent, {necessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false}, 1year)
+mediamarkt.be,mediamarkt.nl###mms-consent-portal-container
+mediamarkt.be,mediamarkt.nl##[aria-label*=" cookies "]:upward(1)
+mediamarkt.be,mediamarkt.nl##article p:has-text(/interesse.*akkoord/):upward(li)
+mediamarkt.be,mediamarkt.nl##+js(trusted-click-element, button[data-test="pwa-consent-layer-save-settings"])
+nsinternational.com##.cookie-popup
+nsinternational.com##+js(trusted-click-element, .cookie-popup .cookie-overlay__modal__footer__decline)
+omgevingsloketinzage.omgeving.vlaanderen.be##+js(trusted-set-cookie, vl-cookie-consent-cookie-consent-date, $now$)
+omgevingsloketinzage.omgeving.vlaanderen.be##+js(set-cookie, vl-cookie-consent-cookie-consent, true)
+omgevingsloketinzage.omgeving.vlaanderen.be##+js(set-cookie, vl-cookie-consent-functional, true)
+praxis.nl##+js(trusted-click-element, button[data-gtm-id="consent_marketing"])
+racingnews365.com,racingnews365.nl##+js(trusted-click-element, '#cmpwrapper >>> .cmptxt_btn_settings, #cmpwrapper >>> [data-cmp-purpose="1"][aria-checked="false"], #cmpwrapper >>> .cmptxt_btn_save')
+racingnews365.com,racingnews365.nl###cmpwrapper
+racingnews365.com,racingnews365.nl##body.contentItem[style="overflow: hidden;"]:style(overflow: auto !important)
+reddit.com##reddit-cookie-banner
+reddit.com##+js(trusted-set-cookie, eu_cookie, '{%22opted%22:true%2C%22nonessential%22:false}')
+! rtlnieuws.nl##+js(trusted-click-element, div#onetrust-consent-sdk button#onetrust-accept-btn-handler)
+rtlnieuws.nl##+js(trusted-click-element, 'div#onetrust-consent-sdk button.cookie-setting-link, div#onetrust-consent-sdk li[data-optanongroupid="C0005"] > .category-menu-switch-handler, div#onetrust-consent-sdk input#ot-group-id-C0005[aria-checked="false"], div#onetrust-consent-sdk button.save-preference-btn-handler')
+tweakers.net###koekieBar
+tweakers.net##+js(trusted-click-element, '#koekieBar:not(.koekie_bar_inactive) .koekie_interaction_button[data-action="configure"], #koekieBar:not(.koekie_bar_inactive) .toggleSwitch.on[data-action="toggleAll"], #koekieBar:not(.koekie_bar_inactive) .koekie_interaction_button[data-action="saveConfigured"]')
 wetransfer.com##+js(trusted-set-cookie, wt_tandc, 20190527%3A1)
-cmp.dpgmedia.*,cmp.ad.nl,cmp.autoweek.nl,cmp.bd.nl,cmp.bndestem.nl,cmp.destentor.nl,cmp.ed.nl,cmp.gelderlander.nl,cmp.hln.be,cmp.nu.nl,cmp.tubantia.nl,cmp.pzc.nl##+js(trusted-click-element, .message-component > button.pg-accept-button)
-dumpert.nl##+js(trusted-click-element, button[id="didomi-notice-agree-button"])
-appletips.nl##+js(ceo, body.ll_cookie_wall input.btn-accept, cookiewall?url_redirect=)
-consent.google.com##+js(trusted-click-element, button[jsname="tWT92d"])
-www.nsinternational.com##+js(ce, .cookie-popup .cookie-overlay__modal__footer__accept-save)
-www.rtlnieuws.nl,www.rtlxl.nl##+js(ceo, #onetrust-consent-sdk #onetrust-accept-btn-handler)
-! tweakers.net##+js(ce, button.koekie_interaction_button[data-action="acceptAll"], 1000)
+youtube.com##+js(trusted-set-cookie, SOCS, CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AxGgJlbiADGgYIgJnPpwY, , , reload, 1)
+
+
+! Set cookies or click element for other preferences
+! buienradar.nl##+js(trusted-set-local-storage-item, buienradar.positionconsent, '{"consent":false,"timestamp":"2023-10-20T09:25:25.166Z"}')
+! google.com##+js(ce, #recaptcha-anchor)
+! newassets.hcaptcha.com##+js(ce, #checkbox, hcaptcha.html#frame=checkbox)
+challenges.cloudflare.com##+js(ceo, input[type="checkbox"], /challenge-platform/)
+mijn.ing.nl##+js(trusted-set-cookie, lang, nl-NL)
